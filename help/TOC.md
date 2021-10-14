@@ -1,9 +1,9 @@
 ---
 user-guide-title: ビデオとTutorials
 user-guide-description: Adobe CommerceとMagento Open Sourceのビデオとチュートリアルのコレクションです。
-source-git-commit: 84481eda6064560e7aeedef3899f07a8d3a75fd4
+source-git-commit: fe3f7c31f35435eb8e131e84b3028cb9faa1e9c9
 workflow-type: tm+mt
-source-wordcount: '186'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Adobe CommerceのビデオとTutorials {#tutorials}
 
-+ [[!DNL Commerce] ビデオとTutorials](overview.md) {#overview}
++ [[!DNL Commerce] ビデオとTutorials](overview.md)
 
 + はじめに {#getting-started}
    + [!DNL Commerce] クラウドインフラストラクチャ  {#cloud}
@@ -74,7 +74,7 @@ ht-degree: 0%
    + [ページの作成](developer/create-new-page.md)
 
 + PWA Studio{#pwa-studio}
-   + PWA Studio{#introduction} の概要
+   + PWA Studioの概要 {#introduction}
       + [1 — 概要](./pwa/introduction/1-overview.md)
       + [2 -PWA Studioツール](./pwa/introduction/2-pwa-studio-tools.md)
       + [3 — 起動](pwa/introduction/3-launch.md)
