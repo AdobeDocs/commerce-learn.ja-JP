@@ -1,7 +1,7 @@
 ---
 user-guide-title: ビデオとTutorials
 user-guide-description: Adobe CommerceとMagento Open Sourceのビデオとチュートリアルのコレクションです。
-source-git-commit: fe3f7c31f35435eb8e131e84b3028cb9faa1e9c9
+source-git-commit: fb684287e45698251e501cfc4efdaa7a187417b5
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -14,28 +14,28 @@ ht-degree: 0%
 + [[!DNL Commerce] ビデオとTutorials](overview.md)
 
 + はじめに {#getting-started}
-   + [!DNL Commerce] クラウドインフラストラクチャ  {#cloud}
+   + [!DNL Commerce] クラウドインフラストラクチャ {#cloud}
       + [1 — 概要](./cloud/1-overview.md)
-      + [2 — ホストアカウント](./cloud/2-accounts.md)
+      + [2 — ホストされているアカウント](./cloud/2-accounts.md)
       + [3 - Cloud プロジェクト](./cloud/3-projects.md)
       + [4 — 導入](./cloud/4-deployment.md)
       + [5 — 開発](./cloud/5-dev-config.md)
       + [6 — サービスと DNS](./cloud/6-launch.md)
-   + [!DNL Commerce] 開発者向け  {#development}
+   + [!DNL Commerce] 開発者向け {#development}
       + [1.1 — 概要](./developer/backend-1-1-overview.md)
       + [1.2 — 開発ワークフロー](./developer/backend-1-2-workflow.md)
       + [2 — インストール](./developer/backend-2-install.md)
       + [3 — インストール後](./developer/backend-3-post-install.md)
       + [4 — コードベース](./developer/backend-4-code-base.md)
       + [5.1 — 開発の基本](./developer/backend-5-1-dev-basics.md)
-      + [5.2 — 宣言型スキーマ](./developer/backend-5-2-declarative-schema.md)
+      + [5.2 — 宣言スキーマ](./developer/backend-5-2-declarative-schema.md)
       + [5.3 — ルーティング](./developer/backend-5-3-routing.md)
-      + [5.4 - [!DNL Admin]  ページの作成](./developer/backend-5-4-admin-page.md)
+      + [5.4 - [!DNL Admin] ページ](./developer/backend-5-4-admin-page.md)
       + [6 — 演習](./developer/backend-6-practice.md)
-   + [!DNL Commerce] ビジネスユーザー向け  {#merchants}
-      + [1.1 - [!DNL Admin]  メニュー](./merchant/introduction/1-1-menus.md)
-      + [1.2 — データ・グリッド](./merchant/introduction/1-2-data-grids.md)
-      + [1.3 — 範囲、サイト、店舗](./merchant/introduction/1-3-apps-scopes-sites-stores.md)
+   + [!DNL Commerce] ビジネスユーザー向け {#merchants}
+      + [1.1 - [!DNL Admin] メニュー](./merchant/introduction/1-1-menus.md)
+      + [1.2 — データグリッド](./merchant/introduction/1-2-data-grids.md)
+      + [1.3 — 範囲、サイト、ストア](./merchant/introduction/1-3-apps-scopes-sites-stores.md)
       + [1.4 — ビューとキャッシュの保存](./merchant/introduction/1-4-store-views-cache.md)
       + [1.5 — 管理者ユーザーアカウントとロール](./merchant/introduction/1-5-users-roles.md)
       + [1.6 — 役割の範囲](./merchant/introduction/1-6-role-scopes.md)
@@ -48,22 +48,35 @@ ht-degree: 0%
       + [3.4 — 製品属性セット](./merchant/introduction/3-4-product-attribute-sets.md)
       + [3.5 — シンプルな製品の作成](./merchant/introduction/3-5-create-simple-product.md)
       + [3.6 — 設定可能な属性](./merchant/introduction/3-6-configurable-attributes.md)
-      + [3.7 — 製品のインポート/エクスポート](./merchant/introduction/3-7-import-export-products.md)
+      + [3.7 — 製品の読み込み/書き出し](./merchant/introduction/3-7-import-export-products.md)
       + [3.8 — ギフトカード](./merchant/introduction/3-8-gift-cards.md)
-      + [4.1 — レイヤー型ナビゲーション](./merchant/introduction/4-1-layered-navigation.md)
+      + [4.1 — レイヤーナビゲーション](./merchant/introduction/4-1-layered-navigation.md)
       + [4.2 — 製品カテゴリの整理](./merchant/introduction/4-2-arrange-product-categories.md)
-      + [5.1 — ストアフロントの操作](./merchant/introduction/5-1-storefront-experience.md)
+      + [5.1 — ストアフロントエクスペリエンス](./merchant/introduction/5-1-storefront-experience.md)
       + [5.2 — 顧客管理](./merchant/introduction/5-2-customer-management.md)
-      + [5.3 — 電子メールによる通信](./merchant/introduction/5-3-store-communications.md)
+      + [5.3 — 電子メール通信](./merchant/introduction/5-3-store-communications.md)
+   + [!DNL Business Intelligence] {#business-intelligence}
+      + [1 — 概要](./merchant/business-intelligence/1-overview.md)
+      + [2 — データウェアハウス](./merchant/business-intelligence/2-data-warehousing.md)
+      + [3 — レポートの作成](./merchant/business-intelligence/3-build-reports.md)
+      + [4 — 指標](./merchant/business-intelligence/4-metrics.md)
+      + [5 — 標準レポート](./merchant/business-intelligence/5-standard-reports.md)
+      + [6 — エグゼクティブサマリ](./merchant/business-intelligence/6-executive-summary-dashboard.md)
+      + [7 — 注文ダッシュボード](./merchant/business-intelligence/7-orders-dashboard.md)
+      + [8 — 顧客中心のダッシュボード](./merchant/business-intelligence/8-customer-focused-dashboards.md)
+      + [9 — カテゴリ分析](./merchant/business-intelligence/9-category-analysis.md)
+      + [10 — 投資利益率の追跡](./merchant/business-intelligence/10-roi-tracking.md)
+      + [11 — 結果の共有とデータのエクスポート](./merchant/business-intelligence/11-share-results-export-data.md)
+      + [12 — お客様の成功事例](./merchant/business-intelligence/12-customer-success.md)
 
-+ バックエンド開発 {#backend-development}
++ バックエンドの開発 {#backend-development}
    + [データベースに新しいテーブルを追加する](./developer/add-new-db-table.md)
    + [モジュールの作成](developer/create-module.md)
-   + [新しい製品属性の追加](./developer/add-product-attribute.md)
+   + [新しい製品属性を追加](./developer/add-product-attribute.md)
    + [依存関係の挿入の例](./developer/dependency-injection.md)
 
 + フロントエンド開発 {#frontend-development}
-   + ページビルダー {#page-builder}
+   + Page Builder {#page-builder}
       + [1 — はじめに](./developer/page-builder/1-intro-case-studies.md)
       + [2 — 設定とコンテンツ](./developer/page-builder/2-config-create-content.md)
       + [3 — テーマ](./developer/page-builder/3-themes.md)
@@ -73,7 +86,7 @@ ht-degree: 0%
    + [JavaScript モジュールの追加](developer/add-javascript-module.md)
    + [ページの作成](developer/create-new-page.md)
 
-+ PWA Studio{#pwa-studio}
++ PWA Studio {#pwa-studio}
    + PWA Studioの概要 {#introduction}
       + [1 — 概要](./pwa/introduction/1-overview.md)
       + [2 -PWA Studioツール](./pwa/introduction/2-pwa-studio-tools.md)
@@ -82,4 +95,4 @@ ht-degree: 0%
       + [5 — はじめに](./pwa/introduction/5-getting-started.md)
       + [6 — ペレグリン](./pwa/introduction/6-peregrine.md)
    + [PWADocker の開発](./pwa/pwa-docker-development.md)
-   + [開発用の Venia の設定](pwa/set-up-venia-for-dev.md)
+   + [開発用に Venia を設定する](pwa/set-up-venia-for-dev.md)
