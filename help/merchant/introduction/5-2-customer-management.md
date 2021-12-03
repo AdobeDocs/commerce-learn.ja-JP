@@ -1,13 +1,13 @@
 ---
 title: '[!DNL Commerce] ビジネスユーザー向け — 顧客管理'
-description: カスタマーサービスに推奨される権限、 [!DNL Admin] での顧客の作成、顧客情報の管理、顧客グループの作成について説明します。
+description: カスタマーサービスに対して推奨される権限と、 [!DNL Admin]、顧客情報の管理、顧客グループの作成を行います。
 topic: Commerce
 kt: 5779
 doc-type: video
 role: Admin, Leader, User
 activity: use
 exl-id: 7a0743ff-03dd-49cc-9d41-6674b71a4480
-source-git-commit: 1eb2cd22f9bded77032ad0ed43c3f2ca84879a69
+source-git-commit: 3e85c15d21a6c18309ac2376e4b96a6306ccadc0
 workflow-type: tm+mt
 source-wordcount: '93'
 ht-degree: 0%
@@ -19,11 +19,11 @@ ht-degree: 0%
 このビデオでは、
 
 - CSR に推奨される権限（カスタマーサービス担当者）
-- [!DNL Admin] での顧客の作成
+- での顧客の作成 [!DNL Admin]
 - 顧客情報の管理
 - 顧客グループの作成
 
-## このビデオは誰のためのものですか。
+## このビデオは誰のためのものですか？
 
 - ビジネスユーザー
 
@@ -33,6 +33,8 @@ ht-degree: 0%
 
 ## その他のリソース
 
-[ユーザーの役割 — [!DNL Commerce] ユーザー](https://docs.magento.com/user-guide/system/permissions-user-roles.html)
-[ガイド — 個人顧客アカウントの作成 —  [!DNL Commerce] ユーザー](https://docs.magento.com/user-guide/customers/account-create.html)
-[ガイド顧客グループ —  [!DNL Commerce] ユーザーガイド](https://docs.magento.com/user-guide/customers/customer-groups.html)
+[ユーザーの役割 — [!DNL Commerce] ユーザーガイド](https://docs.magento.com/user-guide/system/permissions-user-roles.html)
+
+[個々の顧客アカウントの作成 — [!DNL Commerce] ユーザーガイド](https://docs.magento.com/user-guide/customers/account-create.html)
+
+[顧客グループ — [!DNL Commerce] ユーザーガイド](https://docs.magento.com/user-guide/customers/customer-groups.html)

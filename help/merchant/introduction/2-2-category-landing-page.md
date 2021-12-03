@@ -7,7 +7,7 @@ doc-type: video
 role: Admin, Leader, User
 activity: use
 exl-id: c38aa97e-4688-42fa-b39f-1702ef1469be
-source-git-commit: 1eb2cd22f9bded77032ad0ed43c3f2ca84879a69
+source-git-commit: 6bde407baafa262a5f82d7780e993c90463e62c5
 workflow-type: tm+mt
 source-wordcount: '107'
 ht-degree: 0%
@@ -20,9 +20,9 @@ ht-degree: 0%
 
 - 製品カテゴリのランディングページ
 - ページビューオプション
-- ストアフロントの設定
+- ストアフロント設定
 
-## このビデオは誰のためのものですか。
+## このビデオは誰のためのものですか？
 
 - ビジネスユーザー
 
@@ -30,12 +30,14 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->このビデオの内容は 2.3.1 リリースを反映しています。 今後のリリースでの更新については、 [ 2.3.x](https://devdocs.magento.com/guides/v2.3/release-notes/bk-release-notes.html) および [ 2.4.x](https://devdocs.magento.com/guides/v2.4/release-notes/bk-release-notes.html) のリリースノートを参照してください。
+>このビデオの内容は 2.3.1 リリースを反映しています。 今後のリリースでの更新について詳しくは、 [ 2.3.x](https://devdocs.magento.com/guides/v2.3/release-notes/bk-release-notes.html) および [2.4.x](https://devdocs.magento.com/guides/v2.4/release-notes/bk-release-notes.html) リリースノート。
 
 >[!VIDEO](https://video.tv.adobe.com/v/36388/?quality=12&learn=on)
 
 ## その他のリソース
 
-[カテゴリコンテンツ —  [!DNL Commerce] ユー](https://docs.magento.com/user-guide/catalog/categories-content-settings.html)
-[ザーガイド表示設定 —  [!DNL Commerce] ユーザー](https://docs.magento.com/user-guide/catalog/categories-display-settings.html)
-[ガイドデザイン設定 —  [!DNL Commerce] ユーザーガイド](https://docs.magento.com/user-guide/catalog/categories-custom-design.html)
+[カテゴリコンテンツ — [!DNL Commerce] ユーザーガイド](https://docs.magento.com/user-guide/catalog/categories-content-settings.html)
+
+[表示設定 — [!DNL Commerce] ユーザーガイド](https://docs.magento.com/user-guide/catalog/categories-display-settings.html)
+
+[デザイン設定 — [!DNL Commerce] ユーザーガイド](https://docs.magento.com/user-guide/catalog/categories-custom-design.html)

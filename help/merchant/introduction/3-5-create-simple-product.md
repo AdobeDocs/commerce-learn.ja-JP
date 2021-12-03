@@ -7,9 +7,9 @@ doc-type: video
 role: Admin, Leader, User
 activity: use
 exl-id: 104bcabe-87c0-44ea-9bdb-6189b01ba6c7
-source-git-commit: 1eb2cd22f9bded77032ad0ed43c3f2ca84879a69
+source-git-commit: 56770cb046e8ebef91475cee027baf880075c57e
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '95'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 - 製品属性セットを使用した単純な製品の作成
 
-## このビデオは誰のためのものですか。
+## このビデオは誰のためのものですか？
 
 - ビジネスユーザー
 
@@ -28,11 +28,12 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->このビデオの内容は 2.3.1 リリースを反映しています。 今後のリリースでの更新については、 [ 2.3.x](https://devdocs.magento.com/guides/v2.3/release-notes/bk-release-notes.html) および [ 2.4.x](https://devdocs.magento.com/guides/v2.4/release-notes/bk-release-notes.html) のリリースノートを参照してください。
+>このビデオの内容は 2.3.1 リリースを反映しています。 今後のリリースでの更新について詳しくは、 [ 2.3.x](https://devdocs.magento.com/guides/v2.3/release-notes/bk-release-notes.html) および [2.4.x](https://devdocs.magento.com/guides/v2.4/release-notes/bk-release-notes.html) リリースノート。
 
 >[!VIDEO](https://video.tv.adobe.com/v/35956?quality=12&learn=on)
 
 ## その他のリソース
 
-[シンプルな製品 —  [!DNL Commerce] ユーザー](https://docs.magento.com/user-guide/catalog/product-create-simple.html)
-[guideAttribute セット —  [!DNL Commerce] ユーザーガイド](https://docs.magento.com/user-guide/stores/attribute-sets.html)
+[シンプルな製品 — [!DNL Commerce] ユーザーガイド](https://docs.magento.com/user-guide/catalog/product-create-simple.html)
+
+[属性セット — [!DNL Commerce] ユーザーガイド](https://docs.magento.com/user-guide/stores/attribute-sets.html)
