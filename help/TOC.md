@@ -1,9 +1,9 @@
 ---
 user-guide-title: ビデオとTutorials
 user-guide-description: Adobe CommerceとMagento Open Sourceのビデオとチュートリアルのコレクションです。
-source-git-commit: fb684287e45698251e501cfc4efdaa7a187417b5
+source-git-commit: 493b06415253fa1e79e18001c8c9f35efcec630d
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '243'
 ht-degree: 0%
 
 ---
@@ -68,6 +68,15 @@ ht-degree: 0%
       + [10 — 投資利益率の追跡](./merchant/business-intelligence/10-roi-tracking.md)
       + [11 — 結果の共有とデータのエクスポート](./merchant/business-intelligence/11-share-results-export-data.md)
       + [12 — お客様の成功事例](./merchant/business-intelligence/12-customer-success.md)
+
++ 管理での作業 {#admin}
+   + [ユーザー、役割、権限](./merchant/users-roles-permissions.md)
+   + [二段階認証](./merchant/two-factor-authentication.md)
+   + [Web サイト、ストア、およびストア表示の追加](./merchant/add-websites-stores-views.md)
+   + [ストア URL の変更](./merchant/change-store-url.md)
+   + [サイトマップの設定を保存](./merchant/site-map-setup.md)
+   + [プロモーション価格ルール](./merchant/promotions-price-rules.md)
+   + [Page Builder の概要](./merchant/page-builder-overview.md)
 
 + バックエンドの開発 {#backend-development}
    + [データベースに新しいテーブルを追加する](./developer/add-new-db-table.md)
