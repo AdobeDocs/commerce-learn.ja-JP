@@ -1,14 +1,16 @@
 ---
 title: Adobe Commerce 2.4 アップグレードワークショップ
-description: DNL Commerce] のアップグレード手順と 2.4.4 以降のベストプラクティスについては、録画されたこのウェビナーをご覧ください。
+description: この録画済みウェビナーでは、Adobe Commerceのアップグレード手順と 2.4.4 以降のベストプラクティスについて学習します。
+landing-page-description: Adobe Commerce 2.4 のアップグレード手順とベストプラクティスについては、録画済みのウェビナーをご覧ください。
 kt: 9620
 doc-type: technical video
 role: Admin, Leader, Developer
 audience: all
 activity: use
-source-git-commit: 4b95e23e63895f52a5437eb7ce58146e91f23ebf
+exl-id: fba4a08b-5633-433b-bf87-fa85457e4578
+source-git-commit: 7b29026613fc14ba1f2db1bbd21d3ebff51d4377
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '130'
 ht-degree: 0%
 
 ---
