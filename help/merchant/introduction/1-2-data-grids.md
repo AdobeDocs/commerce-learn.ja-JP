@@ -1,26 +1,26 @@
 ---
-title: '[!DNL Commerce] ビジネス・ユーザー向け — データ・グリッド'
-description: ' [!DNL Commerce Admin] でデータグリッドを使用する方法を説明します。'
+title: '"[!DNL Commerce] ビジネスユーザー向け — データグリッド»'
+description: でデータグリッドを使用する方法について説明します。 [!DNL Commerce Admin].
 topic: Commerce
 kt: 5759
 doc-type: video
 role: Admin, Leader, User
 activity: use
 exl-id: 9834d448-2907-4c7a-8eed-e5c36b96c9c9
-source-git-commit: 1eb2cd22f9bded77032ad0ed43c3f2ca84879a69
+source-git-commit: e540bc1e1c8ae5c34c16503a381f6bd5c674f824
 workflow-type: tm+mt
-source-wordcount: '82'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
-# [!DNL Commerce] ビジネス・ユーザー向け — データ・グリッド
+# [!DNL Commerce] ビジネスユーザー向け — データグリッド
 
 このビデオでは、
 
-- [!DNL Commerce Admin] でのデータグリッドの操作
+- でのデータグリッドの操作 [!DNL Commerce Admin]
 
-## このビデオは誰のためのものですか。
+## このビデオは誰のためのものですか？
 
 - ビジネスユーザー
 
@@ -28,10 +28,10 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->このビデオの内容は 2.3.1 リリースを反映しています。 今後のリリースでの更新については、 [ 2.3.x](https://devdocs.magento.com/guides/v2.3/release-notes/bk-release-notes.html) および [ 2.4.x](https://devdocs.magento.com/guides/v2.4/release-notes/bk-release-notes.html) のリリースノートを参照してください。
+>このビデオの内容は 2.3.1 リリースを反映しています。 今後のリリースでの更新について詳しくは、 [ 2.3.x](https://devdocs.magento.com/guides/v2.3/release-notes/bk-release-notes.html) および [2.4.x](https://devdocs.magento.com/guides/v2.4/release-notes/bk-release-notes.html) リリースノート。
 
 >[!VIDEO](https://video.tv.adobe.com/v/35960?quality=12&learn=on)
 
 ## その他のリソース
 
-[グリッドコントロール —  [!DNL Commerce] ユーザーガイド](https://docs.magento.com/user-guide/stores/admin-grid-controls.html)
+[グリッドコントロール — [!DNL Commerce] ユーザーガイド](https://docs.magento.com/user-guide/stores/admin-grid-controls.html)

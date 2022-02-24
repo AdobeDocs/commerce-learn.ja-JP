@@ -1,26 +1,26 @@
 ---
-title: '[!DNL Commerce] ビジネス・ユーザー向け — 階層型ナビゲーション'
-description: ' [!DNL Commerce]  ストアで階層型ナビゲーションを有効にして、お客様が製品を簡単かつ迅速に検索できるようにします。'
+title: '"[!DNL Commerce] ビジネスユーザー向け — 階層型ナビゲーション»'
+description: レイヤーナビゲーションを [!DNL Commerce] 顧客が簡単かつ迅速に製品を見つけられるように保存します。
 topic: Commerce
 kt: 5775
 doc-type: video
 role: Admin, Leader, User
 activity: use
 exl-id: 683d8f73-acd6-48e8-b4c3-b478db6e88fa
-source-git-commit: 1eb2cd22f9bded77032ad0ed43c3f2ca84879a69
+source-git-commit: e540bc1e1c8ae5c34c16503a381f6bd5c674f824
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '85'
 ht-degree: 0%
 
 ---
 
-# [!DNL Commerce] ビジネス・ユーザー向け — 階層型ナビゲーション
+# [!DNL Commerce] ビジネスユーザー向け — 階層型ナビゲーション
 
 このビデオでは、
 
-- レイヤーナビゲーションの有効化
+- レイヤーナビゲーションを有効にする
 
-## このビデオは誰のためのものですか。
+## このビデオは誰のためのものですか？
 
 - ビジネスユーザー
 
@@ -28,10 +28,10 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->このビデオの内容は 2.3.1 リリースを反映しています。 今後のリリースでの更新については、 [ 2.3.x](https://devdocs.magento.com/guides/v2.3/release-notes/bk-release-notes.html) および [ 2.4.x](https://devdocs.magento.com/guides/v2.4/release-notes/bk-release-notes.html) のリリースノートを参照してください。
+>このビデオの内容は 2.3.1 リリースを反映しています。 今後のリリースでの更新について詳しくは、 [ 2.3.x](https://devdocs.magento.com/guides/v2.3/release-notes/bk-release-notes.html) および [2.4.x](https://devdocs.magento.com/guides/v2.4/release-notes/bk-release-notes.html) リリースノート。
 
 >[!VIDEO](https://video.tv.adobe.com/v/36186?quality=12&learn=on)
 
 ## その他のリソース
 
-[階層型ナビゲーション —  [!DNL Commerce] ユーザーガイド](https://docs.magento.com/user-guide/catalog/navigation-layered.html)
+[レイヤーナビゲーション — [!DNL Commerce] ユーザーガイド](https://docs.magento.com/user-guide/catalog/navigation-layered.html)

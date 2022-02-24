@@ -1,29 +1,29 @@
 ---
-title: '[!DNL Commerce] for business users - [!DNL Admin] メニュー'
-description: ' [!DNL Commerce] v2.3 [!DNL Admin] の機能メニューの概要。'
-landing-page-description: Adobe Commerceの基本と管理者の仕事について学ぶには、このビデオシリーズをご覧ください。
+title: '"[!DNL Commerce] ビジネスユーザー向け： [!DNL Admin] メニュー"'
+description: の機能メニューの概要 [!DNL Commerce] v2.3 [!DNL Admin].
+landing-page-description: このビデオシリーズを見て、Adobe Commerceの基本と管理の操作について学びましょう。
 topic: Commerce
 kt: 5758
 doc-type: video
 role: Admin, Leader, User
 activity: use
 exl-id: 96e36923-d24b-4259-9b91-cd4ea73ead6f
-source-git-commit: 1eb2cd22f9bded77032ad0ed43c3f2ca84879a69
+source-git-commit: e540bc1e1c8ae5c34c16503a381f6bd5c674f824
 workflow-type: tm+mt
-source-wordcount: '113'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
-# [!DNL Commerce] ビジネスユーザー向け — メニ [!DNL Admin] ュー
+# [!DNL Commerce] ビジネスユーザー向け： [!DNL Admin] メニュー
 
-[!DNL Commerce Admin] はパスワードで保護されたバックオフィスで、製品やプロモーションの設定、顧客の注文の履行、ビジネスニーズに合わせた [!DNL Commerce] ストアの設定を行うことができます。
+この [!DNL Commerce Admin] はパスワードで保護されたバックオフィスで、製品とプロモーションの設定、顧客の注文の処理、 [!DNL Commerce] ビジネスニーズに合わせて保存します。
 
 このビデオでは、
 
-- 管理メニューの確認
+- 管理者メニューのレビュー
 
-## このビデオは誰のためのものですか。
+## このビデオは誰のためのものですか？
 
 - ビジネスユーザー
 
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->このビデオの内容は 2.3.1 リリースを反映しています。 今後のリリースでの更新については、 [ 2.3.x](https://devdocs.magento.com/guides/v2.3/release-notes/bk-release-notes.html) および [ 2.4.x](https://devdocs.magento.com/guides/v2.4/release-notes/bk-release-notes.html) のリリースノートを参照してください。
+>このビデオの内容は 2.3.1 リリースを反映しています。 今後のリリースでの更新について詳しくは、 [ 2.3.x](https://devdocs.magento.com/guides/v2.3/release-notes/bk-release-notes.html) および [2.4.x](https://devdocs.magento.com/guides/v2.4/release-notes/bk-release-notes.html) リリースノート。
 
 >[!VIDEO](https://video.tv.adobe.com/v/35942?quality=12&learn=on)
 

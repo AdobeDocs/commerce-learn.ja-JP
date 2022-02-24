@@ -1,5 +1,5 @@
 ---
-title: '[!DNL Commerce] 開発者向け — コードベース'
+title: '"[!DNL Commerce] 開発者向け — コードベース»'
 description: コードベースコンポーネント、モジュール性、柔軟性の設定、Composer の役割
 kt: 5694
 doc-type: video
@@ -9,9 +9,9 @@ level: Beginner
 thumbnail: 36196.jpeg
 activity: use
 exl-id: f0c7b27d-7071-4454-9fbc-622d7d248188
-source-git-commit: 1eb2cd22f9bded77032ad0ed43c3f2ca84879a69
+source-git-commit: e540bc1e1c8ae5c34c16503a381f6bd5c674f824
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -21,15 +21,15 @@ ht-degree: 0%
 このビデオでは、
 
 - コードベースコンポーネント
-- モジュール性
+- 剰余性
 - 柔軟性の設定
-- コンポーザーの役割
+- 作曲者の役割
 
 ## ビデオコンテンツ
 
 >[!NOTE]
 >
->このビデオの内容は 2.3.1 リリースを反映しています。 今後のリリースでの更新については、 [ 2.3.x](https://devdocs.magento.com/guides/v2.3/release-notes/bk-release-notes.html) および [ 2.4.x](https://devdocs.magento.com/guides/v2.4/release-notes/bk-release-notes.html) のリリースノートを参照してください。
+>このビデオの内容は 2.3.1 リリースを反映しています。 今後のリリースでの更新について詳しくは、 [ 2.3.x](https://devdocs.magento.com/guides/v2.3/release-notes/bk-release-notes.html) および [2.4.x](https://devdocs.magento.com/guides/v2.4/release-notes/bk-release-notes.html) リリースノート。
 
 >[!VIDEO](https://video.tv.adobe.com/v/36196?quality=12&learn=on)
 

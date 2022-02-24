@@ -1,5 +1,5 @@
 ---
-title: '[!DNL Commerce] ビジネスユーザー向け — サイト、店舗、表示'
+title: '"[!DNL Commerce] ビジネスユーザー向け：サイト、店舗、ビュー»'
 description: の基本を学ぶ [!DNL Commerce] アーキテクチャ（Web サイト、ストア、ストア表示、アプリケーション範囲の違いを含む）。 インデックス作成とキャッシュについて説明します。
 topic: Commerce
 kt: 5760
@@ -7,9 +7,9 @@ doc-type: video
 role: Admin, Leader, User
 activity: use
 exl-id: 858451cc-cbc3-471e-a2f1-148f879aba82
-source-git-commit: ada811496b7fa5a25f3a3deefaf1dcfa259ec4fe
+source-git-commit: e540bc1e1c8ae5c34c16503a381f6bd5c674f824
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---

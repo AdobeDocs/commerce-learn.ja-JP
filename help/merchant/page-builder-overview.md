@@ -1,14 +1,14 @@
 ---
-title: '[!DNL Page Builder] 概要'
+title: '"[!DNL Page Builder] 概要'
 description: ページの作成方法を学ぶ [!DNL Commerce] を使用して管理者にページを保存する [!DNL Page Builder].
 kt: 5563
 doc-type: feature video
 role: Admin, Leader, User
 audience: all
 activity: use
-source-git-commit: 1ee953388ea164cc1ab179b783f56aa8cac0feea
+source-git-commit: e540bc1e1c8ae5c34c16503a381f6bd5c674f824
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---

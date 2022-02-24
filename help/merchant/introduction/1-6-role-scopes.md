@@ -1,5 +1,5 @@
 ---
-title: '[!DNL Commerce] ビジネスユーザーの場合 — 役割の範囲と権限'
+title: '"[!DNL Commerce] ビジネスユーザーの場合：役割の範囲と権限»'
 description: 役割範囲 (Adobe Commerce専用 ) と関連する権限をサイトまたはストア別に定義する方法について説明します。
 topic: Commerce
 kt: 5763
@@ -7,7 +7,7 @@ doc-type: video
 role: Admin, Leader, User
 activity: use
 exl-id: c655ef88-1ddf-4ba3-9ad3-1883c0c93ee2
-source-git-commit: cc755b9b630a382fa3703416588dfed0724452c9
+source-git-commit: e540bc1e1c8ae5c34c16503a381f6bd5c674f824
 workflow-type: tm+mt
 source-wordcount: '103'
 ht-degree: 0%
