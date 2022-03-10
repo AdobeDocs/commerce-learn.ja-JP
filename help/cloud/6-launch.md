@@ -1,6 +1,6 @@
 ---
-title: Adobe Commerce on cloud infrastructure — サービスとサイトの起動
-description: 運用開始、DNS、TLS、Fastly の各サービスを確認します。 Adobe Commerceインスタンスの実稼動ドメインを指すように DNS を設定する方法を説明します。
+title: クラウドインフラストラクチャ上のAdobe Commerce — サービスとサイトの立ち上げ
+description: Go Live、DNS、TLS、Fastly の各サービスを確認します。 Adobe Commerceインスタンスの実稼動ドメインを指すように DNS を設定する方法を説明します。
 kt: 5661
 doc-type: video
 audience: all
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 ---
 
-# Adobe Commerce on cloud infrastructure — サービスとサイトの起動
+# クラウドインフラストラクチャ上のAdobe Commerce — サービスとサイトの立ち上げ
 
 このビデオでは、
 

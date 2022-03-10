@@ -1,6 +1,6 @@
 ---
-title: Adobe Commerce on cloud infrastructure — ホスティングとアカウント
-description: Adobe Commerceの既存のホスティングソリューションについて説明し​ます。 Starter アカウントと Pro アカウントの違いを理解しま​す。
+title: クラウドインフラストラクチャ上のAdobe Commerce — ホスティングとアカウント
+description: Adobe Commerceの既存のホスティングソリューションについて説明しま​す。 Starter アカウントと Pro アカウントの違いを理解しま​す。
 kt: 5657
 doc-type: video
 audience: all
@@ -13,15 +13,15 @@ ht-degree: 0%
 
 ---
 
-# Adobe Commerce on cloud infrastructure — ホスティングとアカウント
+# クラウドインフラストラクチャ上のAdobe Commerce — ホスティングとアカウント
 
 このビデオでは、
 
-- Adobe Commerceの既存のクラウドホスティングソリューシ&#x200B;ョンの詳細
-- Starter アカウントと Pro アカウントの違いの&#x200B;理解
+- Adobe Commerceの既存のクラウドホスティングソリューションにつ&#x200B;いて説明します
+- Starter アカウントと Pro アカウントの違いの理解&#x200B;
 
 >[!VIDEO](https://video.tv.adobe.com/v/35813?quality=12&learn=on)
 
 ## その他のリソース
 
-[のクラウドアーキテクチャ [!DNL Commerce]](https://devdocs.magento.com/cloud/architecture/cloud-architecture.html)
+[用のクラウドアーキテクチャ [!DNL Commerce]](https://devdocs.magento.com/cloud/architecture/cloud-architecture.html)

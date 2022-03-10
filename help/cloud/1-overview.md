@@ -1,6 +1,6 @@
 ---
-title: Adobe Commerce on cloud infrastructure — 概要
-description: クラウドスタック内の主要なテクノロジーを特定し​ます。 Adobe Commerceのコンテンツ配信戦略について説明します。 読み取り専用ファイル・システムの値を理解します。
+title: クラウドインフラストラクチャ上のAdobe Commerce — 概要
+description: クラウドスタック内の主要なテクノロジーを特定しま​す。 Adobe Commerceのコンテンツ配信戦略について説明します。 読み取り専用ファイルシステムの値を理解します。
 landing-page-description: Adobe Commerceのデプロイと管理に使用するクラウドインフラストラクチャの概要については、このビデオシリーズをご覧ください。
 kt: 5656
 doc-type: video
@@ -14,16 +14,16 @@ ht-degree: 0%
 
 ---
 
-# Adobe Commerce on cloud infrastructure — 概要
+# クラウドインフラストラクチャ上のAdobe Commerce — 概要
 
 このビデオでは、
 
-- クラウドスタック内の主要なテクノロジーの&#x200B;特定
+- クラウドスタック内の主要なテクノロジーを特定す&#x200B;る
 - クラウドインフラストラクチャ上のAdobe Commerceのコンテンツ配信戦略の説明
-- 読み取り専用ファイル・システムの値の理解
+- 読み取り専用ファイル・システムの値を理解する
 
 >[!VIDEO](https://video.tv.adobe.com/v/35298?quality=12&learn=on)
 
 ## その他のリソース
 
-[のクラウドガイド [!DNL Commerce]](https://devdocs.magento.com/cloud/bk-cloud.html)
+[用のクラウドガイド [!DNL Commerce]](https://devdocs.magento.com/cloud/bk-cloud.html)

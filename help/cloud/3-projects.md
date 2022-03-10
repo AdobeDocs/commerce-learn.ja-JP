@@ -8,7 +8,7 @@ activity: use
 exl-id: cbda1031-906a-4e25-81be-f3f15347d82c
 source-git-commit: 1eb2cd22f9bded77032ad0ed43c3f2ca84879a69
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '74'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 このビデオでは、
 
-- クラウドプロジェクトと関連するコードリポジトリのファイル構造について
+- クラウドプロジェクトのファイル構造と関連するコードリポジトリーについて
 - 4 つの主な設定ファイルの詳細
 
 >[!VIDEO](https://video.tv.adobe.com/v/35694?quality=12&learn=on)

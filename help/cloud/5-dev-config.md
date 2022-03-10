@@ -23,4 +23,4 @@ ht-degree: 0%
 
 ## その他のリソース
 
-[のクラウドガイド [!DNL Commerce]](https://devdocs.magento.com/cloud/bk-cloud.html)
+[用のクラウドガイド [!DNL Commerce]](https://devdocs.magento.com/cloud/bk-cloud.html)
