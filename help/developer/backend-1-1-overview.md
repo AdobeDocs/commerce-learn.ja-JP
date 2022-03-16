@@ -1,7 +1,7 @@
 ---
 title: '"[!DNL Commerce] 開発者向け — 概要»'
-description: マーチャント、Web ストア開発者、インテグレーターなど、複数のオーディエンスの観点から、プラットフォームの基本を学びます。
-landing-page-description: コマースのバックエンド開発プロジェクトを開始するには、このビデオシリーズをご覧ください。
+description: マーチャント、web ストア開発者、インテグレーターなど、複数のオーディエンスの観点から、プラットフォームの基本を説明します。
+landing-page-description: このビデオシリーズでは、Commerce のバックエンド開発プロジェクトを開始する方法を説明します。
 doc-type: video
 topic: Development
 audience: developer
@@ -12,7 +12,7 @@ exl-id: d9049f03-537a-4e0e-8f17-ad392ac63d84
 source-git-commit: e540bc1e1c8ae5c34c16503a381f6bd5c674f824
 workflow-type: tm+mt
 source-wordcount: '198'
-ht-degree: 0%
+ht-degree: 16%
 
 ---
 

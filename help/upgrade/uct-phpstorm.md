@@ -1,7 +1,7 @@
 ---
 title: PHP Storm でのアップグレード互換性ツールの使用
-description: PHP Storm プラグインで Upgrade Compatibility Tool を使用する方法については、このテクニカルビデオをご覧ください。
-landing-page-description: 互換性のない問題を簡単に識別して対処できる PHP Storm プラグインで Upgrade Compatibility Tool を使用する方法を説明します。
+description: PHP Storm プラグインでアップグレード互換性ツールを使用する方法については、このテクニカルビデオをご覧ください。
+landing-page-description: 非互換性の特定と対処を容易にする PHP Storm プラグインを使用したアップグレード互換性ツールの使用方法について学習します。
 kt: 9651
 doc-type: technical video
 role: Developer
@@ -11,7 +11,7 @@ exl-id: 9b56306c-578b-4c9f-9566-b8c9560d1b1c
 source-git-commit: b3c3ccb0404bf7e1d390d6041a8bfb3cd0ef689b
 workflow-type: tm+mt
 source-wordcount: '159'
-ht-degree: 0%
+ht-degree: 23%
 
 ---
 

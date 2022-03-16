@@ -1,7 +1,7 @@
 ---
 title: Adobe Commerce 2.4 アップグレードワークショップ
-description: この録画済みウェビナーでは、Adobe Commerceのアップグレード手順と 2.4.4 以降のベストプラクティスについて学習します。
-landing-page-description: Adobe Commerce 2.4 のアップグレード手順とベストプラクティスについては、録画済みのウェビナーをご覧ください。
+description: この録画済みのウェビナーでは、Adobe Commerce 2.4.4 以降へのアップグレード手順とベストプラクティスについて説明します。
+landing-page-description: この録画済みのウェビナーでは、Adobe Commerce 2.4 のアップグレード手順とベストプラクティスについて説明します。
 kt: 9620
 doc-type: technical video
 role: Admin, Leader, Developer
@@ -11,7 +11,7 @@ exl-id: fba4a08b-5633-433b-bf87-fa85457e4578
 source-git-commit: 7b29026613fc14ba1f2db1bbd21d3ebff51d4377
 workflow-type: tm+mt
 source-wordcount: '130'
-ht-degree: 0%
+ht-degree: 24%
 
 ---
 
