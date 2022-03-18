@@ -2,11 +2,11 @@
 cloud: Experience Cloud
 solution-title: Commerce
 mini-toc-levels: 2
-git-repo: https://git.corp.adobe.com/AdobeDocs/commerce-learn.ja-JP
+git-repo: https://github.com/AdobeDocs/commerce-learn.ja-JP
 index: y
 type: Tutorial
-solution: Adobe Commerce
-source-git-commit: 60502e6941ccb4a35880363ff0cdaac7c88c4472
+solution: Commerce,Adobe Commerce
+source-git-commit: 779d8472749ddef6325dd7d0e1acf123c23e418e
 workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 0%
@@ -16,11 +16,11 @@ ht-degree: 0%
 
 # 内部使用のメタデータ
 
-metadata.md ファイルにはリポジトリ内のユーザーガイド TOC.md ファイルに渡されるリポジトリレベルのメタデータが含まれています。 任意のユーザーガイドの metadata.md コンテンツを変更する場合は、任意の TOC.md ファイルで変更します。
+metadata.md ファイルには、リポジトリ内のユーザーガイド TOC.md ファイルに渡されるリポジトリレベルのメタデータが含まれています。 任意のユーザガイドの metadata.md コンテンツを変更する場合は、任意の TOC.md ファイルで変更します。
 
-| メタデータ | 動作 |
+| メタデータ | 説明 |
 |--- |--- |
-| solution-title | 記事のヘッダーでリンクとして使用 |
+| solution-title | 記事のヘッダーでリンクとして使用されます |
 | solution-hub-url | helpx ハブページを開きます |
 | solution-icon | ソリューションタイトルの横にソリューションアイコンが表示されます。 未実装 |
 | getting-started-url | helpx の概要ページへのリンク |
@@ -30,7 +30,7 @@ metadata.md ファイルにはリポジトリ内のユーザーガイド TOC.md 
 
 TOC.md ファイル内
 
-| メタデータ | 動作 |
+| メタデータ | 説明 |
 |--- |--- |
-| user-guide-title | 記事のヘッダーでリンクとして使用 |
+| user-guide-title | 記事のヘッダーでリンクとして使用されます |
 | user-guide-url | helpx ハブページを開きます |
