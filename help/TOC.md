@@ -1,9 +1,9 @@
 ---
 user-guide-title: ビデオとチュートリアル
 user-guide-description: Adobe Commerce と Magento Open Source のビデオとチュートリアルのコレクションです。
-source-git-commit: b3c3ccb0404bf7e1d390d6041a8bfb3cd0ef689b
+source-git-commit: fc59ff91dba5b4569b6a4c48f43bb289bbbb54b2
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: '260'
 ht-degree: 7%
 
 ---
@@ -78,6 +78,11 @@ ht-degree: 7%
    + [プロモーション価格ルール](./merchant/promotions-price-rules.md)
    + [Page Builder の概要](./merchant/page-builder-overview.md)
 
++ アップグレード {#upgrade}
+   + [Adobe Commerce 2.4 アップグレードワークショップ](./upgrade/2.4-upgrade-workshop.md)
+   + [アップグレード互換性ツールの概要](./upgrade/upgrade-compatibility-tool-overview.md)
+   + [PHP Storm でのアップグレード互換性ツールの使用](./upgrade/uct-phpstorm.md)
+
 + バックエンドの開発 {#backend-development}
    + [データベースに新しいテーブルを追加する](./developer/add-new-db-table.md)
    + [モジュールの作成](developer/create-module.md)
@@ -105,6 +110,3 @@ ht-degree: 7%
       + [6 — ペレグリン](./pwa/introduction/6-peregrine.md)
    + [PWADocker の開発](./pwa/pwa-docker-development.md)
    + [開発用に Venia を設定する](pwa/set-up-venia-for-dev.md)
-
-+ [Adobe Commerce 2.4 アップグレードワークショップ](./upgrade-workshop.md)
-+ [PHP Storm でのアップグレード互換性ツールの使用](./upgrade/uct-phpstorm.md)
