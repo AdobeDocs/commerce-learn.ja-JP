@@ -3,11 +3,11 @@ title: Business Intelligence — 注文ダッシュボード
 description: 注文および製品の販売を容易に管理するための注文ダッシュボードとレポートについて説明します。
 kt: 5735
 doc-type: feature video
-solution: Commerce,Adobe Commerce, Magento Business Intelligence
+solution: Commerce, Magento Business Intelligence
 audience: all
 activity: use
 exl-id: 44a41664-8ebd-4ec1-9ea0-433717e196e9
-source-git-commit: 779d8472749ddef6325dd7d0e1acf123c23e418e
+source-git-commit: 491e3621370b1e3e5ee510eda62868b89dc362b1
 workflow-type: tm+mt
 source-wordcount: '166'
 ht-degree: 0%

@@ -3,13 +3,13 @@ title: Business Intelligence — 投資利益率の追跡
 description: 投資回収率の追跡に役立つBusiness Intelligenceインサイトについて説明します。
 kt: 5737
 doc-type: feature video
-solution: Commerce,Adobe Commerce, Magento Business Intelligence
+solution: Commerce, Magento Business Intelligence
 audience: all
 activity: use
 exl-id: ceef67fa-f2a6-4acb-8eb5-a7571fc1d920
-source-git-commit: 779d8472749ddef6325dd7d0e1acf123c23e418e
+source-git-commit: 491e3621370b1e3e5ee510eda62868b89dc362b1
 workflow-type: tm+mt
-source-wordcount: '114'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
