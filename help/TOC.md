@@ -1,9 +1,9 @@
 ---
 user-guide-title: ビデオとチュートリアル
 user-guide-description: Adobe Commerce と Magento Open Source のビデオとチュートリアルのコレクションです。
-source-git-commit: fc59ff91dba5b4569b6a4c48f43bb289bbbb54b2
+source-git-commit: 3f8fce7e058a697baf2dfbb794c7dcbad00042dc
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '270'
 ht-degree: 7%
 
 ---
@@ -77,6 +77,11 @@ ht-degree: 7%
    + [サイトマップの設定を保存](./merchant/site-map-setup.md)
    + [プロモーション価格ルール](./merchant/promotions-price-rules.md)
    + [Page Builder の概要](./merchant/page-builder-overview.md)
+
++ Business Intelligence {#business-intelligence}
+   + [フィルターセット](./merchant/business-intelligence/filter-sets.md)
+   + [コホートReport Builder](./merchant/business-intelligence/cohort-report-builder.md)
+   + [SQLReport Builder](./merchant/business-intelligence/sql-report-builder.md)
 
 + アップグレード {#upgrade}
    + [Adobe Commerce 2.4 アップグレードワークショップ](./upgrade/2.4-upgrade-workshop.md)
