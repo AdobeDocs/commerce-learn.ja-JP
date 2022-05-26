@@ -1,10 +1,10 @@
 ---
 user-guide-title: ビデオとチュートリアル
 user-guide-description: Adobe Commerce と Magento Open Source のビデオとチュートリアルのコレクションです。
-source-git-commit: 3f8fce7e058a697baf2dfbb794c7dcbad00042dc
+source-git-commit: deefe69f89d08f1138a4d77e206ff41ea3918b9d
 workflow-type: tm+mt
-source-wordcount: '270'
-ht-degree: 7%
+source-wordcount: '297'
+ht-degree: 6%
 
 ---
 
@@ -82,6 +82,14 @@ ht-degree: 7%
    + [フィルターセット](./merchant/business-intelligence/filter-sets.md)
    + [コホートReport Builder](./merchant/business-intelligence/cohort-report-builder.md)
    + [SQLReport Builder](./merchant/business-intelligence/sql-report-builder.md)
+   + [将来の備え](./merchant/business-intelligence/prepare-for-future.md)
+   + ウェビナー {#webinars}
+      + [はじめにBusiness Intelligence](merchant/business-intelligence/webinars/getting-started.md)
+      + [データセットの管理](merchant/business-intelligence/webinars/manage-data-sets.md)
+      + [Data Warehouseの最適化](merchant/business-intelligence/webinars/optimize-data-warehouse.md)
+      + [休日対応](merchant/business-intelligence/webinars/holiday-readiness.md)
+      + [エキスパートに質問するセッション 1](merchant/business-intelligence/webinars/ask-expert-1.md)
+      + [エキスパートに質問するセッション 2](merchant/business-intelligence/webinars/ask-expert-2.md)
 
 + アップグレード {#upgrade}
    + [Adobe Commerce 2.4 アップグレードワークショップ](./upgrade/2.4-upgrade-workshop.md)
