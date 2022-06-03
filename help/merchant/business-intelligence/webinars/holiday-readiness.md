@@ -1,5 +1,5 @@
 ---
-title: Business Intelligence- Holiday Readiness
+title: MBI を使用した休日の準備
 description: ホリデーシーズンの間、e コマースデータを活用して成功に導く方法については、このウェビナーをご覧ください。
 landing-page-description: 休暇シーズンに e コマースデータを成功に導く方法については、録画済みのウェビナーをご覧ください。
 kt: 10409
@@ -7,16 +7,17 @@ doc-type: feature video
 solution: Commerce,Magento Business Intelligence
 audience: all
 activity: use
-source-git-commit: bf28c64dd61bbf53210ca9aa17ab20d1a2a1dac5
+exl-id: 7390d8ca-494e-4fe0-a4da-a03afd2ef8e2
+source-git-commit: 64df684fb23ad37912728f53a7da73d16d7781d8
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '196'
 ht-degree: 0%
 
 ---
 
-# Business Intelligence — エキスパートに質問、パート 2
+# MBI を使用した休日の準備
 
-ホリデーシーズンの間、e コマースデータを活用して成功を収めます。 このウェビナーでは、次のような主要なBusiness Intelligence機能を使用して対処する、季節ごとの一般的な分析の使用例と方法を紹介します。
+ホリデーシーズンの間、e コマースデータを活用して成功を収めます。 このウェビナーでは、次のような主要な MBI 機能を使用して対処する、一般的な季節分析の使用例と方法を紹介します。
 
 - 新しい在庫トラッキングレポートを作成し、電子メールの概要から毎日の更新を送信することで、在庫切れを回避します
 - 計算された列を活用して、重要な日付（ブラックフライデーなど）に関する前年比の実績に関するレポートを作成し、今年の販売戦略の調整の影響を判断します
@@ -24,7 +25,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->を初めてBusiness Intelligenceする場合、 [入門ビデオシリーズ](./../1-overview.md) は、データの集計、分析、ビジュアライゼーションを通じて、より優れたビジネスインサイトと結果を促進するための完全な概要を提供します。
+>MBI を初めて使用する場合、 [入門ビデオシリーズ](./../1-overview.md) は、データの集計、分析、ビジュアライゼーションを通じて、より優れたビジネスインサイトと結果を促進するための完全な概要を提供します。
 
 ## このビデオは誰のためのものですか？
 
@@ -37,5 +38,5 @@ ht-degree: 0%
 
 ## 役に立つリソース
 
-[Business Intelligenceユーザーガイド](https://docs.magento.com/mbi/)
-[Business Intelligenceサポート](https://support.magento.com/hc/en-us/articles/360016730811)s
+[MBI ユーザーガイド](https://docs.magento.com/mbi/)
+[MBI サポート](https://support.magento.com/hc/en-us/articles/360016730811)s

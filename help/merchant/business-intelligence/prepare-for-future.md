@@ -1,5 +1,5 @@
 ---
-title: Business Intelligence — 将来の準備
+title: MBI — 未来の準備
 description: デジタルコマースの未来を形作る前例のない変化に対する理解を明確にするために、この一連のビデオをご覧ください。
 landing-page-description: デジタルコマースの未来を形作る前例のない変化に対する理解を明確にするために、この一連のビデオをご覧ください。
 kt: 10411
@@ -7,24 +7,25 @@ doc-type: feature video
 solution: Commerce,Magento Business Intelligence
 audience: all
 activity: use
-source-git-commit: deefe69f89d08f1138a4d77e206ff41ea3918b9d
+exl-id: 2ff2e1c8-384a-453f-bb8b-f6c834ca334b
+source-git-commit: 4c8f9de0e88d5406c09568c594ccf954777fa370
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '197'
 ht-degree: 0%
 
 ---
 
-# Business Intelligence — 将来の準備
+# MBI — 未来の準備
 
 Covid-19 が世界中に広がる中、何百万人もの人々がデジタルコマースに頼り、最も重要なニーズを満たしています。 過去の消費者需要に対応するために、企業が時間をかけて働く中で、未来に焦点を当てることは、これほど重要ではありません。
 
-この 3 部構成のビデオシリーズでは、Business Intelligenceアナリストチームが、複数の商業業界にわたる集約的な統計をサポートし、困難な時代におけるビジネスの成長を支援する、データ主導型の基本的な e コマースの慣行を強調します。
+この 3 部構成のビデオシリーズでは、MBI アナリストチームは、複数の商業業界にわたる集計統計を通じて、困難な時代におけるビジネスの成長を支援する、データ主導型の基本的な e コマースの慣行を強調します。
 
 デジタルコマースの未来を形作る前例のない変化に対する理解と、今後何が起こるかに備える方法を明確にするために、この一連のビデオをご覧ください。
 
 >[!TIP]
 >
->を初めてBusiness Intelligenceする場合、 [入門ビデオシリーズ](1-overview.md) は、データの集計、分析、ビジュアライゼーションを通じて、より優れたビジネスインサイトと結果を促進するための完全な概要を提供します。
+>MBI を初めて使用する場合、 [入門ビデオシリーズ](1-overview.md) は、データの集計、分析、ビジュアライゼーションを通じて、より優れたビジネスインサイトと結果を促進するための完全な概要を提供します。
 
 ## このビデオは誰のためのものですか？
 

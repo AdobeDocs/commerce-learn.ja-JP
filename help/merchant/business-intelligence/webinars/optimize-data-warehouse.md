@@ -1,20 +1,21 @@
 ---
-title: Business Intelligence-Data Warehouseの最適化
+title: MBIData Warehouseの最適化
 description: Data Warehouse・マネージャの詳細については、このウェビナーをご覧ください。
-landing-page-description: 'この録画ウェビナーを見る '
+landing-page-description: この録画ウェビナーを見る
 kt: 10403
 doc-type: feature video
 solution: Commerce,Magento Business Intelligence
 audience: all
 activity: use
-source-git-commit: c86f3520823ee41b668ad6595a859c554572d69b
+exl-id: 022df5f9-0333-464d-a985-177071a8aa04
+source-git-commit: 64df684fb23ad37912728f53a7da73d16d7781d8
 workflow-type: tm+mt
-source-wordcount: '148'
+source-wordcount: '145'
 ht-degree: 0%
 
 ---
 
-# Business Intelligence-Data Warehouseの最適化
+# MBIData Warehouseの最適化
 
 Data Warehouse・マネージャを使用すると、テーブルと列の同期設定の管理、テーブルのスキーマへのドリルダウン、レポートで使用する計算列の作成が可能です。
 
@@ -32,7 +33,7 @@ Data Warehouse・マネージャを使用すると、テーブルと列の同期
 
 >[!TIP]
 >
->を初めてBusiness Intelligenceする場合、 [入門ビデオシリーズ](./../1-overview.md) は、データの集計、分析、ビジュアライゼーションを通じて、より優れたビジネスインサイトと結果を促進するための完全な概要を提供します。
+>MBI を初めて使用する場合、 [入門ビデオシリーズ](./../1-overview.md) は、データの集計、分析、ビジュアライゼーションを通じて、より優れたビジネスインサイトと結果を促進するための完全な概要を提供します。
 
 ## このビデオは誰のためのものですか？
 

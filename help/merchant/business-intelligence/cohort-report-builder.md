@@ -1,22 +1,23 @@
 ---
-title: Business Intelligence — コホートReport Builder
-description: Business IntelligenceコホートReport Builderを使用して、ビジネスに関連する最適化されたレポートと分析を作成する方法を説明します。
-landing-page-description: このビデオでは、Business IntelligenceコホートReport Builderを使用して、ビジネスに関連する最適化されたレポートと分析を作成する方法を説明します。
+title: MBI — コホートReport Builder
+description: MBI コホートReport Builderを使用して、ビジネスに関連する最適化されたレポートと分析を作成する方法を説明します。
+landing-page-description: このビデオでは、MBI コホートReport Builderを使用して、ビジネスに関連する最適化されたレポートと分析を作成する方法を説明します。
 kt: 10288
 doc-type: feature video
 solution: Commerce,Magento Business Intelligence
 audience: all
 activity: use
-source-git-commit: 3f8fce7e058a697baf2dfbb794c7dcbad00042dc
+exl-id: 1d5d6f96-3e0d-4c0d-a8fe-370be6ea1b38
+source-git-commit: 4c8f9de0e88d5406c09568c594ccf954777fa370
 workflow-type: tm+mt
-source-wordcount: '206'
+source-wordcount: '200'
 ht-degree: 0%
 
 ---
 
-# Business Intelligence — コホートReport Builder
+# MBI — コホートReport Builder
 
-ユーザーの様々なサブセットの時間の経過に伴う動作を調べたいと思ったことはありますか？ 例えば、プロモーション期間中に登録したユーザーの平均ライフタイム売上高は、そうでないユーザーよりも高いのではないかと疑問に思ったことはありますか？ 答えが _はい_&#x200B;を使用すれば、コホートReport Builderは最適なツールです。 Business Intelligenceは、この分析を実行し、ビジネスに適した分析を行うように最適化されています。
+ユーザーの様々なサブセットの時間の経過に伴う動作を調べたいと思ったことはありますか？ 例えば、プロモーション期間中に登録したユーザーの平均ライフタイム売上高は、そうでないユーザーよりも高いのではないかと疑問に思ったことはありますか？ 答えが _はい_&#x200B;を使用すれば、コホートReport Builderは最適なツールです。 MBI は、この分析を実行し、ビジネスに適した分析を行うように最適化されています。
 
 このビデオでは、
 
@@ -26,7 +27,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->を初めてBusiness Intelligenceする場合、 [入門ビデオシリーズ](1-overview.md) は、データの集計、分析、ビジュアライゼーションを通じて、より優れたビジネスインサイトと結果を促進するための完全な概要を提供します。
+>MBI を初めて使用する場合、 [入門ビデオシリーズ](1-overview.md) は、データの集計、分析、ビジュアライゼーションを通じて、より優れたビジネスインサイトと結果を促進するための完全な概要を提供します。
 
 ## このビデオは誰のためのものですか？
 

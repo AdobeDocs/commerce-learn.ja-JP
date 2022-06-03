@@ -1,5 +1,5 @@
 ---
-title: Business Intelligence — 顧客中心のダッシュボード
+title: MBI — 顧客中心のダッシュボード
 description: お客様中心のダッシュボードのデモと詳細な説明をご覧ください。
 kt: 5736
 doc-type: feature video
@@ -7,14 +7,14 @@ solution: Commerce, Magento Business Intelligence
 audience: all
 activity: use
 exl-id: 32ed7126-825c-475f-8e7d-69a754077589
-source-git-commit: 491e3621370b1e3e5ee510eda62868b89dc362b1
+source-git-commit: 4c8f9de0e88d5406c09568c594ccf954777fa370
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '108'
 ht-degree: 0%
 
 ---
 
-# Business Intelligence — 顧客中心のダッシュボード
+# MBI — 顧客中心のダッシュボード
 
 十分な情報に基づいたビジネス上の意思決定を可能にするために、顧客中心のダッシュボードは顧客に多くのインサイトを提供します。 例としては、新規顧客と登録顧客、顧客のライフタイム値、顧客グループ別の売上高、顧客別のクーポン使用などがあります。
 
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->このビデオの内容は 2.2 リリースを反映しています。 詳しくは、 [Business Intelligenceユーザーガイド](https://docs.magento.com/mbi/) を参照してください。
+>このビデオの内容は 2.2 リリースを反映しています。 詳しくは、 [MBI ユーザーガイド](https://docs.magento.com/mbi/) を参照してください。
 
 >[!VIDEO](https://video.tv.adobe.com/v/35990?quality=12&learn=on)
 

@@ -1,9 +1,9 @@
 ---
 user-guide-title: ビデオとチュートリアル
 user-guide-description: Adobe Commerce と Magento Open Source のビデオとチュートリアルのコレクションです。
-source-git-commit: deefe69f89d08f1138a4d77e206ff41ea3918b9d
+source-git-commit: 4c8f9de0e88d5406c09568c594ccf954777fa370
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '306'
 ht-degree: 6%
 
 ---
@@ -55,19 +55,6 @@ ht-degree: 6%
       + [5.1 — ストアフロントエクスペリエンス](./merchant/introduction/5-1-storefront-experience.md)
       + [5.2 — 顧客管理](./merchant/introduction/5-2-customer-management.md)
       + [5.3 — 電子メール通信](./merchant/introduction/5-3-store-communications.md)
-   + [!DNL Business Intelligence] {#business-intelligence}
-      + [1 — 概要](./merchant/business-intelligence/1-overview.md)
-      + [2 — データウェアハウス](./merchant/business-intelligence/2-data-warehousing.md)
-      + [3 — レポートの作成](./merchant/business-intelligence/3-build-reports.md)
-      + [4 — 指標](./merchant/business-intelligence/4-metrics.md)
-      + [5 — 標準レポート](./merchant/business-intelligence/5-standard-reports.md)
-      + [6 — エグゼクティブサマリ](./merchant/business-intelligence/6-executive-summary-dashboard.md)
-      + [7 — 注文ダッシュボード](./merchant/business-intelligence/7-orders-dashboard.md)
-      + [8 — 顧客中心のダッシュボード](./merchant/business-intelligence/8-customer-focused-dashboards.md)
-      + [9 — カテゴリ分析](./merchant/business-intelligence/9-category-analysis.md)
-      + [10 — 投資利益率の追跡](./merchant/business-intelligence/10-roi-tracking.md)
-      + [11 — 結果の共有とデータのエクスポート](./merchant/business-intelligence/11-share-results-export-data.md)
-      + [12 — お客様の成功事例](./merchant/business-intelligence/12-customer-success.md)
 
 + 管理での作業 {#admin}
    + [ユーザー、役割、権限](./merchant/users-roles-permissions.md)
@@ -78,18 +65,31 @@ ht-degree: 6%
    + [プロモーション価格ルール](./merchant/promotions-price-rules.md)
    + [Page Builder の概要](./merchant/page-builder-overview.md)
 
-+ Business Intelligence {#business-intelligence}
++ MBI {#mbi}
    + [フィルターセット](./merchant/business-intelligence/filter-sets.md)
    + [コホートReport Builder](./merchant/business-intelligence/cohort-report-builder.md)
    + [SQLReport Builder](./merchant/business-intelligence/sql-report-builder.md)
-   + [将来の備え](./merchant/business-intelligence/prepare-for-future.md)
-   + ウェビナー {#webinars}
-      + [はじめにBusiness Intelligence](merchant/business-intelligence/webinars/getting-started.md)
-      + [データセットの管理](merchant/business-intelligence/webinars/manage-data-sets.md)
-      + [Data Warehouseの最適化](merchant/business-intelligence/webinars/optimize-data-warehouse.md)
-      + [休日対応](merchant/business-intelligence/webinars/holiday-readiness.md)
-      + [エキスパートに質問するセッション 1](merchant/business-intelligence/webinars/ask-expert-1.md)
-      + [エキスパートに質問するセッション 2](merchant/business-intelligence/webinars/ask-expert-2.md)
+   + 録画済みウェビナー {#webinars}
+      + [MBI の概要](./merchant/business-intelligence/webinars/getting-started.md)
+      + [MBI でのデータセットの管理](./merchant/business-intelligence/webinars/manage-data-sets.md)
+      + [MBIData Warehouseの最適化](./merchant/business-intelligence/webinars/optimize-data-warehouse.md)
+      + [MBI ダッシュボードの詳細](./merchant/business-intelligence/webinars/dashboards-deep-dive.md)
+      + [MBI を使用した休日の準備](./merchant/business-intelligence/webinars/holiday-readiness.md)
+      + [将来の備え](./merchant/business-intelligence/prepare-for-future.md)
+      + [MBI — エキスパートに質問](./merchant/business-intelligence/webinars/ask-expert.md)
+   + MBI ビデオシリーズの概要 {#introduction}
+      + [概要](./merchant/business-intelligence/1-overview.md)
+      + [データウェアハウス](./merchant/business-intelligence/2-data-warehousing.md)
+      + [レポートの作成](./merchant/business-intelligence/3-build-reports.md)
+      + [指標](./merchant/business-intelligence/4-metrics.md)
+      + [標準レポート](./merchant/business-intelligence/5-standard-reports.md)
+      + [エグゼクティブサマリー](./merchant/business-intelligence/6-executive-summary-dashboard.md)
+      + [注文ダッシュボード](./merchant/business-intelligence/7-orders-dashboard.md)
+      + [顧客中心のダッシュボード](./merchant/business-intelligence/8-customer-focused-dashboards.md)
+      + [カテゴリ分析](./merchant/business-intelligence/9-category-analysis.md)
+      + [投資追跡利益率](./merchant/business-intelligence/10-roi-tracking.md)
+      + [結果の共有とデータのエクスポート](./merchant/business-intelligence/11-share-results-export-data.md)
+      + [顧客の成功事例](./merchant/business-intelligence/12-customer-success.md)
 
 + アップグレード {#upgrade}
    + [Adobe Commerce 2.4 アップグレードワークショップ](./upgrade/2.4-upgrade-workshop.md)

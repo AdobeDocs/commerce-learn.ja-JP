@@ -1,20 +1,20 @@
 ---
-title: Business Intelligence — データウェアハウス
-description: 管理者Data Warehouseが使用できるユーザーマネージャーについてBusiness Intelligenceします。
+title: MBI — データウェアハウス
+description: MBI の管理者Data Warehouseが使用できるユーザーマネージャーについて説明します。
 kt: 5729
 doc-type: feature video
 solution: Commerce, Magento Business Intelligence
 audience: all
 activity: use
 exl-id: 9c266205-3c04-400c-a94d-e3f9818e1b58
-source-git-commit: 491e3621370b1e3e5ee510eda62868b89dc362b1
+source-git-commit: 4c8f9de0e88d5406c09568c594ccf954777fa370
 workflow-type: tm+mt
-source-wordcount: '147'
+source-wordcount: '143'
 ht-degree: 0%
 
 ---
 
-# Business Intelligence — データウェアハウス
+# MBI — データウェアハウス
 
 データウェアハウスは、ビジネス分析を実行するためのデータを統合し、保存するように構成されたリレーショナルデータベースです。 データウェアハウスを使用すると、本番データベースを非正規化し、分析をより効率的に実行するために整理するために、データにアクセスできます。
 
@@ -29,7 +29,7 @@ Data Warehouseマネージャを使用すると、管理者レベルのアクセ
 
 >[!NOTE]
 >
->このビデオの内容は 2.2 リリースを反映しています。 詳しくは、 [Business Intelligenceユーザーガイド](https://docs.magento.com/mbi/) を参照してください。
+>このビデオの内容は 2.2 リリースを反映しています。 詳しくは、 [MBI ユーザーガイド](https://docs.magento.com/mbi/) を参照してください。
 
 >[!VIDEO](https://video.tv.adobe.com/v/35984?quality=12&learn=on)
 

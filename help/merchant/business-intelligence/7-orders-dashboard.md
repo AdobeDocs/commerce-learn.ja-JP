@@ -1,5 +1,5 @@
 ---
-title: Business Intelligence — 注文ダッシュボード
+title: MBI — 注文ダッシュボード
 description: 注文および製品の販売を容易に管理するための注文ダッシュボードとレポートについて説明します。
 kt: 5735
 doc-type: feature video
@@ -7,14 +7,14 @@ solution: Commerce, Magento Business Intelligence
 audience: all
 activity: use
 exl-id: 44a41664-8ebd-4ec1-9ea0-433717e196e9
-source-git-commit: 491e3621370b1e3e5ee510eda62868b89dc362b1
+source-git-commit: 4c8f9de0e88d5406c09568c594ccf954777fa370
 workflow-type: tm+mt
-source-wordcount: '166'
+source-wordcount: '163'
 ht-degree: 0%
 
 ---
 
-# Business Intelligence — 注文ダッシュボード
+# MBI — 注文ダッシュボード
 
 「受注」ダッシュボードで、平均受注値、ステータス別の受注、クーポン使用、および請求および出荷リージョン別に収集された出荷と税金の分類を表示できます。 ステータス別の注文レポートを開いて、処理ステータスまたは保留中ステータスでスパイクが表示された場合、その期間中にそのステータスのすべての注文に関するレポートを作成できます。 次に、電子メールおよび注文 ID で分類し、電子メールの概要を生成して、フォローアップ用に Warehouse Manager に自動的に送信できます。
 
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->このビデオの内容は 2.2 リリースを反映しています。 詳しくは、 [Business Intelligenceユーザーガイド](https://docs.magento.com/mbi/) を参照してください。
+>このビデオの内容は 2.2 リリースを反映しています。 詳しくは、 [MBI ユーザーガイド](https://docs.magento.com/mbi/) を参照してください。
 
 >[!VIDEO](https://video.tv.adobe.com/v/35989?quality=12&learn=on)
 
