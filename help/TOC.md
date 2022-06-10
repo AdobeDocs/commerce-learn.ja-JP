@@ -1,10 +1,10 @@
 ---
 user-guide-title: ビデオとチュートリアル
 user-guide-description: Adobe Commerce と Magento Open Source のビデオとチュートリアルのコレクションです。
-source-git-commit: 4c8f9de0e88d5406c09568c594ccf954777fa370
+source-git-commit: 24873fdb03bd158f4705e8da34d60bd17b0a53c5
 workflow-type: tm+mt
-source-wordcount: '306'
-ht-degree: 6%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 6%
 + [[!DNL Commerce] ビデオとチュートリアル](overview.md)
 
 + はじめに {#getting-started}
-   + [!DNL Commerce] クラウドインフラストラクチャ {#cloud}
+   + [!DNL Commerce] クラウドインフラストラクチャ上 {#cloud}
       + [1 — 概要](./cloud/1-overview.md)
       + [2 — ホストされているアカウント](./cloud/2-accounts.md)
       + [3 - Cloud プロジェクト](./cloud/3-projects.md)
@@ -32,13 +32,13 @@ ht-degree: 6%
       + [5.3 — ルーティング](./developer/backend-5-3-routing.md)
       + [5.4 - [!DNL Admin] ページ](./developer/backend-5-4-admin-page.md)
       + [6 — 演習](./developer/backend-6-practice.md)
-   + [!DNL Commerce] ビジネスユーザー向け {#merchants}
+   + [!DNL Commerce] （ビジネスユーザー向け） {#merchants}
       + [1.1 - [!DNL Admin] メニュー](./merchant/introduction/1-1-menus.md)
       + [1.2 — データグリッド](./merchant/introduction/1-2-data-grids.md)
       + [1.3 — 範囲、サイト、ストア](./merchant/introduction/1-3-apps-scopes-sites-stores.md)
-      + [1.4 — ビューとキャッシュの保存](./merchant/introduction/1-4-store-views-cache.md)
+      + [1.4 — ストアビューとキャッシュ](./merchant/introduction/1-4-store-views-cache.md)
       + [1.5 — 管理者ユーザーアカウントとロール](./merchant/introduction/1-5-users-roles.md)
-      + [1.6 — 役割の範囲](./merchant/introduction/1-6-role-scopes.md)
+      + [1.6 — ロールスコープ](./merchant/introduction/1-6-role-scopes.md)
       + [1.7 — ビジネス設定](./merchant/introduction/1-7-business-settings.md)
       + [2.1 — カテゴリ](./merchant/introduction/2-1-categories.md)
       + [2.2 — カテゴリのランディングページ](./merchant/introduction/2-2-category-landing-page.md)
@@ -56,14 +56,34 @@ ht-degree: 6%
       + [5.2 — 顧客管理](./merchant/introduction/5-2-customer-management.md)
       + [5.3 — 電子メール通信](./merchant/introduction/5-3-store-communications.md)
 
-+ 管理での作業 {#admin}
-   + [ユーザー、役割、権限](./merchant/users-roles-permissions.md)
++ ストア管理 {#admin}
+   + [ユーザーの役割および権限の管理](./merchant/users-roles-permissions.md)
    + [二段階認証](./merchant/two-factor-authentication.md)
-   + [Web サイト、ストア、およびストア表示の追加](./merchant/add-websites-stores-views.md)
+   + [通貨および税務ルールの管理](./merchant/currency-tax-rules.md)
+   + [発送および配送方法](./merchant/shipping-delivery.md)
+   + [Web サイト、ストア、ストア表示の追加](./merchant/add-websites-stores-views.md)
    + [ストア URL の変更](./merchant/change-store-url.md)
    + [サイトマップの設定を保存](./merchant/site-map-setup.md)
-   + [プロモーション価格ルール](./merchant/promotions-price-rules.md)
+
++ 顧客管理 {#customers}
+   + [顧客セグメントの作成](./merchant/customer-segments.md)
+   + [顧客グループの作成](./merchant/customer-groups.md)
+   + [顧客属性の作成](./merchant/customer-attributes.md)
+   + [販売者支援ショッピング](./merchant/seller-assisted-shopping.md)
+
++ カタログ管理 {#catalog}
+   + [カテゴリの作成](./merchant/category-create.md)
+   + [カテゴリ内の製品の管理](./merchant/category-products.md)
+   + [Inventory management](./merchant/inventory-management.md)
+   + [製品属性の作成](./merchant/product-attributes-create.md)
+   + [SEO メタデータを管理](./merchant/seo-metadata.md)
+   + [SEO の URL 書き換えの管理](./merchant/seo-url-rewrites.md)
+
++ コンテンツ管理 {#content}
    + [Page Builder の概要](./merchant/page-builder-overview.md)
+
++ マーケティングツール {#marketing}
+   + [販促価格ルール](./merchant/promotions-price-rules.md)
 
 + MBI {#mbi}
    + [フィルターセット](./merchant/business-intelligence/filter-sets.md)
@@ -91,19 +111,19 @@ ht-degree: 6%
       + [結果の共有とデータのエクスポート](./merchant/business-intelligence/11-share-results-export-data.md)
       + [顧客の成功事例](./merchant/business-intelligence/12-customer-success.md)
 
-+ アップグレード {#upgrade}
++ コマースのアップグレード {#upgrade}
    + [Adobe Commerce 2.4 アップグレードワークショップ](./upgrade/2.4-upgrade-workshop.md)
    + [アップグレード互換性ツールの概要](./upgrade/upgrade-compatibility-tool-overview.md)
    + [PHP Storm でのアップグレード互換性ツールの使用](./upgrade/uct-phpstorm.md)
 
-+ バックエンドの開発 {#backend-development}
++ バックエンド開発 {#backend-development}
    + [データベースに新しいテーブルを追加する](./developer/add-new-db-table.md)
    + [モジュールの作成](developer/create-module.md)
    + [新しい製品属性を追加](./developer/add-product-attribute.md)
    + [依存関係の挿入の例](./developer/dependency-injection.md)
 
 + フロントエンド開発 {#frontend-development}
-   + Page Builder {#page-builder}
+   + 開発者向けの Page Builder {#page-builder}
       + [1 — はじめに](./developer/page-builder/1-intro-case-studies.md)
       + [2 — 設定とコンテンツ](./developer/page-builder/2-config-create-content.md)
       + [3 — テーマ](./developer/page-builder/3-themes.md)
