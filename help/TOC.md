@@ -1,10 +1,10 @@
 ---
 user-guide-title: ビデオとチュートリアル
 user-guide-description: Adobe Commerce と Magento Open Source のビデオとチュートリアルのコレクションです。
-source-git-commit: 24873fdb03bd158f4705e8da34d60bd17b0a53c5
+source-git-commit: 11a59c534f1907d63073bc2a1541d39f02428da1
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '422'
+ht-degree: 4%
 
 ---
 
@@ -60,10 +60,11 @@ ht-degree: 0%
    + [ユーザーの役割および権限の管理](./merchant/users-roles-permissions.md)
    + [二段階認証](./merchant/two-factor-authentication.md)
    + [通貨および税務ルールの管理](./merchant/currency-tax-rules.md)
-   + [発送および配送方法](./merchant/shipping-delivery.md)
    + [Web サイト、ストア、ストア表示の追加](./merchant/add-websites-stores-views.md)
    + [ストア URL の変更](./merchant/change-store-url.md)
    + [サイトマップの設定を保存](./merchant/site-map-setup.md)
+   + [発送および配送方法](./merchant/shipping-delivery.md)
+   + [支払いサービスを使用](./merchant/payment-services.md)
 
 + 顧客管理 {#customers}
    + [顧客セグメントの作成](./merchant/customer-segments.md)
@@ -76,14 +77,33 @@ ht-degree: 0%
    + [カテゴリ内の製品の管理](./merchant/category-products.md)
    + [Inventory management](./merchant/inventory-management.md)
    + [製品属性の作成](./merchant/product-attributes-create.md)
+   + [製品属性とPWA Studioの使用](./merchant/product-attributes-pwa.md)
    + [SEO メタデータを管理](./merchant/seo-metadata.md)
    + [SEO の URL 書き換えの管理](./merchant/seo-url-rewrites.md)
 
 + コンテンツ管理 {#content}
    + [Page Builder の概要](./merchant/page-builder-overview.md)
+   + [静的ブロックと動的ブロックを作成する](./merchant/static-dynamic-blocks.md)
+   + [ウィジェットを作成](./merchant/widgets.md)
+   + [コンテンツテンプレートの使用](./merchant/content-templates.md)
+   + [コンテンツのステージング](./merchant/content-staging.md)
+   + [メディアギャラリーを管理](./merchant/media-gallery.md)
 
 + マーケティングツール {#marketing}
    + [販促価格ルール](./merchant/promotions-price-rules.md)
+   + [カタログ価格ルールの作成](./merchant/catalog-price-rules.md)
+   + [買い物かごの価格ルールの作成](./merchant/cart-price-rules.md)
+   + [関連する製品ルールの管理](./merchant/related-product-rules.md)
+   + [製品のセットアップRecommendations](./merchant/product-recommendations.md)
+   + [ライブ検索を使用](./merchant/live-search.md)
+
++ オーダーと達成 {#orders}
+   + [ストアの達成の概要](./merchant/store-fulfillment.md)
+   + [注文ステータスの管理](./merchant/order-status.md)
+
++ システムツール {#tools}
+   + [サイト全体分析ツールダッシュボード](./tools/site-wide-analysis-tool.md)
+   + [クォリティパッチツールの使用](./tools/quality-patch-tool.md)
 
 + MBI {#mbi}
    + [フィルターセット](./merchant/business-intelligence/filter-sets.md)
@@ -111,15 +131,15 @@ ht-degree: 0%
       + [結果の共有とデータのエクスポート](./merchant/business-intelligence/11-share-results-export-data.md)
       + [顧客の成功事例](./merchant/business-intelligence/12-customer-success.md)
 
-+ コマースのアップグレード {#upgrade}
++ コマースのアップグレードとシステムツール {#upgrade}
    + [Adobe Commerce 2.4 アップグレードワークショップ](./upgrade/2.4-upgrade-workshop.md)
    + [アップグレード互換性ツールの概要](./upgrade/upgrade-compatibility-tool-overview.md)
-   + [PHP Storm でのアップグレード互換性ツールの使用](./upgrade/uct-phpstorm.md)
+   + [PHP Storm のアップグレード互換性ツールを使用する](./upgrade/uct-phpstorm.md)
 
 + バックエンド開発 {#backend-development}
-   + [データベースに新しいテーブルを追加する](./developer/add-new-db-table.md)
+   + [データベースにテーブルを追加する](./developer/add-new-db-table.md)
    + [モジュールの作成](developer/create-module.md)
-   + [新しい製品属性を追加](./developer/add-product-attribute.md)
+   + [製品属性の追加](./developer/add-product-attribute.md)
    + [依存関係の挿入の例](./developer/dependency-injection.md)
 
 + フロントエンド開発 {#frontend-development}
