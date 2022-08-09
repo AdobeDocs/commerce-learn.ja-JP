@@ -9,10 +9,10 @@ level: Beginner
 thumbnail: 36191.jpeg
 activity: use
 exl-id: d9049f03-537a-4e0e-8f17-ad392ac63d84
-source-git-commit: acee5ba84ea32e14a743cd269f77ced821548ad6
+source-git-commit: 3b938c6d440db4db52f4b85ec885475f61b28153
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '200'
+ht-degree: 16%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 0%
 >
 >この内容は、Adobe CommerceとMagento Open Source2.3.1 のリリースを反映しています。
 >
->- PWAと [PWA Studio](http://pwastudio.io/) は、 _頭のない_ フロントエンドの実装。
+>- PWAと [PWA Studio](https://developer.adobe.com/commerce/pwa-studio/) は、 _頭のない_ フロントエンドの実装。
 >- テクノロジースタックは、2.3.x リリースラインと 2.4.x リリースラインの新しいバージョンで変更されました。 次を確認します。 [システム要件](https://devdocs.magento.com/guides/v2.4/install-gde/system-requirements.html) 正しいシステムコンポーネントがあることを確認します。
 >- Temando のシャットダウンが差し迫っているため、Magento Shippingは使用できなくなりました。 コマースでの新しい出荷実装に関する詳細なステータス情報と推奨事項については、 [製品情報ページ](https://magento.com/shipping).
 
