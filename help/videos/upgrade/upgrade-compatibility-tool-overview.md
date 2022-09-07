@@ -8,7 +8,7 @@ role: Admin, Leader, Developer
 audience: all
 activity: use
 exl-id: 93a59d1c-54a8-4efe-bf98-9d65389bfb27
-source-git-commit: acee5ba84ea32e14a743cd269f77ced821548ad6
+source-git-commit: a579818f2f50d4ca0eca9a529945c4f366905ef6
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -25,7 +25,7 @@ ht-degree: 0%
 - 新しいAdobe Commerceバージョンにアップグレードする際に必要なエラーや修正をすばやく特定する方法
 - HTMLの結果にアクセスし、モジュールを重大度と非互換性の数で視覚化する方法
 
-アップグレードの実行と簡素化について詳しくは、 [アップグレードガイド](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/overview.html).
+このツールについて詳しくは、 [アップグレード互換性ツールのドキュメント](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/upgrade-compatibility-tool/overview.html?lang=en). アップグレードの実行と簡単化について詳しくは、 [アップグレードガイド](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/overview.html).
 
 ## このビデオは誰のためのものですか？
 
@@ -38,6 +38,7 @@ ht-degree: 0%
 
 ## その他のリソース
 
+- [アップグレード互換性ツールのドキュメント](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/upgrade-compatibility-tool/overview.html?lang=en)
 - [アップグレードガイド](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/overview.html)
 - [リリース済みバージョン](https://devdocs.magento.com/release/released-versions.html)
 - [今後のリリース](https://devdocs.magento.com/release/)
