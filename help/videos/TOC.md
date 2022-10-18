@@ -1,10 +1,10 @@
 ---
 user-guide-title: ビデオとチュートリアル
 user-guide-description: Adobe Commerce と Magento Open Source のビデオとチュートリアルのコレクションです。
-source-git-commit: 2f59b215be07ab9041efc38254e816b91613c6d3
+source-git-commit: 327c70006c2f1b8b85781cf0059b1386535bb7b4
 workflow-type: tm+mt
-source-wordcount: '441'
-ht-degree: 4%
+source-wordcount: '483'
+ht-degree: 3%
 
 ---
 
@@ -116,14 +116,14 @@ ht-degree: 4%
    + [フィルターセット](./merchant/business-intelligence/filter-sets.md)
    + [コホートReport Builder](./merchant/business-intelligence/cohort-report-builder.md)
    + [SQLReport Builder](./merchant/business-intelligence/sql-report-builder.md)
+   + [将来の備え](./merchant/business-intelligence/prepare-for-future.md)
    + 録画済みウェビナー {#webinars}
-      + [MBI の概要](./merchant/business-intelligence/webinars/getting-started.md)
-      + [MBI でのデータセットの管理](./merchant/business-intelligence/webinars/manage-data-sets.md)
-      + [MBIData Warehouseの最適化](./merchant/business-intelligence/webinars/optimize-data-warehouse.md)
-      + [MBI ダッシュボードの詳細](./merchant/business-intelligence/webinars/dashboards-deep-dive.md)
-      + [MBI を使用した休日の準備](./merchant/business-intelligence/webinars/holiday-readiness.md)
-      + [将来の備え](./merchant/business-intelligence/prepare-for-future.md)
-      + [MBI — エキスパートに質問](./merchant/business-intelligence/webinars/ask-expert.md)
+      + [MBI の概要](https://experienceleague.adobe.com/docs/commerce-events/events/mbi/2021/getting-started.html)
+      + [MBI でのデータセットの管理](https://experienceleague.adobe.com/docs/commerce-events/events/mbi/2022/manage-data-sets.html)
+      + [MBIData Warehouseの最適化](https://experienceleague.adobe.com/docs/commerce-events/events/mbi/2021/optimize-data-warehouse.html)
+      + [MBI ダッシュボードの詳細](https://experienceleague.adobe.com/docs/commerce-events/events/mbi/2021/dashboards-deep-dive.html)
+      + [MBI を使用した休日の準備](https://experienceleague.adobe.com/docs/commerce-events/events/mbi/2021/holiday-readiness.html)
+      + [MBI — エキスパートに質問](https://experienceleague.adobe.com/docs/commerce-events/events/mbi/2021/ask-expert.html)
    + MBI ビデオシリーズの概要 {#introduction}
       + [概要](./merchant/business-intelligence/1-overview.md)
       + [データウェアハウス](./merchant/business-intelligence/2-data-warehousing.md)

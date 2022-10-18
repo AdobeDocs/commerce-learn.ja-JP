@@ -1,10 +1,10 @@
 ---
-title: '"[!DNL Commerce] ビデオとチュートリアル"'
+title: "[!DNL Commerce] ビデオとチュートリアル"
 description: Adobe CommerceとMagento Open Sourceのビデオとチュートリアルのコレクションです
 exl-id: e6bed3a4-4078-40df-88b0-3bad6c144aeb
-source-git-commit: 867c5dbfdf5c2701d59655363e8ac3d94e97ece6
+source-git-commit: feaba6797569ab027f0b3d122039b3e0d16054b1
 workflow-type: tm+mt
-source-wordcount: '292'
+source-wordcount: '283'
 ht-degree: 1%
 
 ---
@@ -27,7 +27,10 @@ ht-degree: 1%
 | 注文と達成 | [ストアの達成の概要](./merchant/store-fulfillment.md) <br>[注文ステータスの管理](./merchant/order-status.md) |
 | Adobe Commerce用 B2B | [会社アカウントの管理](./merchant/b2b/company-accounts.md)  <br>[共有カタログを管理](./merchant/b2b/shared-catalogs.md) <br>[会社クレジットの管理](./merchant/b2b/company-credit.md) <br>[発注と承認](./merchant/b2b/purchase-orders.md) |
 | システムツール | [サイト全体分析ツールダッシュボード](./tools/site-wide-analysis-tool.md) <br>[Adobe Commerceの観測](./tools/observation-tool.md) <br>[クォリティパッチツールの使用](./tools/quality-patch-tool.md) |
-| MBI | [MBI の概要](./merchant/business-intelligence/webinars/getting-started.md) <br>[MBI でのデータセットの管理](./merchant/business-intelligence/webinars/manage-data-sets.md) <br>[MBIData Warehouseの最適化](./merchant/business-intelligence/webinars/optimize-data-warehouse.md)<br>[MBI ダッシュボードの詳細](./merchant/business-intelligence/webinars/dashboards-deep-dive.md) <br>[MBI を使用した休日の準備](./merchant/business-intelligence/webinars/holiday-readiness.md) <br>[将来の備え](./merchant/business-intelligence/prepare-for-future.md) <br>[MBI — エキスパートに質問](./merchant/business-intelligence/webinars/ask-expert.md) |
+
+>[!TIP]
+>
+>この [コマースイベント](https://experienceleague.adobe.com/docs/commerce-events/events/overview.html) space は、オンデマンドで視聴できる記録済みイベントコンテンツへのアクセスを提供します。
 
 ## その他のリソース
 
