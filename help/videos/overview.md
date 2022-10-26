@@ -2,16 +2,18 @@
 title: "[!DNL Commerce] ビデオとチュートリアル"
 description: Adobe CommerceとMagento Open Sourceのビデオとチュートリアルのコレクションです
 exl-id: e6bed3a4-4078-40df-88b0-3bad6c144aeb
-source-git-commit: 834fcab32b3211495a62b7595fcee093b7fec0a7
+source-git-commit: 5156f069f37404b852fa9d476bb8eaf5442b9182
 workflow-type: tm+mt
 source-wordcount: '183'
 ht-degree: 2%
 
 ---
 
-# <!-- use banner as heading -->![コマースのビデオとTutorials](../assets/banner-videos-home.png) {#videos}
+# <!-- use banner as heading -->![コマースのビデオとチュートリアル](../assets/banner-videos-home.png) {#videos}
 
 ようこそ [!DNL Commerce] のビデオおよびチュートリアルコレクションです。 これらのリソースを、 [ドキュメント](https://experienceleague.adobe.com/docs/commerce.html)を使用すると、e コマースビジネスをサポートするためのAdobe CommerceとMagento Open Sourceの使用方法をより深く理解できます。 このコレクションは、バックエンド開発者、フロントエンド開発者、システム管理者、マーチャント、組織内のその他の役割に役立つコンテンツを提供するように設計されています。
+
+<div id="whats-new-section">
 
 ## 新機能
 
@@ -23,6 +25,15 @@ ht-degree: 2%
 | **[カタログサービス](./merchant/catalog-service.md)** - Adobe Commerceのカタログサービスの新機能のデモ。 | 新規 | 9/19/2022 |
 
 {style=&quot;table-layout:auto&quot;}
+
+</div>
+
+<div id="recs-overview-body-1"></div>
+<div id="recs-overview-body-2"></div>
+<div id="recs-overview-body-3"></div>
+<div id="recs-overview-body-4"></div>
+<div id="recs-overview-body-5"></div>
+<div id="recs-overview-body-6"></div>
 
 >[!TIP]
 >
