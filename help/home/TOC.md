@@ -2,9 +2,9 @@
 user-guide-title: ビデオとチュートリアル
 user-guide-description: ビデオとチュートリアルを通じて、Adobe CommerceとMagento Open Sourceについて学びます。
 breadcrumb-title: ビデオとチュートリアル
-source-git-commit: 34f5cd077da2c8dc8e187276635a11e71c3e632c
+source-git-commit: e44f25a9c3f113d18703761f9e958ab5244b8417
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: '533'
 ht-degree: 1%
 
 ---
@@ -102,7 +102,8 @@ ht-degree: 1%
    + [買い物かごの価格ルールの作成](../site-management/cart-price-rules.md)
    + [関連する製品ルールの管理](../site-management/related-product-rules.md)
    + [製品のセットアップRecommendations](../site-management/product-recommendations.md)
-   + [ライブ検索を使用](../site-management/live-search.md)
+   + [ライブ検索の概要](../site-management/live-search.md)
+   + [ライブ検索でのレコメンデーション](../site-management/live-search-recommendations.md)
 
 + オーダーと達成 {#orders}
    + [ストアの達成の概要](../site-management/store-fulfillment.md)
