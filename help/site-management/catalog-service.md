@@ -6,9 +6,10 @@ audience: all
 role: Developer, Admin
 last-substantial-update: 2022-09-19T00:00:00Z
 exl-id: 9b41f6ab-5f05-4985-af93-8ea8db062598
-source-git-commit: 42622b18e5738e8cb57f247029c189884698851a
+hidefromtoc: true
+source-git-commit: 9147597cc4d25d0d4b47df353d891601efc46e70
 workflow-type: tm+mt
-source-wordcount: '136'
+source-wordcount: '108'
 ht-degree: 0%
 
 ---
@@ -16,10 +17,6 @@ ht-degree: 0%
 # Adobe Commerceのカタログサービス
 
 Adobe Commerceのカタログサービスは、読み取り専用のカタログデータを提供し、ストアフロントのショッピングエクスペリエンスを強化するマルチテナント SaaS 機能です。 GraphQL API を介して消費できる新しい API クエリが追加され、パフォーマンスを向上させ、カタログデータ取得のスケーラビリティを向上させます。
-
->[!IMPORTANT]
->
->Adobe Commerceのカタログサービスは、現在、ベータ版参加者のみが利用できます。 [オンボーディングとインストール](https://experienceleague.adobe.com/docs/commerce-merchant-services/catalog-service/installation.html) ベータ版プログラムへの参加方法について説明します。
 
 このビデオでは、
 
