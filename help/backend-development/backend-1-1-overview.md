@@ -9,7 +9,7 @@ level: Beginner
 thumbnail: 36191.jpeg
 activity: use
 exl-id: d9049f03-537a-4e0e-8f17-ad392ac63d84
-source-git-commit: 4b72cf5e0c49690fe44776a6e4c682eb3c316e47
+source-git-commit: e8d2631b31319701beb327f42fdf1372d9dad9b7
 workflow-type: tm+mt
 source-wordcount: '200'
 ht-degree: 16%
@@ -31,8 +31,8 @@ ht-degree: 16%
 >この内容は、Adobe CommerceとMagento Open Source2.3.1 のリリースを反映しています。
 >
 >- PWAと [PWA Studio](https://developer.adobe.com/commerce/pwa-studio/) は、 _頭のない_ フロントエンドの実装。
->- テクノロジースタックは、2.3.x リリースラインと 2.4.x リリースラインの新しいバージョンで変更されました。 次を確認します。 [システム要件](https://devdocs.magento.com/guides/v2.4/install-gde/system-requirements.html) 正しいシステムコンポーネントがあることを確認します。
->- Temando のシャットダウンが差し迫っているため、Magento Shippingは使用できなくなりました。 コマースでの新しい出荷実装に関する詳細なステータス情報と推奨事項については、 [製品情報ページ](https://magento.com/shipping).
+>- テクノロジースタックは、2.3.x リリースラインと 2.4.x リリースラインの新しいバージョンで変更されました。 次を確認します。 [システム要件](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/system-requirements.html) 正しいシステムコンポーネントがあることを確認します。
+>- Temando のシャットダウンが差し迫っているため、Magento Shippingは使用できなくなりました。 コマースでの新しい出荷実装に関する詳細なステータス情報と推奨事項については、 [製品情報ページ](https://business.adobe.com/products/magento/shipping.html).
 
 
 
@@ -40,6 +40,6 @@ ht-degree: 16%
 
 ## その他のリソース
 
-[[!DNL Commerce] アーキテクチャガイド](https://devdocs.magento.com/guides/v2.4/architecture/bk-architecture.html)
+[[!DNL Commerce] アーキテクチャガイド](https://developer.adobe.com/commerce/php/architecture/)
 
-[[!DNL Commerce] PHP 開発者ガイド](https://devdocs.magento.com/guides/v2.4/extension-dev-guide/bk-extension-dev-guide.html)
+[[!DNL Commerce] PHP 開発者ガイド](https://developer.adobe.com/commerce/php/development/)

@@ -9,9 +9,9 @@ level: Beginner
 thumbnail: 36195.jpeg
 activity: use
 exl-id: c0401c9f-d0f4-437e-be4c-358c3381f766
-source-git-commit: 4b72cf5e0c49690fe44776a6e4c682eb3c316e47
+source-git-commit: e8d2631b31319701beb327f42fdf1372d9dad9b7
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '120'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->このビデオの内容は 2.3.1 リリースを反映しています。 今後のリリースでの更新について詳しくは、 [ 2.3.x](https://devdocs.magento.com/guides/v2.3/release-notes/bk-release-notes.html) および [2.4.x](https://devdocs.magento.com/guides/v2.4/release-notes/bk-release-notes.html) リリースノート。
+>このビデオの内容は 2.3.1 リリースを反映しています。 今後のリリースでの更新について詳しくは、 [リリースノート](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/overview.html).
 >
 >データベース分割機能は、2.4.2 リリースで非推奨（廃止予定）となりました。
 
@@ -37,7 +37,7 @@ ht-degree: 0%
 
 ## その他のリソース
 
-- [インストールの確認](https://devdocs.magento.com/guides/v2.4/install-gde/install/verify.html)
-- [オプションで umask を設定](https://devdocs.magento.com/guides/v2.4/install-gde/install/post-install-umask.html)
-- [サンプルデータをインストール](https://devdocs.magento.com/guides/v2.4/install-gde/install/sample-data-after-magento.html)
-- [アプリケーションモードについて](https://devdocs.magento.com/guides/v2.4/config-guide/bootstrap/magento-modes.html)
+- [インストールの確認](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/verify.html)
+- [オプションで umask を設定](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/set-umask.html)
+- [サンプルデータをインストール](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/sample-data/overview.html)
+- [アプリケーションモードについて](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html)

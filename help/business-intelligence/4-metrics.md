@@ -7,9 +7,9 @@ solution: Adobe Commerce, Magento Business Intelligence
 audience: all
 activity: use
 exl-id: 5aca35dd-d956-499b-9791-738c33d6cc41
-source-git-commit: 42622b18e5738e8cb57f247029c189884698851a
+source-git-commit: e8d2631b31319701beb327f42fdf1372d9dad9b7
 workflow-type: tm+mt
-source-wordcount: '106'
+source-wordcount: '117'
 ht-degree: 0%
 
 ---
@@ -27,11 +27,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->このビデオの内容は 2.2 リリースを反映しています。 詳しくは、 [MBI ユーザーガイド](https://docs.magento.com/mbi/) を参照してください。
+>このビデオの内容は 2.2 リリースを反映しています。 詳しくは、 [MBI ユーザーガイド](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/guide-overview.html) を参照してください。
 
 >[!VIDEO](https://video.tv.adobe.com/v/35980?quality=12&learn=on)
 
 ## その他のリソース
 
-- [指標の作成](https://docs.magento.com/mbi/data-user/reports/ess-manage-data-metrics.html)
-- [指標のフィルターセットの作成](https://docs.magento.com/mbi/data-user/reports/ess-manage-data-filters.html)
+- [指標の作成 — MBI ユーザーガイド](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/build/reports/ess-manage-data-metrics.html)
+- [フィルターセットの作成 — MBI ユーザーガイド](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/build/reports/ess-manage-data-filters.html)

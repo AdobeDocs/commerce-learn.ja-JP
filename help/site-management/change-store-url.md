@@ -7,9 +7,9 @@ role: Admin, Leader
 audience: all
 activity: use
 exl-id: 6d9562e7-359d-4e82-9c1d-9536ba44df14
-source-git-commit: 42622b18e5738e8cb57f247029c189884698851a
+source-git-commit: e8d2631b31319701beb327f42fdf1372d9dad9b7
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '136'
 ht-degree: 0%
 
 ---
@@ -27,11 +27,11 @@ Adobe CommerceまたはMagento Open Sourceインストール内の各 Web サイ
 
 >[!NOTE]
 >
->このビデオの内容は 2.1.0 リリースを反映しています。 今後のリリースでの更新について詳しくは、 [2.3.x](https://devdocs.magento.com/guides/v2.3/release-notes/bk-release-notes.html) および [2.4.x](https://devdocs.magento.com/guides/v2.4/release-notes/bk-release-notes.html) リリースノート。
+>このビデオの内容は 2.1.0 リリースを反映しています。 今後のリリースでの更新について詳しくは、 [リリースノート](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/overview.html).
 
 >[!VIDEO](https://video.tv.adobe.com/v/35488?quality=12&learn=on)
 
 ## その他のリソース
 
-- [ストア URL](https://docs.magento.com/user-guide/stores/store-urls.html)
-- [カスタム管理 URL の使用](https://docs.magento.com/user-guide/stores/store-urls-custom-admin.html)
+- [ストア URL - [!DNL Commerce] 店舗および購入エクスペリエンスガイド](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/store-urls.html)
+- [カスタム管理 URL を使用 — [!DNL Commerce] 店舗および購入エクスペリエンスガイド](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/store-urls.html#use-a-custom-admin-url)

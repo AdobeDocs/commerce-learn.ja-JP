@@ -7,9 +7,9 @@ audience: all
 role: Admin, Leader, User
 activity: use
 exl-id: c2f154e0-c5b3-4fcc-aa7b-20dcaabfadbe
-source-git-commit: 42622b18e5738e8cb57f247029c189884698851a
+source-git-commit: e8d2631b31319701beb327f42fdf1372d9dad9b7
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '155'
 ht-degree: 0%
 
 ---
@@ -29,5 +29,5 @@ ht-degree: 0%
 
 ## その他のリソース
 
-- [在庫の管理](https://docs.magento.com/user-guide/catalog/inventory-management.html)
-- [Inventory management開発者向けドキュメント](https://devdocs.magento.com/guides/v2.4/inventory/index.html)
+- [Inventory managementガイド](https://experienceleague.adobe.com/docs/commerce-admin/inventory/introduction.html)
+- [Inventory management — 開発者向け REST ドキュメント](https://developer.adobe.com/commerce/webapi/rest/inventory/)

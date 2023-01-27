@@ -7,9 +7,9 @@ audience: all
 role: Admin, Leader, User
 activity: use
 exl-id: 81a654bf-d09c-4bab-a050-daba6cce2f79
-source-git-commit: 42622b18e5738e8cb57f247029c189884698851a
+source-git-commit: e8d2631b31319701beb327f42fdf1372d9dad9b7
 workflow-type: tm+mt
-source-wordcount: '88'
+source-wordcount: '102'
 ht-degree: 0%
 
 ---
@@ -29,5 +29,5 @@ ht-degree: 0%
 
 ## その他のリソース
 
-- [カテゴリ内の製品](https://docs.magento.com/user-guide/catalog/categories-category-products.html)
-- [カテゴリルールの作成](https://docs.magento.com/user-guide/catalog/category-product-rules.html)
+- [カテゴリ製品の割り当て — [!DNL Commerce] カタログ管理ガイド](https://experienceleague.adobe.com/docs/commerce-admin/catalog/categories/products-in-category/categories-product-assignments.html)
+- [マーチャンダイジングのカテゴリルール — [!DNL Commerce] マーチャンダイジングとプロモーションガイド](https://experienceleague.adobe.com/docs/commerce-admin/marketing/merchandising/visual-merch/category-product-rules.html)
