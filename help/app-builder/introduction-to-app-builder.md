@@ -1,14 +1,14 @@
 ---
 title: Adobe Commerceのプロセス外拡張機能
 description: Adobeの App Builder と、それがプロセス外の拡張機能の重要な側面である理由について説明します。
-landing-page-description: アプリビルダーとは何か、およびAdobe Commerce開発戦略に役立つ情報について説明します。
+landing-page-description: App Builder とは何か、および App Builder がAdobe Commerce開発戦略に役立つ理由について説明します。
 kt: 11433
 doc-type: tutorial
 audience: all
-last-substantial-update: 2023-01-11T00:00:00Z
-source-git-commit: ef0fa95e776b97ddbaf30e0acd1340e30f12738f
+last-substantial-update: 2023-01-24T00:00:00Z
+source-git-commit: 228891b0e4b56bc2f7d6a3b1dc259b67403ddf51
 workflow-type: tm+mt
-source-wordcount: '730'
+source-wordcount: '746'
 ht-degree: 0%
 
 ---
@@ -16,15 +16,15 @@ ht-degree: 0%
 
 # プロセス外の拡張機能
 
-Adobe Commerceの開発は、これまで、メインアプリケーションと同じリポジトリを使用しておこなわれてきました。  これはインプロセスと呼ばれます。  この手法は非常に良く、開発者はアプリケーションを拡張するための期待されるメカニズムを提供します。  しかし、これは価格で来ます。  コードベースに新しいコードを追加するたびに、アップグレードとの互換性が必要です。  また、PHP のサーバーとの互換性や、コマースが利用する他の多くのサーバーアプリケーションやサービスとの互換性も必要です。  Adobe Developer App Builder では、機能を拡張するのと同じ要件が要求されますが、サイト外に移動させます。  コードとロジックは完全に外部であり、このメソッドは「プロセス外」と呼ばれます。
+従来、Adobe Commerceの開発では、強力な機能であるインプロセス拡張機能が使用されていましたが、インプロセスモデルでは、アップグレード、サーバーの PHP バージョン、Commerce が使用する他の多くの重要なサーバーアプリケーションやサービスとの互換性を持つ新しいコードが必要です。 Adobe Developer App Builder は、これらの互換性の問題を回避するために、プロセス外の拡張機能を使用します。
 
 ## Adobe Commerceの App Builder {#project-firefly}
 
 >[!VIDEO](https://video.tv.adobe.com/v/3412839)
 
-Adobe Developer App Builder は、開発者が拡張できる拡張フレームワークを提供します [!DNL Adobe Commerce] プロセス外の拡張機能を提供する。
+Adobe Developer App Builder は、Adobeソリューションを拡張するカスタムエクスペリエンスを統合および作成するための、サーバーレスの拡張プラットフォームで、Adobe Commerceで利用できるようになりました。 App Builder を使用すると、コマースネイティブの機能を拡張し、サードパーティのソリューションと統合する、安全で拡張性の高いアプリを構築できます。 開発者は、Adobe Commerceでのプロセス外の拡張機能を利用できるようになりました。これにより、即座に長期的なメリットが得られます。
 
-App Builder は、を拡張するカスタムアプリケーションを統合および作成するための、統合されたサードパーティの拡張フレームワークを提供します [!DNL Adobe Commerce]. この拡張フレームワークはAdobeのインフラストラクチャ上に構築されているので、開発者はカスタムマイクロサービスを構築し、拡張と統合をおこなうことができます [!DNL Adobe Commerce] Adobeソリューションおよび他のサードパーティ統合をまたいで使用できます。
+App Builder は、を拡張するカスタムアプリケーションを統合および作成するための、統合されたサードパーティの拡張フレームワークを提供します [!DNL Adobe Commerce]. この拡張フレームワークはAdobeのインフラストラクチャ上に構築されているので、開発者はカスタムマイクロサービスを構築し、を拡張および統合できます [!DNL Adobe Commerce] を他のAdobeソリューションおよびサードパーティ統合にまたがって使用する場合。
 
 App Builder を使用すると、 [!DNL Adobe Commerce] 様々な使用例：
 
@@ -36,13 +36,13 @@ App Builder（旧称 Project Firefly）は、クラウドベースのソリュ�
 
 ## App Builder の詳細を学ぶ理由
 
-Adobe Commerceは完全な SAAS ではないので、開発またはインストールするコードは複雑さを増し、アップグレードの問題を引き起こす可能性があります。 App Builder などのプロセス外の拡張機能を使用すると、プロセス内メソッドを必要とせずに、Adobe Commerceストアに独自のカスタム機能を提供できます。
+Adobe Commerceは完全な SAAS 製品ではないので、開発するコードは複雑さを増し、アップグレードの問題を引き起こす可能性があります。 App Builder などのプロセス外の拡張機能を使用すると、プロセス内の方法を必要とせずに、Adobe Commerceストアに独自のカスタム機能を提供できます。
 
 その他の利点は次のとおりです。
 
 * 切り離された機能により、起動時間を短縮できます。
 * アップグレードが容易になりました。 カスタム機能はコマースコードベースの外部にあり、アップグレード時の互換性の問題を防ぎます。
-* 機能やロジックをコマース外に移動すると、通常はインプロセス開発方法で使用されるリソースが解放されます。
+* Commerce の外部で機能とロジックを移動すると、通常はインプロセス開発方法で使用されるリソースが解放されます。
 
 ## アーキテクチャ {#architecture}
 
@@ -58,6 +58,14 @@ Adobe Developer App Builder は、標準のソリューションの代わりに�
 ![アーキテクチャ](/help/assets/app-builder/firefly-architecture.jpeg)
 
 App Builder のアーキテクチャについて詳しくは、 [アーキテクチャの概要](https://developer.adobe.com/app-builder/docs/guides/).
+
+## AmazonSales Channel拡張機能 {#amazon-sales-channel-extension}
+
+以下のチュートリアルは、App Builder 拡張機能を使用してAdobe CommerceをAmazonSales Channelに接続する方法を示しています。
+
+* [技術概要 App Builder](../app-builder/app-builder-technical-overview.md)
+* [拡張フレームワーク](../app-builder/extensibility-framework-commerce-eventing.md)
+* [機能デモ App Builder](../app-builder/app-builder-functional-demonstration.md)
 
 ## App Builder の概要 {#additional-resources}
 
@@ -81,4 +89,3 @@ App Builder には、開発者向けのビデオおよびドキュメントが�
 ## サポート {#support}
 
 開発者サポートリクエストの場合、 [Experience Leagueフォーラム](https://experienceleaguecommunities.adobe.com/t5/app-builder/ct-p/project-firefly) 助けを求めて
-
