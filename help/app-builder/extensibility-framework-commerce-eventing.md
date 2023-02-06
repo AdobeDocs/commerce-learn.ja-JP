@@ -6,17 +6,17 @@ kt: 11740
 doc-type: tutorial
 audience: all
 last-substantial-update: 2023-01-24T00:00:00Z
-source-git-commit: 3cff43b65f139a7a247baacc82e92f671ab9117f
+source-git-commit: 336581ac6b695d8b847d88daadeb3784ece97ae7
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '108'
 ht-degree: 0%
 
 ---
 
 
-# 拡張フレームワークとコマースのイベンティング
+# App Builder の拡張フレームワーク
 
-Adobe Developer App Builder でのAdobe Commerceの使用方法については、次のビデオを参照してください。このビデオでは、App Builder での Commerce イベントの使用方法を示しています。 この機能デモでは、統合がどのように機能し、App Builder の潜在的な機能を調べるかを説明します。 このデモでは、拡張フレームワーク、Commerce Eventing の概要と、これらのツールを使用してAmazonSales Channel拡張機能を開発する方法を説明します。
+Adobe Developer App Builder でのAdobe Commerceの使用方法については、次のビデオを参照してください。このビデオでは、App Builder での Commerce イベントの使用方法を示しています。 この機能デモでは、統合がどのように機能し、App Builder の潜在的な機能を調べるかを説明します。 このデモでは、拡張フレームワーク、Commerce Eventing の概要、およびAmazon Extension の開発にこれがどのように使用されたかを説明します。
 
 ## Adobe Commerceの App Builder {#app-builder-extensibility}
 
