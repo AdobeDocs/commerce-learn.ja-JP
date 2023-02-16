@@ -6,9 +6,9 @@ kt: 11803
 doc-type: tutorial
 audience: all
 last-substantial-update: 2023-2-8
-source-git-commit: b6d501c5c852e1cc2cf1f05f91b5a9d96ac7d036
+source-git-commit: 2cf7eb4d04f874ec42ca5f6d58ec841680376a41
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '278'
 ht-degree: 0%
 
 ---
@@ -16,30 +16,31 @@ ht-degree: 0%
 
 # プロジェクトとワークスペースの操作
 
-プロジェクトとワークスペースの作成の概念に役立つ基本情報です。 UI のほとんどの機能は、 [Adobe Developer console](https://developer.adobe.com/console).
+このチュートリアルでは、メッシュを含むプロジェクトとワークスペースの作成について説明します。 この仕事は主に [Adobe Developer console](https://developer.adobe.com/console) UI
 
 ## このビデオは誰のためのものですか？
 
-* 複数のソースを構成するワークスペース、または単にプロキシを 1 つのソースに含むワークスペースを使用して、Adobeの App Builder で単一の API エンドポイントを構築する開発者
+* Adobe Developer Console アカウントにアクセスでき、プロジェクトとワークスペースを作成する開発者。
 
 ## ビデオコンテンツ
 
-* Adobe Developer Console 内でのプロジェクトとワークスペースの操作
-* Adobe Developerコンソール内のワークスペースへの API メッシュの追加
-* Adobe Developerコンソールを使用してログインします。
-* Adobe Developerコマンドラインからプロジェクトとワークスペースを表示する
-* 間違った組織にログインした場合の組織の変更
-* Adobe Developerコマンドラインから「 Adobe Developer Project and Workspace 」を選択して接続します。
-* 基本的な API メッシュコマンドのテスト
+* Adobe Developer Console でのプロジェクトとワークスペースの操作
+* Adobe Developerコンソールでのワークスペースへの API メッシュの追加
+* CLI でのAdobe Developerコンソールへのログイン
+* 選択したプロジェクトとワークスペースを CLI で表示
+* CLI で選択した組織、プロジェクト、またはワークスペースを変更する
+* 簡単な API メッシュコマンドのテスト
 
 >[!VIDEO](https://video.tv.adobe.com/v/3414123/)
 
 ## Adobe Developer Console の詳細
 
-Adobe Developer Console には、プロジェクト、Workspace、組織など、注意が必要な要素がいくつかあります。 AdobeApp Builder、コンソールへのログイン方法、基本的なトラブルシューティングに関する詳しい情報については、 [最初の App Builder アプリケーションの作成](https://developer.adobe.com/app-builder/docs/getting_started/first_app/).
+Adobe Developerコンソールでは、次の階層が API が組織にどのように適合するかを表しています。 `Organization > Project > Workspace > [API]`. App Builder のAdobe、コンソールへのログイン、基本的なトラブルシューティングについて詳しくは、 [最初の App Builder アプリケーションの作成](https://developer.adobe.com/app-builder/docs/getting_started/first_app/).
 
-## Adobe Developer Console でのプロジェクトの概要
+## Adobe Developerコンソールでのプロジェクトの概要
 
-Adobe Developer Console でのすべての開発作業は、プロジェクトの一部としておこなわれます。 1 つのプロジェクトに、1 つまたは複数の製品と、API、イベント、ランタイム、プラグインの組み合わせを含めることができます。 Adobe Developerコンソールのプロジェクトについて詳しくは、 [プロジェクトの概要](https://developer.adobe.com/developer-console/docs/guides/projects/).
+Adobe Developer Console でのすべての開発作業は、プロジェクトの一部としておこなわれます。 1 つのプロジェクトに 1 つ以上の製品と、API、イベント、ランタイム、プラグインの組み合わせを含めることができます。 Adobe Developerコンソールのプロジェクトについて詳しくは、 [プロジェクト](https://developer.adobe.com/developer-console/docs/guides/projects/).
+
+API Mesh のコンテキストでプロジェクトとワークスペースを使用する方法について詳しくは、 [プロジェクトとワークスペースを変更する](https://developer.adobe.com/graphql-mesh-gateway/gateway/create-mesh/#modify-projects-and-workspaces).
 
 {{$include /help/_includes/api-mesh-related-links.md}}
