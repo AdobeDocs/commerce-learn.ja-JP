@@ -2,9 +2,9 @@
 user-guide-title: ビデオとTutorials
 user-guide-description: ビデオとチュートリアルを通じて、Adobe CommerceとMagento Open Sourceについて学びます。
 breadcrumb-title: ビデオとTutorials
-source-git-commit: 5cdc7c15eb792879e66cda39abafcbbd61d807dc
+source-git-commit: d26282acb27a09344197f393ed2fe465afda022a
 workflow-type: tm+mt
-source-wordcount: '573'
+source-wordcount: '583'
 ht-degree: 0%
 
 ---
@@ -67,10 +67,13 @@ ht-degree: 0%
    + [App Builder の拡張フレームワーク](../app-builder/extensibility-framework-commerce-eventing.md)
    + [App Builder の機能デモ](../app-builder/app-builder-functional-demonstration.md)
    + [App Builder の技術概要](../app-builder/app-builder-technical-overview.md)
-   + [API メッシュチュートリアル](https://experienceleague.adobe.com/docs/commerce-learn/api-mesh/getting-started-api-mesh.html)
 
 + API メッシュ {#api-mesh}
-   + [API メッシュチュートリアル](https://experienceleague.adobe.com/docs/commerce-learn/api-mesh/getting-started-api-mesh.html)
+   + [API メッシュの概要](../api-mesh/getting-started-api-mesh.md)
+   + [AdobeIO とメッシュプラグインのインストール](../api-mesh/installing-aio-mesh-plugin.md)
+   + [プロジェクトとワークスペースの操作](../api-mesh/aio-projects-workspaces.md)
+   + [単一ソースのGraphQL API メッシュを作成する](../api-mesh/graphql-single-source.md)
+   + [複数のソースGraphQL API メッシュを作成する](../api-mesh/graphql-multiple-source.md)
 
 + ストア管理 {#admin}
    + [ユーザーの役割および権限の管理](../site-management/users-roles-permissions.md)
