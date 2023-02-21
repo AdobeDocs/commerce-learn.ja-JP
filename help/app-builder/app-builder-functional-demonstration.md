@@ -6,9 +6,9 @@ kt: 11762
 doc-type: tutorial
 audience: all
 last-substantial-update: 2023-02-16T00:00:00Z
-source-git-commit: 28c8fe6b1b2d948cf16de6e53eef0a7cdeb93ace
+source-git-commit: 488b1f7a8633b35ec1a113c1dd25f4efeefa3234
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '105'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # App Builder の機能デモ
 
-App Builder でのAdobe Commerceの使用方法について詳しくは、以下のビデオを参照して、Adobe CommerceをAmazon Seller Central に接続する方法を確認してください。 このデモでは、App Builder で使用されるAdobe Commerceのイベントを使用して、Amazon Marketplace との継続的な統合を可能にします。 この機能デモでは、この統合の仕組みと、AdobeApp Builder の潜在的な機能について説明します。
+App Builder でのAdobe Commerceの使用方法について詳しくは、以下のビデオを参照して、Adobe CommerceをAmazon Seller Central に接続する方法を確認してください。 このデモでは、Adobe Commerceのイベントを使用して、App Builder で使用し、Amazon Marketplace との継続的な統合を可能にします。 この機能デモでは、この統合の仕組みと、AdobeApp Builder の潜在的な機能について説明します。
 
 ## Adobe Commerceの App Builder {#app-builder-functional-demonstration}
 
