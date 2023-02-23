@@ -2,9 +2,9 @@
 user-guide-title: ビデオとTutorials
 user-guide-description: ビデオとチュートリアルを通じて、Adobe CommerceとMagento Open Sourceについて学びます。
 breadcrumb-title: ビデオとTutorials
-source-git-commit: d26282acb27a09344197f393ed2fe465afda022a
+source-git-commit: a4863c70ed9b0b0daee82c569b284f98163e5769
 workflow-type: tm+mt
-source-wordcount: '583'
+source-wordcount: '610'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
       + [5.2 — 宣言スキーマ](../backend-development/backend-5-2-declarative-schema.md)
       + [5.3 — ルーティング](../backend-development/backend-5-3-routing.md)
       + [5.4 - [!DNL Admin] ページ](../backend-development/backend-5-4-admin-page.md)
-      + [6 — 演習](../backend-development/backend-6-practice.md)
+   + [6 — 演習](../backend-development/backend-6-practice.md)
    + [!DNL Commerce] （ビジネスユーザー向け） {#merchants}
       + [1.1 - [!DNL Admin] メニュー](../site-management/introduction/1-1-menus.md)
       + [1.2 — データグリッド](../site-management/introduction/1-2-data-grids.md)
@@ -56,25 +56,26 @@ ht-degree: 0%
       + [5.2 — 顧客管理](../site-management/introduction/5-2-customer-management.md)
       + [5.3 — 電子メール通信](../site-management/introduction/5-3-store-communications.md)
       + [5.4 — グローバルリファレンスアーキテクチャ](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/architecture/global-reference.html)
-
-
-
 + GraphQLと REST {#graphql-rest}
    + [GraphQLの概要](https://experienceleague.adobe.com/docs/commerce-learn/graphql-rest/getting-started-graphql.html)
-
 + Adobe Developer App Builder {#adobe-developer-app-builder}
    + [App Builder の概要](../app-builder/introduction-to-app-builder.md)
    + [App Builder の拡張フレームワーク](../app-builder/extensibility-framework-commerce-eventing.md)
    + [App Builder の機能デモ](../app-builder/app-builder-functional-demonstration.md)
    + [App Builder の技術概要](../app-builder/app-builder-technical-overview.md)
-
-+ API メッシュ {#api-mesh}
-   + [API メッシュの概要](../api-mesh/getting-started-api-mesh.md)
-   + [AdobeIO とメッシュプラグインのインストール](../api-mesh/installing-aio-mesh-plugin.md)
-   + [プロジェクトとワークスペースの操作](../api-mesh/aio-projects-workspaces.md)
-   + [単一ソースのGraphQL API メッシュを作成する](../api-mesh/graphql-single-source.md)
-   + [複数のソースGraphQL API メッシュを作成する](../api-mesh/graphql-multiple-source.md)
-
+   + Adobe Commerceの IO イベント {#io-events}
+      + [Adobe Commerce 2.4.5 のインストール](../io-events/2-4-5-installation.md)
+      + [Adobe Commerce 2.4.6 のインストール](../io-events/2-4-6-installation.md)
+      + [App Builder プロジェクトの作成](../io-events/create-app-builder-project.md)
+      + [Adobe Commerceの設定](../io-events/configure-commerce.md)
+      + [Adobe Commerceモジュールの開発](../io-events/commerce-module-development.md)
+      + [Adobe Commerce条件付きイベント](../io-events/conditional-events.md)
+   + API メッシュ {#api-mesh}
+      + [API メッシュの概要](../api-mesh/getting-started-api-mesh.md)
+      + [AdobeIO とメッシュプラグインのインストール](../api-mesh/installing-aio-mesh-plugin.md)
+      + [プロジェクトとワークスペースの操作](../api-mesh/aio-projects-workspaces.md)
+      + [単一ソースのGraphQL API メッシュを作成する](../api-mesh/graphql-single-source.md)
+      + [複数のソースGraphQL API メッシュを作成する](../api-mesh/graphql-multiple-source.md)
 + ストア管理 {#admin}
    + [ユーザーの役割および権限の管理](../site-management/users-roles-permissions.md)
    + [二段階認証](../site-management/two-factor-authentication.md)
@@ -84,14 +85,11 @@ ht-degree: 0%
    + [サイトマップの設定を保存](../site-management/site-map-setup.md)
    + [発送および配送方法](../site-management/shipping-delivery.md)
    + [支払いサービスを使用](../site-management/payment-services.md)
-
-
 + 顧客管理 {#customers}
    + [顧客セグメントの作成](../site-management/customer-segments.md)
    + [顧客グループの作成](../site-management/customer-groups.md)
    + [顧客属性の作成](../site-management/customer-attributes.md)
    + [販売者支援ショッピング](../site-management/seller-assisted-shopping.md)
-
 + カタログ管理 {#catalog}
    + [Adobe Commerceのカタログサービス](../site-management/catalog-service.md)
    + [カテゴリの作成](../site-management/category-create.md)
@@ -101,7 +99,6 @@ ht-degree: 0%
    + [製品属性とPWA Studioの使用](../site-management/product-attributes-pwa.md)
    + [SEO メタデータを管理](../site-management/seo-metadata.md)
    + [SEO の URL 書き換えの管理](../site-management/seo-url-rewrites.md)
-
 + コンテンツ管理 {#content}
    + [Page Builder の概要](../site-management/page-builder-overview.md)
    + [静的ブロックと動的ブロックを作成する](../site-management/static-dynamic-blocks.md)
@@ -109,7 +106,6 @@ ht-degree: 0%
    + [コンテンツテンプレートの使用](../site-management/content-templates.md)
    + [コンテンツのステージング](../site-management/content-staging.md)
    + [メディアギャラリーを管理](../site-management/media-gallery.md)
-
 + マーケティングツール {#marketing}
    + [カタログ価格ルールの作成](../site-management/catalog-price-rules.md)
    + [買い物かごの価格ルールの作成](../site-management/cart-price-rules.md)
@@ -117,24 +113,20 @@ ht-degree: 0%
    + [製品のセットアップRecommendations](../site-management/product-recommendations.md)
    + [ライブ検索の概要](../site-management/live-search.md)
    + [ライブ検索でのレコメンデーション](../site-management/live-search-recommendations.md)
-
 + オーダーと達成 {#orders}
    + [ストアの達成の概要](../site-management/store-fulfillment.md)
    + [注文ステータスの管理](../site-management/order-status.md)
-
 + Adobe Commerce用 B2B {#b2b}
    + [会社アカウントの管理](../b2b/company-accounts.md)
    + [共有カタログを管理](../b2b/shared-catalogs.md)
    + [会社クレジットの管理](../b2b/company-credit.md)
    + [発注と承認](../b2b/purchase-orders.md)
-
 + ツールおよび外部サービス {#tools}
    + [サイト全体分析ツールダッシュボード](../tools/site-wide-analysis-tool.md)
    + [Adobe Commerceの観測](../tools/observation-tool.md)
    + [クォリティパッチツール](../tools/quality-patch-tool.md)
    + New Relic {#new-relic}
       + [悪意のある IP の検索](../new-relic/malicious-ip.md)
-
 + MBI {#mbi}
    + [フィルターセット](../business-intelligence/filter-sets.md)
    + [コホートReport Builder](../business-intelligence/cohort-report-builder.md)
@@ -160,19 +152,16 @@ ht-degree: 0%
       + [投資追跡利益率](../business-intelligence/10-roi-tracking.md)
       + [結果の共有とデータのエクスポート](../business-intelligence/11-share-results-export-data.md)
       + [顧客の成功事例](../business-intelligence/12-customer-success.md)
-
 + コマースのアップグレード {#upgrade}
    + [Adobe Commerce 2.4 アップグレードワークショップ](../upgrade/2.4-upgrade-workshop.md)
    + [アップグレード互換性ツールの概要](../upgrade/upgrade-compatibility-tool-overview.md)
    + [PHP Storm のアップグレード互換性ツールを使用する](../upgrade/uct-phpstorm.md)
-
 + バックエンド開発 {#backend-development}
    + [データベーステーブルを変更する際のベストプラクティス](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables.html)
    + [データベースにテーブルを追加する](../backend-development/new-db-table.md)
    + [モジュールの作成](../backend-development/create-module.md)
    + [製品属性の追加](../backend-development/add-product-attribute.md)
    + [依存関係の挿入の例](../backend-development/dependency-injection.md)
-
 + フロントエンド開発 {#frontend-development}
    + 開発者向けの Page Builder {#page-builder}
       + [1 — はじめに](../frontend-development/page-builder/1-intro-case-studies.md)
@@ -183,7 +172,6 @@ ht-degree: 0%
       + [6 — カスタムコンテンツタイプ](../frontend-development/page-builder/6-custom-content-types.md)
    + [JavaScript モジュールの追加](../frontend-development/add-javascript-module.md)
    + [ページの作成](../frontend-development/create-page.md)
-
 + PWA Studio {#pwa-studio}
    + PWA Studioの概要 {#introduction}
       + [1 — 概要](../pwa/introduction/1-overview.md)
