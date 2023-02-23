@@ -7,7 +7,7 @@ doc-type: tutorial
 audience: all
 last-substantial-update: 2022-12-13T00:00:00Z
 exl-id: 6b82ffda-925f-4a81-8ca5-49a2b8ab4929
-source-git-commit: a92537cdb2538743042e136467b389bbe49178fe
+source-git-commit: 0fa7ba038f542172c47bea859f8712759fcc52f7
 workflow-type: tm+mt
 source-wordcount: '337'
 ht-degree: 0%
@@ -84,7 +84,7 @@ mutation doAddToCart(
 * 最初のフィールド (`addProductsToCart`) を引数 ( 例： `cartId`、の値に設定 `$cartId`) を括弧内に
 * 中括弧で囲まれたフィールドの下位選択
 
-「フィールド」サブ選択では、返すフィールドを柔軟に定義できます ( `addProductsToCart` - `AddProductsToCartOutput`) と同じ値を持つ ) に変異が完了した後で呼び出される問題を修正しました。
+フィールドのサブセレクションを使用すると、返すフィールドを柔軟に定義できます ( `addProductsToCart` - `AddProductsToCartOutput`) と同じ値を持つ ) に変異が完了した後で呼び出される問題を修正しました。
 
 前述のように、GraphQLスキーマに定義されたフィールドは、クエリのルートタイプで開始します ( 通常、 `Query`) をクリックします。 同様に、突然変異に対して別のルートタイプが存在する ( 通常は `Mutation`) をクリックします。 `addProductsToCart` は、そのルートタイプのフィールドです。
 
