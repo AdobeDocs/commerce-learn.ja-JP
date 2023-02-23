@@ -2,7 +2,7 @@
 user-guide-title: ビデオとTutorials
 user-guide-description: ビデオとチュートリアルを通じて、Adobe CommerceとMagento Open Sourceについて学びます。
 breadcrumb-title: ビデオとTutorials
-source-git-commit: a4863c70ed9b0b0daee82c569b284f98163e5769
+source-git-commit: 894accd205cdaa796405d979e324ec4d19f65c51
 workflow-type: tm+mt
 source-wordcount: '610'
 ht-degree: 0%
@@ -57,7 +57,11 @@ ht-degree: 0%
       + [5.3 — 電子メール通信](../site-management/introduction/5-3-store-communications.md)
       + [5.4 — グローバルリファレンスアーキテクチャ](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/architecture/global-reference.html)
 + GraphQLと REST {#graphql-rest}
-   + [GraphQLの概要](https://experienceleague.adobe.com/docs/commerce-learn/graphql-rest/getting-started-graphql.html)
+   + [GraphQLの基本を学ぶ](../graphql-rest/getting-started-graphql.md)
+   + [GraphQLの基本](../graphql-rest/intro-graphql.md)
+   + [クエリ](../graphql-rest/graphql-queries.md)
+   + [突然変異](../graphql-rest/graphql-mutations.md)
+   + [スキーマ](../graphql-rest/graphql-schema.md)
 + Adobe Developer App Builder {#adobe-developer-app-builder}
    + [App Builder の概要](../app-builder/introduction-to-app-builder.md)
    + [App Builder の拡張フレームワーク](../app-builder/extensibility-framework-commerce-eventing.md)
