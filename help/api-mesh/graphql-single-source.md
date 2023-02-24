@@ -6,7 +6,7 @@ kt: 11804
 doc-type: tutorial
 audience: all
 last-substantial-update: 2023-2-8
-source-git-commit: 2cf7eb4d04f874ec42ca5f6d58ec841680376a41
+source-git-commit: fba55cd605c4b17d87af5e8e2919bd400e6ebf55
 workflow-type: tm+mt
 source-wordcount: '223'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # 単一のソースでメッシュを作成する
 
-このビデオでは、Adobe Developer App Builder 用の API メッシュで単一のソースを使用してメッシュを作成する方法を開発者が理解できます。 この基本的な例が期待どおりに動作するには、公にアクセス可能な API またはGraphQLエンドポイントが必要です。 このビデオでは、シンプルな `mesh.json` ファイルを使用して、コマースインスタンスで使用します。 詳細およびコードサンプルについては、 [メッシュを作成する](https://developer.adobe.com/graphql-mesh-gateway/gateway/create-mesh/#create-a-mesh-1).
+このビデオでは、Adobe Developer App Builder 用の API メッシュで単一のソースを使用してメッシュを作成する方法を開発者が理解できます。 この基本的な例が期待どおりに動作するには、公にアクセス可能な API またはGraphQLエンドポイントが必要です。 このビデオでは、シンプルな `mesh.json` ファイルを使用して、コマースインスタンスで使用します。 詳細およびコードサンプルについては、 [メッシュを作成する](https://developer.adobe.com/graphql-mesh-gateway/gateway/create-mesh/#create-a-mesh-1){target="_blank"}.
 
 ## このビデオは誰のためのものですか？
 

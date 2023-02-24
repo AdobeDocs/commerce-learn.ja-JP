@@ -6,7 +6,7 @@ kt: 11803
 doc-type: tutorial
 audience: all
 last-substantial-update: 2023-2-8
-source-git-commit: 2cf7eb4d04f874ec42ca5f6d58ec841680376a41
+source-git-commit: 48d96994571ced0b8219ace9178d068481a39573
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # プロジェクトとワークスペースの操作
 
-このチュートリアルでは、メッシュを含むプロジェクトとワークスペースの作成について説明します。 この仕事は主に [Adobe Developer console](https://developer.adobe.com/console) UI
+このチュートリアルでは、メッシュを含むプロジェクトとワークスペースの作成について説明します。 この仕事は主に [Adobe Developer console](https://developer.adobe.com/console){target="_blank"} UI
 
 ## このビデオは誰のためのものですか？
 
@@ -35,12 +35,12 @@ ht-degree: 0%
 
 ## Adobe Developer Console の詳細
 
-Adobe Developerコンソールでは、次の階層が API が組織にどのように適合するかを表しています。 `Organization > Project > Workspace > [API]`. App Builder のAdobe、コンソールへのログイン、基本的なトラブルシューティングについて詳しくは、 [最初の App Builder アプリケーションの作成](https://developer.adobe.com/app-builder/docs/getting_started/first_app/).
+Adobe Developerコンソールでは、次の階層が API が組織にどのように適合するかを表しています。 `Organization > Project > Workspace > [API]`. App Builder のAdobe、コンソールへのログイン、基本的なトラブルシューティングについて詳しくは、 [最初の App Builder アプリケーションの作成](https://developer.adobe.com/app-builder/docs/getting_started/first_app/){target="_blank"}.
 
 ## Adobe Developerコンソールでのプロジェクトの概要
 
-Adobe Developer Console でのすべての開発作業は、プロジェクトの一部としておこなわれます。 1 つのプロジェクトに 1 つ以上の製品と、API、イベント、ランタイム、プラグインの組み合わせを含めることができます。 Adobe Developerコンソールのプロジェクトについて詳しくは、 [プロジェクト](https://developer.adobe.com/developer-console/docs/guides/projects/).
+Adobe Developer Console でのすべての開発作業は、プロジェクトの一部としておこなわれます。 1 つのプロジェクトに 1 つ以上の製品と、API、イベント、ランタイム、プラグインの組み合わせを含めることができます。 Adobe Developerコンソールのプロジェクトについて詳しくは、 [プロジェクト](https://developer.adobe.com/developer-console/docs/guides/projects/){target="_blank"}.
 
-API Mesh のコンテキストでプロジェクトとワークスペースを使用する方法について詳しくは、 [プロジェクトとワークスペースを変更する](https://developer.adobe.com/graphql-mesh-gateway/gateway/create-mesh/#modify-projects-and-workspaces).
+API Mesh のコンテキストでプロジェクトとワークスペースを使用する方法について詳しくは、 [プロジェクトとワークスペースを変更する](https://developer.adobe.com/graphql-mesh-gateway/gateway/create-mesh/#modify-projects-and-workspaces){target="_blank"}.
 
 {{$include /help/_includes/api-mesh-related-links.md}}
