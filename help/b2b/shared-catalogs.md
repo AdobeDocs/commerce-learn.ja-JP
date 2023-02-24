@@ -5,10 +5,11 @@ doc-type: feature video
 audience: all
 role: Admin, User
 activity: use
+badge: label="B2B for Adobe Commerce" type="Positive"
 exl-id: 74fb5548-a077-4c09-a351-0be830060841
-source-git-commit: 42622b18e5738e8cb57f247029c189884698851a
+source-git-commit: e6d74f9428c98741225ab25053cd663d8c65cc39
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: '161'
 ht-degree: 0%
 
 ---
@@ -32,5 +33,5 @@ Adobe Commerce向け B2B を使用すると、様々な会社のカスタム価�
 
 ## その他のリソース
 
-- [共有カタログの操作](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/catalog-shared.html)
-- [共有カタログを作成](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/define/catalog-shared-create.html)
+- [共有カタログの操作](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/catalog-shared.html){target="_blank"}
+- [共有カタログを作成](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/define/catalog-shared-create.html){target="_blank"}
