@@ -1,7 +1,7 @@
 ---
 title: アップグレード互換性ツールの概要
-description: アップグレード互換性ツールを使用して、次のアップグレードをより簡単で安価かつ高速にする方法については、このテクニカルビデオをご覧ください。
-landing-page-description: アップグレード互換性ツールを使用して、次のアップグレードをより簡単で安価かつ高速にする方法については、このテクニカルビデオをご覧ください。
+description: 次のアップグレードをより簡単、安価、高速にする方法については、このテクニカルビデオをご覧ください。
+landing-page-description: 次のアップグレードをより簡単、安価、高速にする方法については、このテクニカルビデオをご覧ください。
 kt: 9983
 doc-type: technical video
 role: Admin, Leader, Developer
@@ -11,7 +11,7 @@ exl-id: 93a59d1c-54a8-4efe-bf98-9d65389bfb27
 source-git-commit: e8d2631b31319701beb327f42fdf1372d9dad9b7
 workflow-type: tm+mt
 source-wordcount: '223'
-ht-degree: 18%
+ht-degree: 0%
 
 ---
 
