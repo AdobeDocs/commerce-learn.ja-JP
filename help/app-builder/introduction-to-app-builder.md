@@ -6,9 +6,9 @@ kt: 11433
 doc-type: tutorial
 audience: all
 last-substantial-update: 2023-02-16T00:00:00Z
-source-git-commit: 662c755b69e399448ce7f4984105a556386f027c
+source-git-commit: 8726d58abbf6ac0fb1e403a0ece335978d4d7eac
 workflow-type: tm+mt
-source-wordcount: '782'
+source-wordcount: '819'
 ht-degree: 0%
 
 ---
@@ -72,6 +72,10 @@ App Builder のアーキテクチャについて詳しくは、 [アーキテク
 * [機能デモ App Builder](../app-builder/app-builder-functional-demonstration.md)
 
 ## App Builder の概要 {#additional-resources}
+
+初期の設定を含む、合成可能なコマース戦略の概要については、次のブログ投稿を参照してください。
+
+[App Builder がコマースプラットフォームに対するビジネスの俊敏性の向上に役立つ理由](https://business.adobe.com/blog/how-to/how-app-builder-helps-you-implement-a-composable-commerce-strategy)
 
 App Builder の使用を開始する際に役立つように、Adobeは次のドキュメントを作成しました。
 
