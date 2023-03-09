@@ -6,7 +6,7 @@ kt: 11433
 doc-type: tutorial
 audience: all
 last-substantial-update: 2023-02-16T00:00:00Z
-source-git-commit: 8726d58abbf6ac0fb1e403a0ece335978d4d7eac
+source-git-commit: 82ccecf2789e1eedf447af2705a3840d0302fdba
 workflow-type: tm+mt
 source-wordcount: '819'
 ht-degree: 0%
@@ -57,7 +57,7 @@ Adobe Developer App Builder は、標準のソリューションの代わりに�
 
 ![アーキテクチャ](/help/assets/app-builder/firefly-architecture.jpeg)
 
-App Builder のアーキテクチャについて詳しくは、 [アーキテクチャの概要](https://developer.adobe.com/app-builder/docs/guides/).
+App Builder のアーキテクチャについて詳しくは、 [アーキテクチャの概要](https://developer.adobe.com/app-builder/docs/guides/){target="_blank"}.
 
 ## AmazonSales Channel拡張機能 {#amazon-sales-channel-extension}
 
@@ -75,27 +75,27 @@ App Builder のアーキテクチャについて詳しくは、 [アーキテク
 
 初期の設定を含む、合成可能なコマース戦略の概要については、次のブログ投稿を参照してください。
 
-[App Builder がコマースプラットフォームに対するビジネスの俊敏性の向上に役立つ理由](https://business.adobe.com/blog/how-to/how-app-builder-helps-you-implement-a-composable-commerce-strategy)
+[App Builder がコマースプラットフォームに対するビジネスの俊敏性の向上に役立つ理由](https://business.adobe.com/blog/how-to/how-app-builder-helps-you-implement-a-composable-commerce-strategy){target="_blank"}
 
 App Builder の使用を開始する際に役立つように、Adobeは次のドキュメントを作成しました。
 
-* [App Builder はじめに](https://developer.adobe.com/app-builder/docs/getting_started/)
+* [App Builder はじめに](https://developer.adobe.com/app-builder/docs/getting_started/){target="_blank"}
 
 ## ドキュメントを使用して学習を続ける {#appbuilder-documentation}
 
 App Builder には、開発者向けのビデオおよびドキュメントが用意されています。この中には、独自のカスタムアプリケーションの開発に役立つガイドやリファレンスドキュメントが含まれています。
 
-* [App Builder ドキュメント](https://developer.adobe.com/app-builder/docs/overview/)
-* [App Builder ビデオ](https://www.youtube.com/playlist?list=PLcVEYUqU7VRfDij-Jbjyw8S8EzW073F_o)
+* [App Builder ドキュメント](https://developer.adobe.com/app-builder/docs/overview/){target="_blank"}
+* [App Builder ビデオ](https://www.youtube.com/playlist?list=PLcVEYUqU7VRfDij-Jbjyw8S8EzW073F_o){target="_blank"}
 
 ## サンプルアプリケーションの 1 つを試してみます。 {#appbuilder-codesamples}
 
 開発を開始する準備はできていますか？ 次のリンクには、使い始めるのに役立つサンプルアプリケーションが含まれています。
 
-* [Adobe Developer Web サイトの App Builder コードラボ](https://developer.adobe.com/app-builder/docs/resources/)
+* [Adobe Developer Web サイトの App Builder コードラボ](https://developer.adobe.com/app-builder/docs/resources/){target="_blank"}
 
 ## サポート {#support}
 
-開発者サポートリクエストの場合、 [Experience Leagueフォーラム](https://experienceleaguecommunities.adobe.com/t5/app-builder/ct-p/project-firefly) 助けを求めて
+開発者サポートリクエストの場合、 [Experience Leagueフォーラム](https://experienceleaguecommunities.adobe.com/t5/app-builder/ct-p/project-firefly){target="_blank"} 助けを求めて
 
 {{$include /help/_includes/app-builder-related-links.md}}
