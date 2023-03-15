@@ -2,15 +2,16 @@
 title: MBI - SQLReport Builder
 description: MBI SQLReport Builderを使用して、Data Warehouse に直接問い合わせ、結果を表示し、すばやくグラフに変換する方法を説明します。
 landing-page-description: このビデオでは、MBI SQLReport Builderを使用して、Data Warehouse に直接問い合わせ、結果を表示し、すばやくグラフに変換する方法について説明します。
+short-description: Watch this video to learn how use the MBI SQL Report Builder to directly query your data warehouse, view the results, and quickly transform them into a chart.
 kt: 10288
 doc-type: feature video
 solution: Commerce,Magento Business Intelligence
 audience: all
 activity: use
 exl-id: 3976a91f-96d1-439c-a3c9-973051d17f36
-source-git-commit: e8d2631b31319701beb327f42fdf1372d9dad9b7
+source-git-commit: 67d21ca23cdccc87cdeed4a08a3ebb48e5bd1030
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '226'
 ht-degree: 0%
 
 ---

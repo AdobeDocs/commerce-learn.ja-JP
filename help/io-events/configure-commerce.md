@@ -2,11 +2,12 @@
 title: Adobe Commerceの設定
 description: Adobe Developer App Builder でイベントの使用を許可するようにAdobe Commerceを設定する方法について説明します。
 landing-page-description: Adobe Developer App Builder での消費にイベントメカニズムを使用するようにAdobe Commerceを設定する方法を説明します。
+short-description: Learn how to configure Adobe Commerce to use the event mechanism for consumption by Adobe Developer App Builder.
 kt: 11889
 doc-type: tutorial
 audience: all
 last-substantial-update: 2023-02-21T00:00:00Z
-source-git-commit: fe59ed078ac0fa410b9f0a7a62719a279f73390c
+source-git-commit: 67d21ca23cdccc87cdeed4a08a3ebb48e5bd1030
 workflow-type: tm+mt
 source-wordcount: '132'
 ht-degree: 0%

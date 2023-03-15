@@ -2,11 +2,12 @@
 title: Adobe I/O Runtimeコマンドラインインターフェイスと API Mesh プラグインのインストール
 description: Adobe I/O Runtimeコマンドラインインターフェイスと API Mesh プラグインのインストール方法を説明します
 landing-page-description: App Builder の使用方法と、API MeshAdobeを使用したAdobe I/O Runtimeのインストール方法を説明します。
+short-description: Discover how to use Adobe App Builder and install the Adobe I/O Runtime with API Mesh plugin.
 kt: 11801
 doc-type: tutorial
 audience: all
 last-substantial-update: 2023-2-8
-source-git-commit: f365e4cbf3f9bd8a0364acb9d28f8d9479809011
+source-git-commit: 67d21ca23cdccc87cdeed4a08a3ebb48e5bd1030
 workflow-type: tm+mt
 source-wordcount: '177'
 ht-degree: 0%

@@ -2,12 +2,13 @@
 title: ストアの達成の概要
 description: Buy Online, Pick up In-Store (BOPIS) エクスペリエンスをエンドツーエンドで提供する高度なオムニチャネルフルフィルメントソリューション、Walmart Commerce Technologies によるAdobe Commerceの店舗フルフィルメントについて説明します。
 landing-page-description: このビデオでは、店舗フルフィルメントソリューションが、顧客に対して店舗受け取り注文、ステージング注文、手渡し注文を受け取るための、より効率的でモバイル対応のフルフィルメントワークフローを、店舗とカーブ側受け取りの便利さに提供する方法を説明します。
+short-description: Watch this video to learn how the Store Fulfillment solution offers customers the convenience of in-store and curbside pick-up and store employees more efficient, mobile-ready fulfillment workflows to pick, stage, and hand-off store pickup orders to customers.
 doc-type: feature video
 solution: Commerce
 audience: all
 activity: use
 exl-id: 53f45eb4-29e0-426d-8e9a-784838e37e03
-source-git-commit: f614fbd70ed58fd3a8177700e4c118d4f17bf349
+source-git-commit: 67d21ca23cdccc87cdeed4a08a3ebb48e5bd1030
 workflow-type: tm+mt
 source-wordcount: '251'
 ht-degree: 0%

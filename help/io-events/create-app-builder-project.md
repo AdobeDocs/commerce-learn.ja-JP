@@ -2,11 +2,12 @@
 title: コマースイベントを使用して App Builder プロジェクトを作成する方法を説明します
 description: コマースイベントで使用する App Builder プロジェクトを作成する方法を説明します
 landing-page-description: Adobe Commerceイベントを使用するAdobeアプリビルダープロジェクトの作成方法を説明します
+short-description: Learn how to create an Adobe App Builder project to use Adobe Commerce events
 kt: 11888
 doc-type: tutorial
 audience: all
 last-substantial-update: 2023-02-22T00:00:00Z
-source-git-commit: e31325570a0b816eee5b250224d6442399685611
+source-git-commit: 67d21ca23cdccc87cdeed4a08a3ebb48e5bd1030
 workflow-type: tm+mt
 source-wordcount: '122'
 ht-degree: 0%
