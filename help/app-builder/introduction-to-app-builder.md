@@ -6,9 +6,9 @@ kt: 11433
 doc-type: tutorial
 audience: all
 last-substantial-update: 2023-02-16T00:00:00Z
-source-git-commit: 82ccecf2789e1eedf447af2705a3840d0302fdba
+source-git-commit: 021df5e5f98341204e9cc486c249dcd87fab2aa3
 workflow-type: tm+mt
-source-wordcount: '819'
+source-wordcount: '816'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 従来、Adobe Commerce開発ではインプロセス拡張機能が使用されていました。 プロセス内モデルでは、新しいコードがアップグレード、サーバーの PHP バージョン、Commerce が使用するその他の重要なサーバーアプリケーションやサービスとの互換性を持つ必要があります。 Adobe Developer App Builder は、これらの互換性の問題を回避するために、プロセス外の拡張機能を使用します。
 
-## Adobe Commerceの App Builder {#project-firefly}
+## Adobe Commerceの App Builder {#app-builder}
 
 >[!VIDEO](https://video.tv.adobe.com/v/3412839)
 
@@ -32,7 +32,7 @@ App Builder を使用すると、 [!DNL Adobe Commerce] 様々な使用例：
 * コアサービスの拡張機能 — カスタム機能とビジネスロジックを使用してデフォルトの動作を拡張し、コアアプリケーション機能を拡張します。
 * ユーザーエクスペリエンスの拡張：コアエクスペリエンスを拡張して、ビジネス要件をサポートしたり、顧客固有のデジタルプロパティ、ストアフロント、バックオフィスアプリケーションを構築したりします。
 
-App Builder（旧称 Project Firefly）は、クラウドベースのソリューションで、自動的に拡大/縮小されます。 また、このサービスは、地域に関係なく最高のパフォーマンスを実現するために、グローバルに配布されます。
+Adobe Developer App Builder はクラウドベースのソリューションで、自動的に拡張できます。 また、このサービスは、地域に関係なく最高のパフォーマンスを実現するために、グローバルに配布されます。
 
 ## App Builder の詳細を学ぶ理由
 
@@ -55,7 +55,7 @@ Adobe Developer App Builder は、標準のソリューションの代わりに�
 
 次の図は、App Builder 上に構築された標準アプリケーションがこれらの機能をどのように使用するかを示しています。
 
-![アーキテクチャ](/help/assets/app-builder/firefly-architecture.jpeg)
+![アーキテクチャ](/help/assets/app-builder/app-builder-architecture.jpeg)
 
 App Builder のアーキテクチャについて詳しくは、 [アーキテクチャの概要](https://developer.adobe.com/app-builder/docs/guides/){target="_blank"}.
 
