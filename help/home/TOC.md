@@ -2,9 +2,9 @@
 user-guide-title: ビデオとTutorials
 user-guide-description: ビデオとチュートリアルを通じて、Adobe CommerceとMagento Open Sourceについて学びます。
 breadcrumb-title: ビデオとTutorials
-source-git-commit: afd88a8996e941e9e6c00ef86d960318b8dcaee6
+source-git-commit: ce23b8d52a027f45a1a1ba633ebd82ea3cf3e1b5
 workflow-type: tm+mt
-source-wordcount: '610'
+source-wordcount: '641'
 ht-degree: 0%
 
 ---
@@ -67,6 +67,17 @@ ht-degree: 0%
    + [App Builder の拡張フレームワーク](../app-builder/extensibility-framework-commerce-eventing.md)
    + [App Builder の機能デモ](../app-builder/app-builder-functional-demonstration.md)
    + [App Builder の技術概要](../app-builder/app-builder-technical-overview.md)
+   + 最初のアプリ {#first-app}
+      + [概要](../app-builder/first-app/overview.md)
+      + [.env ファイル](../app-builder/first-app/env-file.md)
+      + [app.config.yaml ファイル](../app-builder/first-app/app-config-yaml-file.md)
+      + [アクションフォルダー](../app-builder/first-app/actions-folder.md)
+      + [テストフォルダー](../app-builder/first-app/test-folder.md)
+      + [web-src フォルダー](../app-builder/first-app/web-src-folder.md)
+      + [ローカルでのテスト](../app-builder/first-app/testing-locally.md)
+      + [App Builder の URL を使用したテスト](../app-builder/first-app/testing-app-builder-url.md)
+      + [まとめ](../app-builder/first-app/conclusion.md)
+      + [モジュールのソースコードのサンプル](https://github.com/magento/app-builder-samples){target="_blank"}
    + Adobe Commerceの IO イベント {#io-events}
       + [Adobe Commerce 2.4.5 のインストール](../io-events/2-4-5-installation.md)
       + [Adobe Commerce 2.4.6 のインストール](../io-events/2-4-6-installation.md)
