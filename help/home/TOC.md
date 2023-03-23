@@ -2,9 +2,9 @@
 user-guide-title: ビデオとTutorials
 user-guide-description: ビデオとチュートリアルを通じて、Adobe CommerceとMagento Open Sourceについて学びます。
 breadcrumb-title: ビデオとTutorials
-source-git-commit: f3eb7686068d6be02816d34c08e7ebecc681df5b
+source-git-commit: e0371a8cefab0141318daa0e1be42bfbb9e5b608
 workflow-type: tm+mt
-source-wordcount: '643'
+source-wordcount: '659'
 ht-degree: 0%
 
 ---
@@ -67,13 +67,13 @@ ht-degree: 0%
    + [App Builder の拡張フレームワーク](../app-builder/extensibility-framework-commerce-eventing.md)
    + [App Builder の機能デモ](../app-builder/app-builder-functional-demonstration.md)
    + [App Builder の技術概要](../app-builder/app-builder-technical-overview.md)
-   + 最初のアプリの構築 {#first-app}
+   + 最初のアプリ {#first-app}
       + [概要](../app-builder/first-app/overview.md)
-      + [.env ファイル](../app-builder/first-app/env-file.md)
-      + [app.config.yaml ファイル](../app-builder/first-app/app-config-yaml-file.md)
-      + [アクションフォルダー](../app-builder/first-app/actions-folder.md)
-      + [テストフォルダー](../app-builder/first-app/test-folder.md)
-      + [web-src フォルダー](../app-builder/first-app/web-src-folder.md)
+      + [.env ファイルの生成と設定](../app-builder/first-app/env-file.md)
+      + [app.config.yaml ファイルの説明と使用方法](../app-builder/first-app/app-config-yaml-file.md)
+      + [actions フォルダーの詳細](../app-builder/first-app/actions-folder.md)
+      + [テストフォルダーの詳細](../app-builder/first-app/test-folder.md)
+      + [web-src フォルダーの目的を確認する](../app-builder/first-app/web-src-folder.md)
       + [ローカルでのテスト](../app-builder/first-app/testing-locally.md)
       + [App Builder の URL を使用したテスト](../app-builder/first-app/testing-app-builder-url.md)
       + [まとめ](../app-builder/first-app/conclusion.md)

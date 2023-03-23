@@ -6,15 +6,15 @@ kt: 12422
 doc-type: tutorial
 audience: all
 last-substantial-update: 2023-03-13T00:00:00Z
-source-git-commit: 037a7571c87f328dde0f39dd830c7379bd2230b6
+source-git-commit: e0371a8cefab0141318daa0e1be42bfbb9e5b608
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '210'
 ht-degree: 0%
 
 ---
 
 
-# `actions` フォルダー {#actions-folder}
+# actions フォルダーの詳細 {#actions-folder}
 
 この `actions` このサンプルアプリのフォルダーには、いくつかの JavaScript ファイルと、 `commerce`. 表示される JavaScript は、使用する作業に関連する場合に再利用できる優れたサンプルファイルです。 このフォルダーを使用すると、OAuth と REST を使用してAdobe Commerceアプリケーションに接続する際の開発作業の時間を節約できます。
 

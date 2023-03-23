@@ -6,15 +6,15 @@ kt: 12425
 doc-type: tutorial
 audience: all
 last-substantial-update: 2023-03-13T00:00:00Z
-source-git-commit: 037a7571c87f328dde0f39dd830c7379bd2230b6
+source-git-commit: e0371a8cefab0141318daa0e1be42bfbb9e5b608
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '187'
 ht-degree: 0%
 
 ---
 
 
-# この `web-src` フォルダー {#web-src-folder}
+# web-src フォルダーの目的を確認する {#web-src-folder}
 
 このサンプルアプリケーションの web-src フォルダーには、多くの JavaScript ファイルとフォルダーが含まれています。 このフォルダーは、ユーザーインターフェイスを持つアプリケーションで使用されます。 この機能を使用しないアプリケーションもあります。 例えば、外部の在庫管理システムとのコマース統合では、フロントエンドインターフェイスとコードが不要な場合があります。
 

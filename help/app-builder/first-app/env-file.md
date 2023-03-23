@@ -6,15 +6,15 @@ kt: 12423
 doc-type: tutorial
 audience: all
 last-substantial-update: 2023-03-13T00:00:00Z
-source-git-commit: 037a7571c87f328dde0f39dd830c7379bd2230b6
+source-git-commit: e0371a8cefab0141318daa0e1be42bfbb9e5b608
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: '157'
 ht-degree: 0%
 
 ---
 
 
-# この `.env` ファイル {#env-file}
+# .env ファイルの生成と設定 {#env-file}
 
 この `.env` は、サンプルモジュールには含まれていませんが、Adobe Developer App Builder アプリケーションでの使用に重要な特別なファイルです。 このファイルには、秘密鍵とその他の情報が含まれています。 このファイルをコードリポジトリにコミットしないでください。
 
