@@ -1,7 +1,7 @@
 ---
-source-git-commit: 4a43dd7151e2ad7bd66ed3c062f94e6d9c6a58fe
+source-git-commit: 2c20b58f285f116cd9ddfaa82df98c5f24ebeb47
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '138'
 ht-degree: 0%
 
 ---
@@ -44,11 +44,11 @@ ht-degree: 0%
 <!--- Go over all the following points, and put an `x` in all the boxes that apply. -->
 <!--- If you're unsure about any of these, don't hesitate to ask. We're here to help! -->
 
-- [ ] [命名規格に従う]([https://opensource.adobe.com/cla.html](https://wiki.corp.adobe.com/display/DMSArchitecture/Naming+Standards)){target="_blank"}
+- [ ] あなたは [命名規則](https://wiki.corp.adobe.com/display/DMSArchitecture/Naming+Standards)
 - [ ] TOC と H1 は、作成または更新される各ページに対して一致します。
 - [ ] TOC と H1 には、次のようにアクションが関連付けられています。GutHub のプルリクエストを作成する方法を説明します
 - [ ] H1 では等幅にする必要はありません
 - [ ] 各ページタイトルは、***C***apitol 文字で始まる必要があります
 - [ ] チャプターを持つビデオがあるかどうかを確認しました
 - [ ] ビデオを正しく表すために、すべてのビデオにポスターが割り当てられています
-- [ ] 次を使用したか [Acrolinx](https://experienceleague.corp.adobe.com/docs/authoring-guide-exl/using/style-guide/acrolinx.html){target="_blank"}
+- [ ] 次を使用したか [Acrolinx](https://experienceleague.corp.adobe.com/docs/authoring-guide-exl/using/style-guide/acrolinx.html)
