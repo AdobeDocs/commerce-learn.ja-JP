@@ -1,7 +1,7 @@
 ---
-source-git-commit: b89fe908caa88a154481d21ff6170234dde794c1
+source-git-commit: 4a43dd7151e2ad7bd66ed3c062f94e6d9c6a58fe
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -44,10 +44,11 @@ ht-degree: 0%
 <!--- Go over all the following points, and put an `x` in all the boxes that apply. -->
 <!--- If you're unsure about any of these, don't hesitate to ask. We're here to help! -->
 
-- [ ] [命名規格に従う]([https://opensource.adobe.com/cla.html](https://wiki.corp.adobe.com/display/DMSArchitecture/Naming+Standards)).
-- [ ] 目次と H1 は、作成または更新される各ページに対して一致しますか。
-- [ ] TOC と H1 には次のアクション例がありますか。PR の作成方法を学ぶ
+- [ ] [命名規格に従う]([https://opensource.adobe.com/cla.html](https://wiki.corp.adobe.com/display/DMSArchitecture/Naming+Standards)){target="_blank"}
+- [ ] TOC と H1 は、作成または更新される各ページに対して一致します。
+- [ ] TOC と H1 には、次のようにアクションが関連付けられています。GutHub のプルリクエストを作成する方法を説明します
 - [ ] H1 では等幅にする必要はありません
-- [ ] 各ページタイトルは大文字で始める必要があります
-- [ ] ビデオにはチャプターがあります
-- [ ] ビデオが正しく表示されるように、ビデオにポスターが割り当てられています
+- [ ] 各ページタイトルは、***C***apitol 文字で始まる必要があります
+- [ ] チャプターを持つビデオがあるかどうかを確認しました
+- [ ] ビデオを正しく表すために、すべてのビデオにポスターが割り当てられています
+- [ ] 次を使用したか [Acrolinx](https://experienceleague.corp.adobe.com/docs/authoring-guide-exl/using/style-guide/acrolinx.html){target="_blank"}
