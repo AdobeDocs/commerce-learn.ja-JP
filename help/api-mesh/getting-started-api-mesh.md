@@ -7,9 +7,9 @@ kt: 11802
 doc-type: tutorial
 audience: all
 last-substantial-update: 2023-2-8
-source-git-commit: 67d21ca23cdccc87cdeed4a08a3ebb48e5bd1030
+source-git-commit: 01947a4f81409e6f08da9e7feca3e73b724f285e
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '305'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,19 @@ Adobe Developer App Builder の API メッシュを初めて使用する場合�
 API メッシュは、複数のデータソースを組み合わせて、アプリケーションが使用する単一の応答を取得します。
 
 [API メッシュの完全なドキュメントを参照してください](https://developer.adobe.com/graphql-mesh-gateway/gateway/overview/){target="_blank"}
+
+## このビデオは誰のためのものですか？
+
+* API Mesh を初めて使用する開発者または [!DNL Adobe Commerce] ～を使った経験が限られている [Adobe I/O Runtime](https://developer.adobe.com/runtime/docs/guides/overview/){target="_blank"} と API メッシュ
+
+## ビデオコンテンツ
+
+* API メッシュの概要
+* 補足ドキュメントへのリンク
+* チェックアウト時にリアルタイムで在庫チェックをおこなう使用例
+* コマースアプリケーションからの開発作業とリソース使用の移動
+
+>[!VIDEO](https://video.tv.adobe.com/v/3417534/)
 
 ## 使用例
 
