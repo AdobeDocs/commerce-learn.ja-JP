@@ -7,7 +7,7 @@ kt: 11740
 doc-type: tutorial
 audience: all
 last-substantial-update: 2023-02-16T00:00:00Z
-source-git-commit: 67d21ca23cdccc87cdeed4a08a3ebb48e5bd1030
+source-git-commit: d85426bcf3ae0412a433414d70c874964905dda0
 workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 0%
@@ -25,6 +25,6 @@ Adobe Developer App Builder でのAdobe Commerceの使用方法については�
 
 ## Adobe Commerceの App Builder {#app-builder-extensibility}
 
->[!VIDEO](https://video.tv.adobe.com/v/3413328)
+>[!VIDEO](https://video.tv.adobe.com/v/3413328?quality=12&learn=on)
 
 {{$include /help/_includes/app-builder-related-links.md}}

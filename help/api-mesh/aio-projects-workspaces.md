@@ -7,7 +7,7 @@ kt: 11803
 doc-type: tutorial
 audience: all
 last-substantial-update: 2023-2-8
-source-git-commit: 67d21ca23cdccc87cdeed4a08a3ebb48e5bd1030
+source-git-commit: d85426bcf3ae0412a433414d70c874964905dda0
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 0%
@@ -32,7 +32,7 @@ ht-degree: 0%
 * CLI で選択した組織、プロジェクト、またはワークスペースを変更する
 * 簡単な API メッシュコマンドのテスト
 
->[!VIDEO](https://video.tv.adobe.com/v/3414123/)
+>[!VIDEO](https://video.tv.adobe.com/v/3414123?quality=12&learn=on)
 
 ## Adobe Developer Console の詳細
 

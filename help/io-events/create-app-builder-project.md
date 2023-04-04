@@ -7,7 +7,7 @@ kt: 11888
 doc-type: tutorial
 audience: all
 last-substantial-update: 2023-02-22T00:00:00Z
-source-git-commit: 67d21ca23cdccc87cdeed4a08a3ebb48e5bd1030
+source-git-commit: d85426bcf3ae0412a433414d70c874964905dda0
 workflow-type: tm+mt
 source-wordcount: '122'
 ht-degree: 0%
@@ -29,7 +29,7 @@ Adobe Commerceのイベントを使用するAdobe Developer App Builder プロ�
 * Adobe Developer Console の使用
 * 使用Adobe I/O
 
->[!VIDEO](https://video.tv.adobe.com/v/3415797)
+>[!VIDEO](https://video.tv.adobe.com/v/3415797?quality=12&learn=on)
 
 ## 便利なコマンド {#useful-commands}
 

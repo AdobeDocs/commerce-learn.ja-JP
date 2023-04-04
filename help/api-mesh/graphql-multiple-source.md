@@ -7,7 +7,7 @@ kt: 11804
 doc-type: tutorial
 audience: all
 last-substantial-update: 2023-2-8
-source-git-commit: 67d21ca23cdccc87cdeed4a08a3ebb48e5bd1030
+source-git-commit: d85426bcf3ae0412a433414d70c874964905dda0
 workflow-type: tm+mt
 source-wordcount: '217'
 ht-degree: 0%
@@ -29,7 +29,7 @@ ht-degree: 0%
 * 名前の競合、スキーマの可用性、その他のスキーマ構文の問題など、エラーのトラブルシューティング方法
 * 変更した設定でメッシュを更新する
 
->[!VIDEO](https://video.tv.adobe.com/v/3414125)
+>[!VIDEO](https://video.tv.adobe.com/v/3414125?quality=12&learn=on)
 
 ## json 設定ファイルの作成
 
