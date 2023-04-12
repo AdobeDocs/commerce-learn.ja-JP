@@ -2,7 +2,7 @@
 title: GraphQLでのスキーマ言語
 description: GraphQLに関連するスキーマについて説明します。 スキーマの説明と、興味深いパターンおよびスキーマの読み方を読みます。
 landing-page-description: これはGraphQLの紹介です。 スキーマと、要素の一部の解釈方法について
-short-description: This is an introduction to GraphQL. Understanding the schema and how to interpret some of the elements
+short-description: これはGraphQLの紹介です。 スキーマと、要素の一部の解釈方法について
 kt: 11524
 doc-type: tutorial
 audience: all
@@ -10,7 +10,7 @@ last-substantial-update: 2022-12-13T00:00:00Z
 exl-id: 6b59db07-b99e-47ae-9ccb-d4904afc8251
 source-git-commit: 67d21ca23cdccc87cdeed4a08a3ebb48e5bd1030
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---

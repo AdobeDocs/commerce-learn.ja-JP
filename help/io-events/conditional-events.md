@@ -2,18 +2,18 @@
 title: Adobe Commerceでの条件付きイベントの使用方法を説明します
 description: Adobe Developer App Builder で使用する条件付きイベントの使用方法を説明します。
 landing-page-description: Adobe Commerceの条件付きイベントの使用方法を説明します。
-short-description: Learn how to use Adobe Commerce conditional events.
+short-description: Adobe Commerceの条件付きイベントの使用方法を説明します。
 kt: 11890
 doc-type: tutorial
 audience: all
 last-substantial-update: 2023-02-21T00:00:00Z
-source-git-commit: d85426bcf3ae0412a433414d70c874964905dda0
+exl-id: 03787aa3-051b-4a35-b2e8-ecf6762b5eb4
+source-git-commit: edb98cf6544954d741c43beb39f4056326c7d26b
 workflow-type: tm+mt
-source-wordcount: '136'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
-
 
 # Adobe Commerce条件付きイベント
 

@@ -2,7 +2,7 @@
 title: 開発者向けの Page Builder — 概要
 description: ページビルダーの概要、ページビルダー機能について
 landing-page-description: このビデオシリーズでは、ページビルダーの概要と、ページビルダーを拡張して最適なページを作成する方法を紹介します [!DNL Commerce] ストアフロントエクスペリエンス
-short-description: Watch this video series to learn about Page Builder and how you can extend it to create optimal [!DNL Commerce] storefront experiences.
+short-description: このビデオシリーズでは、ページビルダーの概要と、ページビルダーを拡張して最適なページを作成する方法を紹介します [!DNL Commerce] ストアフロントエクスペリエンス
 topic: Commerce, Development
 kt: 5650
 doc-type: video
@@ -10,7 +10,7 @@ activity: use
 exl-id: 436003ca-df48-4441-a1f4-bd8ea977a9cc
 source-git-commit: 67d21ca23cdccc87cdeed4a08a3ebb48e5bd1030
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '127'
 ht-degree: 0%
 
 ---

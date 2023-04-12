@@ -2,7 +2,7 @@
 title: GraphQLを使用したミューテーションの実行
 description: Adobe CommerceでのGraphQLを使用した突然変異の実行と、 [!DNL Magento Open Source]. ミューテーションコールを使用して、最初のPOSTを実行します。
 landing-page-description: Adobe CommerceでのGraphQLを使用した突然変異の実行と、 [!DNL Magento Open Source]. ミューテーションコールを使用して、最初のPOSTを実行します。
-short-description: Get an introduction about performing a mutation using GraphQL on Adobe Commerce and [!DNL Magento Open Source]. Perform your first mutation using POST calls.
+short-description: Adobe CommerceでのGraphQLを使用した突然変異の実行と、 [!DNL Magento Open Source]. ミューテーションコールを使用して、最初のPOSTを実行します。
 kt: 11524
 doc-type: tutorial
 audience: all
@@ -10,7 +10,7 @@ last-substantial-update: 2022-12-13T00:00:00Z
 exl-id: 6b82ffda-925f-4a81-8ca5-49a2b8ab4929
 source-git-commit: 67d21ca23cdccc87cdeed4a08a3ebb48e5bd1030
 workflow-type: tm+mt
-source-wordcount: '337'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---

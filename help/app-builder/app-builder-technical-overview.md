@@ -2,18 +2,18 @@
 title: App Builder の技術概要
 description: 技術概要を含む、Adobe Commerceで使用されるAdobe Developer App Builder について説明します
 landing-page-description: 技術概要を含む、Adobe Commerceで使用されるAdobe Developer App Builder について説明します
-short-description: Learn about Adobe Developer App Builder used in Adobe Commerce with a technical overview
+short-description: 技術概要を含む、Adobe Commerceで使用されるAdobe Developer App Builder について説明します
 kt: 11763
 doc-type: tutorial
 audience: all
 last-substantial-update: 2023-02-16T00:00:00Z
-source-git-commit: d85426bcf3ae0412a433414d70c874964905dda0
+exl-id: d7c20134-976b-4b8f-bb48-96884032a5fb
+source-git-commit: edb98cf6544954d741c43beb39f4056326c7d26b
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
 
 ---
-
 
 # App Builder の技術概要
 
