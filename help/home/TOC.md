@@ -2,9 +2,9 @@
 user-guide-title: ビデオとTutorials
 user-guide-description: ビデオとチュートリアルを通じて、Adobe CommerceとMagento Open Sourceについて学びます。
 breadcrumb-title: ビデオとTutorials
-source-git-commit: 424f0581e9f2c452fdbf4512e19139fec3c88940
+source-git-commit: 133b6f366cee2e51cd150649e2ff1865e1ee23e9
 workflow-type: tm+mt
-source-wordcount: '663'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -177,7 +177,7 @@ ht-degree: 0%
    + [モジュールの作成](../backend-development/create-module.md)
    + [製品属性の追加](../backend-development/add-product-attribute.md)
    + [依存関係の挿入の例](../backend-development/dependency-injection.md)
-+ フロントエンド開発 {#frontend-development}
++ ネイティブフロントエンド Luma 開発 {#frontend-development}
    + 開発者向けの Page Builder {#page-builder}
       + [1 — はじめに](../frontend-development/page-builder/1-intro-case-studies.md)
       + [2 — 設定とコンテンツ](../frontend-development/page-builder/2-config-create-content.md)
@@ -187,7 +187,10 @@ ht-degree: 0%
       + [6 — カスタムコンテンツタイプ](../frontend-development/page-builder/6-custom-content-types.md)
    + [JavaScript モジュールの追加](../frontend-development/add-javascript-module.md)
    + [ページの作成](../frontend-development/create-page.md)
-+ PWA Studio {#pwa-studio}
+
++ ヘッドレスアーキテクチャ {#headless-architecture}
+   + ヘッドレスの概要 {#introduction-to-headless}
+      + [ヘッドレスアーキテクチャ — セッション 1](../headless/session-1.md)
    + PWA Studioの概要 {#introduction}
       + [1 — 概要](../pwa/introduction/1-overview.md)
       + [2 -PWA Studioツール](../pwa/introduction/2-pwa-studio-tools.md)
