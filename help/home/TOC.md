@@ -2,9 +2,9 @@
 user-guide-title: ビデオとTutorials
 user-guide-description: ビデオとチュートリアルを通じて、Adobe CommerceとMagento Open Sourceについて学びます。
 breadcrumb-title: ビデオとTutorials
-source-git-commit: 9c25b5980c34347eecfa8fc608f50576615f0ac4
+source-git-commit: b8dd6c146735721612d55365e9559c925953f062
 workflow-type: tm+mt
-source-wordcount: '680'
+source-wordcount: '714'
 ht-degree: 0%
 
 ---
@@ -138,6 +138,14 @@ ht-degree: 0%
    + [共有カタログを管理](../b2b/shared-catalogs.md)
    + [会社クレジットの管理](../b2b/company-credit.md)
    + [発注と承認](../b2b/purchase-orders.md)
+   + 見積もり {#b2b-quote}
+      + [セールス担当者が見積もりを開始](../b2b/sales-rep-initiates-quote.md)
+      + [管理者からの見積もり検証](../b2b/quote-validation-admin-panel.md)
+      + [セールス担当者が見積もり REST API を開始](../b2b/sales-rep-initiates-quote-api.md)
+      + [見積明細行品目の割引](../b2b/quote-line-item-discount.md)
+      + [見積行項目のメモ](../b2b/quote-line-item-notes.md)
+      + [見積明細行品目の割引GraphQL](../b2b/quote-graphql-line-item-discount.md)
+      + [見積明細行品目の割引 REST API](../b2b/quote-rest-api-line-item-notes.md)
 + ツールおよび外部サービス {#tools}
    + [サイト全体分析ツールダッシュボード](../tools/site-wide-analysis-tool.md)
    + [Adobe Commerceの観測](../tools/observation-tool.md)
