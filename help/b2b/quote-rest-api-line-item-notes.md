@@ -7,9 +7,9 @@ role: Admin, User
 activity: use
 badge: label="B2B for Adobe Commerce" type="Positive"
 last-substantial-update: 2023-06-13T00:00:00Z
-source-git-commit: b11892473580024f2312c0d80102196409888ab8
+source-git-commit: 2c46232cf16da74c698a5824d678389f89667399
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '70'
 ht-degree: 0%
 
 ---
@@ -27,10 +27,4 @@ REST API を使用して、Adobe Commerce B2B の見積もりに行項目のメ�
 
 >[!VIDEO](https://video.tv.adobe.com/v/3420418?learn=on)
 
-## その他のリソース
-
-- [見積もりの概要](https://experienceleague.adobe.com/docs/commerce-admin/b2b/quotes/quotes.html){target="_blank"}
-- [引用符の設定](https://experienceleague.adobe.com/docs/commerce-admin/b2b/quotes/configure-quotes.html){target="_blank"}
-- [見積もり依頼](https://experienceleague.adobe.com/docs/commerce-admin/b2b/quotes/quote-request.html){target="_blank"}
-- [見積もりの交渉](https://experienceleague.adobe.com/docs/commerce-admin/b2b/quotes/quote-price-negotiation.html){target="_blank"}
-- [私の引用符](https://experienceleague.adobe.com/docs/commerce-admin/b2b/quotes/account-dashboard-my-quotes.html){target="_blank"}
+{{$include /help/_includes/b2b-quote-additional-resources.md}}
