@@ -2,9 +2,9 @@
 user-guide-title: ビデオとTutorials
 user-guide-description: ビデオとチュートリアルを通じて、Adobe CommerceとMagento Open Sourceについて学びます。
 breadcrumb-title: ビデオとTutorials
-source-git-commit: 8d183d343c6aca85d8bf490df051372ab76f77a0
+source-git-commit: 9c25b5980c34347eecfa8fc608f50576615f0ac4
 workflow-type: tm+mt
-source-wordcount: '675'
+source-wordcount: '680'
 ht-degree: 0%
 
 ---
@@ -67,6 +67,7 @@ ht-degree: 0%
    + [App Builder の拡張フレームワーク](../app-builder/extensibility-framework-commerce-eventing.md)
    + [App Builder の機能デモ](../app-builder/app-builder-functional-demonstration.md)
    + [App Builder の技術概要](../app-builder/app-builder-technical-overview.md)
+   + [Marketplace にアプリを送信](../app-builder/submit-app-process.md)
    + 最初の App Builder アプリを作成する {#first-app}
       + [概要](../app-builder/first-app/overview.md)
       + [.env ファイルの生成と設定](../app-builder/first-app/env-file.md)
