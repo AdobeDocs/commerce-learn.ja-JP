@@ -2,9 +2,9 @@
 user-guide-title: ビデオとTutorials
 user-guide-description: ビデオとチュートリアルを通じて、Adobe CommerceとMagento Open Sourceについて学びます。
 breadcrumb-title: ビデオとTutorials
-source-git-commit: 2cc6f6594640244e5ccc3a40325850363d59e71f
+source-git-commit: d72c60ff1626307e904e5258acdff5e1c2497259
 workflow-type: tm+mt
-source-wordcount: '625'
+source-wordcount: '523'
 ht-degree: 0%
 
 ---
@@ -117,31 +117,11 @@ ht-degree: 0%
    + [クォリティパッチツール](../tools/quality-patch-tool.md)
    + New Relic {#new-relic}
       + [悪意のある IP の検索](../new-relic/malicious-ip.md)
-+ MBI {#mbi}
++ Commerce Intelligence {#mbi}
    + [フィルターセット](../business-intelligence/filter-sets.md)
    + [コホートReport Builder](../business-intelligence/cohort-report-builder.md)
    + [SQLReport Builder](../business-intelligence/sql-report-builder.md)
    + [将来の備え](../business-intelligence/prepare-for-future.md)
-   + 録画済みウェビナー {#webinars}
-      + [MBI の概要](https://experienceleague.adobe.com/docs/commerce-events/events/mbi/2021/getting-started.html)
-      + [MBI でのデータセットの管理](https://experienceleague.adobe.com/docs/commerce-events/events/mbi/2022/manage-data-sets.html)
-      + [MBIData Warehouseの最適化](https://experienceleague.adobe.com/docs/commerce-events/events/mbi/2021/optimize-data-warehouse.html)
-      + [MBI ダッシュボードの詳細](https://experienceleague.adobe.com/docs/commerce-events/events/mbi/2021/dashboards-deep-dive.html)
-      + [MBI を使用した休日の準備](https://experienceleague.adobe.com/docs/commerce-events/events/mbi/2021/holiday-readiness.html)
-      + [MBI — エキスパートに質問](https://experienceleague.adobe.com/docs/commerce-events/events/mbi/2021/ask-expert.html)
-   + MBI ビデオシリーズの概要 {#introduction}
-      + [概要](../business-intelligence/1-overview.md)
-      + [データウェアハウス](../business-intelligence/2-data-warehousing.md)
-      + [レポートの作成](../business-intelligence/3-build-reports.md)
-      + [指標](../business-intelligence/4-metrics.md)
-      + [標準レポート](../business-intelligence/5-standard-reports.md)
-      + [エグゼクティブサマリー](../business-intelligence/6-executive-summary-dashboard.md)
-      + [注文ダッシュボード](../business-intelligence/7-orders-dashboard.md)
-      + [顧客中心のダッシュボード](../business-intelligence/8-customer-focused-dashboards.md)
-      + [カテゴリ分析](../business-intelligence/9-category-analysis.md)
-      + [投資追跡利益率](../business-intelligence/10-roi-tracking.md)
-      + [結果の共有とデータのエクスポート](../business-intelligence/11-share-results-export-data.md)
-      + [顧客の成功事例](../business-intelligence/12-customer-success.md)
 + コマースのアップグレード {#upgrade}
    + [Adobe Commerce 2.4 アップグレードワークショップ](../upgrade/2.4-upgrade-workshop.md)
    + [アップグレード互換性ツールの概要](../upgrade/upgrade-compatibility-tool-overview.md)
