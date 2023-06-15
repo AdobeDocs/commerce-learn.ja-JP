@@ -2,9 +2,9 @@
 user-guide-title: ビデオとTutorials
 user-guide-description: ビデオとチュートリアルを通じて、Adobe CommerceとMagento Open Sourceについて学びます。
 breadcrumb-title: ビデオとTutorials
-source-git-commit: 94a690fb12faa26385b42069682dd72fe2a22a6a
+source-git-commit: 2cc6f6594640244e5ccc3a40325850363d59e71f
 workflow-type: tm+mt
-source-wordcount: '695'
+source-wordcount: '625'
 ht-degree: 0%
 
 ---
@@ -21,30 +21,6 @@ ht-degree: 0%
       + [4 — 導入](../cloud/4-deployment.md)
       + [5 — 開発](../cloud/5-dev-config.md)
       + [6 — サービスと DNS](../cloud/6-launch.md)
-   + [!DNL Commerce] （ビジネスユーザー向け） {#merchants}
-      + [1.1 - [!DNL Admin] メニュー](../site-management/introduction/1-1-menus.md)
-      + [1.2 — データグリッド](../site-management/introduction/1-2-data-grids.md)
-      + [1.3 — 範囲、サイト、ストア](../site-management/introduction/1-3-apps-scopes-sites-stores.md)
-      + [1.4 — ストアビューとキャッシュ](../site-management/introduction/1-4-store-views-cache.md)
-      + [1.5 — 管理者ユーザーアカウントとロール](../site-management/introduction/1-5-users-roles.md)
-      + [1.6 — ロールスコープ](../site-management/introduction/1-6-role-scopes.md)
-      + [1.7 — ビジネス設定](../site-management/introduction/1-7-business-settings.md)
-      + [2.1 — カテゴリ](../site-management/introduction/2-1-categories.md)
-      + [2.2 — カテゴリのランディングページ](../site-management/introduction/2-2-category-landing-page.md)
-      + [3.1 — 製品のタイプとオプション](../site-management/introduction/3-1-product-types-options.md)
-      + [3.2 — 製品設定](../site-management/introduction/3-2-product-settings.md)
-      + [3.3 — 製品属性](../site-management/introduction/3-3-product-attributes.md)
-      + [3.4 — 製品属性セット](../site-management/introduction/3-4-product-attribute-sets.md)
-      + [3.5 — シンプルな製品の作成](../site-management/introduction/3-5-create-simple-product.md)
-      + [3.6 — 設定可能な属性](../site-management/introduction/3-6-configurable-attributes.md)
-      + [3.7 — 製品の読み込み/書き出し](../site-management/introduction/3-7-import-export-products.md)
-      + [3.8 — ギフトカード](../site-management/introduction/3-8-gift-cards.md)
-      + [4.1 — レイヤーナビゲーション](../site-management/introduction/4-1-layered-navigation.md)
-      + [4.2 — 製品カテゴリの整理](../site-management/introduction/4-2-arrange-product-categories.md)
-      + [5.1 — ストアフロントエクスペリエンス](../site-management/introduction/5-1-storefront-experience.md)
-      + [5.2 — 顧客管理](../site-management/introduction/5-2-customer-management.md)
-      + [5.3 — 電子メール通信](../site-management/introduction/5-3-store-communications.md)
-      + [5.4 — グローバルリファレンスアーキテクチャ](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/architecture/global-reference.html)
 + GraphQLと REST {#graphql-rest}
    + [GraphQLの基本を学ぶ](../graphql-rest/getting-started-graphql.md)
    + [GraphQLの基本](../graphql-rest/intro-graphql.md)
