@@ -1,13 +1,16 @@
 ---
 title: '"[!DNL Commerce] ビジネスユーザー向け — E メール通信»'
 description: ストアフロントでのアクションによってトリガーされるトランザクション E メールを使用して、顧客とコミュニケーションを取ります。 ストアの電子メールテンプレートをカスタマイズして設定します。
-topic: Commerce
 kt: 5780
 doc-type: video
-role: Admin, Leader, User
 activity: use
+last-substantial-update: 2022-12-28T00:00:00Z
+feature: Configuration, System, Customers, Personalization
+topic: Commerce, Administration
+role: Admin, Leader, User
+level: Beginner, Intermediate
 exl-id: 91530766-07be-4466-879b-1b7bfc14ac10
-source-git-commit: e8d2631b31319701beb327f42fdf1372d9dad9b7
+source-git-commit: f7aa1f0063cbcad6d331a13817214b1bf2158571
 workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 0%

@@ -2,12 +2,16 @@
 title: コンテンツのステージング
 description: 管理者から直接、様々なコンテンツの更新をストアに対して作成、プレビュー、スケジュールする方法を説明します。
 doc-type: feature video
-role: Admin, User
 audience: all
 activity: use
 badge: label="Adobe Commerceでのみ" type="ポジティブ"
+last-substantial-update: 2023-04-27T00:00:00Z
+feature: Configuration, System, Staging
+topic: Commerce, Administration
+role: Admin, User
+level: Beginner, Intermediate
 exl-id: fc5a7cd3-905a-49ac-86b8-215dd8c36d73
-source-git-commit: 884f7b71c9996d29d1c8eb07a30c445338b660f0
+source-git-commit: 404d2708a6d540d6fb19a33afb20726356cd8000
 workflow-type: tm+mt
 source-wordcount: '145'
 ht-degree: 0%

@@ -4,13 +4,17 @@ description: クラウドスタック内の主要なテクノロジーを特定�
 landing-page-description: Adobe Commerceのデプロイと管理に使用するクラウドインフラストラクチャの概要については、このビデオシリーズをご覧ください。
 short-description: Adobe Commerceのデプロイと管理に使用するクラウドインフラストラクチャの概要については、このビデオシリーズをご覧ください。
 kt: 5656
+feature: Cloud
+topic: Commerce, Architecture
+role: Admin, Architect, Developer, User
+level: Beginner, Intermediate
 doc-type: video
 audience: all
 activity: use
 exl-id: 13ebcc7f-c0ed-4e8f-8344-1d1adb4249db
-source-git-commit: 67d21ca23cdccc87cdeed4a08a3ebb48e5bd1030
+source-git-commit: 404d2708a6d540d6fb19a33afb20726356cd8000
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '114'
 ht-degree: 0%
 
 ---

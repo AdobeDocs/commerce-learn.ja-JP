@@ -7,10 +7,14 @@ kt: 11524
 doc-type: tutorial
 audience: all
 last-substantial-update: 2022-12-13T00:00:00Z
+feature: GraphQL
+topic: Commerce, Architecture, Headless
+role: Architect, Developer
+level: Beginner, Intermediate
 exl-id: 8ea823da-24a3-4627-885c-4b3279b9142c
-source-git-commit: 67d21ca23cdccc87cdeed4a08a3ebb48e5bd1030
+source-git-commit: 404d2708a6d540d6fb19a33afb20726356cd8000
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '493'
 ht-degree: 0%
 
 ---
@@ -40,7 +44,7 @@ GraphQL仕様を実装するランタイムは、どの言語でも構築でき�
 
 * [アルテアール](https://altairgraphql.dev/){target="_blank"} は、GraphQL専用に構築された優れた完全な機能を備えたクライアントです。 Adobeは、ウォークスルービデオで Altair を使用しています。
 * デスクトップアプリケーションをインストールしない場合は、
-   [クロム](https://chrome.google.com/webstore/detail/altair-graphql-client/flnheeellpciglgpaodhkhmapeljopja){target="_blank"}, Firefox, or [Edge](https://microsoftedge.microsoft.com/addons/detail/altair-graphql-client/kpggioiimijgcalmnfnalgglgooonopa){target="_blank"} ブラウザー。
+  [クロム](https://chrome.google.com/webstore/detail/altair-graphql-client/flnheeellpciglgpaodhkhmapeljopja){target="_blank"}, Firefox, or [Edge](https://microsoftedge.microsoft.com/addons/detail/altair-graphql-client/kpggioiimijgcalmnfnalgglgooonopa){target="_blank"} ブラウザー。
 * [GraphiQL](https://github.com/graphql/graphiql/tree/main/packages/graphiql){target="_blank"} は、GraphQL Foundation からのGraphQL IDE の実装です。 これはインストール可能なツールではなく、自分でインターフェイスを構築するために使用できるパッケージです。
 * 既に [Postman](https://www.postman.com/){target="_blank"}を使用する場合、GraphQLクエリは十分にサポートされますが、専用のGraphQLクライアントほど機能が完全には備わっていません。
 

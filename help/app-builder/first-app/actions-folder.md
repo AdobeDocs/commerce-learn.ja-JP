@@ -5,14 +5,18 @@ landing-page-description: Adobe Commerceで使用されるAdobe Developer App Bu
 kt: 12422
 doc-type: tutorial
 audience: all
-last-substantial-update: 2023-03-13T00:00:00Z
-source-git-commit: d85426bcf3ae0412a433414d70c874964905dda0
+last-substantial-update: 2023-3-13
+feature: API Mesh, App Builder, Extensibility, Tools and External Services, Backend Development
+topic: App Builder, I/O Events, Developer Console, Commerce, Development, Integrations
+role: Architect, Developer
+level: Beginner, Intermediate
+exl-id: d13ed1e7-b18e-4bf5-af87-2a69e2588d65
+source-git-commit: 404d2708a6d540d6fb19a33afb20726356cd8000
 workflow-type: tm+mt
 source-wordcount: '210'
 ht-degree: 0%
 
 ---
-
 
 # actions フォルダーの詳細 {#actions-folder}
 

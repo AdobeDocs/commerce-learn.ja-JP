@@ -5,11 +5,15 @@ landing-page-description: 互換性のない問題を簡単に識別して対処
 short-description: 互換性のない問題を簡単に識別して対処できる PHP Storm プラグインで Upgrade Compatibility Tool を使用する方法を説明します。
 kt: 9651
 doc-type: technical video
-role: Developer
 audience: all
 activity: use
+last-substantial-update: 2023-04-27T00:00:00Z
+feature: Configuration, System, Upgrade, Tools and External Services
+topic: Commerce, Administration
+role: Architect, Developer
+level: Beginner, Intermediate
 exl-id: 9b56306c-578b-4c9f-9566-b8c9560d1b1c
-source-git-commit: 67d21ca23cdccc87cdeed4a08a3ebb48e5bd1030
+source-git-commit: 404d2708a6d540d6fb19a33afb20726356cd8000
 workflow-type: tm+mt
 source-wordcount: '182'
 ht-degree: 0%

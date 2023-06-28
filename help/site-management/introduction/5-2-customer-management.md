@@ -1,13 +1,16 @@
 ---
 title: '"[!DNL Commerce] ビジネスユーザー向け — 顧客管理»'
 description: カスタマーサービスに対して推奨される権限と、 [!DNL Admin]、顧客情報の管理、顧客グループの作成を行います。
-topic: Commerce
 kt: 5779
 doc-type: video
-role: Admin, Leader, User
 activity: use
+last-substantial-update: 2022-12-28T00:00:00Z
+feature: Configuration, System, Customers
+topic: Commerce, Administration
+role: Admin, Leader, User
+level: Beginner, Intermediate
 exl-id: 7a0743ff-03dd-49cc-9d41-6674b71a4480
-source-git-commit: e8d2631b31319701beb327f42fdf1372d9dad9b7
+source-git-commit: f7aa1f0063cbcad6d331a13817214b1bf2158571
 workflow-type: tm+mt
 source-wordcount: '90'
 ht-degree: 0%

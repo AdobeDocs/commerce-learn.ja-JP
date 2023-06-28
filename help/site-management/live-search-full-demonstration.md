@@ -5,7 +5,12 @@ kt: 13168
 doc-type: tutorial
 audience: all
 last-substantial-update: 2023-04-27T00:00:00Z
-source-git-commit: eda066240960ae7c0b36bd7c22f8598e613a2d73
+feature: Configuration, System, Personalization, Search
+topic: Commerce, Administration, Content Management
+role: Admin, Leader, User
+level: Beginner, Intermediate
+exl-id: 92f57e62-5a60-484f-9b79-27c824708619
+source-git-commit: 404d2708a6d540d6fb19a33afb20726356cd8000
 workflow-type: tm+mt
 source-wordcount: '114'
 ht-degree: 0%

@@ -5,14 +5,18 @@ landing-page-description: Adobe Commerceで使用し、最初のアプリを作�
 kt: 12421
 doc-type: tutorial
 audience: all
-last-substantial-update: 2023-03-13T00:00:00Z
-source-git-commit: d85426bcf3ae0412a433414d70c874964905dda0
+last-substantial-update: 2023-3-13
+feature: API Mesh, App Builder, Extensibility, Tools and External Services, Backend Development
+topic: App Builder, I/O Events, Developer Console, Commerce, Development, Integrations
+role: Architect, Developer
+level: Beginner, Intermediate
+exl-id: 0b6a91dd-e5c4-4ead-84d4-362de070815e
+source-git-commit: 404d2708a6d540d6fb19a33afb20726356cd8000
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '319'
 ht-degree: 0%
 
 ---
-
 
 # 概要 {#overview}
 
@@ -51,4 +55,3 @@ ht-degree: 0%
 {{avoid-400-error}}
 
 {{$include /help/_includes/app-builder-first-app-related-links.md}}
-

@@ -2,10 +2,14 @@
 title: '''[!DNL Commerce] ビデオとTutorials'
 description: Adobe CommerceとMagento Open Sourceのビデオとチュートリアルのコレクションです
 last-substantial-update: 2023-01-19T00:00:00Z
+feature: B2B, GraphQL, REST, Commerce Intelligence, Cloud, Best Practices, API Mesh, App Builder
+topic: Commerce, Architecture
+role: Architect, Developer, User
+level: Beginner, Intermediate
 exl-id: e6bed3a4-4078-40df-88b0-3bad6c144aeb
-source-git-commit: 748b2c03cd64cf2764087040943e4d37ea6daf0e
+source-git-commit: f7aa1f0063cbcad6d331a13817214b1bf2158571
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '146'
 ht-degree: 0%
 
 ---

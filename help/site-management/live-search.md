@@ -3,12 +3,14 @@ title: «の概要 [!DNL Live Search]"
 description: 「 [!DNL Live Search] お客様の店舗に追加し、魅力的で関連性の高い、パーソナライズされたショッピングエクスペリエンスを提供します。」
 doc-type: feature video
 audience: all
-role: Admin, User
-activity: use
-last-substantial-update: 2023-04-27T00:00:00Z
 badge: label="Adobe Commerceでのみ" type="ポジティブ"
+last-substantial-update: 2023-04-27T00:00:00Z
+feature: Configuration, System, Personalization, Search
+topic: Commerce, Administration
+role: Admin, User
+level: Beginner, Intermediate
 exl-id: a2a65242-9510-447d-8e35-4b9698ddd7b2
-source-git-commit: eda066240960ae7c0b36bd7c22f8598e613a2d73
+source-git-commit: 404d2708a6d540d6fb19a33afb20726356cd8000
 workflow-type: tm+mt
 source-wordcount: '98'
 ht-degree: 0%

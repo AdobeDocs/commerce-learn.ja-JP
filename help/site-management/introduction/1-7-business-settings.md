@@ -1,13 +1,16 @@
 ---
 title: '"[!DNL Commerce] ビジネスユーザー向け — ストア設定»'
 description: ロケールの設定、ストア情報、セキュリティで保護された URL とセキュリティで保護された URL、Web サイトのタイトル、ロゴ、著作権情報、通信用電子メールロゴ、ストアの電子メールアドレス、通貨オプション、および通貨レートについて説明します。
-topic: Commerce
 kt: 5764
 doc-type: video
-role: Admin, Leader, User
 activity: use
+last-substantial-update: 2022-12-28T00:00:00Z
+feature: Configuration, System
+topic: Commerce, Administration
+role: Admin, Leader, User
+level: Beginner, Intermediate
 exl-id: c4b78f66-26eb-4b7e-950d-f2a8ebab9783
-source-git-commit: e8d2631b31319701beb327f42fdf1372d9dad9b7
+source-git-commit: f7aa1f0063cbcad6d331a13817214b1bf2158571
 workflow-type: tm+mt
 source-wordcount: '119'
 ht-degree: 0%
