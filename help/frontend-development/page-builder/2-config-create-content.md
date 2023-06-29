@@ -1,12 +1,15 @@
 ---
 title: 開発者向けの Page Builder — 設定とコンテンツのカスタマイズ
 description: Page Builder の設定と設定を行いま​す。 Page Builder のワークスペースについてを参照してくだ​さい。 コンテンツタイプ（レイアウト、要素、メディア、その他のコンテンツ）を理解し、使用しま​す。 Page Builder でカタログコンテンツを追加します。
-topic: Commerce, Development
 kt: 5651
 doc-type: video
 activity: use
+feature: Page Content, Native Luma Frontend Development
+topic: Commerce, Development
+role: Admin, Developer, User
+level: Beginner, Intermediate
 exl-id: 589d13fe-3b9d-4a48-a26e-a43b44726f93
-source-git-commit: e8d2631b31319701beb327f42fdf1372d9dad9b7
+source-git-commit: 8465b3cc417d328461c52cf6da07f953c8250dd2
 workflow-type: tm+mt
 source-wordcount: '138'
 ht-degree: 0%
