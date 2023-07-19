@@ -3,9 +3,9 @@ user-guide-title: ビデオとTutorials
 user-guide-description: ビデオとチュートリアルを通じて、Adobe CommerceとMagento Open Sourceについて学びます。
 breadcrumb-title: ビデオとTutorials
 solution: Commerce
-source-git-commit: 280129eff96d1d4528b53081219bce2a8fb5baf8
+source-git-commit: 38fcf6e2f618fe8014ffa71f937087fe2b39248c
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '523'
 ht-degree: 0%
 
 ---
@@ -132,6 +132,7 @@ ht-degree: 0%
    + [モジュールの作成](../backend-development/create-module.md)
    + [製品属性の追加](../backend-development/add-product-attribute.md)
    + [依存関係の挿入の例](../backend-development/dependency-injection.md)
+   + [Galera クラスターのレプリケーションが遅い](../backend-development/galera-db-slow-replication.md)
 + ネイティブフロントエンド Luma 開発 {#frontend-development}
    + 開発者向けの Page Builder {#page-builder}
       + [1 — はじめに](../frontend-development/page-builder/1-intro-case-studies.md)
