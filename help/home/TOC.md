@@ -3,9 +3,9 @@ user-guide-title: ビデオとTutorials
 user-guide-description: ビデオとチュートリアルを通じて、Adobe CommerceとMagento Open Sourceについて学びます。
 breadcrumb-title: ビデオとTutorials
 solution: Commerce
-source-git-commit: 38fcf6e2f618fe8014ffa71f937087fe2b39248c
+source-git-commit: 09f807bfb9917e892e53c984e03e63d9ddd277a3
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '526'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
    + [GraphQLの基本を学ぶ](../graphql-rest/getting-started-graphql.md)
    + [GraphQLの基本](../graphql-rest/intro-graphql.md)
    + [クエリ](../graphql-rest/graphql-queries.md)
-   + [突然変異](../graphql-rest/graphql-mutations.md)
+   + [変異](../graphql-rest/graphql-mutations.md)
    + [スキーマ](../graphql-rest/graphql-schema.md)
 + Adobe Developer App Builder {#adobe-developer-app-builder}
    + [App Builder の概要](../app-builder/introduction-to-app-builder.md)
@@ -107,7 +107,7 @@ ht-degree: 0%
       + [セールス担当者が見積もりを開始](../b2b/sales-rep-initiates-quote.md)
       + [管理者からの見積もり検証](../b2b/quote-validation-admin-panel.md)
       + [セールス担当者が見積もり REST API を開始](../b2b/sales-rep-initiates-quote-api.md)
-      + [見積明細行品目の割引](../b2b/quote-line-item-discount.md)
+      + [見積明細行の品目の割引](../b2b/quote-line-item-discount.md)
       + [見積行項目のメモ](../b2b/quote-line-item-notes.md)
       + [見積明細行品目の割引GraphQL](../b2b/quote-graphql-line-item-discount.md)
       + [見積明細行品目の割引 REST API](../b2b/quote-rest-api-line-item-notes.md)
@@ -121,18 +121,19 @@ ht-degree: 0%
    + [フィルターセット](../business-intelligence/filter-sets.md)
    + [コホートReport Builder](../business-intelligence/cohort-report-builder.md)
    + [SQLReport Builder](../business-intelligence/sql-report-builder.md)
-   + [将来の備え](../business-intelligence/prepare-for-future.md)
+   + [未来のための準備](../business-intelligence/prepare-for-future.md)
 + コマースのアップグレード {#upgrade}
    + [Adobe Commerce 2.4 アップグレードワークショップ](../upgrade/2.4-upgrade-workshop.md)
    + [アップグレード互換性ツールの概要](../upgrade/upgrade-compatibility-tool-overview.md)
    + [PHP Storm のアップグレード互換性ツールを使用する](../upgrade/uct-phpstorm.md)
-+ バックエンド開発 {#backend-development}
++ バックエンドの開発 {#backend-development}
    + [データベーステーブルを変更する際のベストプラクティス](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables.html)
    + [データベースにテーブルを追加する](../backend-development/new-db-table.md)
    + [モジュールの作成](../backend-development/create-module.md)
    + [製品属性の追加](../backend-development/add-product-attribute.md)
    + [依存関係の挿入の例](../backend-development/dependency-injection.md)
    + [Galera クラスターのレプリケーションが遅い](../backend-development/galera-db-slow-replication.md)
+   + [MySQL クエリキャッシュ](../backend-development/mysql-query-cache.md)
 + ネイティブフロントエンド Luma 開発 {#frontend-development}
    + 開発者向けの Page Builder {#page-builder}
       + [1 — はじめに](../frontend-development/page-builder/1-intro-case-studies.md)
@@ -143,7 +144,6 @@ ht-degree: 0%
       + [6 — カスタムコンテンツタイプ](../frontend-development/page-builder/6-custom-content-types.md)
    + [JavaScript モジュールの追加](../frontend-development/add-javascript-module.md)
    + [ページの作成](../frontend-development/create-page.md)
-
 + ヘッドレスアーキテクチャ {#headless-architecture}
    + ヘッドレスの概要 {#introduction-to-headless}
       + [ヘッドレスアーキテクチャ — セッション 1](../headless/session-1.md)
