@@ -3,9 +3,9 @@ user-guide-title: ビデオとTutorials
 user-guide-description: ビデオとチュートリアルを通じて、Adobe CommerceとMagento Open Sourceについて学びます。
 breadcrumb-title: ビデオとTutorials
 solution: Commerce
-source-git-commit: 09f807bfb9917e892e53c984e03e63d9ddd277a3
+source-git-commit: 925f3581757548393ada567d523aedab24d1527d
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '521'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,6 @@ ht-degree: 0%
    + [顧客属性の作成](../site-management/customer-attributes.md)
    + [販売者支援ショッピング](../site-management/seller-assisted-shopping.md)
 + カタログ管理 {#catalog}
-   + [Adobe Commerceのカタログサービス](../site-management/catalog-service.md)
    + [カテゴリの作成](../site-management/category-create.md)
    + [カテゴリ内の製品の管理](../site-management/category-products.md)
    + [Inventory management](../site-management/inventory-management.md)
