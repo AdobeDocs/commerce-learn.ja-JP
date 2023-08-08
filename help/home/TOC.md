@@ -3,9 +3,9 @@ user-guide-title: ビデオとTutorials
 user-guide-description: ビデオとチュートリアルを通じて、Adobe CommerceとMagento Open Sourceについて学びます。
 breadcrumb-title: ビデオとTutorials
 solution: Commerce
-source-git-commit: 925f3581757548393ada567d523aedab24d1527d
+source-git-commit: 2aa87ee8b350fd134afd44409d5bbc6e514dd4d7
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '523'
 ht-degree: 0%
 
 ---
@@ -79,6 +79,7 @@ ht-degree: 0%
    + [製品属性とPWA Studioの使用](../site-management/product-attributes-pwa.md)
    + [SEO メタデータを管理](../site-management/seo-metadata.md)
    + [SEO の URL 書き換えの管理](../site-management/seo-url-rewrites.md)
+   + [AR ビューア](../site-management/augmented-reality.md)
 + コンテンツ管理 {#content}
    + [Page Builder の概要](../site-management/page-builder-overview.md)
    + [静的ブロックと動的ブロックを作成する](../site-management/static-dynamic-blocks.md)
