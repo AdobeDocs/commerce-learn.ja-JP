@@ -9,9 +9,9 @@ topic: Commerce, Development
 role: Admin, Developer, User
 level: Beginner, Intermediate
 badge: Commerce Marketplace内の AR ビューア
-source-git-commit: 3561fe3635d823853df3b99b9bb4695a72e42db4
+source-git-commit: 488f5b181a97ee222ab72fd547e5fd090a23d34e
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '508'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,6 @@ AR ビューアの役割： [!DNL bridge] 物理的な小売業とデジタル�
 ## 役に立つリソース
 
 [Adobe Commerce用 AR ビューア](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/digital-assets/product-3d-model/ar-viewer-overview.html){target="_blank"}
-[AR ビューアの要件](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/digital-assets/product-3d-model/ar-viewer-requirements.html){target="_blank"}
 [Adobe Commerce用 AR Viewer を使用した製品 3D モデルの管理](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/digital-assets/product-3d-model/ar-viewer-setup.html){target="_blank"}
 
 ## Adobe Commerce Marketplace 拡張機能
