@@ -2,7 +2,7 @@
 title: app.config.yaml ファイル
 description: このサンプルアプリケーションの app.config.yaml ファイル内のファイルの種類について説明します。
 landing-page-description: Adobe Commerceで使用されるAdobe Developer App Builder と、app.config.yaml に含まれるファイルの種類について説明します。
-kt: 12426
+kt: 12429
 doc-type: tutorial
 audience: all
 last-substantial-update: 2023-3-13
@@ -11,7 +11,7 @@ topic: App Builder, I/O Events, Developer Console, Commerce, Development, Integr
 role: Architect, Developer
 level: Beginner, Intermediate
 exl-id: ff5f1811-ca93-494e-8e5c-a5e0c7bb673d
-source-git-commit: 404d2708a6d540d6fb19a33afb20726356cd8000
+source-git-commit: ee3e25c0b697f2e434f866932771cb7e4084fd9e
 workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 0%
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 ## ビデオコンテンツ
 
-* この `app.config.yaml` ファイルを議論した
+* The `app.config.yaml` ファイルが議論された
 * 定義は他の定義とどのようにリンクしているか `.js` ファイル
 
 >[!VIDEO](https://video.tv.adobe.com/v/3416592?quality=12&learn=on)
