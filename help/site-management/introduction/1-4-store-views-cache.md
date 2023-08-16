@@ -1,5 +1,5 @@
 ---
-title: '"[!DNL Commerce] ビジネス・ユーザー向け：ストア・ビューとキャッシュ・クリア'
+title: '"[!DNL Commerce] ビジネス・ユーザー向け：ストア・ビューとキャッシュ・クリア」'
 description: ストアビューを作成し、キャッシュをクリアする方法を説明します。
 kt: 5761
 doc-type: video

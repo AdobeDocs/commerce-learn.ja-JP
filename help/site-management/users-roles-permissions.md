@@ -1,6 +1,6 @@
 ---
 title: ユーザーの役割および権限の管理
-description: へのアクセスを制御するために使用されるユーザーアカウントと権限について説明します [!DNL Commerce] Web サイトを作成し、管理者にデータを保存します。
+description: へのアクセスを制御するために使用されるユーザーアカウントと権限について説明します。 [!DNL Commerce] Web サイトを作成し、管理者にデータを保存します。
 kt: 5610
 doc-type: feature video
 audience: all

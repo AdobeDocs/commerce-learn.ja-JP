@@ -1,8 +1,8 @@
 ---
 title: API メッシュでGraphQL単一ソースメッシュを作成する
-description: Adobe Commerceおよび [!DNL Adobe App Builder]. 1 つのソースを持つメッシュの作成について説明します。
-landing-page-description: Adobe Commerceおよび [!DNL Adobe App Builder]. 1 つのソースを持つメッシュの作成について説明します。
-short-description: Adobe Commerceおよび [!DNL Adobe App Builder]. 1 つのソースを持つメッシュの作成について説明します。
+description: Adobe Commerce と  [!DNL Adobe App Builder] で API メッシュを使用する方法について説明します。1 つのソースを持つメッシュの作成について説明します。
+landing-page-description: Adobe Commerce と  [!DNL Adobe App Builder] で API メッシュを使用する方法について説明します。1 つのソースを持つメッシュの作成について説明します。
+short-description: Adobe Commerce と  [!DNL Adobe App Builder] で API メッシュを使用する方法について説明します。1 つのソースを持つメッシュの作成について説明します。
 kt: 11804
 doc-type: tutorial
 audience: all
@@ -15,11 +15,11 @@ exl-id: 9a78457a-1539-49c0-ac69-4bbfc6786137
 source-git-commit: 404d2708a6d540d6fb19a33afb20726356cd8000
 workflow-type: tm+mt
 source-wordcount: '242'
-ht-degree: 0%
+ht-degree: 12%
 
 ---
 
-# 単一のソースでメッシュを作成する
+# 単一のソースを持つメッシュを作成する
 
 このビデオでは、Adobe Developer App Builder 用の API メッシュで単一のソースを使用してメッシュを作成する方法を開発者が理解できます。 この基本的な例が期待どおりに動作するには、公にアクセス可能な API またはGraphQLエンドポイントが必要です。 このビデオでは、シンプルな `mesh.json` ファイルを使用して、コマースインスタンスで使用します。 詳細およびコードサンプルについては、 [メッシュを作成する](https://developer.adobe.com/graphql-mesh-gateway/gateway/create-mesh/#create-a-mesh-1){target="_blank"}.
 
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 ## ビデオコンテンツ
 
-* API Mesh をリバースプロキシとして使用
+* API Mesh をリバースプロキシとして使用する
 * JSON 設定ファイルからのメッシュの作成
 * 新しく作成されたGraphQLエンドポイントへのアクセス
 
@@ -39,7 +39,7 @@ ht-degree: 0%
 
 ## json 設定ファイルの作成
 
-API Mesh では、JSON 設定ファイルを使用してソースハンドラーを定義します。 JSON ファイルには `sources` メッシュのソースを含む配列。 単一のソースを持つメッシュの例を次に示します。
+API Mesh では、JSON 設定ファイルを使用してソースハンドラーを定義します。 JSON ファイルには、 `sources` メッシュのソースを含む配列。 次に、単一のソースを持つメッシュの例を示します。
 
 ```json
 {

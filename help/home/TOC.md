@@ -1,18 +1,18 @@
 ---
-user-guide-title: ビデオとTutorials
-user-guide-description: ビデオとチュートリアルを通じて、Adobe CommerceとMagento Open Sourceについて学びます。
-breadcrumb-title: ビデオとTutorials
+user-guide-title: ビデオとチュートリアル
+user-guide-description: ビデオとチュートリアルを通じて、Adobe Commerce と Magento Open Source について説明します。
+breadcrumb-title: ビデオとチュートリアル
 source-git-commit: 9dcbee360b0c25b83116ff5b1379052cf9b8fa62
 workflow-type: tm+mt
 source-wordcount: '527'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
 
 # Adobe CommerceのビデオとTutorials {#tutorials}
 
-+ [[!DNL Commerce] Tutorials](overview.md)
++ [[!DNL Commerce] チュートリアル](overview.md)
 + はじめに {#getting-started}
    + [!DNL Commerce] クラウド{#cloud}
       + [1 — 概要](../cloud/1-overview.md)

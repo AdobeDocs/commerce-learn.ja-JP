@@ -3,7 +3,7 @@ title: バナーを編集
 description: 特定のエディションに適用される機能やページをメモするために再利用されたビジュアル要素
 source-git-commit: 8c7c64ddff456815b0a1649f497e917da8b8fca0
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '168'
 ht-degree: 0%
 
 ---
@@ -27,4 +27,4 @@ ht-degree: 0%
 >[!CAUTION]
 >
 >API 呼び出しを実行する際は、何らかの searchCriteria が使用されていることを確認します。 ページネーションの使用も検討してください。 Adobe Commerceの結果が大きすぎる場合、Adobe Developer App Builder の処理能力が満たされ、ファイルが予期せず終了する可能性があります。 結果として、応答の形式が正しくなく、400 エラーが発生しました。\
-> 例えば、現在の製品をすべてAdobe Commerceにリクエストする必要があるとします。 結果の URL は次のようになります。 `{{base_url}}rest/V1/products?searchCriteria=all`. 返されたカタログのサイズによっては、JSON が大きすぎて App Builder で使用できない場合があります。 代わりにページネーションを使用し、いくつかのリクエストを行って、 `Response is not valid 'message/http'.`
+> 例えば、現在の製品をすべてAdobe Commerceにリクエストする必要があるとします。 結果の URL は次のようになります。 `{{base_url}}rest/V1/products?searchCriteria=all`. 返されたカタログのサイズによっては、JSON が大きすぎて App Builder で使用できない場合があります。 代わりにページネーションを使用し、いくつかのリクエストをおこなって、 `Response is not valid 'message/http'.`

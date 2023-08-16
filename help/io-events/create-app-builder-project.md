@@ -1,5 +1,5 @@
 ---
-title: コマースイベントを使用して App Builder プロジェクトを作成する方法を説明します
+title: コマースイベントを使用して App Builder プロジェクトを作成する方法を説明します。
 description: コマースイベントで使用する App Builder プロジェクトを作成する方法を説明します
 landing-page-description: Adobe Commerceイベントを使用するAdobeアプリビルダープロジェクトの作成方法を説明します
 short-description: Adobe Commerceイベントを使用するAdobeアプリビルダープロジェクトの作成方法を説明します

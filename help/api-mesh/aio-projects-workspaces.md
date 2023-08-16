@@ -1,6 +1,6 @@
 ---
 title: プロジェクトとワークスペースの操作
-description: Adobe Developerコンソールを使用してプロジェクトやワークスペースを操作する方法を説明します。
+description: Adobe Developerコンソールを使用してプロジェクトやワークスペースを操作する方法について説明します。
 landing-page-description: Adobe Developerコンソールの使用方法を説明します。 API Mesh で使用するプロジェクトとワークスペースについて説明します。
 short-description: Adobe Developerコンソールの使用方法を説明します。 API Mesh で使用するプロジェクトとワークスペースについて説明します。
 kt: 11803
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 # プロジェクトとワークスペースの操作
 
-このチュートリアルでは、メッシュを含むプロジェクトとワークスペースの作成について説明します。 この仕事は主に [Adobe Developer console](https://developer.adobe.com/console){target="_blank"} UI
+このチュートリアルでは、メッシュを含むプロジェクトとワークスペースを作成する方法について説明します。 この仕事は主に [Adobe Developer console](https://developer.adobe.com/console){target="_blank"} UI
 
 ## このビデオは誰のためのものですか？
 

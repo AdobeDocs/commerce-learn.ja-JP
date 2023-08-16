@@ -1,8 +1,8 @@
 ---
 title: GraphQLの基本を学ぶ
-description: Adobe CommerceでのGraphQLの使用方法と [!DNL Magento Open Source]. クエリ、突然変異、スキーマの使用について説明します。
-landing-page-description: Adobe CommerceでのGraphQLの使用方法と [!DNL Magento Open Source]. クエリ、突然変異、スキーマの使用について説明します。
-short-description: Adobe CommerceでのGraphQLの使用方法と [!DNL Magento Open Source]. クエリ、突然変異、スキーマの使用について説明します。
+description: Adobe Commerce と  [!DNL Magento Open Source] で GraphQL を使用する方法について説明します。クエリ、ミューテーション、スキーマの使用について説明します。
+landing-page-description: Adobe Commerce と  [!DNL Magento Open Source] で GraphQL を使用する方法について説明します。クエリ、ミューテーション、スキーマの使用について説明します。
+short-description: Adobe Commerce と  [!DNL Magento Open Source] で GraphQL を使用する方法について説明します。クエリ、ミューテーション、スキーマの使用について説明します。
 kt: 11524
 doc-type: tutorial
 audience: all
@@ -15,7 +15,7 @@ exl-id: b799bd7b-11a4-4a1c-b2f4-893f6ff2994d
 source-git-commit: 404d2708a6d540d6fb19a33afb20726356cd8000
 workflow-type: tm+mt
 source-wordcount: '109'
-ht-degree: 0%
+ht-degree: 44%
 
 ---
 

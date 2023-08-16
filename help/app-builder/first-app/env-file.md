@@ -1,6 +1,6 @@
 ---
 title: .env ファイル
-description: このサンプルアプリケーションの.env ファイル内のファイルの種類について説明します
+description: このサンプルアプリケーションの.env ファイル内のファイルの種類について説明します。
 landing-page-description: Adobe Commerceで使用されるAdobe Developer App Builder と、.env ファイルで使用されるコンテンツの種類について説明します
 kt: 12423
 doc-type: tutorial
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # .env ファイルの生成と設定 {#env-file}
 
-この `.env` は、サンプルモジュールには含まれていませんが、Adobe Developer App Builder アプリケーションでの使用に重要な特別なファイルです。 このファイルには、秘密鍵とその他の情報が含まれています。 このファイルをコードリポジトリにコミットしないでください。
+The `.env` は、サンプルモジュールには含まれていませんが、Adobe Developer App Builder アプリケーションでの使用に重要な特別なファイルです。 このファイルには、秘密鍵とその他の情報が含まれています。 このファイルをコードリポジトリにコミットしないでください。
 
 ## このビデオは誰のためのものですか？
 

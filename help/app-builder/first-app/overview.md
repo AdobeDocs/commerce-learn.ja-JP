@@ -1,5 +1,5 @@
 ---
-title: App Builders で最初のアプリを作成
+title: App Builders で最初のアプリを作成する
 description: Adobe Commerceを使用したAdobe Developer App Builder の概要と、最初のアプリの作成について説明します。
 landing-page-description: Adobe Commerceで使用し、最初のアプリを作成するAdobe Developer App Builder について説明します。
 kt: 12421

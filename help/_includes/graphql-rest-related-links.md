@@ -15,5 +15,5 @@ ht-degree: 0%
 * [GraphQLの基本を学ぶ](../graphql-rest/getting-started-graphql.md)
 * [GraphQLの基本](../graphql-rest/intro-graphql.md)
 * [クエリ](../graphql-rest/graphql-queries.md)
-* [突然変異](../graphql-rest/graphql-mutations.md)
+* [変異](../graphql-rest/graphql-mutations.md)
 * [スキーマ](../graphql-rest/graphql-schema.md)

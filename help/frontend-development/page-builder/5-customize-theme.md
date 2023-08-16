@@ -31,7 +31,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->このコンテンツは、Adobe Commerce 2.3.1 の Page Builder 1.0.0 リリースを反映しています。今後のリリースでの更新について詳しくは、 [Page Builder リリースノート](https://experienceleague.adobe.com/docs/commerce-admin/page-builder/release-notes.html).
+>この内容は、Adobe Commerce 2.3.1 の Page Builder 1.0.0 リリースを反映しています。今後のリリースでの更新について詳しくは、 [Page Builder リリースノート](https://experienceleague.adobe.com/docs/commerce-admin/page-builder/release-notes.html).
 
 >[!VIDEO](https://video.tv.adobe.com/v/35713?quality=12&learn=on)
 

@@ -19,7 +19,7 @@ ht-degree: 0%
 
 # Adobe Commerceの監視の使用
 
-このビデオでは、Adobe Commerceの観測ツール (New Relicのオネダー ) について学びます。は、Adobe Commerceサイトの状態（現在または過去の時間表示）を確認するためのツールです。 ナードレットは、New Relic Oneのプログラム機能で構築されたカスタムアプリケーションです。
+このビデオでは、Adobe Commerceの観測ツール (New Relicのオネダー ) について学びます。は、Adobe Commerceサイトの状態（現在または過去の時間表示）を確認するためのツールです。 ナードレットは、New Relic Oneのプログラミング機能で構築されたカスタムアプリケーションです。
 
 ## このビデオは誰のためのものですか？
 

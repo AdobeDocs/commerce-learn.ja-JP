@@ -1,8 +1,8 @@
 ---
 title: API メッシュの概要
-description: Adobe Commerceおよび [!DNL Adobe App Builder]. AdobeApp Builder のインストール、プロジェクトの操作、graphql リバースプロキシの作成などについて説明します。
-landing-page-description: Adobe Commerceおよび [!DNL Adobe App Builder]. AdobeIO のインストール、プロジェクトの操作、graphql リバースプロキシの作成などについて説明します。
-short-description: Adobe Commerceおよび [!DNL Adobe App Builder]. AdobeIO のインストール、プロジェクトの操作、graphql リバースプロキシの作成などについて説明します。
+description: Adobe Commerce と  [!DNL Adobe App Builder] で API メッシュを使用する方法について説明します。Adobe App Builder のインストール、プロジェクトの操作、GraphQL リバースプロキシの作成などについて説明します。
+landing-page-description: Adobe Commerce と  [!DNL Adobe App Builder] で API メッシュを使用する方法について説明します。Adobe IO のインストール、プロジェクトの操作、graphql リバースプロキシの作成などについて説明します。
+short-description: Adobe Commerce と  [!DNL Adobe App Builder] で API メッシュを使用する方法について説明します。Adobe IO のインストール、プロジェクトの操作、graphql リバースプロキシの作成などについて説明します。
 kt: 11802
 doc-type: tutorial
 audience: all
@@ -15,7 +15,7 @@ exl-id: baae6dab-48a4-49a0-b6f6-61cbebe63d0f
 source-git-commit: 404d2708a6d540d6fb19a33afb20726356cd8000
 workflow-type: tm+mt
 source-wordcount: '331'
-ht-degree: 0%
+ht-degree: 23%
 
 ---
 
@@ -31,14 +31,14 @@ API メッシュは、複数のデータソースを組み合わせて、アプ�
 
 ## このビデオは誰のためのものですか？
 
-* API Mesh を初めて使用する開発者または [!DNL Adobe Commerce] ～を使った経験が限られている [Adobe I/O Runtime](https://developer.adobe.com/runtime/docs/guides/overview/){target="_blank"} と API メッシュ
+* API Mesh を初めて使用する開発者や [!DNL Adobe Commerce] ～を使った経験が限られている [Adobe I/O Runtime](https://developer.adobe.com/runtime/docs/guides/overview/){target="_blank"} と API メッシュ。
 
 ## ビデオコンテンツ
 
 * API メッシュの概要
-* 補足ドキュメントへのリンク
+* 補足的なドキュメントへのリンク
 * チェックアウト時にリアルタイムで在庫チェックをおこなう使用例
-* コマースアプリケーションからの開発作業とリソース使用の移動
+* コマースアプリケーションからの開発作業とリソース使用量の移動
 
 >[!VIDEO](https://video.tv.adobe.com/v/3417534?quality=12&learn=on)
 

@@ -1,8 +1,8 @@
 ---
 title: クラウドインフラストラクチャ上のAdobe Commerce — 概要
-description: クラウドスタック内の主要なテクノロジーを特定しま​す。 Adobe Commerceのコンテンツ配信戦略について説明します。 読み取り専用ファイルシステムの値を理解します。
-landing-page-description: Adobe Commerceのデプロイと管理に使用するクラウドインフラストラクチャの概要については、このビデオシリーズをご覧ください。
-short-description: Adobe Commerceのデプロイと管理に使用するクラウドインフラストラクチャの概要については、このビデオシリーズをご覧ください。
+description: クラウドスタック内の主なテクノロジーを特定します。 Adobe Commerce のコンテンツ配信戦略について説明します。読み取り専用のファイルシステムの価値を理解します。
+landing-page-description: このビデオシリーズでは、Adobe Commerce のデプロイと管理に使用するクラウドインフラストラクチャーの概要について説明します。
+short-description: このビデオシリーズでは、Adobe Commerce のデプロイと管理に使用するクラウドインフラストラクチャーの概要について説明します。
 kt: 5656
 feature: Cloud
 topic: Commerce, Architecture
@@ -15,7 +15,7 @@ exl-id: 13ebcc7f-c0ed-4e8f-8344-1d1adb4249db
 source-git-commit: 404d2708a6d540d6fb19a33afb20726356cd8000
 workflow-type: tm+mt
 source-wordcount: '114'
-ht-degree: 0%
+ht-degree: 52%
 
 ---
 

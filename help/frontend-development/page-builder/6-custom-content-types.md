@@ -21,8 +21,8 @@ ht-degree: 0%
 このビデオでは、
 
 - 追加のコンテンツタイプのカスタマイズと作成
-- コンテンツタイプの作成に関する手順を理解しま&#x200B;す
-- 既存のコンテンツタイプの拡張に関する手順を理解します
+- コンテンツタイプの作成に関する手順を理解しま&#x200B;す。
+- 既存のコンテンツタイプの拡張に関する手順を理解します。
 
 ## このビデオは誰のためのものですか？
 
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->このコンテンツは、Adobe Commerce 2.3.1 の Page Builder 1.0.0 リリースを反映しています。今後のリリースでの更新について詳しくは、 [Page Builder リリースノート](https://experienceleague.adobe.com/docs/commerce-admin/page-builder/release-notes.html).
+>この内容は、Adobe Commerce 2.3.1 の Page Builder 1.0.0 リリースを反映しています。今後のリリースでの更新について詳しくは、 [Page Builder リリースノート](https://experienceleague.adobe.com/docs/commerce-admin/page-builder/release-notes.html).
 
 >[!VIDEO](https://video.tv.adobe.com/v/35714?quality=12&learn=on)
 

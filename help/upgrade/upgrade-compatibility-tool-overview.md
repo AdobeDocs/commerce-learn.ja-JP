@@ -1,8 +1,8 @@
 ---
 title: アップグレード互換性ツールの概要
-description: 次のアップグレードをより簡単、安価、高速にする方法については、このテクニカルビデオをご覧ください。
-landing-page-description: 次のアップグレードをより簡単、安価、高速にする方法については、このテクニカルビデオをご覧ください。
-short-description: 次のアップグレードをより簡単、安価、高速にする方法については、このテクニカルビデオをご覧ください。
+description: アップグレード互換性ツールを使用して、次のアップグレードをより簡単で安価かつ高速にする方法については、このテクニカルビデオをご覧ください。
+landing-page-description: アップグレード互換性ツールを使用して、次のアップグレードをより簡単で安価かつ高速にする方法については、このテクニカルビデオをご覧ください。
+short-description: アップグレード互換性ツールを使用して、次のアップグレードをより簡単で安価かつ高速にする方法については、このテクニカルビデオをご覧ください。
 kt: 9983
 doc-type: technical video
 audience: all
@@ -16,7 +16,7 @@ exl-id: 93a59d1c-54a8-4efe-bf98-9d65389bfb27
 source-git-commit: 404d2708a6d540d6fb19a33afb20726356cd8000
 workflow-type: tm+mt
 source-wordcount: '243'
-ht-degree: 0%
+ht-degree: 25%
 
 ---
 
@@ -27,8 +27,8 @@ ht-degree: 0%
 このビデオでは、
 
 - アップグレード互換性ツールの概要
-- 新しいAdobe Commerceバージョンにアップグレードする際に必要なエラーや修正をすばやく特定する方法
-- HTMLの結果にアクセスし、モジュールを重大度と非互換性の数で視覚化する方法
+- 新しいAdobe Commerceバージョンにアップグレードする際に必要なエラーや修正をすばやく識別する方法
+- HTMLの結果にアクセスしてモジュールを重大度別および非互換性の数別に視覚化する方法
 
 このツールについて詳しくは、 [アップグレード互換性ツールのドキュメント](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/upgrade-compatibility-tool/overview.html?lang=en). アップグレードの実行と簡単化について詳しくは、 [アップグレードガイド](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/overview.html).
 

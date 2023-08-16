@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # actions フォルダーの詳細 {#actions-folder}
 
-この `actions` このサンプルアプリのフォルダーには、いくつかの JavaScript ファイルと、 `commerce`. 表示される JavaScript は、使用する作業に関連する場合に再利用できる優れたサンプルファイルです。 このフォルダーを使用すると、OAuth と REST を使用してAdobe Commerceアプリケーションに接続する際の開発作業の時間を節約できます。
+The `actions` このサンプルアプリのフォルダーには、いくつかの JavaScript ファイルと、 `commerce`. 表示される JavaScript は、使用する作業に関連する場合に再利用できる優れたサンプルファイルです。 このフォルダーを使用すると、OAuth と REST を使用してAdobe Commerceアプリケーションに接続する際の開発作業の時間を節約できます。
 
 この例では、フォルダーの実際の名前は任意ですが、名前がわかっていれば、サンプルコードの解釈に役立ちます。 意味のある命名規則を使用すると、アプリケーションがより複雑になった場合に混乱を避けることができます。
 
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 ## ビデオコンテンツ
 
-* App Builder と、 `actions` フォルダー
+* App Builder の概要と、 `actions` フォルダー
 * 「アクション」フォルダーの使用方法
 * 次にある JavaScript ファイルの目的 `actions` および `commerce` フォルダー
 * OAuth 認証ファイルの概要

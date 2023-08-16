@@ -4,7 +4,7 @@ description: 「アプリビルダーの最初のアプリ」セクションの�
 source-git-commit: 021098545e4666f43f02452358464701f30002fd
 workflow-type: tm+mt
 source-wordcount: '52'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -13,8 +13,8 @@ ht-degree: 0%
 ## App Builder — アプリの最初の関連ページを作成します。
 
 * [概要](../app-builder/first-app/overview.md)
-* [この ](../app-builder/first-app/env-file.md)
-* [この ](../app-builder/first-app/app-config-yaml-file.md)
+* [The ](../app-builder/first-app/env-file.md)
+* [The ](../app-builder/first-app/app-config-yaml-file.md)
 * [&#39;アクション&#39;](../app-builder/first-app/actions-folder.md)
 * [&#39;テスト&#39;](../app-builder/first-app/test-folder.md)
 * [&#39;web-src&#39;](../app-builder/first-app/web-src-folder.md)

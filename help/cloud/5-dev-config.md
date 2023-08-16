@@ -21,7 +21,7 @@ ht-degree: 0%
 
 このビデオでは、
 
-- 開発設定について説明します
+- 開発設定について説明します。
 
 >[!VIDEO](https://video.tv.adobe.com/v/35696?quality=12&learn=on)
 

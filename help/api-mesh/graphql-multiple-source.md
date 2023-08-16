@@ -1,8 +1,8 @@
 ---
 title: API メッシュで使用する複数のソースGraphQLを作成する
 description: Adobe Commerceで API メッシュに複数のソースを使用する方法と [!DNL Adobe App Builder]. 一般的なエラーとその解決方法について説明します。
-landing-page-description: Adobe Commerceおよび [!DNL Adobe App Builder]. 複数のソースを持つメッシュの作成と、一般的なエラーの解決方法について説明します。
-short-description: Adobe Commerceおよび [!DNL Adobe App Builder]. 複数のソースを持つメッシュの作成と、一般的なエラーの解決方法について説明します。
+landing-page-description: Adobe Commerce と  [!DNL Adobe App Builder] で API メッシュを使用する方法について説明します。複数のソースを持つメッシュの作成と、一般的なエラーの解決方法について説明します。
+short-description: Adobe Commerce と  [!DNL Adobe App Builder] で API メッシュを使用する方法について説明します。複数のソースを持つメッシュの作成と、一般的なエラーの解決方法について説明します。
 kt: 11804
 doc-type: tutorial
 audience: all
@@ -15,7 +15,7 @@ exl-id: d788a068-9d20-4db0-a0eb-fd897873253d
 source-git-commit: 404d2708a6d540d6fb19a33afb20726356cd8000
 workflow-type: tm+mt
 source-wordcount: '243'
-ht-degree: 0%
+ht-degree: 8%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 ## json 設定ファイルの作成
 
-API Mesh では、JSON 設定ファイルを使用してソースハンドラーを定義します。 JSON ファイルには `sources` メッシュのソースを含む配列。 複数のソースを持つメッシュの例を次に示します。
+API Mesh では、JSON 設定ファイルを使用してソースハンドラーを定義します。 JSON ファイルには、 `sources` メッシュのソースを含む配列。 複数のソースを持つメッシュの例を次に示します。
 
 ```json
 {

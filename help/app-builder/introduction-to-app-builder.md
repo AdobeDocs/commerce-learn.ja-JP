@@ -1,8 +1,8 @@
 ---
 title: Adobe Commerceのプロセス外拡張機能
-description: Adobeの App Builder と、それがプロセス外の拡張機能の重要な側面である理由について説明します。
-landing-page-description: App Builder とは何か、および App Builder がAdobe Commerce開発戦略に役立つ理由について説明します。
-short-description: App Builder とは何か、および App Builder がAdobe Commerce開発戦略に役立つ理由について説明します。
+description: Adobe App Builder と、それがプロセス外の拡張性の重要な側面になっている理由について説明します。
+landing-page-description: App Builder の概要および Adobe Commerce の開発戦略に App Builder がどのように役立つかを説明します。
+short-description: App Builder の概要および Adobe Commerce の開発戦略に App Builder がどのように役立つかを説明します。
 kt: 11433
 doc-type: tutorial
 audience: all
@@ -15,7 +15,7 @@ exl-id: 94f8d82a-4a95-46ea-8eed-edf9bed5760c
 source-git-commit: 404d2708a6d540d6fb19a33afb20726356cd8000
 workflow-type: tm+mt
 source-wordcount: '831'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 Adobe Developer App Builder は、Adobeソリューションを拡張するカスタムエクスペリエンスを統合および作成するための、サーバーレスの拡張プラットフォームで、Adobe Commerceで利用できるようになりました。 App Builder を使用すると、コマースネイティブの機能を拡張し、サードパーティのソリューションと統合する、安全で拡張性の高いアプリを構築できます。 開発者は、Adobe Commerceのプロセス外の拡張機能を活用できるようになり、その拡張機能によって、即時の長期的なメリットが得られます。
 
-App Builder は、を拡張するカスタムアプリケーションを統合および作成するための、統合されたサードパーティの拡張フレームワークを提供します [!DNL Adobe Commerce]. この拡張フレームワークはAdobeのインフラストラクチャ上に構築されているので、開発者はカスタムマイクロサービスを構築し、を拡張および統合できます [!DNL Adobe Commerce] を他のAdobeソリューションおよびサードパーティ統合にまたがって使用する場合。
+App Builder は、を拡張するカスタムアプリケーションを統合および作成するための、統合されたサードパーティの拡張フレームワークを提供します。 [!DNL Adobe Commerce]. この拡張フレームワークはAdobeのインフラストラクチャ上に構築されているので、開発者はカスタムマイクロサービスを構築し、を拡張および統合できます [!DNL Adobe Commerce] を他のAdobeソリューションおよびサードパーティ統合にまたがって使用する場合。
 
 App Builder を使用すると、 [!DNL Adobe Commerce] 様々な使用例：
 
@@ -56,7 +56,7 @@ Adobe Developer App Builder は、標準のソリューションの代わりに�
 * Adobe Developer Console は、カスタムマイクロサービスと拡張機能の開発に使用されます。 プラグインや統合の作成に必要なすべてのツールと API にアクセスしながら、プロジェクトを構築し管理します。
 * カスタム拡張機能および統合を構築するためのオープンソースツール、SDK およびライブラリ。 React Spectrum(Adobeの UI ツールキット ) を使用して、すべてのAdobeアプリに共通の UI を 1 つ用意します。
 * Adobeのサーバーレスプラットフォーム上のインフラストラクチャをホスティングするための I/O Runtime や、イベントベースの統合用の I/O イベントなどのサービス。 Adobeには、データとファイルの保存に関する標準のサポートも用意されています。
-* Adobe Experience Cloudで、拡張機能と統合を送信してExperience Cloud組織に公開するシステム管理者は、これらの拡張機能を確認、管理および承認できます。 公開されると、カスタムの App Builder 拡張機能とツールを他のAdobe Experience Cloudアプリと共に使用できるようになります。
+* Adobe Experience Cloudで、拡張機能と統合を送信して、Experience Cloud組織に公開する。システム管理者は、これらの拡張機能を確認、管理および承認できます。 公開されると、カスタムの App Builder 拡張機能とツールを他のAdobe Experience Cloudアプリと共に使用できるようになります。
 
 次の図は、App Builder 上に構築された標準アプリケーションがこれらの機能をどのように使用するかを示しています。
 

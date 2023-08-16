@@ -21,7 +21,7 @@ ht-degree: 0%
 
 このビデオでは、
 
-- Adobe Commerceの既存のクラウドホスティングソリューションにつ&#x200B;いて説明します
+- Adobe Commerceの既存のクラウドホスティングソリューションにつ&#x200B;いて説明します。
 - Starter アカウントと Pro アカウントの違いの理解&#x200B;
 
 >[!VIDEO](https://video.tv.adobe.com/v/35813?quality=12&learn=on)

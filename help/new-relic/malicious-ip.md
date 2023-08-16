@@ -24,6 +24,6 @@ ht-degree: 0%
 
 このビデオでは、
 
-- Fastly でブロックするために使用される疑わしい IP または悪意のあ&#x200B;る IP を識別します
+- Fastly でブロックするために使用される疑わしい IP または悪意のあ&#x200B;る IP を識別します。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3412088?quality=12&learn=on)

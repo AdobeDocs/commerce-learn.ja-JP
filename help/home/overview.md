@@ -1,5 +1,5 @@
 ---
-title: '''[!DNL Commerce] ビデオとTutorials'
+title: '[!DNL Commerce] ビデオとチュートリアル'
 description: Adobe CommerceとMagento Open Sourceのビデオとチュートリアルのコレクションです
 last-substantial-update: 2023-01-19T00:00:00Z
 feature: B2B, GraphQL, REST, Commerce Intelligence, Cloud, Best Practices, API Mesh, App Builder
@@ -10,7 +10,7 @@ exl-id: e6bed3a4-4078-40df-88b0-3bad6c144aeb
 source-git-commit: f7aa1f0063cbcad6d331a13817214b1bf2158571
 workflow-type: tm+mt
 source-wordcount: '146'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->この [コマースイベント](https://experienceleague.adobe.com/docs/commerce-events/events/overview.html) space は、オンデマンドで視聴できる記録済みイベントコンテンツへのアクセスを提供します。
+>The [コマースイベント](https://experienceleague.adobe.com/docs/commerce-events/events/overview.html) space は、オンデマンドで視聴できる記録済みイベントコンテンツへのアクセスを提供します。
 
 ## その他のリソース
 

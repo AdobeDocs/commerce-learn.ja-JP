@@ -1,6 +1,6 @@
 ---
 title: 通貨および税務ルールの管理
-description: 通貨および税ルールを設定する方法を説明します。 [!DNL Commerce] は、顧客と製品の区分に応じて適切な税金を計算するために使用します。
+description: 通貨と税金ルールを設定する方法を説明します。 [!DNL Commerce] は、顧客と製品の区分に応じて適切な税金を計算するためにを使用します。
 kt: 10542
 doc-type: feature video
 audience: all

@@ -1,6 +1,6 @@
 ---
 title: '''[!DNL Live Search] レコメンデーション用'
-description: 追加方法を学ぶ [!DNL Live Search] ストアに対する製品レコメンデーションを活用し、非常に魅力的で関連性が高く、パーソナライズされたショッピングエクスペリエンスを提供します。
+description: 追加方法を学ぶ [!DNL Live Search] ストアに対する製品レコメンデーションを活用し、非常に魅力的で関連性が高く、パーソナライズされたショッピングエクスペリエンスを生み出すために使用します。
 doc-type: feature video
 audience: all
 activity: use

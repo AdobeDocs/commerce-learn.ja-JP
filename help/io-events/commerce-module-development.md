@@ -33,7 +33,7 @@ ht-degree: 0%
 * 登録可能なイベントの特定
 * io_events.xml にイベントを登録する方法を説明します。
 * コマースインスタンスにイベントを登録する方法を説明します `app/etc/config.php`
-* イベントの購読解除方法を説明します
+* イベントの購読を解除する方法を説明します
 
 >[!VIDEO](https://video.tv.adobe.com/v/3415802?quality=12&learn=on)
 

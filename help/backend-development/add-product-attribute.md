@@ -23,7 +23,7 @@ ht-degree: 0%
 
 このビデオでは、
 
-- 次の値を指定して、clothing_material という属性を追加します。綿、革、絹、デニム、毛皮、羊毛
+- cotton、Leather、Silk、Denim、Fur、Wool の値を指定して、clothing_material という属性を追加します。
 - この属性を製品表示ページに太字のテキストで表示
 - デフォルト属性セットに割り当て、制限を追加します。
 - 新しい属性を追加

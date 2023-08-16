@@ -1,6 +1,6 @@
 ---
 title: Adobe Commerce 2.4.6 の IO イベントのインストール方法を説明します。
-description: Adobe Commerce 2.4.6 で I/O イベントに必要なモジュールをAdobe Developer App Builder で使用するためにインストールする方法を説明します
+description: Adobe Commerce 2.4.6 で I/O イベントに必要なモジュールをAdobe Developer App Builder で使用するためにインストールする方法を説明します。
 landing-page-description: Adobe Commerce 2.4.6 に必要なモジュールをいくつかインストールする方法を説明します。
 short-description: Adobe Commerce 2.4.6 に必要なモジュールをいくつかインストールする方法を説明します。
 kt: 11887
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 # Adobe Commerce 2.4.6 のインストール
 
-バージョン 2.4.6 用の Composer を使用して、Adobe Commerceに複数の新しいモジュールをインストールする方法を説明します。追加ドキュメントについては、を参照してください。 [Adobe CommerceのAdobe I/Oイベントのインストール](https://developer.adobe.com/commerce/events/get-started/installation/){target="_blank"}.
+バージョン 2.4.6 用の Composer を使用して、Adobe Commerceに複数の新しいモジュールをインストールする方法を説明します。その他のドキュメントは、 [Adobe CommerceのAdobe I/Oイベントのインストール](https://developer.adobe.com/commerce/events/get-started/installation/){target="_blank"}.
 
 ## このビデオは誰のためのものですか？
 

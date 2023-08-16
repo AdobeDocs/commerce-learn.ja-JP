@@ -1,8 +1,8 @@
 ---
 title: 拡張フレームワークとコマースのイベンティング
-description: 統合拡張機能フレームワークとコマースの夜の詳細
-landing-page-description: 統合拡張機能フレームワークとコマースの夜の詳細
-short-description: 統合拡張機能フレームワークとコマースの夜の詳細
+description: Unified Extensibility Framework とコマースの夜の詳細
+landing-page-description: Unified Extensibility Framework とコマースの夜の詳細
+short-description: Unified Extensibility Framework とコマースの夜の詳細
 kt: 11740
 doc-type: tutorial
 audience: all

@@ -1,6 +1,6 @@
 ---
 title: B2B 見積もりの追加リソース
-description: B2B 引用符の関連ページへのリンク
+description: B2B 引用符に関連するページへのリンク
 source-git-commit: eac61e862279fe0884db305fbb0a3b33feb035f1
 workflow-type: tm+mt
 source-wordcount: '96'

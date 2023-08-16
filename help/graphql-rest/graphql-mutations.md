@@ -19,14 +19,14 @@ ht-degree: 0%
 
 ---
 
-# 突然変異
+# 変異
 
 完全な API 仕様には、データをクエリするだけでなく、データを作成および更新する機能を提供する必要があります。
 
 REST は、GETを変更するリクエストと、リクエストの種類または「動詞」( データとPOSTまたはPUT) を使用しないリクエストを区別します。
-GraphQLを使用する場合、データ変更クエリは `mutation` サーバーで定義されたスキーマ内の別のルートタイプに対応するキーワード。
+GraphQLを使用する場合、データ変更クエリは、 `mutation` サーバーで定義されたスキーマ内の別のルートタイプに対応するキーワード。
 
-ユーザーの買い物かごに製品を追加する際の、このミューテーションの例を見てみましょう。 ( これには、ログインした顧客のセッション用に生成された買い物かご ID が必要です。 `createEmptyCart` 突然変異 )
+ユーザーの買い物かごに製品を追加する際の、このミューテーションの例を見てみましょう。 ( これには、ログインした顧客のセッション用に生成された買い物かご ID が必要です。 `createEmptyCart` （突然変異）
 
 ```graphql
 mutation doAddToCart(
@@ -86,7 +86,7 @@ mutation doAddToCart(
 
 * 任意の操作名 (`doAddToCart`)
 * 変数のリスト ( 例： `$cartId`)
-* 最初のフィールド (`addProductsToCart`) を引数 ( 例： `cartId`、の値に設定 `$cartId`) を括弧内に
+* 最初のフィールド (`addProductsToCart`) を引数 ( 例： `cartId`、の値に設定 `$cartId`) を括弧内に置き換えます
 * 中括弧で囲まれたフィールドの下位選択
 
 フィールドのサブセレクションを使用すると、返すフィールドを柔軟に定義できます ( `addProductsToCart` - `AddProductsToCartOutput`) と同じ値を持つ ) に変異が完了した後で呼び出される問題を修正しました。
@@ -95,7 +95,7 @@ mutation doAddToCart(
 
 上記の例に関するその他の注意事項を次に示します。
 
-* この `!` 文字サフィックス `String` および `CartItemInput` は、変数が必須であることを示します。
+* The `!` 文字サフィックス `String` および `CartItemInput` は、変数が必須であることを示します。
 * 角括弧 (`[]`) を `CartItemInput` 指定されたタイプ `$cartItems` 単一の値ではなく、そのタイプのリストを示します。
 
 {{$include /help/_includes/graphql-rest-related-links.md}}
