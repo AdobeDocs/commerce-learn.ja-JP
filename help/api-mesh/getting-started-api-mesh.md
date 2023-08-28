@@ -6,22 +6,22 @@ short-description: Adobe Commerce と  [!DNL Adobe App Builder] で API メッ�
 kt: 11802
 doc-type: tutorial
 audience: all
-last-substantial-update: 2023-2-8
+last-substantial-update: 2023-8-28
 feature: API Mesh, App Builder, Extensibility, Tools and External Services, Backend Development
 topic: App Builder, I/O Events, Developer Console, Commerce, Development, Integrations
 role: Architect, Developer
 level: Beginner, Intermediate
 exl-id: baae6dab-48a4-49a0-b6f6-61cbebe63d0f
-source-git-commit: 404d2708a6d540d6fb19a33afb20726356cd8000
+source-git-commit: 2ad0ae2aa7c9c852d300453f27f1be906976d95e
 workflow-type: tm+mt
-source-wordcount: '331'
+source-wordcount: '332'
 ht-degree: 23%
 
 ---
 
 # API メッシュの概要
 
-Adobe Developer App Builder の API メッシュを初めて使用する場合は、他のビデオやチュートリアルに進む前に、この入門チュートリアルから始めることをお勧めします。
+Adobe Developer App Builder の API Mesh を初めて使用する場合は、他のビデオやチュートリアルに進む前に、この入門チュートリアルから始めることをお勧めします。
 
 ## API メッシュとは
 
