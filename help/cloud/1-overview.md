@@ -12,7 +12,7 @@ doc-type: video
 audience: all
 activity: use
 exl-id: 13ebcc7f-c0ed-4e8f-8344-1d1adb4249db
-source-git-commit: 404d2708a6d540d6fb19a33afb20726356cd8000
+source-git-commit: bf8571af4d06b26fd038efea71b9f0890c780ae7
 workflow-type: tm+mt
 source-wordcount: '114'
 ht-degree: 52%
@@ -23,7 +23,7 @@ ht-degree: 52%
 
 このビデオでは、
 
-- クラウドスタック内の主要なテクノロジーを特定す&#x200B;る
+- クラウドスタック内の主要なテクノロジーを特定する
 - クラウドインフラストラクチャ上のAdobe Commerceのコンテンツ配信戦略の説明
 - 読み取り専用ファイル・システムの値を理解する
 
