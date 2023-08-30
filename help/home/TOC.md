@@ -3,9 +3,9 @@ user-guide-title: ビデオとチュートリアル
 user-guide-description: ビデオとチュートリアルを通じて、Adobe Commerce と Magento Open Source について説明します。
 breadcrumb-title: ビデオとチュートリアル
 auto-video-transcripts: true
-source-git-commit: c1ccfb2e32c7b638f6b8d4f16f15b8887b89f376
+source-git-commit: 68942d6c26da75adf93671b2d6a8bada38c1989a
 workflow-type: tm+mt
-source-wordcount: '527'
+source-wordcount: '530'
 ht-degree: 3%
 
 ---
@@ -135,6 +135,7 @@ ht-degree: 3%
    + [依存関係の挿入の例](../backend-development/dependency-injection.md)
    + [Galera クラスターのレプリケーションが遅い](../backend-development/galera-db-slow-replication.md)
    + [MySQL クエリキャッシュ](../backend-development/mysql-query-cache.md)
+   + [PT クエリダイジェスト](../backend-development/pt-query-digest.md)
 + ネイティブフロントエンド Luma 開発 {#frontend-development}
    + 開発者向けの Page Builder {#page-builder}
       + [1 — はじめに](../frontend-development/page-builder/1-intro-case-studies.md)
