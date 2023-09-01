@@ -6,13 +6,13 @@ short-description: Adobe Commerce と  [!DNL Adobe App Builder] で API メッ�
 kt: 11802
 doc-type: tutorial
 audience: all
-last-substantial-update: 2023-8-28
+last-substantial-update: 2023-8-27
 feature: API Mesh, App Builder, Extensibility, Tools and External Services, Backend Development
 topic: App Builder, I/O Events, Developer Console, Commerce, Development, Integrations
 role: Architect, Developer
 level: Beginner, Intermediate
 exl-id: baae6dab-48a4-49a0-b6f6-61cbebe63d0f
-source-git-commit: 2ad0ae2aa7c9c852d300453f27f1be906976d95e
+source-git-commit: 366a7988dfa1de39ebccb8ab0e281d80b27dbb36
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 23%
@@ -21,7 +21,7 @@ ht-degree: 23%
 
 # API メッシュの概要
 
-Adobe Developer App Builder の API Mesh を初めて使用する場合は、他のビデオやチュートリアルに進む前に、この入門チュートリアルから始めることをお勧めします。
+Adobe Developer App Builder の API メッシュを初めて使用する場合は、他のビデオやチュートリアルに進む前に、この入門チュートリアルから始めることをお勧めします。
 
 ## API メッシュとは
 
@@ -31,7 +31,7 @@ API メッシュは、複数のデータソースを組み合わせて、アプ�
 
 ## このビデオは誰のためのものですか？
 
-* API Mesh を初めて使用する開発者や [!DNL Adobe Commerce] ～を使った経験が限られている [Adobe I/O Runtime](https://developer.adobe.com/runtime/docs/guides/overview/){target="_blank"} と API メッシュ。
+* API Mesh を初めて使用する開発者または [!DNL Adobe Commerce] ～を使った経験が限られている [Adobe I/O Runtime](https://developer.adobe.com/runtime/docs/guides/overview/){target="_blank"} と API メッシュ。
 
 ## ビデオコンテンツ
 
