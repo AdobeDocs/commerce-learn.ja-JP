@@ -4,25 +4,24 @@ description: 承認待ちのリクエストを含む、B2B 会社アカウント
 doc-type: feature video
 audience: all
 activity: use
-badge: label="Adobe Commerce用 B2B" type="Positive"
 last-substantial-update: 2023-2-16
 feature: Configuration, System, B2B, Companies, Roles/Permissions
 topic: Commerce, Administration
 role: Admin, User
 level: Beginner, Intermediate
 exl-id: d8e2748e-ea17-4e4b-9b80-aa7013b605a1
-source-git-commit: 404d2708a6d540d6fb19a33afb20726356cd8000
+source-git-commit: 5721286d70d58c3dae979be837924234169b13e8
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '112'
 ht-degree: 0%
 
 ---
 
 # 会社アカウントの管理
 
-{{b2b-feature}}
-
 B2B 商人の場合、 _[!UICONTROL Companies]_ページには、現在のすべての会社アカウントとそのステータスが一覧表示されます。 ここで会社のアカウントを管理でき、承認の保留中のリクエストがリストの上部に表示されます。 標準の作業環境コントロールを使用して、リストのフィルタ、列のレイアウトの変更、ビューの保存、データの書き出しを行うことができます。
+
+{{b2b-feature}}
 
 ## このビデオは誰のためのものですか？
 

@@ -4,23 +4,20 @@ description: B2B 会社アカウントの発注および承認ルールを有効
 doc-type: feature video
 audience: all
 activity: use
-badge: label="Adobe Commerce用 B2B" type="Positive"
 last-substantial-update: 2023-2-16
 feature: Configuration, System, B2B, Companies
 topic: Commerce, Administration
 role: Admin, User
 level: Beginner, Intermediate
 exl-id: 3384e6df-5f42-470e-825c-4645d7c7c4a2
-source-git-commit: f7aa1f0063cbcad6d331a13817214b1bf2158571
+source-git-commit: 05919e15260c0e2c2a684a12bca60a6d6cb536f5
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: '155'
 ht-degree: 1%
 
 ---
 
 # 発注と承認
-
-{{b2b-feature}}
 
 ほとんどの B2B 会社には、発注書に対する注文承認ルールがあります。 会社は、発注書を作成できるユーザーと使用できる金額を制御できます。 例：
 
@@ -30,6 +27,8 @@ ht-degree: 1%
 - Directorレベル以上のユーザーが作成した発注書は、自動的に承認されます。
 
 B2B のお客様は、自分の役割に必要な権限を持って、会社のポリシーを実施するための承認ルールを設定できます。
+
+{{b2b-feature}}
 
 ## このビデオは誰のためのものですか？
 

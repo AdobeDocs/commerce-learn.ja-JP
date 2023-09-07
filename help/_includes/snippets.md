@@ -1,7 +1,7 @@
 ---
 title: バナーを編集
 description: 特定のエディションに適用される機能やページをメモするために再利用されたビジュアル要素
-source-git-commit: 8c7c64ddff456815b0a1649f497e917da8b8fca0
+source-git-commit: 066e031bd98458c8692f1cb3234ff1ecd1b99e6e
 workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 ## B2B のみの機能 {#b2b-feature}
 
 <table style="border:1px solid green">
-<tr><td><img alt="Adobe Commerce機能" src="../assets/b2b.svg" width="20" height="20" /> 専用の機能はでのみ使用できます <a href="https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html#product-editions">Adobe Commerce用 B2B</a></td></tr>
+<tr><td><img alt="Adobe Commerce機能" src="../assets/b2b.svg" width="20" height="20" /> 専用の機能はでのみ使用できます <a href="https://experienceleague.adobe.com/docs/commerce-admin/b2b/guide-overview.html">Adobe Commerce用 B2B</a></td></tr>
 </table>
 
 ## 400 問題 {#avoid-400-error}
