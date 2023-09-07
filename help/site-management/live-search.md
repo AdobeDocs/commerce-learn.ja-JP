@@ -3,25 +3,24 @@ title: «の概要 [!DNL Live Search]"
 description: '"追加方法を学ぶ [!DNL Live Search] お客様の店舗に追加し、魅力的で関連性の高い、パーソナライズされたショッピングエクスペリエンスを提供します。」'
 doc-type: feature video
 audience: all
-badge: label="Adobe Commerceのみ" type="Positive"
 last-substantial-update: 2023-04-27T00:00:00Z
 feature: Configuration, System, Personalization, Search
 topic: Commerce, Administration
 role: Admin, User
 level: Beginner, Intermediate
 exl-id: a2a65242-9510-447d-8e35-4b9698ddd7b2
-source-git-commit: 404d2708a6d540d6fb19a33afb20726356cd8000
+source-git-commit: 7e9f65c7d885eef34ba3bb528400e735c72b65ed
 workflow-type: tm+mt
-source-wordcount: '95'
+source-wordcount: '91'
 ht-degree: 0%
 
 ---
 
 # の概要 [!DNL Live Search]
 
-{{ee-feature}}
-
 これは [!DNL Live Search] Adobe Commerceから [!DNL Live Search] powered by Adobe Senseiは、人工知能と機械学習アルゴリズムを使用して、集計された訪問者データを深く分析します。
+
+{{ee-feature}}
 
 ## このビデオは誰のためのものですか？
 
