@@ -3,25 +3,35 @@ title: GraphQLでのスキーマ言語
 description: GraphQLに関連するスキーマについて説明します。 スキーマの説明と、興味深いパターンおよびスキーマの読み方を読みます。
 landing-page-description: これはGraphQLの紹介です。 スキーマと、要素の一部の解釈方法について
 short-description: これはGraphQLの紹介です。 スキーマと、要素の一部の解釈方法について
-kt: 11524
-doc-type: tutorial
+kt: 13939
+doc-type: video
 audience: all
-last-substantial-update: 2022-12-13T00:00:00Z
+last-substantial-update: 2023-10-12T00:00:00Z
 feature: GraphQL
 topic: Commerce, Architecture, Headless
 role: Architect, Developer
 level: Beginner, Intermediate
 exl-id: 6b59db07-b99e-47ae-9ccb-d4904afc8251
-source-git-commit: 404d2708a6d540d6fb19a33afb20726356cd8000
+source-git-commit: 2041bbf1a2783975091b9806c12fc3c34c34582f
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '429'
 ht-degree: 0%
 
 ---
 
 # スキーマの言語
 
-使用されるクエリと変更は、GraphQLランタイムがクエリの解決に使用する特定のデータグラフに基づいて実装されます。 GraphQL仕様は、データグラフのタイプと関係を表すための非依存言語を定義します。
+これは、GraphQLとAdobe Commerceのシリーズの第 4 部です。 使用されるクエリと変更は、GraphQLランタイムがクエリの解決に使用する特定のデータグラフに基づいて実装されます。 GraphQL仕様は、データグラフのタイプと関係を表すための非依存言語を定義します。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3424123?learn=on)
+
+## このシリーズのGraphQLに関する関連ビデオとチュートリアル
+
+* [第 1 部GraphQL — はじめに](../graphql-rest/intro-graphql.md)
+* [第 2 部GraphQL — クエリ](../graphql-rest/graphql-queries.md)
+* [第 3 部GraphQL — 突然変異](../graphql-rest/graphql-mutations.md)
+
+## スキーマの例
 
 これまで見てきたクエリと変異をサポートする短縮型のスキーマを次に示します。
 

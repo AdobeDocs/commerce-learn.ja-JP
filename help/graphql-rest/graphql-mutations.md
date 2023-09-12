@@ -3,23 +3,36 @@ title: GraphQLを使用したミューテーションの実行
 description: Adobe CommerceでのGraphQLを使用した突然変異の実行と、 [!DNL Magento Open Source]. ミューテーションコールを使用して、最初のPOSTを実行します。
 landing-page-description: Adobe CommerceでのGraphQLを使用した突然変異の実行と、 [!DNL Magento Open Source]. ミューテーションコールを使用して、最初のPOSTを実行します。
 short-description: Adobe CommerceでのGraphQLを使用した突然変異の実行と、 [!DNL Magento Open Source]. ミューテーションコールを使用して、最初のPOSTを実行します。
-kt: 11524
-doc-type: tutorial
+kt: 13938
+doc-type: video
 audience: all
-last-substantial-update: 2022-12-13T00:00:00Z
+last-substantial-update: 2023-10-12T00:00:00Z
 feature: GraphQL
 topic: Commerce, Architecture, Headless
 role: Architect, Developer
 level: Beginner, Intermediate
 exl-id: 6b82ffda-925f-4a81-8ca5-49a2b8ab4929
-source-git-commit: 404d2708a6d540d6fb19a33afb20726356cd8000
+source-git-commit: 2041bbf1a2783975091b9806c12fc3c34c34582f
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '400'
 ht-degree: 0%
 
 ---
 
 # 変異
+
+これは、GraphQLとAdobe Commerceのシリーズの第 3 部です。 突然変異とは、GraphQLを使用して値を保存、更新、返す機能です。
+
+
+>[!VIDEO](https://video.tv.adobe.com/v/3424121?learn=on)
+
+## このシリーズのGraphQLに関する関連ビデオとチュートリアル
+
+* [第 1 部GraphQL — はじめに](../graphql-rest/intro-graphql.md)
+* [第 2 部GraphQL — クエリ](../graphql-rest/graphql-queries.md)
+* [第 4 部GraphQL — スキーマ](../graphql-rest/graphql-schema.md)
+
+## 突然変異の例
 
 完全な API 仕様には、データをクエリするだけでなく、データを作成および更新する機能を提供する必要があります。
 

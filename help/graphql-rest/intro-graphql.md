@@ -4,26 +4,34 @@ description: Adobe CommerceでのGraphQLの使用方法と [!DNL Magento Open So
 landing-page-description: Adobe CommerceでのGraphQLの使用方法と [!DNL Magento Open Source]. Adobe CommerceおよびのGraphQLGETおよびPOST呼び出しの使用 [!DNL Magento Open Source].
 short-description: Adobe CommerceでのGraphQLの使用方法と [!DNL Magento Open Source]. Adobe CommerceおよびのGraphQLGETおよびPOST呼び出しの使用 [!DNL Magento Open Source].
 kt: 11524
-doc-type: tutorial
+doc-type: video
 audience: all
-last-substantial-update: 2022-12-13T00:00:00Z
+last-substantial-update: 2023-10-12T00:00:00Z
 feature: GraphQL
 topic: Commerce, Architecture, Headless
 role: Architect, Developer
 level: Beginner, Intermediate
 exl-id: 8ea823da-24a3-4627-885c-4b3279b9142c
-source-git-commit: 404d2708a6d540d6fb19a33afb20726356cd8000
+source-git-commit: 2041bbf1a2783975091b9806c12fc3c34c34582f
 workflow-type: tm+mt
-source-wordcount: '493'
+source-wordcount: '522'
 ht-degree: 0%
 
 ---
 
 # GraphQLはじめに
 
-GraphQLは、クライアント側アプリケーションがバックエンドと通信する強力さを実現するための業界標準にすぐになっています。 プラットフォームはヘッドレス実装の領域で機能を拡大し続けるので、Adobe Commerce開発者にとっては、ますます関連性の高いトピックです。
+これは、GraphQLとAdobe Commerceのシリーズの一部です。 GraphQLは、クライアント側アプリケーションがバックエンドと通信する強力さを実現するための業界標準にすぐになっています。 プラットフォームはヘッドレス実装の領域で機能を拡大し続けるので、Adobe Commerce開発者にとっては、ますます関連性の高いトピックです。
 
 GraphQLを初めて使用する場合は、この節で基本的な概念と使用方法について説明します。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3424117?learn=on)
+
+## このシリーズのGraphQLに関する関連ビデオとチュートリアル
+
+* [第 2 部GraphQL — クエリ](../graphql-rest/graphql-queries.md)
+* [第 3 部GraphQL — 突然変異](../graphql-rest/graphql-mutations.md)
+* [第 4 部GraphQL — スキーマ](../graphql-rest/graphql-schema.md)
 
 ## GraphQLとは？
 

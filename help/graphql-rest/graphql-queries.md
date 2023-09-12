@@ -3,23 +3,35 @@ title: GraphQLを使用したクエリの実行
 description: Adobe CommerceでGraphQLを使用してクエリを実行する方法と [!DNL Magento Open Source]. これは、GET呼び出しとPOST呼び出しを使用するGraphQLの紹介です。
 landing-page-description: Adobe CommerceでGraphQLを使用してクエリを実行する方法と [!DNL Magento Open Source]. これは、GET呼び出しとPOST呼び出しを使用するGraphQLの紹介です。
 short-description: Adobe CommerceでGraphQLを使用してクエリを実行する方法と [!DNL Magento Open Source]. これは、GET呼び出しとPOST呼び出しを使用するGraphQLの紹介です。
-kt: 11524
-doc-type: tutorial
+kt: 13937
+doc-type: video
 audience: all
-last-substantial-update: 2022-12-13T00:00:00Z
+last-substantial-update: 2023-10-12T00:00:00Z
 feature: GraphQL
 topic: Commerce, Architecture, Headless
 role: Architect, Developer
 level: Beginner, Intermediate
 exl-id: 443d711d-ec74-4e07-9357-fbbe0f774853
-source-git-commit: 404d2708a6d540d6fb19a33afb20726356cd8000
+source-git-commit: 2041bbf1a2783975091b9806c12fc3c34c34582f
 workflow-type: tm+mt
-source-wordcount: '937'
+source-wordcount: '986'
 ht-degree: 0%
 
 ---
 
 # GraphQLクエリ
+
+これは、GraphQLとAdobe Commerceのシリーズの第 2 部です。 このチュートリアルおよびビデオでは、GraphQLクエリと、Adobe Commerceに対してクエリを実行する方法について説明します。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3424120?learn=on)
+
+## このシリーズのGraphQLに関する関連ビデオとチュートリアル
+
+* [第 1 部GraphQL — はじめに](../graphql-rest/intro-graphql.md)
+* [第 3 部GraphQL — 突然変異](../graphql-rest/graphql-mutations.md)
+* [第 4 部GraphQL — スキーマ](../graphql-rest/graphql-schema.md)
+
+## GraphQLの構文の例
 
 本格的な例を使用して、GraphQLクエリ構文を簡単に説明します。 (https://venia.magento.com/graphqlに対しては、ご自身で試してみてください。)
 
