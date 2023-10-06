@@ -3,9 +3,9 @@ user-guide-title: ビデオとチュートリアル
 user-guide-description: ビデオとチュートリアルを通じて、Adobe Commerce と Magento Open Source について説明します。
 breadcrumb-title: ビデオとチュートリアル
 auto-video-transcripts: true
-source-git-commit: 1771ef7e11482fc663bedc162a48acd394bc0980
+source-git-commit: fae9666d2850afb5eb79ff174f376c324717d6c4
 workflow-type: tm+mt
-source-wordcount: '548'
+source-wordcount: '555'
 ht-degree: 3%
 
 ---
@@ -26,6 +26,7 @@ ht-degree: 3%
       + [グローバルリファレンスアーキテクチャとは](../global-reference-architecture/what-is-global-reference-architecture.md)
       + [グローバルリファレンスアーキテクチャの活用方法](../global-reference-architecture/how-do-you-leverage-global-reference-architecture.md)
       + [グローバル・リファレンス・アーキテクチャの構築方法](../global-reference-architecture/how-do-you-architect-global-reference-architecture.md)
+      + [グローバルリファレンスアーキテクチャの実装方法](../global-reference-architecture/how-do-you-implement-global-reference-architecture.md)
 + GraphQLと REST {#graphql-rest}
    + [GraphQLの基本](../graphql-rest/intro-graphql.md)
    + [クエリ](../graphql-rest/graphql-queries.md)
