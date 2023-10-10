@@ -3,7 +3,7 @@ user-guide-title: ビデオとチュートリアル
 user-guide-description: ビデオとチュートリアルを通じて、Adobe Commerce と Magento Open Source について説明します。
 breadcrumb-title: ビデオとチュートリアル
 auto-video-transcripts: true
-source-git-commit: fae9666d2850afb5eb79ff174f376c324717d6c4
+source-git-commit: 5f86788f8bd8c0281571ed2cd45c89963be9e98e
 workflow-type: tm+mt
 source-wordcount: '555'
 ht-degree: 3%
@@ -131,7 +131,7 @@ ht-degree: 3%
    + [Adobe Commerce 2.4 アップグレードワークショップ](../upgrade/2.4-upgrade-workshop.md)
    + [アップグレード互換性ツールの概要](../upgrade/upgrade-compatibility-tool-overview.md)
    + [PHP Storm のアップグレード互換性ツールを使用する](../upgrade/uct-phpstorm.md)
-+ バックエンドの開発 {#backend-development}
++ バックエンド開発 {#backend-development}
    + [データベーステーブルを変更する際のベストプラクティス](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables.html)
    + [データベースにテーブルを追加する](../backend-development/new-db-table.md)
    + [モジュールの作成](../backend-development/create-module.md)
