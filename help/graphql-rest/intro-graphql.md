@@ -1,7 +1,7 @@
 ---
 title: GraphQLはじめに
-description: Adobe CommerceでのGraphQLの使用方法と [!DNL Magento Open Source]. Adobe CommerceおよびのGraphQLGETおよびPOST呼び出しの使用 [!DNL Magento Open Source].
-short-description: Adobe Commerceおよび [!DNL Magento Open Source].
+description: Adobe Commerce と  [!DNL Magento Open Source] で GraphQL を使用する方法について説明します。Adobe Commerce と  [!DNL Magento Open Source] には、GraphQL の GET 呼び出しと POST 呼び出しを使用します。
+short-description: Adobe Commerce と  [!DNL Magento Open Source] での GraphQL の GET 呼び出しと POST 呼び出しの使用方法について説明します。
 kt: 11524
 doc-type: video
 audience: all
@@ -14,7 +14,7 @@ exl-id: 8ea823da-24a3-4627-885c-4b3279b9142c
 source-git-commit: 750c8c9c5c6b3e01b9af8aacae31f3d521c4f7b7
 workflow-type: tm+mt
 source-wordcount: '497'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
