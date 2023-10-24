@@ -10,9 +10,10 @@ feature: Best Practices, Configuration, Install
 topic: Architecture, Commerce, Development
 role: Architect, Developer, User, Leader
 level: Beginner, Intermediate
-source-git-commit: 449445ba629f8db9d0e3535e6bcb5339fab99070
+exl-id: 0eb1f994-24a7-491f-b267-00202f6086e6
+source-git-commit: 03e20a42f798bd7eac1971656e2ad9b99a8b784e
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: '169'
 ht-degree: 0%
 
 ---
@@ -21,7 +22,7 @@ ht-degree: 0%
 
 グローバルリファレンスアーキテクチャ (GRA) の実装方法を簡単に説明します。 GRA の成功に役立つ早期の決定について学びます。 Web サイトの分離方法、成功の鍵、および機能を組織的に開発するためのいくつかの概念に関するアイデアを得ます。
 
-## このビデオは誰のためのものですか？
+## 対象ユーザ
 
 * この概念を理解する必要のある人は誰でも
 * 複数のブランドを持つ大規模プロジェクト

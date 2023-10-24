@@ -10,9 +10,10 @@ feature: Best Practices, Configuration, Install
 topic: Architecture, Commerce, Development
 role: Architect, Developer, User, Leader
 level: Beginner, Intermediate
-source-git-commit: eaee7e251c3b55d6d9991f61ddeffc6036725889
+exl-id: 3b733e3c-b292-4b1a-96f2-30c14f35ac67
+source-git-commit: 803b418ec85c907d087f8fe243799b56a281219b
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '128'
 ht-degree: 0%
 
 ---
@@ -21,7 +22,7 @@ ht-degree: 0%
 
 グローバルリファレンスアーキテクチャ (GRA) を簡単に活用する方法を説明します。 導入を成功に導くための GRA の準備をより良くするために、Adobeの専門家は、プロジェクトの様々なフェーズについて話し合い、発見フェーズの詳細を説明します。 QA リソースについて、および GRA 実装にとって価値のあるリソースとなる方法について説明します。
 
-## このビデオは誰のためのものですか？
+## 対象ユーザ
 
 * この概念を理解する必要のある人は誰でも
 * 複数のブランドを持つ大規模プロジェクト
