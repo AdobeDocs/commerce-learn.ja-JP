@@ -1,5 +1,5 @@
 ---
-title: グローバルリファレンスアーキテクチャとは
+title: グローバルリファレンスアーキテクチャの概念の概要
 description: グローバルリファレンスアーキテクチャと呼ばれる、複雑なコマースプロジェクトの管理に使用する手法について説明します。
 landing-page-description: グローバルリファレンスアーキテクチャと、Adobe Commerceでの使用方法について説明します。
 kt: 14039
@@ -10,18 +10,19 @@ feature: Best Practices, Configuration, Install
 topic: Architecture, Commerce, Development
 role: Architect, Developer, User, Leader
 level: Beginner, Intermediate
-source-git-commit: eaee7e251c3b55d6d9991f61ddeffc6036725889
+exl-id: 71c310ab-593c-4f64-b07e-8337b3f3255e
+source-git-commit: d0a85c7d8300ab48e0b36ad66a2bf8cd23eb5b2b
 workflow-type: tm+mt
-source-wordcount: '90'
+source-wordcount: '87'
 ht-degree: 0%
 
 ---
 
-# グローバルリファレンスアーキテクチャの概要
+# グローバルリファレンスアーキテクチャ
 
 グローバルリファレンスアーキテクチャ、いくつかのコア概念、このアプローチの利点について説明します。
 
-## このビデオは誰のためのものですか？
+## 対象ユーザ
 
 * この概念を理解する必要のある人は誰でも
 * 複数のブランドを持つ大規模プロジェクト

@@ -3,9 +3,9 @@ user-guide-title: ビデオとチュートリアル
 user-guide-description: ビデオとチュートリアルを通じて、Adobe Commerce と Magento Open Source について説明します。
 breadcrumb-title: ビデオとチュートリアル
 auto-video-transcripts: true
-source-git-commit: b2d93ce91f3268b4d6501941777a65c7ba8ff457
+source-git-commit: 3c020ae0cdf8fd45752dd44bfa4f914371d89549
 workflow-type: tm+mt
-source-wordcount: '549'
+source-wordcount: '536'
 ht-degree: 3%
 
 ---
@@ -23,10 +23,10 @@ ht-degree: 3%
       + [5 — 開発](../cloud/5-dev-config.md)
       + [6 — サービスと DNS](../cloud/6-launch.md)
    + グローバルリファレンスアーキテクチャ{#global-reference-architecture}
-      + [グローバルリファレンスアーキテクチャとは](../global-reference-architecture/what-is-global-reference-architecture.md)
-      + [グローバルリファレンスアーキテクチャの活用方法](../global-reference-architecture/how-do-you-leverage-global-reference-architecture.md)
-      + [グローバル・リファレンス・アーキテクチャの構築方法](../global-reference-architecture/how-do-you-architect-global-reference-architecture.md)
-      + [グローバルリファレンスアーキテクチャの実装方法](../global-reference-architecture/how-do-you-implement-global-reference-architecture.md)
+      + [グローバルリファレンスアーキテクチャ](../global-reference-architecture/what-is-global-reference-architecture.md)
+      + [グローバルリファレンスアーキテクチャの活用](../global-reference-architecture/how-do-you-leverage-global-reference-architecture.md)
+      + [建築家 GRA](../global-reference-architecture/how-do-you-architect-global-reference-architecture.md)
+      + [グローバルリファレンスアーキテクチャの実装](../global-reference-architecture/how-do-you-implement-global-reference-architecture.md)
 + GraphQLと REST {#graphql-rest}
    + [GraphQLの基本](../graphql-rest/intro-graphql.md)
    + [クエリ](../graphql-rest/graphql-queries.md)
