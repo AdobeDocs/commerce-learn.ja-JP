@@ -3,7 +3,7 @@ user-guide-title: ビデオとチュートリアル
 user-guide-description: ビデオとチュートリアルを通じて、Adobe Commerce と Magento Open Source について説明します。
 breadcrumb-title: ビデオとチュートリアル
 auto-video-transcripts: true
-source-git-commit: 7b8f3342db01907b2c8a575ac86f6784aec38112
+source-git-commit: b2d93ce91f3268b4d6501941777a65c7ba8ff457
 workflow-type: tm+mt
 source-wordcount: '549'
 ht-degree: 3%
