@@ -3,9 +3,9 @@ user-guide-title: ビデオとチュートリアル
 user-guide-description: ビデオとチュートリアルを通じて、Adobe Commerce と Magento Open Source について説明します。
 breadcrumb-title: ビデオとチュートリアル
 auto-video-transcripts: true
-source-git-commit: 3c020ae0cdf8fd45752dd44bfa4f914371d89549
+source-git-commit: 3f354cbac9d0f64fec509fc06c6cf0d41c7287ae
 workflow-type: tm+mt
-source-wordcount: '536'
+source-wordcount: '540'
 ht-degree: 3%
 
 ---
@@ -27,6 +27,9 @@ ht-degree: 3%
       + [グローバルリファレンスアーキテクチャの活用](../global-reference-architecture/how-do-you-leverage-global-reference-architecture.md)
       + [建築家 GRA](../global-reference-architecture/how-do-you-architect-global-reference-architecture.md)
       + [グローバルリファレンスアーキテクチャの実装](../global-reference-architecture/how-do-you-implement-global-reference-architecture.md)
+   + コマース機能 {#capabilities}
+      + [データ接続](../capabilities/data-connection.md)
+      + [ライブ検索の完全なデモ](../capabilities/live-search-full-demonstration.md)
 + GraphQLと REST {#graphql-rest}
    + [GraphQLの基本](../graphql-rest/intro-graphql.md)
    + [クエリ](../graphql-rest/graphql-queries.md)
@@ -99,7 +102,7 @@ ht-degree: 3%
    + [製品のセットアップRecommendations](../site-management/product-recommendations.md)
    + [ライブ検索の概要](../site-management/live-search.md)
    + [ライブ検索でのレコメンデーション](../site-management/live-search-recommendations.md)
-   + [ライブ検索の完全なデモ](../site-management/live-search-full-demonstration.md)
+
 + オーダーと達成 {#orders}
    + [ストアの達成の概要](../site-management/store-fulfillment.md)
    + [注文ステータスの管理](../site-management/order-status.md)
