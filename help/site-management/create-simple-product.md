@@ -5,33 +5,33 @@ kt: 14446
 doc-type: video
 audience: all
 activity: use
-last-substantial-update: 2023-11-13T00:00:00Z
+last-substantial-update: 2023-11-14T00:00:00Z
 feature: Catalog Management, Admin Workspace, Backend Development, Integration, REST
 topic: Commerce, Integrations, Content Management
 role: Developer, User
 level: Beginner
-source-git-commit: 9f5d0e83995d12b5884c53fc8bcb0e9d1913768e
+source-git-commit: 89dc3b7f456c9434921ed870369712a721895d02
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '104'
 ht-degree: 0%
 
 ---
 
 # シンプルな製品の作成
 
-REST API とコマース管理を使用して簡単な製品を作成する方法を説明します。
+REST API とAdobe Commerce Admin を使用して簡単な製品を作成する方法を説明します。
 
 ## このビデオは誰のためのものですか？
 
 - Web サイトマネージャー
 - e コマースマーチャンダイザー
-- Adobe Commerceの新しい開発者で、Adobe Commerceで製品を作成するために REST を使用する方法を学ぶ必要がある
+- REST API を使用してAdobe Commerceで製品を作成する方法を学びたい新しいAdobe Commerce開発者です。
 
 ## ビデオコンテンツ
 
 >[!VIDEO](https://video.tv.adobe.com/v/3425650?learn=on)
 
-## 製品を作成するための Curl コードサンプル
+## curl を使用した製品の作成
 
 ```bash
 curl --location '{{your.url.here}}/rest/default/V1/products' \
@@ -49,7 +49,7 @@ curl --location '{{your.url.here}}/rest/default/V1/products' \
 }
 ```
 
-## 製品を取得するための Curl コードサンプル
+## curl を使用した製品の取得
 
 ```bash
 curl --location '{{your.url.here}}rest/default/V1/products/some-product-sku' \
