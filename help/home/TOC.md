@@ -3,9 +3,9 @@ user-guide-title: ビデオとチュートリアル
 user-guide-description: ビデオとチュートリアルを通じて、Adobe Commerce と Magento Open Source について説明します。
 breadcrumb-title: ビデオとチュートリアル
 auto-video-transcripts: true
-source-git-commit: 04936bd18dd2a34f8a1aa738594c7dd99cbeb37c
+source-git-commit: bc425e44acbd8cf726a7f947065cc59daa785b62
 workflow-type: tm+mt
-source-wordcount: '548'
+source-wordcount: '552'
 ht-degree: 3%
 
 ---
@@ -57,6 +57,7 @@ ht-degree: 3%
       + [まとめ](../app-builder/first-app/conclusion.md)
       + [モジュールのソースコードのサンプル](https://github.com/magento/app-builder-samples){target="_blank"}
    + Adobe Commerceの IO イベント {#io-events}
+      + [I/O イベントの開始](../io-events/getting-started-io-events.md)
       + [Adobe Commerce 2.4.5 のインストール](../io-events/2-4-5-installation.md)
       + [Adobe Commerce 2.4.6 のインストール](../io-events/2-4-6-installation.md)
       + [App Builder プロジェクトの作成](../io-events/create-app-builder-project.md)

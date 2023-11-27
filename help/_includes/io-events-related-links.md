@@ -1,9 +1,9 @@
 ---
 title: I/O イベント関連ページ
 description: IO イベント内の関連ページへのリンク
-source-git-commit: 050a321cd4b47e2658559c5dc459086788eaf223
+source-git-commit: bc425e44acbd8cf726a7f947065cc59daa785b62
 workflow-type: tm+mt
-source-wordcount: '56'
+source-wordcount: '60'
 ht-degree: 0%
 
 ---
@@ -12,6 +12,7 @@ ht-degree: 0%
 
 ## その他の関連チュートリアル
 
+* [I/O イベントの開始](../io-events/getting-started-io-events.md)
 * [Adobe Commerce 2.4.5 のインストール](../io-events/2-4-5-installation.md)
 * [Adobe Commerce 2.4.6 のインストール](../io-events/2-4-6-installation.md)
 * [App Builder プロジェクトの作成](../io-events/create-app-builder-project.md)
