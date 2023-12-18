@@ -10,9 +10,9 @@ feature: Catalog Management, Admin Workspace, Backend Development, Integration, 
 topic: Commerce, Integrations, Content Management
 role: Developer, User
 level: Beginner
-source-git-commit: 76716d4c9530963f198a855e101c76b6374c6d75
+source-git-commit: f3ec375c2332bfae98970d7e10a6a7ad258386e3
 workflow-type: tm+mt
-source-wordcount: '979'
+source-wordcount: '952'
 ht-degree: 0%
 
 ---
@@ -144,7 +144,6 @@ API を使用して 2 つ目のシンプルな製品を作成し、cURL を使�
 - 変更 `"attribute_set_id": 10,` および置換 `10` と、環境のからの属性セット id を組み合わせます。
 - 変更 `"value": "14"` および置換 `14` を、環境の値で置き換えます。
 
-
 ```bash
 curl --location '{{your.url.here}}/rest/default/V1/products' \
 --header 'Content-Type: application/json' \
@@ -179,7 +178,7 @@ curl --location '{{your.url.here}}/rest/default/V1/products' \
 
 ## cURL を使用して 3 つ目のシンプルな製品を作成します。
 
-API を使用して 3 つ目のシンプルな製品を作成し、cURL を使用して次のPOSTリクエストを送信します。
+cURL を使用して次のPOSTリクエストを送信し、3 つ目のシンプルな製品を作成します。
 
 リクエストを送信する前に、使用している環境の値で例を更新します。
 
@@ -220,7 +219,7 @@ curl --location '{{your.url.here}}/rest/default/V1/products' \
 
 ## cURL を使用して空の設定可能な製品を作成
 
-API を使用して空の設定可能な製品を作成し、cURL を使用して次のPOSTリクエストを送信します。
+cURL を使用して次の設定リクエストを送信し、空の設定可能なPOSTを作成します。
 
 リクエストを送信する前に、使用している環境の値で例を更新します。
 
@@ -253,7 +252,7 @@ curl --location '{{your.url.here}}/rest/default/V1/products' \
 
 ## 設定可能な製品で使用可能なオプションを設定
 
-API を使用して、cURL を使用して次のPOSTリクエストを送信することで、設定可能な製品で使用可能なオプションを設定します。
+cURL を使用して次のPOSTリクエストを送信し、設定可能な製品で使用可能なオプションを設定します。
 
 リクエストを送信する前に、 `"attribute_id": 93,` 置き換える `93` 環境の属性 id を持つ。
 
@@ -289,7 +288,7 @@ curl --location '{{your.url.here}}/rest/default/V1/configurable-products/Kids-Ha
 - `"Kids-Hawaiian-Ukulele-Blue"`
 - `"Kids-Hawaiian-Ukulele-Green"`
 
-API を使用して、これらのシンプルな製品を設定可能な製品の子として追加し、各製品に対して次のPOSTリクエストを送信します。 各製品に対して個別のリクエストを送信します。
+次のPOSTリクエストを送信して、これらのシンプルな製品を設定可能な製品の子として追加します。 各製品に対して個別のリクエストを送信します。
 
 リクエストごとに、 `childSKU` 値と、追加する子製品の値。 次の例では、単純な製品を割り当てます。 `kids-Hawaiian-Ukulele-red` を SKU 付きの設定可能な製品に追加 `Kids-Hawaiian-Ukulele-red`.
 
@@ -307,7 +306,7 @@ curl --location '{{your.url.here}}rest/default/V1/configurable-products/Kids-Haw
 
 ## cURL を使用した設定可能な製品の取得
 
-これで、3 つの子 SKU が割り当てられた設定可能な製品が作成されました。 cURL を使用して以下のGETリクエストを送信するために、API によって割り当てられた製品のリンクされた ID を確認できます。 このリクエストは、設定可能な製品に関する詳細情報を返します。
+これで、3 つの子 SKU が割り当てられた設定可能な製品が作成されました。 cURL を使用して次のGETリクエストを送信することで、割り当てられた製品に関するリンクされた ID を確認できます。 このリクエストは、設定可能な製品に関する詳細情報を返します。
 
 ```json
 ...
@@ -328,7 +327,7 @@ curl --location '{{your.url.here}}/rest/default/V1/products/Kids-Hawaiian-Ukulel
 
 ## 設定可能な製品に関連付けられた子製品を取得する
 
-このリクエストは、設定可能な製品に関連付けられている子のみを返します。 この応答には、SKU や価格を含む子製品のすべての属性が含まれます。
+次のGETリクエストを送信して、設定可能な製品に関連付けられている子のみを返します。 応答には、SKU や価格を含む、子製品のすべての属性が含まれます。
 
 次の例では、GETメソッドを使用します
 
@@ -339,9 +338,7 @@ curl --location '{{your.url.here}}/rest/default/V1/configurable-products/kids-ha
 
 ## 親設定可能な項目から子製品を削除
 
-API を使用して cURL を使用して次のDELETEリクエストを送信することで、カタログから製品を削除せずに、設定可能な製品から子製品を削除できます。
-
-次の例では、このメソッドをDELETEします。
+cURL を使用して次のDELETEリクエストを送信することで、カタログから製品を削除せずに、設定可能な製品から子製品を削除できます。
 
 ```bash
 curl --location --request DELETE '{{your.url.here}}/rest/default/V1/configurable-products/Kids-Hawaiian-Ukulele/children/Kids-Hawaiian-Ukulele-Blue' \
