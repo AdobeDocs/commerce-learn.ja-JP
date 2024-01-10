@@ -3,9 +3,9 @@ user-guide-title: ビデオとチュートリアル
 user-guide-description: ビデオとチュートリアルを通じて、Adobe Commerce と Magento Open Source について説明します。
 breadcrumb-title: ビデオとチュートリアル
 auto-video-transcripts: true
-source-git-commit: 4d6b9e8fcdd7f544075ff9bb28fd95e28ab3d6a4
+source-git-commit: 7ffd5c0edaa446f8841e15012ff4a0ff4923466b
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '578'
 ht-degree: 3%
 
 ---
@@ -79,7 +79,10 @@ ht-degree: 3%
    + [Web サイト、ストア、ストア表示の追加](../site-management/add-websites-stores-views.md)
    + [ストア URL の変更](../site-management/change-store-url.md)
    + [発送および配送方法](../site-management/shipping-delivery.md)
-   + [支払いサービスを使用](../site-management/payment-services.md)
+   + Adobe Commerce Services {#adobe-commerce-services}
+      + [サービスコネクタの設定](../site-management/configure-adobe-commerce-services-connector.md)
+      + [支払いサービスの構成](../site-management/configure-adobe-payment-services.md)
+      + [支払いサービスを使用](../site-management/payment-services.md)
 + 顧客管理 {#customers}
    + [顧客セグメントの作成](../site-management/customer-segments.md)
    + [顧客グループの作成](../site-management/customer-groups.md)
