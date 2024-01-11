@@ -9,7 +9,7 @@ feature: Configuration, System
 topic: Commerce, Administration
 role: Admin, User
 level: Beginner, Intermediate
-source-git-commit: bd6e6d50f94f688b762ab1fae5b0112f046236d3
+source-git-commit: 39cb1301f098683d09220b2e3f190f25ac2c5ecc
 workflow-type: tm+mt
 source-wordcount: '77'
 ht-degree: 0%
@@ -27,7 +27,7 @@ Adobe CommerceとMagento Open Sourceの支払いサービスを使用するに�
 
 ## ビデオコンテンツ
 
->[!VIDEO](https://video.tv.adobe.com/v/3425957?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3425958?learn=on)
 
 ## その他のリソース
 
