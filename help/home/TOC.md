@@ -3,9 +3,9 @@ user-guide-title: ビデオとチュートリアル
 user-guide-description: ビデオとチュートリアルを通じて、Adobe Commerce と Magento Open Source について説明します。
 breadcrumb-title: ビデオとチュートリアル
 auto-video-transcripts: true
-source-git-commit: 07ffd14ee86e8491b883747c80f275deecc97946
+source-git-commit: 762d80791687787c6204160cbd81c9654bc187f6
 workflow-type: tm+mt
-source-wordcount: '580'
+source-wordcount: '584'
 ht-degree: 3%
 
 ---
@@ -113,7 +113,7 @@ ht-degree: 3%
    + [製品のセットアップRecommendations](../site-management/product-recommendations.md)
    + [ライブ検索の概要](../site-management/live-search.md)
    + [ライブ検索でのレコメンデーション](../site-management/live-search-recommendations.md)
-
+   + [Commerce と AJO の統合](../site-management/integrate-commerce-ajo.md)
 + オーダーと達成 {#orders}
    + [ストアの達成の概要](../site-management/store-fulfillment.md)
    + [注文ステータスの管理](../site-management/order-status.md)
