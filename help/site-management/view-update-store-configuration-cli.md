@@ -1,6 +1,6 @@
 ---
-title: コマンドラインを使用して管理設定を表示および設定する方法について説明します。
-description: コマンドラインを使用して設定値を表示および設定する方法を示すデモ
+title: コマンドラインを使用して管理設定を表示および設定する
+description: コマンドラインを使用して管理設定を表示および設定する方法について説明します。
 feature: Configuration,Console,System
 topic: Administration,Commerce
 role: Developer
@@ -10,15 +10,15 @@ duration: 462
 last-substantial-update: 2024-01-31T00:00:00Z
 jira: KT-14877
 thumbnail: KT-14877.jpeg
-source-git-commit: 9d4b01d383e5492ccc0cbd27636a49581e8ffb5b
+source-git-commit: a5ddf7591519b89efa2feb20ae601d36f5e5a1a7
 workflow-type: tm+mt
-source-wordcount: '159'
+source-wordcount: '151'
 ht-degree: 0%
 
 ---
 
 
-# コマンドラインを使用して管理設定を表示および設定する方法について説明します。
+# コマンドラインを使用して管理設定を表示および設定する
 
 Commerce CLI を使用して設定値を表示、設定、および検索する方法のデモです。 値が保存される場所とデフォルト値の保存元を把握します。
 
