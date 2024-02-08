@@ -1,6 +1,6 @@
 ---
-title: Adobe CommerceとAdobe Journey Optimizerの統合方法を学ぶ
-description: Adobe CommerceとAdobe Journey Optimizerの統合を実装する理由と方法を説明します
+title: Adobe CommerceとAdobe Journey Optimizerの統合
+description: Adobe CommerceとAdobe Journey Optimizerの統合を実装する理由と方法について説明します。
 feature: Audience Activation, Communications, Marketing Tools, Promotions/Events
 topic: Administration, Commerce, Integrations, Personalization
 role: Admin, Developer
@@ -10,17 +10,17 @@ duration: 512
 last-substantial-update: 2024-01-17T00:00:00Z
 jira: KT-14793
 thumbnail: 3426855.jpeg
-source-git-commit: b790ca7921fb5999c211619a2bf56e39a0dcf960
+exl-id: 2f12c90f-710b-4680-a12e-62c436793b9c
+source-git-commit: 8ffbcb364ce2a1bc3c6be0cb39fbece8f5fbd320
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '244'
 ht-degree: 0%
 
 ---
 
+# Adobe CommerceとAdobe Journey Optimizerの統合
 
-# Adobe CommerceとAdobe Journey Optimizerの統合方法を学ぶ
-
-使用方法 [データ接続](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/overview.html){target="_blank"} Adobe Commerceでコマースデータのロックを解除し、Adobe Journey Optimizerを活用して、エンドツーエンドのパーソナライズされた買い物客エクスペリエンスをリアルタイムで提供します。
+使用方法 [データ接続](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/overview.html){target="blank"} Adobe Commerceでコマースデータのロックを解除し、Adobe Journey Optimizerを活用して、エンドツーエンドのパーソナライズされた買い物客エクスペリエンスをリアルタイムで提供します。
 
 ## このビデオは誰のためのものですか？
 
