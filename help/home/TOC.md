@@ -3,9 +3,9 @@ user-guide-title: ビデオとチュートリアル
 user-guide-description: ビデオとチュートリアルを通じて、Adobe Commerce と Magento Open Source について説明します。
 breadcrumb-title: ビデオとチュートリアル
 auto-video-transcripts: true
-source-git-commit: 606b2aa8cc1df64816b459e7ca9e0a65d538463a
+source-git-commit: 535c9dbe9f1247cebd848f184dcf7ea07eab405e
 workflow-type: tm+mt
-source-wordcount: '590'
+source-wordcount: '598'
 ht-degree: 3%
 
 ---
@@ -144,7 +144,7 @@ ht-degree: 3%
    + [SQLReport Builder](../business-intelligence/sql-report-builder.md)
    + [未来のための準備](../business-intelligence/prepare-for-future.md)
 + コマースのアップグレード {#upgrade}
-   + [Adobe Commerce 2.4 アップグレードワークショップ](../upgrade/2.4-upgrade-workshop.md)
+   + [Adobe Commerce 2.4 アップグレードワークショップ](../upgrade/2-4-upgrade-workshop.md)
    + [アップグレード互換性ツールの概要](../upgrade/upgrade-compatibility-tool-overview.md)
    + [PHP Storm のアップグレード互換性ツールを使用する](../upgrade/uct-phpstorm.md)
 + バックエンド開発 {#backend-development}
@@ -155,6 +155,7 @@ ht-degree: 3%
    + [Galera クラスターのレプリケーションが遅い](../backend-development/galera-db-slow-replication.md)
    + [MySQL クエリキャッシュ](../backend-development/mysql-query-cache.md)
    + [PT クエリダイジェスト](../backend-development/pt-query-digest.md)
+   + [Adobe Commerce Database への接続とダウンロード](../backend-development/remote-db-connection-execute-queries.md)
 + ネイティブフロントエンド Luma 開発 {#frontend-development}
    + 開発者向けの Page Builder {#page-builder}
       + [1 — はじめに](../frontend-development/page-builder/1-intro-case-studies.md)
