@@ -1,7 +1,7 @@
 ---
 title: GraphQLはじめに
-description: Adobe Commerce と  [!DNL Magento Open Source] で GraphQL を使用する方法について説明します。Adobe Commerce と  [!DNL Magento Open Source] には、GraphQL の GET 呼び出しと POST 呼び出しを使用します。
-short-description: Adobe Commerce と  [!DNL Magento Open Source] での GraphQL の GET 呼び出しと POST 呼び出しの使用方法について説明します。
+description: Adobe CommerceでのGraphQLの使用方法と [!DNL Magento Open Source]. Adobe CommerceおよびのGraphQLGETおよびPOST呼び出しの使用 [!DNL Magento Open Source].
+short-description: Adobe Commerceおよび [!DNL Magento Open Source].
 kt: 11524
 doc-type: video
 audience: all
@@ -11,10 +11,10 @@ topic: Commerce, Architecture, Headless
 role: Architect, Developer
 level: Beginner, Intermediate
 exl-id: 8ea823da-24a3-4627-885c-4b3279b9142c
-source-git-commit: 750c8c9c5c6b3e01b9af8aacae31f3d521c4f7b7
+source-git-commit: b8b1e40a2f4d38954f0d21bc6f1a91b7ec0bd8c9
 workflow-type: tm+mt
-source-wordcount: '497'
-ht-degree: 6%
+source-wordcount: '478'
+ht-degree: 0%
 
 ---
 
@@ -51,7 +51,7 @@ GraphQL仕様を実装するランタイムは、どの言語でも構築でき�
 
 * [アルテアール](https://altairgraphql.dev/){target="_blank"} は、GraphQL専用に構築された優れた完全な機能を備えたクライアントです。 Adobeは、ウォークスルービデオで Altair を使用しています。
 * デスクトップアプリケーションをインストールしない場合は、
-  [クロム](https://chrome.google.com/webstore/detail/altair-graphql-client/flnheeellpciglgpaodhkhmapeljopja){target="_blank"}, Firefox, or [Edge](https://microsoftedge.microsoft.com/addons/detail/altair-graphql-client/kpggioiimijgcalmnfnalgglgooonopa){target="_blank"} ブラウザー。
+  [クロム](https://chromewebstore.google.com/detail/altair-graphql-client/flnheeellpciglgpaodhkhmapeljopja){target="_blank"}, Firefox, or [Edge](https://microsoftedge.microsoft.com/addons/detail/altair-graphql-client/kpggioiimijgcalmnfnalgglgooonopa){target="_blank"} ブラウザー。
 * [GraphiQL](https://github.com/graphql/graphiql/tree/main/packages/graphiql){target="_blank"} は、GraphQL Foundation からのGraphQL IDE の実装です。 これはインストール可能なツールではなく、自分でインターフェイスを構築するために使用できるパッケージです。
 * 既に [Postman](https://www.postman.com/){target="_blank"}を使用する場合、GraphQLクエリは十分にサポートされますが、専用のGraphQLクライアントほど機能が完全には備わっていません。
 
