@@ -3,9 +3,9 @@ user-guide-title: ビデオとチュートリアル
 user-guide-description: ビデオとチュートリアルを通じて、Adobe Commerce と Magento Open Source について説明します。
 breadcrumb-title: ビデオとチュートリアル
 auto-video-transcripts: true
-source-git-commit: 15aabeb0aff824919ac1463a1d2a85674fbe0619
+source-git-commit: 3856060dd0c0e45c5e45e53e45a4a861d9723574
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '618'
 ht-degree: 3%
 
 ---
@@ -19,6 +19,7 @@ ht-degree: 3%
       + [起動プロセスのタイムライン](../cloud/launch-process-timeline.md)
       + [インフラストラクチャと開発のベストプラクティス](../cloud/infrastructure-development-best-practices.md)
       + [Fastly](../cloud/fastly.md)
+      + [設定とデバッグ](../cloud/configuration-and-debugging.md)
 + はじめに {#getting-started}
    + [!DNL Commerce] クラウド{#cloud}
       + [1 — 概要](../cloud/1-overview.md)
