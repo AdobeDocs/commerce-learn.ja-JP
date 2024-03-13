@@ -1,9 +1,9 @@
 ---
 title: Adobe Commerce Cloudテクニカルオンボーディング関連ページ
 description: Adobe Commerce Cloudテクニカルオンボーディングの関連ページへのリンク
-source-git-commit: eae2b8a2eb815ff1b32a80dbd0f29fbfa82a0dc0
+source-git-commit: 4ab9dab5562a9d150c238a6ca3e543e013ad0305
 workflow-type: tm+mt
-source-wordcount: '44'
+source-wordcount: '53'
 ht-degree: 0%
 
 ---
@@ -17,3 +17,4 @@ ht-degree: 0%
 - [Fastly](../cloud/fastly.md)
 - [設定とデバッグ](../cloud/configuration-and-debugging.md)
 - [デプロイメント、テスト、監視、セキュリティ](../cloud/deployments-testing-monitoring-security.md)
+- [Saas のサービス、サポートおよびその他の通信、および次のステップ](../cloud/saas-offerings-support-communications-next-steps.md)

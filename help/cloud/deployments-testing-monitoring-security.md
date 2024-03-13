@@ -1,6 +1,6 @@
 ---
-title: Adobe Commerce Cloudの導入戦略、テスト、監視、セキュリティ
-description: Adobe Commerce Cloudのデプロイメント戦略、テスト、監視、セキュリティについて説明します。
+title: Adobe Commerce Cloudのデプロイメント戦略、テスト、監視、セキュリティ
+description: Adobe Commerce Cloudのデプロイメント戦略、テスト、監視およびセキュリティについて説明します。
 feature: Cloud
 topic: Commerce, Architecture, Development
 role: Architect, Developer
@@ -10,14 +10,14 @@ duration: 0
 last-substantial-update: 2024-03-08T00:00:00Z
 jira: KT-15020
 kt: 15020
-source-git-commit: 6b71a7b4bc3d770870a02bb868c7b01bd17a5931
+source-git-commit: 9be9bd9e00984fc7ba2721ad423b802520906934
 workflow-type: tm+mt
 source-wordcount: '92'
 ht-degree: 0%
 
 ---
 
-# テクニカルオンボーディング — 導入、テスト、監視、セキュリティ
+# テクニカルオンボーディング — デプロイメント、テスト、監視、セキュリティ
 
 Adobe Commerce Cloudデプロイメント戦略、ベストプラクティスのテスト、監視およびセキュリティツールについて説明します。
 
