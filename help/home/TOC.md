@@ -3,9 +3,9 @@ user-guide-title: ビデオとチュートリアル
 user-guide-description: ビデオとチュートリアルを通じて、Adobe Commerce と Magento Open Source について説明します。
 breadcrumb-title: ビデオとチュートリアル
 auto-video-transcripts: true
-source-git-commit: 4ab9dab5562a9d150c238a6ca3e543e013ad0305
+source-git-commit: cebfa71f156a77fcfee57d5e9d0048b1326d4e27
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '614'
 ht-degree: 3%
 
 ---
@@ -23,13 +23,6 @@ ht-degree: 3%
       + [デプロイメント、テスト、監視、セキュリティ](../cloud/deployments-testing-monitoring-security.md)
       + [SaaS 製品、サポート、通信、次のステップ](../cloud/saas-offerings-support-communications-next-steps.md)
 + はじめに {#getting-started}
-   + [!DNL Commerce] クラウド{#cloud}
-      + [1 — 概要](../cloud/1-overview.md)
-      + [2 — ホストされているアカウント](../cloud/2-accounts.md)
-      + [3 - Cloud プロジェクト](../cloud/3-projects.md)
-      + [4 — 導入](../cloud/4-deployment.md)
-      + [5 — 開発](../cloud/5-dev-config.md)
-      + [6 — サービスと DNS](../cloud/6-launch.md)
    + グローバルリファレンスアーキテクチャ{#global-reference-architecture}
       + [グローバルリファレンスアーキテクチャ](../global-reference-architecture/what-is-global-reference-architecture.md)
       + [グローバルリファレンスアーキテクチャの活用](../global-reference-architecture/how-do-you-leverage-global-reference-architecture.md)
