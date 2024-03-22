@@ -1,6 +1,6 @@
 ---
 title: Adobe Commerce Cloudのテクニカルオンボーディングとハードウェアへの引き渡し — Launch プロセスのタイムライン
-description: Launch プロセスタイムラインのAdobe Commerce Cloudテクニカルオンボーディングについて説明します。
+description: ローンチプロセスのタイムラインに関する Adobe Commerce Cloud の技術的なオンボーディングについて説明します。
 feature: Cloud
 topic: Commerce, Architecture, Development
 role: Architect, Developer
@@ -15,13 +15,13 @@ exl-id: e68a8389-2cdc-495b-829b-24ea7502f66f
 source-git-commit: eae2b8a2eb815ff1b32a80dbd0f29fbfa82a0dc0
 workflow-type: tm+mt
 source-wordcount: '57'
-ht-degree: 0%
+ht-degree: 45%
 
 ---
 
 # テクニカルオンボーディング — ローンチプロセスのタイムライン
 
-Launch プロセスタイムラインのAdobe Commerce Cloudテクニカルオンボーディングについて説明します。
+ローンチプロセスのタイムラインに関する Adobe Commerce Cloud の技術的なオンボーディングについて説明します。
 
 ## このビデオは誰のためのものですか？
 
