@@ -3,9 +3,9 @@ user-guide-title: ビデオとチュートリアル
 user-guide-description: ビデオとチュートリアルを通じて、Adobe Commerce と Magento Open Source について説明します。
 breadcrumb-title: ビデオとチュートリアル
 auto-video-transcripts: true
-source-git-commit: d403368cbd80ef40ea0c7652d97fc18570aa552c
+source-git-commit: aff1af0df1fbf6bd90c55483bfb7994ab4d983ef
 workflow-type: tm+mt
-source-wordcount: '616'
+source-wordcount: '619'
 ht-degree: 3%
 
 ---
@@ -141,6 +141,7 @@ ht-degree: 3%
       + [悪意のある IP の検索](../new-relic/malicious-ip.md)
 + Commerce Intelligence {#mbi}
    + [はじめに](../business-intelligence/getting-started.md)
+   + [統合と設定](../business-intelligence/integrations-configurations.md)
    + [フィルターセット](../business-intelligence/filter-sets.md)
    + [コホートReport Builder](../business-intelligence/cohort-report-builder.md)
    + [SQLReport Builder](../business-intelligence/sql-report-builder.md)
