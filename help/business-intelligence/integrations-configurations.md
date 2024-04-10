@@ -1,6 +1,6 @@
 ---
 title: Adobe Commerce Intelligence の統合といくつかの基本設定
-description: Adobe Commerce Intelligence の統合と、レポートやダッシュボードの作成に役立つ一部の設定について説明します。
+description: Adobe Commerce Intelligence 統合と、レポートおよびダッシュボードの作成に役立つ設定について説明します
 feature: Cloud
 topic: Commerce, Administration
 solution: Commerce,Commerce Intelligence
@@ -11,24 +11,25 @@ duration: 518
 last-substantial-update: 2024-04-03T00:00:00Z
 jira: KT-15213
 kt: 15213
-source-git-commit: aff1af0df1fbf6bd90c55483bfb7994ab4d983ef
+exl-id: 56ee5ec9-803c-4ec3-a620-d4e5185ca707
+source-git-commit: 18f12a651192084caaa02ccd7cdeba1e3bafcfc2
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '116'
 ht-degree: 0%
 
 ---
 
 # Adobe Commerce Intelligence の統合と設定
 
-このチュートリアルでは、Adobe Commerce Intelligence の「データの管理」タブの概要と、統合、Data Warehouse、レポート機能を設定する方法について説明しています。&#x200B;
-事前定義済みの統合、標準の統合、プレミアム統合など、統合のオプションと、カスタム統合を追加する機能について説明します。
-また、Data Warehouseに対するテーブルの同期、新しいテーブルおよび列の追加、レポート目的での指標およびフィルターの作成のプロセスについても説明します。
+このチュートリアルでは、Adobe Commerce Intelligence の「データを管理」タブの概要を示し、統合、Data Warehouseおよびレポート機能を設定する方法について説明します。&#x200B;
+事前定義済みの統合、標準統合、プレミアム統合などの統合のオプションおよびカスタム統合を追加する機能について説明します。
+また、テーブルをData Warehouseに同期するプロセス、新しいテーブルと列を追加するプロセス、レポート目的で指標とフィルターを作成するプロセスについても説明します。
 
-## このビデオは誰のためのものですか？
+## このビデオの目的は誰ですか。
 
 - ビジネスユーザー
 - データアナリスト
 
-## Adobe Commerce Intelligence の概要
+## 統合と設定
 
 >[!VIDEO](https://video.tv.adobe.com/v/3428101?learn=on)
