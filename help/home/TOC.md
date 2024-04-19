@@ -3,9 +3,9 @@ user-guide-title: ビデオとチュートリアル
 user-guide-description: ビデオとチュートリアルを通じて、Adobe Commerce と Magento Open Source について説明します。
 breadcrumb-title: ビデオとチュートリアル
 auto-video-transcripts: true
-source-git-commit: 36bc1dfcc069e97a64d3af8e7852ed132eaa2bb5
+source-git-commit: 380135bdfeaf525f412b2d3093576e7c8ee648c6
 workflow-type: tm+mt
-source-wordcount: '619'
+source-wordcount: '627'
 ht-degree: 3%
 
 ---
@@ -38,6 +38,8 @@ ht-degree: 3%
       + [設定可能な製品](../site-management/create-configurable-product.md)
       + [バンドル製品](../site-management/create-bundle-product.md)
       + [ギフトカード製品](../site-management/create-gift-card-product.md)
+   + バックオフィス統合スターターキット {#back-office-integration-starter-kit}
+      + [スターターキットのデモ](../back-office-integrations/starter-kit-demo.md)
 + GraphQLと REST {#graphql-rest}
    + [GraphQLの基本](../graphql-rest/intro-graphql.md)
    + [クエリ](../graphql-rest/graphql-queries.md)
