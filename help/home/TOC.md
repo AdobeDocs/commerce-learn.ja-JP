@@ -3,9 +3,9 @@ user-guide-title: ビデオとチュートリアル
 user-guide-description: ビデオとチュートリアルを通じて、Adobe Commerce と Magento Open Source について説明します。
 breadcrumb-title: ビデオとチュートリアル
 auto-video-transcripts: true
-source-git-commit: 380135bdfeaf525f412b2d3093576e7c8ee648c6
+source-git-commit: a663178a1b3cffb328943e96f4efd4cef731bfe4
 workflow-type: tm+mt
-source-wordcount: '627'
+source-wordcount: '631'
 ht-degree: 3%
 
 ---
@@ -21,6 +21,8 @@ ht-degree: 3%
       + [設定とデバッグ](../cloud/configuration-and-debugging.md)
       + [デプロイメント、テスト、監視、セキュリティ](../cloud/deployments-testing-monitoring-security.md)
       + [SaaS 製品、サポート、通信、次のステップ](../cloud/saas-offerings-support-communications-next-steps.md)
+   + ベストプラクティス {#commerce-cloud-best-practices}
+      + [ローンチ前のチェックリスト](../cloud/best-practices/pre-launch-checklist.md)
 + はじめに {#getting-started}
    + グローバル参照アーキテクチャ{#global-reference-architecture}
       + [グローバル参照アーキテクチャ](../global-reference-architecture/what-is-global-reference-architecture.md)
