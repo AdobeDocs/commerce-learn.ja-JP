@@ -3,9 +3,9 @@ user-guide-title: ビデオとチュートリアル
 user-guide-description: ビデオとチュートリアルを通じて、Adobe Commerce と Magento Open Source について説明します。
 breadcrumb-title: ビデオとチュートリアル
 auto-video-transcripts: true
-source-git-commit: 88a50f1377207b99b524fb29017bc0cfe296d524
+source-git-commit: 5fdc149b4618a95de839942b26fef874ce1b5c47
 workflow-type: tm+mt
-source-wordcount: '654'
+source-wordcount: '660'
 ht-degree: 3%
 
 ---
@@ -47,6 +47,7 @@ ht-degree: 3%
       + [Commerce統合の TOC の低下](../enablement-series/lower-total-cost-of-owership-commerce-integrations.md)
       + [最新のAdobe Commerce実装の計画](../enablement-series/planning-the-modern-adobe-commerce-implementation.md)
       + [ローンチ、ローンチ後、監視、トラブルシューティング](../enablement-series/launch-post-launch-monitoring-and-troubleshooting.md)
+      + [Adobe CommerceとのEdge Delivery Services](../enablement-series/edge-delivery-services-with-adobe-commerce.md)
 + GraphQLと REST {#graphql-rest}
    + [GraphQLの基本](../graphql-rest/intro-graphql.md)
    + [クエリ](../graphql-rest/graphql-queries.md)
