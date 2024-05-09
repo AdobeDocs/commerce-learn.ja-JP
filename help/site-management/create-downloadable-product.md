@@ -1,6 +1,6 @@
 ---
-title: ダウンロード可能な製品の作成
-description: REST API とAdobe Commerce Admin を使用してダウンロード可能な製品を作成する方法を説明します。
+title: ダウンロード可能な製品を作成
+description: REST API とAdobe Commerce Admin を使用して、ダウンロード可能な商品を作成する方法を説明します。
 kt: 14464
 doc-type: video
 audience: all
@@ -10,30 +10,31 @@ feature: Catalog Management, Admin Workspace, Backend Development, Integration, 
 topic: Commerce, Integrations, Content Management
 role: Developer, User
 level: Beginner
-source-git-commit: 043d873e9b649455202de9df137c7283d92a2a4a
+exl-id: 90753b8d-eca0-4868-b40e-9563d2b0e1e8
+source-git-commit: 8ef4b0e0a0e4dfffdef8759e4ac7659ed854fae2
 workflow-type: tm+mt
-source-wordcount: '653'
+source-wordcount: '584'
 ht-degree: 0%
 
 ---
 
-# ダウンロード可能な製品の作成
+# ダウンロード可能な製品を作成
 
-REST API とAdobe Commerce Admin を使用してダウンロード可能な製品を作成する方法を説明します。
+REST API とAdobe Commerce Admin を使用して、ダウンロード可能な商品を作成する方法を説明します。
 
-## このビデオは誰のためのものですか？
+## このビデオの目的は誰ですか。
 
-- Web サイトマネージャー
+- Web サイト管理者
 - e コマースマーチャンダイザー
-- REST API を使用してAdobe Commerceで製品を作成する方法を学びたい新しいAdobe Commerce開発者
+- Adobe Commerceの新規開発者向けに、REST API を使用してAdobe Commerceで商品を作成する方法を説明します
 
 ## ビデオコンテンツ
 
 >[!VIDEO](https://video.tv.adobe.com/v/3425753?learn=on)
 
-## 許可されるダウンロード可能ドメイン
+## 許可されているダウンロード可能ドメイン
 
-ダウンロードを許可するドメインを指定する必要があります。 ドメインがプロジェクトの `env.php` ファイルを指定します。 The `env.php` ファイルには、ダウンロード可能なコンテンツを含めることが許可されたドメインの詳細が記載されています。 REST API を使用してダウンロード可能な製品が作成された場合、エラーが発生します _前_  の `php.env` ファイルが更新されました：
+ダウンロードを許可するドメインを指定してください。 ドメインがプロジェクトのに追加されます `env.php` コマンドラインからファイルを使用します。 この `env.php` ファイルの詳細：ダウンロード可能なコンテンツを含めることができるドメイン。 ダウンロード可能な製品が REST API を使用して作成されると、エラーが発生します _次の前_  この `php.env` ファイルは次のように更新されます。
 
 ```bash
 {
@@ -41,9 +42,9 @@ REST API とAdobe Commerce Admin を使用してダウンロード可能な製�
 }
 ```
 
-ドメインを設定するには、次の手順でサーバーに接続します。 `bin/magento downloadable:domains:add www.example.com`
+ドメインを設定するには、サーバーに接続します。 `bin/magento downloadable:domains:add www.example.com`
 
-これが完了したら、 `env.php` が _downloadable_domains_ 配列。
+これが完了すると、 `env.php` 内で変更されます _downloadable_domains_ 配列。
 
 ```php
     'downloadable_domains' => [
@@ -51,22 +52,22 @@ REST API とAdobe Commerce Admin を使用してダウンロード可能な製�
     ],
 ```
 
-これで、ドメインが `env.php`を使用する場合は、Adobe Commerce Admin で、または REST API を使用して、ダウンロード可能な製品を作成できます。
+これで、ドメインがに追加されました `env.php`ダウンロード可能な商品は、Adobe Commerce管理または REST API を使用して作成できます。
 
-詳しくは、 [設定リファレンス](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/files/config-reference-envphp.html#downloadable_domains) を参照してください。 詳しくは、 [Adobe Commerce向け CLI リファレンス]( 詳しくは、https://experienceleague.adobe.com/docs/commerce-operations/reference/magento-open-source.html#downloadable%3Adomains%3Aaddを参照してください。
+参照： [設定リファレンス](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/files/config-reference-envphp.html#downloadable_domains) を参照してください。
 
 >[!IMPORTANT]
->Adobe Commerceの一部のバージョンでは、製品をAdobe Commerce Admin で編集すると、次のエラーが発生することがあります。 製品は REST API を使用して作成されますが、リンクされたダウンロードには `null` 価格。
+>Adobe Commerceの一部のバージョンでは、Adobe Commerce管理者で商品を編集すると、次のエラーが発生することがあります。 製品は REST API を使用して作成されますが、リンクされたダウンロードにはがあります `null` 価格。
 
 `Deprecated Functionality: number_format(): Passing null to parameter #1 ($num) of type float is deprecated in /app/vendor/magento/module-downloadable/Ui/DataProvider/Product/Form/Modifier/Data/Links.php on line 228`.
 
-このエラーを修正するには、更新リンク API を使用します。 `POST V1/products/{sku}/downloadable-links.`
+このエラーを修正するには、リンク更新 API を使用します。 `POST V1/products/{sku}/downloadable-links.`
 
-詳しくは、 [cURL を使用した製品ダウンロードリンクの更新](#update-downloadable-links) 」セクションを参照してください。
+を参照してください。 [cURL を使用した製品ダウンロードリンクのアップデート](#update-downloadable-links) を参照してください。
 
 ## cURL を使用してダウンロード可能な製品を作成する（リモートサーバーからダウンロード）
 
-この例では、ダウンロードするファイルが同じサーバー上にない場合に、cURL を使用してダウンロード可能な製品を作成する方法を示します。 この使用例は、ファイルが S3 バケットまたは他の Digital Asset Manager に保存されている場合に典型的です。
+次の例では、ダウンロードするファイルが同じサーバー上にない場合に、cURL を使用してダウンロード可能な製品を作成する方法を示します。 これは、ファイルが S3 バケットまたはその他のデジタルアセットマネージャーに格納されている場合の典型的なユースケースです。
 
 ```bash
 curl --location '{{your.url.here}}/rest/default/V1/products' \
@@ -113,22 +114,22 @@ curl --location '{{your.url.here}}/rest/default/V1/products' \
 
 ## cURL を使用してダウンロード可能な製品を作成する（Commerce アプリケーションサーバーからダウンロード）
 
-この例では、ファイルがAdobe Commerceアプリケーションと同じサーバーに保存されている場合に、cURL を使用してAdobe Commerce Admin からダウンロード可能な製品を作成する方法を示します。
+この例では、ファイルがAdobe Commerce アプリケーションと同じサーバーに保存されている場合に、cURL を使用してAdobe Commerce Admin からダウンロード可能な商品を作成する方法を示しています。
 
-この使用例では、カタログを管理する管理者が選択する場合に、 `upload file`に値を指定しない場合、ファイルは `pub/media/downloadable/files/links/` ディレクトリ。  自動化は、次のパターンに基づいて、ファイルを作成し、それぞれの場所に移動します。
+このユースケースは、カタログを管理する管理者が選択した場合です `upload file`を選択すると、ファイルはに転送されます。 `pub/media/downloadable/files/links/` ディレクトリ。  自動化では、次のパターンに基づいてファイルが作成され、それぞれの場所に移動されます。
 
 - アップロードされた各ファイルは、ファイル名の最初の 2 文字に基づいてフォルダーに保存されます。
-- アップロードが開始されると、Commerce アプリケーションは既存のフォルダーを作成または使用してファイルを転送します。
-- ファイルをダウンロードする際に、 `link_file` パスのセクションは、パスの `pub/media/downloadable/files/links/` ディレクトリ。
+- アップロードが開始されると、Commerce アプリケーションは既存のフォルダーを作成するか、使用してファイルを転送します。
+- ファイルをダウンロードする場合、 `link_file` パスのセクションは、に追加されたパスの部分を使用します `pub/media/downloadable/files/links/` ディレクトリ。
 
-例えば、アップロードされたファイルの名前が `download-example.zip`:
+例えば、アップロードされたファイルの名前がの場合 `download-example.zip`:
 
-- ファイルはパスにアップロードされます `pub/media/downloadable/files/links/d/o/`.
-サブディレクトリ `/d` および `/d/o` 作成されます（存在しない場合）。
+- ファイルがパスにアップロードされます `pub/media/downloadable/files/links/d/o/`.
+サブディレクトリ `/d` および `/d/o` が存在しない場合は作成されます。
 
-- ファイルの最終パスはです。 `/pub/media/downloadable/files/links/d/o/download-example.zip`.
+- ファイルの最終的なパスはです。 `/pub/media/downloadable/files/links/d/o/download-example.zip`.
 
-- The `link_url` この例の値は次のとおりです。 `d/o/download-example.zip`
+- この `link_url` この例の値はです。 `d/o/download-example.zip`
 
 ```bash
 curl --location '{{your.url.here}}/rest/default/V1/products' \
@@ -180,8 +181,8 @@ curl --location '{{your.url.here}}/rest/default/V1/products/POSTMAN-download-pro
 
 ## Postmanを使用した製品のアップデート {#update-downloadable-links}
 
-エンドポイントを使用 `rest/all/V1/products/{sku}/downloadable-links`
-The `SKU` は、製品が作成された際に生成された製品 ID です。 例えば、以下のコードサンプルでは 39 という数字ですが、Web サイトの ID を使用するように更新されていることを確認します。 これにより、ダウンロード可能な製品のリンクが更新されます。
+エンドポイントの使用 `rest/all/V1/products/{sku}/downloadable-links`
+この `SKU` は、製品の作成時に生成された製品 ID です。 例えば、以下のコードサンプルでは、この値は 39 ですが、web サイトの ID を使用するように更新してください。 これにより、ダウンロード可能な製品のリンクが更新されます。
 
 ```json
 {
@@ -204,9 +205,9 @@ The `SKU` は、製品が作成された際に生成された製品 ID です。
 }
 ```
 
-## CURL を使用した製品ダウンロードリンクの更新
+## CURL を使用した製品ダウンロードリンクのアップデート
 
-cURL を使用して製品のダウンロードリンクを更新すると、URL には更新中の製品の SKU が含まれます。  次のコード例では、SKU は `abcd12345`. コマンドを送信する際に、更新する製品の SKU に合わせて値を変更します。
+cURL を使用して製品のダウンロードリンクを更新すると、その URL には、更新中の製品の SKU が含まれます。  次のコードの例では、SKU はです `abcd12345`. コマンドを送信したら、値を更新する製品の SKU に一致するように変更します。
 
 ```bash
 curl --location '{{your.url.here}}/rest/all/V1/products/abcd12345/downloadable-links' \
@@ -236,7 +237,6 @@ curl --location '{{your.url.here}}/rest/all/V1/products/abcd12345/downloadable-l
 ## その他のリソース
 
 - [ダウンロード可能な製品タイプ](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/types/product-create-downloadable.html){target="_blank"}
-- [ダウンロード可能ドメイン設定ガイド](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/files/config-reference-envphp.html#downloadable_domains){target="_blank"}
-- [.env.php のダウンロード可能なドメインへの追加](https://experienceleague.adobe.com/docs/commerce-operations/reference/magento-open-source.html#downloadable%3Adomains%3Aadd){target="_blank}
+- [ダウンロード可能なドメインの設定ガイド](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/files/config-reference-envphp.html#downloadable_domains){target="_blank"}
 - [Adobe Developer REST チュートリアル](https://developer.adobe.com/commerce/webapi/rest/tutorials/prerequisite-tasks/){target="_blank"}
 - [Adobe Commerce REST ReDoc](https://adobe-commerce.redoc.ly/2.4.6-admin/tag/products#operation/PostV1Products){target="_blank"}
