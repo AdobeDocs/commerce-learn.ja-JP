@@ -11,9 +11,9 @@ topic: Commerce, Administration, Content Management
 role: Admin, User
 level: Beginner, Intermediate
 exl-id: 18713a44-df39-4b94-91ce-c7efeb4ce2b3
-source-git-commit: 598bff1fd2cefdc449d5ae3431401aec1e796313
+source-git-commit: 47a71d3523d5a894ca4edc458f7e2cf71c283618
 workflow-type: tm+mt
-source-wordcount: '842'
+source-wordcount: '829'
 ht-degree: 0%
 
 ---
@@ -93,7 +93,7 @@ ht-degree: 0%
 
 - カタログのサイズは任意です
 - 頻繁に更新されますが、1 日に 1 回を超えてもかまいません
-- 読み込むまでの時間は重要ですが、重要ではありません
+- 読み込みにかかる時間は重要ですが、重要ではありません。また、読み込みデータの処理に短時間の遅延が生じた場合でも問題ありません
 - データは CSV 形式で構造化されておらず、自動化を使用して変換することはできません
 
 
@@ -113,8 +113,6 @@ ht-degree: 0%
 短所：
 
 - GETリクエストはサポートされていません
-- ラベルではなく、オプション属性 ID を使用する必要があります
-
 
 ### このアプローチを検討すべきタイミング
 
@@ -139,7 +137,6 @@ ht-degree: 0%
 短所：
 
 - 関連付けられた画像とビデオは個別にアップロードする必要があります
-- ラベルではなく、オプション属性 ID を使用する必要があります
 - データは CSV 形式である必要があります
 
 ### このアプローチを検討すべきタイミング
