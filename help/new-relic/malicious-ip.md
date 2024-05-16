@@ -1,8 +1,8 @@
 ---
-title: New Relicを使用して、ブロックする必要がある IP を識別する方法を説明します
-description: New Relicを使用して、悪意のある可能性のある IP アドレスを特定します。  IP が決定されたら、Fastly でこれを使用して、アプリケーションへのアクセスをブロックします。
-landing-page-description: このビデオでは、New Relicのユーザーに対し、サイトへのアクセスをブロックする必要がある可能性のある IP アドレスを見つけるように指示します。
-short-description: このビデオでは、New Relicのユーザーに対し、サイトへのアクセスをブロックする必要がある可能性のある IP アドレスを見つけるように指示します。
+title: New Relicを使用して、ブロックする必要がある IP を特定する方法を説明します
+description: New Relicを使用して、悪意のある可能性のある ip アドレスを特定します。  IP が特定されると、Fastly でこれを使用してアプリケーションへのアクセスをブロックします。
+landing-page-description: このビデオでは、New Relicのユーザーに、サイトへのアクセス時にブロックする必要がある可能性のある IP アドレスを見つけるように指示します。
+short-description: このビデオでは、New Relicのユーザーに、サイトへのアクセス時にブロックする必要がある可能性のある IP アドレスを見つけるように指示します。
 kt: 11566
 doc-type: video
 audience: all
@@ -20,10 +20,10 @@ ht-degree: 0%
 
 ---
 
-# 悪意のある可能性があり、ブロックすべき IP を識別する
+# 悪意がある可能性があり、ブロックする必要がある IP を特定します
 
-このビデオでは、
+このビデオの内容は次のとおりです。
 
-- Fastly でブロックするために使用される疑わしい IP または悪意のあ&#x200B;る IP を識別します。
+- Fastly で使用してブロックする&#x200B;疑わしい IP や悪意のある IP を特定します
 
 >[!VIDEO](https://video.tv.adobe.com/v/3412088?quality=12&learn=on)

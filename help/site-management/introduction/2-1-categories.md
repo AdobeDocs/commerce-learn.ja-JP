@@ -1,6 +1,6 @@
 ---
-title: '"[!DNL Commerce] ビジネスユーザーの場合 — 製品カテゴリ»'
-description: カテゴリを設定して商品カタログを管理する方法を説明します。
+title: “[!DNL Commerce] ビジネスユーザー向け – 製品カテゴリ」
+description: カテゴリを設定して製品カタログを管理する方法を説明します。
 kt: 5765
 doc-type: videos
 activity: use
@@ -12,18 +12,18 @@ level: Beginner, Intermediate
 exl-id: 3d35891b-d85a-4e91-877a-a375f047892d
 source-git-commit: f7aa1f0063cbcad6d331a13817214b1bf2158571
 workflow-type: tm+mt
-source-wordcount: '52'
+source-wordcount: '46'
 ht-degree: 0%
 
 ---
 
-# [!DNL Commerce] ビジネスユーザーの場合 — 製品カテゴリ
+# [!DNL Commerce] ビジネスユーザー向け – 製品カテゴリ
 
-このビデオでは、
+このビデオの内容は次のとおりです。
 
-- 商品カタログのカテゴリの作成
+- 製品カタログのカテゴリの作成
 
-## このビデオは誰のためのものですか？
+## このビデオの目的は誰ですか。
 
 - ビジネスユーザー
 
@@ -33,4 +33,4 @@ ht-degree: 0%
 
 ## その他のリソース
 
-[カテゴリ — [!DNL Commerce] カタログ管理ガイド](https://experienceleague.adobe.com/docs/commerce-admin/catalog/categories/categories.html)
+[カテゴリ - [!DNL Commerce] カタログ管理ガイド](https://experienceleague.adobe.com/docs/commerce-admin/catalog/categories/categories.html)

@@ -1,6 +1,6 @@
 ---
-title: Adobe Commerceを使用した見積もりの行項目のメモの表示
-description: Adobe Commerceでの B2B 見積もりに関する行項目のメモの詳細
+title: Adobe Commerceを使用した見積書の行項目のメモの表示
+description: Adobe Commerceの B2B 見積もりの行項目メモについて説明します
 doc-type: feature video
 audience: all
 activity: use
@@ -10,23 +10,23 @@ feature: Configuration, System, Quotes, B2B, Companies
 topic: Commerce, Administration
 role: Admin, User
 level: Beginner, Intermediate
-exl-id: 4651c38f-6794-47bb-b90f-dd8736b44233
-source-git-commit: 45692e3172bee9645ed30d8f7e2d42a2dd7938d3
+exl-id: c4bfd5d2-0099-4bde-babe-79ad8815b8eb
+source-git-commit: 598bff1fd2cefdc449d5ae3431401aec1e796313
 workflow-type: tm+mt
-source-wordcount: '58'
+source-wordcount: '55'
 ht-degree: 0%
 
 ---
 
-# B2B 販売見積明細行品目の割引
+# B2B 販売見積依頼明細行の品目割引
 
-Adobe Commerce B2B の見積もりに行項目のメモを使用する方法を説明します。
+Adobe Commerce B2B の見積もりに行項目メモを使用する方法を説明します。
 
 {{b2b-feature}}
 
-## このビデオは誰のためのものですか？
+## このビデオの目的は誰ですか。
 
-- Web サイトマネージャー
+- Web サイト管理者
 - e コマースマーチャンダイザー
 - 開発者
 

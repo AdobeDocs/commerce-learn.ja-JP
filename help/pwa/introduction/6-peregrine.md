@@ -1,6 +1,6 @@
 ---
-title: 開発者向けPWA Studio- Peregrine
-description: ペレグリンライブラリを含むペレグリンについて学びます。 ペレグリンの動機を理解​し、ペレグリンのフックとタロンの違いを理解します。
+title: 開発者向けPWA Studio - Peregrine
+description: Peregrine ライブラリを含む Peregrine について説明します。 Peregrine の背後にある動機​Peregrine フックとタロンの違いを理解します。
 kt: 5649
 doc-type: video
 activity: use
@@ -17,19 +17,19 @@ ht-degree: 0%
 
 ---
 
-# 開発者向けPWA Studio- Peregrine
+# 開発者向けPWA Studio - Peregrine
 
-このビデオでは、
+このビデオの内容は次のとおりです。
 
 - Peregrine の概要
 - ペレグリン図書館
-- Peregrine の動機を理解する
-- ペレグリンフックとタロンを区別
+- Peregrine の背後にある動機を理解する
+- Peregrine フックと Talon を区別する
 
-## このビデオは誰のためのものですか？
+## このビデオの目的は誰ですか。
 
 - フロントエンド開発者
-- プロジェクトマネージャー
+- プロジェクト管理者
 
 ## ビデオコンテンツ
 

@@ -1,6 +1,6 @@
 ---
 title: Inventory management
-description: Inventory managementの機能と、単一の倉庫や複雑な配送ネットワークから作業する方法について説明します。
+description: Inventory managementの機能と、それらを使用して 1 つの倉庫または複雑な発送ネットワークから作業する方法について説明します。
 kt: 10551
 doc-type: feature video
 audience: all
@@ -13,18 +13,18 @@ level: Beginner, Intermediate
 exl-id: c2f154e0-c5b3-4fcc-aa7b-20dcaabfadbe
 source-git-commit: 404d2708a6d540d6fb19a33afb20726356cd8000
 workflow-type: tm+mt
-source-wordcount: '155'
+source-wordcount: '145'
 ht-degree: 0%
 
 ---
 
 # Inventory management
 
-複数の倉庫、店舗、受け取り場所、受け取り場所、受け取り船などに 1 つの店舗を持つ商人は、在庫管理機能を使用して、販売数量を維持し、受注を完了するために出荷を処理できます。 在庫数を追跡し、すべての Web サイトの顧客に対して正確な販売可能な在庫数を提供し、距離や優先度に基づいてレコメンデーションに従って出荷できます。 また、（すべてのストアと製品に対して）グローバルに、ソースごと、および製品ごとに、希望の製品設定を設定することもできます。 これらの機能は、ビジネスと共に成長し、単一の倉庫または複雑な出荷ネットワークから作業できます。
+複数の倉庫、店舗、集荷場所、直荷主などに対して 1 つの店舗を持つマーチャントは、在庫管理機能を使用して販売の数量を管理し、出荷を処理して注文を完了できます。 在庫数量を追跡し、すべての web サイトの顧客に正確な販売可能な在庫量を提供し、距離または優先度に基づく推奨事項に従って出荷できます。 また、優先する製品設定を（すべてのストアと製品に対して）、ソースごと、製品ごとにグローバルに設定することもできます。 これらの機能はビジネスの成長に伴って増加し、単一の倉庫や複雑な配送ネットワークから作業できるようになります。
 
-## このビデオは誰のためのものですか？
+## このビデオの目的は誰ですか。
 
-- Web サイトマネージャー
+- Web サイト管理者
 - e コマースマーチャンダイザー
 
 ## ビデオコンテンツ
@@ -33,5 +33,5 @@ ht-degree: 0%
 
 ## その他のリソース
 
-- [Inventory managementガイド](https://experienceleague.adobe.com/docs/commerce-admin/inventory/introduction.html)
-- [Inventory management — 開発者向け REST ドキュメント](https://developer.adobe.com/commerce/webapi/rest/inventory/)
+- [Inventory management ガイド](https://experienceleague.adobe.com/docs/commerce-admin/inventory/introduction.html)
+- [Inventory management - Developer REST ドキュメント](https://developer.adobe.com/commerce/webapi/rest/inventory/)

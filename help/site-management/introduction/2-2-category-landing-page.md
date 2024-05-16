@@ -1,6 +1,6 @@
 ---
-title: '"[!DNL Commerce] ビジネスユーザー向け — ランディングページ»'
-description: カテゴリのランディングページを設定し、外観を制御する方法について説明します。
+title: “[!DNL Commerce] ビジネスユーザー向け – ランディングページ」
+description: カテゴリランディングページを設定し、外観をコントロールする方法について説明します。
 kt: 5766
 doc-type: video
 activity: use
@@ -12,20 +12,20 @@ level: Beginner, Intermediate
 exl-id: c38aa97e-4688-42fa-b39f-1702ef1469be
 source-git-commit: f7aa1f0063cbcad6d331a13817214b1bf2158571
 workflow-type: tm+mt
-source-wordcount: '111'
+source-wordcount: '86'
 ht-degree: 0%
 
 ---
 
-# [!DNL Commerce] ビジネスユーザー向け — ランディングページ
+# [!DNL Commerce] ビジネスユーザー向け – ランディングページ
 
-このビデオでは、
+このビデオの内容は次のとおりです。
 
 - 製品カテゴリのランディングページ
 - ページビューオプション
-- ストアフロント設定
+- ストアフロントの設定
 
-## このビデオは誰のためのものですか？
+## このビデオの目的は誰ですか。
 
 - ビジネスユーザー
 
@@ -33,14 +33,14 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->このビデオの内容は 2.3.1 リリースを反映しています。 今後のリリースでの更新について詳しくは、 [リリースノート](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/overview.html).
+>このビデオの内容は、2.3.1 リリースを反映しています。 以降のリリースのアップデートについて詳しくは、 [リリースノート](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/overview.html).
 
 >[!VIDEO](https://video.tv.adobe.com/v/36388?quality=12&learn=on)
 
 ## その他のリソース
 
-[カテゴリコンテンツ — [!DNL Commerce] カタログ管理ガイド](https://experienceleague.adobe.com/docs/commerce-admin/catalog/categories/create/categories-content-settings.html)
+[カテゴリコンテンツ - [!DNL Commerce] カタログ管理ガイド](https://experienceleague.adobe.com/docs/commerce-admin/catalog/categories/create/categories-content-settings.html)
 
-[表示設定 — [!DNL Commerce] カタログ管理ガイド](https://experienceleague.adobe.com/docs/commerce-admin/catalog/categories/create/categories-display-settings.html)
+[ディスプレイ設定 –  [!DNL Commerce] カタログ管理ガイド](https://experienceleague.adobe.com/docs/commerce-admin/catalog/categories/create/categories-display-settings.html)
 
-[デザイン設定 — [!DNL Commerce] カタログ管理ガイド](https://experienceleague.adobe.com/docs/commerce-admin/catalog/categories/create/categories-custom-design.html)
+[デザイン設定 –  [!DNL Commerce] カタログ管理ガイド](https://experienceleague.adobe.com/docs/commerce-admin/catalog/categories/create/categories-custom-design.html)

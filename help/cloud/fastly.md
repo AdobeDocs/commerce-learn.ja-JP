@@ -1,6 +1,6 @@
 ---
 title: Adobe Commerce Cloud Fastly
-description: Adobe Commerce Cloud Fastly の使用方法と設定について説明します。
+description: Adobe Commerce Cloud Fastly の使用と設定について説明します。
 feature: Cloud
 topic: Commerce, Architecture, Development
 role: Architect, Developer
@@ -18,24 +18,24 @@ ht-degree: 0%
 
 ---
 
-# テクニカルオンボーディング — Fastly
+# テクニカルオンボーディング - Fastly
 
-Adobe Commerceでの Fastly のクラウド使用について説明します。
+Fastly for Adobe Commerceのクラウドでの使用方法について説明します。
 
-## このビデオは誰のためのものですか？
+## このビデオの目的は誰ですか。
 
-- Web サイトマネージャー
-- コマースアーキテクト
-- e コマース Web サイトの所有者
+- Web サイト管理者
+- Commerceアーキテクト
+- e コマース web サイトの所有者
 
 ## ビデオコンテンツ
 
 >[!VIDEO](https://video.tv.adobe.com/v/3427695?learn=on)
 
-## Experience Leagueドキュメントと Fastly Adobe Commerceチェッカー（ビデオで言及）
+## ビデオで言及されているExperience Leagueドキュメントと Fastly Adobe Commerce チェッカー
 
-- [Fastly Checker](https://adobe-commerce-tester.freetls.fastly.net/adobe-commerce-tester/)
-- [Experience League](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/fastly.html)
+- [Fastly チェッカー](https://adobe-commerce-tester.freetls.fastly.net/adobe-commerce-tester/)
+- [Experience Leagueにおける Fastly サービス](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/fastly.html)
 - [Fastly WAF FAQ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/faq/web-application-firewall-waf-powered-by-fastly-the-faq.html)
 - [画像の最適化](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/development/image-optimization.html)
 

@@ -12,25 +12,25 @@ level: Beginner, Intermediate
 exl-id: 98257e62-b23d-4fa9-a0eb-42e045c53195
 source-git-commit: 88b957a33d6061c8053e598248fcbfff5cf0f010
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '268'
 ht-degree: 0%
 
 ---
 
 # 製品属性の作成
 
-製品属性の追加は、 [!DNL Commerce]. 属性は、製品に関連する多くの実用的なタスクを解決する強力な方法です。 製品に dropdown-type 属性を追加する簡単なプロセスがあります。
+製品属性の追加は、で最も一般的な操作の 1 つです [!DNL Commerce]. 属性は、製品に関連する多くの実用的なタスクを解決する強力な方法です。 製品に dropdown-type 属性を追加する簡単なプロセスがあります。
 
-このビデオでは、
+このビデオの内容は次のとおりです。
 
-- cotton、Leather、Silk、Denim、Fur、Wool の値を指定して、clothing_material という属性を追加します。
-- この属性を製品表示ページに太字のテキストで表示
-- デフォルト属性セットに割り当て、制限を追加します。
+- Cotton、Leather、Silk、Denim、Fur、Wool の値を持つ clothing_material というアトリビュートを追加します
+- 製品ビューページでこの属性を太字で表示します
+- デフォルト属性セットに割り当てて、制限を追加します
 - 新しい属性を追加
 
-## このビデオは誰のためのものですか？
+## このビデオの目的は誰ですか。
 
-- コマースを初めて利用する開発者で、製品属性をプログラムで作成する方法を学ぶ必要がある
+- Commerce を初めて使用する開発者で、プログラムによって製品属性を作成する方法を学ぶ必要があるもの
 
 ## ビデオコンテンツ
 
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 ## コードサンプル
 
-まず、必要なフォルダ、xml、PHP ファイルを作成します。
+まず、必要なフォルダー、xml ファイル、PHP ファイルを作成します。
 
 - app/code/Learning/ClothingMaterial/registration.php
 - app/code/Learning/ClothingMaterial/etc/module.xml
@@ -64,7 +64,7 @@ ComponentRegistrar::register(
 
 >[!NOTE]
 >
->モジュールが Declarative Schema を使用し、ほとんどが 2.3.0 以降を持つ場合は、setup_version を省略する必要があります。 ただし、一部のレガシープロジェクトがある場合は、この方法が使用されている場合があります。  詳しくは、 [developer.adobe.com](https://developer.adobe.com/commerce/php/development/build/component-name/#add-a-modulexml-file){target="_blank"} を参照してください。
+>モジュールが宣言型スキーマを使用していて、ほとんどのモジュールが 2.3.0 以降である場合、setup_version を省略する必要があります。 ただし、従来のプロジェクトがある場合は、この方法が使用されることがあります。  参照： [developer.adobe.com](https://developer.adobe.com/commerce/php/development/build/component-name/#add-a-modulexml-file){target="_blank"} を参照してください。
 
 
 ```xml
@@ -231,4 +231,4 @@ class InstallData implements InstallDataInterface
 
 [製品属性の作成](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/backend-development/add-product-attribute.html)
 
-[カスタムテキストフィールド属性を追加する](https://developer.adobe.com/commerce/php/tutorials/admin/custom-text-field-attribute/)
+[カスタムテキストフィールド属性の追加](https://developer.adobe.com/commerce/php/tutorials/admin/custom-text-field-attribute/)

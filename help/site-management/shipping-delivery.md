@@ -1,6 +1,6 @@
 ---
-title: 発送および配送方法の管理
-description: コマースストアの配送元、複数配送、配送料、通信事業者の設定を構成する方法を説明します。
+title: 配送方法と配送方法の管理
+description: Commerce ストアの発送元、複数配送、配送料、通信事業者を設定する方法について説明します。
 kt: 10543
 doc-type: feature video
 audience: all
@@ -13,16 +13,16 @@ level: Beginner, Intermediate
 exl-id: fccbdb7b-2051-490a-a249-3525f96c51ab
 source-git-commit: 404d2708a6d540d6fb19a33afb20726356cd8000
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: '105'
 ht-degree: 0%
 
 ---
 
-# 発送および配送方法の管理
+# 配送方法と配送方法の管理
 
-配送および配送方法の管理は、お客様が製品を顧客に届けられるようにするために重要です。 このビデオでは、配送元、複数配送、配送料、および配送業者の設定を管理する方法を学びます。
+配送および配信方法の管理は、製品を顧客に渡すことができるようにするために重要です。 このビデオでは、発送元、複数配送、配送料、通信事業者の設定を管理する方法を説明します。
 
-## このビデオは誰のためのものですか？
+## このビデオの目的は誰ですか。
 
 - ストア管理者
 - e コマースマネージャー
@@ -33,6 +33,6 @@ ht-degree: 0%
 
 ## その他のリソース
 
-- [発送設定 — [!DNL Commerce] 店舗および購入エクスペリエンスガイド](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/delivery/shipping-settings.html)
-- [基本的な配信方法 — [!DNL Commerce] 店舗および購入エクスペリエンスガイド](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/delivery/delivery.html#basic-delivery-methods)
-- [配送業者の設定 — [!DNL Commerce] 店舗および購入エクスペリエンスガイド](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/delivery/shipping-carriers/carriers.html)
+- [発送設定 –  [!DNL Commerce] 店舗および購入エクスペリエンスガイド](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/delivery/shipping-settings.html)
+- [基本的な配信方法 –  [!DNL Commerce] 店舗および購入エクスペリエンスガイド](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/delivery/delivery.html#basic-delivery-methods)
+- [配送業者の設定 –  [!DNL Commerce] 店舗および購入エクスペリエンスガイド](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/delivery/shipping-carriers/carriers.html)

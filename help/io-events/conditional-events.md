@@ -1,6 +1,6 @@
 ---
-title: Adobe Commerceでの条件付きイベントの使用方法を説明します
-description: Adobe Developer App Builder で使用する条件付きイベントの使用方法を説明します。
+title: Adobe Commerceで条件付きイベントを使用する方法を説明します
+description: Adobe Developer App Builder で条件付きイベントを使用する方法を説明します。
 landing-page-description: Adobe Commerceの条件付きイベントの使用方法を説明します。
 short-description: Adobe Commerceの条件付きイベントの使用方法を説明します。
 kt: 11890
@@ -14,26 +14,26 @@ level: Beginner, Intermediate
 exl-id: 03787aa3-051b-4a35-b2e8-ecf6762b5eb4
 source-git-commit: e02da0901c01871360bcc556666e310acd7c7224
 workflow-type: tm+mt
-source-wordcount: '144'
+source-wordcount: '138'
 ht-degree: 0%
 
 ---
 
 # Adobe Commerce条件付きイベント
 
-Adobe Developer App Builder で使用できるAdobe Commerceの条件付きイベントについて説明します。 その他のドキュメントは、 [Adobe CommerceのAdobe I/Oイベントのインストール](https://developer.adobe.com/commerce/extensibility/events/conditional-events/){target="_blank"}.
+Adobe Developer App Builder で使用できるAdobe Commerceの条件付きイベントについて説明します。 その他のドキュメントの参照先 [Adobe CommerceのAdobe I/Oイベントのインストール](https://developer.adobe.com/commerce/extensibility/events/conditional-events/){target="_blank"}.
 
-## このビデオは誰のためのものですか？
+## このビデオの目的は誰ですか。
 
-* I/O イベントを使用したAdobe CommerceおよびAdobe Developer App Builder を初めて使用する開発者は、アプリビルダープロジェクトをAdobeする必要があります。
+* I/O イベントを使用してAdobe CommerceとAdobe Developer App Builder を初めて使用し、Adobeの App Builder プロジェクトを作成する必要がある開発者。
 
 ## ビデオコンテンツ {#video-content}
 
-* 条件付きイベントの詳細
-* 新しい XML ファイル io_events.xml の適切な使用方法を説明します。
-* 条件付きイベントの設定方法を説明します
+* 条件付きイベントについて学ぶ
+* 新しい XML ファイル io_events.xml の適切な使用方法を説明します
+* 条件付きイベントの設定方法を学ぶ
 * 条件付きイベントで使用するルールの定義
-* コマースインスタンスにイベントを登録する方法を説明します `app/etc/config.php`
+* Commerce インスタンスにイベントを登録する方法を説明します `app/etc/config.php`
 
 >[!VIDEO](https://video.tv.adobe.com/v/3415806?quality=12&learn=on)
 

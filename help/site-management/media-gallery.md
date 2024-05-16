@@ -1,6 +1,6 @@
 ---
-title: メディアギャラリーを管理
-description: 新しい拡張メディアギャラリーを使用して、サーバー上のメディアファイルを整理および管理する方法を説明します。
+title: メディアギャラリーの管理
+description: 新しい拡張メディアギャラリーを使用して、サーバー上のメディアファイルを整理および管理する方法について説明します。
 doc-type: feature video
 audience: all
 activity: use
@@ -12,18 +12,18 @@ level: Beginner, Intermediate
 exl-id: c245e4f7-54cd-4fa8-8d6c-6b7eb2e2beea
 source-git-commit: 404d2708a6d540d6fb19a33afb20726356cd8000
 workflow-type: tm+mt
-source-wordcount: '94'
+source-wordcount: '81'
 ht-degree: 0%
 
 ---
 
-# メディアギャラリーを管理
+# メディアギャラリーの管理
 
-Adobe CommerceまたはMagento Open Source2.4 では、マーチャントは新しく拡張されたメディアギャラリーを使用して、サーバー上のメディアファイルを整理および管理できます。
+Adobe CommerceまたはMagento Open Source 2.4 では、マーチャントは新しい拡張メディアギャラリーを使用して、サーバー上のメディアファイルを整理および管理できます。
 
-## このビデオは誰のためのものですか？
+## このビデオの目的は誰ですか。
 
-- Web サイトマネージャー
+- Web サイト管理者
 - e コマースマーチャンダイザー
 
 ## ビデオコンテンツ
@@ -32,5 +32,5 @@ Adobe CommerceまたはMagento Open Source2.4 では、マーチャントは新�
 
 ## その他のリソース
 
-- [メディアギャラリー — [!DNL Commerce] コンテンツおよびデザインガイド](https://experienceleague.adobe.com/docs/commerce-admin/content-design/media/gallery/media-gallery.html)
-- [代替メディアストレージ — [!DNL Commerce] コンテンツおよびデザインガイド](https://experienceleague.adobe.com/docs/commerce-admin/content-design/media/storage/media-storage.html)
+- [メディアギャラリー –  [!DNL Commerce] コンテンツおよびデザインガイド](https://experienceleague.adobe.com/docs/commerce-admin/content-design/media/gallery/media-gallery.html)
+- [代替メディア・ストレージ： [!DNL Commerce] コンテンツおよびデザインガイド](https://experienceleague.adobe.com/docs/commerce-admin/content-design/media/storage/media-storage.html)

@@ -1,6 +1,6 @@
 ---
-title: Adobe Commerce Payment Services の設定
-description: Adobe Commerce Payment Services の設定方法を説明します。
+title: Adobe Commerce支払いサービスの設定
+description: Adobe Commerce支払いサービスの設定方法を説明します。
 doc-type: video
 kt: 14748
 audience: all
@@ -10,7 +10,8 @@ feature: Configuration, System
 topic: Commerce, Administration
 role: Admin, User
 level: Beginner, Intermediate
-source-git-commit: 49dd1cecc9af2ed68150a8385e7800f35ca983fc
+exl-id: 96877db6-54a3-4a89-ad84-c4559806b7fb
+source-git-commit: 765bf4159892416e02ea1e9b8e4fa69e396d40af
 workflow-type: tm+mt
 source-wordcount: '84'
 ht-degree: 0%
@@ -19,12 +20,12 @@ ht-degree: 0%
 
 # Adobe Commerceの支払いサービスの設定
 
-Adobe CommerceとMagento Open Source向けの支払いサービスの使用を開始するには、いくつかのオンボーディング手順を完了する必要があります。 次の項目を見る _Adobe Commerceの支払いサービスの設定_ ビデオをご覧ください。
+Adobe CommerceとMagento Open Sourceの支払いサービスの使用を開始するには、いくつかのオンボーディング手順を完了する必要があります。 を視聴 _Adobe Commerceの支払いサービスの設定_ 使い始める方法の例を紹介するビデオ。
 
-## このビデオは誰のためのものですか？
+## このビデオの目的は誰ですか。
 
-- オペレーショナルエンジニア
-- e コマースマネージャーと連絡先
+- 運用エンジニア
+- e コマースマネージャーと連絡窓口
 
 ## ビデオコンテンツ
 
@@ -32,6 +33,6 @@ Adobe CommerceとMagento Open Source向けの支払いサービスの使用を�
 
 ## その他のリソース
 
-- [オンボード支払いサービス](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/onboard.html){target="_blank"}
+- [Onboard Payment Services](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/onboard.html){target="_blank"}
 - [支払いサービスガイド](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/guide-overview.html){target="+blank"}
-- [Commerce Services コネクタ](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html){target="+blank"}
+- [Commerce サービスコネクタ](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html){target="+blank"}

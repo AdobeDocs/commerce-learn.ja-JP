@@ -1,6 +1,6 @@
 ---
-title: 製品のセットアップRecommendations
-description: Adobe Commerceストアで製品レコメンデーションを使用する方法について説明します。
+title: 製品Recommendationsの設定
+description: Adobe Commerce ストアで製品レコメンデーションを使用する方法を説明します。
 doc-type: feature video
 audience: all
 activity: use
@@ -13,23 +13,23 @@ level: Beginner, Intermediate
 exl-id: a62f9984-782c-40cf-a140-498b58b24bcd
 source-git-commit: fa2a12241e194ec1fbadb71333d05a3bb7fd6bb3
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '113'
 ht-degree: 0%
 
 ---
 
-# 製品のセットアップRecommendations
+# 製品Recommendationsの設定
 
 {{ee-feature}}
 
-製品レコメンデーションは、コンバージョンの増加、売上高の増加、買い物客のエンゲージメントの促進に使用できる、強力なマーケティングツールです。 Adobe Commerceの製品レコメンデーションは、Adobe Senseiを活用しています。このアルゴリズムは、人工知能と機械学習アルゴリズムを使用して、集計された訪問者データを深く分析します。 このデータをAdobe Commerceカタログと組み合わせると、非常に魅力的で関連性が高く、パーソナライズされたエクスペリエンスを提供します。
+製品レコメンデーションは、コンバージョンを増やし、売上高を増やし、買い物客のエンゲージメントを促進するために使用できる強力なマーケティングツールです。 Adobe Commerceの製品レコメンデーションは、人工知能と機械学習アルゴリズムを使用して、集計された訪問者データの詳細な分析を行うAdobe Senseiを活用しています。 このデータをAdobe Commerce カタログと組み合わせると、非常に魅力的で関連性が高く、パーソナライズされたエクスペリエンスが実現します。
 
-このビデオでは、製品レコメンデーションの設定方法を説明します。
+このビデオでは、製品レコメンデーションの設定方法について説明します。
 
-## このビデオは誰のためのものですか？
+## このビデオの目的は誰ですか。
 
 - e コマースマーケター
-- Web サイトマネージャー
+- Web サイト管理者
 
 ## ビデオコンテンツ
 
@@ -38,4 +38,4 @@ ht-degree: 0%
 ## その他のリソース
 
 - [製品Recommendationsガイド](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/overview.html){target="_blank"}
-- [Commerce Services コネクタ](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html){target="_blank"}
+- [Commerce サービスコネクタ](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html){target="_blank"}

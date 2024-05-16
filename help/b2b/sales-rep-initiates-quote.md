@@ -1,6 +1,6 @@
 ---
-title: 営業担当が見積もりを開始します
-description: Adobe Commerce管理者から見積もりを開始する方法を説明します。
+title: 担当営業が Quote を開始
+description: Adobe Commerce管理者から営業担当が見積もりを開始する方法を説明します
 doc-type: feature video
 audience: all
 activity: use
@@ -10,23 +10,23 @@ feature: Configuration, System, Quotes, B2B, Companies
 topic: Commerce, Administration
 role: Admin, User
 level: Beginner, Intermediate
-exl-id: ea3b8e74-a769-45db-ac71-91a063cde21f
-source-git-commit: 6b1aa7f56dcfc4967d94c26a779ac3fd706b0cd2
+exl-id: eddf5b36-8b63-4d73-a66b-b3f14da3747f
+source-git-commit: 598bff1fd2cefdc449d5ae3431401aec1e796313
 workflow-type: tm+mt
 source-wordcount: '61'
 ht-degree: 0%
 
 ---
 
-# セールス担当者が見積もりを開始します
+# 営業担当者が見積を開始
 
-セールス担当者が管理パネルから見積もりを開始し、ユーザーと Web サイトでフィルタリングする方法、下書きの見積もり、見積もりの表示、その他の多くの機能について説明します。
+営業担当者が管理パネルから見積もりを開始する方法、ユーザーと web サイトでフィルタリングする方法、見積もりのドラフト、見積もりの表示、その他多くの機能について説明します。
 
 {{b2b-feature}}
 
-## このビデオは誰のためのものですか？
+## このビデオの目的は誰ですか。
 
-- Web サイトマネージャー
+- Web サイト管理者
 - e コマースマーチャンダイザー
 
 ## ビデオコンテンツ

@@ -1,6 +1,6 @@
 ---
-title: SEO メタデータを管理
-description: 検索エンジンによるサイトのインデックス作成を改善するために、キーワードリッチなメタデータを組み込む方法を説明します。
+title: SEO メタデータの管理
+description: 検索エンジンでのサイトのインデックス作成方法を改善するために、キーワードの多いメタデータを組み込む方法を説明します。
 kt: 10553
 doc-type: feature video
 audience: all
@@ -13,18 +13,18 @@ level: Beginner, Intermediate
 exl-id: affdc3d3-886f-4b39-8c82-c13ee2e79df9
 source-git-commit: 404d2708a6d540d6fb19a33afb20726356cd8000
 workflow-type: tm+mt
-source-wordcount: '89'
+source-wordcount: '83'
 ht-degree: 0%
 
 ---
 
-# SEO メタデータを管理
+# SEO メタデータの管理
 
-ストアには、検索エンジンによるサイトのインデックス作成を改善するために、キーワードリッチメタデータを入力できる場所が読み込まれます。 時間の経過と共に、メタデータを微調整して、顧客の購入パターンや好みをターゲットに設定できます。
+ストアには、検索エンジンによるサイトのインデックス作成方法を改善するために、キーワードが豊富なメタデータを入力できる場所が多数用意されています。 時間の経過と共に、メタデータを微調整して、顧客の購入パターンや好みをターゲットに設定できます。
 
-## このビデオは誰のためのものですか？
+## このビデオの目的は誰ですか。
 
-- Web サイトマネージャー
+- Web サイト管理者
 - e コマースマーチャンダイザー
 - e コマースマーケター
 
@@ -34,4 +34,4 @@ ht-degree: 0%
 
 ## その他のリソース
 
-[メタデータ — [!DNL Commerce] マーチャンダイジングとプロモーションガイド](https://experienceleague.adobe.com/docs/commerce-admin/marketing/seo/meta-data.html)
+[メタデータ - [!DNL Commerce] マーチャンダイジングおよびプロモーションガイド](https://experienceleague.adobe.com/docs/commerce-admin/marketing/seo/meta-data.html)

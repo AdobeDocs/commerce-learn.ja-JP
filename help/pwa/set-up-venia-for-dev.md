@@ -1,6 +1,6 @@
 ---
-title: Venia をPWA開発用に設定
-description: PWA開発プロジェクト用の Venia ストアフロントの設定方法を説明します。
+title: PWA開発用の Venia の設定
+description: PWA開発プロジェクト用に Venia ストアフロントを設定する方法を説明します。
 kt: 5565
 doc-type: video
 activity: use
@@ -12,18 +12,18 @@ level: Beginner, Intermediate
 exl-id: 208d096a-139b-4e08-85c9-fad181dc8cdb
 source-git-commit: fc03a06de4a4aaa54e218390749cacb6802a7c46
 workflow-type: tm+mt
-source-wordcount: '54'
+source-wordcount: '49'
 ht-degree: 0%
 
 ---
 
-# Venia をPWA開発用に設定
+# PWA開発用の Venia の設定
 
-## このビデオは誰のためのものですか？
+## このビデオの目的は誰ですか。
 
 - フロントエンド開発者
-- プロジェクトマネージャー
-- Adobe Commerceの新しい開発者
+- プロジェクト管理者
+- Adobe Commerceの新規開発者
 
 ## ビデオコンテンツ
 
@@ -31,4 +31,4 @@ ht-degree: 0%
 
 ## 役に立つリソース
 
-[PWA Studioガイド — Venia の設定](https://developer.adobe.com/commerce/pwa-studio/tutorials/setup-storefront/)
+[PWA Studioガイド - Venia の設定](https://developer.adobe.com/commerce/pwa-studio/tutorials/setup-storefront/)

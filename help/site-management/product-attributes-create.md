@@ -1,6 +1,6 @@
 ---
 title: 製品属性の作成
-description: 製品、顧客、製品の評価に関連する情報を管理するために使用される製品属性を作成する方法について説明します。
+description: 製品、顧客、製品の評価に関連付けられた情報を管理するために使用する製品属性を作成する方法を説明します。
 kt: 10552
 doc-type: feature video
 audience: all
@@ -13,18 +13,18 @@ level: Beginner, Intermediate
 exl-id: c65b4e42-2cfe-4f7e-8a15-d0271461e4a2
 source-git-commit: 404d2708a6d540d6fb19a33afb20726356cd8000
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '103'
 ht-degree: 0%
 
 ---
 
 # 製品属性の作成
 
-Adobe Commerceは、属性を使用して、製品、顧客および製品の評価に関連する情報を管理します。 属性とは、フォーム、レポート、製品レビュー、レイヤーナビゲーション、電子メールメッセージのフィールドとして表示される情報の一部です。 これらは商品カタログの構成要素であり、商品の特定の特性を表します。
+Adobe Commerceでは、属性を使用して、商品、顧客および商品の評価に関連付けられた情報を管理します。 属性とは、フォーム、レポート、製品レビュー、レイヤー化されたナビゲーション、メールメッセージにフィールドとして表示される可能性のある情報のことです。 製品カタログの構成要素であり、製品の特定の特性を示します。
 
-## このビデオは誰のためのものですか？
+## このビデオの目的は誰ですか。
 
-- Web サイトマネージャー
+- Web サイト管理者
 - e コマースマーチャンダイザー
 
 ## ビデオコンテンツ
@@ -33,6 +33,6 @@ Adobe Commerceは、属性を使用して、製品、顧客および製品の評
 
 ## その他のリソース
 
-[製品属性の概要 — [!DNL Commerce] カタログ管理ガイド](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html)
+[製品属性の概要 –  [!DNL Commerce] カタログ管理ガイド](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html)
 
-[属性セット — [!DNL Commerce] カタログ管理ガイド](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/create/attribute-sets.html)
+[属性セット - [!DNL Commerce] カタログ管理ガイド](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/create/attribute-sets.html)

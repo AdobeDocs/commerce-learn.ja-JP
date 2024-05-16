@@ -1,6 +1,6 @@
 ---
-title: カテゴリ内の製品の管理
-description: 自動カテゴリ並べ替え機能を使用して、カテゴリで製品を作成し、視覚的にマーチャンダイジングする方法について説明します。
+title: カテゴリでの製品の管理
+description: カテゴリでの製品の作成、視覚的なマーチャンダイジング、自動カテゴリ並べ替え機能の使用について説明します。
 kt: 10550
 doc-type: feature videos
 audience: all
@@ -13,18 +13,18 @@ level: Beginner, Intermediate
 exl-id: 81a654bf-d09c-4bab-a050-daba6cce2f79
 source-git-commit: 404d2708a6d540d6fb19a33afb20726356cd8000
 workflow-type: tm+mt
-source-wordcount: '102'
+source-wordcount: '88'
 ht-degree: 0%
 
 ---
 
-# カテゴリ内の製品の管理
+# カテゴリでの製品の管理
 
-カタログを管理するには、製品をカテゴリに整理することが重要です。 このビデオでは、カテゴリでの製品の作成、視覚的なマーチャンダイジング、および自動カテゴリ並べ替え機能の使用について学びます。
+カタログを管理するには、製品をカテゴリに整理することが重要です。 このビデオでは、カテゴリでの製品の作成、視覚的なマーチャンダイジング、自動カテゴリ並べ替え機能の使用について説明します。
 
-## このビデオは誰のためのものですか？
+## このビデオの目的は誰ですか。
 
-- Web サイトマネージャー
+- Web サイト管理者
 - e コマースマーチャンダイザー
 
 ## ビデオコンテンツ
@@ -33,5 +33,5 @@ ht-degree: 0%
 
 ## その他のリソース
 
-- [カテゴリ製品の割り当て — [!DNL Commerce] カタログ管理ガイド](https://experienceleague.adobe.com/docs/commerce-admin/catalog/categories/products-in-category/categories-product-assignments.html)
-- [マーチャンダイジングのカテゴリルール — [!DNL Commerce] マーチャンダイジングとプロモーションガイド](https://experienceleague.adobe.com/docs/commerce-admin/marketing/merchandising/visual-merch/category-product-rules.html)
+- [カテゴリ製品割り当て –  [!DNL Commerce] カタログ管理ガイド](https://experienceleague.adobe.com/docs/commerce-admin/catalog/categories/products-in-category/categories-product-assignments.html)
+- [マーチャンダイジングのカテゴリルール - [!DNL Commerce] マーチャンダイジングおよびプロモーションガイド](https://experienceleague.adobe.com/docs/commerce-admin/marketing/merchandising/visual-merch/category-product-rules.html)

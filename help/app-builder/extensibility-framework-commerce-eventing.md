@@ -1,8 +1,8 @@
 ---
-title: 拡張フレームワークとコマースのイベンティング
-description: Unified Extensibility Framework とコマースの夜の詳細
-landing-page-description: Unified Extensibility Framework とコマースの夜の詳細
-short-description: Unified Extensibility Framework とコマースの夜の詳細
+title: 拡張フレームワークとコマースイベント
+description: この夜の統合拡張フレームワークとコマースについて説明します
+landing-page-description: この夜の統合拡張フレームワークとコマースについて説明します
+short-description: この夜の統合拡張フレームワークとコマースについて説明します
 kt: 11740
 doc-type: tutorial
 audience: all
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 # App Builder の拡張フレームワーク
 
-この機能デモでは、App Builder と、Adobe Commerceの潜在的な使用例について説明します。 このビデオでは、拡張フレームワーク、主なお客様のメリット、機能の概要を説明します。
+この機能デモでは、App Builder と、Adobe Commerceの潜在的なユースケースについて説明します。 このビデオでは、拡張フレームワーク、お客様の主なメリット、機能について紹介します。
 
 ## Adobe Commerceの App Builder {#app-builder-extensibility}
 

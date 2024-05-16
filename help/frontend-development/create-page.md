@@ -11,7 +11,7 @@ level: Beginner, Intermediate
 exl-id: aa830d15-0095-450f-83a8-a4ea489d6aae
 source-git-commit: 8465b3cc417d328461c52cf6da07f953c8250dd2
 workflow-type: tm+mt
-source-wordcount: '90'
+source-wordcount: '86'
 ht-degree: 0%
 
 ---
@@ -20,23 +20,23 @@ ht-degree: 0%
 
 1 つのパラメーターで json を返すページを作成します。
 
-## このビデオは誰のためのものですか？
+## このビデオの目的は誰ですか。
 
 - 開発者
 
 ## ページを追加する手順
 
 - モジュールの作成
-- を追加します。 **routes.xml** ファイル
+- を追加 **routes.xml** ファイル
 - コントローラ（アクション）ファイルを追加する
 
 ## モジュールの作成手順
 
 - モジュールフォルダーの作成
-- を作成します。 `etc/module.xml` ファイル
-- を作成します。 `registration.php` ファイル
-- を実行します。 `bin/magento setup:upgrade` 新しいモジュールをインストールするスクリプト
-- モジュールが動作していることを確認します。
+- を作成 `etc/module.xml` ファイル
+- を作成 `registration.php` ファイル
+- を実行 `bin/magento setup:upgrade` 新しいモジュールをインストールするスクリプト
+- モジュールが動作していることを確認します
 
 ## ビデオコンテンツ
 

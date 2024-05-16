@@ -10,10 +10,10 @@ ht-degree: 0%
 
 # API メッシュ関連リンク
 
-## 役立つ API メッシュリソース
+## 便利な API メッシュリソース
 
-* [API メッシュの概要](../api-mesh/getting-started-api-mesh.md)
-* [Adobe Developerと mesh プラグインのインストール](../api-mesh/installing-aio-mesh-plugin.md)
+* [API メッシュの基本を学ぶ](../api-mesh/getting-started-api-mesh.md)
+* [Adobe Developerとメッシュプラグインのインストール](../api-mesh/installing-aio-mesh-plugin.md)
 * [プロジェクトとワークスペースの操作](../api-mesh/aio-projects-workspaces.md)
-* [単一ソースのGraphQL API メッシュを作成する](../api-mesh/graphql-single-source.md)
-* [複数のソースGraphQL API リクエストを作成する](../api-mesh/graphql-multiple-source.md)
+* [単一ソース GraphQL API メッシュの作成](../api-mesh/graphql-single-source.md)
+* [複数のソース GraphQL API リクエストの作成](../api-mesh/graphql-multiple-source.md)

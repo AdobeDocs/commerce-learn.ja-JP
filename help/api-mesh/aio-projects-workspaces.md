@@ -1,8 +1,8 @@
 ---
 title: プロジェクトとワークスペースの操作
-description: Adobe Developerコンソールを使用してプロジェクトやワークスペースを操作する方法について説明します。
-landing-page-description: Adobe Developerコンソールの使用方法を説明します。 API Mesh で使用するプロジェクトとワークスペースについて説明します。
-short-description: Adobe Developerコンソールの使用方法を説明します。 API Mesh で使用するプロジェクトとワークスペースについて説明します。
+description: Adobe Developer コンソールを使用してプロジェクトとワークスペースを操作する方法について説明します。
+landing-page-description: Adobe Developer コンソールの使用方法を確認します。 API メッシュで使用するプロジェクトとワークスペースについて説明します。
+short-description: Adobe Developer コンソールの使用方法を確認します。 API メッシュで使用するプロジェクトとワークスペースについて説明します。
 kt: 11803
 doc-type: tutorial
 audience: all
@@ -14,38 +14,38 @@ level: Beginner, Intermediate
 exl-id: ab51f68c-5d28-495b-8472-27b60c4aa8c1
 source-git-commit: 404d2708a6d540d6fb19a33afb20726356cd8000
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '277'
 ht-degree: 0%
 
 ---
 
 # プロジェクトとワークスペースの操作
 
-このチュートリアルでは、メッシュを含むプロジェクトとワークスペースを作成する方法について説明します。 この仕事は主に [Adobe Developer console](https://developer.adobe.com/console){target="_blank"} UI
+このチュートリアルでは、メッシュを格納するプロジェクトとワークスペースの作成について説明します。 この作業は主に次の場所で行われます [Adobe Developer コンソール](https://developer.adobe.com/console){target="_blank"} UI。
 
-## このビデオは誰のためのものですか？
+## このビデオの目的は誰ですか。
 
-* Adobe Developer Console アカウントにアクセスでき、プロジェクトとワークスペースを作成する開発者。
+* Adobe Developer コンソールアカウントにアクセスでき、プロジェクトとワークスペースの作成を希望する開発者。
 
 ## ビデオコンテンツ
 
-* Adobe Developer Console でのプロジェクトとワークスペースの操作
-* Adobe Developerコンソールでのワークスペースへの API メッシュの追加
-* CLI でのAdobe Developerコンソールへのログイン
+* Adobe Developer コンソールでのプロジェクトとワークスペースの操作
+* Adobe Developer コンソールでのワークスペースへの API メッシュの追加
+* CLI でのAdobe Developer コンソールへのログイン
 * 選択したプロジェクトとワークスペースを CLI で表示
-* CLI で選択した組織、プロジェクト、またはワークスペースを変更する
-* 簡単な API メッシュコマンドのテスト
+* CLI での選択した組織、プロジェクト、またはワークスペースの変更
+* 単純な API メッシュコマンドのテスト
 
 >[!VIDEO](https://video.tv.adobe.com/v/3414123?quality=12&learn=on)
 
-## Adobe Developer Console の詳細
+## Adobe Developer コンソールについて説明します
 
-Adobe Developerコンソールでは、次の階層が API が組織にどのように適合するかを表しています。 `Organization > Project > Workspace > [API]`. App Builder のAdobe、コンソールへのログイン、基本的なトラブルシューティングについて詳しくは、 [最初の App Builder アプリケーションの作成](https://developer.adobe.com/app-builder/docs/getting_started/first_app/){target="_blank"}.
+Adobe Developer コンソールの次の階層は、API が組織にどのように適合するかを表しています。 `Organization > Project > Workspace > [API]`. Adobeの App Builder、コンソールへのログイン、基本的なトラブルシューティングについて詳しくは、以下を参照してください： [最初の App Builder アプリケーションの作成](https://developer.adobe.com/app-builder/docs/getting_started/first_app/){target="_blank"}.
 
-## Adobe Developerコンソールでのプロジェクトの概要
+## Adobe Developer コンソールのプロジェクトの概要
 
-Adobe Developer Console でのすべての開発作業は、プロジェクトの一部としておこなわれます。 1 つのプロジェクトに 1 つ以上の製品と、API、イベント、ランタイム、プラグインの組み合わせを含めることができます。 Adobe Developerコンソールのプロジェクトについて詳しくは、 [プロジェクト](https://developer.adobe.com/developer-console/docs/guides/projects/){target="_blank"}.
+Adobe Developer コンソールでの開発作業はすべて、プロジェクトの一部として行われます。 プロジェクトには、1 つまたは複数の製品や、API、イベント、ランタイム、プラグインの組み合わせを含めることができます。 Adobe Developer コンソールのプロジェクトについて詳しくは、次を参照してください。 [プロジェクト](https://developer.adobe.com/developer-console/docs/guides/projects/){target="_blank"}.
 
-API Mesh のコンテキストでプロジェクトとワークスペースを使用する方法について詳しくは、 [プロジェクトとワークスペースを変更する](https://developer.adobe.com/graphql-mesh-gateway/gateway/create-mesh/#modify-projects-and-workspaces){target="_blank"}.
+API メッシュのコンテキストでプロジェクトとワークスペースを使用する方法については、を参照してください。 [プロジェクトとワークスペースの変更](https://developer.adobe.com/graphql-mesh-gateway/gateway/create-mesh/#modify-projects-and-workspaces){target="_blank"}.
 
 {{$include /help/_includes/api-mesh-related-links.md}}

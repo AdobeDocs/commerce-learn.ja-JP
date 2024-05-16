@@ -1,6 +1,6 @@
 ---
-title: '"[!DNL Commerce] ビジネスユーザー向け — シンプルな製品»'
-description: 製品属性セットを使用して、簡単な製品を作成する方法を説明します。
+title: “[!DNL Commerce] ビジネスユーザー向け – シンプルな製品」
+description: 製品属性セットを使用してシンプルな製品を作成する方法を説明します。
 kt: 5771
 doc-type: video
 activity: use
@@ -12,18 +12,18 @@ level: Beginner, Intermediate
 exl-id: 104bcabe-87c0-44ea-9bdb-6189b01ba6c7
 source-git-commit: f7aa1f0063cbcad6d331a13817214b1bf2158571
 workflow-type: tm+mt
-source-wordcount: '95'
+source-wordcount: '77'
 ht-degree: 0%
 
 ---
 
-# [!DNL Commerce] ビジネスユーザー向け — シンプルな製品
+# [!DNL Commerce] ビジネスユーザー向け – シンプルな製品
 
-このビデオでは、
+このビデオの内容は次のとおりです。
 
-- 製品属性セットを使用した単純な製品の作成
+- 製品属性セットを使用したシンプルな製品の作成
 
-## このビデオは誰のためのものですか？
+## このビデオの目的は誰ですか。
 
 - ビジネスユーザー
 
@@ -31,12 +31,12 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->このビデオの内容は 2.3.1 リリースを反映しています。 今後のリリースでの更新について詳しくは、 [リリースノート](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/overview.html).
+>このビデオの内容は、2.3.1 リリースを反映しています。 以降のリリースのアップデートについて詳しくは、 [リリースノート](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/overview.html).
 
 >[!VIDEO](https://video.tv.adobe.com/v/35956?quality=12&learn=on)
 
 ## その他のリソース
 
-[シンプルな製品 — [!DNL Commerce] カタログ管理ガイド](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/types/product-create-simple.html)
+[シンプルな製品 –  [!DNL Commerce] カタログ管理ガイド](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/types/product-create-simple.html)
 
-[属性セット — [!DNL Commerce] カタログ管理ガイド](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/create/attribute-sets.html)
+[属性セット - [!DNL Commerce] カタログ管理ガイド](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/create/attribute-sets.html)

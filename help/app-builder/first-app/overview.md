@@ -1,7 +1,7 @@
 ---
-title: App Builders で最初のアプリを作成する
-description: Adobe Commerceを使用したAdobe Developer App Builder の概要と、最初のアプリの作成について説明します。
-landing-page-description: Adobe Commerceで使用し、最初のアプリを作成するAdobe Developer App Builder について説明します。
+title: App Builder は最初のアプリを作成します
+description: Adobe Commerceを使用したAdobe Developer App Builder について説明し、最初のアプリを作成します。
+landing-page-description: Adobe Commerceで使用するAdobe Developer App Builder について説明し、最初のアプリを作成します。
 kt: 12421
 doc-type: tutorial
 audience: all
@@ -13,7 +13,7 @@ level: Beginner, Intermediate
 exl-id: 0b6a91dd-e5c4-4ead-84d4-362de070815e
 source-git-commit: 404d2708a6d540d6fb19a33afb20726356cd8000
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '297'
 ht-degree: 0%
 
 ---
@@ -22,33 +22,33 @@ ht-degree: 0%
 
 このチュートリアルには、次の前提条件があります。
 
-* Adobe Developer Console へのアクセスが完了しました
-* App Builder へのフルアクセスまたは体験版アクセス権が付与されました
+* Adobe Developer コンソールへのアクセスが完了しました
+* App Builder へのフルアクセスまたは体験版アクセスが許可されました
 * [Adobe Developer App Builder アプリケーションが作成されました](https://developer.adobe.com/app-builder/docs/getting_started/first_app/){target="_blank"}
 * [Adobe Developer App Builder プロジェクトが作成されました](https://developer.adobe.com/console){target="_blank"}
-* [Adobe Developer App Builder のワークスペースが作成されました — 手順 2.6](https://developer.adobe.com/app-builder/docs/getting_started/first_app/#2-creating-a-new-project-on-developer-console){target="_blank"}
-* [プロジェクトを初期化し、を実行する AIO CLI コマンドが実行されました。](https://developer.adobe.com/runtime){target="_blank"}
+* [Adobe Developer App Builder ワークスペースが作成されました（手順 2.6）](https://developer.adobe.com/app-builder/docs/getting_started/first_app/#2-creating-a-new-project-on-developer-console){target="_blank"}
+* [プロジェクトを初期化して実行する AIO CLI コマンドが実行されました](https://developer.adobe.com/runtime){target="_blank"}
 
-最初の App Builder アプリケーションの構築について詳しくは、次のブログ投稿を参照して、初回セットアップと設定に役立ててください [App Builder がコマースプラットフォームに対するビジネスの俊敏性の向上に役立つ理由](https://business.adobe.com/blog/how-to/how-app-builder-helps-you-implement-a-composable-commerce-strategy){target="_blank"}.
+最初の App Builder アプリケーションの構築に関する詳細は、次のブログ投稿を参照してください。この初期設定と設定に役立ちます [App Builder がコマースプラットフォームのビジネスの俊敏性を促進する仕組み](https://business.adobe.com/blog/how-to/how-app-builder-helps-you-implement-a-composable-commerce-strategy){target="_blank"}.
 
-## このチュートリアルの内容
+## このチュートリアルを読んで期待されること
 
-このチュートリアルが完了したら、Adobe Commerceと通信して注文履歴と製品を取り込む、単純な単一ページアプリケーションが必要です。 以下のトピックでは、App Builder の機能とコードサンプルおよび手順について説明します。 これらのビデオを見た後に、開発時間を節約し、他のアイデアを刺激し、プロセス外開発の採用を促すことができればと思います。
+このチュートリアルを完了すると、Adobe Commerceと通信して注文履歴や商品を取り込む、シンプルな単一ページアプリケーションが得られます。 これらのトピックでは、コードサンプルと手順を含む App Builder 機能について説明します。 これらのビデオを見た後、これにより開発の時間が節約され、他のアイデアが生まれ、プロセス外の開発の採用が促進されることを願っています。
 
-## このチュートリアルの内容
+## このチュートリアルの進め方
 
-このチュートリアルは、左側のナビゲーションでページの順序に従うように設計されています。 ただし、これは必須ではありません。 最初のAdobe Developer App Builder アプリを構築する一般的な概念について説明しているので、各ページは個別に表示できます。
+このチュートリアルは、左側のナビゲーションのページの順序に従うように設計されています。 ただし、これは要件ではありません。 最初のAdobe Developer App Builder アプリの構築に関する一般的な概念について説明しているので、各ページを個別に表示できます。
 
-## このビデオは誰のためのものですか？
+## このビデオの目的は誰ですか。
 
-* AdobeApp Builder を使用した経験が限られている、Adobe Commerceを初めて使用する開発者。
+* Adobe Commerceを初めて使用する開発者で、AdobeApp Builder を使用した経験が限られている人。
 
 ## ビデオコンテンツ
 
 * App Builder とサンプルモジュールの概要
 * 前提条件
-* サンプルモジュールの使用に対する期待
-* サンプルモジュール内のの再利用可能な部分
+* サンプルモジュール使用に対する期待
+* サンプルモジュール内の再利用可能な部分
 
 >[!VIDEO](https://video.tv.adobe.com/v/3416740?quality=12&learn=on)
 

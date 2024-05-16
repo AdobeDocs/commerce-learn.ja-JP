@@ -1,6 +1,6 @@
 ---
-title: Adobe Commerceを使用した見積書の行項目の割引の表示
-description: Adobe Commerceでの B2B 見積もりに対する行項目の割引について説明します
+title: Adobe Commerceを使用した見積書の品目割引の表示
+description: Adobe Commerceの B2B 見積もりの品目割引について説明します
 doc-type: feature video
 audience: all
 activity: use
@@ -10,23 +10,23 @@ feature: Configuration, System, Quotes, B2B, Companies
 topic: Commerce, Administration
 role: Admin, User
 level: Beginner, Intermediate
-exl-id: 4491e81c-7c78-4d01-a79b-190a1f2c72d9
-source-git-commit: 9a1687d23e1b5d2be209aeb1ef68df6a263178df
+exl-id: bad46fbb-f16a-433d-be62-d8ae74bea3a9
+source-git-commit: 598bff1fd2cefdc449d5ae3431401aec1e796313
 workflow-type: tm+mt
-source-wordcount: '60'
+source-wordcount: '58'
 ht-degree: 0%
 
 ---
 
-# B2B 販売見積明細行品目の割引
+# B2B 販売見積依頼明細行の品目割引
 
-行項目の割引の使用方法と、Adobe Commerce管理者を使用した値の確認方法について説明します。
+行項目割引の使用方法と、Adobe Commerce管理を使用して値を確認する方法を説明します。
 
 {{b2b-feature}}
 
-## このビデオは誰のためのものですか？
+## このビデオの目的は誰ですか。
 
-- Web サイトマネージャー
+- Web サイト管理者
 - e コマースマーチャンダイザー
 - 開発者
 

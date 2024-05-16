@@ -1,6 +1,6 @@
 ---
-title: '"[!DNL Commerce] ビジネスユーザーの場合：役割の範囲と権限»'
-description: 役割範囲 (Adobe Commerce専用 ) と関連する権限をサイトまたはストア別に定義する方法について説明します。
+title: “[!DNL Commerce] ビジネスユーザーの場合 – 役割の範囲と権限」
+description: （Adobe Commerce専用の）ロール範囲と、関連付けられている権限をサイトまたはストア別に定義する方法を説明します。
 kt: 5763
 doc-type: video
 activity: use
@@ -12,18 +12,18 @@ level: Beginner, Intermediate
 exl-id: c655ef88-1ddf-4ba3-9ad3-1883c0c93ee2
 source-git-commit: f7aa1f0063cbcad6d331a13817214b1bf2158571
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '87'
 ht-degree: 0%
 
 ---
 
-# [!DNL Commerce] ビジネスユーザーの場合 — 役割の範囲と権限
+# [!DNL Commerce] ビジネスユーザーの場合 – 役割の範囲と権限
 
-このビデオでは、
+このビデオの内容は次のとおりです。
 
-- ロールスコープ (Adobe Commerceのみ )
+- 役割範囲（Adobe Commerceのみ）
 
-## このビデオは誰のためのものですか？
+## このビデオの目的は誰ですか。
 
 - ビジネスユーザー
 
@@ -31,12 +31,12 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->このビデオの内容は 2.3.1 リリースを反映しています。 今後のリリースでの更新について詳しくは、 [リリースノート](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/overview.html).
+>このビデオの内容は、2.3.1 リリースを反映しています。 以降のリリースのアップデートについて詳しくは、 [リリースノート](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/overview.html).
 
 >[!VIDEO](https://video.tv.adobe.com/v/35948?quality=12&learn=on)
 
 ## その他のリソース
 
-[管理者ユーザーアカウントの管理 — [!DNL Commerce] 管理システムガイド](https://experienceleague.adobe.com/docs/commerce-admin/systems/user-accounts/permissions-users-all.html)
+[管理者ユーザーアカウントの管理 –  [!DNL Commerce] 管理システムガイド](https://experienceleague.adobe.com/docs/commerce-admin/systems/user-accounts/permissions-users-all.html)
 
-[ユーザーの役割 — [!DNL Commerce] 管理システムガイド](https://experienceleague.adobe.com/docs/commerce-admin/systems/user-accounts/permissions-user-roles.html)
+[ユーザーの役割 –  [!DNL Commerce] 管理システムガイド](https://experienceleague.adobe.com/docs/commerce-admin/systems/user-accounts/permissions-user-roles.html)

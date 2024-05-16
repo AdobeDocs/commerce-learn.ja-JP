@@ -1,8 +1,8 @@
 ---
-title: 開発者向けの Page Builder — 概要
-description: ページビルダーの概要、ページビルダー機能について
-landing-page-description: このビデオシリーズでは、ページビルダーの概要と、ページビルダーを拡張して最適なページを作成する方法を紹介します [!DNL Commerce] ストアフロントエクスペリエンス
-short-description: このビデオシリーズでは、ページビルダーの概要と、ページビルダーを拡張して最適なページを作成する方法を紹介します [!DNL Commerce] ストアフロントエクスペリエンス
+title: 開発者向けページビルダー – はじめに
+description: ページビルダーの概要、ページビルダーの機能について
+landing-page-description: このビデオシリーズでは、ページビルダーと、ページビルダーを拡張して最適なものを作成する方法について説明します [!DNL Commerce] ストアフロントエクスペリエンス。
+short-description: このビデオシリーズでは、ページビルダーと、ページビルダーを拡張して最適なものを作成する方法について説明します [!DNL Commerce] ストアフロントエクスペリエンス。
 kt: 5650
 doc-type: video
 activity: use
@@ -13,19 +13,19 @@ level: Beginner, Intermediate
 exl-id: 436003ca-df48-4441-a1f4-bd8ea977a9cc
 source-git-commit: 8465b3cc417d328461c52cf6da07f953c8250dd2
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '117'
 ht-degree: 0%
 
 ---
 
-# 開発者向けの Page Builder — 概要
+# 開発者向けページビルダー – はじめに
 
-このビデオでは、
+このビデオの内容は次のとおりです。
 
 - ページビルダーの概要
 - ページビルダー機能について
 
-## このビデオは誰のためのものですか？
+## このビデオの目的は誰ですか。
 
 - フロントエンド開発者
 - コンテンツ作成者
@@ -34,12 +34,12 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->この内容は、Adobe Commerce 2.3.1 の Page Builder 1.0.0 リリースを反映しています。今後のリリースでの更新について詳しくは、 [Page Builder リリースノート](https://experienceleague.adobe.com/docs/commerce-admin/page-builder/release-notes.html).
+>この内容には、Adobe Commerce 2.3.1 の Page Builder 1.0.0 リリースが含まれています。以降のリリースのアップデートについて詳しくは、 [Page Builder リリースノート](https://experienceleague.adobe.com/docs/commerce-admin/page-builder/release-notes.html).
 
 >[!VIDEO](https://video.tv.adobe.com/v/35709?quality=12&learn=on)
 
 ## 役に立つリソース
 
-[Page Builder 開発者向けドキュメント](https://developer.adobe.com/commerce/frontend-core/page-builder/)
+[ページビルダー開発者向けドキュメント](https://developer.adobe.com/commerce/frontend-core/page-builder/)
 
-[Page Builder ガイド](https://experienceleague.adobe.com/docs/commerce-admin/page-builder/introduction.html)
+[ページビルダーガイド](https://experienceleague.adobe.com/docs/commerce-admin/page-builder/introduction.html)

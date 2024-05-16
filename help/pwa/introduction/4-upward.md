@@ -1,6 +1,6 @@
 ---
-title: 開発者向けPWA Studio- UPPORED
-description: UPPORD（統合プログレッシブ Web アプリの応答定義）について説明します。
+title: 開発者向けPWA Studio - UPWARD
+description: UPWARD （統合プログレッシブ Web アプリ応答定義）について説明します。
 kt: 5647
 doc-type: video
 activity: use
@@ -17,16 +17,16 @@ ht-degree: 0%
 
 ---
 
-# 開発者向けPWA Studio- UPPORED
+# 開発者向けPWA Studio - UPWARD
 
-このビデオでは、
+このビデオの内容は次のとおりです。
 
-- UPPORD（統合プログレッシブ Web アプリ応答定義）の概要
+- UPWARD （統合プログレッシブ web アプリ応答定義）の概要
 
-## このビデオは誰のためのものですか？
+## このビデオの目的は誰ですか。
 
 - フロントエンド開発者
-- プロジェクトマネージャー
+- プロジェクト管理者
 
 ## ビデオコンテンツ
 

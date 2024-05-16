@@ -1,8 +1,8 @@
 ---
-title: ストアの達成の概要
-description: Buy Online, Pick up In-Store (BOPIS) エクスペリエンスをエンドツーエンドで提供する高度なオムニチャネルフルフィルメントソリューション、Walmart Commerce Technologies によるAdobe Commerceの店舗フルフィルメントについて説明します。
-landing-page-description: このビデオでは、店舗フルフィルメントソリューションが、顧客に対して店舗受け取り注文、ステージング注文、手渡し注文を受け取るための、より効率的でモバイル対応のフルフィルメントワークフローを、店舗とカーブ側受け取りの便利さに提供する方法を説明します。
-short-description: このビデオでは、店舗フルフィルメントソリューションが、顧客に対して店舗受け取り注文、ステージング注文、手渡し注文を受け取るための、より効率的でモバイル対応のフルフィルメントワークフローを、店舗とカーブ側受け取りの便利さに提供する方法を説明します。
+title: ストアフルフィルメントの概要
+description: エンドツーエンドで Buy Online, Pick Up In-Store （BOPIS）エクスペリエンスを実現する高度なオムニチャネルフルフィルメントソリューション、Walmart Commerce Technologies によるAdobe Commerceのストアフルフィルメントについて説明します。
+landing-page-description: このビデオでは、店舗フルフィルメントソリューションが、店舗での受け取りや縁側での受け取りの便利さを顧客に提供する方法と、従業員がより効率的に、モバイル対応のフルフィルメントワークフローを使用して、顧客への店舗の受け取り、ステージング、引き渡しを行う方法を説明します。
+short-description: このビデオでは、店舗フルフィルメントソリューションが、店舗での受け取りや縁側での受け取りの便利さを顧客に提供する方法と、従業員がより効率的に、モバイル対応のフルフィルメントワークフローを使用して、顧客への店舗の受け取り、ステージング、引き渡しを行う方法を説明します。
 doc-type: feature video
 solution: Commerce
 audience: all
@@ -15,38 +15,38 @@ level: Beginner, Intermediate
 exl-id: 53f45eb4-29e0-426d-8e9a-784838e37e03
 source-git-commit: 404d2708a6d540d6fb19a33afb20726356cd8000
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '280'
 ht-degree: 0%
 
 ---
 
-# ストアの達成の概要
+# ストアフルフィルメントの概要
 
-Store Fulfilment for Adobe Commerce by Walmart Commerce Technologies は、高度な購入をオンラインで提供し、店頭での BOPIS(Pickup In-Store) の顧客体験を提供します。 モバイルデバイスを通じて実現されるシームレスでエンドツーエンドのオムニチャネルフルフィルメントワークフローを提供し、店舗従業員の生産性を最大化します。
+Store Fulfillment for Adobe Commerce by Walmart Commerce Technologies は、高度なオンライン購入、集荷インストア（BOPI）カスタマーエクスペリエンスを提供します。 モバイルデバイスを通じて有効化されるシームレスでエンドツーエンドのオムニチャネルフルフィルメントワークフローを提供することで、店舗の従業員の生産性を最大化します。
 
-このビデオでは、ストア内およびカーブサイドのピックアップオプションを使用した、ストアフルフィルメントエンドツーエンドの BOPIS エクスペリエンスの概要を簡単に説明します。
+このビデオでは、店舗内および店舗側のピックアップオプションを使用した、ストアフルフィルメントのエンドツーエンドの BOPI エクスペリエンスの概要を簡単に説明します。
 
-- 顧客が受け取り注文を送信するのを見る：
-   - オンラインストアフロントカタログを参照します。
-   - 店舗でのピックアップ用の項目を選択します。
-   - 在庫がある店舗の場所を見つけて選択します。
-   - ストアピックアップオプションをチェックアウトしてカスタマイズします。
-   - 注文を行います。
-- 店舗の従業員と顧客が、店舗のフルフィルメントソリューションで利用できるモバイルアプリを使用して、エンドツーエンドの注文フルフィルメントプロセスを実行するのを見ます。
+- 顧客による店舗の集荷注文の送信を視聴する：
+   - オンラインのストアフロントカタログを参照します。
+   - 店舗での受け取りの品目を選択します。
+   - 利用可能な在庫がある店舗の場所を検索して選択します。
+   - 店舗の集荷オプションをチェックアウトしてカスタマイズします。
+   - 注文します。
+- ストアフルフィルメントソリューションで利用可能なモバイルアプリを使用して、店舗の従業員と顧客がエンドツーエンドの注文フルフィルメントプロセスを実行するのを見ます。
 
-## このビデオは誰のためのものですか？
+## このビデオの目的は誰ですか。
 
 - e コマースマネージャー
-- ストア運営管理者と管理者
+- 店舗の運用管理者と管理者
 
 ## ビデオコンテンツ
 
 >[!NOTE]
 >
->このビデオの内容は、Adobe Commerce 2.4 と共にストアフロントにインストールされた Store Fulfilment solution 1.0 リリースを反映しています。詳しくは、 [ストアフルフィルメントユーザーガイド](https://experienceleague.adobe.com/docs/commerce-merchant-services/store-fulfillment/introduction.html) を参照してください。
+>ビデオの内容は、Adobe Commerce 2.4 でストアフロントにインストールされた Store Fulfillment Solution 1.0 リリースを反映しています。を参照してください。 [Store Fulfillment ユーザーガイド](https://experienceleague.adobe.com/docs/commerce-merchant-services/store-fulfillment/introduction.html) を参照してください。
 
 >[!VIDEO](https://video.tv.adobe.com/v/343653?quality=12&learn=on)
 
 ## その他のリソース
 
-[ストアフルフィルメントユーザーガイド](https://experienceleague.adobe.com/docs/commerce-merchant-services/store-fulfillment/introduction.html)
+[Store Fulfillment ユーザーガイド](https://experienceleague.adobe.com/docs/commerce-merchant-services/store-fulfillment/introduction.html)

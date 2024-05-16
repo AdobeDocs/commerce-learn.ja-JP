@@ -1,6 +1,6 @@
 ---
-title: 開発者向けPWA Studio — プロジェクトの設定
-description: ローカル SSL 証明書の生成や、PWA Studioパック CLI コマンドなど、新しいビルドプロジェクトの概要を説明します。
+title: 開発者向けPWA Studio - プロジェクトの設定
+description: ローカル SSL 証明書の生成やビルドパック CLI コマンドなど、新しいPWA Studioプロジェクトの基本を学びます。
 kt: 5648
 doc-type: video
 activity: use
@@ -17,19 +17,19 @@ ht-degree: 0%
 
 ---
 
-# 開発者向けPWA Studio — プロジェクトの設定
+# 開発者向けPWA Studio - プロジェクトの設定
 
-このビデオでは、
+このビデオの内容は次のとおりです。
 
-- はじめに —PWA Studio
-- 初期プロジェクト設定
-- ローカル SSL 証明書を生成
+- PWA Studio使用の手引き
+- プロジェクトの初期設定
+- ローカル SSL 証明書の生成
 - [!DNL Buildpack] CLI コマンド
 
-## このビデオは誰のためのものですか？
+## このビデオの目的は誰ですか。
 
 - フロントエンド開発者
-- プロジェクトマネージャー
+- プロジェクト管理者
 
 ## ビデオコンテンツ：
 

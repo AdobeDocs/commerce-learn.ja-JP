@@ -1,7 +1,7 @@
 ---
 title: .env ファイル
-description: このサンプルアプリケーションの.env ファイル内のファイルの種類について説明します。
-landing-page-description: Adobe Commerceで使用されるAdobe Developer App Builder と、.env ファイルで使用されるコンテンツの種類について説明します
+description: このサンプルアプリケーションの.env ファイルのファイルのタイプについて説明します
+landing-page-description: Adobe Commerceで使用されるAdobe Developer App Builder と、.env ファイルで使用されるコンテンツのタイプについて説明します
 kt: 12423
 doc-type: tutorial
 audience: all
@@ -20,18 +20,18 @@ ht-degree: 0%
 
 # .env ファイルの生成と設定 {#env-file}
 
-The `.env` は、サンプルモジュールには含まれていませんが、Adobe Developer App Builder アプリケーションでの使用に重要な特別なファイルです。 このファイルには、秘密鍵とその他の情報が含まれています。 このファイルをコードリポジトリにコミットしないでください。
+この `.env` は、サンプルモジュールには含まれていないが、Adobe Developer App Builder アプリケーションで使用するために重要な特別なファイルです。 このファイルには、シークレットやその他の情報が含まれています。 このファイルを任意のコードリポジトリにコミットしないでください。
 
-## このビデオは誰のためのものですか？
+## このビデオの目的は誰ですか。
 
-* Adobe Commerceを初めて使用する開発者で、Adobeの App Builder を使用して、 `.env` ファイル。
+* Adobe Commerceを初めて使用する開発者で、AdobeApp Builder を使用した経験が限られている人が、 `.env` ファイル。
 
 ## ビデオコンテンツ
 
 * .env ファイルの概要とその目的
 * .env ファイルの生成方法
-* ファイルを追加して新しい秘密鍵を追加する方法
-* このファイルには機密情報が含まれているので、このファイルをコミットしないでください
+* ファイルを追加して新しいシークレットを追加する方法
+* このファイルには機密情報が含まれているため、コミットしないでください
 
 >[!VIDEO](https://video.tv.adobe.com/v/3416593?quality=12&learn=on)
 
@@ -55,7 +55,7 @@ SERVICE_API_KEY=
 #COMMERCE_ACCESS_TOKEN_SECRET=ggg7nb19jhr5gi9jzfan9ggzipe8yrus
 ```
 
-これらの静的値は、ファイルのサンプルモジュールで使用されています `actions/commerce.index.js`.
+これらの静的な値は、ファイルのサンプルモジュールで使用されていることがわかります `actions/commerce.index.js`.
 
 ```javascript
         const oauth = getCommerceOauthClient(

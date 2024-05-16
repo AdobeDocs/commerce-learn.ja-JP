@@ -21,7 +21,7 @@ ht-degree: 0%
 
 # App Builder の技術概要
 
-次のビデオでは、Adobe CommerceとAmazon Seller Central を結び付ける統合パターンのサンプルに関する技術的概要を示します。 このチュートリアルでは、従来の PHP 拡張機能と App Builder アプリの開発の違いについても説明します。
+次のビデオでは、Adobe CommerceをAmazon Seller Central に接続するサンプル統合パターンに関する技術的な概要を説明します。 また、このチュートリアルでは、従来の PHP 拡張機能と App Builder アプリの開発の違いについても説明します。
 
 
 ## Adobe Commerceの App Builder {#app-builder-technical-overview}

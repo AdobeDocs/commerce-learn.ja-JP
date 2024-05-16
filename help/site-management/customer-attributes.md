@@ -1,6 +1,6 @@
 ---
 title: 顧客属性の作成
-description: 顧客アカウントの「アカウント情報」、「アドレス帳」、「請求情報」の各セクションにカスタム属性を追加する方法を説明します。
+description: 顧客のアカウントのアカウント情報、アドレス帳、請求情報のセクションにカスタム属性を追加する方法を説明します。
 kt: 10547
 doc-type: feature video
 audience: all
@@ -13,16 +13,16 @@ level: Beginner, Intermediate
 exl-id: 75a8213a-145b-4fb2-898c-1ae7ba272748
 source-git-commit: 404d2708a6d540d6fb19a33afb20726356cd8000
 workflow-type: tm+mt
-source-wordcount: '123'
+source-wordcount: '110'
 ht-degree: 0%
 
 ---
 
 # 顧客属性の作成
 
-顧客属性は、注文、達成、顧客管理プロセスをサポートするために必要な情報を提供します。 ビジネスは一意なので、システムが提供するデフォルトのフィールドに加えて、フィールドが必要になる場合があります。 顧客のアカウントの「アカウント情報」、「アドレス帳」、「請求情報」の各セクションにカスタム属性を追加できます。
+顧客属性は、注文、受け渡し、顧客管理の各プロセスをサポートするために必要な情報を提供します。 ビジネスは一意なので、システムから提供されるデフォルトのフィールドに加えて、フィールドが必要になる場合があります。 顧客のアカウントの「アカウント情報」、「アドレス帳」、「請求情報」の各セクションにカスタム属性を追加できます。
 
-## このビデオは誰のためのものですか？
+## このビデオの目的は誰ですか。
 
 - ストア管理者
 - e コマースマーケター
@@ -33,5 +33,5 @@ ht-degree: 0%
 
 ## その他のリソース
 
-- [顧客属性プロパティ — [!DNL Commerce] 顧客管理ガイド](https://experienceleague.adobe.com/docs/commerce-admin/customers/customer-accounts/attributes/attribute-properties.html)
-- [個々の顧客アカウントの作成 — [!DNL Commerce] 顧客管理ガイド](https://experienceleague.adobe.com/docs/commerce-admin/customers/customer-accounts/account-create.html)
+- [顧客属性のプロパティ - [!DNL Commerce] 顧客管理ガイド](https://experienceleague.adobe.com/docs/commerce-admin/customers/customer-accounts/attributes/attribute-properties.html)
+- [個別の顧客アカウントの作成 –  [!DNL Commerce] 顧客管理ガイド](https://experienceleague.adobe.com/docs/commerce-admin/customers/customer-accounts/account-create.html)

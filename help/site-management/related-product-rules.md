@@ -1,6 +1,6 @@
 ---
-title: 関連する製品ルールの管理
-description: 顧客を関連製品、アップセルおよびクロスセルとして保存するための、ターゲットを絞り込んだ選択した製品の表示方法について説明します。
+title: 関連製品ルールの管理
+description: 顧客を関連製品、アップセルおよびクロスセルとして保存するために、ターゲットを絞った一連の製品を表示する方法について説明します。
 doc-type: feature video
 audience: all
 activity: use
@@ -12,21 +12,21 @@ level: Beginner, Intermediate
 exl-id: 894523ce-5855-447a-be3b-aa751fb366f2
 source-git-commit: 404d2708a6d540d6fb19a33afb20726356cd8000
 workflow-type: tm+mt
-source-wordcount: '96'
+source-wordcount: '89'
 ht-degree: 0%
 
 ---
 
-# 関連する製品ルールの管理
+# 関連製品ルールの管理
 
 {{ee-feature}}
 
-関連する製品ルールを使用すると、顧客に提示される製品の選択を関連製品、アップセルおよびクロスセルとしてターゲット設定できます。 各製品ルールを顧客セグメントに関連付けて、ターゲットのマーチャンダイジングを動的に表示できます。
+関連製品ルールを使用すると、関連製品、アップセルおよびクロスセルとして顧客に表示される製品の選択をターゲットにすることができます。 各製品ルールを顧客セグメントに関連付けて、ターゲットマーチャンダイジングの動的表示を作成できます。
 
-## このビデオは誰のためのものですか？
+## このビデオの目的は誰ですか。
 
 - e コマースマーケター
-- Web サイトマネージャー
+- Web サイト管理者
 
 ## ビデオコンテンツ
 
@@ -34,4 +34,4 @@ ht-degree: 0%
 
 ## その他のリソース
 
-[関連する製品ルール — [!DNL Commerce] マーチャンダイジングとプロモーションガイド](https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/product-relationships/product-related-rules.html)
+[関連する製品ルール - [!DNL Commerce] マーチャンダイジングおよびプロモーションガイド](https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/product-relationships/product-related-rules.html)

@@ -1,6 +1,6 @@
 ---
-title: ウィジェットを作成
-description: ストア全体で自動的にコンテンツを更新するためのウィジェットの作成方法と既存のウィジェットの変更方法を説明します。
+title: ウィジェットの作成
+description: ウィジェットを作成したり、既存のウィジェットを変更したりして、ストア全体のコンテンツを自動的に更新する方法を説明します。
 kt: null
 doc-type: feature video
 audience: all
@@ -13,18 +13,18 @@ level: Beginner, Intermediate
 exl-id: ffb1312c-2686-48a4-945e-e6f58cb0ad18
 source-git-commit: 404d2708a6d540d6fb19a33afb20726356cd8000
 workflow-type: tm+mt
-source-wordcount: '90'
+source-wordcount: '76'
 ht-degree: 0%
 
 ---
 
-# ウィジェットを作成
+# ウィジェットの作成
 
-ウィジェットは再利用可能なコンポーネントで、ストア全体でコンテンツを自動的に更新するために、簡単に作成および変更できます。 このビデオでは、ウィジェットの作成方法と管理方法を説明します。
+ウィジェットは、ストア全体のコンテンツを自動的に更新するために簡単に作成および変更できる、再利用可能なコンポーネントです。 このビデオでは、ウィジェットを作成および管理する方法を説明します。
 
-## このビデオは誰のためのものですか？
+## このビデオの目的は誰ですか。
 
-- Web サイトマネージャー
+- Web サイト管理者
 - コンテンツデザイナー
 
 ## ビデオコンテンツ
@@ -33,5 +33,5 @@ ht-degree: 0%
 
 ## その他のリソース
 
-- [ウィジェット — [!DNL Commerce] コンテンツおよびデザインガイド](https://experienceleague.adobe.com/docs/commerce-admin/content-design/elements/widgets/widgets.html)
-- [ウィジェットの作成と管理 — [!DNL Commerce] コンテンツおよびデザインガイド](https://experienceleague.adobe.com/docs/commerce-admin/content-design/elements/widgets/widget-create.html)
+- [ウィジェット - [!DNL Commerce] コンテンツおよびデザインガイド](https://experienceleague.adobe.com/docs/commerce-admin/content-design/elements/widgets/widgets.html)
+- [ウィジェットの作成と管理 –  [!DNL Commerce] コンテンツおよびデザインガイド](https://experienceleague.adobe.com/docs/commerce-admin/content-design/elements/widgets/widget-create.html)

@@ -1,6 +1,6 @@
 ---
-title: ギフトカード商品の作成
-description: REST API とコマース管理を使用してギフトカード製品を作成する方法を説明します。
+title: ギフトカード製品の作成
+description: REST API とCommerce管理者を使用して、ギフトカード製品を作成する方法を説明します。
 kt: 14587
 doc-type: video
 audience: all
@@ -11,22 +11,23 @@ topic: Commerce, Integrations, Content Management
 role: Developer, User
 level: Beginner
 duration: 579
-source-git-commit: bcef1e34627bac55cfc75c85ef837474d53c193a
+exl-id: c18fd80e-1a25-4346-a8c5-3b5449d49965
+source-git-commit: 48a98261a827741459e45f14f7463f4a989c49d2
 workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 0%
 
 ---
 
-# ギフトカード商品の作成
+# ギフトカード製品の作成
 
-REST API とAdobe Commerce Admin を使用してギフトカード製品を作成する方法を説明します。
+REST API とAdobe Commerce管理者を使用して、ギフトカード製品を作成する方法を説明します。
 
-## このビデオは誰のためのものですか？
+## このビデオの目的は誰ですか。
 
-- Web サイトマネージャー
+- Web サイト管理者
 - e コマースマーチャンダイザー
-- REST API を使用してAdobe Commerceで製品を作成する方法を学びたい新しいAdobe Commerce開発者です。
+- Adobe Commerceの新規開発者向けに、REST API を使用してAdobe Commerceで商品を作成する方法を説明します。
 
 ## ビデオコンテンツ
 
@@ -34,7 +35,7 @@ REST API とAdobe Commerce Admin を使用してギフトカード製品を作�
 
 ## シンプルなペイロードでギフトカードを作成
 
-次のリクエストの例は、ビデオに示すようなギフトカードを作成するためのペイロードを示しています。 この小さなペイロードは、使用可能な属性のサブセットのデフォルト設定よりも優先されます。 ペイロードに含まれていない残りの属性は、デフォルト値に設定されたままです。
+次のリクエスト例は、ビデオに示すようなギフトカードを作成するためのペイロードを示しています。 この小さなペイロードは、使用可能な属性のサブセットのデフォルト設定を上書きします。 ペイロードに含まれていない残りの属性は、デフォルト値に設定されたままになります。
 
 ```bash
 curl --location '{{your.url.here}}/rest/default/V1/products' \
@@ -144,7 +145,7 @@ curl --location '{{your.url.here}}/rest/default/V1/products' \
 
 ## 完全なペイロードを持つギフトカードの作成
 
-次の例は、完全なPOSTを持つギフトカードを作成するペイロードリクエストを示しています。 ペイロードには、ギフトカードの作成時に設定できるすべての属性が含まれています。 このコードサンプルを使用する場合は、リクエストを送信する前に必要に応じて各属性のデフォルト値を更新し、設定をカスタマイズします。
+次の例は、完全なペイロードを持つギフトカードを作成するPOSTリクエストを示しています。 ペイロードには、ギフトカードの作成時に設定できるすべての属性が含まれます。 このコードサンプルを使用する場合は、必要に応じて各属性のデフォルト値を更新してからリクエストを送信することで、設定をカスタマイズします。
 
 ```bash
 curl --location '{{your.url.here}}/rest/default/V1/products' \
@@ -324,6 +325,6 @@ curl --location '{{your.url.here}}/rest/default/V1/products' \
 
 ## その他のリソース
 
-- [コマース管理者からギフトカード製品を作成する](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/types/product-gift-card-create.html){target="_blank"}
+- [Commerce管理者からのギフトカード商品の作成](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/types/product-gift-card-create.html){target="_blank"}
 - [Adobe Developer REST チュートリアル](https://developer.adobe.com/commerce/webapi/rest/tutorials/prerequisite-tasks/){target="_blank"}
 - [Adobe Commerce REST ReDoc](https://adobe-commerce.redoc.ly/2.4.6-admin/tag/products#operation/PostV1Products){target="_blank"}

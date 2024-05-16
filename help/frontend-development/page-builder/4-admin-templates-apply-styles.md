@@ -1,6 +1,6 @@
 ---
-title: 開発者向けの Page Builder — テンプレートとスタイル
-description: '"[!DNL Admin] およびステージテーマのタスク 作成 [!DNL Admin] テンプレー​ト。 ステージ（ライブプレビュー）上のコンテンツタイプにスタイルを適用します。」'
+title: 開発者向けページビルダー – テンプレートとスタイル
+description: “[!DNL Admin] およびステージのテーマ設定タスク。 作成 [!DNL Admin] テンプレート​。 ステージ（ライブプレビュー）のコンテンツタイプにスタイルを適用できます。
 kt: 5653
 doc-type: video
 activity: use
@@ -11,20 +11,20 @@ level: Beginner, Intermediate
 exl-id: 80f2b14e-41b6-4059-b070-80fe19bb31e0
 source-git-commit: 8465b3cc417d328461c52cf6da07f953c8250dd2
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '99'
 ht-degree: 0%
 
 ---
 
-# 開発者向けの Page Builder — テンプレートとスタイル
+# 開発者向けページビルダー – テンプレートとスタイル
 
-このビデオでは、
+このビデオの内容は次のとおりです。
 
-- [!DNL Admin] およびテーマを設定するタスク
+- [!DNL Admin] およびステージテーマ設定タスク
 - 作成 [!DNL Admin] テンプレート&#x200B;
-- ステージ上のコンテンツタイプにスタイルを適用する（ライブプレビュー）
+- ステージ上のコンテンツタイプへのスタイルの適用（ライブプレビュー）
 
-## このビデオは誰のためのものですか？
+## このビデオの目的は誰ですか。
 
 - コンテンツ作成者
 - フロントエンド開発者
@@ -33,12 +33,12 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->この内容は、Adobe Commerce 2.3.1 の Page Builder 1.0.0 リリースを反映しています。今後のリリースでの更新について詳しくは、 [Page Builder リリースノート](https://experienceleague.adobe.com/docs/commerce-admin/page-builder/release-notes.html).
+>この内容には、Adobe Commerce 2.3.1 の Page Builder 1.0.0 リリースが含まれています。以降のリリースのアップデートについて詳しくは、 [Page Builder リリースノート](https://experienceleague.adobe.com/docs/commerce-admin/page-builder/release-notes.html).
 
 >[!VIDEO](https://video.tv.adobe.com/v/35712?quality=12&learn=on)
 
 ## 役に立つリソース
 
-[Page Builder 開発者向けドキュメント](https://developer.adobe.com/commerce/frontend-core/page-builder/)
+[ページビルダー開発者向けドキュメント](https://developer.adobe.com/commerce/frontend-core/page-builder/)
 
-[Page Builder ガイド](https://experienceleague.adobe.com/docs/commerce-admin/page-builder/introduction.html)
+[ページビルダーガイド](https://experienceleague.adobe.com/docs/commerce-admin/page-builder/introduction.html)

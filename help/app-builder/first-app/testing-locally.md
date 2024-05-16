@@ -1,7 +1,7 @@
 ---
-title: ローカルでのテスト
-description: 最初のAdobe Developer App Builder アプリをテストする方法を説明します。
-landing-page-description: 最初のAdobe Developer App Builder アプリをテストする方法を説明します。
+title: ローカルテスト
+description: 初めてのAdobe Developer App Builder アプリをテストする方法を説明します。
+landing-page-description: 初めてのAdobe Developer App Builder アプリをテストする方法を説明します。
 kt: 12427
 doc-type: tutorial
 audience: all
@@ -13,22 +13,22 @@ level: Beginner, Intermediate
 exl-id: c916c94b-eb14-48c5-ad1d-695730135939
 source-git-commit: 404d2708a6d540d6fb19a33afb20726356cd8000
 workflow-type: tm+mt
-source-wordcount: '80'
+source-wordcount: '79'
 ht-degree: 0%
 
 ---
 
-# ローカルでのテスト {#testing-locally}
+# ローカルテスト {#testing-locally}
 
-新しいAdobe Developer App Builder アプリケーションをローカルでテストする方法を説明します。
+新しいAdobe Developer App Builder アプリケーションをローカルにテストする方法について説明します。
 
-## このビデオは誰のためのものですか？
+## このビデオの目的は誰ですか。
 
-* Adobe Commerceを初めて使用する開発者で、Adobeの App Builder を使用した経験が限られているユーザーで、最初のAdobe Developer App Builder アプリをテストする準備が整っている。
+* 初めてのAdobe Commerce App Builder アプリをテストする準備が整ったAdobeの App Builder を使用した、経験が限られたAdobe Developerを初めて使用する開発者。
 
 ## ビデオコンテンツ
 
-* 異なるレベルのテスト
+* 様々なレベルのテスト
 * 単体テスト
 * E2E テスト
 * 手動テスト

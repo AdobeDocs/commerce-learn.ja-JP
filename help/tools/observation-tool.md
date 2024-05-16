@@ -1,6 +1,6 @@
 ---
-title: Adobe Commerceの監視の使用
-description: このテクニカルビデオを見て、Adobe Commerceの監視ツールの使用方法を学びます。
+title: Adobe Commerceの監視を使用
+description: このテクニカルビデオでは、Adobe Commerceの Observation Tool の使用方法を説明します。
 doc-type: technical video
 audience: all
 activity: use
@@ -12,18 +12,18 @@ level: Beginner, Intermediate
 exl-id: 8c7dab74-7fc4-4d1d-866a-a05a23cbf3fd
 source-git-commit: 404d2708a6d540d6fb19a33afb20726356cd8000
 workflow-type: tm+mt
-source-wordcount: '106'
+source-wordcount: '93'
 ht-degree: 0%
 
 ---
 
-# Adobe Commerceの監視の使用
+# Adobe Commerceの監視を使用
 
-このビデオでは、Adobe Commerceの観測ツール (New Relicのオネダー ) について学びます。は、Adobe Commerceサイトの状態（現在または過去の時間表示）を確認するためのツールです。 ナードレットは、New Relic Oneのプログラミング機能で構築されたカスタムアプリケーションです。
+このビデオでは、Adobe Commerceの監視ツールについて説明します。これは、Adobe Commerce サイトの状況を、現在または過去の時間ビューで確認できるNew Relicのチュートリアルです。 nerdlet は、New Relic Oneのプログラミング機能を使用して作成されたカスタムアプリケーションです。
 
-## このビデオは誰のためのものですか？
+## このビデオの目的は誰ですか。
 
-- Web サイトマネージャー
+- Web サイト管理者
 - 開発者
 
 ## ビデオコンテンツ
@@ -32,5 +32,5 @@ ht-degree: 0%
 
 ## その他のリソース
 
-- [Adobe Commerceの監視 — サポート記事](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/observation/observation-adobe-commerce-overview.html?)
-- [Adobe Commerceの監視の使用](https://experienceleague.adobe.com/docs/commerce-operations/tools/observation-for-adobe-commerce/intro.html)
+- [Adobe Commerceの監視 – サポート記事](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/observation/observation-adobe-commerce-overview.html?)
+- [Adobe Commerceの監視を使用](https://experienceleague.adobe.com/docs/commerce-operations/tools/observation-for-adobe-commerce/intro.html)

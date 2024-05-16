@@ -1,6 +1,6 @@
 ---
-title: Adobe Commerce Services Connector の設定
-description: Commerce SaaS 製品で使用するAdobe Commerce Services Connector の設定方法と、一般的な問題の解決方法について説明します。
+title: Adobe Commerce サービスコネクタの設定
+description: Commerce SaaS 製品と共に使用するようにAdobe Commerce サービスコネクタを設定する方法と、一般的な問題を解決する方法について説明します。
 kt: 14777
 doc-type: video
 audience: all
@@ -10,23 +10,24 @@ feature: Configuration, System
 topic: Commerce, Administration
 role: Admin, User
 level: Beginner, Intermediate
-source-git-commit: 49dd1cecc9af2ed68150a8385e7800f35ca983fc
+exl-id: 3ddfab5e-18a4-47ce-8b80-d66db10eebee
+source-git-commit: 765bf4159892416e02ea1e9b8e4fa69e396d40af
 workflow-type: tm+mt
 source-wordcount: '193'
 ht-degree: 0%
 
 ---
 
-# Adobe Commerce Services Connector の設定
+# Adobe Commerce サービスコネクタの設定
 
-Commerce Services Connector は、様々な SaaS 機能をロック解除するAdobeが開発した設定です。 Adobe CommerceとMagento Open Sourceの支払いサービスを使用するには、実稼働用 API キーとサンドボックス API キーを使用してコマースインスタンスに接続し、セットアップ用の設定にデータ領域を指定する必要があります。
+Commerce サービスコネクタは、様々な SaaS 機能のロックを解除する、Adobeが開発した設定です。 Adobe CommerceとMagento Open Sourceで支払いサービスを使用するには、実稼動およびサンドボックス API キーを使用してCommerce インスタンスを接続し、設定用に設定でデータスペースを指定する必要があります。
 
-次の項目を見る _Adobe Commerce Services Connector の設定_ 支払いサービスの設定に役立つビデオです。
+を視聴 _Adobe Commerce サービスコネクタの設定_ 支払いサービスの設定に役立つビデオ。
 
-## このビデオは誰のためのものですか？
+## このビデオの目的は誰ですか。
 
-- オペレーショナルエンジニア
-- e コマースマネージャーと連絡先
+- 運用エンジニア
+- e コマースマネージャーと連絡窓口
 
 ## ビデオコンテンツ
 
@@ -34,18 +35,18 @@ Commerce Services Connector は、様々な SaaS 機能をロック解除するA
 
 ## 設定に関する FAQ
 
-Commerce Services Connector は、様々な SaaS 機能をロック解除するAdobeが開発した設定です。 設定に関して最もよくある質問を次に示します。
+Commerce サービスコネクタは、様々な SaaS 機能のロックを解除する、Adobeが開発した設定です。 設定に関するよくある質問の一部を次に示します。
 
-- 無効なキーまたは公開キーを修正しました。
+- 無効な公開鍵または公開鍵を修正します。
 - ストアの API キーをローテーションします。
-- Commerce Service コネクタを設定するための SaaS 識別子手順に移動します。
-- Payment Services をオンボーディングする際のサンドボックスボタンのトラブルシューティング。
-- Commerce Service コネクタが UI で読み込まれていません。
+- Commerce サービスコネクタの設定の SaaS Identifier 手順に移動します。
+- 支払いサービスをオンボーディングする際のサンドボックスボタンのトラブルシューティング。
+- Commerce サービスコネクタが UI に読み込まれない。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3425959?learn=on)
 
 ## その他のリソース
 
-- [Commerce Services コネクタ](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html){target="_blank"}
+- [Commerce サービスコネクタ](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html){target="_blank"}
 - [支払いサービスガイド](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/guide-overview.html){target="+blank"}
-- [Commerce Services コネクタ](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html){target="+blank"}
+- [Commerce サービスコネクタ](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html){target="+blank"}

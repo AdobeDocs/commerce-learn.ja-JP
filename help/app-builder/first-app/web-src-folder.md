@@ -1,7 +1,7 @@
 ---
 title: web-src フォルダー
-description: web-src フォルダー内のファイルの種類と、このサンプルアプリケーション用のネストされたファイルおよびフォルダーについて説明します。
-landing-page-description: Adobe Commerceで使用されるAdobe Developer App Builder と、web-src フォルダーにあるファイルの種類について説明します。
+description: このサンプルアプリケーションの web-src フォルダー内のファイルのタイプと、ネストされたファイルおよびフォルダーについて説明します。
+landing-page-description: Adobe Commerceで使用されるAdobe Developer App Builder と、web-src フォルダーに配置されるファイルのタイプについて説明します。
 kt: 12425
 doc-type: tutorial
 audience: all
@@ -13,24 +13,24 @@ level: Beginner, Intermediate
 exl-id: 67bbb464-1c2e-493e-9d7f-1051dfeec4ee
 source-git-commit: 404d2708a6d540d6fb19a33afb20726356cd8000
 workflow-type: tm+mt
-source-wordcount: '187'
+source-wordcount: '188'
 ht-degree: 0%
 
 ---
 
 # web-src フォルダーの目的を確認する {#web-src-folder}
 
-このサンプルアプリケーションの web-src フォルダーには、多くの JavaScript ファイルとフォルダーが含まれています。 このフォルダーは、ユーザーインターフェイスを持つアプリケーションで使用されます。 この機能を使用しないアプリケーションもあります。 例えば、外部の在庫管理システムとのコマース統合では、フロントエンドインターフェイスとコードが不要な場合があります。
+このサンプルアプリの web-src フォルダーには、多くの JavaScript ファイルおよびフォルダーが含まれています。 このフォルダーは、ユーザーインターフェイスを持つアプリケーションに使用されます。 すべてのアプリケーションがこの機能を使用しているわけではありません。 例えば、外部の在庫管理システムとCommerceを統合する場合、フロントエンドインターフェイスとコードは必要ない場合があります。
 
-## このビデオは誰のためのものですか？
+## このビデオの目的は誰ですか。
 
-* Adobe Commerceを初めて使用する開発者で、App Builder を使用した経験が限られているものの、 `web-src` フォルダーとそのコンテンツ。
+* Adobe Commerceを初めて使用する開発者で、Adobeの App Builder を使用した経験が限られている人が、 `web-src` フォルダーとそのコンテンツ。
 
 ## ビデオコンテンツ
 
-* の主な目的は何ですか？ `web-src` フォルダー？
+* の主な目的は何ですか `web-src` フォルダー？
 * 通常、含まれるファイルとフォルダー
-* How `web-src` フォルダーと内部のコンテンツは、サンプルアプリケーションで使用されます。
+* 方法 `web-src` フォルダーとその中のコンテンツは、サンプルアプリケーションで使用されています
 
 >[!VIDEO](https://video.tv.adobe.com/v/3416665?quality=12&learn=on)
 
@@ -128,7 +128,7 @@ web-src/src/hooks/useCommerceOrders.js
 
 {{avoid-400-error}}
 
-以下の例では、コードサンプルはです。 `not` リクエストを制限する。 400 エラーを回避するには、 `searchCriteria`.
+以下の例では、次のコード例のようになります。 `not` リクエストの制限。 400 エラーを回避するには、を使用して応答のサイズを小さくします。 `searchCriteria`.
 
 `?searchCriteria[filter_groups][0][filters][0][field]=created_at&searchCriteria[filter_groups][0][filters][0][value]=2022-12-01&searchCriteria[filter_groups][0][filters][0][condition_type]=gt`
 

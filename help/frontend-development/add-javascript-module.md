@@ -1,6 +1,6 @@
 ---
 title: JavaScript モジュールの追加
-description: このビデオでは、「Hello World」という挨拶を提供するシンプルな JS モジュールを開発するためのウォークスルーを提供します。
+description: このビデオでは、「Hello World」という挨拶文を提供するシンプルな JS モジュールを開発するためのウォークスルーを提供します。
 kt: 5612
 doc-type: video
 activity: use
@@ -11,26 +11,26 @@ level: Beginner, Intermediate
 exl-id: 5f2984d5-84f7-41d4-99e5-2a2c0ff1b1c7
 source-git-commit: 8465b3cc417d328461c52cf6da07f953c8250dd2
 workflow-type: tm+mt
-source-wordcount: '102'
+source-wordcount: '93'
 ht-degree: 0%
 
 ---
 
 # JavaScript モジュールの追加
 
-このビデオでは、「Hello World」という挨拶を提供するシンプルな JS モジュールを開発するためのウォークスルーを提供します。
+このビデオでは、「Hello World」という挨拶文を提供するシンプルな JS モジュールを開発するためのウォークスルーを提供します。
 
-## このビデオは誰のためのものですか？
+## このビデオの目的は誰ですか。
 
 - 開発者
 
 ## 手順
 
 - モジュールの作成
-- の作成 `requirejs-config.js` と JavaScript モジュールファイル
-- JS モジュールを有効にするテンプレートを追加するためのレイアウト更新を作成します
+- を作成 `requirejs-config.js` と JavaScript モジュールファイル
+- JS モジュールを有効にするテンプレートを追加するためのレイアウトの更新を作成します
 - テンプレートファイルを作成
-- モジュールを追加し、テストします。
+- モジュールを追加してテストします
 
 ## ビデオコンテンツ
 
@@ -38,5 +38,5 @@ ht-degree: 0%
 
 ## 役に立つリソース
 
-- [JavaScript 開発者ガイド](https://developer.adobe.com/commerce/frontend-core/javascript/)
+- [JavaScript デベロッパーガイド](https://developer.adobe.com/commerce/frontend-core/javascript/)
 - [JavaScript の呼び出しと初期化](https://developer.adobe.com/commerce/frontend-core/javascript/init/)

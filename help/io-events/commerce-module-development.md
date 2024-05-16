@@ -1,8 +1,8 @@
 ---
-title: イベントを使用するためのAdobe Commerceでモジュールを作成する方法を説明します。
-description: イベントを使用するコマースモジュールの作成方法を説明します。
-landing-page-description: イベントを使用するAdobe Commerceモジュールの作成方法を説明します。
-short-description: イベントを使用するAdobe Commerceモジュールの作成方法を説明します。
+title: イベントを使用するモジュールをAdobe Commerceで作成する方法を説明します。
+description: イベントを使用するCommerce モジュールを作成する方法を説明します。
+landing-page-description: イベントを使用するAdobe Commerce モジュールを作成する方法について説明します。
+short-description: イベントを使用するAdobe Commerce モジュールを作成する方法について説明します。
 kt: 11891
 doc-type: tutorial
 audience: all
@@ -14,26 +14,26 @@ level: Beginner, Intermediate
 exl-id: e8103fe0-116a-499c-ae0a-3ad0511f44d0
 source-git-commit: 404d2708a6d540d6fb19a33afb20726356cd8000
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: '167'
 ht-degree: 0%
 
 ---
 
-# Adobe Commerceモジュールの開発
+# Adobe Commerce module development
 
-イベントの登録方法、サポートされるイベントの検索方法、新しい XML ファイルの使用方法について説明します。 `io_events.xml` （カスタムモジュール開発）。 また、このビデオでは、使用可能な登録イベントを見つける方法や、既に定義されているイベントを登録解除する方法についても開発者に説明します。 その他のドキュメントは、 [Adobe CommerceのAdobe I/Oイベントのインストール](https://developer.adobe.com/commerce/events/get-started/installation/){target="_blank"}.
+イベントの登録、サポートされているイベントの検索、新しい XML ファイルの使用方法について説明します `io_events.xml` カスタムモジュール開発で。 このビデオでは、使用できる登録済みイベントの検索方法や、既に定義されているイベントを登録解除する方法も開発者に示します。 その他のドキュメントの参照先 [Adobe CommerceのAdobe I/Oイベントのインストール](https://developer.adobe.com/commerce/events/get-started/installation/){target="_blank"}.
 
-## このビデオは誰のためのものですか？
+## このビデオの目的は誰ですか。
 
-* I/O イベントを使用した、Adobe CommerceとAdobe Developer App Builder を初めて利用する開発者。
+* I/O イベントを使用してAdobe CommerceとAdobe Developer App Builder を初めて使用する開発者。
 
 ## ビデオコンテンツ {#video-content}
 
-* Adobe Developer App Builder で使用する Commerce でのイベントの登録
-* 登録可能なイベントの特定
-* io_events.xml にイベントを登録する方法を説明します。
-* コマースインスタンスにイベントを登録する方法を説明します `app/etc/config.php`
-* イベントの購読を解除する方法を説明します
+* Adobe Developer App Builder で使用するCommerceでのイベントの登録
+* 登録できるイベントの識別
+* io_events.xml にイベントを登録する方法を学ぶ
+* Commerce インスタンスにイベントを登録する方法を説明します `app/etc/config.php`
+* イベントの配信停止について説明します
 
 >[!VIDEO](https://video.tv.adobe.com/v/3415802?quality=12&learn=on)
 

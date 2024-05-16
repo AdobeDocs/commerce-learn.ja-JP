@@ -1,8 +1,8 @@
 ---
-title: Adobe Commerce 2.4.6 の IO イベントのインストール方法を説明します。
-description: Adobe Commerce 2.4.6 で I/O イベントに必要なモジュールをAdobe Developer App Builder で使用するためにインストールする方法を説明します。
-landing-page-description: Adobe Commerce 2.4.6 に必要なモジュールをいくつかインストールする方法を説明します。
-short-description: Adobe Commerce 2.4.6 に必要なモジュールをいくつかインストールする方法を説明します。
+title: Adobe Commerce 2.4.6 の IO イベントをインストールする方法を説明します
+description: Adobe Developer App Builder で使用するために、Adobe Commerce 2.4.6 で IO イベントに必要なモジュールをインストールする方法を説明します
+landing-page-description: Adobe Commerce 2.4.6 で必要な複数のモジュールをインストールする方法を説明します。
+short-description: Adobe Commerce 2.4.6 で必要な複数のモジュールをインストールする方法を説明します。
 kt: 11887
 doc-type: tutorial
 audience: all
@@ -15,30 +15,30 @@ level: Beginner, Intermediate
 exl-id: 41b31ed8-04c5-4d50-aaff-abc3718b5957
 source-git-commit: 404d2708a6d540d6fb19a33afb20726356cd8000
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '166'
 ht-degree: 0%
 
 ---
 
 # Adobe Commerce 2.4.6 のインストール
 
-バージョン 2.4.6 用の Composer を使用して、Adobe Commerceに複数の新しいモジュールをインストールする方法を説明します。その他のドキュメントは、 [Adobe CommerceのAdobe I/Oイベントのインストール](https://developer.adobe.com/commerce/events/get-started/installation/){target="_blank"}.
+Composer for version 2.4.6 を使用してAdobe Commerceに複数の新しいモジュールをインストールする方法を説明します。その他のドキュメントの参照先 [Adobe CommerceのAdobe I/Oイベントのインストール](https://developer.adobe.com/commerce/events/get-started/installation/){target="_blank"}.
 
-## このビデオは誰のためのものですか？
+## このビデオの目的は誰ですか。
 
-* I/O イベントを使用した、Adobe CommerceとAdobe Developer App Builder を初めて利用する開発者。
+* I/O イベントを使用してAdobe CommerceとAdobe Developer App Builder を初めて使用する開発者。
 
 ## ビデオコンテンツ {#video-content}
 
 * オンプレミスホスティング用に実行するコマンド
 * Adobe Commerce Cloud用に実行するコマンド
-* Adobe Commerce Cloud yaml が必要な編集
+* Adobe Commerce Cloud yaml required edit
 
 >[!VIDEO](https://video.tv.adobe.com/v/3415795?quality=12&learn=on)
 
 ## 便利なコマンド {#useful-commands}
 
-自己ホスト型の環境を使用しているか、Adobe Commerce Cloudを使用しているかに応じて、多少異なる様々なコマンドがあります。
+セルフホスト環境で使用しているかAdobe Commerce Cloudを使用しているかに応じて、わずかに異なる様々なコマンドがあります。
 
 ### オンプレミスホスティング {#on-premise}
 
@@ -50,7 +50,7 @@ bin/magento module:enable --all
 bin/magento setup:upgrade && bin/magento setup:di:compile
 ```
 
-### Adobe Commerce on Cloud {#adobe-commerce-cloud}
+### クラウド上のAdobe Commerce {#adobe-commerce-cloud}
 
 ```bash
 composer info magento/ece-tools

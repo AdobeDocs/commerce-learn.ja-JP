@@ -1,6 +1,6 @@
 ---
 title: コンテンツテンプレートの作成
-description: コンテンツを作成したり古いコンテンツを置き換えたりする際に、テンプレートが時間と労力を節約する方法を説明します。
+description: コンテンツの作成や古いコンテンツの置き換えの際に、テンプレートを使用して時間と労力を節約する方法を説明します。
 doc-type: feature video
 audience: all
 activity: use
@@ -12,18 +12,18 @@ level: Beginner, Intermediate
 exl-id: 0dc32bfd-9e22-4e1d-a60c-58d7574a2eb1
 source-git-commit: 404d2708a6d540d6fb19a33afb20726356cd8000
 workflow-type: tm+mt
-source-wordcount: '102'
-ht-degree: 1%
+source-wordcount: '91'
+ht-degree: 0%
 
 ---
 
 # コンテンツテンプレートの作成
 
-テンプレートを使用すると、コンテンツを作成する（または古いコンテンツを置き換える）際の時間と労力を節約できます。 例えば、既存の Page Builder コンテンツをテンプレートとして保存し、そのテンプレートを（そのコンテンツとレイアウトのすべてと共に）別の領域に適用して、Page Builder コンテンツをすばやく作成できます。
+テンプレートを使用すると、コンテンツを作成（または古いコンテンツを置き換え）する際の時間と労力を節約できます。 例えば、既存のページビルダーコンテンツをテンプレートとして保存し、そのテンプレート（すべてのコンテンツとレイアウトを含む）を別の領域に適用して、ページビルダーコンテンツをすばやく作成できます。
 
-## このビデオは誰のためのものですか？
+## このビデオの目的は誰ですか。
 
-- Web サイトマネージャー
+- Web サイト管理者
 - コンテンツデザイナー
 
 ## ビデオコンテンツ
@@ -32,5 +32,5 @@ ht-degree: 1%
 
 ## その他のリソース
 
-- [[!DNL Page Builder] Templates - [!DNL Page Builder] ユーザーガイド](https://experienceleague.adobe.com/docs/commerce-admin/page-builder/templates.html)
-- [テンプレートを追加 — [!DNL Page Builder] 開発者ガイド](https://developer.adobe.com/commerce/frontend-core/page-builder/content-types/create/add-templates/)
+- [[!DNL Page Builder] テンプレート - [!DNL Page Builder] ユーザーガイド](https://experienceleague.adobe.com/docs/commerce-admin/page-builder/templates.html)
+- [テンプレートを追加 –  [!DNL Page Builder] 開発者ガイド](https://developer.adobe.com/commerce/frontend-core/page-builder/content-types/create/add-templates/)

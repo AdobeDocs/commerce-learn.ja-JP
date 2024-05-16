@@ -1,6 +1,6 @@
 ---
 title: 仮想製品の作成
-description: REST API とコマース管理を使用して仮想製品を作成する方法を説明します。
+description: REST API とCommerce管理者を使用して、バーチャル製品を作成する方法を説明します。
 kt: 14464
 doc-type: video
 audience: all
@@ -10,22 +10,23 @@ feature: Catalog Management, Admin Workspace, Backend Development, Integration, 
 topic: Commerce, Integrations, Content Management
 role: Developer, User
 level: Beginner
-source-git-commit: 225faceffefc31a6205f689933210510dba235d1
+exl-id: 5149b6b4-5fbf-467a-a412-6dce7188bcb9
+source-git-commit: a9712c4354967e8e53c421878be8b83bb6056e6d
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '92'
 ht-degree: 0%
 
 ---
 
 # 仮想製品の作成
 
-REST API とAdobe Commerce Admin を使用して仮想製品を作成する方法を説明します。
+REST API とAdobe Commerce管理者を使用して、バーチャル製品を作成する方法を説明します。
 
-## このビデオは誰のためのものですか？
+## このビデオの目的は誰ですか。
 
-- Web サイトマネージャー
+- Web サイト管理者
 - e コマースマーチャンダイザー
-- REST API を使用してAdobe Commerceで製品を作成する方法を学びたい新しいAdobe Commerce開発者です。
+- Adobe Commerceの新規開発者向けに、REST API を使用してAdobe Commerceで商品を作成する方法を説明します。
 
 ## ビデオコンテンツ
 

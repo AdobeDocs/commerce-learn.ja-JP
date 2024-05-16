@@ -1,6 +1,6 @@
 ---
-title: ユーザーの役割および権限の管理
-description: へのアクセスを制御するために使用されるユーザーアカウントと権限について説明します。 [!DNL Commerce] Web サイトを作成し、管理者にデータを保存します。
+title: ユーザーの役割と権限の管理
+description: へのアクセスの制御に使用するユーザーアカウントと権限について説明します [!DNL Commerce] web サイトとストアデータを管理画面に表示します。
 kt: 5610
 doc-type: feature video
 audience: all
@@ -13,16 +13,16 @@ level: Beginner, Intermediate
 exl-id: d06815c2-4b2a-4219-8c4e-7aa41a2be25d
 source-git-commit: 404d2708a6d540d6fb19a33afb20726356cd8000
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '153'
 ht-degree: 0%
 
 ---
 
 # ユーザー、役割、権限
 
-チームやサービスプロバイダーにアクセス権を必要とする人がいる場合は、それぞれに対して個別のユーザーアカウントを作成し、ビジネスニーズに基づいて制限付きアクセスを割り当てることができます。 管理者ユーザーがアクセスできる Web サイトまたはストアを制限するには、まず、範囲が限られ、必要なリソースのみが選択された役割を作成する必要があります。 その後、その役割を特定のユーザーアカウントに割り当てることができます。 制限された役割に割り当てられた管理者ユーザーは、その役割に関連付けられた Web サイトまたはストアのデータのみを表示および変更できますが、グローバル設定やデータは変更できません。
+チームまたはサービスプロバイダーにアクセスを必要とする他のユーザーがいる場合は、それぞれに個別のユーザーアカウントを作成し、ビジネスニーズに基づいて制限付きアクセスを割り当てることができます。 管理者ユーザーがアクセスできる web サイトやストアを制限するには、まず範囲が制限された役割を作成し、必要なリソースのみを選択する必要があります。 次に、その役割を特定のユーザーアカウントに割り当てることができます。 制限付き役割に割り当てられた管理者ユーザーは、その役割に関連付けられた Web サイトまたはストアのデータのみを表示および変更できますが、グローバル設定やデータは変更できません。
 
-## このビデオは誰のためのものですか？
+## このビデオの目的は誰ですか。
 
 - ストア管理者
 
@@ -32,6 +32,6 @@ ht-degree: 0%
 
 ## その他のリソース
 
-[管理者ユーザーアカウントの管理 — [!DNL Commerce] 管理システムガイド](https://experienceleague.adobe.com/docs/commerce-admin/systems/user-accounts/permissions-users-all.html)
+[管理者ユーザーアカウントの管理 –  [!DNL Commerce] 管理システムガイド](https://experienceleague.adobe.com/docs/commerce-admin/systems/user-accounts/permissions-users-all.html)
 
-[ユーザーの役割 — [!DNL Commerce] 管理システムガイド](https://experienceleague.adobe.com/docs/commerce-admin/systems/user-accounts/permissions-user-roles.html)
+[ユーザーの役割 –  [!DNL Commerce] 管理システムガイド](https://experienceleague.adobe.com/docs/commerce-admin/systems/user-accounts/permissions-user-roles.html)

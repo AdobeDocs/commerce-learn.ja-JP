@@ -1,6 +1,6 @@
 ---
-title: 製品属性とPWA Studioの使用
-description: 製品属性を管理する方法については、PWA Studioを参照してください。
+title: PWA Studioでの製品属性の使用
+description: PWA Studioを使用して製品属性を管理する方法を説明します。
 doc-type: feature video
 audience: all
 activity: use
@@ -13,19 +13,19 @@ level: Beginner, Intermediate
 exl-id: 71210a1b-620b-4bb7-aa96-4afd01cff7d9
 source-git-commit: 3eff251283f1a6c5dc2bff8d72bd494d7446db79
 workflow-type: tm+mt
-source-wordcount: '72'
+source-wordcount: '63'
 ht-degree: 0%
 
 ---
 
-# 製品属性とPWA Studioの使用
+# PWA Studioでの製品属性の使用
 
-このビデオでは、PWA Studioを使用して構築されたストアフロントがある場合に、製品属性を管理する方法を説明します。
+このビデオでは、PWA Studioでストアフロントを構築した際に製品属性を管理する方法を説明します。
 
-## このビデオは誰のためのものですか？
+## このビデオの目的は誰ですか。
 
 - フロントエンド開発者
-- プロジェクトマネージャー
+- プロジェクト管理者
 
 ## ビデオコンテンツ
 
@@ -33,5 +33,5 @@ ht-degree: 0%
 
 ## その他のリソース
 
-- [製品属性 — [!DNL Commerce] カタログ管理ガイド](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html)
-- [PWA Studio — 開発者向けドキュメント](https://developer.adobe.com/commerce/pwa-studio/)
+- [製品属性 –  [!DNL Commerce] カタログ管理ガイド](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html)
+- [PWA Studio – 開発者向けドキュメント](https://developer.adobe.com/commerce/pwa-studio/)

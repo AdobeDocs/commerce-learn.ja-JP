@@ -1,7 +1,7 @@
 ---
 title: アクションフォルダー
-description: このサンプルアプリケーションの actions フォルダーにあるファイルの種類について説明します。
-landing-page-description: Adobe Commerceで使用されるAdobe Developer App Builder と、アクションフォルダーに格納されるファイルの種類について説明します。
+description: このサンプルアプリケーションのアクションフォルダーにあるファイルのタイプについて説明します。
+landing-page-description: Adobe Commerceで使用されるAdobe Developer App Builder と、アクションフォルダーに含まれるファイルのタイプについて説明します。
 kt: 12422
 doc-type: tutorial
 audience: all
@@ -13,26 +13,26 @@ level: Beginner, Intermediate
 exl-id: d13ed1e7-b18e-4bf5-af87-2a69e2588d65
 source-git-commit: 404d2708a6d540d6fb19a33afb20726356cd8000
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '209'
 ht-degree: 0%
 
 ---
 
-# actions フォルダーの詳細 {#actions-folder}
+# アクションフォルダーについて説明します {#actions-folder}
 
-The `actions` このサンプルアプリのフォルダーには、いくつかの JavaScript ファイルと、 `commerce`. 表示される JavaScript は、使用する作業に関連する場合に再利用できる優れたサンプルファイルです。 このフォルダーを使用すると、OAuth と REST を使用してAdobe Commerceアプリケーションに接続する際の開発作業の時間を節約できます。
+この `actions` このサンプルアプリのフォルダーには、いくつかの JavaScript ファイルと、と呼ばれる 1 つのフォルダーが含まれています `commerce`. 表示される JavaScript は、作業に関連する場合に再利用できる優れたサンプルファイルです。 このフォルダーを使用すると、OAuth や REST を使用してAdobe Commerce アプリケーションに接続する際の開発作業にかかる時間を短縮できます。
 
-この例では、フォルダーの実際の名前は任意ですが、名前がわかっていれば、サンプルコードの解釈に役立ちます。 意味のある命名規則を使用すると、アプリケーションがより複雑になった場合に混乱を避けることができます。
+この例では、フォルダーの実際の名前は任意ですが、名前を知ることで、サンプルコードを解釈する際に役立ちます。 意味のある命名規則を使用すると、アプリケーションがより複雑になった場合に混乱を避けることができます。
 
-## このビデオは誰のためのものですか？
+## このビデオの目的は誰ですか。
 
-* Adobe Commerceを初めて使用する開発者で、Adobeの App Builder の使用経験が限られている場合で、サンプルアプリケーションの actions フォルダーについて学習している場合。
+* Adobe Commerceを初めて使用する開発者で、AdobeApp Builder の使用経験が限られており、サンプルアプリケーションのアクションフォルダーについて学習している人。
 
 ## ビデオコンテンツ
 
-* App Builder の概要と、 `actions` フォルダー
-* 「アクション」フォルダーの使用方法
-* 次にある JavaScript ファイルの目的 `actions` および `commerce` フォルダー
+* に重点を置いた App Builder とサンプルモジュールの概要 `actions` フォルダー
+* 「actions」フォルダーの使用方法
+* で見つかった JavaScript ファイルの目的 `actions` および `commerce` フォルダー
 * OAuth 認証ファイルの概要
 
 >[!VIDEO](https://video.tv.adobe.com/v/3416590?quality=12&learn=on)

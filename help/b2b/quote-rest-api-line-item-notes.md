@@ -1,6 +1,6 @@
 ---
-title: 行項目のメモにAdobe Commerce REST API を使用する
-description: REST API を使用した、Adobe Commerceの B2B 見積もりに関する行項目のメモの詳細
+title: 行項目のメモへのAdobe Commerce REST API の使用
+description: REST API を使用したAdobe Commerceの B2B 見積もりの品目メモについて説明します
 doc-type: feature video
 audience: all
 activity: use
@@ -10,21 +10,21 @@ feature: Configuration, System, Quotes, B2B, Companies
 topic: Commerce, Administration
 role: Admin, User
 level: Beginner, Intermediate
-exl-id: 2c573690-d7b3-43ce-832b-06aca0596ee9
-source-git-commit: 8b29c9d82a3dbcf5a8382eea2512e2d67b38d0f4
+exl-id: ee8b03e6-2f8f-474f-9180-acdc120f87a4
+source-git-commit: 598bff1fd2cefdc449d5ae3431401aec1e796313
 workflow-type: tm+mt
-source-wordcount: '62'
+source-wordcount: '59'
 ht-degree: 0%
 
 ---
 
-# B2B REST API を使用した販売見積明細行品目のメモ
+# B2B REST API を使用した販売見積依頼明細行の品目メモ
 
-REST API を使用して、Adobe Commerce B2B の見積もりに行項目のメモを使用する方法を説明します。
+REST API を使用して、Adobe Commerce B2B の見積もりに行項目メモを使用する方法を説明します。
 
 {{b2b-feature}}
 
-## このビデオは誰のためのものですか？
+## このビデオの目的は誰ですか。
 
 - 開発者
 

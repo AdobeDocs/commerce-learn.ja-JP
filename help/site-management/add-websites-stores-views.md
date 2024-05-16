@@ -1,6 +1,6 @@
 ---
-title: Web サイト、ストア、およびストア表示の追加
-description: ビジネスのニーズに応じて、新しい Web サイト、ストア、表示を追加する方法を説明します。
+title: Web サイト、ストア、ストア表示の追加
+description: ビジネスのニーズに応じて新しい web サイト、ストア、ビューを追加する方法を説明します。
 kt: 5609
 doc-type: feature video
 audience: all
@@ -13,29 +13,29 @@ level: Beginner, Intermediate
 exl-id: f9df7bb0-f5fe-41c0-8990-7d9b5db3596d
 source-git-commit: 404d2708a6d540d6fb19a33afb20726356cd8000
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: '109'
 ht-degree: 0%
 
 ---
 
-# Web サイト、ストア、およびストア表示の追加
+# Web サイト、ストア、ストア表示の追加
 
-Adobe CommerceとMagento Open Sourceのインストールごとに、Web サイト、ストア、ストアビューの階層がサポートされます。 ビジネスのニーズに応じて、この階層を構築し、拡張します。
+すべてのAdobe CommerceとMagento Open Sourceのインストールでは、web サイト、ストア、ストアビューの階層をサポートしています。 ビジネスのニーズに応じて、この階層を構築および拡張します。
 
-## このビデオは誰のためのものですか？
+## このビデオの目的は誰ですか。
 
 - ストア管理者
-- Web サイトマネージャー
+- Web サイト管理者
 
 ## ビデオコンテンツ
 
 >[!NOTE]
 >
->このビデオの内容は 2.1.0 リリースを反映しています。 今後のリリースでの更新について詳しくは、 [リリースノート](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/overview.html).
+>このビデオの内容は、2.1.0 リリースを反映しています。 以降のリリースのアップデートについて詳しくは、 [リリースノート](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/overview.html).
 
 >[!VIDEO](https://video.tv.adobe.com/v/35787?quality=12&learn=on)
 
 ## その他のリソース
 
-- [Web サイト、ストア、表示 — [!DNL Commerce] はじめに](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html)
-- [ルートカテゴリと階層 — [!DNL Commerce] カタログ管理ガイド](https://experienceleague.adobe.com/docs/commerce-admin/catalog/categories/category-root.html)
+- [Web サイト、ストア、表示 –  [!DNL Commerce] はじめる前に](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html)
+- [ルート カテゴリと階層 –  [!DNL Commerce] カタログ管理ガイド](https://experienceleague.adobe.com/docs/commerce-admin/catalog/categories/category-root.html)

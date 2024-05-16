@@ -1,6 +1,6 @@
 ---
-title: 開発者向けの Page Builder — カスタムコンテンツタイプ
-description: コンテンツタイプをカスタマイズして作成する方法を説明します。 コンテンツタイプの作成に関する手順を理解しま​す。 既存のコンテンツタイプの拡張に関する手順を理解します。
+title: 開発者向けページビルダー – カスタムコンテンツタイプ
+description: コンテンツタイプをカスタマイズおよび作成する方法について説明します。 コンテンツタイプの作成に関する手順を理解する​。 既存のコンテンツタイプの拡張に関する手順を理解する。
 kt: 5655
 doc-type: video
 activity: use
@@ -11,20 +11,20 @@ level: Beginner, Intermediate
 exl-id: c5c0c325-9b69-4531-b57d-5d8183f320d8
 source-git-commit: 8465b3cc417d328461c52cf6da07f953c8250dd2
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '119'
 ht-degree: 0%
 
 ---
 
-# 開発者向けの Page Builder — カスタムコンテンツタイプ
+# 開発者向けページビルダー – カスタムコンテンツタイプ
 
-このビデオでは、
+このビデオの内容は次のとおりです。
 
 - 追加のコンテンツタイプのカスタマイズと作成
-- コンテンツタイプの作成に関する手順を理解しま&#x200B;す。
-- 既存のコンテンツタイプの拡張に関する手順を理解します。
+- コンテンツタイプの作成に関する手順を理解する&#x200B;
+- 既存のコンテンツタイプの拡張に関する手順を理解する
 
-## このビデオは誰のためのものですか？
+## このビデオの目的は誰ですか。
 
 - コンテンツ作成者
 - フロントエンド開発者
@@ -33,12 +33,12 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->この内容は、Adobe Commerce 2.3.1 の Page Builder 1.0.0 リリースを反映しています。今後のリリースでの更新について詳しくは、 [Page Builder リリースノート](https://experienceleague.adobe.com/docs/commerce-admin/page-builder/release-notes.html).
+>この内容には、Adobe Commerce 2.3.1 の Page Builder 1.0.0 リリースが含まれています。以降のリリースのアップデートについて詳しくは、 [Page Builder リリースノート](https://experienceleague.adobe.com/docs/commerce-admin/page-builder/release-notes.html).
 
 >[!VIDEO](https://video.tv.adobe.com/v/35714?quality=12&learn=on)
 
 ## 役に立つリソース
 
-[Page Builder 開発者向けドキュメント](https://developer.adobe.com/commerce/frontend-core/page-builder/)
+[ページビルダー開発者向けドキュメント](https://developer.adobe.com/commerce/frontend-core/page-builder/)
 
-[Page Builder ガイド](https://experienceleague.adobe.com/docs/commerce-admin/page-builder/introduction.html)
+[ページビルダーガイド](https://experienceleague.adobe.com/docs/commerce-admin/page-builder/introduction.html)

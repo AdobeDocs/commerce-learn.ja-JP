@@ -1,5 +1,5 @@
 ---
-title: 開発者向けPWA Studio-PWAツール
+title: 開発者向けPWA Studio -PWAツール
 description: PWA Studioと、PWA Studioツールの使いやすさについて説明します。
 kt: 5645
 doc-type: video
@@ -17,17 +17,17 @@ ht-degree: 0%
 
 ---
 
-# 開発者向けPWA Studio-PWAツール
+# 開発者向けPWA Studio -PWAツール
 
-このビデオでは、
+このビデオの内容は次のとおりです。
 
 - PWA Studioの概要
 - PWAツール
 
-## このビデオは誰のためのものですか？
+## このビデオの目的は誰ですか。
 
 - フロントエンド開発者
-- プロジェクトマネージャー
+- プロジェクト管理者
 
 ## ビデオコンテンツ
 

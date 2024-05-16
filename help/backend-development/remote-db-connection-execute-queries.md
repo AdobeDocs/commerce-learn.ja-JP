@@ -1,6 +1,6 @@
 ---
 title: データベースに対するクエリの接続と実行
-description: Adobe Commerceクラウドプロジェクトに接続する方法をいくつか説明します。 オフサイトで使用するためにデータベースをプルダウンする方法を説明します。 PII をマスクして削除する方法を説明します。
+description: Adobe Commerce クラウドプロジェクトに接続する方法をいくつか説明します。 オフサイトで使用するデータベースを取り込む方法を説明します。 PII をマスクして削除する方法をいくつか説明します。
 feature: Backend Development,Console,Cloud
 topic: Commerce,Development
 role: Developer
@@ -18,43 +18,43 @@ ht-degree: 0%
 
 ---
 
-# Adobe Commerceデータベースに対するクエリの接続と実行
+# Adobe Commerce データベースに対するクエリの接続と実行
 
-このチュートリアルでは、クラウドプロジェクト上のAdobe Commerceに接続し、オフサイトで使用するためにデータベースをダンプし、PII をマスクして削除する方法を学びます。
+このチュートリアルでは、クラウドプロジェクト上のAdobe Commerceに接続し、オフサイトで使用するためにデータベースをダンプし、PII をマスクして削除する方法を説明します。
 
-次のいずれかの方法を使用して、クラウドプロジェクトからAdobe Commerceデータにアクセスできます。
+次のいずれかの方法を使用して、クラウドプロジェクトからAdobe Commerce データにアクセスできます。
 
 * ローカル DB ダンプの使用
-* Mysql Workbench や Tables Plus などのアプリケーションを使用したリモートクラウド環境への DB 接続
+* Mysql ワークベンチや Tables Plus などのアプリケーションを使用した、リモートクラウド環境への DB 接続
 * magento-cloud CLI ツールを使用してクラウド環境に直接接続し、リモートサーバーでコマンドを実行します。
 
-お勧めの方法は、データベースダンプを実行し、それをスクラブして顧客情報を削除することです。 データが不要な場合は、顧客データを完全に削除します。
+推奨される方法は、データベースダンプを実行し、スクラブして顧客情報を削除することです。 データが不要な場合は、顧客データを完全に削除します。
 
 ## Adobe Commerce Cloud CLI ツールの使用
 
-データベースダンプを作成するには、 [Adobe Commerce Cloud CLI](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli/cloud-cli-overview.html) インストール済み ローカルのラップトップ上で、ディレクトリに移動し、次のコマンドを実行します。 必ず `your-project-id` プロジェクト ID を持つ（に似ている） `asasdasd45q`. また、 `your-environment-name` 環境の名前（例： ） `master` または `staging`.
+データベース ダンプを作成するには、 [ADOBE COMMERCE CLOUD CLI](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli/cloud-cli-overview.html) インストールされています。 ローカルラップトップで、ディレクトリに移動し、次のコマンドを実行します。 必ず `your-project-id` 次のようなプロジェクト ID を持つ `asasdasd45q`. また、を置換する必要があります `your-environment-name` 環境の名前（例：） `master` または `staging`.
 
 `magento-cloud db:dump -p your-project-id -e your-environment-name`
 
-プロジェクト ID や環境が不明な場合は、次のコマンドで省略できます。
+プロジェクト ID や環境が不明な場合は、コマンドでこれらを省略できます。
 
 `magento-cloud db:dump`
 
-CLI で正しいプロジェクトと環境を指定するように求められます。 次の使用例は、このダイアログを表示します。 この例では、アカウントに割り当てられた複数のプロジェクトが表示されますが、1 つのプロジェクトしか使用できない可能性があります。
+CLI では、正しいプロジェクトと環境を指定するように求められます。 次の例では、このダイアログを表示しています。 この例では、アカウントに割り当てられた複数のプロジェクトを示していますが、使用できるプロジェクトは 1 つだけでしょう。
 
-ディレクトリに変更
+ディレクトリに移動
 
 ```bash
 cd ~/Downloads/db-tutorial 
 ```
 
-次に、コマンドを実行してデータベースダンプを作成します。
+次に、コマンドを実行して、データベースダンプを作成します。
 
 ```bash
 magento-cloud db:dump
 ```
 
-プロジェクトや環境を指定していないので、Adobe Commerce CLI ではいくつかの質問が表示されます。次にダイアログの例を示します
+プロジェクトまたは環境を指定しなかったので、Adobe Commerce CLI でいくつかの質問をします。次にダイアログの例を示します
 
 ```bash
 Enter a number to choose a project:
@@ -74,7 +74,7 @@ Creating SQL dump file: /Users/<username>/Downloads/db-tutorial/abasrpikfw4123--
 
 ## Adobe Commerce ECE-tools の使用
 
-Adobe Commerce CLI ツールを使用していない場合は、 `ssh` をプロジェクトに追加して、を実行します。 `ece` command `vendor/bin/ece-tools db-dump`：レスポンスのサンプル：
+Adobe Commerce CLI ツールがない場合は、次のことができます `ssh` をプロジェクトに追加して実行します。 `ece` コマンド `vendor/bin/ece-tools db-dump`：サンプル応答：
 
 ```bash
 ssh abasrpikfw4123-remote-db-ecpefky--mymagento@ssh.us-4.magento.cloud
@@ -108,15 +108,15 @@ logout
 Connection to ssh.us-4.magento.cloud closed.
 ```
 
-用途 `SFTP` または `rsync` データベースダンプをローカル環境にプルする。
+使用方法 `SFTP` または `rsync` をクリックして、データベース ダンプをローカル環境にプルします。
 
-次の例では、 `rsync` ファイルを `~/Downloads/db-tutorial` フォルダー。
+次の例では、を使用しています `rsync` ファイルをファイルにプルするには `~/Downloads/db-tutorial` フォルダー。
 
 ```bash
 rsync -avrp -e ssh abasrpikfw4123-remote-db-ecpefky--mymagento@ssh.us-4.magento.cloud:/app/var/dump-main-1707850906.sql.gz ~/Downloads/db-tutorial
 ```
 
-端末ウィンドウは情報を出力します。次に出力例を示します。
+ターミナルウィンドウに情報が出力されます。出力例を次に示します
 
 ```bash
 rsync -avrp -e ssh abasrpikfw4123-remote-db-ecpefky--mymagento@ssh.us-4.magento.cloud:/app/var/dump-main-1707850906.sql.gz ~/Downloads/db-tutorial
@@ -127,7 +127,7 @@ sent 38 bytes  received 2691041 bytes  358810.53 bytes/sec
 total size is 2690241  speedup is 1.00
 ```
 
-ファイルの内容を表示して、ファイルが正常にダウンロードされたことを確認します。
+ファイルの内容を表示して、正常にダウンロードされたことを確認します。
 
 ```bash
 ls -lah
@@ -138,11 +138,11 @@ drwx------@ 103 <ussername>   staff   3.2K Feb 13 12:52 ..
 -rw-r--r--    1 <ussername>   staff   2.6M Feb 13 13:01 dump-main-1707850906.sql.gz
 ```
 
-データを取得したら、顧客データを削除またはマスクして、必ずクリーンアップします。 以下のサンプルスクリプトは、作業を開始する際に役立ちます。
+データを取得したら、顧客データを削除またはマスクして、必ずクリーンアップしてください。 以下のサンプルスクリプトは、作業を開始するのに役立ちます。
 
-この例では、顧客データをランダムな文字列に変換しますが、すべての項目を保持します。 この例には、顧客 PII がサードパーティのテーブルおよびコアテーブルで見つかることを示す追加のテーブルがいくつか含まれています。 各テーブルのデータを慎重に調べ、顧客データをマスクまたは削除します。
+この例では、顧客データをランダムな文字列に変換しますが、すべての項目は保持します。 この例には、顧客 PII がサードパーティのテーブルとコアテーブルに含まれていることを示す、いくつかの追加のテーブルが含まれています。 各テーブルのデータを慎重に調べ、顧客データをマスクまたは削除します。
 
-通常、アーキテクトまたはリード開発者は、データベースダンプのマスクとサニタイズを担当する唯一の人物です。 専用のサニタイザを持つことで、生データの露出が減り、コンプライアンスルールや規制に違反する機会が減ります。
+通常、データベースダンプのマスクおよび不要部分を削除する責任者は、アーキテクトまたはリード開発者のみです。 専用のサニタイザーを使用すると、生データの漏洩を減らし、コンプライアンス規則や規制に違反する機会を減らすことができます。
 
 ```sql
 SET FOREIGN_KEY_CHECKS=0;
@@ -195,13 +195,13 @@ TRUNCATE cron_schedule;
 SET FOREIGN_KEY_CHECKS=1;
 ```
 
-また、情報をマスクする代わりにレコードを削除して、新しい DB を小さくすることもできます。 PII がマスクまたは削除されると、データをチームメイトに安全に提供して、ローカル環境で使用できます。
+または、情報をマスクする代わりにレコードを削除できます。これにより、新しい DB も小さくなります。 PII がマスクまたは削除されると、データはチームメイトに安全に提供され、ローカル環境で使用できます。
 
-## Adobe Commerce Cloudプロジェクトへのリモート DB 接続
+## Adobe Commerce Cloud プロジェクトへのリモート DB 接続
 
-この方法を使用すると、実際のデータを誤って編集および削除することができます。 この方法は、慎重に使用する必要があります。 データベースのバックアップとオフラインでのデータの確認が、推奨されるアプローチです。 Adobe Commerce Cloud上で直接データにアクセスする必要がある場合もありますが、これにはリスクが伴います。 「本当に？」という言葉はありません 質問がある場合は、誤ってデータを変更または削除する可能性があります。
+この方法では、実際のデータを誤って編集したり削除したりできます。 この方法は慎重に使用する必要があります。 データベースのバックアップを使用し、オフラインでデータを確認することが推奨されるアプローチです。 Adobe Commerce Cloud上で直接データにアクセスする必要がある場合がありますが、これにはリスクが伴います。 「よろしいですか？」は表示されません。 質問があるので、誤ってデータを変更または削除する可能性があります。
 
-超重要！ リモート DB 接続を行うと便利で、実際のライブデータを使用しますが、リスクが伴います。 私は個人的に、Adobe Commerceの主要なテクニカルアーキテクトとして、それをお勧めしません。 リモート DB 上にいることを忘れて、誤ってデータを削除または変更するのは簡単です。 読み取り専用レプリカに接続するオプションもありますが、SQL アクティビティの重さに応じて、サイトに多少の影響を与えます。 ただし、可能なので、それを達成する手順は次のとおりです。
+非常に重要！ リモート DB 接続は便利で、実際のライブデータを使用しますが、リスクがあります。 私自身、およびAdobe Commerceのプリンシパルテクニカルアーキテクトとしては、お勧めしません。 リモート DB を使用していることを忘れて、誤ってデータを削除または変更してしまうことは簡単です。 読み取り専用レプリカに接続するオプションもありますが、SQL アクティビティの負荷に応じて、サイトに多少の影響を与えます。 ただし、これは可能なので、これを実現するための手順は次のとおりです。
 
 SSH トンネルを確立します。
 
@@ -209,7 +209,7 @@ SSH トンネルを確立します。
 magento-cloud tunnel:open
 ```
 
-プロジェクトを選択し、環境を選択した後、mysql グラフィカルインターフェイスの設定で使用されるコマンドからの出力が表示されます。
+プロジェクトが選択され、環境が選択されると、Mysql グラフィカルインターフェイスの設定で使用されるコマンドからの出力が得られます。
 
 ```bash
 magento-cloud tunnel:open
@@ -241,7 +241,7 @@ Save encoded tunnel details to the MAGENTO_CLOUD_RELATIONSHIPS variable using:
   export MAGENTO_CLOUD_RELATIONSHIPS="$(magento-cloud tunnel:info --encode)"
 ```
 
-MySQL グラフィカルインターフェイスを使用した接続の確立 `SSH tunnel opened to database at` コマンドオプション。
+を使用して、MySQL グラフィカルインターフェイスを使用して接続を確立します。 `SSH tunnel opened to database at` コマンドオプション。
 
 ```bash
 SSH tunnel opened to database at: mysql://user:@127.0.0.1:30000/main
@@ -249,13 +249,13 @@ SSH tunnel opened to database at: mysql://user:@127.0.0.1:30000/main
 
 適切な情報が得られたので、引き続きこれらの値を Cloud Console に挿入します。
 
-SSH ホスト名とユーザー名は、Cloud Console のクラウド資格情報から確認できます。
+Cloud Console のクラウド資格情報から、SSH のホスト名とユーザー名を確認できます。
 
-![ロゴ — Adobe Commerce Cloud Console](./assets/cloud-ui-screenshot.png "Adobe Commerce Cloud Console")
+![ロゴ - Adobe Commerce Cloud コンソール](./assets/cloud-ui-screenshot.png "Adobe Commerce Cloud コンソール")
 
-次に例を示します。 `ssh abasrpikfw4123-remote-db-ecpefky--mymagento@ssh.us-4.magento.cloud`
-SSH ホスト名は@記号の後のすべてです。 `ssh.us-4.magento.cloud` この例では、
-SSH ユーザー名は@記号の前のすべてです。  `abasrpikfw4123-remote-db-ecpefky—mymagento`
+次に例を 1 つ示します。 `ssh abasrpikfw4123-remote-db-ecpefky--mymagento@ssh.us-4.magento.cloud`
+SSH ホスト名は@記号の後に続きます。 `ssh.us-4.magento.cloud` この例ではです。
+SSH ユーザー名は@記号の前に入力します。  `abasrpikfw4123-remote-db-ecpefky—mymagento`
 
 ## データベースに接続する値の検索
 
@@ -267,7 +267,7 @@ MariaDB データベースに直接アクセスするには、SSH を使用し�
    magento-cloud ssh
    ```
 
-1. から MySQL ログイン資格情報を取得します。 `database` および `type` プロパティ [$MAGENTO_CLOUD_RELATIONSHIPS](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/properties.html?lang=en#relationships) 変数を使用します。
+1. から MySQL ログイン資格情報を取得する `database` および `type` のプロパティ [$CLOUD_RELATIONSHIPS$MAGENTO](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/properties.html?lang=en#relationships) 変数。
 
    ```bash
    echo $MAGENTO_CLOUD_RELATIONSHIPS | base64 -d | json_pp
@@ -303,17 +303,17 @@ MariaDB データベースに直接アクセスするには、SSH を使用し�
    ],
    ```
 
-次に、MySQL GUI で設定値を使用します。 次の例では MySQL Workbench を使用していますが、MySQL 接続をサポートするアプリにも、同様のフィールドがあります。
+次に、MySQL GUI で設定値を使用します。 次の例では MySQL Workbench を使用していますが、MySQL 接続をサポートするアプリでは同様のフィールドが表示されます。
 
-![logo - Mysql Workbench を使用した Mysql GUI の例](./assets/mysql-workbench-after-connecting.png " Mysql Workbench を使用した Mysql GUI の例")
+![ロゴ - Mysql Workbench を使用した Mysql GUI の例](./assets/mysql-workbench-after-connecting.png " Mysql Workbench を使用した Mysql GUI の例")
 
-![logo - TablesPlus を使用した Mysql GUI の例](./assets/tablesPlus-db-connection.png " TablesPlus を使用した Mysql GUI の例")
+![ロゴ - TablesPlus を使用した Mysql GUI の例](./assets/tablesPlus-db-connection.png " TablesPlus を使用した Mysql GUI の例")
 
-すべての設定が完了したら、MySQL GUI を使用して、リモートAdobe Commerce Cloudプロジェクトに対するクエリを実行できます。
+すべてが設定されたら、MySQL GUI を使用してリモート Adobe Commerce Cloud プロジェクトに対してクエリを実行できます。
 
 ## SQL を実行するためのクラウドプロジェクトデータベースへの直接接続
 
-次のメソッドでは、 `magento-cloud` cli を使用して mysql データベースに直接接続し、SQL を実行します。これにより、データベースのクエリを高速化できます。 このデータベースをコピーする必要がある場合は、次の代替方法の 1 つを参照してください。 [データベースダンプの作成](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/create-database-dump-on-cloud.html).
+次のメソッドでは、 `magento-cloud` cli :mysql データベースに直接接続し、SQL を実行します。これにより、データベースのクエリを高速化できます。 このデータベースをコピーする必要がある場合は、別の方法の 1 つを参照して、 [データベースダンプの作成](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/create-database-dump-on-cloud.html).
 
 ```bash
 magento-cloud db:sql    
@@ -339,7 +339,7 @@ Copyright (c) 2000, 2018, Oracle, MariaDB Corporation Ab and others.
 Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
 ```
 
-例えば、 `core_config_data` 単語を含むテーブル `secure` 列の一部として `path`:
+例えば、以下からすべてのレコードを検索できます。 `core_config_data` 次の単語を含むテーブル `secure` 列の一部として `path`:
 
 ```sql
 MariaDB [main]> SELECT * FROM core_config_data WHERE path LIKE '%secure%' \G;
@@ -373,7 +373,7 @@ MariaDB [main]>
 
 ## その他のリソース
 
-[Adobe Commerce Cloud CLI](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli/cloud-cli-overview.html)
-[MySQL サービスを設定する](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/mysql.html)
-[リモート MySQL データベース接続を設定する](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/database-server/mysql-remote.html)
+[ADOBE COMMERCE CLOUD CLI](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli/cloud-cli-overview.html)
+[MySQL サービスの設定](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/mysql.html)
+[リモート MySQL データベース接続の設定](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/database-server/mysql-remote.html)
 [クラウドインフラストラクチャ上のAdobe Commerceにデータベースダンプを作成する](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/create-database-dump-on-cloud.html)

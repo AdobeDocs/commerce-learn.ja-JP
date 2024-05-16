@@ -10,13 +10,13 @@ duration: 0
 last-substantial-update: 2024-04-17T00:00:00Z
 jira: KT-15180
 kt: 15180
-source-git-commit: 7cc6ee2906e5f223575d98f0f1b6f4bdf4c936d0
+exl-id: c6adb2c2-f194-4a3d-9290-e0837ef062ae
+source-git-commit: 10b6f979e9fd1e6782c38c4730a679bc22f25eea
 workflow-type: tm+mt
-source-wordcount: '1578'
+source-wordcount: '1604'
 ht-degree: 0%
 
 ---
-
 
 # Commerce Cloudの起動前のチェックリスト
 
@@ -53,7 +53,7 @@ Adobe Commerceの概要を次に示します [サイトのローンチドキュ�
 
 ## 3. Fastly の設定
 
-1. [!BADGE ブロッカー]{type=caution tooltip="潜在的遮断薬"}[フルページキャッシュ](https://developer.adobe.com/commerce/frontend-core/guide/caching/){target="_blank"} or [GraphQL caching](https://developer.adobe.com/commerce/webapi/graphql/usage/caching/){target="_blank"}). Read the [Fastly set up guide](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/fastly){target="_blank"}.
+1. [!BADGE ブロッカー]{type=caution tooltip="潜在的遮断薬"}[フルページキャッシュ](https://developer.adobe.com/commerce/frontend-core/guide/caching/){target="_blank"} または [GraphQLのキャッシュ](https://developer.adobe.com/commerce/webapi/graphql/usage/caching/){target="_blank"}）に設定します。 を読み取る [Fastly セットアップガイド](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/fastly){target="_blank"}.
 2. 該当する場合は、PWA/ヘッドレス web サイトでのGraphQL クエリのGET方式を使用します。
 
    >[!NOTE]
@@ -94,9 +94,9 @@ Adobe Commerce Cloudでは、ステージング環境と実稼動環境の両方
 
 ## 6. デプロイメント
 
-1. 実稼動環境へのデプロイメント時のメンテナンス時間を短縮するには、静的コンテンツデプロイメント（SCD）の理想的な状態を確認します。 レビュー [静的コンテンツデプロイメント（SCD）戦略](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/deploy/static-content){target="_blank"} and [Store configuration management](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure-store/store-settings){target="_blank"} ガイド。
+1. 実稼動環境へのデプロイメント時のメンテナンス時間を短縮するには、静的コンテンツデプロイメント（SCD）の理想的な状態を確認します。 レビュー [静的コンテンツデプロイメント（SCD）戦略](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/deploy/static-content){target="_blank"} および [ストアの設定管理](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure-store/store-settings){target="_blank"} ガイド。
 2. HTML、JavaScript および CSS の縮小設定を確認します。 （これは、PWA/ヘッドレス web サイトには適用されません）。
-3. 次のクラウド変数の使用が、その意図した目的に合っていることを確認します。 （[SCD_MATRIX](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-build#scd_matrix){target="_blank"}, [SCD_ON_DEMAND](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-global#scd_on_demand){target="_blank"} and [SKIP_SCD](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy#skip_scd){target="_blank"}）
+3. 次のクラウド変数の使用が、その意図した目的に合っていることを確認します。 （[SCD_MATRIX](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-build#scd_matrix){target="_blank"}, [SCD_ON_DEMAND](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-global#scd_on_demand){target="_blank"} および [SKIP_SCD](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy#skip_scd){target="_blank"}）
 
 ## 7. テストとトラブルシューティング
 
@@ -136,7 +136,7 @@ Adobe Commerce Cloudでは、ステージング環境と実稼動環境の両方
 5. 開発時に XDebug が有効な場合は、必ず無効にします（ [Xdebug の設定](https://developer.adobe.com/commerce/cloud-tools/docker/test/configure-xdebug/){target="_blank"}）に設定します。
 6. op-cache およびその他の設定が php.ini ファイルで正しく更新されていることを確認します（[このサンプルを参照してください](https://github.com/magento/magento-cloud/blob/master/php.ini#L41){target="_blank"}）に設定します。
 7. を購読 [**Adobe Commerce ステータスページ**](https://status.adobe.com/cloud/experience_cloud#/){target="_blank"}.
-8. New Relicに登録」[Adobe Commerceの管理アラート](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/support-tools/managed-alerts/managed-alerts-for-magento-commerce){target="_blank"}" notification channels to monitor the given performance metrics ([read more](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service){target="_blank"}）に設定します。
+8. New Relicに登録」[Adobe Commerceの管理アラート](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/support-tools/managed-alerts/managed-alerts-for-magento-commerce){target="_blank"}指定されたパフォーマンス指標を監視する通知チャネル （[詳細を読む](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service){target="_blank"}）に設定します。
 
 ## 9.安全保障
 
