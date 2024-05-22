@@ -11,9 +11,9 @@ last-substantial-update: 2024-04-17T00:00:00Z
 jira: KT-15180
 kt: 15180
 exl-id: c6adb2c2-f194-4a3d-9290-e0837ef062ae
-source-git-commit: 10b6f979e9fd1e6782c38c4730a679bc22f25eea
+source-git-commit: 00a8d6883473de796abc79ef2e9be34f56429a17
 workflow-type: tm+mt
-source-wordcount: '1604'
+source-wordcount: '1605'
 ht-degree: 0%
 
 ---
@@ -182,7 +182,7 @@ Adobe Commerce Cloudでは、ステージング環境と実稼動環境の両方
 サイトが公開されたら、割り当てられた CTA （カスタマーテクニカルアドバイザリ）、CSE （カスタマーサクセスエンジニア）および AM （アカウントマネージャー）にメールで問い合わせます。 ただし、アカウントマネージャーがプロジェクトに割り当てられていない場合は、サイトが稼働したら高 SLA 監視を有効にするよう求めるサポートチケットを作成できます。 Cta/CSE は、Fastly を有効にしてキャッシュすることでサイトの起動が確認されると、直ちに次のタスクを実行します。
 
 - クラスターをライブとしてタグ付けし、サポートチケットを作成して高 SLA （サービスレベル契約）監視を有効化します。
-- 稼動時間監視のために Pingdom チェックを有効化します。
+- 稼動時間の監視のためにNew Relic Synthetics を有効にします。
 
 >[!MORELIKETHIS]
 > 
