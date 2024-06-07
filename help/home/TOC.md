@@ -3,10 +3,10 @@ user-guide-title: ビデオとチュートリアル
 user-guide-description: ビデオとチュートリアルを通じて、Adobe Commerce と Magento Open Source について説明します。
 breadcrumb-title: ビデオとチュートリアル
 auto-video-transcripts: true
-source-git-commit: 4b88c82052f8505cfe05255dd74bb2da5fa0f792
+source-git-commit: 4165664069b889e015bfc4b993dc9975ce3f5385
 workflow-type: tm+mt
-source-wordcount: '664'
-ht-degree: 3%
+source-wordcount: '668'
+ht-degree: 2%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 3%
 
 + [[!DNL Commerce] チュートリアル](overview.md)
 + Adobe Commerce Cloud {#adobe-commerce-cloud}
-   + [概要](../cloud/overview.md)
+   + [自己ホスト型ソリューションからの移行](../cloud/overview.md)
    + 技術的なオンボーディングとハードウェアのハンドオフ {#technical-onboarding-hardware-handoff}
       + [インフラストラクチャと開発のベストプラクティス](../cloud/infrastructure-development-best-practices.md)
       + [Fastly](../cloud/fastly.md)
