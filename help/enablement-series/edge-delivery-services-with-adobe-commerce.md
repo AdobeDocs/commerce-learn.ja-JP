@@ -1,5 +1,5 @@
 ---
-title: Adobe CommerceとのEdge Delivery Services
+title: Edge 配信サービス
 description: Adobe Edge配信サービス、プロジェクト入札への影響、開発コスト、SEO、ADA、パーソナライズされたエクスペリエンスの可能性について説明します。
 feature: Best Practices, Compliance, Extensibility, Storefront, Tools and External Services
 topic: Architecture, Commerce, Headless, Integrations, Performance
@@ -10,10 +10,10 @@ duration: 3654
 last-substantial-update: 2024-05-08T00:00:00Z
 jira: KT-15388
 exl-id: deebb9ba-f975-4cf9-bf63-59cb4ff360eb
-source-git-commit: c4e39834bfe9d77a3b0819fda8b2fe5ff7d6c6e1
+source-git-commit: e5fe3cf958c51b5ce4e97486d33a96ea561b8169
 workflow-type: tm+mt
-source-wordcount: '389'
-ht-degree: 0%
+source-wordcount: '386'
+ht-degree: 1%
 
 ---
 
