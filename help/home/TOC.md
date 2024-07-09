@@ -3,9 +3,9 @@ user-guide-title: ビデオとチュートリアル
 user-guide-description: ビデオとチュートリアルを通じて、Adobe Commerce と Magento Open Source について説明します。
 breadcrumb-title: ビデオとチュートリアル
 auto-video-transcripts: true
-source-git-commit: 4165664069b889e015bfc4b993dc9975ce3f5385
+source-git-commit: 0b42ffc1c0b55c75fdb7b25b86ec8049edb5db97
 workflow-type: tm+mt
-source-wordcount: '668'
+source-wordcount: '670'
 ht-degree: 2%
 
 ---
@@ -30,9 +30,10 @@ ht-degree: 2%
       + [グローバル参照アーキテクチャの活用](../global-reference-architecture/how-do-you-leverage-global-reference-architecture.md)
       + [アーキテクトグラ](../global-reference-architecture/how-do-you-architect-global-reference-architecture.md)
       + [グローバルリファレンスアーキテクチャの実装](../global-reference-architecture/how-do-you-implement-global-reference-architecture.md)
-   + コマース機能 {#capabilities}
+   + Commerce機能 {#capabilities}
       + [データ接続](../capabilities/data-connection.md)
       + [Live Search の完全なデモ](../capabilities/live-search-full-demonstration.md)
+      + [構成可能なCommerce](../capabilities/what-is-composable-commerce.md)
    + 製品の作成 {#create-products}
       + [シンプル製品](../site-management/create-simple-product.md)
       + [仮想製品](../site-management/create-virtual-product.md)
@@ -55,10 +56,10 @@ ht-degree: 2%
    + [突然変異](../graphql-rest/graphql-mutations.md)
    + [スキーマ](../graphql-rest/graphql-schema.md)
 + Adobe Developer App Builder {#adobe-developer-app-builder}
-   + [App Builder の概要](../app-builder/introduction-to-app-builder.md)
-   + [App Builder の拡張フレームワーク](../app-builder/extensibility-framework-commerce-eventing.md)
-   + [App Builder の機能デモ](../app-builder/app-builder-functional-demonstration.md)
-   + [App Builder の技術概要](../app-builder/app-builder-technical-overview.md)
+   + [App Builderについて](../app-builder/introduction-to-app-builder.md)
+   + [App Builderの拡張フレームワーク](../app-builder/extensibility-framework-commerce-eventing.md)
+   + [App Builderの機能デモ](../app-builder/app-builder-functional-demonstration.md)
+   + [App Builderの技術概要](../app-builder/app-builder-technical-overview.md)
    + [Marketplace にアプリを送信](../app-builder/submit-app-process.md)
    + 最初の App Builder アプリを作成 {#first-app}
       + [概要](../app-builder/first-app/overview.md)
@@ -94,7 +95,7 @@ ht-degree: 2%
    + [発送方法と配送方法](../site-management/shipping-delivery.md)
    + [Commerce cli](../site-management/view-update-store-configuration-cli.md)
    + Adobe Commerce サービス {#adobe-commerce-services}
-      + [Commerce Services コネクタの設定](../site-management/configure-adobe-commerce-services-connector.md)
+      + [Commerce サービスコネクタの設定](../site-management/configure-adobe-commerce-services-connector.md)
       + [支払いサービスの設定](../site-management/configure-adobe-payment-services.md)
       + [支払いサービスの使用](../site-management/payment-services.md)
 + 顧客管理 {#customers}
@@ -126,7 +127,7 @@ ht-degree: 2%
    + [製品Recommendationsの設定](../site-management/product-recommendations.md)
    + [Live Search の概要](../site-management/live-search.md)
    + [お勧めの Live Search](../site-management/live-search-recommendations.md)
-   + [Commerce と AJO の統合](../site-management/integrate-commerce-ajo.md)
+   + [CommerceとAJOの統合](../site-management/integrate-commerce-ajo.md)
 + 注文とフルフィルメント {#orders}
    + [ストアフルフィルメントの概要](../orders-and-fulfillment/store-fulfillment.md)
    + [注文ステータスの管理](../orders-and-fulfillment/order-status.md)
@@ -158,7 +159,7 @@ ht-degree: 2%
    + [コホートReport Builder](../business-intelligence/cohort-report-builder.md)
    + [SQL REPORT BUILDER](../business-intelligence/sql-report-builder.md)
    + [将来に備えた準備](../business-intelligence/prepare-for-future.md)
-+ Commerce のアップグレード {#upgrade}
++ Commerce アップグレード {#upgrade}
    + [Adobe Commerce 2.4 アップグレードワークショップ](../upgrade/2-4-upgrade-workshop.md)
    + [互換性アップグレードツールの概要](../upgrade/upgrade-compatibility-tool-overview.md)
    + [PHP Storm でのアップグレード互換性ツールの使用](../upgrade/uct-phpstorm.md)
@@ -179,7 +180,7 @@ ht-degree: 2%
       + [4 - テンプレートとスタイル](../frontend-development/page-builder/4-admin-templates-apply-styles.md)
       + [5 - カスタムテーマ](../frontend-development/page-builder/5-customize-theme.md)
       + [6 - カスタムコンテンツタイプ](../frontend-development/page-builder/6-custom-content-types.md)
-   + [JavaScript モジュールの追加](../frontend-development/add-javascript-module.md)
+   + [JavaScript モジュールを追加](../frontend-development/add-javascript-module.md)
    + [ページを作成](../frontend-development/create-page.md)
 + ヘッドレスアーキテクチャ {#headless-architecture}
    + ヘッドレスの概要 {#introduction-to-headless}
