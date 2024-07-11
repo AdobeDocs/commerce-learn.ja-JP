@@ -21,7 +21,7 @@ ht-degree: 15%
 
 # API メッシュの基本を学ぶ
 
-Adobe Developer Adobe App Builder の API メッシュを初めて使用する場合は、他のビデオやチュートリアルに進む前に、この入門チュートリアルから始めることをお勧めします。
+Adobe Developer App Builderの API メッシュを初めて使用する場合は、Adobeでは、この入門チュートリアルから始めて、他のビデオやチュートリアルに進むことをお勧めします。
 
 ## API メッシュとは
 
@@ -48,7 +48,7 @@ Commerce アプリケーションには、REST API とGraphQL エンドポイン
 
 ## リバースプロキシとは
 
-Adobeの App Builder と API メッシュを使用するデベロッパーの場合、リバースプロキシとは何かを理解する必要はありません。 ただし、Adobeの App Builder に関連する全体的な機能に興味がある場合は、次の資料を使用してください。
+AdobeApp Builderと API メッシュを使用する開発者は、リバースプロキシとは何かを理解する必要はありません。 ただし、AdobeApp Builderに関連する全体的な機能に興味がある場合は、次の資料を使用してください。
 
 * [リバースプロキシとは](https://www.imperva.com/learn/performance/reverse-proxy/){target="_blank"}
 * [リバースプロキシとは何か、そしてそれが重要な理由](https://blog.hubspot.com/website/reverse-proxy){target="_blank"}
