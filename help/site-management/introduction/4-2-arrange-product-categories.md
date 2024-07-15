@@ -1,5 +1,5 @@
 ---
-title: “[!DNL Commerce] ビジネスユーザー向け – カテゴリの位置づけ」
+title: 「ビジネスユーザー向け [!DNL Commerce] - カテゴリの位置づけ」
 description: カテゴリ内に製品を配置して、顧客に表示する製品を上部に表示します。
 kt: 5776
 doc-type: video
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Commerce] ビジネスユーザー向け – カテゴリの位置づけ
+# ビジネスユーザー向け [!DNL Commerce] - カテゴリの位置づけ
 
 このビデオの内容は次のとおりです。
 
@@ -31,10 +31,10 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->このビデオの内容は、2.3.1 リリースを反映しています。 以降のリリースのアップデートについて詳しくは、 [リリースノート](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/overview.html).
+>このビデオの内容は、2.3.1 リリースを反映しています。 以降のリリースのアップデートについて詳しくは、[ リリースノート ](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/overview.html) を参照してください。
 
 >[!VIDEO](https://video.tv.adobe.com/v/36187?quality=12&learn=on)
 
 ## その他のリソース
 
-[カテゴリ製品割り当て –  [!DNL Commerce] カタログ管理ガイド](https://experienceleague.adobe.com/docs/commerce-admin/catalog/categories/products-in-category/categories-product-assignments.html)
+[ カテゴリ製品割り当て –  [!DNL Commerce]  カタログ管理ガイド ](https://experienceleague.adobe.com/docs/commerce-admin/catalog/categories/products-in-category/categories-product-assignments.html)

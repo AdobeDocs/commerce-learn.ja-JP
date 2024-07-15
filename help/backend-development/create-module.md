@@ -19,7 +19,7 @@ ht-degree: 0%
 
 # モジュールの作成
 
-モジュールは、次の構造要素です [!DNL Commerce] - システム全体がモジュールに基づいて構築されています。 通常、カスタマイズを作成する最初の手順は、モジュールを構築することです。
+モジュールは [!DNL Commerce] の構成要素です。システム全体がモジュールに基づいて構築されます。 通常、カスタマイズを作成する最初の手順は、モジュールを構築することです。
 
 ## このビデオの目的は誰ですか。
 
@@ -71,12 +71,12 @@ ComponentRegistrar::register(
 
 ### プラグインの注意事項
 
-- すべてのプラグインはで宣言されます。 `di.xml`.
+- すべてのプラグインは `di.xml` で宣言されます。
 - プラグイン名は一意である必要があります
 - disabled と sortOrder はオプションです
 - プラグインのスコープは、内部のフォルダーによって設定されます
 - プラグインは、メソッドが呼び出される前、後、またはその両方で実行できます
-- の使用を避ける `around` plugins. これらは使用したくなりますが、多くの場合、誤った選択であり、パフォーマンスの問題を引き起こします。
+- `around` プラグインの使用は避けてください。 これらは使用したくなりますが、多くの場合、誤った選択であり、パフォーマンスの問題を引き起こします。
 
 ### プラグインのコードサンプル
 
@@ -285,5 +285,5 @@ class RestAddLoggingAfterOrderPlacePlugin
 
 ## 役に立つリソース
 
-- [モジュールリファレンスガイド](https://developer.adobe.com/commerce/php/module-reference/){target="_blank"}
-- [プラグイン](https://developer.adobe.com/commerce/php/development/components/plugins/){target="_blank"}
+- [ モジュールリファレンスガイド ](https://developer.adobe.com/commerce/php/module-reference/){target="_blank"}
+- [ プラグイン ](https://developer.adobe.com/commerce/php/development/components/plugins/){target="_blank"}

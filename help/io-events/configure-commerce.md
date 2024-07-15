@@ -1,8 +1,8 @@
 ---
 title: Adobe Commerceの設定
-description: Adobe Developer App Builder でイベントを使用できるようにAdobe Commerceを設定する方法について説明します。
-landing-page-description: Adobe Developer App Builder で使用するイベントメカニズムを使用するようにAdobe Commerceを設定する方法について説明します。
-short-description: Adobe Developer App Builder で使用するイベントメカニズムを使用するようにAdobe Commerceを設定する方法について説明します。
+description: Adobe Developer App Builderでイベントを使用できるようにAdobe Commerceを設定する方法について説明します。
+landing-page-description: Adobe Developer App Builderで使用するイベントメカニズムを使用するようにAdobe Commerceを設定する方法について説明します。
+short-description: Adobe Developer App Builderで使用するイベントメカニズムを使用するようにAdobe Commerceを設定する方法について説明します。
 kt: 11889
 doc-type: tutorial
 audience: all
@@ -21,11 +21,11 @@ ht-degree: 0%
 
 # Adobe Commerceの設定
 
-イベントを公開するようにAdobe Commerceを設定する方法を説明します。 その他のドキュメントの参照先 [Adobe CommerceのAdobe I/Oイベントのインストール](https://developer.adobe.com/commerce/events/get-started/installation/){target="_blank"}.
+イベントを公開するようにAdobe Commerceを設定する方法を説明します。 追加ドキュメントについては、[Adobe CommerceのAdobe I/Oイベントのインストール ](https://developer.adobe.com/commerce/events/get-started/installation/){target="_blank"} を参照してください。
 
 ## このビデオの目的は誰ですか。
 
-* I/O イベントを使用してAdobe CommerceとAdobe Developer App Builder を初めて使用し、Adobeの App Builder プロジェクトを作成する必要がある開発者。
+* I/O イベントを使用してAdobe CommerceとAdobe Developer App Builderを初めて使用し、AdobeのApp Builder プロジェクトを作成する必要がある開発者。
 
 ## ビデオコンテンツ {#video-content}
 

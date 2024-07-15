@@ -15,11 +15,11 @@ ht-degree: 0%
 * [入門 IO イベント](../io-events/getting-started-io-events.md)
 * [Adobe Commerce 2.4.5 のインストール](../io-events/2-4-5-installation.md)
 * [Adobe Commerce 2.4.6 のインストール](../io-events/2-4-6-installation.md)
-* [App Builder プロジェクトの作成](../io-events/create-app-builder-project.md)
+* [App Builder プロジェクトの作成 ](../io-events/create-app-builder-project.md)
 * [Adobe Commerce設定](../io-events/configure-commerce.md)
 * [Adobe Commerce module development](../io-events/commerce-module-development.md)
 * [Adobe Commerce条件付きイベント](../io-events/conditional-events.md)
 
 ## Adobe Developer ドキュメント
 
-* [Adobe Commerce Adobe I/Oイベントの概要](https://developer.adobe.com/commerce/events/get-started/){target="_blank"}
+* [Adobe CommerceのAdobe I/Oイベントの概要 ](https://developer.adobe.com/commerce/events/get-started/){target="_blank"}

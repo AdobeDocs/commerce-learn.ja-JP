@@ -1,7 +1,7 @@
 ---
 title: web-src フォルダー
 description: このサンプルアプリケーションの web-src フォルダー内のファイルのタイプと、ネストされたファイルおよびフォルダーについて説明します。
-landing-page-description: Adobe Commerceで使用されるAdobe Developer App Builder と、web-src フォルダーに配置されるファイルのタイプについて説明します。
+landing-page-description: Adobe Commerceで使用されるAdobe Developer App Builderと、web-src フォルダーに配置されるファイルのタイプについて説明します。
 kt: 12425
 doc-type: tutorial
 audience: all
@@ -20,17 +20,17 @@ ht-degree: 0%
 
 # web-src フォルダーの目的を確認する {#web-src-folder}
 
-このサンプルアプリの web-src フォルダーには、多くの JavaScript ファイルおよびフォルダーが含まれています。 このフォルダーは、ユーザーインターフェイスを持つアプリケーションに使用されます。 すべてのアプリケーションがこの機能を使用しているわけではありません。 例えば、外部の在庫管理システムとCommerceを統合する場合、フロントエンドインターフェイスとコードは必要ない場合があります。
+このサンプルアプリの web-src フォルダーには、多くのJavaScript ファイルおよびフォルダーが含まれています。 このフォルダーは、ユーザーインターフェイスを持つアプリケーションに使用されます。 すべてのアプリケーションがこの機能を使用しているわけではありません。 例えば、外部の在庫管理システムとCommerceを統合する場合、フロントエンドインターフェイスとコードは必要ない場合があります。
 
 ## このビデオの目的は誰ですか。
 
-* Adobe Commerceを初めて使用する開発者で、Adobeの App Builder を使用した経験が限られている人が、 `web-src` フォルダーとそのコンテンツ。
+* Adobe Commerceを初めて使用する開発者で、`web-src` フォルダーとそのコンテンツについて学んでいるAdobeApp Builderの使用経験が限られている人。
 
 ## ビデオコンテンツ
 
-* の主な目的は何ですか `web-src` フォルダー？
+* `web-src` フォルダーの主な目的は何ですか？
 * 通常、含まれるファイルとフォルダー
-* 方法 `web-src` フォルダーとその中のコンテンツは、サンプルアプリケーションで使用されています
+* サンプルアプリケーションで `web-src` フォルダーとその中のコンテンツを使用する方法
 
 >[!VIDEO](https://video.tv.adobe.com/v/3416665?quality=12&learn=on)
 
@@ -128,7 +128,7 @@ web-src/src/hooks/useCommerceOrders.js
 
 {{avoid-400-error}}
 
-以下の例では、次のコード例のようになります。 `not` リクエストの制限。 400 エラーを回避するには、を使用して応答のサイズを小さくします。 `searchCriteria`.
+次の例では、コードサンプルでリクエスト `not` 制限しています。 400 エラーを回避するには、`searchCriteria` を使用して応答のサイズを小さくします。
 
 `?searchCriteria[filter_groups][0][filters][0][field]=created_at&searchCriteria[filter_groups][0][filters][0][value]=2022-12-01&searchCriteria[filter_groups][0][filters][0][condition_type]=gt`
 

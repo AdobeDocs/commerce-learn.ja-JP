@@ -31,11 +31,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->このビデオの内容は、2.1.0 リリースを反映しています。 以降のリリースのアップデートについて詳しくは、 [リリースノート](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/overview.html).
+>このビデオの内容は、2.1.0 リリースを反映しています。 以降のリリースのアップデートについて詳しくは、[ リリースノート ](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/overview.html) を参照してください。
 
 >[!VIDEO](https://video.tv.adobe.com/v/35787?quality=12&learn=on)
 
 ## その他のリソース
 
-- [Web サイト、ストア、表示 –  [!DNL Commerce] はじめる前に](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html)
-- [ルート カテゴリと階層 –  [!DNL Commerce] カタログ管理ガイド](https://experienceleague.adobe.com/docs/commerce-admin/catalog/categories/category-root.html)
+- [Web サイト、ストア、表示 –  [!DNL Commerce]  はじめる前に ](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html)
+- [ ルートカテゴリおよび階層 –  [!DNL Commerce]  カタログ管理ガイド ](https://experienceleague.adobe.com/docs/commerce-admin/catalog/categories/category-root.html)

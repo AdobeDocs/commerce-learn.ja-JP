@@ -1,6 +1,6 @@
 ---
-title: “[!DNL Commerce] ビジネスユーザー向け – 階層型ナビゲーション」
-description: でレイヤードナビゲーションを有効にする [!DNL Commerce] 顧客が商品を簡単かつ迅速に見つけられるように保管する。
+title: 「ビジネスユーザー向け [!DNL Commerce] – 階層型ナビゲーション」
+description: ストア内で階層化されたナビゲ  [!DNL Commerce]  ションを有効にして、顧客が商品を簡単かつ迅速に見つけられるようにします。
 kt: 5775
 doc-type: video
 activity: use
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Commerce] ビジネスユーザー向け – 階層型ナビゲーション
+# ビジネスユーザー向け [!DNL Commerce] – 階層的ナビゲーション
 
 このビデオの内容は次のとおりです。
 
@@ -31,10 +31,10 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->このビデオの内容は、2.3.1 リリースを反映しています。 以降のリリースのアップデートについて詳しくは、 [リリースノート](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/overview.html).
+>このビデオの内容は、2.3.1 リリースを反映しています。 以降のリリースのアップデートについて詳しくは、[ リリースノート ](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/overview.html) を参照してください。
 
 >[!VIDEO](https://video.tv.adobe.com/v/36186?quality=12&learn=on)
 
 ## その他のリソース
 
-[階層型ナビゲーション - [!DNL Commerce] カタログ管理ガイド](https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/navigation/navigation-layered.html)
+[ 階層型ナビゲーション - [!DNL Commerce]  カタログ管理ガイド ](https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/navigation/navigation-layered.html)

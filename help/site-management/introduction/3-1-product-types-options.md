@@ -1,6 +1,6 @@
 ---
-title: “[!DNL Commerce] ビジネスユーザー向け – 製品タイプ」
-description: について説明します [!DNL Commerce] 製品タイプとそれぞれのオプション。
+title: 「ビジネスユーザー向け [!DNL Commerce] – 製品タイプ」
+description: 製品のタイプとそれぞれのオプションについて説明します  [!DNL Commerce]
 kt: 5767
 doc-type: video
 activity: use
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Commerce] ビジネスユーザー向け – 製品タイプ
+# ビジネスユーザー向け [!DNL Commerce] – 製品タイプ
 
 このビデオの内容は次のとおりです。
 
@@ -32,10 +32,10 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->このビデオの内容は、2.3.1 リリースを反映しています。 以降のリリースのアップデートについて詳しくは、 [リリースノート](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/overview.html).
+>このビデオの内容は、2.3.1 リリースを反映しています。 以降のリリースのアップデートについて詳しくは、[ リリースノート ](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/overview.html) を参照してください。
 
 >[!VIDEO](https://video.tv.adobe.com/v/35952?quality=12&learn=on)
 
 ## その他のリソース
 
-[製品タイプ - [!DNL Commerce] カタログ管理ガイド](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/product-create.html#product-types)
+[ 製品タイプ  [!DNL Commerce]  カタログ管理ガイド ](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/product-create.html#product-types)

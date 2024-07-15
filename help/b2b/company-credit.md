@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # 会社クレジットの管理
 
-以下に該当する企業： _[!UICONTROL Payment on Account]_を有効にして、会社のクレジットを利用できるようにすると、付与されたクレジット制限の範囲内でアカウント上で購入を行うことができます。 この機能を使用すると、顧客はアカウントダッシュボードから会社のクレジットのステータスを確認できます。
+_[!UICONTROL Payment on Account]_を有効化し、会社クレジットを利用できる会社の場合は、付与されたクレジット制限の範囲内でアカウント上で購入を行うことができます。 この機能を使用すると、顧客はアカウントダッシュボードから会社のクレジットのステータスを確認できます。
 
 各会社プロファイルに対して、次のクレジット関連パラメーターを設定できます。
 
@@ -43,5 +43,5 @@ ht-degree: 0%
 
 ## その他のリソース
 
-- [分割払いの構成](https://experienceleague.adobe.com/docs/commerce-admin/b2b/enable-basic-features.html#configure-payment-on-account)
-- [会社クレジットの管理](https://experienceleague.adobe.com/docs/commerce-admin/b2b/companies/credit-company.html)
+- [ 分割払いの構成 ](https://experienceleague.adobe.com/docs/commerce-admin/b2b/enable-basic-features.html#configure-payment-on-account)
+- [ 会社クレジットの管理 ](https://experienceleague.adobe.com/docs/commerce-admin/b2b/companies/credit-company.html)

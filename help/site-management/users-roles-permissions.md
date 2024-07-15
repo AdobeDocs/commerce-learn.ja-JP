@@ -1,6 +1,6 @@
 ---
 title: ユーザーの役割と権限の管理
-description: へのアクセスの制御に使用するユーザーアカウントと権限について説明します [!DNL Commerce] web サイトとストアデータを管理画面に表示します。
+description: 管理者で、web サイトへのアクセスとデータの保存を制御するために使用されるユーザーアカウント  [!DNL Commerce]  権限について説明します。
 kt: 5610
 doc-type: feature video
 audience: all
@@ -32,6 +32,6 @@ ht-degree: 0%
 
 ## その他のリソース
 
-[管理者ユーザーアカウントの管理 –  [!DNL Commerce] 管理システムガイド](https://experienceleague.adobe.com/docs/commerce-admin/systems/user-accounts/permissions-users-all.html)
+[ 管理者ユーザーアカウントの管理 –  [!DNL Commerce]  管理システムガイド ](https://experienceleague.adobe.com/docs/commerce-admin/systems/user-accounts/permissions-users-all.html)
 
-[ユーザーの役割 –  [!DNL Commerce] 管理システムガイド](https://experienceleague.adobe.com/docs/commerce-admin/systems/user-accounts/permissions-user-roles.html)
+[ ユーザーの役割 –  [!DNL Commerce]  管理システムガイド ](https://experienceleague.adobe.com/docs/commerce-admin/systems/user-accounts/permissions-user-roles.html)

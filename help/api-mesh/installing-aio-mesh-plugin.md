@@ -1,8 +1,8 @@
 ---
 title: Adobe I/O Runtime コマンドラインインターフェイスと API メッシュプラグインのインストール
 description: Adobe I/O Runtime コマンドラインインターフェイスと API メッシュプラグインのインストール方法の確認
-landing-page-description: Adobe App Builder を使用し、API メッシュ プラグインを使用してAdobe I/O Runtimeをインストールする方法を確認します。
-short-description: Adobe App Builder を使用し、API メッシュ プラグインを使用してAdobe I/O Runtimeをインストールする方法を確認します。
+landing-page-description: Adobe App Builderの使用方法と、API メッシュを使用したAdobe I/O Runtime プラグインのインストール方法を説明します。
+short-description: Adobe App Builderの使用方法と、API メッシュを使用したAdobe I/O Runtime プラグインのインストール方法を説明します。
 kt: 11801
 doc-type: tutorial
 audience: all
@@ -21,12 +21,12 @@ ht-degree: 0%
 
 # Adobe I/O Runtime CLI とメッシュプラグインのインストール
 
-Adobe Developer App Builder の API メッシュの使用を開始する前に、 `aio` CLI と API メッシュ プラグイン。
-インストール手順と前提条件については、API メッシュを参照してください。 [はじめに](https://developer.adobe.com/graphql-mesh-gateway/gateway/getting-started/){target="_blank"} ページ。
+Adobe Developer App Builderの API メッシュの使用を開始する前に、`aio` CLI と API メッシュプラグインをインストールする必要があります。
+インストール手順と前提条件については、API メッシュ [ はじめに ](https://developer.adobe.com/graphql-mesh-gateway/gateway/getting-started/){target="_blank"} ページを参照してください。
 
 ## このビデオの目的は誰ですか。
 
-* API メッシュを初めて使用する開発者、または [!DNL Adobe Commerce] の使用経験が限られているユーザー [Adobe I/O Runtime](https://developer.adobe.com/runtime/docs/guides/overview/){target="_blank"} と API メッシュです。
+* API メッシュまたは [!DNL Adobe Commerce] を初めて使用する開発者で、[Adobe I/O Runtime](https://developer.adobe.com/runtime/docs/guides/overview/){target="_blank"} と API メッシュを使用する経験が限られているユーザー。
 
 ## ビデオコンテンツ
 
@@ -36,9 +36,9 @@ Adobe Developer App Builder の API メッシュの使用を開始する前に�
 
 >[!VIDEO](https://video.tv.adobe.com/v/3414122?quality=12&learn=on)
 
-## のインストール `aio` CLI および API メッシュ プラグイン
+## `aio` CLI および API メッシュプラグインのインストール
 
-インストール後 `node` および `npm`。次のコマンドを実行して、 `aio` CLI:
+`node` および `npm` のインストール後、次のコマンドを実行して `aio` CLI をインストールします。
 
 ```bash
 npm install -g @adobe/aio-cli

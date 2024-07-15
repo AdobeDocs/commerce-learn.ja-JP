@@ -1,6 +1,6 @@
 ---
-title: Commerce イベントを使用して App Builder プロジェクトを作成する方法を説明します
-description: Commerce イベントで使用する App Builder プロジェクトを作成する方法を説明します
+title: Commerce イベントを使用したApp Builder プロジェクトの作成方法を説明します
+description: Commerce イベントで使用するApp Builder プロジェクトの作成方法を説明します
 landing-page-description: Adobe Commerce イベントを使用するAdobe App Builder プロジェクトの作成方法を説明します
 short-description: Adobe Commerce イベントを使用するAdobe App Builder プロジェクトの作成方法を説明します
 kt: 11888
@@ -21,16 +21,16 @@ ht-degree: 0%
 
 # App Builder プロジェクトの作成
 
-Adobe Commerceからイベントを使用するAdobe Developer App Builder プロジェクトを作成する方法を説明します。 その他のドキュメントの参照先 [Adobe CommerceのAdobe I/Oイベントのインストール](https://developer.adobe.com/commerce/events/get-started/installation/){target="_blank"}.
+Adobe Commerceからイベントを使用するAdobe Developer App Builder プロジェクトを作成する方法を説明します。 追加ドキュメントについては、[Adobe CommerceのAdobe I/Oイベントのインストール ](https://developer.adobe.com/commerce/events/get-started/installation/){target="_blank"} を参照してください。
 
 ## このビデオの目的は誰ですか。
 
-* I/O イベントを使用してAdobe CommerceとAdobe Developer App Builder を初めて使用し、Adobeの App Builder プロジェクトを作成する必要がある開発者。
+* I/O イベントを使用してAdobe CommerceとAdobe Developer App Builderを初めて使用し、AdobeのApp Builder プロジェクトを作成する必要がある開発者。
 
 ## ビデオコンテンツ {#video-content}
 
 * App Builder プロジェクトの作成
-* Adobe Developer コンソールの使用
+* Adobe Developer Consoleの使用
 * Adobe I/Oの使用
 
 >[!VIDEO](https://video.tv.adobe.com/v/3415797?quality=12&learn=on)

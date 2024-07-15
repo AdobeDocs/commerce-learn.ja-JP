@@ -1,6 +1,6 @@
 ---
-title: “[!DNL Commerce] ビジネスユーザー向け – 顧客管理」
-description: で顧客を作成する、カスタマーサービスの推奨権限について説明します。 [!DNL Admin]、顧客情報の管理および顧客グループの作成
+title: 「ビジネスユーザー向け [!DNL Commerce] – 顧客管理」
+description: ' [!DNL Admin] での顧客の作成、顧客情報の管理、顧客グループの作成など、カスタマーサービスに推奨される権限について説明します。'
 kt: 5779
 doc-type: video
 activity: use
@@ -17,12 +17,12 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Commerce] ビジネスユーザー向け – 顧客管理
+# ビジネスユーザー向け [!DNL Commerce] – 顧客管理
 
 このビデオの内容は次のとおりです。
 
 - CSR に推奨される権限（顧客サービス担当者）
-- での顧客の作成 [!DNL Admin]
+- [!DNL Admin] での顧客の作成
 - 顧客情報の管理
 - 顧客グループの作成
 
@@ -36,6 +36,6 @@ ht-degree: 0%
 
 ## その他のリソース
 
-[個別の顧客アカウントの作成 –  [!DNL Commerce] 顧客管理ガイド](https://experienceleague.adobe.com/docs/commerce-admin/customers/customer-accounts/account-create.html)
+[ 個人の顧客アカウントの作成 –  [!DNL Commerce]  顧客管理ガイド ](https://experienceleague.adobe.com/docs/commerce-admin/customers/customer-accounts/account-create.html)
 
-[顧客グループ - [!DNL Commerce] 顧客管理ガイド](https://experienceleague.adobe.com/docs/commerce-admin/customers/customers-menu/customer-groups.html)
+[ 顧客グループ - [!DNL Commerce]  顧客管理ガイド ](https://experienceleague.adobe.com/docs/commerce-admin/customers/customers-menu/customer-groups.html)

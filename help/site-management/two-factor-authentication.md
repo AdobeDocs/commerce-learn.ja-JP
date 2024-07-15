@@ -31,11 +31,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->このビデオの内容は、2.4.0 リリースを反映しています。 以降のリリースのアップデートについて詳しくは、 [リリースノート](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/overview.html).
+>このビデオの内容は、2.4.0 リリースを反映しています。 以降のリリースのアップデートについて詳しくは、[ リリースノート ](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/overview.html) を参照してください。
 
 >[!VIDEO](https://video.tv.adobe.com/v/339104?quality=12&learn=on)
 
 ## その他のリソース
 
-- [2 要素認証（2FA） - Admin Systems Guide](https://experienceleague.adobe.com/docs/commerce-admin/systems/security/2fa/security-two-factor-authentication.html)
-- [二要素認証（2FA）の設定 – 開発者向けドキュメント](https://developer.adobe.com/commerce/testing/functional-testing-framework/two-factor-authentication/)
+- [ 二要素認証（2FA） - Admin Systems Guide](https://experienceleague.adobe.com/docs/commerce-admin/systems/security/2fa/security-two-factor-authentication.html)
+- [ 二要素認証（2FA）の設定 – 開発者向けドキュメント ](https://developer.adobe.com/commerce/testing/functional-testing-framework/two-factor-authentication/)

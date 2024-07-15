@@ -1,6 +1,6 @@
 ---
-title: “[!DNL Commerce] ビジネスユーザーの場合 – ユーザーと役割」
-description: に関する基本を学ぶ [!DNL Admin] 権限を決定するユーザーアカウントとユーザーの役割。
+title: "ビジネスユーザー向けの [!DNL Commerce] - ユーザーと役割"
+description: 権限を決定するユーザーアカウント  [!DNL Admin]  ユーザーの役割についての基本を説明します。
 kt: 5762
 doc-type: video
 activity: use
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Commerce] ビジネスユーザーの場合 – ユーザーと役割
+# ビジネスユーザー向けの [!DNL Commerce] - ユーザーと役割
 
 このビデオの内容は次のとおりです。
 
@@ -32,13 +32,13 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->このビデオの内容は、2.3.1 リリースを反映しています。 以降のリリースのアップデートについて詳しくは、 [リリースノート](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/overview.html).
+>このビデオの内容は、2.3.1 リリースを反映しています。 以降のリリースのアップデートについて詳しくは、[ リリースノート ](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/overview.html) を参照してください。
 
 >[!VIDEO](https://video.tv.adobe.com/v/35947?quality=12&learn=on)
 
 ## その他のリソース
 
-[管理者ユーザーアカウントの管理 –  [!DNL Commerce] 管理システムガイド](https://experienceleague.adobe.com/docs/commerce-admin/systems/user-accounts/permissions-users-all.html)
+[ 管理者ユーザーアカウントの管理 –  [!DNL Commerce]  管理システムガイド ](https://experienceleague.adobe.com/docs/commerce-admin/systems/user-accounts/permissions-users-all.html)
 
-[ユーザーの役割 –  [!DNL Commerce] 管理システムガイド](https://experienceleague.adobe.com/docs/commerce-admin/systems/user-accounts/permissions-user-roles.html)
+[ ユーザーの役割 –  [!DNL Commerce]  管理システムガイド ](https://experienceleague.adobe.com/docs/commerce-admin/systems/user-accounts/permissions-user-roles.html)
 

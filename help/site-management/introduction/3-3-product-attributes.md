@@ -1,5 +1,5 @@
 ---
-title: “[!DNL Commerce] ビジネスユーザー向け – 属性」
+title: "ビジネスユーザー向け [!DNL Commerce] – 属性"
 description: 製品のカスタム属性とシステム属性について説明します。
 kt: 5769
 doc-type: video
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Commerce] ビジネスユーザーの場合 – 属性
+# ビジネスユーザー向け [!DNL Commerce] – 属性
 
 このビデオの内容は次のとおりです。
 
@@ -32,10 +32,10 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->このビデオの内容は、2.3.1 リリースを反映しています。 以降のリリースのアップデートについて詳しくは、 [リリースノート](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/overview.html).
+>このビデオの内容は、2.3.1 リリースを反映しています。 以降のリリースのアップデートについて詳しくは、[ リリースノート ](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/overview.html) を参照してください。
 
 >[!VIDEO](https://video.tv.adobe.com/v/35954?quality=12&learn=on)
 
 ## その他のリソース
 
-[製品属性の概要 –  [!DNL Commerce] カタログ管理ガイド](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html)
+[ 製品属性の概要 –  [!DNL Commerce]  カタログ管理ガイド ](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html)

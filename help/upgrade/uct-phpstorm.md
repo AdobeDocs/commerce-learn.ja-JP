@@ -40,6 +40,6 @@ ht-degree: 35%
 
 ## その他のリソース
 
-- [互換性アップグレードツール](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/upgrade-compatibility-tool/overview.html)
+- [ 互換性アップグレードツール ](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/upgrade-compatibility-tool/overview.html)
 - [PHP Storm プラグインのMagento](https://plugins.jetbrains.com/plugin/8024-magento-phpstorm)
-- [リリース済みバージョン](https://experienceleague.adobe.com/docs/commerce-operations/release/versions.html)
+- [ リリース済みバージョン ](https://experienceleague.adobe.com/docs/commerce-operations/release/versions.html)

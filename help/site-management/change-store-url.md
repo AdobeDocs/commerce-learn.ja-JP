@@ -1,6 +1,6 @@
 ---
 title: ストア URL の変更
-description: を変更する方法を説明します [!DNL Commerce] admin にベース URL を格納します。
+description: 管理者でストアのベ  [!DNL Commerce]  ス URL を変更する方法について説明します。
 kt: 5605
 doc-type: feature video
 audience: all
@@ -31,11 +31,11 @@ Adobe CommerceまたはMagento Open Sourceのインストール内の各 web サ
 
 >[!NOTE]
 >
->このビデオの内容は、2.1.0 リリースを反映しています。 以降のリリースのアップデートについて詳しくは、 [リリースノート](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/overview.html).
+>このビデオの内容は、2.1.0 リリースを反映しています。 以降のリリースのアップデートについて詳しくは、[ リリースノート ](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/overview.html) を参照してください。
 
 >[!VIDEO](https://video.tv.adobe.com/v/35488?quality=12&learn=on)
 
 ## その他のリソース
 
-- [URL を格納 –  [!DNL Commerce] 店舗および購入エクスペリエンスガイド](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/store-urls.html)
-- [カスタム管理 URL を使用 –  [!DNL Commerce] 店舗および購入エクスペリエンスガイド](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/store-urls.html#use-a-custom-admin-url)
+- [URL の格納 –  [!DNL Commerce]  格納および購入エクスペリエンスガイド ](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/store-urls.html)
+- [ カスタム管理 URL の使用 –  [!DNL Commerce] Stores および購入エクスペリエンスガイド ](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/store-urls.html#use-a-custom-admin-url)

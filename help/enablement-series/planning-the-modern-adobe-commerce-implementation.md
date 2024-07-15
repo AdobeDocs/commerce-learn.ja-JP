@@ -19,7 +19,8 @@ ht-degree: 0%
 
 # 最新のAdobe Commerce実装の計画
 
-このウェビナーでは、カタログサービス、お客様のアーキテクチャの理解、Edge Delivery Servicesなど、Adobe Commerceに関連する様々なトピックの包括的な概要を説明します。&#x200B;Adobe Commerce Catalog as a Service におけるライブ検索や Product Recommendations、Edge Delivery Servicesのアーキテクチャを把握するための API やデータフローの分析、顧客の高性能と低遅延の分析など、各サービスの新機能や既存の機能およびメリットについて説明します。 さらに、顧客とやり取りする際に標準的なドキュメントと質問のリストを持つことの重要性、および効率的なプロジェクト構築のためのグローバル参照アーキテクチャ（GRA）の概念に関しても説明しています。
+このウェビナーでは、カタログサービス、お客様のアーキテクチャの理解、Edge Delivery Servicesなど、Adobe Commerceに関連する様々なトピックの包括的な概要を説明します。
+&#x200B;Adobe Commerce Catalog as a Service におけるライブ検索や Product Recommendations、Edge Delivery Servicesのアーキテクチャを把握するための API やデータフローの分析、顧客の高性能と低遅延の分析など、各サービスの新機能や既存の機能およびメリットについて説明します。 さらに、顧客とやり取りする際に標準的なドキュメントと質問のリストを持つことの重要性、および効率的なプロジェクト構築のためのグローバル参照アーキテクチャ（GRA）の概念に関しても説明しています。
 
 ## オーディエンス
 

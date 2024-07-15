@@ -1,7 +1,7 @@
 ---
 title: Commerce Intelligence - フィルターセット
-description: Commerce Intelligence のフィルターセット機能を使用して、Adobe CommerceとMagento Open Sourceのビジネスデータレポートをシンプルにする方法を説明します。
-landing-page-description: Commerce Intelligence のフィルターセット機能を使用して、ビジネスデータレポートをシンプル化する方法については、このビデオをご覧ください。
+description: Commerce Intelligenceのフィルターセット機能を使用して、Adobe CommerceとMagento Open Sourceのビジネスデータレポートを簡単にする方法を説明します。
+landing-page-description: Commerce Intelligenceのフィルターセット機能を使用してビジネスデータレポートをシンプル化する方法については、このビデオをご覧ください。
 short-description: このビデオでは、MBCommerce IntelligenceI フィルターセット機能を使用してビジネスデータレポートを簡素化する方法を説明します。
 kt: 10289
 doc-type: feature video
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 # Commerce Intelligence - フィルターセット
 
-ビジネスデータの特定の部分のみを分析しますか？ 手動のクリーンアップに飽きましたか？ Commerce Intelligence では、フィルターセット機能を使用してこのプロセスを簡略化できます。
+ビジネスデータの特定の部分のみを分析しますか？ 手動のクリーンアップに飽きましたか？ Commerce Intelligenceでは、フィルターセット機能を使用してこのプロセスを簡略化できます。
 
 このビデオの内容は次のとおりです。
 
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Commerce Intelligence を初めて使用する場合、 [Adobe Commerce Intelligence ユーザーガイド](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/guide-overview.html){target="_blank"} は、データの集計、分析、ビジュアライゼーションを通じて、より優れたビジネスインサイトと結果を推進するための完全な概要を提供します。
+>Commerce Intelligenceを初めて使用する場合は、[Adobe Commerce Intelligence ユーザーガイド ](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/guide-overview.html){target="_blank"} で、データの集計、分析、ビジュアライゼーションを通じてビジネスインサイトや結果を向上させる方法の概要を参照してください。
 
 ## このビデオの目的は誰ですか。
 
@@ -47,6 +47,6 @@ ht-degree: 0%
 
 ## 役に立つリソース
 
-[フィルターセットの作成 – Commerce Intelligence ユーザーガイド](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/build/reports/ess-manage-data-filters.html)
+[ フィルターセットの作成 – Commerce Intelligence ユーザーガイド ](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/build/reports/ess-manage-data-filters.html)
 
-[セグメント化とフィルタリングに推奨されるデータDimension- Commerce Intelligence ユーザーガイド](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/best-practices/data/segment-filter.html)
+[ セグメント化とフィルタリングにお勧めのデータDimension- Commerce Intelligence ユーザーガイド ](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/best-practices/data/segment-filter.html)

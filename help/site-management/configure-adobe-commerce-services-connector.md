@@ -22,7 +22,7 @@ ht-degree: 0%
 
 Commerce サービスコネクタは、様々な SaaS 機能のロックを解除する、Adobeが開発した設定です。 Adobe CommerceとMagento Open Sourceで支払いサービスを使用するには、実稼動およびサンドボックス API キーを使用してCommerce インスタンスを接続し、設定用に設定でデータスペースを指定する必要があります。
 
-を視聴 _Adobe Commerce サービスコネクタの設定_ 支払いサービスの設定に役立つビデオ。
+支払いサービスの設定に役立つ _Adobe Commerce サービスコネクタの設定_ ビデオをご覧ください。
 
 ## このビデオの目的は誰ですか。
 
@@ -47,6 +47,6 @@ Commerce サービスコネクタは、様々な SaaS 機能のロックを解�
 
 ## その他のリソース
 
-- [Commerce サービスコネクタ](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html){target="_blank"}
-- [支払いサービスガイド](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/guide-overview.html){target="+blank"}
-- [Commerce サービスコネクタ](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html){target="+blank"}
+- [Commerce サービスコネクタ ](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html){target="_blank"}
+- [ 支払いサービスガイド ](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/guide-overview.html){target="+blank"}
+- [Commerce サービスコネクタ ](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html){target="+blank"}

@@ -1,7 +1,7 @@
 ---
 title: まとめ
-description: App Builder について詳しくは、参照先を参照してください。
-landing-page-description: App Builder について詳しくは、参照先を参照してください。
+description: App Builderについて詳しくは、どこへ行くべきかを参照してください。
+landing-page-description: App Builderについて詳しくは、どこへ行くべきかを参照してください。
 kt: 12428
 doc-type: tutorial
 audience: all
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 ## このビデオの目的は誰ですか。
 
-* 初めてのAdobe Commerce App Builder アプリを完了し、詳細を学習する準備が整ったAdobeの App Builder を使用した経験が限られている、Adobe Developerを初めて使用する開発者。
+* Adobe Commerceを初めて使用する開発者で、AdobeのApp Builderを使用した経験が限られている人。最初のAdobe Developer App Builder アプリを完了し、詳細を確認する準備が整っている人。
 
 ## ビデオコンテンツ
 
@@ -34,12 +34,12 @@ ht-degree: 0%
 
 >[!VIDEO](https://video.tv.adobe.com/v/3416741?quality=12&learn=on)
 
-## その他の App Builder リソース
+## その他のApp Builder リソース
 
 * [Adobe Developer App Builder](https://developer.adobe.com/app-builder/){target="_blank"}
-* [Adobe Developer App Builder 体験版](https://developer.adobe.com/app-builder/trial/){target="_blank"}
-* [Adobe Developer App Builder ドキュメント](https://developer.adobe.com/app-builder/docs/overview/){target="_blank"}
-* [Adobe Developer App Builder フォーラム](https://experienceleaguecommunities.adobe.com/t5/project-firefly/ct-p/project-firefly){target="_blank"}
-* [Adobe Developer App Builder の投稿ガイドライン](https://developer.adobe.com/app-builder/docs/guides/contribution_guides/){target="_blank"}
+* [Adobe Developer App Builder体験版 ](https://developer.adobe.com/app-builder/trial/){target="_blank"}
+* [Adobe Developer App Builder ドキュメント ](https://developer.adobe.com/app-builder/docs/overview/){target="_blank"}
+* [Adobe Developer App Builder フォーラム ](https://experienceleaguecommunities.adobe.com/t5/project-firefly/ct-p/project-firefly){target="_blank"}
+* [Adobe Developer App Builderの投稿ガイドライン ](https://developer.adobe.com/app-builder/docs/guides/contribution_guides/){target="_blank"}
 
 {{$include /help/_includes/app-builder-first-app-related-links.md}}

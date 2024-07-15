@@ -41,4 +41,4 @@ Galera クラスタは、パフォーマンスと拡張性に役立ちます。 
 
 ## 役に立つリソース
 
-- [Galera クラスター](https://galeracluster.com/)
+- [ ガレラクラスター ](https://galeracluster.com/)

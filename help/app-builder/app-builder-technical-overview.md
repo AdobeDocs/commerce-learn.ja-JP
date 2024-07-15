@@ -1,8 +1,8 @@
 ---
-title: App Builder の技術概要
-description: 技術概要を含む、Adobe Commerceで使用されるAdobe Developer App Builder について説明します
-landing-page-description: 技術概要を含む、Adobe Commerceで使用されるAdobe Developer App Builder について説明します
-short-description: 技術概要を含む、Adobe Commerceで使用されるAdobe Developer App Builder について説明します
+title: App Builderの技術概要
+description: 技術概要を含む、Adobe Commerceで使用されるAdobe Developer App Builderについて説明します
+landing-page-description: 技術概要を含む、Adobe Commerceで使用されるAdobe Developer App Builderについて説明します
+short-description: 技術概要を含む、Adobe Commerceで使用されるAdobe Developer App Builderについて説明します
 kt: 11763
 doc-type: tutorial
 audience: all
@@ -19,12 +19,12 @@ ht-degree: 0%
 
 ---
 
-# App Builder の技術概要
+# App Builderの技術概要
 
-次のビデオでは、Adobe CommerceをAmazon Seller Central に接続するサンプル統合パターンに関する技術的な概要を説明します。 また、このチュートリアルでは、従来の PHP 拡張機能と App Builder アプリの開発の違いについても説明します。
+次のビデオでは、Adobe CommerceをAmazon Seller Central に接続するサンプル統合パターンに関する技術的な概要を説明します。 また、このチュートリアルでは、従来の PHP 拡張機能とApp Builder アプリケーションの開発の違いについても説明します。
 
 
-## Adobe Commerceの App Builder {#app-builder-technical-overview}
+## Adobe CommerceのApp Builder {#app-builder-technical-overview}
 
 >[!VIDEO](https://video.tv.adobe.com/v/3413512?quality=12&learn=on)
 

@@ -1,5 +1,5 @@
 ---
-title: “[!DNL Commerce] ビジネスユーザー向け – メール通信」
+title: "ビジネスユーザー向け [!DNL Commerce] - E メール通信"
 description: ストアフロントでのアクションをトリガーとするトランザクションメールを使用して、顧客とコミュニケーションを取ります。 ストアのメールテンプレートをカスタマイズおよび設定します。
 kt: 5780
 doc-type: video
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Commerce] ビジネスユーザー向け – メール通信
+# ビジネスユーザー向け [!DNL Commerce] - メール通信
 
 このビデオの内容は次のとおりです。
 
@@ -32,12 +32,12 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->このビデオの内容は、2.3.1 リリースを反映しています。 以降のリリースのアップデートについて詳しくは、 [リリースノート](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/overview.html).
+>このビデオの内容は、2.3.1 リリースを反映しています。 以降のリリースのアップデートについて詳しくは、[ リリースノート ](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/overview.html) を参照してください。
 
 >[!VIDEO](https://video.tv.adobe.com/v/36190?quality=12&learn=on)
 
 ## その他のリソース
 
-[メールテンプレート - [!DNL Commerce] 管理システムガイド](https://experienceleague.adobe.com/docs/commerce-admin/systems/communications/email-templates.html)
+[ メールテンプレート - [!DNL Commerce]  管理システムガイド ](https://experienceleague.adobe.com/docs/commerce-admin/systems/communications/email-templates.html)
 
-[変数と顧客コミュニケーション - [!DNL Commerce] 管理システムガイド](https://experienceleague.adobe.com/docs/commerce-admin/systems/introduction.html#variables-and-customer-communications)
+[ 変数とカスタマーコミュニケーション - [!DNL Commerce]  管理システムガイド ](https://experienceleague.adobe.com/docs/commerce-admin/systems/introduction.html#variables-and-customer-communications)

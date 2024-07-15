@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Adobe CommerceとAdobe Journey Optimizerの統合
 
-の使用方法を説明します [データ接続](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/overview.html){target="blank"} Adobe Commerceのを利用すると、Commerce データを活用し、Adobe Journey Optimizerを活用して、リアルタイムでエンドツーエンドのパーソナライズされた買い物客エクスペリエンスを提供できます。
+Adobe Commerceで [ データ接続 ](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/overview.html){target="blank"} を使用して、Commerce データを活用し、Adobe Journey Optimizerを活用してエンドツーエンドのパーソナライズされた買い物客エクスペリエンスをリアルタイムで提供する方法を説明します。
 
 ## このビデオの目的は誰ですか。
 
@@ -41,5 +41,5 @@ ht-degree: 0%
 
 ## その他のリソース
 
-[データ接続の概要](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/overview.html){target="_blank"}
-[データ接続のインストール](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/install.html){target="_blank"}
+[ データ接続の概要 ](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/overview.html){target="_blank"}
+[ データ接続のインストール ](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/install.html){target="_blank"}

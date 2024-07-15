@@ -1,6 +1,6 @@
 ---
-title: “[!DNL Commerce] ビジネスユーザーの場合 –  [!DNL Admin] メニュー"
-description: の機能メニューの概要 [!DNL Commerce] v2.3 [!DNL Admin].
+title: 「ビジネス・ユーザー向け [!DNL Commerce] - [!DNL Admin] menus」
+description: ' [!DNL Commerce] v2.3 [!DNL Admin] の機能メニューの概要'
 landing-page-description: このビデオシリーズでは、Adobe Commerce の基本と管理における操作について説明します。
 short-description: このビデオシリーズでは、Adobe Commerce の基本と管理における操作について説明します。
 kt: 5758
@@ -19,9 +19,9 @@ ht-degree: 29%
 
 ---
 
-# [!DNL Commerce] ビジネスユーザーの場合 –  [!DNL Admin] メニュー
+# ビジネスユーザー向け [!DNL Commerce] - [!DNL Admin] メニュー
 
-この [!DNL Commerce Admin] は、パスワードで保護されたバックオフィスで、製品やプロモーションの設定、顧客の注文への対応、の設定を行うことができます [!DNL Commerce] ビジネスのニーズに合わせて保存する。
+[!DNL Commerce Admin] は、パスワードで保護されたバックオフィスで、製品やプロモーションの設定、顧客の注文の履行、ビジネスニーズに合わせた [!DNL Commerce] ストストアの設定を行うことができます。
 
 このビデオの内容は次のとおりです。
 
@@ -35,10 +35,10 @@ ht-degree: 29%
 
 >[!NOTE]
 >
->このビデオの内容は、2.3.1 リリースを反映しています。 以降のリリースのアップデートについて詳しくは、 [リリースノート](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/overview.html).
+>このビデオの内容は、2.3.1 リリースを反映しています。 以降のリリースのアップデートについて詳しくは、[ リリースノート ](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/overview.html) を参照してください。
 
 >[!VIDEO](https://video.tv.adobe.com/v/35942?quality=12&learn=on)
 
 ## その他のリソース
 
-[[!DNL Commerce] マーチャントドキュメント](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)
+[[!DNL Commerce] Merchant ドキュメント ](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)

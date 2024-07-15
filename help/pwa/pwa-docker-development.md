@@ -29,4 +29,4 @@ ht-degree: 0%
 
 ## 役に立つリソース
 
-[PWA Studioガイド](https://developer.adobe.com/commerce/pwa-studio/)
+[PWA Studioガイド ](https://developer.adobe.com/commerce/pwa-studio/)

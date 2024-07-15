@@ -31,7 +31,7 @@ REST API を使用して、管理者にグループ製品を作成します。
 1. 空のグループ化製品にシンプルな製品を入力します。
 1. 空のグループ製品を作成し、シンプルな製品を関連付けます。
 
-   グループ化された製品にシンプルな製品を関連付けると、並べ替え順の属性（`position`）を使用して、フロントエンドが関連する製品を目的の順序で表示します。 次の場合 `position` 属性が指定されていない場合、製品はグループ化された製品に追加された順序で表示されます。
+   グループ化された製品に単純な製品を関連付けると、フロントエンドはペイロードの並べ替え順属性（`position`）を使用して、関連付けられた製品を目的の順序で表示します。 `position` 属性が指定されていない場合、製品はグループ化された製品に追加された順序で表示されます。
 
 Adobe Commerce Admin からグループ化された商品を作成する場合は、最初にシンプルな商品を作成します。 グループ化された製品を作成する準備が整ったら、グループ化された製品にシンプルな製品を 1 つのバッチで割り当てて関連付けます。
 
@@ -158,7 +158,7 @@ curl --location '{{your.url.here}}/rest/default/V1/products/my-new-grouped-produ
 
 ## 既存のグループ化された製品に 3 番目のシンプルな製品を追加
 
-適切な職階番号を含める（を除く） `1` または `2`）で始まり、最初の 2 つの製品が最初にグループ化された製品に関連付けられました。 この例では、位置はです。 `4`.
+グループ化された製品に最初に関連付けられた最初の 2 つの製品に使用される適切な位置番号（`1` または `2` を除くすべて）を含めます。 この例では、位置は `4` です。
 
 ```bash
 curl --location --request PUT '{{your.url.here}}/rest/default/V1/products/my-new-grouped-product/links' \
@@ -183,10 +183,10 @@ curl --location --request PUT '{{your.url.here}}/rest/default/V1/products/my-new
 
 ## グループ化された製品からのシンプルな製品の削除
 
-終了 [シンプルな製品の削除](https://developer.adobe.com/commerce/webapi/rest/tutorials/grouped-product/) グループ化された製品から、次を使用します。 `DELETE /V1/products/{sku}/links/{type}/{linkedProductSku}`.
+グループ化された製品から [ 単純な製品を削除 ](https://developer.adobe.com/commerce/webapi/rest/tutorials/grouped-product/) するには、`DELETE /V1/products/{sku}/links/{type}/{linkedProductSku}` を使用します。
 
-何として使用するかを確認するには `{type}`を使用し、リクエストをキャプチャして$linkTypes を評価します。 `related`, `crosssell`, `uupsell`、および `associated`.
-![グループ化された製品のリンクタイプ – 代替テキスト](/help/assets/site-management/catalog/grouped-types.png "xdebug セッション中にキャプチャされたグループ化された製品リンクタイプ")
+`{type}` として使用するものを調べるには、xdebug を使用してリクエストをキャプチャし、$linkTypes: `related`、`crosssell`、`uupsell` および `associated` を評価します。
+![ グループ化された製品リンクタイプ – 代替テキスト ](/help/assets/site-management/catalog/grouped-types.png "xdebug セッション中にキャプチャされたグループ化された製品リンクタイプ ")
 
 シンプルな製品をグループ化された製品にリンクした場合、ペイロードには次のようなセクションが含まれていました。
 
@@ -203,9 +203,9 @@ curl --location --request PUT '{{your.url.here}}/rest/default/V1/products/my-new
         }
 ```
 
-ペイロードで、 `link_type` value `associated` は、 `{type}` DELETEリクエストで必須の値。 リクエスト URL は以下のようになります。 `/V1/products/my-new-grouped-product/links/associated/product-sku-three`.
+ペイロードで、`link_type` 値 `associated` はDELETEリクエストに必要な `{type}` 値を提供します。 リクエスト URL は `/V1/products/my-new-grouped-product/links/associated/product-sku-three` のようになります。
 
-を使用してシンプルな製品を削除するには、cURL リクエストを参照してください。 `product-sku-three` でグループ化された製品の SKU `my-new-grouped-product` SKU:
+`product-sku-three` の SKU を持つグループ化された製品から `my-new-grouped-product` の SKU を持つ単純な製品を削除する cURL リクエストを参照してください。
 
 ```bash
 curl --location --request DELETE '{{your.url.here}}rest/default/V1/products/my-new-grouped-product/links/associated/product-sku-three' \
@@ -223,7 +223,7 @@ curl --location '{{your.url.here}}rest/default/V1/products/some-grouped-product-
 
 ## その他のリソース
 
-- [グループ化された製品の作成と管理](https://developer.adobe.com/commerce/webapi/rest/tutorials/grouped-product/){target="_blank"}
-- [グループ化された製品](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/types/product-create-grouped.html){target="_blank"}
-- [Adobe Developer REST チュートリアル](https://developer.adobe.com/commerce/webapi/rest/tutorials/prerequisite-tasks/){target="_blank"}
+- [ グループ化された製品の作成と管理 ](https://developer.adobe.com/commerce/webapi/rest/tutorials/grouped-product/){target="_blank"}
+- [ グループ化された製品 ](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/types/product-create-grouped.html){target="_blank"}
+- [Adobe Developer REST チュートリアル ](https://developer.adobe.com/commerce/webapi/rest/tutorials/prerequisite-tasks/){target="_blank"}
 - [Adobe Commerce REST ReDoc](https://adobe-commerce.redoc.ly/2.4.6-admin/tag/products#operation/PostV1Products){target="_blank"}

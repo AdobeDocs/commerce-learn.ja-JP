@@ -1,6 +1,6 @@
 ---
-title: Adobe Commerce Intelligence 統合のレポートとダッシュボード
-description: Adobe Commerce Intelligence レポートおよびダッシュボード管理について説明します
+title: Adobe Commerce Intelligence統合レポートとダッシュボード
+description: Adobe Commerce Intelligenceのレポートとダッシュボードの管理について説明します
 feature: Cloud
 topic: Commerce, Administration
 solution: Commerce,Commerce Intelligence
@@ -28,6 +28,6 @@ ht-degree: 0%
 - ビジネスユーザー
 - データアナリスト
 
-## Adobe Commerce Intelligence のレポートとダッシュボード
+## Adobe Commerce Intelligenceのレポートとダッシュボード
 
 >[!VIDEO](https://video.tv.adobe.com/v/3428252?learn=on)

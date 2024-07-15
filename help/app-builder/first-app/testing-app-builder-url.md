@@ -1,6 +1,6 @@
 ---
 title: Adobe Developer App Builder URL を使用したテスト
-description: 指定した App Builder URL からプロジェクトで最初のAdobe Developer App Builder アプリをテストする方法を説明します。
+description: 指定したApp Builder URL からプロジェクト用に最初のAdobe Developer App Builder アプリをテストする方法を説明します。
 landing-page-description: プロジェクトから提供された URL から最初のAdobe Developer App Builder アプリをテストする方法を説明します。
 kt: 12427
 doc-type: tutorial
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 ## このビデオの目的は誰ですか。
 
-* 初めてのAdobe Commerce App Builder アプリをテストする準備が整ったAdobeの App Builder を使用した、経験が限られたAdobe Developerを初めて使用する開発者。
+* Adobe Commerceを初めて使用する開発者で、初めてのAdobe Developer App Builder アプリをテストする準備が整ったAdobeApp Builderを使用した経験が限られている人。
 
 ## ビデオコンテンツ
 

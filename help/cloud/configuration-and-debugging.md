@@ -34,16 +34,16 @@ Adobe Commerce Cloudの設定およびデバッグ方法について説明しま
 
 ## ビデオで言及されているExperience Leagueドキュメント
 
-- [Xdebug の設定](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/debug.html)
-- [Cloud Docker による Xdebug の設定](https://developer.adobe.com/commerce/cloud-tools/docker/test/configure-xdebug/)
-- [デバッグのベストプラクティス](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/development/debugging.html)
-- [設定ファイルの概要](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/overview.html)
+- [Xdebug の設定 ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/debug.html)
+- [Cloud Docker による Xdebug の設定 ](https://developer.adobe.com/commerce/cloud-tools/docker/test/configure-xdebug/)
+- [ デバッグのベストプラクティス ](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/development/debugging.html)
+- [ 設定ファイルの概要 ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/overview.html)
 - [ECE-Tools](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/package-overview.html)
-- [ECE-Tools パッケージの更新](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/update-package.html)
-- [New Relicの概要](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service.html)
-- [ログファイルの表示と管理](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html)
-- [New Relic ログ管理](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/log-management.html)
-- [Quality Patch ツール](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html)
-- [Quality patch tool usage](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html)
+- [ECE-Tools パッケージの更新 ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/update-package.html)
+- [New Relicの概要 ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service.html)
+- [ ログファイルの表示と管理 ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html)
+- [New Relic ログ管理 ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/log-management.html)
+- [Quality Patch ツール ](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html)
+- [ クオリティパッチツールの使用 ](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html)
 
 {{$include /help/_includes/cloud-technical-onboarding-related-links.md}}

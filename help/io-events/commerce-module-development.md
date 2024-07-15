@@ -21,18 +21,18 @@ ht-degree: 0%
 
 # Adobe Commerce module development
 
-イベントの登録、サポートされているイベントの検索、新しい XML ファイルの使用方法について説明します `io_events.xml` カスタムモジュール開発で。 このビデオでは、使用できる登録済みイベントの検索方法や、既に定義されているイベントを登録解除する方法も開発者に示します。 その他のドキュメントの参照先 [Adobe CommerceのAdobe I/Oイベントのインストール](https://developer.adobe.com/commerce/events/get-started/installation/){target="_blank"}.
+カスタムモジュール開発で、イベントを登録、サポートされるイベントを検索、新しい XML ファイルを使用す `io_events.xml` 方法について説明します。 このビデオでは、使用できる登録済みイベントの検索方法や、既に定義されているイベントを登録解除する方法も開発者に示します。 追加ドキュメントについては、[Adobe CommerceのAdobe I/Oイベントのインストール ](https://developer.adobe.com/commerce/events/get-started/installation/){target="_blank"} を参照してください。
 
 ## このビデオの目的は誰ですか。
 
-* I/O イベントを使用してAdobe CommerceとAdobe Developer App Builder を初めて使用する開発者。
+* I/O イベントを使用してAdobe CommerceとAdobe Developer App Builderを初めて使用する開発者。
 
 ## ビデオコンテンツ {#video-content}
 
-* Adobe Developer App Builder で使用するCommerceでのイベントの登録
+* Adobe Developer App Builderで使用するCommerceでのイベントの登録
 * 登録できるイベントの識別
 * io_events.xml にイベントを登録する方法を学ぶ
-* Commerce インスタンスにイベントを登録する方法を説明します `app/etc/config.php`
+* Commerce インスタンスでイベントを登録する方法を説明します `app/etc/config.php`
 * イベントの配信停止について説明します
 
 >[!VIDEO](https://video.tv.adobe.com/v/3415802?quality=12&learn=on)

@@ -30,7 +30,7 @@ ht-degree: 29%
 - 新しいAdobe Commerce バージョンへのアップグレードに必要なエラーと修正をすばやく特定する方法を説明します
 - HTML結果にアクセスして、モジュールの重要度と非互換性の数で視覚化する方法
 
-このツールについて詳しくは、 [互換性アップグレードツールのドキュメント](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/upgrade-compatibility-tool/overview.html?lang=en). アップグレードの実行とシンプル化について詳しくは、 [アップグレードガイド](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/overview.html).
+このツールについて詳しくは、[ 互換性アップグレードツールのドキュメント ](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/upgrade-compatibility-tool/overview.html?lang=en) を参照してください。 アップグレードの実行とシンプル化について詳しくは、『アップグレードガイド [ を参照してください ](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/overview.html)。
 
 ## このビデオの目的は誰ですか。
 
@@ -43,7 +43,7 @@ ht-degree: 29%
 
 ## その他のリソース
 
-- [互換性アップグレードツールのドキュメント](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/upgrade-compatibility-tool/overview.html?lang=en)
-- [アップグレードガイド](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/overview.html)
-- [リリース済みバージョン](https://experienceleague.adobe.com/docs/commerce-operations/release/versions.html)
-- [リリーススケジュール](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html)
+- [ 互換性アップグレードツールのドキュメント ](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/upgrade-compatibility-tool/overview.html?lang=en)
+- [ アップグレードガイド ](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/overview.html)
+- [ リリース済みバージョン ](https://experienceleague.adobe.com/docs/commerce-operations/release/versions.html)
+- [ リリーススケジュール ](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html)

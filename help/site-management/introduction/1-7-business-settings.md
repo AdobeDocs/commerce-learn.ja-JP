@@ -1,5 +1,5 @@
 ---
-title: “[!DNL Commerce] ビジネスユーザー向け – ストアの設定
+title: "ビジネスユーザー向け [!DNL Commerce] - ストア設定"
 description: ロケール設定、ストア情報、セキュアな URL とセキュアでない URL、web サイトのタイトル、ロゴ、著作権情報、通信メールロゴ、ストアのメールアドレス、通貨オプション、通貨レートについて説明します。
 kt: 5764
 doc-type: video
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Commerce] ビジネスユーザー向け – ストアの設定
+# ビジネスユーザー向け [!DNL Commerce] - ストア設定
 
 このビデオの内容は次のとおりです。
 
@@ -39,10 +39,10 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->このビデオの内容は、2.3.1 リリースを反映しています。 以降のリリースのアップデートについて詳しくは、 [リリースノート](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/overview.html).
+>このビデオの内容は、2.3.1 リリースを反映しています。 以降のリリースのアップデートについて詳しくは、[ リリースノート ](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/overview.html) を参照してください。
 
 >[!VIDEO](https://video.tv.adobe.com/v/35949?quality=12&learn=on)
 
 ## その他のリソース
 
-[ストアの詳細 –  [!DNL Commerce] はじめる前に](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/store-details.html)
+[ ストアの詳細 –  [!DNL Commerce]  はじめる前に ](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/store-details.html)

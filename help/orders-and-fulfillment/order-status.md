@@ -19,7 +19,7 @@ ht-degree: 0%
 
 # 注文ステータスの管理
 
-顧客が注文を行うと、そのトランザクションの一時的なレコードとして受注が作成されます。 受注のステータスは _保留中_ 支払いが受領されるまで。 「保留中」ステータスの間、注文は、支払いを受け取って請求書を生成するまで、編集またはキャンセルできます。 このビデオでは、注文ステータスとその詳細を確認する方法、および必要に応じて注文のステータスを変更する方法を説明します。
+顧客が注文を行うと、そのトランザクションの一時的なレコードとして受注が作成されます。 支払が受け取られるまで、受注のステータスは _保留_ になります。 「保留中」ステータスの間、注文は、支払いを受け取って請求書を生成するまで、編集またはキャンセルできます。 このビデオでは、注文ステータスとその詳細を確認する方法、および必要に応じて注文のステータスを変更する方法を説明します。
 
 ## このビデオの目的は誰ですか。
 
@@ -32,5 +32,5 @@ ht-degree: 0%
 
 ## その他のリソース
 
-- [注文を処理 –  [!DNL Commerce] 店舗および購入エクスペリエンスガイド](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/order-processing.html#process-an-order)
-- [注文ステータス - [!DNL Commerce] 店舗および購入エクスペリエンスガイド](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/order-status.html)
+- [ 注文の処理 –  [!DNL Commerce]  店舗および購入エクスペリエンスガイド ](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/order-processing.html#process-an-order)
+- [ 注文ステータス - [!DNL Commerce]  店舗および購入エクスペリエンスガイド ](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/order-status.html)

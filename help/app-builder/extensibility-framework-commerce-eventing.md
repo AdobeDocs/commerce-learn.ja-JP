@@ -19,11 +19,11 @@ ht-degree: 0%
 
 ---
 
-# App Builder の拡張フレームワーク
+# App Builderの拡張フレームワーク
 
-この機能デモでは、App Builder と、Adobe Commerceの潜在的なユースケースについて説明します。 このビデオでは、拡張フレームワーク、お客様の主なメリット、機能について紹介します。
+この機能デモでは、App Builderと、Adobe Commerceの潜在的なユースケースについて説明します。 このビデオでは、拡張フレームワーク、お客様の主なメリット、機能について紹介します。
 
-## Adobe Commerceの App Builder {#app-builder-extensibility}
+## Adobe CommerceのApp Builder {#app-builder-extensibility}
 
 >[!VIDEO](https://video.tv.adobe.com/v/3413328?learn=on)
 

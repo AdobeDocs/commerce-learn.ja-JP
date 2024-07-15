@@ -1,6 +1,6 @@
 ---
-title: “[!DNL Commerce] ビジネスユーザー向け – サイト、ストア、ビュー」
-description: の基本について説明します [!DNL Commerce] web サイト、ストア、ストアビュー、アプリケーション範囲の違いを含むアーキテクチャ。 インデックス作成とキャッシュについて説明します。
+title: "ビジネスユーザー向けの [!DNL Commerce] - サイト、ストア、表示"
+description: Web サイト、ストア  [!DNL Commerce]  ストアビュー、アプリケーション範囲の違いなど、アーキテクチャの基本について説明します。 インデックス作成とキャッシュについて説明します。
 kt: 5760
 doc-type: video
 activity: use
@@ -17,13 +17,13 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Commerce] ビジネスユーザーの場合 – サイト、ストア、表示
+# ビジネスユーザー向けの [!DNL Commerce] - サイト、ストア、表示
 
 このビデオの内容は次のとおりです。
 
-- の基本 [!DNL Commerce] web サイト、ストア、ストアビューの違いを含むアーキテクチャ
+- Web サイト、ストア、ストアビューの違いを含む、[!DNL Commerce] アーキテクチャの基本
 - 適用範囲の概念
-- インデックス作成とキャッシュの概要と方法 [!DNL Commerce] それらを処理
+- インデックス作成とキャッシュの概要と、[!DNL Commerce] による処理方法の概要
 
 ## このビデオの目的は誰ですか。
 
@@ -33,12 +33,12 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->このビデオの内容は、2.3.1 リリースを反映しています。 以降のリリースのアップデートについて詳しくは、 [リリースノート](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/overview.html).
+>このビデオの内容は、2.3.1 リリースを反映しています。 以降のリリースのアップデートについて詳しくは、[ リリースノート ](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/overview.html) を参照してください。
 
 >[!VIDEO](https://video.tv.adobe.com/v/35945?quality=12&learn=on)
 
 ## その他のリソース
 
-[Web サイト、ストア、表示 –  [!DNL Commerce] はじめる前に](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html)
+[Web サイト、ストア、表示 –  [!DNL Commerce]  はじめる前に ](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html)
 
-[範囲設定 –  [!DNL Commerce] はじめる前に](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html#scope-settings)
+[ 範囲設定  [!DNL Commerce]  はじめる前に ](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html#scope-settings)

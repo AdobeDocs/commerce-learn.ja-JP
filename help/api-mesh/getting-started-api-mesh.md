@@ -1,8 +1,8 @@
 ---
 title: API メッシュの基本を学ぶ
-description: Adobe Commerceで API メッシュを使用する方法と [!DNL Adobe App Builder]. Adobe App Builder のインストール、プロジェクトの操作、GraphQL リバースプロキシの作成などについて説明します。
-landing-page-description: Adobe Commerceで API メッシュを使用する方法と [!DNL Adobe App Builder]. Adobe IO のインストール、プロジェクトの操作、graphql リバースプロキシの作成などについて説明します。
-short-description: Adobe Commerceで API メッシュを使用する方法と [!DNL Adobe App Builder]. Adobe IO のインストール、プロジェクトの操作、graphql リバースプロキシの作成などについて説明します。
+description: Adobe Commerceと  [!DNL Adobe App Builder] で API メッシュを使用する方法について説明します。 Adobe App Builder のインストール、プロジェクトの操作、GraphQL リバースプロキシの作成などについて説明します。
+landing-page-description: Adobe Commerceと  [!DNL Adobe App Builder] で API メッシュを使用する方法について説明します。 Adobe IO のインストール、プロジェクトの操作、graphql リバースプロキシの作成などについて説明します。
+short-description: Adobe Commerceと  [!DNL Adobe App Builder] で API メッシュを使用する方法について説明します。 Adobe IO のインストール、プロジェクトの操作、graphql リバースプロキシの作成などについて説明します。
 kt: 11802
 doc-type: tutorial
 audience: all
@@ -27,11 +27,11 @@ Adobe Developer App Builderの API メッシュを初めて使用する場合は
 
 API メッシュは、複数のデータソースを組み合わせて、アプリケーションが使用する 1 つの応答を取得します。
 
-[完全な API メッシュのドキュメントを表示](https://developer.adobe.com/graphql-mesh-gateway/gateway/overview/){target="_blank"}
+[ 完全な API メッシュのドキュメントを表示 ](https://developer.adobe.com/graphql-mesh-gateway/gateway/overview/){target="_blank"}
 
 ## このビデオの目的は誰ですか。
 
-* API メッシュを初めて使用する開発者、または [!DNL Adobe Commerce] の使用経験が限られているユーザー [Adobe I/O Runtime](https://developer.adobe.com/runtime/docs/guides/overview/){target="_blank"} と API メッシュです。
+* API メッシュを初めて使用するデベロッパー、または [Adobe I/O Runtime](https://developer.adobe.com/runtime/docs/guides/overview/){target="_blank"} と API メッシュを使用した経験が限られている [!DNL Adobe Commerce]。
 
 ## ビデオコンテンツ
 
@@ -50,7 +50,7 @@ Commerce アプリケーションには、REST API とGraphQL エンドポイン
 
 AdobeApp Builderと API メッシュを使用する開発者は、リバースプロキシとは何かを理解する必要はありません。 ただし、AdobeApp Builderに関連する全体的な機能に興味がある場合は、次の資料を使用してください。
 
-* [リバースプロキシとは](https://www.imperva.com/learn/performance/reverse-proxy/){target="_blank"}
-* [リバースプロキシとは何か、そしてそれが重要な理由](https://blog.hubspot.com/website/reverse-proxy){target="_blank"}
+* [ リバースプロキシと ](https://www.imperva.com/learn/performance/reverse-proxy/){target="_blank"}
+* [ リバースプロキシとは何か、そしてそれが重要な理由は何ですか ](https://blog.hubspot.com/website/reverse-proxy){target="_blank"}
 
 {{$include /help/_includes/api-mesh-related-links.md}}

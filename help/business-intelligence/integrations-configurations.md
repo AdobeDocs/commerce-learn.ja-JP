@@ -1,6 +1,6 @@
 ---
-title: Adobe Commerce Intelligence の統合といくつかの基本設定
-description: Adobe Commerce Intelligence 統合と、レポートおよびダッシュボードの作成に役立つ設定について説明します
+title: Adobe Commerce Intelligenceの統合といくつかの基本設定
+description: Adobe Commerce Intelligenceの統合と、レポートおよびダッシュボードの作成に役立つ設定について説明します
 feature: Cloud
 topic: Commerce, Administration
 solution: Commerce,Commerce Intelligence
@@ -19,9 +19,10 @@ ht-degree: 0%
 
 ---
 
-# Adobe Commerce Intelligence の統合と設定
+# Adobe Commerce Intelligenceの統合と設定
 
-このチュートリアルでは、Adobe Commerce Intelligence の「データを管理」タブの概要を示し、統合、Data Warehouseおよびレポート機能を設定する方法について説明します。&#x200B;
+このチュートリアルでは、Adobe Commerce Intelligenceの「データを管理」タブの概要を示し、統合、Data Warehouseおよびレポート機能を設定する方法について説明します。
+&#x200B;
 事前定義済みの統合、標準統合、プレミアム統合などの統合のオプションおよびカスタム統合を追加する機能について説明します。
 また、テーブルをData Warehouseに同期するプロセス、新しいテーブルと列を追加するプロセス、レポート目的で指標とフィルターを作成するプロセスについても説明します。
 

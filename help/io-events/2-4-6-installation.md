@@ -1,6 +1,6 @@
 ---
 title: Adobe Commerce 2.4.6 の IO イベントをインストールする方法を説明します
-description: Adobe Developer App Builder で使用するために、Adobe Commerce 2.4.6 で IO イベントに必要なモジュールをインストールする方法を説明します
+description: Adobe Developer App Builderで使用するために、Adobe Commerce 2.4.6 で IO イベントに必要なモジュールをインストールする方法を説明します
 landing-page-description: Adobe Commerce 2.4.6 で必要な複数のモジュールをインストールする方法を説明します。
 short-description: Adobe Commerce 2.4.6 で必要な複数のモジュールをインストールする方法を説明します。
 kt: 11887
@@ -22,11 +22,11 @@ ht-degree: 0%
 
 # Adobe Commerce 2.4.6 のインストール
 
-Composer for version 2.4.6 を使用してAdobe Commerceに複数の新しいモジュールをインストールする方法を説明します。その他のドキュメントの参照先 [Adobe CommerceのAdobe I/Oイベントのインストール](https://developer.adobe.com/commerce/events/get-started/installation/){target="_blank"}.
+Composer for version 2.4.6 を使用してAdobe Commerceに複数の新しいモジュールをインストールする方法を説明します。追加ドキュメントについては、[Adobe CommerceのAdobe I/Oイベントのインストール ](https://developer.adobe.com/commerce/events/get-started/installation/){target="_blank"} を参照してください。
 
 ## このビデオの目的は誰ですか。
 
-* I/O イベントを使用してAdobe CommerceとAdobe Developer App Builder を初めて使用する開発者。
+* I/O イベントを使用してAdobe CommerceとAdobe Developer App Builderを初めて使用する開発者。
 
 ## ビデオコンテンツ {#video-content}
 
@@ -56,7 +56,7 @@ bin/magento setup:upgrade && bin/magento setup:di:compile
 composer info magento/ece-tools
 ```
 
-Commerce Cloud `.magento.env.yaml`:
+Commerce Cloud`.magento.env.yaml`:
 
 ```yaml
 stage:

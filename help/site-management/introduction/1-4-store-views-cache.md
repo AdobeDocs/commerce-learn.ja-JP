@@ -1,5 +1,5 @@
 ---
-title: “[!DNL Commerce] ビジネスユーザー向け – ストアビューとキャッシュのクリア」
+title: "ビジネスユーザー向けの [!DNL Commerce] - ストア表示とキャッシュのクリア"
 description: ストア表示を作成し、キャッシュをクリアする方法を説明します。
 kt: 5761
 doc-type: video
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Commerce] ビジネスユーザー向け – ストアの表示とキャッシュのクリア
+# ビジネスユーザー向けの [!DNL Commerce] - ストアの表示とキャッシュのクリア
 
 このビデオの内容は次のとおりです。
 
@@ -34,6 +34,6 @@ ht-degree: 0%
 
 ## その他のリソース
 
-[Web サイト、ストア、表示 –  [!DNL Commerce] はじめる前に](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html)
+[Web サイト、ストア、表示 –  [!DNL Commerce]  はじめる前に ](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html)
 
-[キャッシュ管理 –  [!DNL Commerce] 管理システムガイド](https://experienceleague.adobe.com/docs/commerce-admin/systems/tools/cache-management.html)
+[ キャッシュ管理  [!DNL Commerce]  管理システムガイド ](https://experienceleague.adobe.com/docs/commerce-admin/systems/tools/cache-management.html)

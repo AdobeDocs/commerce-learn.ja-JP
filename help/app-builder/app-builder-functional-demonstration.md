@@ -1,8 +1,8 @@
 ---
-title: App Builder の機能デモ
-description: Adobe Commerceで使用されるAdobe Developer App Builder について説明し、その技術的デモを示します
-landing-page-description: Adobe Commerceで使用されるAdobe Developer App Builder について説明し、その技術的デモを示します
-short-description: Adobe Commerceで使用されるAdobe Developer App Builder について説明し、その技術的デモを示します
+title: App Builderの機能デモ
+description: Adobe Commerceで使用されるAdobe Developer App Builderについて説明し、その技術的デモを示します
+landing-page-description: Adobe Commerceで使用されるAdobe Developer App Builderについて説明し、その技術的デモを示します
+short-description: Adobe Commerceで使用されるAdobe Developer App Builderについて説明し、その技術的デモを示します
 kt: 11762
 doc-type: tutorial
 audience: all
@@ -19,11 +19,11 @@ ht-degree: 0%
 
 ---
 
-# App Builder の機能デモ
+# App Builderの機能デモ
 
-App Builder でAdobe Commerceを使用する方法について詳しくは、以下のビデオを参照してください。このビデオでは、Adobe CommerceをAmazon Seller Central に接続する方法を説明しています。 このデモでは、App Builder で使用されるAdobe Commerceのイベントを使用して、Amazon Marketplace との継続的な統合を可能にします。 この機能デモでは、この統合の仕組みと、AdobeApp Builder の可能性について説明します。
+Adobe CommerceでAdobe Commerceを使用する方法について詳しくは、App BuilderをAmazon Seller Central に接続する方法を示す以下のビデオをご覧ください。 このデモでは、App Builderで使用されるAdobe Commerceのイベントを使用して、Amazon Marketplace との継続的な統合を可能にします。 この機能デモでは、この統合がどのように機能するかを説明し、AdobeApp Builderの可能性を調査します。
 
-## Adobe Commerceの App Builder {#app-builder-functional-demonstration}
+## Adobe CommerceのApp Builder {#app-builder-functional-demonstration}
 
 >[!VIDEO](https://video.tv.adobe.com/v/3413502?learn=on)
 

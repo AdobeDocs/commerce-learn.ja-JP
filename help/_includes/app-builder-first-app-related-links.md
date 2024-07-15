@@ -1,6 +1,6 @@
 ---
-title: App Builder の最初のアプリ関連ページ
-description: App Builder の最初のアプリセクションの関連ページへのリンク
+title: App Builderの最初のアプリ関連ページ
+description: App Builderの最初のアプリの節の関連ページへのリンク
 source-git-commit: 021098545e4666f43f02452358464701f30002fd
 workflow-type: tm+mt
 source-wordcount: '49'
@@ -8,7 +8,7 @@ ht-degree: 2%
 
 ---
 
-# App Builder の最初のアプリ関連リンク
+# App Builderの最初のアプリ関連リンク
 
 ## App Builder – 最初のアプリ関連ページを作成します
 
@@ -21,4 +21,4 @@ ht-degree: 2%
 * [ローカルテスト](../app-builder/first-app/testing-locally.md)
 * [App Builder URL を使用したテスト](../app-builder/first-app/testing-app-builder-url.md)
 * [まとめ](../app-builder/first-app/conclusion.md)
-* [サンプルモジュールソースコード](https://github.com/magento/app-builder-samples){target="_blank"}
+* [ サンプルモジュールソースコード ](https://github.com/magento/app-builder-samples){target="_blank"}

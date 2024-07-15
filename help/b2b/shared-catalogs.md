@@ -36,5 +36,5 @@ Adobe Commerceの B2B では、様々な会社のカスタム価格でゲート�
 
 ## その他のリソース
 
-- [共有カタログの操作](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/catalog-shared.html){target="_blank"}
-- [共有カタログの作成](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/define/catalog-shared-create.html){target="_blank"}
+- [ 共有カタログの操作 ](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/catalog-shared.html){target="_blank"}
+- [ 共有カタログの作成 ](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/define/catalog-shared-create.html){target="_blank"}

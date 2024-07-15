@@ -1,7 +1,7 @@
 ---
 title: テストフォルダー
 description: このサンプルアプリケーションのテストフォルダーにあるファイルのタイプについて説明します。
-landing-page-description: Adobe Commerceで使用されるAdobe Developer App Builder と、テストフォルダーにあるファイルのタイプについて説明します。
+landing-page-description: Adobe Commerceで使用されるAdobe Developer App Builderと、テストフォルダーに配置されるファイルのタイプについて説明します。
 kt: 12424
 doc-type: tutorial
 audience: all
@@ -20,17 +20,17 @@ ht-degree: 0%
 
 # テストフォルダーの詳細 {#test-folder}
 
-この `test` このサンプルアプリのフォルダーには、1 つの JavaScript ファイルが含まれています。これは、アプリケーションで単体テストを実行する際に使用されます。
+このサンプルアプリの `test` フォルダーには、1 つのJavaScript ファイルが含まれています。このファイルは、アプリケーションで単体テストを実行する際に使用されます。
 
 これは簡単な例であり、特定のアプリケーションに対して包括的なテストを作成するように拡張できます。
 
 ## このビデオの目的は誰ですか。
 
-* Adobe Commerceを初めて使用する開発者で、AdobeApp Builder を使用した経験が限られている人が、 `test` フォルダー。
+* Adobe Commerceを初めて使用する開発者で、`test` フォルダーについて知りたいAdobeApp Builderの使用経験が限られている人。
 
 ## ビデオコンテンツ
 
-* を使用する理由 `test` フォルダー？
+* `test` フォルダーを使用する理由
 * 単体テストファイルとそのコンポーネントの簡単な説明
 * エンドツーエンドテストの概要
 

@@ -1,6 +1,6 @@
 ---
-title: “[!DNL Commerce] ビジネスユーザーの場合 – データグリッド」
-description: でデータグリッドを使用する方法を説明します [!DNL Commerce Admin].
+title: ビジネスユーザー向け [!DNL Commerce] - データグリッド
+description: ' [!DNL Commerce Admin] でデータグリッドを使用する方法を説明します。'
 kt: 5759
 doc-type: video
 activity: use
@@ -17,11 +17,11 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Commerce] ビジネスユーザーの場合 – データグリッド
+# ビジネスユーザー向けの [!DNL Commerce] - データグリッド
 
 このビデオの内容は次のとおりです。
 
-- でのデータグリッドの操作 [!DNL Commerce Admin]
+- [!DNL Commerce Admin] でのデータグリッドの操作
 
 ## このビデオの目的は誰ですか。
 
@@ -31,10 +31,10 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->このビデオの内容は、2.3.1 リリースを反映しています。 以降のリリースのアップデートについて詳しくは、 [リリースノート](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/overview.html).
+>このビデオの内容は、2.3.1 リリースを反映しています。 以降のリリースのアップデートについて詳しくは、[ リリースノート ](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/overview.html) を参照してください。
 
 >[!VIDEO](https://video.tv.adobe.com/v/35960?quality=12&learn=on)
 
 ## その他のリソース
 
-[管理グリッド制御 –  [!DNL Commerce] はじめる前に](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/tools/admin-grid-controls.html)
+[ 管理グリッドコントロール - [!DNL Commerce]  はじめる前に ](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/tools/admin-grid-controls.html)

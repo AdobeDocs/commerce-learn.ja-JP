@@ -19,7 +19,7 @@ ht-degree: 0%
 
 # 製品属性の作成
 
-製品属性の追加は、で最も一般的な操作の 1 つです [!DNL Commerce]. 属性は、製品に関連する多くの実用的なタスクを解決する強力な方法です。 製品に dropdown-type 属性を追加する簡単なプロセスがあります。
+製品属性の追加は、[!DNL Commerce] で最も一般的な操作の 1 つです。 属性は、製品に関連する多くの実用的なタスクを解決する強力な方法です。 製品に dropdown-type 属性を追加する簡単なプロセスがあります。
 
 このビデオの内容は次のとおりです。
 
@@ -64,7 +64,7 @@ ComponentRegistrar::register(
 
 >[!NOTE]
 >
->モジュールが宣言型スキーマを使用していて、ほとんどのモジュールが 2.3.0 以降である場合、setup_version を省略する必要があります。 ただし、従来のプロジェクトがある場合は、この方法が使用されることがあります。  参照： [developer.adobe.com](https://developer.adobe.com/commerce/php/development/build/component-name/#add-a-modulexml-file){target="_blank"} を参照してください。
+>モジュールが宣言型スキーマを使用していて、ほとんどのモジュールが 2.3.0 以降である場合、setup_version を省略する必要があります。 ただし、従来のプロジェクトがある場合は、この方法が使用されることがあります。  詳しくは、[developer.adobe.com](https://developer.adobe.com/commerce/php/development/build/component-name/#add-a-modulexml-file){target="_blank"} を参照してください。
 
 
 ```xml
@@ -229,6 +229,6 @@ class InstallData implements InstallDataInterface
 
 ## 役に立つリソース
 
-[製品属性の作成](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/backend-development/add-product-attribute.html)
+[ 製品属性の作成 ](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/backend-development/add-product-attribute.html)
 
-[カスタムテキストフィールド属性の追加](https://developer.adobe.com/commerce/php/tutorials/admin/custom-text-field-attribute/)
+[ カスタムテキストフィールド属性の追加 ](https://developer.adobe.com/commerce/php/tutorials/admin/custom-text-field-attribute/)

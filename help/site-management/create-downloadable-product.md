@@ -34,7 +34,7 @@ REST API とAdobe Commerce Admin を使用して、ダウンロード可能な�
 
 ## 許可されているダウンロード可能ドメイン
 
-ダウンロードを許可するドメインを指定してください。 ドメインがプロジェクトのに追加されます `env.php` コマンドラインからファイルを使用します。 この `env.php` ファイルの詳細：ダウンロード可能なコンテンツを含めることができるドメイン。 ダウンロード可能な製品が REST API を使用して作成されると、エラーが発生します _次の前_  この `php.env` ファイルは次のように更新されます。
+ダウンロードを許可するドメインを指定してください。 ドメインは、コマンドラインを使用してプロジェクトの `env.php` ファイルに追加されます。 `env.php` ファイルは、ダウンロード可能なコンテンツを含めることができるドメインの詳細を示します。 ダウンロード可能な製品が REST API を使用して作成された場合 _以前_、`php.env` ファイルが更新されると、エラーが発生します。
 
 ```bash
 {
@@ -42,9 +42,9 @@ REST API とAdobe Commerce Admin を使用して、ダウンロード可能な�
 }
 ```
 
-ドメインを設定するには、サーバーに接続します。 `bin/magento downloadable:domains:add www.example.com`
+ドメインを設定するには、サーバーに接続します：`bin/magento downloadable:domains:add www.example.com`
 
-これが完了すると、 `env.php` 内で変更されます _downloadable_domains_ 配列。
+これが完了すると、`env.php` は _downloadable_domains_ 配列内で変更されます。
 
 ```php
     'downloadable_domains' => [
@@ -52,18 +52,18 @@ REST API とAdobe Commerce Admin を使用して、ダウンロード可能な�
     ],
 ```
 
-これで、ドメインがに追加されました `env.php`ダウンロード可能な商品は、Adobe Commerce管理または REST API を使用して作成できます。
+ドメインが `env.php` に追加されたので、Adobe Commerce管理者または REST API を使用して、ダウンロード可能な商品を作成できます。
 
-参照： [設定リファレンス](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/files/config-reference-envphp.html#downloadable_domains) を参照してください。
+詳しくは、[ 設定リファレンス ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/files/config-reference-envphp.html#downloadable_domains) を参照してください。
 
 >[!IMPORTANT]
->Adobe Commerceの一部のバージョンでは、Adobe Commerce管理者で商品を編集すると、次のエラーが発生することがあります。 製品は REST API を使用して作成されますが、リンクされたダウンロードにはがあります `null` 価格。
+>Adobe Commerceの一部のバージョンでは、Adobe Commerce管理者で商品を編集すると、次のエラーが発生することがあります。 製品は REST API を使用して作成されますが、リンクされたダウンロードの価格は `null` です。
 
-`Deprecated Functionality: number_format(): Passing null to parameter #1 ($num) of type float is deprecated in /app/vendor/magento/module-downloadable/Ui/DataProvider/Product/Form/Modifier/Data/Links.php on line 228`.
+`Deprecated Functionality: number_format(): Passing null to parameter #1 ($num) of type float is deprecated in /app/vendor/magento/module-downloadable/Ui/DataProvider/Product/Form/Modifier/Data/Links.php on line 228`。
 
-このエラーを修正するには、リンク更新 API を使用します。 `POST V1/products/{sku}/downloadable-links.`
+このエラーを修正するには、リンク更新 API を使用します：`POST V1/products/{sku}/downloadable-links.`
 
-を参照してください。 [cURL を使用した製品ダウンロードリンクのアップデート](#update-downloadable-links) を参照してください。
+詳しくは、[cURL を使用した製品ダウンロードリンクのアップデート ](#update-downloadable-links) の節を参照してください。
 
 ## cURL を使用してダウンロード可能な製品を作成する（リモートサーバーからダウンロード）
 
@@ -116,20 +116,20 @@ curl --location '{{your.url.here}}/rest/default/V1/products' \
 
 この例では、ファイルがAdobe Commerce アプリケーションと同じサーバーに保存されている場合に、cURL を使用してAdobe Commerce Admin からダウンロード可能な商品を作成する方法を示しています。
 
-このユースケースは、カタログを管理する管理者が選択した場合です `upload file`を選択すると、ファイルはに転送されます。 `pub/media/downloadable/files/links/` ディレクトリ。  自動化では、次のパターンに基づいてファイルが作成され、それぞれの場所に移動されます。
+このユースケースでは、カタログを管理する管理者が `upload file` を選択すると、ファイルは `pub/media/downloadable/files/links/` ディレクトリに転送されます。  自動化では、次のパターンに基づいてファイルが作成され、それぞれの場所に移動されます。
 
 - アップロードされた各ファイルは、ファイル名の最初の 2 文字に基づいてフォルダーに保存されます。
 - アップロードが開始されると、Commerce アプリケーションは既存のフォルダーを作成するか、使用してファイルを転送します。
-- ファイルをダウンロードする場合、 `link_file` パスのセクションは、に追加されたパスの部分を使用します `pub/media/downloadable/files/links/` ディレクトリ。
+- ファイルのダウンロード時に、パスの `link_file` セクションは、`pub/media/downloadable/files/links/` ディレクトリに追加されたパスの部分を使用します。
 
-例えば、アップロードされたファイルの名前がの場合 `download-example.zip`:
+例えば、アップロードされたファイルの名前が `download-example.zip` の場合は、次のようになります。
 
-- ファイルがパスにアップロードされます `pub/media/downloadable/files/links/d/o/`.
-サブディレクトリ `/d` および `/d/o` が存在しない場合は作成されます。
+- ファイルがパス `pub/media/downloadable/files/links/d/o/` にアップロードされます。
+サブディレクトリ `/d` および `/d/o` は、存在しない場合に作成されます。
 
-- ファイルの最終的なパスはです。 `/pub/media/downloadable/files/links/d/o/download-example.zip`.
+- ファイルの最終パスは `/pub/media/downloadable/files/links/d/o/download-example.zip` です。
 
-- この `link_url` この例の値はです。 `d/o/download-example.zip`
+- この例の `link_url` 値は `d/o/download-example.zip` です
 
 ```bash
 curl --location '{{your.url.here}}/rest/default/V1/products' \
@@ -181,8 +181,8 @@ curl --location '{{your.url.here}}/rest/default/V1/products/POSTMAN-download-pro
 
 ## Postmanを使用した製品のアップデート {#update-downloadable-links}
 
-エンドポイントの使用 `rest/all/V1/products/{sku}/downloadable-links`
-この `SKU` は、製品の作成時に生成された製品 ID です。 例えば、以下のコードサンプルでは、この値は 39 ですが、web サイトの ID を使用するように更新してください。 これにより、ダウンロード可能な製品のリンクが更新されます。
+エンドポイント `rest/all/V1/products/{sku}/downloadable-links` の使用
+`SKU` は、製品の作成時に生成された製品 ID です。 例えば、以下のコードサンプルでは、この値は 39 ですが、web サイトの ID を使用するように更新してください。 これにより、ダウンロード可能な製品のリンクが更新されます。
 
 ```json
 {
@@ -207,7 +207,7 @@ curl --location '{{your.url.here}}/rest/default/V1/products/POSTMAN-download-pro
 
 ## CURL を使用した製品ダウンロードリンクのアップデート
 
-cURL を使用して製品のダウンロードリンクを更新すると、その URL には、更新中の製品の SKU が含まれます。  次のコードの例では、SKU はです `abcd12345`. コマンドを送信したら、値を更新する製品の SKU に一致するように変更します。
+cURL を使用して製品のダウンロードリンクを更新すると、その URL には、更新中の製品の SKU が含まれます。  次のコードの例では、SKU は `abcd12345` です。 コマンドを送信したら、値を更新する製品の SKU に一致するように変更します。
 
 ```bash
 curl --location '{{your.url.here}}/rest/all/V1/products/abcd12345/downloadable-links' \
@@ -236,7 +236,7 @@ curl --location '{{your.url.here}}/rest/all/V1/products/abcd12345/downloadable-l
 
 ## その他のリソース
 
-- [ダウンロード可能な製品タイプ](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/types/product-create-downloadable.html){target="_blank"}
-- [ダウンロード可能なドメインの設定ガイド](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/files/config-reference-envphp.html#downloadable_domains){target="_blank"}
-- [Adobe Developer REST チュートリアル](https://developer.adobe.com/commerce/webapi/rest/tutorials/prerequisite-tasks/){target="_blank"}
+- [ ダウンロード可能な製品タイプ ](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/types/product-create-downloadable.html){target="_blank"}
+- [ ダウンロード可能なドメインの設定ガイド ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/files/config-reference-envphp.html#downloadable_domains){target="_blank"}
+- [Adobe Developer REST チュートリアル ](https://developer.adobe.com/commerce/webapi/rest/tutorials/prerequisite-tasks/){target="_blank"}
 - [Adobe Commerce REST ReDoc](https://adobe-commerce.redoc.ly/2.4.6-admin/tag/products#operation/PostV1Products){target="_blank"}

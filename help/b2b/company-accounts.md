@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # 会社アカウントの管理
 
-B2B のマーチャントの場合、 _[!UICONTROL Companies]_ページには、現在のすべての会社アカウントとそのステータスが一覧表示されます。 ここで会社アカウントを管理でき、承認待ちのリクエストがリストの上部に表示されます。 標準のワークスペースコントロールを使用すると、リストのフィルタリング、列のレイアウトの変更、ビューの保存、データの書き出しを行うことができます。
+B2B マーチャントの場合、_[!UICONTROL Companies]_のページには、現在のすべての会社アカウントとそのステータスがリストされます。 ここで会社アカウントを管理でき、承認待ちのリクエストがリストの上部に表示されます。 標準のワークスペースコントロールを使用すると、リストのフィルタリング、列のレイアウトの変更、ビューの保存、データの書き出しを行うことができます。
 
 {{b2b-feature}}
 
@@ -36,5 +36,5 @@ B2B のマーチャントの場合、 _[!UICONTROL Companies]_ページには、
 
 ## その他のリソース
 
-- [会社アカウント](https://experienceleague.adobe.com/docs/commerce-admin/b2b/companies/account-companies.html){target="_blank"}
-- [会社アカウントの管理](https://experienceleague.adobe.com/docs/commerce-admin/b2b/companies/account-company-manage.html){target="_blank"}
+- [ 会社アカウント ](https://experienceleague.adobe.com/docs/commerce-admin/b2b/companies/account-companies.html){target="_blank"}
+- [ 会社アカウントの管理 ](https://experienceleague.adobe.com/docs/commerce-admin/b2b/companies/account-company-manage.html){target="_blank"}

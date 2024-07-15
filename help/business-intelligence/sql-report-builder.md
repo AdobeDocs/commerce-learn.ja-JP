@@ -1,8 +1,8 @@
 ---
-title: Commerce Intelligence - SQL Report Builder
-description: Commerce Intelligence SQL Report Builderを使用して、データウェアハウスに直接クエリを実行し、結果を表示して、それらをグラフにすばやく変換する方法を説明します。
-landing-page-description: このビデオでは、Commerce Intelligence SQL Report Builderを使用して、データウェアハウスに対する直接クエリを実行し、結果を表示して、それらをグラフにすばやく変換する方法を説明します。
-short-description: このビデオでは、Commerce Intelligence SQL Report Builderを使用して、データウェアハウスに対する直接クエリを実行し、結果を表示して、それらをグラフにすばやく変換する方法を説明します。
+title: COMMERCE INTELLIGENCE - SQL REPORT BUILDER
+description: Commerce Intelligence SQL Report Builderを使用して、データウェアハウスに対して直接クエリを実行し、結果を表示して、それらをグラフにすばやく変換する方法を説明します。
+landing-page-description: このビデオでは、Commerce Intelligence SQL Report Builderを使用して、データウェアハウスに直接クエリし、結果を表示して、それらをグラフにすばやく変換する方法を説明します。
+short-description: このビデオでは、Commerce Intelligence SQL Report Builderを使用して、データウェアハウスに直接クエリし、結果を表示して、それらをグラフにすばやく変換する方法を説明します。
 kt: 10288
 doc-type: feature video
 solution: Commerce,Commerce Intelligence
@@ -37,7 +37,7 @@ SQL Report Builderを使用すると、データウェアハウスに対して�
 
 >[!TIP]
 >
->Commerce Intelligence を初めて使用する場合、 [Adobe Commerce Intelligence ユーザーガイド](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/guide-overview.html){target="_blank"} は、データの集計、分析、ビジュアライゼーションを通じて、より優れたビジネスインサイトと結果を推進するための完全な概要を提供します。
+>Commerce Intelligenceを初めて使用する場合は、[Adobe Commerce Intelligence ユーザーガイド ](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/guide-overview.html){target="_blank"} で、データの集計、分析、ビジュアライゼーションを通じてビジネスインサイトや結果を向上させる方法の概要を参照してください。
 
 ## このビデオの目的は誰ですか。
 
@@ -50,6 +50,6 @@ SQL Report Builderを使用すると、データウェアハウスに対して�
 
 ## 役に立つリソース
 
-[SQL Report Builderの使用 – Commerce Intelligence ユーザーガイド](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/analyze/sql/sql-rpt-bldr.html)
+[SQL Report Builderの使用 – Commerce Intelligence ユーザーガイド ](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/analyze/sql/sql-rpt-bldr.html)
 
-[SQL クエリからのビジュアライゼーションの作成 – Commerce Intelligence ユーザーガイド](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/tutorials/create-visuals-from-sql.html)
+[SQL クエリからのビジュアライゼーションの作成 – Commerce Intelligence ユーザーガイド ](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/tutorials/create-visuals-from-sql.html)

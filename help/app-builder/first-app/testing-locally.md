@@ -20,11 +20,11 @@ ht-degree: 0%
 
 # ローカルテスト {#testing-locally}
 
-新しいAdobe Developer App Builder アプリケーションをローカルにテストする方法について説明します。
+新しいAdobe Developer App Builder アプリケーションをローカルでテストする方法について説明します。
 
 ## このビデオの目的は誰ですか。
 
-* 初めてのAdobe Commerce App Builder アプリをテストする準備が整ったAdobeの App Builder を使用した、経験が限られたAdobe Developerを初めて使用する開発者。
+* Adobe Commerceを初めて使用する開発者で、初めてのAdobe Developer App Builder アプリをテストする準備が整ったAdobeApp Builderを使用した経験が限られている人。
 
 ## ビデオコンテンツ
 

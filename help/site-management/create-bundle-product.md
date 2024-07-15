@@ -22,7 +22,7 @@ ht-degree: 0%
 
 バンドル製品は、親製品の下の複数の製品をグループ化する方法です。 これらの子製品は、一連の定義済み製品とすることも、顧客に柔軟な設定オプションを提供するいくつかのバリエーションを提供することもできます。 バンドル製品タイプは設定に少し時間がかかり、設定する前に計画を立てる必要があります。 ただし、バンドル製品を提供すると、顧客が製品の選択をカスタマイズしやすくなるので、ショッピングエクスペリエンスが向上します。
 
-例えば、という製品バンドルを提供できます。 `Learning to surf` Web ストア内。 バンドルは、使用可能なオプションを指定する割り当てられた子製品のコンテナとして機能する親製品です。
+例えば、`Learning to surf` という製品バンドルを web ストアで提供できます。 バンドルは、使用可能なオプションを指定する割り当てられた子製品のコンテナとして機能する親製品です。
 
 - 標準的なサーフボード
 - サーフボードの一般的なリード
@@ -69,7 +69,7 @@ Adobe Commerce Admin からバンドル商品を作成する場合、最初に�
 
 リクエストを送信する前に、ご使用の環境の値で例を更新してください。
 
-- 変更 `"attribute-set": 4` 置換する `4` 属性を使用して、環境から ID を設定します。
+- `"attribute-set": 4` を変更して、`4` を環境の属性セット ID に置き換えます。
 
 ```bash
 curl --location '{{your.url.here}}/rest/default/V1/products' \
@@ -192,7 +192,7 @@ curl --location '{{your.url.here}}/rest/default/V1/products' \
 
 リクエストを送信する前に、ご使用の環境の値で例を更新してください。
 
-- 変更 `"attribute_set_id": 4,` および置換 `4` 属性を使用して、環境から id を設定します。
+- `"attribute_set_id": 4,` を変更し、`4` を環境の属性セット id に置き換えます。
 
 ```bash
 curl --location '{{your.url.here}}/rest/default/V1/products' \
@@ -321,7 +321,7 @@ curl --location --request DELETE '{{your.url.here}}/rest/default/V1/bundle-produ
 
 バンドル製品オプションを更新する場合は、この製品に関連付けるすべてのオプションを必ず含めてください。 元のオプションセットに 3 つの商品が含まれ、1 つが削除された場合、POSTリクエストに 3 つのオプションすべてを含めて、商品バンドルがすべてのオプションを確実に指定するようにします。 削除したオプションのみを含めた場合、更新された製品バンドルにはそのオプションのみが含まれます。
 
-バンドル製品の作成からの応答を確認して、オプション ID を見つけます。 この応答では、 `option_id` 等しい `35`.
+バンドル製品の作成からの応答を確認して、オプション ID を見つけます。 その応答では、`option_id` は `35` です。
 
 ```json
 ...
@@ -429,7 +429,7 @@ curl --location '{{your.url.here}}/rest/default/V1/bundle-products/options/add' 
 
 ## その他のリソース
 
-- [バンドル製品の作成チュートリアル](https://developer.adobe.com/commerce/webapi/rest/tutorials/bundle-product/){target="_blank"}
-- [バンドル製品](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/types/product-create-bundle.html){target="_blank"}
-- [Adobe Developer REST チュートリアル](https://developer.adobe.com/commerce/webapi/rest/tutorials/prerequisite-tasks/){target="_blank"}
+- [ バンドル製品の作成のチュートリアル ](https://developer.adobe.com/commerce/webapi/rest/tutorials/bundle-product/){target="_blank"}
+- [ バンドル製品 ](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/types/product-create-bundle.html){target="_blank"}
+- [Adobe Developer REST チュートリアル ](https://developer.adobe.com/commerce/webapi/rest/tutorials/prerequisite-tasks/){target="_blank"}
 - [Adobe Commerce REST ReDoc](https://adobe-commerce.redoc.ly/2.4.6-admin/tag/products#operation/PostV1Products){target="_blank"}

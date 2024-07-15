@@ -1,5 +1,5 @@
 ---
-title: '''[!DNL Commerce] ビデオとTutorials'
+title: '[!DNL Commerce] ビデオとTutorials'
 description: Adobe CommerceとMagento Open Sourceのビデオとチュートリアルのコレクションです
 last-substantial-update: 2023-01-19T00:00:00Z
 feature: B2B, GraphQL, REST, Commerce Intelligence, Cloud, Best Practices, API Mesh, App Builder
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # Commerce チュートリアル {#videos}
 
-へようこそ [!DNL Commerce] ビデオとチュートリアルコレクション。 これらのリソースを [詳細を見る](https://experienceleague.adobe.com/docs/commerce.html)は、Adobe CommerceとMagento Open Sourceを使用して e コマースビジネスをサポートする方法を学ぶ機会を提供します。 このコレクションは、バックエンド開発者、フロントエンド開発者、システム管理者、マーチャント、組織内のその他の役割に役立つコンテンツを提供するように設計されています。
+[!DNL Commerce] のビデオとチュートリアルのコレクションへようこそ。 これらのリソースを [ ドキュメント ](https://experienceleague.adobe.com/docs/commerce.html) と共に使用すると、Adobe CommerceとMagento Open Sourceを使用して e コマースビジネスをサポートする方法を学ぶことができます。 このコレクションは、バックエンド開発者、フロントエンド開発者、システム管理者、マーチャント、組織内のその他の役割に役立つコンテンツを提供するように設計されています。
 
 <div id="recs-overview-body-1"></div>
 <div id="recs-overview-body-2"></div>
@@ -27,10 +27,10 @@ ht-degree: 0%
 
 >[!TIP]
 >
->この [Commerce イベント](https://experienceleague.adobe.com/docs/commerce-events/events/overview.html) スペースを使用すると、オンデマンドで視聴できる録画されたイベントコンテンツにアクセスできます。
+>[Commerce イベント ](https://experienceleague.adobe.com/docs/commerce-events/events/overview.html) スペースから、オンデマンドで視聴できる録画済みイベント コンテンツにアクセスできます。
 
 ## その他のリソース
 
-- [マーチャントドキュメント](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)
-- [開発者向けドキュメント](https://developer.adobe.com/commerce)
-- [Adobeデジタルラーニングサービス - Adobe Commerce コースカタログ](https://learning.adobe.com/catalog.html?solution=Adobe%20Commerce)
+- [ マーチャントドキュメント ](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)
+- [ 開発者向けドキュメント ](https://developer.adobe.com/commerce)
+- [Adobeデジタルラーニングサービス - Adobe Commerce コースカタログ ](https://learning.adobe.com/catalog.html?solution=Adobe%20Commerce)

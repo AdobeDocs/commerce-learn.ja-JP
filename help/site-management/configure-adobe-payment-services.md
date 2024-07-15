@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Adobe Commerceの支払いサービスの設定
 
-Adobe CommerceとMagento Open Sourceの支払いサービスの使用を開始するには、いくつかのオンボーディング手順を完了する必要があります。 を視聴 _Adobe Commerceの支払いサービスの設定_ 使い始める方法の例を紹介するビデオ。
+Adobe CommerceとMagento Open Sourceの支払いサービスの使用を開始するには、いくつかのオンボーディング手順を完了する必要があります。 開始方法の例については、_Adobe Commerceの支払いサービスの設定_ ビデオをご覧ください。
 
 ## このビデオの目的は誰ですか。
 
@@ -33,6 +33,6 @@ Adobe CommerceとMagento Open Sourceの支払いサービスの使用を開始�
 
 ## その他のリソース
 
-- [Onboard Payment Services](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/onboard.html){target="_blank"}
-- [支払いサービスガイド](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/guide-overview.html){target="+blank"}
-- [Commerce サービスコネクタ](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html){target="+blank"}
+- [ 船上支払の業務 ](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/onboard.html){target="_blank"}
+- [ 支払いサービスガイド ](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/guide-overview.html){target="+blank"}
+- [Commerce サービスコネクタ ](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html){target="+blank"}

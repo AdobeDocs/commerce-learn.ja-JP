@@ -30,7 +30,7 @@ ht-degree: 0%
 
 REST API を使用して、設定可能な製品を作成します。
 
-1. の属性を取得します [属性セット](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/create/attribute-sets.html) 後続の API 呼び出しに ID 番号を使用する場合。
+1. [attribute set](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/create/attribute-sets.html) の属性を取得して、後続の API 呼び出しに ID 番号を使用します。
 1. 設定可能な商品で使用するシンプルな商品を作成します。
 1. 空の設定可能な商品を作成し、シンプルな商品を関連付けます。
 1. 設定可能な製品の製品属性を設定します。
@@ -85,7 +85,7 @@ Adobe Commerce管理から設定可能な商品を作成する場合、最初に
 ```
 
 
-属性 ID を取得して設定可能な製品を設定するには、 `attribute-sets/10/attributes` 次の cURL 要求の一部を置換 `10` を設定し、お使いの環境で ID を設定します。 このリクエストでは、GETメソッドを使用します。
+設定可能な製品を設定する属性 ID を取得するには、次の cURL リクエストの `attribute-sets/10/attributes` の部分を更新して、環境の属性セット ID`10` 置き換えます。 このリクエストでは、GETメソッドを使用します。
 
 ```bash
 curl --location '{{your.url.here}}rest/V1/products/attribute-sets/10/attributes' \
@@ -100,8 +100,8 @@ API を使用して最初のシンプルな商品を作成し、cURL を使用�
 
 リクエストを送信する前に、ご使用の環境の値で例を更新してください。
 
-- 変更 `"attribute-set": 10` 置換する `10` 属性を使用して、環境から ID を設定します。
-- 変更 `"value": "13"` 置換する `13` ご利用の環境から得られる値。
+- `"attribute-set": 10` を変更して、`10` を環境の属性セット ID に置き換えます。
+- `"value": "13"` を変更して、`13` をお使いの環境の値に置き換えます。
 
 ```bash
 curl --location '{{your.url.here}}/rest/default/V1/products' \
@@ -141,8 +141,8 @@ API を使用して、cURL を使用して次のPOSTリクエストを送信す�
 
 リクエストを送信する前に、ご使用の環境の値で例を更新してください。
 
-- 変更 `"attribute_set_id": 10,` および置換 `10` 属性を持つ、環境のから id を設定します。
-- 変更 `"value": "14"` および置換 `14` ご利用の環境から得られる値。
+- `"attribute_set_id": 10,` を変更し、`10` を環境内の属性セット id に置き換えます。
+- `"value": "14"` を変更し、`14` をお使いの環境の値に置き換えます。
 
 ```bash
 curl --location '{{your.url.here}}/rest/default/V1/products' \
@@ -182,8 +182,8 @@ cURL を使用して次のPOSTリクエストを送信し、3 つ目のシンプ
 
 リクエストを送信する前に、ご使用の環境の値で例を更新してください。
 
-- 変更 `"attribute_set_id": 10,` 置換する `10` 属性を使用して、環境から ID を設定します。
-- 変更 `"value": "15"` および置換 `15` ご利用の環境から得られる値。
+- `"attribute_set_id": 10,` を変更して、`10` を環境の属性セット ID に置き換えます。
+- `"value": "15"` を変更し、`15` をお使いの環境の値に置き換えます。
 
 ```bash
 curl --location '{{your.url.here}}/rest/default/V1/products' \
@@ -223,8 +223,8 @@ cURL を使用して次の設定リクエストを送信し、空のPOST可能�
 
 リクエストを送信する前に、ご使用の環境の値で例を更新してください。
 
-- 変更 `"attribute_set_id": 10,` および置換 `10` 属性を使用して、環境から id を設定します。
-- 変更 `"value": "93"` および置換 `93` ご利用の環境から得られる値。
+- `"attribute_set_id": 10,` を変更し、`10` を環境の属性セット id に置き換えます。
+- `"value": "93"` を変更し、`93` をお使いの環境の値に置き換えます。
 
 ```bash
 curl --location '{{your.url.here}}/rest/default/V1/products' \
@@ -254,7 +254,7 @@ curl --location '{{your.url.here}}/rest/default/V1/products' \
 
 cURL を使用して以下の設定リクエストを送信して、設定可能な商品に使用可能なPOSTを指定します。
 
-リクエストを送信する前に、を変更します `"attribute_id": 93,` 置換する `93` お使いの環境から取得した属性 id を使用します。
+リクエストを送信する前に、`"attribute_id": 93,` を変更して、`93` を環境の属性 id に置き換えます。
 
 ```bash
 curl --location '{{your.url.here}}/rest/default/V1/configurable-products/Kids-Hawaiian-Ukulele/options' \
@@ -290,7 +290,7 @@ curl --location '{{your.url.here}}/rest/default/V1/configurable-products/Kids-Ha
 
 次のPOSTリクエストを送信して、これらの単純な商品を設定可能な商品の子として追加します。 製品ごとに個別のリクエストを送信します。
 
-リクエストごとに、 `childSKU` 値と、追加する子製品の値。 次の例では、単純な製品を割り当てています `kids-Hawaiian-Ukulele-red` SKU を使用して設定可能な製品に `Kids-Hawaiian-Ukulele-red`.
+各リクエストで、`childSKU` の値を、追加する子製品の値に更新します。 次の例では、単純な製品 `kids-Hawaiian-Ukulele-red` を SKU`Kids-Hawaiian-Ukulele-red` を持つ設定可能な製品に割り当てます。
 
 
 ```bash
@@ -347,7 +347,7 @@ curl --location --request DELETE '{{your.url.here}}/rest/default/V1/configurable
 
 ## その他のリソース
 
-- [設定可能な製品チュートリアルの作成](https://developer.adobe.com/commerce/webapi/rest/tutorials/configurable-product/){target="_blank"}
-- [設定可能な製品](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/types/product-create-configurable.html){target="_blank"}
-- [Adobe Developer REST チュートリアル](https://developer.adobe.com/commerce/webapi/rest/tutorials/prerequisite-tasks/){target="_blank"}
+- [ 設定可能な製品の作成チュートリアル ](https://developer.adobe.com/commerce/webapi/rest/tutorials/configurable-product/){target="_blank"}
+- [ 設定可能な製品 ](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/types/product-create-configurable.html){target="_blank"}
+- [Adobe Developer REST チュートリアル ](https://developer.adobe.com/commerce/webapi/rest/tutorials/prerequisite-tasks/){target="_blank"}
 - [Adobe Commerce REST ReDoc](https://adobe-commerce.redoc.ly/2.4.6-admin/tag/products#operation/PostV1Products){target="_blank"}

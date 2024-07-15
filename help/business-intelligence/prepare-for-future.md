@@ -1,5 +1,5 @@
 ---
-title: Commerce Intelligence – 未来への準備
+title: Commerce Intelligence – 未来への備え
 description: この一連のビデオを視聴して、デジタルコマースの未来を形作る前例のない変化についての理解を明確にしてください。
 landing-page-description: この一連のビデオを視聴して、デジタルコマースの未来を形作る前例のない変化についての理解を明確にしてください。
 short-description: この一連のビデオを視聴して、デジタルコマースの未来を形作る前例のない変化についての理解を明確にしてください。
@@ -21,17 +21,17 @@ ht-degree: 0%
 
 ---
 
-# Commerce Intelligence – 未来への準備
+# Commerce Intelligence – 未来への備え
 
 Covid-19 が世界中で発生する中、何百万人もの人々が最も重要なニーズを満たすためにデジタルコマースに頼っています。 企業が歴史的な消費者需要に対応するために残業を行う中、未来に焦点を当てることが今まで以上に重要になっています。
 
-この 3 部構成のビデオ シリーズで、Commerce インテリジェンス アナリスト チームは、複数の商業業界にまたがる集計統計によってサポートされ、困難な時期にビジネスを成功に導くための、基本的でデータに基づく e コマースの手法について重点的に説明します。
+この 3 部構成のビデオシリーズでは、Commerce Intelligenceのアナリストチームが、複数の商業業界にまたがる集計統計によってサポートされ、困難な時期にビジネスを成功に導くための、基本的なデータ駆動型 e コマースの手法について重点的に説明します。
 
 この一連のビデオを視聴して、デジタルコマースの未来を形作る前例のない変化についての理解と、今後の準備を明確にしてください。
 
 >[!TIP]
 >
->Commerce Intelligence を初めて使用する場合、 [Adobe Commerce Intelligence ユーザーガイド](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/guide-overview.html){target="_blank"} は、データの集計、分析、ビジュアライゼーションを通じて、より優れたビジネスインサイトと結果を推進するための完全な概要を提供します。
+>Commerce Intelligenceを初めて使用する場合は、[Adobe Commerce Intelligence ユーザーガイド ](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/guide-overview.html){target="_blank"} で、データの集計、分析、ビジュアライゼーションを通じてビジネスインサイトや結果を向上させる方法の概要を参照してください。
 
 ## このビデオの目的は誰ですか。
 

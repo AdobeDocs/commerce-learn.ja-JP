@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # 顧客グループの作成
 
-顧客グループによって、使用可能な割引と、そのグループに関連付けられている税区分が決定されます。 デフォルトの顧客グループは次のとおりです _一般_, _ログインしていない_、および _卸売_. このビデオでは、顧客グループを作成する方法と、顧客を特定のグループに割り当てる方法について説明します。
+顧客グループによって、使用可能な割引と、そのグループに関連付けられている税区分が決定されます。 デフォルトの顧客グループは、_一般_、_ログインしていない_、および _卸売_ です。 このビデオでは、顧客グループを作成する方法と、顧客を特定のグループに割り当てる方法について説明します。
 
 ## このビデオの目的は誰ですか。
 
@@ -33,5 +33,5 @@ ht-degree: 0%
 
 ## その他のリソース
 
-- [顧客グループ - [!DNL Commerce] 顧客管理ガイド](https://experienceleague.adobe.com/docs/commerce-admin/customers/customers-menu/customer-groups.html)
-- [Web サイト別の顧客グループの制限 –  [!DNL Commerce] 顧客管理ガイド](https://developer.adobe.com/commerce/php/development/components/indexing/optimization/#customer-group-limitations-by-websites)
+- [ 顧客グループ - [!DNL Commerce]  顧客管理ガイド ](https://experienceleague.adobe.com/docs/commerce-admin/customers/customers-menu/customer-groups.html)
+- [Web サイト別の顧客グループの制限 –  [!DNL Commerce]  顧客管理ガイド ](https://developer.adobe.com/commerce/php/development/components/indexing/optimization/#customer-group-limitations-by-websites)

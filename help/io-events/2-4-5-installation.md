@@ -1,6 +1,6 @@
 ---
 title: Adobe Commerce 2.4.5 の IO イベントをインストールする方法を説明します
-description: Adobe Developer App Builder で使用するために、Adobe Commerce 2.4.5 で IO イベントに必要なモジュールをインストールする方法を説明します
+description: Adobe Developer App Builderで使用するために、Adobe Commerce 2.4.5 で IO イベントに必要なモジュールをインストールする方法を説明します
 landing-page-description: Composer を使用してAdobe Commerce 2.4.5 に必要な複数のモジュールをインストールする方法を説明します。
 short-description: Composer を使用してAdobe Commerce 2.4.5 に必要な複数のモジュールをインストールする方法を説明します。
 kt: 11886
@@ -22,11 +22,11 @@ ht-degree: 0%
 
 # Adobe Commerce 2.4.5 のインストール
 
-Composer for version 2.4.5 を使用してAdobe Commerceに複数の新しいモジュールをインストールする方法を説明します。これにより、Adobe Commerce アプリケーションで使用する必須モジュールが設定されます。 その他のドキュメントの参照先 [Adobe CommerceのAdobe I/Oイベントのインストール](https://developer.adobe.com/commerce/events/get-started/installation/){target="_blank"}.
+Composer for version 2.4.5 を使用してAdobe Commerceに複数の新しいモジュールをインストールする方法を説明します。これにより、Adobe Commerce アプリケーションで使用する必須モジュールが設定されます。 追加ドキュメントについては、[Adobe CommerceのAdobe I/Oイベントのインストール ](https://developer.adobe.com/commerce/events/get-started/installation/){target="_blank"} を参照してください。
 
 ## このビデオの目的は誰ですか。
 
-* I/O イベントを使用したAdobe CommerceおよびAdobe Developer App Builder を初めて使用する開発者
+* I/O イベントを使用したAdobe CommerceおよびAdobe Developer App Builderを初めて使用する開発者
 
 ## ビデオコンテンツ {#video-content}
 
@@ -65,7 +65,7 @@ composer update
 composer info magento/ece-tools
 ```
 
-Commerce Cloud `.magento.env.yaml`:
+Commerce Cloud`.magento.env.yaml`:
 
 ```yaml
 stage:

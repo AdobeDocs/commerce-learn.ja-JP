@@ -27,15 +27,15 @@ ht-degree: 0%
 ## ページを追加する手順
 
 - モジュールの作成
-- を追加 **routes.xml** ファイル
+- **routes.xml** ファイルの追加
 - コントローラ（アクション）ファイルを追加する
 
 ## モジュールの作成手順
 
 - モジュールフォルダーの作成
-- を作成 `etc/module.xml` ファイル
-- を作成 `registration.php` ファイル
-- を実行 `bin/magento setup:upgrade` 新しいモジュールをインストールするスクリプト
+- `etc/module.xml` ファイルの作成
+- `registration.php` ファイルの作成
+- `bin/magento setup:upgrade` スクリプトを実行して、新しいモジュールをインストールします
 - モジュールが動作していることを確認します
 
 ## ビデオコンテンツ
@@ -44,4 +44,4 @@ ht-degree: 0%
 
 ## 役に立つリソース
 
-[フロントエンド開発者ガイド](https://developer.adobe.com/commerce/frontend-core/guide/)
+[ フロントエンド開発者ガイド ](https://developer.adobe.com/commerce/frontend-core/guide/)

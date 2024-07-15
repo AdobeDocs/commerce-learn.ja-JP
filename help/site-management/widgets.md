@@ -33,5 +33,5 @@ ht-degree: 0%
 
 ## その他のリソース
 
-- [ウィジェット - [!DNL Commerce] コンテンツおよびデザインガイド](https://experienceleague.adobe.com/docs/commerce-admin/content-design/elements/widgets/widgets.html)
-- [ウィジェットの作成と管理 –  [!DNL Commerce] コンテンツおよびデザインガイド](https://experienceleague.adobe.com/docs/commerce-admin/content-design/elements/widgets/widget-create.html)
+- [ ウィジェット - [!DNL Commerce]  コンテンツおよびデザインガイド ](https://experienceleague.adobe.com/docs/commerce-admin/content-design/elements/widgets/widgets.html)
+- [ ウィジェットの作成と管理 –  [!DNL Commerce]  コンテンツおよびデザインガイド ](https://experienceleague.adobe.com/docs/commerce-admin/content-design/elements/widgets/widget-create.html)

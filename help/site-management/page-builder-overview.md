@@ -1,6 +1,6 @@
 ---
-title: '[!DNL Page Builder] 概要'
-description: ページの作成方法を学ぶ [!DNL Commerce] 次を使用してページを管理者に保存 [!DNL Page Builder].
+title: '[!DNL Page Builder] の概要'
+description: ' [!DNL Page Builder] を使用してページ  [!DNL Commerce]  ストアページを管理者で作成する方法を説明します。'
 kt: 5563
 doc-type: feature video
 audience: all
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 [!DNL Page Builder] を使用すると、視覚的なストーリーテリングを強化するカスタムレイアウトでコンテンツに富んだページを簡単に作成し、顧客エンゲージメントとロイヤルティを高めることができます。
 
-2.4.3 リリース以降、 [!DNL Page Builder] は、Adobe CommerceとMagento Open Sourceの両方でデフォルトで使用できます。 （を使用） [!DNL Page Builder] Adobe Commerceでは、ステージングとプレビュー、パーソナライズされたコンテンツ、製品レコメンデーションを組み込むことができ、今後さらに機能が追加される予定です。
+2.4.3 リリース以降、[!DNL Page Builder] はAdobe CommerceとMagento Open Sourceの両方でデフォルトで使用できます。 Adobe Commerceの [!DNL Page Builder] を使用すると、ステージングとプレビュー、パーソナライズされたコンテンツ、製品レコメンデーションを今後の機能に組み込むことができます。
 
 このビデオでは、次の方法を説明します。
 
@@ -44,5 +44,5 @@ ht-degree: 0%
 
 ## その他のリソース
 
-- [ページビルダーユーザーガイド](https://experienceleague.adobe.com/docs/commerce-admin/page-builder/guide-overview.html)
-- [ページビルダー開発者ガイド](https://developer.adobe.com/commerce/frontend-core/page-builder/)
+- [ ページビルダーユーザーガイド ](https://experienceleague.adobe.com/docs/commerce-admin/page-builder/guide-overview.html)
+- [ ページビルダーデベロッパーガイド ](https://developer.adobe.com/commerce/frontend-core/page-builder/)

@@ -1,5 +1,5 @@
 ---
-title: “[!DNL Commerce] ビジネスユーザー向け – ストアフロント」
+title: "ビジネスユーザー向け [!DNL Commerce] - ストアフロント"
 description: アカウントの作成、ウィッシュリスト、買い物かごへのウィッシュリスト項目の追加など、ストアフロントの顧客体験について説明します
 kt: 5778
 doc-type: video
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Commerce] ビジネスユーザー向け – ストアフロント
+# ビジネスユーザー向け [!DNL Commerce] - ストアフロント
 
 このビデオの内容は次のとおりです。
 
@@ -34,12 +34,12 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->このビデオの内容は、2.3.1 リリースを反映しています。 以降のリリースのアップデートについて詳しくは、 [リリースノート](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/overview.html).
+>このビデオの内容は、2.3.1 リリースを反映しています。 以降のリリースのアップデートについて詳しくは、[ リリースノート ](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/overview.html) を参照してください。
 
 >[!VIDEO](https://video.tv.adobe.com/v/36188?quality=12&learn=on)
 
 ## その他のリソース
 
-[顧客アカウントの範囲 –  [!DNL Commerce] 顧客管理ガイド](https://experienceleague.adobe.com/docs/commerce-admin/customers/customer-accounts/customer-account-scope.html)
+[ 顧客アカウントの範囲 –  [!DNL Commerce]  顧客管理ガイド ](https://experienceleague.adobe.com/docs/commerce-admin/customers/customer-accounts/customer-account-scope.html)
 
-[ウィッシュリストのストアフロントの経験 –  [!DNL Commerce] 店舗および購入エクスペリエンスガイド](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/shopper-tools/wish-lists/wishlist-storefront.html)
+[ ウィッシュリストのストアフロント体験 –  [!DNL Commerce]  店舗および購入体験ガイド ](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/shopper-tools/wish-lists/wishlist-storefront.html)

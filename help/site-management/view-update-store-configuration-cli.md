@@ -59,9 +59,9 @@ SELECT * FROM core_config_data WHERE path = 'trans_email/ident_sales/email';
 コードベースのどこかで定義されている設定値を検索するにはどうすればよいですか？
 `grep -rnw vendor/magento/ -e 'sales@example.com'`
 
-端子内のページを表示して行番号を表示するには `cat -n vendor/magento/module-email/etc/config.xml`
+ページをターミナルで表示して行番号を表示するには、`cat -n vendor/magento/module-email/etc/config.xml` 下の手順に従います。
 
 ## その他のリソース
 
-- [コマンドラインツール](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/config-cli.html){target="_blank"}
-- [Admin Security の設定](https://experienceleague.adobe.com/docs/commerce-admin/systems/security/security-admin.html){target="_blank"}
+- [ コマンドラインツール ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/config-cli.html){target="_blank"}
+- [Admin Security の設定 ](https://experienceleague.adobe.com/docs/commerce-admin/systems/security/security-admin.html){target="_blank"}

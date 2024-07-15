@@ -1,7 +1,7 @@
 ---
 title: Adobe Commerce Marketplace へのアプリの送信
 description: アプリケーションをCommerce Marketplaceに送信するプロセスについて説明します。
-landing-page-description: Adobe Developer App Builder と、アプリをCommerce Marketplaceに送信する方法について説明します。
+landing-page-description: Adobe Developer App Builderの概要と、アプリをCommerce Marketplaceに送信する方法について説明します。
 kt: 13436
 doc-type: tutorial
 audience: all
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Adobe Commerce Marketplace にアプリを送信する方法を学ぶ
 
-Adobe Commerce Marketplace は、App Builder アプリのリストに対する送信を受け付けるようになりました。 App Builder は、Adobe Commerce向けの安全で拡張性の高いアプリを構築するために必要なすべてのツールとサービスを開発者に提供する、次世代の拡張プラットフォームです。 開発者は、Adobe Commerce Marketplace にアプリを公開できるようになりました。これは、企業がニーズを満たすために高品質のアプリを見つけて購入するための信頼できるソースです。 にアクセスして、アプリをレビュー用に送信できます。 [https://commercedeveloper.adobe.com](https://commercedeveloper.adobe.com/){target="blank"}.
+Adobe Commerce Marketplace は、App Builder アプリのリストに対する送信を受け付けるようになりました。 App Builderは、Adobe Commerce向けの安全で拡張性の高いアプリを構築するために必要なすべてのツールとサービスを開発者に提供する、アドビの次世代拡張プラットフォームです。 開発者は、Adobe Commerce Marketplace にアプリを公開できるようになりました。これは、企業がニーズを満たすために高品質のアプリを見つけて購入するための信頼できるソースです。 [https://commercedeveloper.adobe.com](https://commercedeveloper.adobe.com/){target="blank"} にアクセスして、アプリをレビュー用に送信できます。
 
 ## このビデオの目的は誰ですか。
 

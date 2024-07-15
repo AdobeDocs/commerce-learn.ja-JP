@@ -1,8 +1,8 @@
 ---
-title: Adobe App Builder とAdobe Commerceを使用した IO イベントの概要
-description: Adobe I/Oイベントの概要。 Adobe Commerce イベント用の App Builder ランタイムアクションを作成します。
-landing-page-description: Adobe Commerce イベントに App Builder ランタイムアクションを使用する方法を説明します。
-short-description: Adobe Commerce イベント用の App Builder ランタイムアクションの作成。
+title: AdobeApp BuilderとAdobe Commerceを使用した IO イベントの概要
+description: Adobe I/Oイベントの概要。 Adobe Commerce イベント用のApp Builder ランタイムアクションを作成します。
+landing-page-description: Adobe Commerce イベントにApp Builder ランタイムアクションを使用する方法を説明します。
+short-description: Adobe Commerce イベント用のApp Builder ランタイムアクションの作成。
 kt: 14583
 doc-type: tutorial
 audience: all
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 # Adobe Commerceの IO イベントの概要
 
-Adobe I/Oイベントについて説明します。 このデモでは、Adobe CommerceのイベントをAdobe Developer App Builder を使用してSlackチャネルに送信し、Adobe Commerceのイベントを使用します。
+Adobe I/Oイベントについて説明します。 このデモでは、Adobe Commerceからのイベントを、Adobe Developer App BuilderとAdobe Commerceからのイベントを使用してSlackチャネルに送信します。
 
 ## このビデオの目的は誰ですか。
 
@@ -31,7 +31,7 @@ Adobe I/Oイベントについて説明します。 このデモでは、Adobe C
 
 * Adobe IO イベントについて説明します
 * Amazon EventBridge を含むAdobe IO イベントの様々なエンドポイントについて
-* App Builder プロジェクトを設定する方法を説明します
+* App Builder プロジェクトをセットアップおよび設定する方法を説明します
 * CLI でのAdobe I/Oコマンドの使用
 * イベントを処理するためのランタイムアクションの作成
 * Adobe CommerceからSlackチャネルへのイベントの送信
