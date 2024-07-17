@@ -9,14 +9,18 @@ doc-type: Technical Video
 duration: 771
 last-substantial-update: 2024-07-17T00:00:00Z
 jira: KT-15836
-source-git-commit: 5a2a757bc97c5af25070e448abf119e2e657b6c8
+source-git-commit: 0458526b13266625a23d8ddc2ca8829d11ed07d5
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: '550'
 ht-degree: 0%
 
 ---
 
-# このビデオを視聴することで期待される内容
+# Adobe Commerce品質パッチツール
+
+問題を診断し、解決策を見つけて、使用可能なパッチの既存のリストにあるパッチを適用する際に、クオリティパッチツールを使用する方法を説明します。
+
+## このビデオを視聴することで期待される内容
 
 問題をトリアージし、いくつかの基本的な手法を使用して修正を適用する品質パッチを見つける方法を説明します。
 
