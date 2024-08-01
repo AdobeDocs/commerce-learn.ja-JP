@@ -3,9 +3,9 @@ user-guide-title: ビデオとチュートリアル
 user-guide-description: ビデオとチュートリアルを通じて、Adobe Commerce と Magento Open Source について説明します。
 breadcrumb-title: ビデオとチュートリアル
 auto-video-transcripts: true
-source-git-commit: c515ff321849045ba1abed2b3b5f6d3795854f91
+source-git-commit: 4445a494d0d84c8ececba27c976d06fe0f54fb70
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '684'
 ht-degree: 3%
 
 ---
@@ -45,6 +45,11 @@ ht-degree: 3%
       + [ギフトカード製品](../site-management/create-gift-card-product.md)
    + バックオフィス統合スターターキット {#back-office-integration-starter-kit}
       + [スターターキットのデモ](../back-office-integrations/starter-kit-demo.md)
+      + [統合](../back-office-integrations/integrations.md)
+      + [Sourceコード組織](../back-office-integrations/source-code-organization.md)
+      + [ラストマイル統合](../back-office-integrations/last-mile-integration.md)
+      + [Webhook 取り込み](../back-office-integrations/webhook-ingestion.md)
+      + [再試行メカニズム](../back-office-integrations/retry-mechanism.md)
 + ウェビナーとイベント {#webinars-and-events}
    + イネーブルメントシリーズ {#enablement-series}
       + [Commerce統合の TOC の低下](../enablement-series/lower-total-cost-of-owership-commerce-integrations.md)
