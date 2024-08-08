@@ -1,6 +1,6 @@
 ---
-title: Quality patch tool について説明します
-description: 品質パッチを適用することで、e コマースプラットフォームの安定性とセキュリティを強化します。 この重要なツールを使用して、常に最新の状態に保ち、問題に対処し、パフォーマンスを最適化します。
+title: 品質向上パッチツール
+description: 問題を診断し、解決策を見つけて、使用可能なパッチの既存のリストにあるパッチを適用する際に、クオリティパッチツールを使用する方法を説明します。
 feature: Cloud, Configuration, Logs, System, Tools and External Services
 topic: Architecture, Commerce, Development
 role: Admin, Architect, User
@@ -9,14 +9,15 @@ doc-type: Technical Video
 duration: 771
 last-substantial-update: 2024-07-17T00:00:00Z
 jira: KT-15836
-source-git-commit: 0458526b13266625a23d8ddc2ca8829d11ed07d5
+exl-id: 16710f27-1232-4c6a-aac3-9838308d1267
+source-git-commit: 43085b1a139e21ea695cc10ffab1413088ba4426
 workflow-type: tm+mt
-source-wordcount: '550'
+source-wordcount: '546'
 ht-degree: 0%
 
 ---
 
-# Adobe Commerce品質パッチツール
+# クオリティパッチツール
 
 問題を診断し、解決策を見つけて、使用可能なパッチの既存のリストにあるパッチを適用する際に、クオリティパッチツールを使用する方法を説明します。
 
@@ -24,7 +25,7 @@ ht-degree: 0%
 
 問題をトリアージし、いくつかの基本的な手法を使用して修正を適用する品質パッチを見つける方法を説明します。
 
-## このビデオの目的は誰ですか。
+## オーディエンス
 
 * 問題を見つけて、このツールを活用して既知の問題に GIT パッチを適用する方法を学ぶ開発者
 
