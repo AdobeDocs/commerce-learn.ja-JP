@@ -1,5 +1,5 @@
 ---
-title: Commerceをサードパーティシステムと統合するための取得 Webhook の設定、デプロイ、カスタマイズ
+title: 取り込み Webhook の設定、デプロイ、カスタマイズ
 description: Commerceとサードパーティのバックオフィスシステムとの通信を容易にする、取り込み Webhook を設定およびカスタマイズする方法について説明します。
 landing-page-description: Commerce統合スターターキットを使用して、取り込み Webhook を使用してCommerceをサードパーティのバックオフィスシステムと統合する方法を説明します。
 kt: 15870
@@ -11,9 +11,9 @@ feature: Best Practices, Backend Development, Integration
 topic: Architecture, Commerce, Development
 role: Architect, Developer
 level: Intermediate
-source-git-commit: f0c6e9262a2bf2de3144255de1fc78d6972b6d33
+source-git-commit: 45c018813ed8d5487e1491e09afc34e2de39c5b2
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '406'
 ht-degree: 0%
 
 ---
