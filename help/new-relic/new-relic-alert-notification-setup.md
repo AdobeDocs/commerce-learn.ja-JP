@@ -11,16 +11,16 @@ feature: Tools and External Services, Communications, Security
 topic: Commerce, Architecture
 role: Architect, Developer
 level: Beginner, Intermediate
-source-git-commit: 7873d61123734cbe876ec2f00d552505457053c0
+source-git-commit: fae28537a460ccaa119b5374cff9e96378aad31d
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '155'
 ht-degree: 0%
 
 ---
 
 # New Relicのアラート通知の設定
 
-New Relicでのアラートの検索方法、ポリシーと宛先について説明します。 既存のポリシーにメールを追加する作業がいかに簡単かを監視します。
+New Relicでアラート、ポリシー、ワークフロー、宛先を検索する方法について説明します。 既存のポリシーにメールを追加する作業がいかに簡単かを監視します。
 
 ## このビデオの目的は誰ですか。
 
