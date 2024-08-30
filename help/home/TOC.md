@@ -3,10 +3,10 @@ user-guide-title: ビデオとチュートリアル
 user-guide-description: ビデオとチュートリアルを通じて、Adobe Commerce と Magento Open Source について説明します。
 breadcrumb-title: ビデオとチュートリアル
 auto-video-transcripts: true
-source-git-commit: 6ae8bc718b34a7330357a588d64e968050e8b106
+source-git-commit: 8a90379998b5540c9fe88dafed14002cd276e926
 workflow-type: tm+mt
-source-wordcount: '687'
-ht-degree: 3%
+source-wordcount: '712'
+ht-degree: 2%
 
 ---
 
@@ -23,6 +23,7 @@ ht-degree: 3%
       + [デプロイメント、テスト、監視、セキュリティ](../cloud/deployments-testing-monitoring-security.md)
       + [SaaS 製品、サポート、通信、次のステップ](../cloud/saas-offerings-support-communications-next-steps.md)
    + ベストプラクティス {#commerce-cloud-best-practices}
+      + [サポートリクエスト](../cloud/best-practices/support-request.md)
       + [ローンチ前のチェックリスト](../cloud/best-practices/pre-launch-checklist.md)
 + 入門 {#getting-started}
    + グローバルな参照アーキテクチャ {#global-reference-architecture}
@@ -50,6 +51,10 @@ ht-degree: 3%
       + [ラストマイル統合](../back-office-integrations/last-mile-integration.md)
       + [Webhook 取り込み](../back-office-integrations/webhook-ingestion.md)
       + [再試行メカニズム](../back-office-integrations/retry-mechanism.md)
+   + ヘルプとサポート {#help-and-support}
+      + [サポートチケットを作成](../help-and-support/create-a-support-ticket.md)
+      + [サポートチケットの検索、トラッキング、コメント、エスカレーション](../help-and-support/search-track-comment-escalate-support-ticket.md)
+      + [ウォッチャーの追加と削除、チケットのクローズと再オープン](../help-and-support/add-remove-watchers-close-reopen-support-ticket.md)
 + ウェビナーとイベント {#webinars-and-events}
    + イネーブルメントシリーズ {#enablement-series}
       + [Commerce統合の TOC の低下](../enablement-series/lower-total-cost-of-owership-commerce-integrations.md)
