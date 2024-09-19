@@ -3,10 +3,10 @@ user-guide-title: ビデオとチュートリアル
 user-guide-description: ビデオとチュートリアルを通じて、Adobe Commerce と Magento Open Source について説明します。
 breadcrumb-title: ビデオとチュートリアル
 auto-video-transcripts: true
-source-git-commit: 8a90379998b5540c9fe88dafed14002cd276e926
+source-git-commit: 8ebc37e432f2898ad9df0497b41f5d4df8947e67
 workflow-type: tm+mt
-source-wordcount: '712'
-ht-degree: 2%
+source-wordcount: '733'
+ht-degree: 3%
 
 ---
 
@@ -15,6 +15,15 @@ ht-degree: 2%
 
 + [[!DNL Commerce] チュートリアル](overview.md)
 + Adobe Commerce Cloud {#adobe-commerce-cloud}
+   + [Marketecture](../cloud/marketecture.md)
+   + [グローバル配信モデル](../cloud/global-delivery-model.md)
+   + [管理者ロール](../cloud/admin-roles.md)
+   + [マーケティングフロー](../cloud/marketing-flows.md)
+   + [ストアフロントオプション](../cloud/storefront-options.md)
+   + [データ共有](../cloud/data-sharing.md)
+   + [複数の Web サイト](../cloud/multiple-websites.md)
+   + [Experience Lead のデータとプロモーション](../cloud/experience-lead-data-promoitions.md)
+   + [AEM Assets](../cloud/aem-assets.md)
    + [ 自己ホスト型ソリューションからの移行 ](../cloud/overview.md)
    + 技術的なオンボーディングとハードウェアのハンドオフ {#technical-onboarding-hardware-handoff}
       + [インフラストラクチャと開発のベストプラクティス](../cloud/infrastructure-development-best-practices.md)
