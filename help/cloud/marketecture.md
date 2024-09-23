@@ -9,7 +9,7 @@ doc-type: Technical Video
 duration: 423
 last-substantial-update: 2024-09-09T00:00:00Z
 jira: KT-16061
-source-git-commit: 261419d013d511185c650cb45f50e412184825c8
+source-git-commit: b805d2df5d74f80084336d03add25af72430e785
 workflow-type: tm+mt
 source-wordcount: '225'
 ht-degree: 0%
@@ -20,6 +20,7 @@ ht-degree: 0%
 # Adobe Commerceのアーキテクチャ
 
 Adobe Commerceは、技術的な柔軟性と使いやすさを組み合わせて、優れたビジネス成果を推進するエクスペリエンス主導のプラットフォームです。 AWSと Azure で利用可能で、200 を超えるモジュール、強力な SLA、スケーラブルなアーキテクチャを備えています。 このプラットフォームは、REST およびGraphQL API をサポートし、より高速なパフォーマンスのために強化され、ライブ検索、AI 商品のレコメンデーション、支払いソリューションなど、インテリジェントで構成可能なサービスを提供します。
+
 API メッシュや統合イベント管理などの拡張ツールは開発と統合を合理化し、Edge Delivery Servicesは高速で切り離されたフロントエンドを提供します。 Adobe Experience Platformと統合されたAdobe Commerceを使用すると、リアルタイムの顧客データを活用してパーソナライズされたエクスペリエンスやターゲットを絞ったマーケティングキャンペーンを行い、大幅な成長を促進することができます。
 
 ## このビデオの対象
