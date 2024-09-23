@@ -8,9 +8,9 @@ doc-type: Technical Video
 duration: 189
 last-substantial-update: 2024-12-09T00:00:00Z
 jira: KT-16203
-source-git-commit: 8ebc37e432f2898ad9df0497b41f5d4df8947e67
+source-git-commit: 33b4f9f612138656d792b40012446ce9f31cf2f5
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '153'
 ht-degree: 0%
 
 ---
@@ -28,8 +28,8 @@ AI とAdobe Commerceを統合すると、アセット管理が一元化され、
 
 ## ビデオコンテンツ
 
-- 効率と速度の向上。&#x200B;
-- 製品とアセット間のシームレスな同期。&#x200B;
-- 承認、削除、有効期限を含む、完全なライフサイクル管理。&#x200B;
+- 効率と速度の向上。
+- 製品とアセット間のシームレスな同期。
+- 承認、削除、有効期限を含む、完全なライフサイクル管理。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3434076?learn=on)
