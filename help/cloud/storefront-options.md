@@ -9,9 +9,9 @@ doc-type: Technical Video
 duration: 301
 last-substantial-update: 2024-11-09T00:00:00Z
 jira: KT-16193
-source-git-commit: 4d6ce5b07990001441a8d7fb41a3c73e1029c200
+source-git-commit: 1dd8c4ea80732d68b44d1d200ddcb331551ea224
 workflow-type: tm+mt
-source-wordcount: '170'
+source-wordcount: '172'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Adobeのデジタルエクスペリエンスツールとシームレスに統合
 
 - オンラインストアフロントの強化を検討している企業や e コマースリーダー。
 - IT リーダー、開発者、マーケター。
-- サイトのパフォーマンス向上、オーガニックトラフィックの増加、パーソナライズされたショッピング体験の提供を目指す企業。
+- サイトのパフォーマンスを向上させ、オーガニックトラフィックを増やし、パーソナライズされたショッピング体験を提供することを目指している企業。
 
 ## ビデオコンテンツ
 
