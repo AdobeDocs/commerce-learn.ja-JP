@@ -9,7 +9,7 @@ doc-type: Technical Video
 duration: 540
 last-substantial-update: 2024-11-09T00:00:00Z
 jira: KT-16194
-source-git-commit: 3e8ea2655f92c78465ed4e52ca81289ffed4fd2a
+source-git-commit: c9c4a64ece0eaf536c2b2e299acea6adf9bab10c
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 0%
@@ -29,7 +29,7 @@ Adobe Experience Cloud製品とシームレスに統合して、リアルタイ�
 
 ## ビデオコンテンツ
 
-- Adobe Commerceのネイティブデータ共有機能によるPersonalizationの強化
+- Adobe Commerceのネイティブデータ共有機能によるパーソナライゼーションの強化
 - 顧客エンゲージメントとロイヤルティの向上
 - シームレスな統合と統合された顧客視点
 
