@@ -5,14 +5,13 @@ feature: Best Practices, Backend Development
 topic: Architecture, Commerce, Development
 role: Architect, Developer
 level: Beginner, Intermediate
-doc-type: Tutorial
+doc-type: Technical Video
 duration: 323
 last-substantial-update: 2024-10-02T00:00:00Z
 jira: KT-15994
-thumbnail: KT-15994.jpeg
-source-git-commit: e27cec774daaa3f292b915cb454f46d6bd729549
+source-git-commit: a73d0038ac844805f4fda689da329d891e5b8320
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '127'
 ht-degree: 0%
 
 ---
@@ -22,7 +21,7 @@ ht-degree: 0%
 
 PHP、JavaScriptおよびカスタマイズに関する基本的なコーディング標準とベストプラクティスについて説明します。 デベロッパーでもビジネスでも、この一連のチュートリアルは、Adobe Commerceへの移行の複雑さをナビゲートし、スムーズで成功した移行を確実に行うのに役立ちます。
 
-## このビデオシリーズの対象は誰ですか？
+## このビデオの目的は誰ですか。
 
 * 開発者：Adobe Commerceの移行とコーディングの標準に関するスキルの向上を目指しています。
 * Adobe Commerceへの移行を計画し、ベストプラクティスを模索している企業。
