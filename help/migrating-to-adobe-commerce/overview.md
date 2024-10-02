@@ -9,9 +9,9 @@ doc-type: Tutorial
 duration: 167
 last-substantial-update: 2024-10-02T00:00:00Z
 jira: KT-11767
-source-git-commit: 14206ddbc60a973faca5c4ca43cb40565d8a4323
+source-git-commit: e27cec774daaa3f292b915cb454f46d6bd729549
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: '150'
 ht-degree: 0%
 
 ---
@@ -29,5 +29,8 @@ ht-degree: 0%
 * 移行プロセスの合理化を目指すシステムインテグレーター
 
 ## ビデオコンテンツ {#video-content}
+
+* Adobe Commerceへ正常に移行するための基本的な手順とベストプラクティスについて説明します。
+* カスタムコード、サードパーティモジュールを評価および最適化し、主要な QA 概念を理解します。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3432846/?learn=on)
