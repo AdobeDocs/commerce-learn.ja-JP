@@ -3,9 +3,9 @@ user-guide-title: ビデオとチュートリアル
 user-guide-description: ビデオとチュートリアルを通じて、Adobe Commerce と Magento Open Source について説明します。
 breadcrumb-title: ビデオとチュートリアル
 auto-video-transcripts: true
-source-git-commit: 8ebc37e432f2898ad9df0497b41f5d4df8947e67
+source-git-commit: 14206ddbc60a973faca5c4ca43cb40565d8a4323
 workflow-type: tm+mt
-source-wordcount: '733'
+source-wordcount: '738'
 ht-degree: 3%
 
 ---
@@ -35,6 +35,8 @@ ht-degree: 3%
       + [サポートリクエスト](../cloud/best-practices/support-request.md)
       + [ローンチ前のチェックリスト](../cloud/best-practices/pre-launch-checklist.md)
 + 入門 {#getting-started}
+   + Adobe Commerceへの移行 {#migrating-to-adobe-commerce}
+      + [概要](../migrating-to-adobe-commerce/overview.md)
    + グローバルな参照アーキテクチャ {#global-reference-architecture}
       + [グローバル参照アーキテクチャ](../global-reference-architecture/what-is-global-reference-architecture.md)
       + [グローバル参照アーキテクチャの活用](../global-reference-architecture/how-do-you-leverage-global-reference-architecture.md)
