@@ -3,9 +3,9 @@ user-guide-title: ビデオとチュートリアル
 user-guide-description: ビデオとチュートリアルを通じて、Adobe Commerce と Magento Open Source について説明します。
 breadcrumb-title: ビデオとチュートリアル
 auto-video-transcripts: true
-source-git-commit: a371492df56d6b575a3b7cfce4d7a4e0b69dbd8b
+source-git-commit: fd1c4316fa5c1e9ac5b7c034cbeddc41e26e4200
 workflow-type: tm+mt
-source-wordcount: '749'
+source-wordcount: '755'
 ht-degree: 3%
 
 ---
@@ -37,6 +37,8 @@ ht-degree: 3%
 + 入門 {#getting-started}
    + Adobe Commerceへの移行 {#migrating-to-adobe-commerce}
       + [概要](../migrating-to-adobe-commerce/overview.md)
+      + 準備 {#preparation}
+         + [チームとプロジェクトの評価](../migrating-to-adobe-commerce/preparation/evaluate-team-and-project.md)
       + カスタマイズ {#customizations}
          + [処理中のコード標準](../migrating-to-adobe-commerce/customizations/in-process-code-standards.md)
       + QA{#qa}
