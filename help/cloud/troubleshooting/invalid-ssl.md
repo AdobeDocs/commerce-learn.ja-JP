@@ -9,7 +9,7 @@ doc-type: Technical Video
 duration: 118
 last-substantial-update: 2024-10-29T00:00:00Z
 jira: KT-16406
-source-git-commit: 1414bc22653f63a4cf19654f319116bea149ef08
+source-git-commit: 08e07add8628146271cf09e3cd6370f31521c726
 workflow-type: tm+mt
 source-wordcount: '100'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 ---
 
 
-#  – 期限切れの SSL 証明書
+# 期限切れの SSL 証明書
 
 期限切れの ssl 証明書を特定する方法と、Adobe Commerce Cloud統合または他の開発環境のために ssl 証明書を再生成する方法について説明します。
 
