@@ -1,6 +1,6 @@
 ---
 title: モジュールの作成
-description: PSR ロガーに記録するモジュールを作成します
+description: PSR ロガーに情報を送信するモジュールをAdobe Commerceで作成する方法を説明します。 これにより、Adobe Commerceの最初のモジュールに機能が追加されます。
 kt: 5614
 doc-type: video
 activity: use
@@ -10,9 +10,9 @@ topic: Commerce, Development
 role: Admin, Developer
 level: Beginner, Intermediate
 exl-id: 941c04ee-54b8-4b81-b77d-fff5875927f0
-source-git-commit: f7aa1f0063cbcad6d331a13817214b1bf2158571
+source-git-commit: 4f6c8abec90663f80233b94456ad1e58edb86d51
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '277'
 ht-degree: 0%
 
 ---
