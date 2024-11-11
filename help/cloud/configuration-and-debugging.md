@@ -1,32 +1,32 @@
 ---
 title: Adobe Commerce Cloudの設定とデバッグ
-description: Adobe Commerce Cloudの設定とデバッグについて説明します。
+description: DevOps、システム管理者、バックエンド開発者に不可欠な、Adobe Commerce Cloudの設定ファイル、デバッグツール、ログ管理について説明します。
 feature: Cloud
 topic: Commerce, Architecture, Development
 role: Architect, Developer
 level: Intermediate
 doc-type: Technical Video
-duration: 0
+duration: 500
 last-substantial-update: 2024-03-06T00:00:00Z
 jira: KT-15019
 kt: 15019
 exl-id: 8f5895bb-b402-4187-abf7-d7b2ac3f3c93
-source-git-commit: 0cb0982df528dd66dbc8804d7d09e3949a2fd850
+source-git-commit: 661e8cafc5870e4480c804c2aa482864272f602f
 workflow-type: tm+mt
-source-wordcount: '99'
+source-wordcount: '170'
 ht-degree: 0%
 
 ---
 
 # テクニカルオンボーディング – 設定とデバッグ
 
-Adobe Commerce Cloudの設定およびデバッグ方法について説明します。
+様々な環境間の設定にAdobe Commerce Cloudで使用される主要な Yaml ファイル、これらの設定の検証と最適化に使用できるツール、デバッグおよびログ記録プロセスについて説明します。 環境固有の設定の重要性、EC ツールとクオリティパッチの使用方法、ログ集約におけるNew Relicの役割を理解します。 Xdebug を使用したリモートデバッグと、複数のアプリサーバーにわたるログ管理の必要性に関するインサイトを得ます。
 
 ## このビデオの目的は誰ですか。
 
-- Web サイト管理者
+- DevOp エンジニア
 - Commerceアーキテクト
-- e コマース web サイトの所有者
+- バックエンド開発者
 
 ## ビデオコンテンツ
 
