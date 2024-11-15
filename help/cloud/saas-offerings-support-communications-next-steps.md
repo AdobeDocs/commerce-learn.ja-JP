@@ -47,7 +47,7 @@ Adobe Commerce Cloudの SaaS 製品、サポート、その他のコミュニケ
 - CDN コンテンツ配信ネットワーク
 - Fastly IO Fastly 画像オプティマイザー
 - VCL ワニス設定言語
-- WAF Web アプリケーションファイアウォール
+- WAF web アプリケーションファイアウォール
 - PCI 支払いカード業界
 - TLS トランスポート層サービス
 - ACL アクセス制御リスト
