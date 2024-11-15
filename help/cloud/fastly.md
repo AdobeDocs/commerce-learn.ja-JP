@@ -40,3 +40,4 @@ Fastly for Adobe Commerceのクラウドでの使用方法について説明し�
 - [ 画像の最適化 ](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/development/image-optimization.html)
 
 {{$include /help/_includes/cloud-technical-onboarding-related-links.md}}
+
