@@ -11,7 +11,7 @@ last-substantial-update: 2024-04-17T00:00:00Z
 jira: KT-15180
 kt: 15180
 exl-id: c6adb2c2-f194-4a3d-9290-e0837ef062ae
-source-git-commit: 00a8d6883473de796abc79ef2e9be34f56429a17
+source-git-commit: 191cfb29de7b4fff5ca73dcd1603b51d852aebd1
 workflow-type: tm+mt
 source-wordcount: '1605'
 ht-degree: 0%
@@ -22,9 +22,9 @@ ht-degree: 0%
 
 Adobe Commerceの概要を次に示します [Site Launch ドキュメント ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/launch/overview){target="_blank"}。
 
-このチェックリストは、Adobe Commerce Cloud サイトのローンチを成功に導くための計画と実行に役立ちます。 Adobe Commerce Cloudのシステムインテグレーターと協力して、すべての設定タスクとチェックリスト項目が完了および検証されていることを確認します。 チェックリスト項目に関して問題が発生した場合、または質問がある場合は、指定されたカスタマーテクニカルアドバイザーまたはカスタマーサクセスエンジニアにお問い合わせください。 アカウントに CTA/CSE が割り当てられていない場合は、サポートチケットを作成してサポートを受けることができます。
+このチェックリストは、Adobe Commerce Cloud サイトのローンチを成功に導くための計画と実行に役立ちます。 Adobe Commerce Cloudのシステムインテグレーターと協力して、すべての設定タスクとチェックリスト項目が完了および検証されていることを確認します。 チェックリスト項目に関して問題が発生した場合、または質問がある場合は、指定されたカスタマーテクニカルアドバイザーまたはカスタマーサクセスエンジニアにお問い合わせください。 アカウントにCTA/CSE が割り当てられていない場合は、サポートチケットを作成してください。
 
-CTA/CSE がアカウントに割り当てられている場合は、新しいAdobe Commerce Cloud サイトを立ち上げる 4 週間前までに、立ち上げ予定 **を通知するためにそれらのユーザーおよびアカウント管理者に連絡してください**
+アカウントにCTA/CSE が割り当てられている場合は、新しいAdobe Commerce Cloud サイトを立ち上げる 4 週間前までに、立ち上げの **意図** を通知するためにそれらのユーザーおよびアカウント管理者に連絡してください。
 
 - 一部のチェックは、「ブロッカー [!BADGE  でハイライト表示され ] す{type=caution tooltip="潜在的遮断薬"}
 - お客様の実装アプローチに合わせて、開発者またはシステム統合パートナーとの共同作業を確実に行います。
@@ -43,7 +43,7 @@ CTA/CSE がアカウントに割り当てられている場合は、新しいAdo
 3. エンドユーザー/マーチャントが、バックエンド操作を含む UAT （ユーザー受け入れテスト）を実施しました。
 4. システムインテグレーターチームは、ステージングと実稼動でエンドツーエンドの UAT を実行しました。 [Experience Leagueドキュメント ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/test/staging-and-production){target="_blank"} を参照してください。
 5. ステージング環境と実稼動環境でのコードのデプロイメントとテストを確認します（[ 詳細を表示 ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/test/staging-and-production){target="_blank"}）。
-6. 実稼動クラスターは、契約された毎日のベースラインに合わせて永続的にサイズ変更されています。 詳しくは、割り当てられた CTA/CSE にお問い合わせいただくか、サポートチケットを発行してください。
+6. 実稼動クラスターは、契約された毎日のベースラインに合わせて永続的にサイズ変更されています。 詳しくは、割り当てられたCTA/CSE にお問い合わせいただくか、サポートチケットを発行してください。
 
 ## 2.現在の構成
 
@@ -61,7 +61,7 @@ CTA/CSE がアカウントに割り当てられている場合は、新しいAdo
 
 3. Fastly 画像の最適化が有効になっていることを確認します（[Fastly 画像の最適化を参照 ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/fastly-image-optimization){target="_blank"}）。
 4. シールドの場所が正しく設定されていることを確認します（[ キャッシュ、バックエンド、およびオリジン シールドを設定 ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-custom-cache-configuration){target="_blank"}）。
-5. Web アプリケーションファイアウォール（**WAF**）が機能している。 （[ ブロックされたリクエストのトラブルシューティング ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/fastly-waf-service){target="_blank"} （ある場合）と制限事項を参照してください）。
+5. Web アプリケーション ファイアウォール （**WAF**）が動作しています。 （[ ブロックされたリクエストのトラブルシューティング ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/fastly-waf-service){target="_blank"} （ある場合）と制限事項を参照してください）。
 6. 管理パネルの Fastly [ 「無視された URL パラメーター」 ](https://github.com/iancassidyweb/magento2/commit/68fdecfcd26c957382b8d68b64887e0a83298524){target="_blank"} リストを更新して、キャッシュのパフォーマンスを強化します。
 
    >[!NOTE]
@@ -177,16 +177,16 @@ Adobe Commerce Cloudでは、ステージング環境と実稼動環境の両方
 - 米国フリーダイヤル：（+1） 800 685 3620 （最初のメニューは、Adobe Commerce P1 ホットラインの場合は 7 を押してください）
 - 米国ローカル：（+1） 408 537 8777
 
-## 11. Postの運用開始
+## 11.運用開始後
 
-サイトが公開されたら、割り当てられた CTA （カスタマーテクニカルアドバイザリ）、CSE （カスタマーサクセスエンジニア）および AM （アカウントマネージャー）にメールで問い合わせます。 ただし、アカウントマネージャーがプロジェクトに割り当てられていない場合は、サイトが稼働したら高 SLA 監視を有効にするよう求めるサポートチケットを作成できます。 Cta/CSE は、Fastly を有効にしてキャッシュすることでサイトの起動が確認されると、直ちに次のタスクを実行します。
+サイトが公開されたら、割り当てられたCTA（カスタマーテクニカルアドバイザリ）、CSE （カスタマーサクセスエンジニア）および AM （アカウントマネージャー）にメールで問い合わせます。 ただし、アカウントマネージャーがプロジェクトに割り当てられていない場合は、サイトが稼働したら高SLAモニタリングを有効にするよう求めるサポートチケットを作成できます。 CTA/CSE は、Fastly を有効にしてキャッシングによるサイトの起動が確認され次第、次のタスクを実行します。
 
-- クラスターをライブとしてタグ付けし、サポートチケットを作成して高 SLA （サービスレベル契約）監視を有効化します。
+- クラスターをライブとしてタグ付けし、サポートチケットを作成して、高SLA（サービスレベル契約）の監視を有効にします。
 - 稼動時間の監視のためにNew Relic Synthetics を有効にします。
 
 >[!MORELIKETHIS]
 > 
-> - [Launch 対応の概要 – 実装プレイブック ](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/launch/overview){target="_blank"}
+> - [Launch 対応の概要 – 実装プレイブック ](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/launch/overview){target="_blank"}
 > - [Launch チェックリスト – ユーザーガイド ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/launch/checklist){target="_blank"}
 > - [Prelaunch チェックリスト - Site Manager/Commerce管理者ガイド ](https://experienceleague.adobe.com/en/docs/commerce-admin/start/setup/prelaunch-checklist){target="_blank"}
 > - [ 共有責任セキュリティ・モデル ](https://experienceleague.adobe.com/en/docs/commerce-operations/security-and-compliance/shared-responsibility){target="_blank"}
