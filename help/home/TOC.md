@@ -3,9 +3,9 @@ user-guide-title: ビデオとチュートリアル
 user-guide-description: ビデオとチュートリアルを通じて、Adobe Commerce と Magento Open Source について説明します。
 breadcrumb-title: ビデオとチュートリアル
 auto-video-transcripts: true
-source-git-commit: 8368cfb640c532e9ab2c1322900e151e0f0afea6
+source-git-commit: fc3a65e00b36d4af76f75fd0e956104b90e8393d
 workflow-type: tm+mt
-source-wordcount: '771'
+source-wordcount: '773'
 ht-degree: 3%
 
 ---
@@ -186,6 +186,7 @@ ht-degree: 3%
    + New Relic {#new-relic}
       + [悪意のある IP の特定](../new-relic/malicious-ip.md)
       + [アラート通知設定](../new-relic/new-relic-alert-notification-setup.md)
+      + [カスタムアラート](../new-relic/custom-alerts.md)
 + Commerce Intelligence {#mbi}
    + [はじめに](../business-intelligence/getting-started.md)
    + [統合と設定](../business-intelligence/integrations-configurations.md)
