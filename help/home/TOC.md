@@ -3,9 +3,9 @@ user-guide-title: ビデオとチュートリアル
 user-guide-description: ビデオとチュートリアルを通じて、Adobe Commerce と Magento Open Source について説明します。
 breadcrumb-title: ビデオとチュートリアル
 auto-video-transcripts: true
-source-git-commit: 8720b575d72443faa1889d27d692283ca47cc012
+source-git-commit: e72628726b3935b0c1b063f5bb2f358702ae7cdc
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: '787'
 ht-degree: 3%
 
 ---
@@ -79,6 +79,7 @@ ht-degree: 3%
 + Edge Delivery Services{#edge-delivery-services}
    + 入門 {#getting-started}
       + [トランザクションフローの変更](../edge-delivery-services/transactional-flow.md)
+      + [買い物かご品目に対する製品属性の使用](../edge-delivery-services/product-attributes-cart-items.md)
 + ウェビナーとイベント {#webinars-and-events}
    + イネーブルメントシリーズ {#enablement-series}
       + [Commerce統合の TOC の低下](../enablement-series/lower-total-cost-of-owership-commerce-integrations.md)
