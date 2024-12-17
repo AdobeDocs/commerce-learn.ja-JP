@@ -9,9 +9,10 @@ doc-type: Technical Video
 duration: 453
 last-substantial-update: 2024-12-16T00:00:00Z
 jira: KT-16685
-source-git-commit: c736f5d0a7277a0540f6257fb43a4224424b22bd
+exl-id: 1f48fc74-400d-42c3-80f0-cd6aa95e4344
+source-git-commit: 624c5dbdab820ecdcf51e3cdf7d4c7459676c2df
 workflow-type: tm+mt
-source-wordcount: '198'
+source-wordcount: '201'
 ht-degree: 1%
 
 ---
@@ -22,7 +23,7 @@ Edge Delivery Servicesカートのドロップダウンを使用して、チェ�
 
 ## このビデオを視聴することで期待される内容
 
-Adobe Commerceの買い物かごドロップインを使用してトランザクションフローを調整し、数行のコードを変更して新しい機能セットを顧客に表示する方法について説明します。  また、これらの変更を変換して SharePoint から管理し、AB テストを実行する方法についても説明します。
+Adobe Commerceの買い物かごドロップインを使用する方法を理解し、トランザクションフローを調整して、数行のコードを変更することで新しい機能セットを顧客に示します。  また、これらの変更を変換して SharePoint から管理し、AB テストを実行する方法についても説明します。
 
 ## このビデオの目的は誰ですか。
 
