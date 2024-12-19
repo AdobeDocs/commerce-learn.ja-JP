@@ -1,5 +1,5 @@
 ---
-title: Edge 配信サービス
+title: Edge Delivery Services買い物かご項目
 description: Adobe Edge配信サービスの概要と、製品属性を使用して買い物かごの商品に関する新しい情報を表示する方法について説明します。
 feature: Best Practices, Compliance, Extensibility, Storefront, Tools and External Services
 topic: Architecture, Commerce, Headless
@@ -10,10 +10,10 @@ duration: 363
 last-substantial-update: 2024-12-16T00:00:00Z
 jira: KT-16686
 exl-id: a9a6deb3-6431-4cb2-a3c2-0d584d3da3b5
-source-git-commit: 624c5dbdab820ecdcf51e3cdf7d4c7459676c2df
+source-git-commit: bbed0bc863fd77184fc7f4416f0b7f2287764b1d
 workflow-type: tm+mt
-source-wordcount: '262'
-ht-degree: 1%
+source-wordcount: '272'
+ht-degree: 0%
 
 ---
 
@@ -39,3 +39,8 @@ Adobe Commerceの買い物かごドロップインを使用してトランザク
 * 製品属性とスロットを使用して、買い物かごの機能を拡張およびカスタマイズし、すべてのプロジェクト要件が満たされていることを確認します。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3441114?learn=on)
+
+
+## その他のドキュメント
+
+* [ 買い物かごに製品ラインを追加 ](https://experienceleague.adobe.com/developer/commerce/storefront/dropins/cart/tutorials/add-product-lines-to-cart-summary/)

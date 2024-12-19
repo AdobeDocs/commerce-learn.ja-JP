@@ -1,5 +1,5 @@
 ---
-title: Edge 配信サービス
+title: Edge Delivery Servicesの注文の概要
 description: Adobe Edge配信サービスと、Commerce ドロップダウンの注文概要セクションを更新する方法について説明します。
 feature: Best Practices, Compliance, Extensibility, Storefront, Tools and External Services
 topic: Architecture, Commerce, Headless
@@ -9,10 +9,11 @@ doc-type: Technical Video
 duration: 269
 last-substantial-update: 2024-12-17T00:00:00Z
 jira: KT-16698
-source-git-commit: 7e35428a32457bc763fad8c60cd8c550bbb2c56f
+exl-id: 2a8fa800-5727-47f0-828f-a42dba331a0b
+source-git-commit: bbed0bc863fd77184fc7f4416f0b7f2287764b1d
 workflow-type: tm+mt
-source-wordcount: '176'
-ht-degree: 1%
+source-wordcount: '183'
+ht-degree: 0%
 
 ---
 
@@ -36,3 +37,7 @@ Adobe Commerceの買い物かごドロップインを使用し、買い物かご
 * 買い物かごの概要の行を 1 つの折りたたみ可能なセクションに結合する方法を説明します。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3441185?learn=on)
+
+## その他のドキュメント
+
+* [ 注文の概要 ](https://experienceleague.adobe.com/developer/commerce/storefront/dropins/cart/tutorials/order-summary-lines/)

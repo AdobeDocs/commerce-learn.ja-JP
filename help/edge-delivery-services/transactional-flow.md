@@ -1,5 +1,5 @@
 ---
-title: Edge 配信サービス
+title: Edge Delivery Servicesトランザクションフロー
 description: Adobe Edge配信サービスと、トランザクションフローを変更する方法について説明します。
 feature: Best Practices, Compliance, Extensibility, Storefront, Tools and External Services
 topic: Architecture, Commerce, Headless
@@ -10,10 +10,10 @@ duration: 453
 last-substantial-update: 2024-12-16T00:00:00Z
 jira: KT-16685
 exl-id: 1f48fc74-400d-42c3-80f0-cd6aa95e4344
-source-git-commit: 624c5dbdab820ecdcf51e3cdf7d4c7459676c2df
+source-git-commit: bbed0bc863fd77184fc7f4416f0b7f2287764b1d
 workflow-type: tm+mt
-source-wordcount: '201'
-ht-degree: 1%
+source-wordcount: '209'
+ht-degree: 0%
 
 ---
 
@@ -38,3 +38,7 @@ Adobe Commerceの買い物かごドロップインを使用する方法を理解
 * マーケティングコントロールの強化。 設定の管理とテストを簡単に行い、ユーザーエクスペリエンスとマーケティング効果を向上させます。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3441102?learn=on)
+
+## その他のドキュメント
+
+* [ 買い物かごの概要を設定 ](https://experienceleague.adobe.com/developer/commerce/storefront/dropins/cart/tutorials/configure-cart-summary/)
