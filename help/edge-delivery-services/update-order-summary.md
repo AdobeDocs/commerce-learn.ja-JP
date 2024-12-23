@@ -1,6 +1,6 @@
 ---
-title: Edge Delivery Servicesの注文の概要
-description: Adobe Edge配信サービスと、Commerce ドロップダウンの注文概要セクションを更新する方法について説明します。
+title: チェックアウトでのEdge Delivery Services注文の概要
+description: Adobe Edge配信サービスの概要と、チェックアウト時にCommerce ドロップダウンの注文概要セクションを更新する方法について説明します。
 feature: Best Practices, Compliance, Extensibility, Storefront, Tools and External Services
 topic: Architecture, Commerce, Headless
 role: Developer
@@ -10,14 +10,14 @@ duration: 269
 last-substantial-update: 2024-12-17T00:00:00Z
 jira: KT-16698
 exl-id: 2a8fa800-5727-47f0-828f-a42dba331a0b
-source-git-commit: bbed0bc863fd77184fc7f4416f0b7f2287764b1d
+source-git-commit: f36cc18bd855c21967f58920409431e219568fc0
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '189'
 ht-degree: 0%
 
 ---
 
-# 買い物かごの概要の更新
+# チェックアウトでの買い物かごの概要の更新
 
 Edge Delivery Services用のAdobe Commerceの買い物かごドロップインの注文概要に変更を加える方法を説明します。  チェックアウト時に顧客に提供されるレイアウトや情報をすばやく改善する方法には、いくつかの例があります。
 
