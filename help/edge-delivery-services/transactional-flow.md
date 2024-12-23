@@ -10,7 +10,7 @@ duration: 453
 last-substantial-update: 2024-12-16T00:00:00Z
 jira: KT-16685
 exl-id: 1f48fc74-400d-42c3-80f0-cd6aa95e4344
-source-git-commit: bbed0bc863fd77184fc7f4416f0b7f2287764b1d
+source-git-commit: 18559dd4c970217497470494009e392fccddfe34
 workflow-type: tm+mt
 source-wordcount: '209'
 ht-degree: 0%
@@ -37,7 +37,7 @@ Adobe Commerceの買い物かごドロップインを使用する方法を理解
 * A/B テストの柔軟性。 SharePointを通じて設定が有効になり、マーケターがこれらの機能を制御およびテストできるようになりました。
 * マーケティングコントロールの強化。 設定の管理とテストを簡単に行い、ユーザーエクスペリエンスとマーケティング効果を向上させます。
 
->[!VIDEO](https://video.tv.adobe.com/v/3441102?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3442351?learn=on)
 
 ## その他のドキュメント
 
