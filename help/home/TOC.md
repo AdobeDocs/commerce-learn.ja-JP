@@ -3,9 +3,9 @@ user-guide-title: ビデオとチュートリアル
 user-guide-description: ビデオとチュートリアルを通じて、Adobe Commerce と Magento Open Source について説明します。
 breadcrumb-title: ビデオとチュートリアル
 auto-video-transcripts: true
-source-git-commit: d902059666b3c812442f66e8e982785b79cbce9b
+source-git-commit: 916586d3b71b8b74baa04af2ab39abc86ec94f5b
 workflow-type: tm+mt
-source-wordcount: '797'
+source-wordcount: '807'
 ht-degree: 3%
 
 ---
@@ -72,10 +72,15 @@ ht-degree: 3%
       + [ラストマイル統合](../back-office-integrations/last-mile-integration.md)
       + [Webhook 取り込み](../back-office-integrations/webhook-ingestion.md)
       + [再試行メカニズム](../back-office-integrations/retry-mechanism.md)
-   + ヘルプとサポート {#help-and-support}
-      + [サポートチケットを作成](../help-and-support/create-a-support-ticket.md)
-      + [サポートチケットの検索、トラッキング、コメント、エスカレーション](../help-and-support/search-track-comment-escalate-support-ticket.md)
-      + [ウォッチャーの追加と削除、チケットのクローズと再オープン](../help-and-support/add-remove-watchers-close-reopen-support-ticket.md)
++ グローバル参照アーキテクチャ {#global-reference-architecture-implementation-techniques}
+   + [概要](../global-reference-architecture/overview.md)
+   + [Git を分割](../global-reference-architecture/split-git.md)
+   + [バルクパッケージ](../global-reference-architecture/bulk-packages.md)
+   + [ 個別のパッケージ ](../global-reference-architecture/separate-packages.md)
++ ヘルプとサポート {#help-and-support}
+   + [サポートチケットを作成](../help-and-support/create-a-support-ticket.md)
+   + [サポートチケットの検索、トラッキング、コメント、エスカレーション](../help-and-support/search-track-comment-escalate-support-ticket.md)
+   + [ウォッチャーの追加と削除、チケットのクローズと再オープン](../help-and-support/add-remove-watchers-close-reopen-support-ticket.md)
 + Edge Delivery Services{#edge-delivery-services}
    + 入門 {#getting-started}
       + [トランザクションフローの変更](../edge-delivery-services/transactional-flow.md)
