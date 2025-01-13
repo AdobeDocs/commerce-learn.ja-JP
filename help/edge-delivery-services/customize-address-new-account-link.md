@@ -8,15 +8,15 @@ level: Beginner
 doc-type: Technical Video
 duration: 613
 last-substantial-update: 2025-1-13
-source-git-commit: 82303ee7bbae300dec94dec8a0bb8cb49a8d0ac4
+exl-id: 91535671-02ff-4611-b452-0325792ad70b
+source-git-commit: 4b60aff89575dc431d77f66b94113966f2c26659
 workflow-type: tm+mt
-source-wordcount: '317'
+source-wordcount: '314'
 ht-degree: 0%
 
 ---
 
-
-# e コマースチェックアウトの強化：カスタムアドレスフォームレイアウトとGoogleアドレスルックアップの統合
+# カスタムアドレスフォームレイアウトとGoogle アドレス検索の統合
 
 チェックアウト時に住所フォームのレイアウトをカスタマイズして、テキスト領域を除くすべてのフィールドの幅が 50% になるようにする方法を説明します。 統合されたサードパーティ API、特にGoogle Address API を使用して、住所フォームでの自動住所検索と検証を有効にする方法を説明します。&#x200B; 新しいサイドバーメニュー項目をユーザーアカウントダッシュボードに追加し、ストアロケーターのカスタムページにリンクする方法を説明します。
 
