@@ -3,9 +3,9 @@ user-guide-title: ビデオとチュートリアル
 user-guide-description: ビデオとチュートリアルを通じて、Adobe Commerce と Magento Open Source について説明します。
 breadcrumb-title: ビデオとチュートリアル
 auto-video-transcripts: true
-source-git-commit: 7988dcc031956b880b67363a6c9b2705dbe7b4af
+source-git-commit: cf9de69246757d62cdb7cb952761a04c78953f56
 workflow-type: tm+mt
-source-wordcount: '819'
+source-wordcount: '820'
 ht-degree: 3%
 
 ---
@@ -76,7 +76,8 @@ ht-degree: 3%
    + [概要](../global-reference-architecture/overview.md)
    + [Git を分割](../global-reference-architecture/split-git.md)
    + [バルクパッケージ](../global-reference-architecture/bulk-packages.md)
-   + [ 個別のパッケージ ](../global-reference-architecture/separate-packages.md)
+   + [個別のパッケージ](../global-reference-architecture/separate-packages.md)
+   + [モノレポ](../global-reference-architecture/monorepo.md)
 + ヘルプとサポート {#help-and-support}
    + [サポートチケットを作成](../help-and-support/create-a-support-ticket.md)
    + [サポートチケットの検索、トラッキング、コメント、エスカレーション](../help-and-support/search-track-comment-escalate-support-ticket.md)
