@@ -1,7 +1,7 @@
 ---
 title: 個別のパッケージのグローバルリファレンスアーキテクチャ
 description: 個別のパッケージ GRA でAdobe Commerceを最適化します。 柔軟にバージョン管理できるパッケージ管理のセットアップ、メリット、ベストプラクティスについて説明します。
-kt: 16727
+jira: KT-16727
 doc-type: tutorial
 audience: all
 last-substantial-update: 2025-1-6
@@ -11,7 +11,7 @@ badge: label="執筆：Adobe、シニアテクニカルアーキテクト、Tony
 role: Architect, Developer, User, Leader
 level: Beginner, Intermediate
 exl-id: cbddc4a3-602f-4208-85cd-b906d2b81f8b
-source-git-commit: dacd43ef84dcb2c2633221a90642a469b2ff5a30
+source-git-commit: e0b11bbcfff830badf471206ead59fc48dd14b7c
 workflow-type: tm+mt
 source-wordcount: '2101'
 ht-degree: 0%
