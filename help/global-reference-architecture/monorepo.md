@@ -1,7 +1,6 @@
 ---
-title: グローバル参照アーキテクチャの活用方法
-description: グローバルな参照アーキテクチャを活用して、拡張性と回復力のあるコマースエクスペリエンスを確立する方法を説明します
-landing-page-description: グローバル参照アーキテクチャとAdobe Commerceでの使用方法について
+title: グローバルリファレンスアーキテクチャ Monorepo
+description: グローバルな参照アーキテクチャに monorepo アプローチを使用して、拡張性と回復力のあるコマースエクスペリエンスを確立する方法を説明します
 jira: KT-16728
 doc-type: tutorial
 audience: all
@@ -11,9 +10,9 @@ badge: label="執筆：Adobe、シニアテクニカルアーキテクト、Tony
 topic: Architecture, Commerce, Development
 role: Architect, Developer, User, Leader
 level: Intermediate, Advanced
-source-git-commit: 7e7c22e994ac5be6eacbcd0084d8ec92666b2024
+source-git-commit: 421c6de9421d715127d0c892dc05ef22f77149cf
 workflow-type: tm+mt
-source-wordcount: '1385'
+source-wordcount: '1371'
 ht-degree: 0%
 
 ---
