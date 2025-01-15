@@ -7,14 +7,16 @@ role: Developer
 level: Beginner
 doc-type: Technical Video
 duration: 613
-last-substantial-update: 2025-1-13
 exl-id: 91535671-02ff-4611-b452-0325792ad70b
-source-git-commit: 4b60aff89575dc431d77f66b94113966f2c26659
+jira: KT-16729
+last-substantial-update: 2025-1-15
+source-git-commit: b2d03fed21bd54044571084206097b8455db33c8
 workflow-type: tm+mt
 source-wordcount: '314'
 ht-degree: 0%
 
 ---
+
 
 # カスタムアドレスフォームレイアウトとGoogle アドレス検索の統合
 
@@ -36,7 +38,7 @@ ht-degree: 0%
 * チェックアウト時にアドレスフォームをカスタマイズし、すべてのフィールドが確実に表示されるように、チェックアウトFormsのフィールド幅を統一しました。
 * Google Address API を統合して、自動アドレス検索と完了を有効にし、ユーザー入力エラーを減らし、チェックアウトプロセスを合理化します。
 * アドレス入力フィールドの検証とエラー処理。誤ったエントリや不完全なエントリに対するフィードバックをユーザーがただちに受け取り、ユーザーエクスペリエンスを向上させることができます。
-* 新しいサイドバーメニュー項目をユーザーアカウントダッシュボードに追加するユーザーアカウントダッシュボードの拡張
+* 新しいサイドバーメニュー項目をユーザーアカウントダッシュボードに追加するユーザーアカウントダッシュボードの拡張。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3442787?learn=on)
 
