@@ -2,7 +2,7 @@
 title: グローバル参照アーキテクチャの活用方法
 description: グローバルな参照アーキテクチャを活用して、拡張性と回復力のあるコマースエクスペリエンスを確立する方法を説明します
 landing-page-description: グローバル参照アーキテクチャとAdobe Commerceでの使用方法について
-kt: 14040
+jira: KT-16728
 doc-type: tutorial
 audience: all
 last-substantial-update: 2025-1-6
@@ -11,7 +11,7 @@ badge: label="執筆：Adobe、シニアテクニカルアーキテクト、Tony
 topic: Architecture, Commerce, Development
 role: Architect, Developer, User, Leader
 level: Intermediate, Advanced
-source-git-commit: dacd43ef84dcb2c2633221a90642a469b2ff5a30
+source-git-commit: 7e7c22e994ac5be6eacbcd0084d8ec92666b2024
 workflow-type: tm+mt
 source-wordcount: '1385'
 ht-degree: 0%
