@@ -10,9 +10,9 @@ topic: Commerce, Administration, Content Management
 role: Admin, Leader, User
 level: Beginner, Intermediate
 exl-id: 1ef99de8-3594-4783-a5f3-227e131cecde
-source-git-commit: 3f354cbac9d0f64fec509fc06c6cf0d41c7287ae
+source-git-commit: e306b2cd26506f6a7ef37c2d416be7172dc3c0d2
 workflow-type: tm+mt
-source-wordcount: '114'
+source-wordcount: '110'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 Adobe Live検索の完全なデモです。
 
-## このビデオを視聴することで期待される内容
+## 学習内容
 
 Adobe Live Search の設定と使用方法について説明します。 ファセット、レポートおよび同義語の理解を深めます。
 

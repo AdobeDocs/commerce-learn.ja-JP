@@ -9,9 +9,10 @@ doc-type: Technical Video
 duration: 853
 last-substantial-update: 2025-1-2
 jira: KT-16723
-source-git-commit: 1db0daa3ca352d50cbda27c1e631ad869b2ac16b
+exl-id: e6b95ff0-9a41-43ac-9f02-c84a70747d64
+source-git-commit: e306b2cd26506f6a7ef37c2d416be7172dc3c0d2
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '148'
 ht-degree: 0%
 
 ---
@@ -20,7 +21,7 @@ ht-degree: 0%
 
 Edge Delivery Servicesの買い物かごドロップインコンポーネントから、Adobe Commerceのチェックアウトエクスペリエンスをカスタマイズする方法を説明します。特に、配送オプションの変更と、複数手順のチェックアウトプロセスの実装に重点を置いています。
 
-## このビデオを視聴することで期待される内容
+## 学習内容
 
 既存のコードを再利用し、ベストプラクティスに従いながら、配送オプションや推定コストなどのEdge Delivery Servicesを削除および再追加し、複数手順のチェックアウトプロセスを実装することで、チェックアウトエクスペリエンスでの買い物かごドロップのカスタマイズ例を説明します。&#x200B;
 

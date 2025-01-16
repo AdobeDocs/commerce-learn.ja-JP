@@ -10,9 +10,9 @@ duration: 363
 last-substantial-update: 2024-12-16T00:00:00Z
 jira: KT-16686
 exl-id: a9a6deb3-6431-4cb2-a3c2-0d584d3da3b5
-source-git-commit: bbed0bc863fd77184fc7f4416f0b7f2287764b1d
+source-git-commit: e306b2cd26506f6a7ef37c2d416be7172dc3c0d2
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '268'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 Adobe Commerceの買い物かごをカスタマイズおよび拡張する方法について説明します。 このデモでは、3 つの更新があります。  このデモでは、まずバックオーダー商品の配送タイムラインを表示し、返品可能な販売通知と最終販売通知を表示し、小計 75 ドル以上の買い物かごに 25% の割引を適用します。 これらの機能を買い物かごに追加して製品属性とスロットを活用することで、ユーザーエクスペリエンス全体が強化されます。
 
-## このビデオを視聴することで期待される内容
+## 学習内容
 
 Adobe Commerceの買い物かごドロップインを使用してトランザクションフローを調整し、数行のコードを変更して新しい機能セットを顧客に表示する方法について説明します。  また、これらの変更を変換して SharePoint から管理し、AB テストを実行する方法についても説明します。
 

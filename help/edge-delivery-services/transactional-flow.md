@@ -10,9 +10,9 @@ duration: 453
 last-substantial-update: 2024-12-16T00:00:00Z
 jira: KT-16685
 exl-id: 1f48fc74-400d-42c3-80f0-cd6aa95e4344
-source-git-commit: 18559dd4c970217497470494009e392fccddfe34
+source-git-commit: e306b2cd26506f6a7ef37c2d416be7172dc3c0d2
 workflow-type: tm+mt
-source-wordcount: '209'
+source-wordcount: '205'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 Edge Delivery Servicesカートのドロップダウンを使用して、チェックアウト用のトランザクションフローを調整する方法を説明します。
 
-## このビデオを視聴することで期待される内容
+## 学習内容
 
 Adobe Commerceの買い物かごドロップインを使用する方法を理解し、トランザクションフローを調整して、数行のコードを変更することで新しい機能セットを顧客に示します。  また、これらの変更を変換して SharePoint から管理し、AB テストを実行する方法についても説明します。
 
