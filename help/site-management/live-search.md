@@ -1,6 +1,6 @@
 ---
-title: 「の概要  [!DNL Live Search]」
-description: 「ストアに  [!DNL Live Search]  を追加し、非常に魅力的で関連性が高くパーソナライズされたショッピングエクスペリエンスを生み出す方法を説明します。」
+title: 概要  [!DNL Live Search]
+description: ストアに追加し  [!DNL Live Search] 、非常に魅力的で関連性が高くパーソナライズされたショッピングエクスペリエンスを作成する方法を説明します。
 doc-type: feature video
 audience: all
 last-substantial-update: 2023-04-27T00:00:00Z
@@ -8,8 +8,9 @@ feature: Configuration, System, Personalization, Search
 topic: Commerce, Administration
 role: Admin, User
 level: Beginner, Intermediate
+jira: KT-17151
 exl-id: a2a65242-9510-447d-8e35-4b9698ddd7b2
-source-git-commit: ff8ae08e9bc1e9ff070ce149f18c1b779badcfe8
+source-git-commit: 90752025ab3bc5650f871d6a12d907bfa5d22134
 workflow-type: tm+mt
 source-wordcount: '75'
 ht-degree: 0%
