@@ -11,7 +11,8 @@ feature: Best Practices, Backend Development, Integration
 topic: Architecture, Commerce, Development
 role: Architect, Developer
 level: Intermediate
-source-git-commit: f0c6e9262a2bf2de3144255de1fc78d6972b6d33
+exl-id: 678f4d2b-c57e-4afb-a535-1048a88bc3b1
+source-git-commit: 6c5017b0c4bbafdd143b78b05cd92853efa7f831
 workflow-type: tm+mt
 source-wordcount: '377'
 ht-degree: 0%
@@ -36,8 +37,8 @@ Adobe Commerce統合スターターキット内のソースコード組織につ
 * `actions` フォルダーと、`ingestion` や `webhook` などの重要なサブフォルダーがどのように含まれているかについて説明します。
 * `actions` フォルダーと、`customer`、`order`、`product`、`stock` などのエンティティに固有のフォルダーがある理由を調べます。各フォルダーには、Commerceやサードパーティシステムからのイベントを効果的に管理するための `commerce` フォルダーと `external` フォルダーに構造化されたランタイムアクションが含まれています。&#x200B;
 * スターターキットに基づいてプロジェクトのデプロイメントを追跡するためにAdobeで使用されるランタイムアクションを含む、`starter-kit-info` フォルダーのコードを変更しない重要性を説明します。&#x200B;
-* イベント設定、プロバイダー設定、CommerceのAdobe I/Oイベントモジュールの設定を自動化する `commerce-event-subscribe` や `onboarding` などの自動化スクリプトを含む `scripts` フォルダーについて説明します。&#x200B;
+* イベント設定、プロバイダー設定、CommerceのAdobe I/O Events モジュール設定を自動化する `commerce-event-subscribe` や `onboarding` などの自動化スクリプトを含む `scripts` フォルダーについて説明します。&#x200B;
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3431691?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3431691?learn=on)
 
 {{$include /help/_includes/starter-kit-related-links.md}}
