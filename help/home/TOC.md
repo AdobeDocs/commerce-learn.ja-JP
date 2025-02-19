@@ -3,15 +3,15 @@ user-guide-title: ビデオとチュートリアル
 user-guide-description: ビデオとチュートリアルを通じて、Adobe Commerce と Magento Open Source について説明します。
 breadcrumb-title: ビデオとチュートリアル
 auto-video-transcripts: true
-source-git-commit: cf9de69246757d62cdb7cb952761a04c78953f56
+source-git-commit: 8dc009c1a7234ac251b0a29533fa188287c0c862
 workflow-type: tm+mt
-source-wordcount: '820'
+source-wordcount: '814'
 ht-degree: 3%
 
 ---
 
 
-# Adobe CommerceのビデオとTutorials {#tutorials}
+# Adobe Commerceのビデオとチュートリアル {#tutorials}
 
 + [[!DNL Commerce] チュートリアル](overview.md)
 + Adobe Commerce Cloud {#adobe-commerce-cloud}
@@ -82,20 +82,20 @@ ht-degree: 3%
    + [サポートチケットを作成](../help-and-support/create-a-support-ticket.md)
    + [サポートチケットの検索、トラッキング、コメント、エスカレーション](../help-and-support/search-track-comment-escalate-support-ticket.md)
    + [ウォッチャーの追加と削除、チケットのクローズと再オープン](../help-and-support/add-remove-watchers-close-reopen-support-ticket.md)
-+ Edge Delivery Services{#edge-delivery-services}
++ Edge Delivery Services {#edge-delivery-services}
    + 入門 {#getting-started}
       + [トランザクションフローの変更](../edge-delivery-services/transactional-flow.md)
       + [買い物かご品目に対する製品属性の使用](../edge-delivery-services/product-attributes-cart-items.md)
       + [チェックアウトでの注文概要の更新](../edge-delivery-services/update-order-summary.md)
       + [チェックアウトへの BOPI の追加](../edge-delivery-services/add-bopis-to-checkout.md)
       + [チェックアウトのカスタマイズ](../edge-delivery-services/customize-checkout.md)
-      + [オートコンプリートと新しいマイアカウントリンクを含むアドレスの調整](../edge-delivery-services/customize-address-new-account-link.md)
+      + [住所レイアウトのカスタマイズ](../edge-delivery-services/customize-address-new-account-link.md)
 + ウェビナーとイベント {#webinars-and-events}
    + イネーブルメントシリーズ {#enablement-series}
       + [Commerce統合の TOC の低下](../enablement-series/lower-total-cost-of-owership-commerce-integrations.md)
       + [最新のAdobe Commerce実装の計画](../enablement-series/planning-the-modern-adobe-commerce-implementation.md)
       + [ローンチ、ローンチ後、監視、トラブルシューティング](../enablement-series/launch-post-launch-monitoring-and-troubleshooting.md)
-      + [Adobe CommerceとのEdge Delivery Services](../enablement-series/edge-delivery-services-with-adobe-commerce.md)
+      + [Adobe CommerceのEdge Delivery Services](../enablement-series/edge-delivery-services-with-adobe-commerce.md)
 + GraphQLと REST {#graphql-rest}
    + [GraphQLの基本](../graphql-rest/intro-graphql.md)
    + [クエリ](../graphql-rest/graphql-queries.md)
@@ -128,7 +128,7 @@ ht-degree: 3%
       + [Adobe Commerce条件付きイベント](../io-events/conditional-events.md)
    + API メッシュ {#api-mesh}
       + [API メッシュの基本を学ぶ](../api-mesh/getting-started-api-mesh.md)
-      + [Adobe I/O とメッシュ プラグインのインストール](../api-mesh/installing-aio-mesh-plugin.md)
+      + [Adobe IO とメッシュプラグインのインストール](../api-mesh/installing-aio-mesh-plugin.md)
       + [プロジェクトとワークスペースの操作](../api-mesh/aio-projects-workspaces.md)
       + [単一ソース GraphQL API メッシュの作成](../api-mesh/graphql-single-source.md)
       + [複数のソース GraphQL API メッシュの作成](../api-mesh/graphql-multiple-source.md)
@@ -172,7 +172,7 @@ ht-degree: 3%
    + [カタログ価格ルールの作成](../site-management/catalog-price-rules.md)
    + [買い物かご価格ルールの作成](../site-management/cart-price-rules.md)
    + [関連製品ルールの管理](../site-management/related-product-rules.md)
-   + [製品Recommendationsの設定](../site-management/product-recommendations.md)
+   + [製品レコメンデーションの設定](../site-management/product-recommendations.md)
    + [Live Search の概要](../site-management/live-search.md)
    + [ レコメンデーションの Live Search](../site-management/live-search-recommendations.md)
    + [CommerceとAJOの統合](../site-management/integrate-commerce-ajo.md)
@@ -235,9 +235,9 @@ ht-degree: 3%
 + ヘッドレスアーキテクチャ {#headless-architecture}
    + ヘッドレス {#introduction-to-headless} の概要
       + [ ヘッドレスアーキテクチャ – セッション 1](../headless/session-1.md)
-   + PWA Studio{#introduction} の概要
+   + PWA Studio {#introduction} の概要
       + [1 – 概要](../pwa/introduction/1-overview.md)
-      + [2 -PWA Studioツール](../pwa/introduction/2-pwa-studio-tools.md)
+      + [2 - PWA Studio ツール](../pwa/introduction/2-pwa-studio-tools.md)
       + [3 – 起動](../pwa/introduction/3-launch.md)
       + [4 – 上向き](../pwa/introduction/4-upward.md)
       + [5 – はじめに](../pwa/introduction/5-getting-started.md)

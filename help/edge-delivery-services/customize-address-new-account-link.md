@@ -1,5 +1,5 @@
 ---
-title: オートコンプリートを含むEdge Delivery Servicesカスタマイズアドレス
+title: オートコンプリートを含むEdge Delivery Servicesのアドレスのカスタマイズ
 description: e コマースチェックアウトフォームをカスタマイズする方法と、Google アドレス検索を統合してユーザーエクスペリエンスを向上させ、入力エラーを減らす方法について説明します。
 feature: Best Practices, Extensibility, Storefront, Tools and External Services
 topic: Architecture, Commerce, Headless
@@ -10,15 +10,15 @@ duration: 613
 last-substantial-update: 2025-1-13
 exl-id: 91535671-02ff-4611-b452-0325792ad70b
 jira: KT-16729
-source-git-commit: 097d5a74f1a74fb0e1e8ff739272e32752d5aa78
+source-git-commit: 9bb310a586c707ff02c3d8a1d13e86075baec603
 workflow-type: tm+mt
-source-wordcount: '314'
+source-wordcount: '309'
 ht-degree: 0%
 
 ---
 
 
-# カスタムアドレスフォームレイアウトとGoogle アドレス検索の統合
+# 住所レイアウトのカスタマイズ
 
 チェックアウト時に住所フォームのレイアウトをカスタマイズして、テキスト領域を除くすべてのフィールドの幅が 50% になるようにする方法を説明します。 統合されたサードパーティ API、特にGoogle Address API を使用して、住所フォームでの自動住所検索と検証を有効にする方法を説明します。&#x200B; 新しいサイドバーメニュー項目をユーザーアカウントダッシュボードに追加し、ストアロケーターのカスタムページにリンクする方法を説明します。
 
