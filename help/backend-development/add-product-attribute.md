@@ -10,9 +10,9 @@ topic: Commerce, Development
 role: Admin, User
 level: Beginner, Intermediate
 exl-id: 98257e62-b23d-4fa9-a0eb-42e045c53195
-source-git-commit: 88b957a33d6061c8053e598248fcbfff5cf0f010
+source-git-commit: d6aeac0c4c66bd8117cc9ef1e0186bbb19cf23e9
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '305'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ ht-degree: 0%
 - app/code/Learning/ClothingMaterial/Model/Attribute/Backend/Material.php
 - app/code/Learning/ClothingMaterial/Model/Attribute/Frontend/Material.php
 - app/code/Learning/ClothingMaterial/Model/Attribute/Source/Material.php
-- app/code/Learning/ClothingMaterial/Setup/installData.php
+- app/code/Learning/ClothingMaterial/Setup/InstallData.php
 
 ### app/code/Learning/ClothingMaterial/registration.php
 
@@ -64,7 +64,9 @@ ComponentRegistrar::register(
 
 >[!NOTE]
 >
->モジュールが宣言型スキーマを使用していて、ほとんどのモジュールが 2.3.0 以降である場合、setup_version を省略する必要があります。 ただし、従来のプロジェクトがある場合は、この方法が使用されることがあります。  詳しくは、[developer.adobe.com](https://developer.adobe.com/commerce/php/development/build/component-name/#add-a-modulexml-file){target="_blank"} を参照してください。
+>モジュールが宣言型スキーマを使用していて、ほとんどのモジュールが 2.3.0 以降である場合、setup_version を省略する必要があります。 ただし、従来のプロジェクトがある場合は、この方法が使用されることがあります。  詳しくは、[developer.adobe.com](https://developer.adobe.com/commerce/php/development/build/component-name/#add-a-modulexml-file){target="_blank"} を参照してください。\
+>注意：この例のコードを動作させるには、setup_version を含める必要があります。含めない場合、InstallData.php は実行されません。
+
 
 
 ```xml
@@ -76,6 +78,10 @@ ComponentRegistrar::register(
 ```
 
 ### app/code/Learning/ClothingMaterial/Model/Attribute/Backend/Material.php
+
+>[!NOTE]
+>
+>プロジェクトにある属性セット ID を使用してください。この例では、数値 9 です。
 
 ```php
 <?php
@@ -161,7 +167,7 @@ class Material extends AbstractSource
 }
 ```
 
-### app/code/Learning/ClothingMaterial/Setup/installData.php
+### app/code/Learning/ClothingMaterial/Setup/InstallData.php
 
 ```php
 <?php
@@ -205,7 +211,7 @@ class InstallData implements InstallDataInterface
             Product::ENTITY,
             'clothing_material',
             [
-                'group'         => 'General',
+                'group'         => 'Product Details',
                 'type'          => 'varchar',
                 'label'         => 'Clothing Material',
                 'input'         => 'select',
@@ -228,7 +234,5 @@ class InstallData implements InstallDataInterface
 ```
 
 ## 役に立つリソース
-
-[ 製品属性の作成 ](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/backend-development/add-product-attribute.html)
 
 [ カスタムテキストフィールド属性の追加 ](https://developer.adobe.com/commerce/php/tutorials/admin/custom-text-field-attribute/)
