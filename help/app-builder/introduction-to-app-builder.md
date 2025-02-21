@@ -12,10 +12,10 @@ topic: App Builder, I/O Events, Developer Console, Commerce, Development, Integr
 role: Architect, Developer
 level: Beginner, Intermediate
 exl-id: 94f8d82a-4a95-46ea-8eed-edf9bed5760c
-source-git-commit: 404d2708a6d540d6fb19a33afb20726356cd8000
+source-git-commit: 241f99eaed68488b952e8ed76186499ca1a20417
 workflow-type: tm+mt
-source-wordcount: '796'
-ht-degree: 5%
+source-wordcount: '728'
+ht-degree: 6%
 
 ---
 
@@ -27,13 +27,13 @@ ht-degree: 5%
 
 >[!VIDEO](https://video.tv.adobe.com/v/3412839?quality=12&learn=on)
 
-Adobe Developer App Builderは、カスタムエクスペリエンスを統合および作成してAdobeソリューションを拡張するためのサーバーレス拡張プラットフォームであり、Adobe Commerceで利用できるようになりました。 App Builderを使用すると、Commerceのネイティブ機能を拡張し、サードパーティソリューションと統合する、安全で拡張性の高いアプリを作成できます。 開発者は、Adobe Commerceのプロセス外の拡張機能を利用できるようになり、すぐに長期的なメリットが得られます。
+Adobe Developer App Builderは、カスタムエクスペリエンスを統合および作成してAdobe ソリューションを拡張するためのサーバーレス拡張プラットフォームであり、Adobe Commerceで利用できるようになりました。 App Builderを使用すると、Commerceのネイティブ機能を拡張し、サードパーティソリューションと統合する、安全で拡張性の高いアプリを作成できます。 開発者は、Adobe Commerceのプロセス外の拡張機能を利用できるようになり、すぐに長期的なメリットが得られます。
 
-App Builderは、サードパーティを拡張するカスタムアプリケーションを統合および作成するための統一サードパーティ拡張フレームワーク [!DNL Adobe Commerce] 提供します。 この拡張フレームワークはAdobeのインフラストラクチャに基づいて構築されているため、デベロッパーはカスタムマイクロサービスを構築し、他のAdobeソリューションやサードパーティ統合に [!DNL Adobe Commerce] たって拡張および統合を行うことができます。
+App Builderは、サードパーティを拡張するカスタムアプリケーションを統合および作成するための統一サードパーティ拡張フレームワーク [!DNL Adobe Commerce] 提供します。 この拡張フレームワークはAdobeのインフラストラクチャに基づいて構築されているので、開発者はカスタムマイクロサービスを構築し、他のAdobe ソリューションやサードパーティ統合をまたいで拡張および統合で [!DNL Adobe Commerce] ます。
 
 App Builderを使用すると、次のような様々なユースケースで [!DNL Adobe Commerce] を拡張できます。
 
-* ミドルウェア拡張 – カスタムコネクタを構築するか、事前に構築された統合のスイートを利用して、外部システムとAdobeアプリケーションを接続します。
+* ミドルウェア拡張 – カスタムコネクタを構築するか、事前に構築された統合のスイートを活用して、外部システムとAdobe アプリケーションを接続します。
 * コアサービス拡張 – カスタム機能およびビジネスロジックを使用してデフォルトの動作を拡張することで、コアアプリケーション機能を拡張します。
 * ユーザーエクスペリエンス拡張 – コアエクスペリエンスを拡張してビジネス要件をサポートするか、顧客固有のデジタルプロパティ、ストアフロントおよびバックオフィスアプリケーションを構築します。
 
@@ -51,12 +51,12 @@ Adobe Commerceは完全な SAAS 製品ではないので、開発するコード
 
 ## アーキテクチャ {#architecture}
 
-標準のソリューションではなく、Adobe Developer App Builderは、Adobe CommerceなどのAdobeクラウドソリューションを拡張するための、一貫性のある標準化された共通の開発プラットフォームを提供します。例えば、次のようなものがあります。
+標準のソリューションではなく、Adobe Developer App Builderは、Adobe CommerceなどのAdobe Cloud ソリューションを拡張するための、一貫性のある標準化された共通の開発プラットフォームを提供します。例えば、次のようなものがあります。
 
 * カスタムマイクロサービスおよび拡張機能の開発に使用するAdobe Developer Console。 プラグインや統合の作成に必要なすべてのツールや API にアクセスしながら、プロジェクトを構築および管理します。
-* カスタム拡張機能および統合を構築するためのオープンソースツール、SDK およびライブラリ。 React Spectrum （Adobeの UI ツールキット）を使用すると、すべてのAdobeアプリに共通の UI を 1 つ用意できます。
-* Adobeのサーバーレスプラットフォームでインフラストラクチャをホスティングするための I/O Runtime や、イベントベースの統合のための I/O Events などのサービスです。 また、Adobeでは、データやファイルの保存も標準でサポートされています。
-* Adobe Experience Cloud:Experience Cloud組織で公開する拡張機能および統合機能を送信します。システム管理者は、これらの拡張機能を確認、管理、承認できます。 公開すると、カスタムのApp Builder拡張機能およびツールを他のAdobe Experience Cloud アプリと一緒に使用できるようになります。
+* カスタム拡張機能および統合を構築するためのオープンソースツール、SDK およびライブラリ。 React Spectrum （Adobeの UI ツールキット）を使用すると、すべてのAdobe アプリに共通の UI を 1 つ用意できます。
+* Adobeのサーバーレスプラットフォームでインフラストラクチャをホストするための I/O Runtime や、イベントベースの統合のための I/O Events などのサービス。 また、Adobeでは、データやファイルの保存も標準でサポートされています。
+* Adobe Experience Cloud :Experience Cloud組織に公開する拡張機能および統合を送信します。システム管理者は、これらの拡張機能を確認、管理、承認できます。 公開すると、カスタムのApp Builder拡張機能およびツールを他のAdobe Experience Cloud アプリと一緒に使用できるようになります。
 
 次の図は、App Builder上に構築された標準アプリケーションでこれらの機能がどのように使用されるかを示しています。
 
@@ -64,25 +64,13 @@ Adobe Commerceは完全な SAAS 製品ではないので、開発するコード
 
 App Builderのアーキテクチャについて詳しくは、[ アーキテクチャの概要 ](https://developer.adobe.com/app-builder/docs/guides/){target="_blank"} を参照してください。
 
-## Amazon Sales Channel拡張機能 {#amazon-sales-channel-extension}
-
->[!IMPORTANT]
->
->Amazon Sales Channel拡張機能は現在開発中で、まだ正式にリリースされていません。  これらのビデオとチュートリアルは、Adobe Developer App Builderを実際のユースケースに使用する方法を示すことを目的としています。
-
-次のチュートリアルでは、App Builder拡張機能を使用してAdobe CommerceをAmazon Sales Channelに接続する方法を示します。
-
-* [技術概要App Builder](../app-builder/app-builder-technical-overview.md)
-* [拡張フレームワーク](../app-builder/extensibility-framework-commerce-eventing.md)
-* [機能デモApp Builder](../app-builder/app-builder-functional-demonstration.md)
-
 ## App Builderの基本を学ぶ {#additional-resources}
 
 初期セットアップを含む、構成可能なコマース戦略の概要については、次のブログ投稿を参照してください。
 
 [App Builderがコマースプラットフォームのビジネスの俊敏性をどのように促進するか ](https://business.adobe.com/blog/how-to/how-app-builder-helps-you-implement-a-composable-commerce-strategy){target="_blank"}
 
-App Builderを使い始めるために、Adobeは次のドキュメントを作成しました。
+App Builderを使い始める際に役立つように、Adobeでは次のドキュメントを作成しています。
 
 * [App Builderの概要 ](https://developer.adobe.com/app-builder/docs/getting_started/){target="_blank"}
 
@@ -101,6 +89,6 @@ App Builderには、開発者向けのビデオとドキュメントが用意さ
 
 ## サポート {#support}
 
-開発者向けサポートのリクエストについては、[Experience Leagueフォーラム ](https://experienceleaguecommunities.adobe.com/t5/app-builder/ct-p/project-firefly){target="_blank"} を参照してください。
+開発者向けサポートリクエストについては、[Experience League フォーラム ](https://experienceleaguecommunities.adobe.com/t5/app-builder/ct-p/project-firefly){target="_blank"} を参照してください。
 
 {{$include /help/_includes/app-builder-related-links.md}}
