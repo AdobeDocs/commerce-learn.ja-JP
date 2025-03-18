@@ -3,9 +3,9 @@ user-guide-title: ビデオとチュートリアル
 user-guide-description: ビデオとチュートリアルを通じて、Adobe Commerce と Magento Open Source について説明します。
 breadcrumb-title: ビデオとチュートリアル
 auto-video-transcripts: true
-source-git-commit: a33687b152162db94cd434c4de8a717ab332e51d
+source-git-commit: 98c1b61b6fec015c03a34b92f81acc530ebfa92b
 workflow-type: tm+mt
-source-wordcount: '822'
+source-wordcount: '826'
 ht-degree: 3%
 
 ---
@@ -75,6 +75,8 @@ ht-degree: 3%
       + [ラストマイル統合](../back-office-integrations/last-mile-integration.md)
       + [Webhook 取り込み](../back-office-integrations/webhook-ingestion.md)
       + [再試行メカニズム](../back-office-integrations/retry-mechanism.md)
++ Adobe Commerce Optimizer {#adobe-commerce-optimizer}
+   + [概要](../adobe-commerce-optimizer/overview.md)
 + グローバル参照アーキテクチャ {#global-reference-architecture-implementation-techniques}
    + [概要](../global-reference-architecture/overview.md)
    + [Git を分割](../global-reference-architecture/split-git.md)
