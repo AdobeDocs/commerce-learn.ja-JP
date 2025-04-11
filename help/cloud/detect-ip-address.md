@@ -9,15 +9,15 @@ doc-type: Technical Video
 duration: 0
 last-substantial-update: 2025-04-07T00:00:00Z
 jira: KT-17553
-source-git-commit: a14a878217a145ecee0b29247ec7ccb224edd883
+exl-id: beb0a6e1-e6b1-4ec0-976c-77a22a27e8a2
+source-git-commit: 3acec65129773a8ba94eb52c53d15d7633440717
 workflow-type: tm+mt
-source-wordcount: '1106'
+source-wordcount: '1095'
 ht-degree: 0%
 
 ---
 
-
-# Commerce Cloud プロジェクトのすべてのタイプの環境の IP アドレスを検出する方法について説明します
+# 様々な環境の IP アドレスを検出
 
 Adobe Commerce Cloud プロジェクトで様々な環境の IP アドレスを検出する方法について説明します。 Adobe Commerce CLI、sed、xargs、dig、grep、sort -u などの一連のコマンドを使用して、開発環境、ステージング環境、実稼動環境の IP アドレスを識別できます。
 
