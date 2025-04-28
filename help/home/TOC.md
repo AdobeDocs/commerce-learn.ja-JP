@@ -3,9 +3,9 @@ user-guide-title: ビデオとチュートリアル
 user-guide-description: ビデオとチュートリアルを通じて、Adobe Commerce と Magento Open Source について説明します。
 breadcrumb-title: ビデオとチュートリアル
 auto-video-transcripts: true
-source-git-commit: 3f6d35a8c11e86524b5e97b19bd481d2b715fdbe
+source-git-commit: 5b9590d7acd87077bcabcf4dad98a0175d912c90
 workflow-type: tm+mt
-source-wordcount: '831'
+source-wordcount: '853'
 ht-degree: 3%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 3%
 
 + [[!DNL Commerce] チュートリアル](overview.md)
 + Adobe Commerce Cloud {#adobe-commerce-cloud}
-   + {#troubleshooting} のトラブルシューティング
+   + トラブルシューティング {#troubleshooting}
       + [無効な SSL](../cloud/troubleshooting/invalid-ssl.md)
       + [2 つの一般的なサイトエラーのトリアージと解決](../cloud/troubleshooting/triage-two-common-site-errors.md)
       + [設定値](../cloud/troubleshooting/config-values.md)
@@ -40,29 +40,29 @@ ht-degree: 3%
    + ベストプラクティス {#commerce-cloud-best-practices}
       + [サポートリクエスト](../cloud/best-practices/support-request.md)
       + [ローンチ前のチェックリスト](../cloud/best-practices/pre-launch-checklist.md)
-+ 入門 {#getting-started}
-   + Commerce as a Cloud Service {#commerce-as-a-cloud-service}
++ はじめに {#getting-started}
+   + Commerceas a Cloud Service {#commerce-as-a-cloud-service}
       + [概要](../commerce-as-a-cloud-service/overview.md)
       + [アーキテクチャ](../commerce-as-a-cloud-service/architecture.md)
-   + Adobe Commerceへの移行 {#migrating-to-adobe-commerce}
+   + Adobe Commerceへの移行{#migrating-to-adobe-commerce}
       + [概要](../migrating-to-adobe-commerce/overview.md)
-      + 準備 {#preparation}
+      + 準備{#preparation}
          + [チームとプロジェクトの評価](../migrating-to-adobe-commerce/preparation/evaluate-team-and-project.md)
-      + カスタマイズ {#customizations}
+      + カスタマイズ{#customizations}
          + [処理中のコード標準](../migrating-to-adobe-commerce/customizations/in-process-code-standards.md)
       + QA{#qa}
          + [コードの凍結](../migrating-to-adobe-commerce/qa/code-freeze.md)
-   + グローバルな参照アーキテクチャ {#global-reference-architecture}
+   + グローバル参照アーキテクチャ{#global-reference-architecture}
       + [グローバル参照アーキテクチャ](../global-reference-architecture/what-is-global-reference-architecture.md)
       + [グローバル参照アーキテクチャの活用](../global-reference-architecture/how-do-you-leverage-global-reference-architecture.md)
       + [アーキテクトグラ](../global-reference-architecture/how-do-you-architect-global-reference-architecture.md)
       + [グローバルリファレンスアーキテクチャの実装](../global-reference-architecture/how-do-you-implement-global-reference-architecture.md)
-   + Commerceの機能 {#capabilities}
+   + Commerce機能 {#capabilities}
       + [データ接続](../capabilities/data-connection.md)
       + [Live Search の完全なデモ](../capabilities/live-search-full-demonstration.md)
       + [構成可能なCommerce](../capabilities/what-is-composable-commerce.md)
       + [Quality Patch ツール](../capabilities/quality-patch-tool.md)
-   + 製品 {#create-products} ージの作成
+   + 製品の作成 {#create-products}
       + [ シンプルな製品 ](../site-management/create-simple-product.md)
       + [ 仮想製品 ](../site-management/create-virtual-product.md)
       + [ダウンロード可能な製品](../site-management/create-downloadable-product.md)
@@ -89,8 +89,8 @@ ht-degree: 3%
    + [サポートチケットを作成](../help-and-support/create-a-support-ticket.md)
    + [サポートチケットの検索、トラッキング、コメント、エスカレーション](../help-and-support/search-track-comment-escalate-support-ticket.md)
    + [ウォッチャーの追加と削除、チケットのクローズと再オープン](../help-and-support/add-remove-watchers-close-reopen-support-ticket.md)
-+ Edge Delivery Services {#edge-delivery-services}
-   + 入門 {#getting-started}
++ Edge 配信サービス {#edge-delivery-services}
+   + はじめに {#getting-started}
       + [トランザクションフローの変更](../edge-delivery-services/transactional-flow.md)
       + [買い物かご品目に対する製品属性の使用](../edge-delivery-services/product-attributes-cart-items.md)
       + [チェックアウトでの注文概要の更新](../edge-delivery-services/update-order-summary.md)
@@ -104,6 +104,12 @@ ht-degree: 3%
       + [最新のAdobe Commerce実装の計画](../enablement-series/planning-the-modern-adobe-commerce-implementation.md)
       + [ローンチ、ローンチ後、監視、トラブルシューティング](../enablement-series/launch-post-launch-monitoring-and-troubleshooting.md)
       + [Adobe CommerceのEdge Delivery Services](../enablement-series/edge-delivery-services-with-adobe-commerce.md)
+   + Commerceの会話 {#commerce-conversations}
+      + [エキスパートの成功とは](../commerce-conversations/what-is-expert-success.md)
+      + [Commerce サポートアドオン](../commerce-conversations/commerce-support-add-ons.md)
+      + [究極の成功とは](../commerce-conversations/what-is-ultimate-success.md)
+      + [Success Accelerators の技術対応](../commerce-conversations/success-accelerators-technical-readiness.md)
+      + [成功を促進するツールの導入と有効化](../commerce-conversations/success-accelerators-adoption-and-enablement.md)
 + GraphQLと REST {#graphql-rest}
    + [GraphQLの基本](../graphql-rest/intro-graphql.md)
    + [クエリ](../graphql-rest/graphql-queries.md)
@@ -115,7 +121,7 @@ ht-degree: 3%
    + [App Builderの機能デモ](../app-builder/app-builder-functional-demonstration.md)
    + [App Builderの技術概要 ](../app-builder/app-builder-technical-overview.md)
    + [Marketplace にアプリを送信](../app-builder/submit-app-process.md)
-   + 最初の App Builder アプリ {#first-app} ールを作成する
+   + 最初の App Builder アプリを作成 {#first-app}
       + [概要](../app-builder/first-app/overview.md)
       + [.env ファイルの生成と設定 ](../app-builder/first-app/env-file.md)
       + [app.config.yaml ファイルの説明と使用方法 ](../app-builder/first-app/app-config-yaml-file.md)
@@ -126,7 +132,7 @@ ht-degree: 3%
       + [App Builder URL を使用したテスト](../app-builder/first-app/testing-app-builder-url.md)
       + [まとめ](../app-builder/first-app/conclusion.md)
       + [ サンプルモジュールソースコード ](https://github.com/magento/app-builder-samples){target="_blank"}
-   + Adobe Commerce {#io-events} の IO イベント
+   + Adobe Commerceの IO イベント {#io-events}
       + [入門 IO イベント](../io-events/getting-started-io-events.md)
       + [Adobe Commerce 2.4.5 のインストール](../io-events/2-4-5-installation.md)
       + [Adobe Commerce 2.4.6 のインストール](../io-events/2-4-6-installation.md)
@@ -159,7 +165,7 @@ ht-degree: 3%
    + [顧客グループの作成](../site-management/customer-groups.md)
    + [顧客属性の作成](../site-management/customer-attributes.md)
    + [販売者支援型ショッピング](../site-management/seller-assisted-shopping.md)
-+ Catalog Management {#catalog}
++ カタログ管理 {#catalog}
    + [カテゴリの作成](../site-management/category-create.md)
    + [カテゴリでの製品の管理](../site-management/category-products.md)
    + [Inventory management](../site-management/inventory-management.md)
@@ -188,7 +194,7 @@ ht-degree: 3%
    + [ストアフルフィルメントの概要](../orders-and-fulfillment/store-fulfillment.md)
    + [注文ステータスの管理](../orders-and-fulfillment/order-status.md)
    + [在庫ステータスの確認](../orders-and-fulfillment/checking-inventory-status.md)
-+ Adobe Commerce {#b2b} の B2B
++ Adobe Commerceの B2B {#b2b}
    + [会社アカウントの管理](../b2b/company-accounts.md)
    + [共有カタログの管理](../b2b/shared-catalogs.md)
    + [会社クレジットの管理](../b2b/company-credit.md)
@@ -241,9 +247,9 @@ ht-degree: 3%
    + [JavaScript モジュールを追加](../frontend-development/add-javascript-module.md)
    + [ページを作成](../frontend-development/create-page.md)
 + ヘッドレスアーキテクチャ {#headless-architecture}
-   + ヘッドレス {#introduction-to-headless} の概要
+   + ヘッドレスの概要 {#introduction-to-headless}
       + [ ヘッドレスアーキテクチャ – セッション 1](../headless/session-1.md)
-   + PWA Studio {#introduction} の概要
+   + PWA Studioについて {#introduction}
       + [1 – 概要](../pwa/introduction/1-overview.md)
       + [2 - PWA Studio ツール](../pwa/introduction/2-pwa-studio-tools.md)
       + [3 – 起動](../pwa/introduction/3-launch.md)
