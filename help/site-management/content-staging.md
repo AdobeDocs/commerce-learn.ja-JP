@@ -10,10 +10,11 @@ feature: Configuration, System, Staging
 topic: Commerce, Administration
 role: Admin, User
 level: Beginner, Intermediate
+badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
 exl-id: fc5a7cd3-905a-49ac-86b8-215dd8c36d73
-source-git-commit: 85cd8ab916d2125333d5fe11affeab7620f7f6b1
+source-git-commit: efb067d8595079cc33a9af0c15eb1e60e0dd5796
 workflow-type: tm+mt
-source-wordcount: '126'
+source-wordcount: '143'
 ht-degree: 0%
 
 ---
