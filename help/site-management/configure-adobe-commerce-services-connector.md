@@ -11,16 +11,17 @@ topic: Commerce, Administration
 role: Admin, User
 level: Beginner, Intermediate
 exl-id: 3ddfab5e-18a4-47ce-8b80-d66db10eebee
-source-git-commit: 765bf4159892416e02ea1e9b8e4fa69e396d40af
+badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
+source-git-commit: 03fab8e76116374c69240173572a276652197d9b
 workflow-type: tm+mt
-source-wordcount: '193'
+source-wordcount: '210'
 ht-degree: 0%
 
 ---
 
 # Adobe Commerce サービスコネクタの設定
 
-Commerce サービスコネクタは、様々な SaaS 機能のロックを解除する、Adobeが開発した設定です。 Adobe CommerceとMagento Open Sourceで支払いサービスを使用するには、実稼動およびサンドボックス API キーを使用してCommerce インスタンスを接続し、設定用に設定でデータスペースを指定する必要があります。
+Commerce サービスコネクタは、Adobeが開発した設定で、様々な SaaS 機能のロックを解除するものです。 Adobe CommerceとMagento Open Sourceで支払いサービスを使用するには、実稼動およびサンドボックス API キーを使用してCommerce インスタンスを接続し、設定用に設定でデータスペースを指定する必要があります。
 
 支払いサービスの設定に役立つ _Adobe Commerce サービスコネクタの設定_ ビデオをご覧ください。
 
@@ -35,7 +36,7 @@ Commerce サービスコネクタは、様々な SaaS 機能のロックを解�
 
 ## 設定に関する FAQ
 
-Commerce サービスコネクタは、様々な SaaS 機能のロックを解除する、Adobeが開発した設定です。 設定に関するよくある質問の一部を次に示します。
+Commerce サービスコネクタは、Adobeが開発した設定で、様々な SaaS 機能のロックを解除するものです。 設定に関するよくある質問の一部を次に示します。
 
 - 無効な公開鍵または公開鍵を修正します。
 - ストアの API キーをローテーションします。
