@@ -3,9 +3,9 @@ user-guide-title: ビデオとチュートリアル
 user-guide-description: ビデオとチュートリアルを通じて、Adobe Commerce と Magento Open Source について説明します。
 breadcrumb-title: ビデオとチュートリアル
 auto-video-transcripts: true
-source-git-commit: 5b9590d7acd87077bcabcf4dad98a0175d912c90
+source-git-commit: cd7b4deea3bb30a05a6d0d1cad4a30e8e6fb34cd
 workflow-type: tm+mt
-source-wordcount: '853'
+source-wordcount: '857'
 ht-degree: 3%
 
 ---
@@ -110,6 +110,7 @@ ht-degree: 3%
       + [究極の成功とは](../commerce-conversations/what-is-ultimate-success.md)
       + [Success Accelerators の技術対応](../commerce-conversations/success-accelerators-technical-readiness.md)
       + [成功を促進するツールの導入と有効化](../commerce-conversations/success-accelerators-adoption-and-enablement.md)
+      + [Success Accelerators 組織への対応](../commerce-conversations/success-accelerators-organizational-readiness.md)
 + GraphQLと REST {#graphql-rest}
    + [GraphQLの基本](../graphql-rest/intro-graphql.md)
    + [クエリ](../graphql-rest/graphql-queries.md)
