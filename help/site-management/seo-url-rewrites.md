@@ -1,6 +1,6 @@
 ---
 title: SEO の URL 書き換えの管理
-description: URL 書き換えツールを使用して、製品、カテゴリ、CMS ページに関連付けられている URL を変更する方法について説明します。
+description: URL 書き換えツールを使用して、商品、カテゴリ、CMSページに関連付けられている URL を変更する方法について説明します。
 kt: 10554
 doc-type: feature video
 audience: all
@@ -11,16 +11,17 @@ topic: Commerce, Administration
 role: Admin, Leader, User
 level: Beginner, Intermediate
 exl-id: 8b982882-9c59-4d3f-b158-8ea5d38d7a22
-source-git-commit: 404d2708a6d540d6fb19a33afb20726356cd8000
+badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
+source-git-commit: 29d48213b0f7d4425925ea8234d09867aa6d7577
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '115'
 ht-degree: 0%
 
 ---
 
 # SEO の URL 書き換えの管理
 
-URL 書き換えツールを使用すると、製品、カテゴリまたは CMS ページに関連付けられている URL を変更できます。 書き換えが有効になると、前の URL を指すリンクは新しいアドレスにリダイレクトされます。
+URL 書き換えツールを使用すると、商品、カテゴリまたはCMSページに関連付けられている URL を変更できます。 書き換えが有効になると、前の URL を指すリンクは新しいアドレスにリダイレクトされます。
 
 ## このビデオの目的は誰ですか。
 
