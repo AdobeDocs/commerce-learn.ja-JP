@@ -48,7 +48,7 @@ ht-degree: 0%
 - [ ] 作成または更新する各ページの TOC と H1 の一致。
 - [ ] TOC と H1 には、例えば、次のようなアクションが関連付けられています。GutHub プルリクエストの作成方法を説明します
 - [ ] H1 では等幅にしないでください
-- [ ] 各ページタイトルは***C***apitol 文字で始める必要があります。
+- [ ] 各ページタイトルは&#x200B;***C***apitol 文字で始める必要があります。
 - [ ビデオにチャプターが含まれている必要があるかどうかを確認した ]
 - [ ] すべてのビデオには、ビデオを正しく表すためのポスターが割り当てられています
 - [ ] [Acrolinx](https://experienceleague.corp.adobe.com/docs/authoring-guide-exl/using/style-guide/acrolinx.html) を使用しましたか

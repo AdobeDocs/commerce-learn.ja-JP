@@ -26,7 +26,7 @@ Adobe Commerceの概要を次に示します [Site Launch ドキュメント ](h
 
 アカウントにCTA/CSE が割り当てられている場合は、新しいAdobe Commerce Cloud サイトを立ち上げる 4 週間前までに、立ち上げの **意図** を通知するためにそれらのユーザーおよびアカウント管理者に連絡してください。
 
-- 一部のチェックは、「ブロッカー [!BADGE  でハイライト表示され ] す{type=caution tooltip="潜在的遮断薬"}
+- 一部のチェックは、「ブロッカー [!BADGE &#x200B; でハイライト表示され &#x200B;] す{type=caution tooltip="潜在的遮断薬"}
 - お客様の実装アプローチに合わせて、開発者またはシステム統合パートナーとの共同作業を確実に行います。
 
 >[!IMPORTANT]
@@ -37,9 +37,9 @@ Adobe Commerceの概要を次に示します [Site Launch ドキュメント ](h
 1. テストと運用に関するドキュメントを確認する [ サイト開始に関するドキュメント ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/launch/overview){target="_blank"}
 
    >[!NOTE]
-   >パートナーまたはシステムインテグレーターと共に _必要なすべてのアクション項目を組み込んだ、包括的な_ 「運用開始準備計画」を準備します。 ローンチ前のチェックリストではAdobeのベストプラクティスを重視していますが、独自の運用開始準備計画の必要性に取って代わる _**ありません**_。
+   >パートナーまたはシステムインテグレーターと共に _必要なすべてのアクション項目を組み込んだ、包括的な_ 「運用開始準備計画」を準備します。 ローンチ前のチェックリストではAdobeのベストプラクティスを重視していますが、独自の運用開始準備計画の必要性に取って代わる _&#x200B;**ありません**&#x200B;_。
 
-2. [!BADGE  ブロッカー ]{type=caution tooltip="潜在的遮断薬"}[ ユーザーガイド ](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/site-wide-analysis-tool/intro){target="_blank"}）
+2. [!BADGE &#x200B; ブロッカー &#x200B;]{type=caution tooltip="潜在的遮断薬"}[ ユーザーガイド ](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/site-wide-analysis-tool/intro){target="_blank"}）
 3. エンドユーザー/マーチャントが、バックエンド操作を含む UAT （ユーザー受け入れテスト）を実施しました。
 4. システムインテグレーターチームは、ステージングと実稼動でエンドツーエンドの UAT を実行しました。 [Experience Leagueドキュメント ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/test/staging-and-production){target="_blank"} を参照してください。
 5. ステージング環境と実稼動環境でのコードのデプロイメントとテストを確認します（[ 詳細を表示 ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/test/staging-and-production){target="_blank"}）。
@@ -53,7 +53,7 @@ Adobe Commerceの概要を次に示します [Site Launch ドキュメント ](h
 
 ## 3. Fastly の設定
 
-1. [!BADGE  ブロッカー ]{type=caution tooltip="潜在的遮断薬"}[ フルページキャッシュ ](https://developer.adobe.com/commerce/frontend-core/guide/caching/){target="_blank"} または [GraphQLのキャッシュ ](https://developer.adobe.com/commerce/webapi/graphql/usage/caching/){target="_blank"}）。 [Fastly セットアップガイド ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/fastly){target="_blank"} を参照してください。
+1. [!BADGE &#x200B; ブロッカー &#x200B;]{type=caution tooltip="潜在的遮断薬"}[ フルページキャッシュ ](https://developer.adobe.com/commerce/frontend-core/guide/caching/){target="_blank"} または [GraphQLのキャッシュ ](https://developer.adobe.com/commerce/webapi/graphql/usage/caching/){target="_blank"}）。 [Fastly セットアップガイド ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/fastly){target="_blank"} を参照してください。
 2. 該当する場合は、PWA/ヘッドレス web サイトでのGraphQL クエリのGET方式を使用します。
 
    >[!NOTE]
@@ -69,8 +69,8 @@ Adobe Commerceの概要を次に示します [Site Launch ドキュメント ](h
 
 ## 4. DNS と SSL
 
-1. [!BADGE  ブロッカー ]{type=caution tooltip="潜在的遮断薬"}_（追加または変更されたドメインに対して事前にサポートチケットを送信）_
-2. [!BADGE  ブロッカー ]{type=caution tooltip="潜在的遮断薬"}[ この記事 ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/how-to/ssl-tls-certificates-for-magento-commerce-cloud-faq){target="_blank"} を参照してください。
+1. [!BADGE &#x200B; ブロッカー &#x200B;]{type=caution tooltip="潜在的遮断薬"}_（追加または変更されたドメインに対して事前にサポートチケットを送信）_
+2. [!BADGE &#x200B; ブロッカー &#x200B;]{type=caution tooltip="潜在的遮断薬"}[ この記事 ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/how-to/ssl-tls-certificates-for-magento-commerce-cloud-faq){target="_blank"} を参照してください。
 3. 運用開始のために、DNS[TTL （Time to Live） ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/launch/checklist#to-update-dns-configuration-for-site-launch){target="_blank"} 値を可能な限り最小限に更新します。
 4. Sendgrid SPF と DKIM の有効化
 
@@ -101,8 +101,8 @@ Adobe Commerce Cloudでは、ステージング環境と実稼動環境の両方
 ## 7. テストとトラブルシューティング
 
 1. 送信トランザクションメールをテストします。 詳しくは、[Adobe Commerce Cloud - SendGrid Mail 機能 ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/project/sendgrid){target="_blank"} を参照してください。
-2. [!BADGE  ブロッカー ]{type=caution tooltip="潜在的遮断薬"}
-3. [!BADGE  ブロッカー ]{type=caution tooltip="潜在的遮断薬"}
+2. [!BADGE &#x200B; ブロッカー &#x200B;]{type=caution tooltip="潜在的遮断薬"}
+3. [!BADGE &#x200B; ブロッカー &#x200B;]{type=caution tooltip="潜在的遮断薬"}
 
    >[!NOTE]
    > [ 負荷テストとストレステストは、ボトルネックを特定し ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/test/guidance#:~:text=A%20load%20test%20can%20help,Scan%20Tool%20for%20your%20sites.){target="_blank"} アプリケーション内のパフォーマンスの問題を明らかにするという目的に役立ちます。 クラスターサイズに関する期待値を管理し、ビジネス要件を効果的に満たすために必要なスケーリング調整を決定する上で重要な役割を果たします。
@@ -119,7 +119,7 @@ Adobe Commerce Cloudでは、ステージング環境と実稼動環境の両方
 
 1. インデックス作成を _スケジュールに従って更新_」に切り替えます。ただし、**_customer_grid_** は「保存」のままです（[ インデックス作成モード ](https://developer.adobe.com/commerce/php/development/components/indexing/#indexing-modes){target="_blank"} を参照）。
 2. サードパーティの検索エンジンまたは拡張機能を使用していますか？
-3. 関連する場合は、インデクサー/クローラーで web サイトをスキャンできるように ](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/seo-overview){target="_blank"}[SEO （検索エンジン最適化）設定が適切にセットアップされていることを確認します。
+3. 関連する場合は、インデクサー/クローラーで web サイトをスキャンできるように [&#128279;](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/seo-overview){target="_blank"}SEO （検索エンジン最適化）設定が適切にセットアップされていることを確認します。
 4. リダイレクトとルートの追加（[ ルートの設定 ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/routes/routes-yaml){target="_blank"} を参照）
 
    >[!NOTE]
