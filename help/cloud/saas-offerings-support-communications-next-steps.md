@@ -30,7 +30,7 @@ Adobe Commerce Cloud の SaaS 製品、サポート、その他の通信、次�
 
 ## ビデオコンテンツ
 
->[!VIDEO](https://video.tv.adobe.com/v/3427902?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3432837?learn=on&enablevpops&captions=jpn)
 
 ## 頭字語
 
