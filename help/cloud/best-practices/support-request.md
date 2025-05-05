@@ -39,4 +39,4 @@ Adobe Commerceの問題の多くは、New Relicでトレースできます。 Ne
 
 >[!MORELIKETHIS]
 > 
-> - [Adobe Commerce ヘルプユーザーガイド ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide){target="_blank"}
+> - [Adobe Commerce ヘルプユーザーガイド ](https://experienceleague.adobe.com/ja/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide){target="_blank"}

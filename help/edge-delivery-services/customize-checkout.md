@@ -39,4 +39,4 @@ Edge Delivery Servicesの買い物かごドロップインコンポーネント�
 
 ## その他のドキュメント
 
-* [ 複数ステップのゲストチェックアウト ](https://experienceleague.adobe.com/developer/commerce/storefront/dropins/checkout/tutorials/multi-step/)
+* [ 複数ステップのゲストチェックアウト ](https://experienceleague.adobe.com/developer/commerce/storefront/dropins/checkout/tutorials/multi-step/?lang=ja)

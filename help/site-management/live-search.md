@@ -35,7 +35,7 @@ Adobe Commerceの [!DNL Live Search] について簡単に説明します。 Ado
 
 ## その他のリソース
 
-- [Live Search の完全なデモ ](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/getting-started/capabilities/live-search-full-demonstration.html){target="_blank"}
-- [[!DNL Live Search]  お勧め用 ](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/marketing/live-search-recommendations.html){target="_blank"}
-- [[!DNL Live Search]  概要 ](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html){target="_blank"}
-- [Commerce サービスコネクタ ](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html){target="_blank"}
+- [Live Search の完全なデモ ](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/getting-started/capabilities/live-search-full-demonstration.html?lang=ja){target="_blank"}
+- [[!DNL Live Search]  お勧め用 ](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/marketing/live-search-recommendations.html?lang=ja){target="_blank"}
+- [[!DNL Live Search]  概要 ](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html?lang=ja){target="_blank"}
+- [Commerce サービスコネクタ ](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html?lang=ja){target="_blank"}

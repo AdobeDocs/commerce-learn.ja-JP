@@ -32,5 +32,5 @@ ht-degree: 0%
 
 ## その他のリソース
 
-- [[!DNL Page Builder] Templates - [!DNL Page Builder]  ユーザーガイド ](https://experienceleague.adobe.com/docs/commerce-admin/page-builder/templates.html)
+- [[!DNL Page Builder] Templates - [!DNL Page Builder]  ユーザーガイド ](https://experienceleague.adobe.com/docs/commerce-admin/page-builder/templates.html?lang=ja)
 - [ テンプレートの追加  [!DNL Page Builder]  開発者ガイド ](https://developer.adobe.com/commerce/frontend-core/page-builder/content-types/create/add-templates/)

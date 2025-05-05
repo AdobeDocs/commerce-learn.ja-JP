@@ -57,8 +57,8 @@ Adobe Commerceにモジュールをインストールした後は、簡単に 3D
 
 ## 役に立つリソース
 
-[Adobe Commerce用 AR ビューア ](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/digital-assets/product-3d-model/ar-viewer-overview.html){target="_blank"}
-[Adobe Commerceの AR ビューアを使用した製品 3D モデルの管理 ](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/digital-assets/product-3d-model/ar-viewer-setup.html){target="_blank"}
+[Adobe Commerce用 AR ビューア ](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/digital-assets/product-3d-model/ar-viewer-overview.html?lang=ja){target="_blank"}
+[Adobe Commerceの AR ビューアを使用した製品 3D モデルの管理 ](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/digital-assets/product-3d-model/ar-viewer-setup.html?lang=ja){target="_blank"}
 
 ## Adobe Commerce Marketplace 拡張機能
 

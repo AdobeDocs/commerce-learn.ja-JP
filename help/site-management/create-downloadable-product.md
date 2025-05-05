@@ -54,7 +54,7 @@ REST API とAdobe Commerce Admin を使用して、ダウンロード可能な�
 
 ドメインが `env.php` に追加されたので、Adobe Commerce管理者または REST API を使用して、ダウンロード可能な商品を作成できます。
 
-詳しくは、[ 設定リファレンス ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/files/config-reference-envphp.html#downloadable_domains) を参照してください。
+詳しくは、[ 設定リファレンス ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/files/config-reference-envphp.html?lang=ja#downloadable_domains) を参照してください。
 
 >[!IMPORTANT]
 >Adobe Commerceの一部のバージョンでは、Adobe Commerce管理者で商品を編集すると、次のエラーが発生することがあります。 製品は REST API を使用して作成されますが、リンクされたダウンロードの価格は `null` です。
@@ -236,7 +236,7 @@ curl --location '{{your.url.here}}/rest/all/V1/products/abcd12345/downloadable-l
 
 ## その他のリソース
 
-- [ ダウンロード可能な製品タイプ ](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/types/product-create-downloadable.html){target="_blank"}
-- [ ダウンロード可能なドメインの設定ガイド ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/files/config-reference-envphp.html#downloadable_domains){target="_blank"}
+- [ ダウンロード可能な製品タイプ ](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/types/product-create-downloadable.html?lang=ja){target="_blank"}
+- [ ダウンロード可能なドメインの設定ガイド ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/files/config-reference-envphp.html?lang=ja#downloadable_domains){target="_blank"}
 - [Adobe Developer REST チュートリアル ](https://developer.adobe.com/commerce/webapi/rest/tutorials/prerequisite-tasks/){target="_blank"}
 - [Adobe Commerce REST ReDoc](https://adobe-commerce.redoc.ly/2.4.6-admin/tag/products#operation/PostV1Products){target="_blank"}

@@ -40,7 +40,7 @@ ht-degree: 0%
 
 ## Adobe Commerce Cloud CLI ツールの使用
 
-データベースダンプを作成するには、[Adobe Commerce Cloud CLI](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli/cloud-cli-overview.html) がインストールされている必要があります。 ローカルラップトップで、ディレクトリに移動し、次のコマンドを実行します。 `your-project-id` をプロジェクト ID （`asasdasd45q` に似ています）に置き換えてください。 また、`your-environment-name` を環境の名前（`master` や `staging` など）に置き換える必要もあります。
+データベースダンプを作成するには、[Adobe Commerce Cloud CLI](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli/cloud-cli-overview.html?lang=ja) がインストールされている必要があります。 ローカルラップトップで、ディレクトリに移動し、次のコマンドを実行します。 `your-project-id` をプロジェクト ID （`asasdasd45q` に似ています）に置き換えてください。 また、`your-environment-name` を環境の名前（`master` や `staging` など）に置き換える必要もあります。
 
 `magento-cloud db:dump -p your-project-id -e your-environment-name`
 
@@ -276,7 +276,7 @@ MariaDB データベースに直接アクセスするには、SSH を使用し�
    magento-cloud ssh
    ```
 
-1. [$login_CLOUD_RELATIONSHIPS](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/properties.html?lang=en#relationships) 変数の `database` プロパティおよび `type` プロパティから MySQL MAGENTO資格情報を取得します。
+1. [$login_CLOUD_RELATIONSHIPS](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/properties.html?lang=ja#relationships) 変数の `database` プロパティおよび `type` プロパティから MySQL MAGENTO資格情報を取得します。
 
    ```bash
    echo $MAGENTO_CLOUD_RELATIONSHIPS | base64 -d | json_pp
@@ -322,7 +322,7 @@ MariaDB データベースに直接アクセスするには、SSH を使用し�
 
 ## SQL を実行するためのクラウドプロジェクトデータベースへの直接接続
 
-次のメソッドでは、`magento-cloud` cli を使用して mysql データベースに直接接続し、SQL を実行します。これにより、データベースのクエリをより高速に実行できます。 このデータベースをコピーする必要がある場合は、別の方法の 1 つを参照して [ データベース ダンプを作成 ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/create-database-dump-on-cloud.html) します。
+次のメソッドでは、`magento-cloud` cli を使用して mysql データベースに直接接続し、SQL を実行します。これにより、データベースのクエリをより高速に実行できます。 このデータベースをコピーする必要がある場合は、別の方法の 1 つを参照して [ データベース ダンプを作成 ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/create-database-dump-on-cloud.html?lang=ja) します。
 
 ```bash
 magento-cloud db:sql    
@@ -382,7 +382,7 @@ MariaDB [main]>
 
 ## その他のリソース
 
-[Adobe Commerce Cloud CLI](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli/cloud-cli-overview.html)
-[MySQL サービスの設定 ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/mysql.html)
-[ リモート MySQL データベース接続の設定 ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/database-server/mysql-remote.html)
-[ クラウドインフラストラクチャ上のAdobe Commerceにデータベースダンプを作成する ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/create-database-dump-on-cloud.html)
+[Adobe Commerce Cloud CLI](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli/cloud-cli-overview.html?lang=ja)
+[MySQL サービスの設定 ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/mysql.html?lang=ja)
+[ リモート MySQL データベース接続の設定 ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/database-server/mysql-remote.html?lang=ja)
+[ クラウドインフラストラクチャ上のAdobe Commerceにデータベースダンプを作成する ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/create-database-dump-on-cloud.html?lang=ja)

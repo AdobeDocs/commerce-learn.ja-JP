@@ -41,4 +41,4 @@ Edge Delivery ServicesからAdobe Commerceの買い物かごを使用して BOPI
 
 ## その他のドキュメント
 
-* [ 店舗でオンライン ピックアップを購入 ](https://experienceleague.adobe.com/developer/commerce/storefront/dropins/checkout/tutorials/buy-online-pickup-in-store/)
+* [ 店舗でオンライン ピックアップを購入 ](https://experienceleague.adobe.com/developer/commerce/storefront/dropins/checkout/tutorials/buy-online-pickup-in-store/?lang=ja)

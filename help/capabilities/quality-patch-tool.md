@@ -71,8 +71,8 @@ Quality Patches Tool を使用すると、パッチを適用することで e �
 
 ## 関連記事およびビデオ
 
-* [Quality Patch Tools 検索 ](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html)
-* [ リリースノート ](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/release-notes)
+* [Quality Patch Tools 検索 ](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html?lang=ja)
+* [ リリースノート ](https://experienceleague.adobe.com/ja/docs/commerce-operations/tools/quality-patches-tool/release-notes)
 * [ パッチの GitHub](https://github.com/magento/quality-patches/blob/master/patches/os/)
-* [ クオリティパッチツールの利用 ](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/usage)
-* [QPT のテクニカルビデオ ](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/tools/quality-patch-tool)
+* [ クオリティパッチツールの利用 ](https://experienceleague.adobe.com/ja/docs/commerce-operations/tools/quality-patches-tool/usage)
+* [QPT のテクニカルビデオ ](https://experienceleague.adobe.com/ja/docs/commerce-learn/tutorials/tools/quality-patch-tool)

@@ -32,5 +32,5 @@ ht-degree: 0%
 
 ## その他のリソース
 
-- [ 注文の処理 –  [!DNL Commerce]  店舗および購入エクスペリエンスガイド ](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/order-processing.html#process-an-order)
-- [ 注文ステータス - [!DNL Commerce]  店舗および購入エクスペリエンスガイド ](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/order-status.html)
+- [ 注文の処理 –  [!DNL Commerce]  店舗および購入エクスペリエンスガイド ](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/order-processing.html?lang=ja#process-an-order)
+- [ 注文ステータス - [!DNL Commerce]  店舗および購入エクスペリエンスガイド ](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/order-status.html?lang=ja)

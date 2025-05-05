@@ -32,5 +32,5 @@ Adobe CommerceまたはMagento Open Source 2.4 では、マーチャントは新
 
 ## その他のリソース
 
-- [ メディアギャラリー –  [!DNL Commerce]  コンテンツおよびデザインガイド ](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/wysiwyg/gallery/media-gallery)
-- [ 代替メディアストレージ - [!DNL Commerce]  コンテンツおよび設計ガイド ](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/wysiwyg/storage/media-storage)
+- [ メディアギャラリー –  [!DNL Commerce]  コンテンツおよびデザインガイド ](https://experienceleague.adobe.com/ja/docs/commerce-admin/content-design/wysiwyg/gallery/media-gallery)
+- [ 代替メディアストレージ - [!DNL Commerce]  コンテンツおよび設計ガイド ](https://experienceleague.adobe.com/ja/docs/commerce-admin/content-design/wysiwyg/storage/media-storage)

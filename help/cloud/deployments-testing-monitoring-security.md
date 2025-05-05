@@ -34,12 +34,12 @@ Adobe Commerce Cloudのデプロイメント戦略、テストのベストプラ
 
 ## ビデオで言及されているExperience Leagueドキュメント
 
-- [ デプロイメントプロセス ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/deploy/process.html)
-- [SWAT サイト全体分析ツール ](https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/intro.html)
-- [ECE ツールスマートウィザード ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/deploy/smart-wizards.html)
-- [ セキュリティスキャン ](https://experienceleague.adobe.com/docs/commerce-admin/systems/security/security-scan.html)
-- [Fastly WAF Web アプリケーションファイアウォール ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/fastly-waf-service.html)
-- [New Relic サービスの概要 ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service.html)
+- [ デプロイメントプロセス ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/deploy/process.html?lang=ja)
+- [SWAT サイト全体分析ツール ](https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/intro.html?lang=ja)
+- [ECE ツールスマートウィザード ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/deploy/smart-wizards.html?lang=ja)
+- [ セキュリティスキャン ](https://experienceleague.adobe.com/docs/commerce-admin/systems/security/security-scan.html?lang=ja)
+- [Fastly WAF Web アプリケーションファイアウォール ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/fastly-waf-service.html?lang=ja)
+- [New Relic サービスの概要 ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service.html?lang=ja)
 
 {{$include /help/_includes/cloud-technical-onboarding-related-links.md}}
 

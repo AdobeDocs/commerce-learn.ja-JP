@@ -43,4 +43,4 @@ Adobe Commerceの買い物かごドロップインを使用してトランザク
 
 ## その他のドキュメント
 
-* [ 買い物かごに製品ラインを追加 ](https://experienceleague.adobe.com/developer/commerce/storefront/dropins/cart/tutorials/add-product-lines-to-cart-summary/)
+* [ 買い物かごに製品ラインを追加 ](https://experienceleague.adobe.com/developer/commerce/storefront/dropins/cart/tutorials/add-product-lines-to-cart-summary/?lang=ja)

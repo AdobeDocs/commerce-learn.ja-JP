@@ -128,5 +128,5 @@ Product 1 New value is 1.99
 
 ## その他のリソース
 
-- [ 買い物かご価格ルールの作成 –  [!DNL Commerce]  マーチャンダイジングおよびプロモーションガイド ](https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-create.html)
-- [ クーポンコード - [!DNL Commerce]  マーチャンダイジング・プロモーションガイド ](https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-coupon.html)
+- [ 買い物かご価格ルールの作成 –  [!DNL Commerce]  マーチャンダイジングおよびプロモーションガイド ](https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-create.html?lang=ja)
+- [ クーポンコード - [!DNL Commerce]  マーチャンダイジング・プロモーションガイド ](https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-coupon.html?lang=ja)

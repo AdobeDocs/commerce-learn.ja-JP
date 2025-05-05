@@ -40,4 +40,4 @@ Adobe Commerceの買い物かごドロップインを使用し、買い物かご
 
 ## その他のドキュメント
 
-* [ 注文の概要 ](https://experienceleague.adobe.com/developer/commerce/storefront/dropins/cart/tutorials/order-summary-lines/)
+* [ 注文の概要 ](https://experienceleague.adobe.com/developer/commerce/storefront/dropins/cart/tutorials/order-summary-lines/?lang=ja)

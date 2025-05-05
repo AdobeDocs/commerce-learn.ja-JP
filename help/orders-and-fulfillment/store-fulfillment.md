@@ -43,10 +43,10 @@ Store Fulfillment for Adobe Commerce by Walmart Commerce Technologies は、高�
 
 >[!NOTE]
 >
->ビデオの内容は、Adobe Commerce 2.4 でストアフロントにインストールされた Store Fulfillment Solution 1.0 リリースを反映しています。最新情報については、『 [ ストアフルフィルメントユーザーガイド ](https://experienceleague.adobe.com/docs/commerce-merchant-services/store-fulfillment/introduction.html) を参照してください。
+>ビデオの内容は、Adobe Commerce 2.4 でストアフロントにインストールされた Store Fulfillment Solution 1.0 リリースを反映しています。最新情報については、『 [ ストアフルフィルメントユーザーガイド ](https://experienceleague.adobe.com/docs/commerce-merchant-services/store-fulfillment/introduction.html?lang=ja) を参照してください。
 
 >[!VIDEO](https://video.tv.adobe.com/v/343653?quality=12&learn=on)
 
 ## その他のリソース
 
-[Store Fulfillment ユーザーガイド ](https://experienceleague.adobe.com/docs/commerce-merchant-services/store-fulfillment/introduction.html)
+[Store Fulfillment ユーザーガイド ](https://experienceleague.adobe.com/docs/commerce-merchant-services/store-fulfillment/introduction.html?lang=ja)
