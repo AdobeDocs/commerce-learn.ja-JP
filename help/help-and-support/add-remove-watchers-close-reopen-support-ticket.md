@@ -31,7 +31,7 @@ ht-degree: 0%
 * サポートチケットを閉じる方法を学ぶ
 * サポートチケットの再開方法を確認する
 
->[!VIDEO](https://video.tv.adobe.com/v/3433082?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3441350?learn=on&captions=jpn)
 
 ## Commerce ナレッジベースヘルプセンターガイド
 

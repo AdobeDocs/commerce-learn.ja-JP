@@ -37,7 +37,7 @@ Adobe Commerceで [ データ接続 ](https://experienceleague.adobe.com/docs/co
 - Adobe Journey Optimizerでは、Data Connection で使用できる標準のイベントを使用して、1 対 1 のカスタマージャーニーを簡単に作成およびアクティブ化できます
 - Adobe Journey Optimizerのネイティブメッセージ機能を使用して、すべてのチャネルをまたいでリアルタイムで買い物客とエンゲージします
 
->[!VIDEO](https://video.tv.adobe.com/v/3426855/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3452461/?learn=on&captions=jpn)
 
 ## その他のリソース
 

@@ -33,7 +33,7 @@ ht-degree: 0%
 * ファイルを追加して新しいシークレットを追加する方法
 * このファイルには機密情報が含まれているため、コミットしないでください
 
->[!VIDEO](https://video.tv.adobe.com/v/3416593?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3421069?quality=12&learn=on&captions=jpn)
 
 ## コードサンプル
 

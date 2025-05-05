@@ -34,7 +34,7 @@ ht-degree: 0%
 - スクリプトをアップグレードして、新しいモジュールをインストールします。
 - モジュールが動作していることを確認します。
 
->[!VIDEO](https://video.tv.adobe.com/v/35792?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3412454?learn=on&captions=jpn)
 
 ### module.xml
 

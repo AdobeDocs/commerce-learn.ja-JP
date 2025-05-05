@@ -28,7 +28,7 @@ Adobe CommerceまたはMagento Open Source 2.4 では、マーチャントは新
 
 ## ビデオコンテンツ
 
->[!VIDEO](https://video.tv.adobe.com/v/343785?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3411046?quality=12&learn=on&captions=jpn)
 
 ## その他のリソース
 

@@ -30,6 +30,6 @@ REST API を使用して、Adobe Commerce B2B の見積もりに行項目メモ�
 
 ## ビデオコンテンツ
 
->[!VIDEO](https://video.tv.adobe.com/v/3420418?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443486?learn=on&captions=jpn)
 
 {{$include /help/_includes/b2b-quote-additional-resources.md}}

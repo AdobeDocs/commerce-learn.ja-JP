@@ -37,7 +37,7 @@ Adobe Commerceの買い物かごドロップインを使用する方法を理解
 * A/B テストの柔軟性。 SharePointを通じて設定が有効になり、マーケターがこれらの機能を制御およびテストできるようになりました。
 * マーケティングコントロールの強化。 設定の管理とテストを簡単に行い、ユーザーエクスペリエンスとマーケティング効果を向上させます。
 
->[!VIDEO](https://video.tv.adobe.com/v/3442351?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3442352?learn=on&captions=jpn)
 
 ## その他のドキュメント
 

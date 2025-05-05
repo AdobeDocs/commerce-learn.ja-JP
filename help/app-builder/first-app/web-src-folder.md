@@ -32,7 +32,7 @@ ht-degree: 0%
 * 通常、含まれるファイルとフォルダー
 * サンプルアプリケーションで `web-src` フォルダーとその中のコンテンツを使用する方法
 
->[!VIDEO](https://video.tv.adobe.com/v/3416665?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3421041?quality=12&learn=on&captions=jpn)
 
 ## コードサンプル
 

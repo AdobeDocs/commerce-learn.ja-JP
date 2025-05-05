@@ -39,7 +39,7 @@ _[!UICONTROL Payment on Account]_&#x200B;を有効化し、会社クレジット
 
 ## ビデオコンテンツ
 
->[!VIDEO](https://video.tv.adobe.com/v/344445?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410761?quality=12&learn=on&captions=jpn)
 
 ## その他のリソース
 

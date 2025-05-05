@@ -33,7 +33,7 @@ ht-degree: 0%
 - 一般的な大きなログファイルの場所
 - ログファイルをトランケートする簡単な方法
 
->[!VIDEO](https://video.tv.adobe.com/v/3454572?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3454584?learn=on&captions=jpn)
 
 
 ## ビデオで使用されているコマンド

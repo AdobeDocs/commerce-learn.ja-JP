@@ -31,4 +31,4 @@ Adobe Commerce管理で使用するフィルターを検索および調整する
 * フィルターを使用して管理グリッドの結果を制限する方法を理解します
 * フィルターがAdobe Commerce Admin Consoleの他の管理者に与える影響を説明します
 
->[!VIDEO](https://video.tv.adobe.com/v/3440382?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3440383?learn=on&captions=jpn)

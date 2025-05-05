@@ -33,4 +33,4 @@ ht-degree: 0%
 
 ## 統合と設定
 
->[!VIDEO](https://video.tv.adobe.com/v/3428101?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3452691?learn=on&captions=jpn)

@@ -36,7 +36,7 @@ Adobe Commerceの買い物かごドロップインを使用し、買い物かご
 * 買い物かごの概要に保存された合計金額を含める方法を説明します。
 * 買い物かごの概要の行を 1 つの折りたたみ可能なセクションに結合する方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3441185?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3441186?learn=on&captions=jpn)
 
 ## その他のドキュメント
 

@@ -31,6 +31,6 @@ ht-degree: 0%
 
 ## ビデオコンテンツ
 
->[!VIDEO](https://video.tv.adobe.com/v/3420390?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3430588?learn=on&captions=jpn)
 
 {{$include /help/_includes/b2b-quote-additional-resources.md}}

@@ -32,4 +32,4 @@ Adobe Commerceを使用すると、技術的なスキルを必要とせずに、
 - ローカライゼーションとカスタマイズ
 - 拡張性と柔軟性
 
->[!VIDEO](https://video.tv.adobe.com/v/3434027?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3434028?learn=on&captions=jpn)

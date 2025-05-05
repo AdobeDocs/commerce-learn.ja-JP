@@ -34,7 +34,7 @@ Adobe CommerceおよびMagento Open Source向け支払いサービスは、中�
 
 ## ビデオコンテンツ
 
->[!VIDEO](https://video.tv.adobe.com/v/343990?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410791?quality=12&learn=on&captions=jpn)
 
 ## その他のリソース
 

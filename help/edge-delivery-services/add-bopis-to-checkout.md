@@ -37,7 +37,7 @@ Edge Delivery ServicesからAdobe Commerceの買い物かごを使用して BOPI
 * 配信と店舗での受け取りを切り替える
 * 集荷場所を取得しています
 
->[!VIDEO](https://video.tv.adobe.com/v/3441699?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3441701?learn=on&captions=jpn)
 
 ## その他のドキュメント
 

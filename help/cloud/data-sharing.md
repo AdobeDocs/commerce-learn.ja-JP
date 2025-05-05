@@ -33,4 +33,4 @@ Adobe Experience Cloud製品とシームレスに統合して、リアルタイ�
 - 顧客エンゲージメントとロイヤルティの向上
 - シームレスな統合と統合された顧客視点
 
->[!VIDEO](https://video.tv.adobe.com/v/3433568?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3433570?learn=on&captions=jpn)

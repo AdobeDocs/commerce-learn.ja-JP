@@ -32,7 +32,7 @@ B2B マーチャントの場合、_[!UICONTROL Companies]_&#x200B;のページ�
 
 ## ビデオコンテンツ
 
->[!VIDEO](https://video.tv.adobe.com/v/344447?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410773?quality=12&learn=on&captions=jpn)
 
 ## その他のリソース
 

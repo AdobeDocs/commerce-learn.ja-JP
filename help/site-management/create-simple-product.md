@@ -30,7 +30,7 @@ REST API とAdobe Commerce管理者を使用して、シンプルな商品を作
 
 ## ビデオコンテンツ
 
->[!VIDEO](https://video.tv.adobe.com/v/3425650?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443903?learn=on&captions=jpn)
 
 ## curl を使用した製品の作成
 

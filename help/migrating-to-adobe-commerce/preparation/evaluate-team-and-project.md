@@ -35,7 +35,7 @@ Adobe Commerceに移行する際は、チームとプロジェクトを徹底的
 * フロントエンドとバックエンドの考慮事項について説明します。
 * 既存のモジュールを評価し、コアアプリケーションをアップグレードし、他のAdobeソリューションと統合することで、スムーズな移行を計画します。
  
->[!VIDEO](https://video.tv.adobe.com/v/3435682/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3447444/?learn=on&captions=jpn)
 
 ## 関連ドキュメント
 

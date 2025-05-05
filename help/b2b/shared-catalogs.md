@@ -32,7 +32,7 @@ Adobe Commerceの B2B では、様々な会社のカスタム価格でゲート�
 
 ## ビデオコンテンツ
 
->[!VIDEO](https://video.tv.adobe.com/v/344446?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410755?quality=12&learn=on&captions=jpn)
 
 ## その他のリソース
 

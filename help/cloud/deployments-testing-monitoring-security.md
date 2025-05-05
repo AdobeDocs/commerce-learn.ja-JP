@@ -30,7 +30,7 @@ Adobe Commerce Cloudのデプロイメント戦略、テストのベストプラ
 
 ## ビデオコンテンツ
 
->[!VIDEO](https://video.tv.adobe.com/v/3427818?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3432827?learn=on&captions=jpn)
 
 ## ビデオで言及されているExperience Leagueドキュメント
 

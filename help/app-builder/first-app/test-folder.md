@@ -34,7 +34,7 @@ ht-degree: 0%
 * 単体テストファイルとそのコンポーネントの簡単な説明
 * エンドツーエンドテストの概要
 
->[!VIDEO](https://video.tv.adobe.com/v/3416662?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3421063?quality=12&learn=on&captions=jpn)
 
 ## コードサンプル
 

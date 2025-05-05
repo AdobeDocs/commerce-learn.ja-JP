@@ -30,7 +30,7 @@ Site-Wide Analysis Tool は、プロアクティブなセルフサービスツ�
 
 ## ビデオコンテンツ
 
->[!VIDEO](https://video.tv.adobe.com/v/344001?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410779?learn=on&captions=jpn)
 
 ## その他のリソース
 

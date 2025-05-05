@@ -29,7 +29,7 @@ ht-degree: 0%
 
 ## ビデオコンテンツ
 
->[!VIDEO](https://video.tv.adobe.com/v/343662?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410203?quality=12&learn=on&captions=jpn)
 
 ## その他のリソース
 

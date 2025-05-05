@@ -30,7 +30,7 @@ REST API とAdobe Commerce Admin を使用して、ダウンロード可能な�
 
 ## ビデオコンテンツ
 
->[!VIDEO](https://video.tv.adobe.com/v/3425753?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3453942?learn=on&captions=jpn)
 
 ## 許可されているダウンロード可能ドメイン
 

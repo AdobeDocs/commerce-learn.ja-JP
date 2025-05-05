@@ -37,7 +37,7 @@ ht-degree: 29%
 >
 >このビデオの内容は、2.3.1 リリースを反映しています。 以降のリリースのアップデートについて詳しくは、[ リリースノート ](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/overview.html?lang=ja) を参照してください。
 
->[!VIDEO](https://video.tv.adobe.com/v/35942?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/330089?quality=12&learn=on&captions=jpn)
 
 ## その他のリソース
 

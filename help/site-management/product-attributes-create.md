@@ -29,7 +29,7 @@ Adobe Commerceでは、属性を使用して、商品、顧客および商品の
 
 ## ビデオコンテンツ
 
->[!VIDEO](https://video.tv.adobe.com/v/343749?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410131?quality=12&learn=on&captions=jpn)
 
 ## その他のリソース
 

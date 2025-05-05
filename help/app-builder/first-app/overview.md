@@ -50,7 +50,7 @@ ht-degree: 0%
 * サンプルモジュール使用に対する期待
 * サンプルモジュール内の再利用可能な部分
 
->[!VIDEO](https://video.tv.adobe.com/v/3416740?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3421026?quality=12&learn=on&captions=jpn)
 
 {{avoid-400-error}}
 

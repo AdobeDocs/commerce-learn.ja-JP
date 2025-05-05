@@ -40,4 +40,4 @@ Adobe Live Search の設定と使用方法について説明します。 ファ�
 * ルールベースのランキングタイプの説明
 * GraphQL API の概要
 
->[!VIDEO](https://video.tv.adobe.com/v/3418996?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3454453?learn=on&captions=jpn)

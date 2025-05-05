@@ -26,7 +26,7 @@ ht-degree: 0%
 * MysqlWorkbench や TablesPlus などのツールを使用して、リモート Adobe Commerce Cloud プロジェクトにすばやく接続する方法を説明します。
 * Adobe Commerce プロジェクトにすばやく接続して、コマンドラインから SQL を実行する方法を説明します
 
->[!VIDEO](https://video.tv.adobe.com/v/3430507?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3450037?learn=on&captions=jpn)
 
 クラウドプロジェクト上のAdobe Commerceに接続する方法、オフサイトで使用するためにデータベースをダンプする方法、PII をマスクして削除する方法を説明します。
 

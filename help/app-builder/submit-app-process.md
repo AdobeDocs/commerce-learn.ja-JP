@@ -33,6 +33,6 @@ Adobe Commerce Marketplace は、App Builder アプリのリストに対する�
 * アプリ送信のテクニカルセクションとマーケティングセクション
 * アプリがレビューに合格した後に受信するメールの例。
 
->[!VIDEO](https://video.tv.adobe.com/v/3420313)
+>[!VIDEO](https://video.tv.adobe.com/v/3447345?captions=jpn)
 
 {{$include /help/_includes/app-builder-related-links.md}}

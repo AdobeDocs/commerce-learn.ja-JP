@@ -37,7 +37,7 @@ Galera クラスタは、パフォーマンスと拡張性に役立ちます。 
 - 一括実行はプライマリでのみ発生します。 レプリケーションは一度に 1 つずつ実行
 - 大きなコミットをバッチ化して、レプリケーションがプライマリに対応できるようにします
 
->[!VIDEO](https://video.tv.adobe.com/v/3421688?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3423542?learn=on&captions=jpn)
 
 ## 役に立つリソース
 

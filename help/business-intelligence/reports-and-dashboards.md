@@ -30,4 +30,4 @@ ht-degree: 0%
 
 ## Adobe Commerce Intelligenceのレポートとダッシュボード
 
->[!VIDEO](https://video.tv.adobe.com/v/3428252?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3453144?learn=on&captions=jpn)

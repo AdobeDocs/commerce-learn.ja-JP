@@ -30,7 +30,7 @@ ht-degree: 0%
 
 ## ビデオコンテンツ
 
->[!VIDEO](https://video.tv.adobe.com/v/343835?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410806?quality=12&learn=on&captions=jpn)
 
 ## 価格設定表示の問題
 

@@ -43,7 +43,7 @@ Adobe Commerce Admin からグループ化された商品を作成する場合�
 
 ## ビデオコンテンツ
 
->[!VIDEO](https://video.tv.adobe.com/v/3425920?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3454039?learn=on&captions=jpn)
 
 ## グループ化された製品の設定
 

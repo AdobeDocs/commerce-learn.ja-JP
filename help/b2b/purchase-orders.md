@@ -37,7 +37,7 @@ B2B の顧客は、自分の役割に必要な権限を持っているので、�
 
 ## ビデオコンテンツ
 
->[!VIDEO](https://video.tv.adobe.com/v/344450?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410767?quality=12&learn=on&captions=jpn)
 
 ## その他のリソース
 

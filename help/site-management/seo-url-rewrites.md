@@ -31,7 +31,7 @@ URL 書き換えツールを使用すると、商品、カテゴリまたはCMS�
 
 ## ビデオコンテンツ
 
->[!VIDEO](https://video.tv.adobe.com/v/343751?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410126?quality=12&learn=on&captions=jpn)
 
 ## その他のリソース
 
