@@ -1,6 +1,6 @@
 ---
 title: 成功を促進するツールの導入と活用
-description: Adobe Commerce Success Accelerator の採用と、戦略的開発、スキル強化、ガバナンスのための有効化
+description: 戦略的開発、スキル強化、ガバナンスのためのAdobe Commerce Success Accelerator の採用とイネーブルメントについて説明します。
 feature: Site Management, Support
 topic: Administration, Commerce
 role: User
@@ -9,15 +9,15 @@ doc-type: Value Video
 duration: 95
 last-substantial-update: 2025-04-16T00:00:00Z
 jira: KT-17808
-source-git-commit: 11384ef49c6cfe3d59a7cee22cdca8ceb123d7d6
+exl-id: 8957dbbe-9bed-41e4-b21e-5371f91085fd
+source-git-commit: 34e15bd8c440b2f63fbf43e29fdd2961c72301f6
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '153'
 ht-degree: 0%
 
 ---
 
-
-# 成功を促進するツールの導入と活用
+# 成功を促進するツールの導入と有効化
 
 導入とイネーブルメントのためのAdobe Commerce サクセスアクセラレーターには、ユースケースと KPI の開発、デスクサイドコーチング、ツールと機能のガバナンス戦略という 3 つの主要なサービスが含まれます。 これらのサービスは、戦略的計画とロードマップの策定、スキルギャップを埋めるためのマルチセッションの実施可能性、適切な製品採用を確保するためのガバナンス戦略に関するガイダンスを提供します。 ベストプラクティスと集中的なサポートを通じて、Adobe Commerce製品の使用方法と有効性を高めることを目的としています。
 
