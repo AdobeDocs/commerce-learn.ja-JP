@@ -37,7 +37,7 @@ Adobe Commerceは、医療機関が HIPAA 規制に準拠するのに役立つ�
 
 ## その他のドキュメント
 
-* [HIPAA 対応 – データ接続 ](https://experienceleague.adobe.com/en/docs/commerce/data-connection/hipaa-readiness)
-* [HIPAA 対応 – コンプライアンス ](https://experienceleague.adobe.com/en/docs/commerce-admin/start/compliance/hipaa-ready-service/overview)
-* [ データ接続のインストール ](https://experienceleague.adobe.com/en/docs/commerce/data-connection/fundamentals/install)
+* [HIPAA 対応 – データ接続 ](https://experienceleague.adobe.com/ja/docs/commerce/data-connection/hipaa-readiness)
+* [HIPAA 対応 – コンプライアンス ](https://experienceleague.adobe.com/ja/docs/commerce-admin/start/compliance/hipaa-ready-service/overview)
+* [ データ接続のインストール ](https://experienceleague.adobe.com/ja/docs/commerce/data-connection/fundamentals/install)
 
