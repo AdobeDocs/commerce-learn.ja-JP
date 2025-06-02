@@ -3,9 +3,9 @@ user-guide-title: ビデオとチュートリアル
 user-guide-description: ビデオとチュートリアルを通じて、Adobe Commerce と Magento Open Source について説明します。
 breadcrumb-title: ビデオとチュートリアル
 auto-video-transcripts: true
-source-git-commit: 586a4e2a52cbe8ea3b5018b4c53d731b3d071467
+source-git-commit: 22eaf9d107c6aa80344b1ec224944b53b3178857
 workflow-type: tm+mt
-source-wordcount: '875'
+source-wordcount: '877'
 ht-degree: 3%
 
 ---
@@ -20,6 +20,7 @@ ht-degree: 3%
       + [2 つの一般的なサイトエラーのトリアージと解決](../cloud/troubleshooting/triage-two-common-site-errors.md)
       + [設定値](../cloud/troubleshooting/config-values.md)
       + [ログをトランケート](../cloud/troubleshooting/truncate-logs.md)
+   + [HIPAA 対応ホスティング](../cloud/hippa-ready-hosting.md)
    + [IP アドレスの検出](../cloud/detect-ip-address.md)
    + [Marketecture](../cloud/marketecture.md)
    + [グローバル配信モデル](../cloud/global-delivery-model.md)
@@ -138,7 +139,7 @@ ht-degree: 3%
       + [ローカルテスト](../app-builder/first-app/testing-locally.md)
       + [App Builder URL を使用したテスト](../app-builder/first-app/testing-app-builder-url.md)
       + [まとめ](../app-builder/first-app/conclusion.md)
-      + [ サンプルモジュールソースコード](https://github.com/magento/app-builder-samples){target="_blank"}
+      + [ サンプルモジュールソースコード ](https://github.com/magento/app-builder-samples){target="_blank"}
    + Adobe Commerceの IO イベント {#io-events}
       + [入門 IO イベント](../io-events/getting-started-io-events.md)
       + [Adobe Commerce 2.4.5 のインストール](../io-events/2-4-5-installation.md)
@@ -235,7 +236,7 @@ ht-degree: 3%
    + [互換性アップグレードツールの概要](../upgrade/upgrade-compatibility-tool-overview.md)
    + [PHP Storm でのアップグレード互換性ツールの使用](../upgrade/uct-phpstorm.md)
 + バックエンド開発 {#backend-development}
-   + [ データベーステーブルを変更する際のベストプラクティス ](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables.html?lang=ja)
+   + [ データベーステーブルを変更する際のベストプラクティス ](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables.html)
    + [モジュールの作成](../backend-development/create-module.md)
    + [製品属性の追加](../backend-development/add-product-attribute.md)
    + [依存関係の挿入の例](../backend-development/dependency-injection.md)
@@ -265,3 +266,4 @@ ht-degree: 3%
       + [6 - ペレグリン](../pwa/introduction/6-peregrine.md)
    + [PWA Docker の開発](../pwa/pwa-docker-development.md)
    + [開発用の Venia の設定](../pwa/set-up-venia-for-dev.md)
+
