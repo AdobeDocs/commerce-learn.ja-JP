@@ -37,7 +37,7 @@ Adobeとマーチャントが、Adobe Commerce Cloud のセキュリティを維
 
 ## その他のドキュメント
 
-* [ セキュリティパッチのリリースノート ](https://experienceleague.adobe.com/en/docs/commerce-operations/release/notes/security-patches/overview)
+* [ セキュリティパッチのリリースノート ](https://experienceleague.adobe.com/ja/docs/commerce-operations/release/notes/security-patches/overview)
 * [ 通知チャネル ](https://business.adobe.com/blog/introducing-enhanced-security-patch-deployment-and-communications-in-adobe-commerce#proactive-communication--keeping-customers-informed)
 * [Adobe セキュリティ速報 ](https://helpx.adobe.com/search.html?q=security%2520updates%2520commerce&amp;context=https%253A%252F%252Fhelpx.adobe.com%252Fsupport.html)
-* [ コマースサイトとインフラストラクチャのセキュリティ ](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices)
+* [ コマースサイトとインフラストラクチャのセキュリティ ](https://experienceleague.adobe.com/ja/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices)
