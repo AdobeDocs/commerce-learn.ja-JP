@@ -3,9 +3,9 @@ user-guide-title: ビデオとチュートリアル
 user-guide-description: ビデオとチュートリアルを通じて、Adobe Commerce と Magento Open Source について説明します。
 breadcrumb-title: ビデオとチュートリアル
 auto-video-transcripts: true
-source-git-commit: 22eaf9d107c6aa80344b1ec224944b53b3178857
+source-git-commit: 8fada712c51193fc6f3fe9e75b9324a6826f7570
 workflow-type: tm+mt
-source-wordcount: '877'
+source-wordcount: '872'
 ht-degree: 3%
 
 ---
@@ -128,7 +128,6 @@ ht-degree: 3%
    + [App Builderの拡張フレームワーク](../app-builder/extensibility-framework-commerce-eventing.md)
    + [App Builderの機能デモ](../app-builder/app-builder-functional-demonstration.md)
    + [App Builderの技術概要 ](../app-builder/app-builder-technical-overview.md)
-   + [Marketplace にアプリを送信](../app-builder/submit-app-process.md)
    + 最初の App Builder アプリを作成 {#first-app}
       + [概要](../app-builder/first-app/overview.md)
       + [.env ファイルの生成と設定 ](../app-builder/first-app/env-file.md)
@@ -139,7 +138,7 @@ ht-degree: 3%
       + [ローカルテスト](../app-builder/first-app/testing-locally.md)
       + [App Builder URL を使用したテスト](../app-builder/first-app/testing-app-builder-url.md)
       + [まとめ](../app-builder/first-app/conclusion.md)
-      + [ サンプルモジュールソースコード](https://github.com/magento/app-builder-samples){target="_blank"}
+      + [ サンプルモジュールソースコード ](https://github.com/magento/app-builder-samples){target="_blank"}
    + Adobe Commerceの IO イベント {#io-events}
       + [入門 IO イベント](../io-events/getting-started-io-events.md)
       + [Adobe Commerce 2.4.5 のインストール](../io-events/2-4-5-installation.md)
@@ -236,7 +235,7 @@ ht-degree: 3%
    + [互換性アップグレードツールの概要](../upgrade/upgrade-compatibility-tool-overview.md)
    + [PHP Storm でのアップグレード互換性ツールの使用](../upgrade/uct-phpstorm.md)
 + バックエンド開発 {#backend-development}
-   + [ データベーステーブルを変更する際のベストプラクティス ](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables.html?lang=ja)
+   + [ データベーステーブルを変更する際のベストプラクティス ](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables.html)
    + [モジュールの作成](../backend-development/create-module.md)
    + [製品属性の追加](../backend-development/add-product-attribute.md)
    + [依存関係の挿入の例](../backend-development/dependency-injection.md)
