@@ -39,4 +39,4 @@ ht-degree: 0%
 
 * [API メッシュスターターキット GitHub リポジトリ ](https://github.com/adobe-commerce/api-mesh-starter-kit)
 * [Adobe Developer ドキュメント graphql-mesh-gateway](https://developer.adobe.com/graphql-mesh-gateway/)
-* [API Mesh ビデオのプレイリスト ](https://experienceleague.adobe.com/en/playlists/commerce-get-started-app-builder-and-api-mesh)
+* [API Mesh ビデオのプレイリスト ](https://experienceleague.adobe.com/ja/playlists/commerce-get-started-app-builder-and-api-mesh)
