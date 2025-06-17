@@ -3,9 +3,9 @@ user-guide-title: ビデオとチュートリアル
 user-guide-description: ビデオとチュートリアルを通じて、Adobe Commerce と Magento Open Source について説明します。
 breadcrumb-title: ビデオとチュートリアル
 auto-video-transcripts: true
-source-git-commit: 8fada712c51193fc6f3fe9e75b9324a6826f7570
+source-git-commit: ca8cdbb42dcf89cd0ce4c2b8b13b9fd454e8c597
 workflow-type: tm+mt
-source-wordcount: '872'
+source-wordcount: '879'
 ht-degree: 3%
 
 ---
@@ -138,7 +138,7 @@ ht-degree: 3%
       + [ローカルテスト](../app-builder/first-app/testing-locally.md)
       + [App Builder URL を使用したテスト](../app-builder/first-app/testing-app-builder-url.md)
       + [まとめ](../app-builder/first-app/conclusion.md)
-      + [ サンプルモジュールソースコード](https://github.com/magento/app-builder-samples){target="_blank"}
+      + [ サンプルモジュールソースコード ](https://github.com/magento/app-builder-samples){target="_blank"}
    + Adobe Commerceの IO イベント {#io-events}
       + [入門 IO イベント](../io-events/getting-started-io-events.md)
       + [Adobe Commerce 2.4.5 のインストール](../io-events/2-4-5-installation.md)
@@ -147,12 +147,13 @@ ht-degree: 3%
       + [Adobe Commerceの設定](../io-events/configure-commerce.md)
       + [Adobe Commerce モジュールの開発 ](../io-events/commerce-module-development.md)
       + [Adobe Commerce条件付きイベント](../io-events/conditional-events.md)
-   + API メッシュ {#api-mesh}
-      + [API メッシュの基本を学ぶ](../api-mesh/getting-started-api-mesh.md)
-      + [Adobe IO とメッシュプラグインのインストール](../api-mesh/installing-aio-mesh-plugin.md)
-      + [プロジェクトとワークスペースの操作](../api-mesh/aio-projects-workspaces.md)
-      + [単一ソース GraphQL API メッシュの作成](../api-mesh/graphql-single-source.md)
-      + [複数のソース GraphQL API メッシュの作成](../api-mesh/graphql-multiple-source.md)
++ API メッシュ {#api-mesh}
+   + [GitHub コードスペースを使用した API メッシュのスターターキット](../api-mesh/starter-kit-github-codespaces.md)
+   + [API メッシュの基本を学ぶ](../api-mesh/getting-started-api-mesh.md)
+   + [Adobe IO とメッシュプラグインのインストール](../api-mesh/installing-aio-mesh-plugin.md)
+   + [プロジェクトとワークスペースの操作](../api-mesh/aio-projects-workspaces.md)
+   + [単一ソース GraphQL API メッシュの作成](../api-mesh/graphql-single-source.md)
+   + [複数のソース GraphQL API メッシュの作成](../api-mesh/graphql-multiple-source.md)
 + ストア管理 {#admin}
    + [ユーザーの役割と権限の管理](../site-management/users-roles-permissions.md)
    + [二要素認証](../site-management/two-factor-authentication.md)
@@ -235,7 +236,7 @@ ht-degree: 3%
    + [互換性アップグレードツールの概要](../upgrade/upgrade-compatibility-tool-overview.md)
    + [PHP Storm でのアップグレード互換性ツールの使用](../upgrade/uct-phpstorm.md)
 + バックエンド開発 {#backend-development}
-   + [ データベーステーブルを変更する際のベストプラクティス ](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables.html?lang=ja)
+   + [ データベーステーブルを変更する際のベストプラクティス ](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables.html)
    + [モジュールの作成](../backend-development/create-module.md)
    + [製品属性の追加](../backend-development/add-product-attribute.md)
    + [依存関係の挿入の例](../backend-development/dependency-injection.md)
@@ -265,4 +266,3 @@ ht-degree: 3%
       + [6 - ペレグリン](../pwa/introduction/6-peregrine.md)
    + [PWA Docker の開発](../pwa/pwa-docker-development.md)
    + [開発用の Venia の設定](../pwa/set-up-venia-for-dev.md)
-
