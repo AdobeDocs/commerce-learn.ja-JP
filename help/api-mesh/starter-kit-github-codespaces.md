@@ -33,7 +33,7 @@ ht-degree: 0%
 * テスト用のビルトインツール：事前設定済みのGraphQL サーバー（Yoga）と、シームレスな開発のためのサーバーの自動再起動が含まれています。
 * 実践ラーニング：スターターキットのクローンを作成し、エンドポイントを設定して、ブラウザーで直接 API 応答をテストします。
 
->[!VIDEO](https://video.tv.adobe.com/v/3464017?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464018?learn=on&enablevpops&captions=jpn)
 
 ## 関連ドキュメント
 
