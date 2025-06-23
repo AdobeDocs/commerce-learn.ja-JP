@@ -12,7 +12,7 @@ topic: App Builder, I/O Events, Developer Console, Commerce, Development, Integr
 role: Architect, Developer
 level: Beginner, Intermediate
 exl-id: baae6dab-48a4-49a0-b6f6-61cbebe63d0f
-source-git-commit: 441d8b177c8bf486b47c763c2854eb1772ffe331
+source-git-commit: faa0bd681f8fea32e5e2203db0d1a86c7ed71e1c
 workflow-type: tm+mt
 source-wordcount: '311'
 ht-degree: 15%
@@ -40,7 +40,7 @@ API メッシュは、複数のデータソースを組み合わせて、アプ�
 * チェックアウト時にリアルタイムで在庫チェックを行うユースケース
 * 開発作業とリソース使用状況をコマースアプリケーションから移動する
 
->[!VIDEO](https://video.tv.adobe.com/v/3421888?quality=12&learn=on&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3417534?quality=12&learn=on)
 
 ## 使用例
 
@@ -51,6 +51,6 @@ Commerce アプリケーションには、REST API とGraphQL エンドポイン
 Adobe App Builderと API メッシュを使用する開発者は、リバースプロキシとは何かを理解する必要はありません。 ただし、Adobe App Builderに関連する全体的な機能に興味がある場合は、次の資料を使用してください。
 
 * [ リバースプロキシと ](https://www.imperva.com/learn/performance/reverse-proxy/){target="_blank"}
-* [Experience League Communities - everse プロキシ ](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/proxy-and-reverse-proxy-for-website/m-p/565772?profile.language=ja){target="_blank"}
+* [Experience League Communities - リバースプロキシ ](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/proxy-and-reverse-proxy-for-website/m-p/565772){target="_blank"}
 
 {{$include /help/_includes/api-mesh-related-links.md}}
