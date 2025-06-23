@@ -51,6 +51,6 @@ Commerce アプリケーションには、REST API とGraphQL エンドポイン
 Adobe App Builderと API メッシュを使用する開発者は、リバースプロキシとは何かを理解する必要はありません。 ただし、Adobe App Builderに関連する全体的な機能に興味がある場合は、次の資料を使用してください。
 
 * [ リバースプロキシと ](https://www.imperva.com/learn/performance/reverse-proxy/){target="_blank"}
-* [Experience League Communities - everse プロキシ ](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/proxy-and-reverse-proxy-for-website/m-p/565772){target="_blank"}
+* [Experience League Communities - everse プロキシ ](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/proxy-and-reverse-proxy-for-website/m-p/565772?profile.language=ja){target="_blank"}
 
 {{$include /help/_includes/api-mesh-related-links.md}}
