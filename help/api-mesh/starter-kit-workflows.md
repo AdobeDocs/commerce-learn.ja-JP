@@ -31,7 +31,7 @@ ht-degree: 0%
 * メッシュを自動的に配置または更新する deployMesh ワークフロー
 * K6 負荷テストワークフローによる負荷テスト
 
->[!VIDEO](https://video.tv.adobe.com/v/3464524?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464525?learn=on&enablevpops&captions=jpn)
 
 ## 関連ドキュメント
 
