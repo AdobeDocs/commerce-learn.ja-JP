@@ -31,7 +31,7 @@ Fastly Edge ACL とカスタム VCL を使用してAdobe Commerce サイトへ�
 * Adobe Commerce開発者
 * サイト信頼性エンジニア
 
->[!VIDEO](https://video.tv.adobe.com/v/3464779/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464780/?learn=on&enablevpops&captions=jpn)
 
 ## コードサンプル
 
