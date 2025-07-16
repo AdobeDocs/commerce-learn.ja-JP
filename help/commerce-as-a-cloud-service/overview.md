@@ -9,9 +9,10 @@ feature: Auto Scaling, Cloud, Services
 topic: Architecture, Commerce, Headless, Performance
 role: Admin, Leader, User
 level: Beginner
-source-git-commit: 41fe222aa45ff19f4802f705f077348f024cfefe
+exl-id: ba6cd559-812f-4985-881f-45a9324095f3
+source-git-commit: b29dd601b59e289f89ede03d33df8dadc3e7b19f
 workflow-type: tm+mt
-source-wordcount: '235'
+source-wordcount: '245'
 ht-degree: 0%
 
 ---
@@ -38,4 +39,8 @@ Adobe Commerce as a Cloud Serviceは、自動更新や構成可能なアーキ�
 * オンボーディングとセルフサービスプロビジョニングを簡素化して、サンドボックスまたは実稼動インスタンスを迅速かつ効率的にセットアップします。
 * API ファーストの拡張性を備えた、サービスの独立したデプロイメント、スケーリング、更新のための構成可能なアーキテクチャ。
 
->[!VIDEO](https://video.tv.adobe.com/v/3443312?learn=on&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3443311?learn=on)
+
+## 関連ドキュメント
+
+* [Adobe Commerce as a Cloud Service ガイド ](https://experienceleague.adobe.com/en/docs/commerce/cloud-service/overview)
