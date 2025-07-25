@@ -1,0 +1,41 @@
+---
+title: 初めてのAdobe Commerce Optimizer インスタンスの作成方法
+description: 最初のAdobe Commerce Optimizer インスタンスを作成する方法については、このステップバイステップのチュートリアルを参照してください。
+feature: Saas, Storefront
+topic: Commerce, Performance
+role: Admin, User
+level: Beginner
+doc-type: Tutorial
+duration: 97
+last-substantial-update: 2025-07-25T00:00:00Z
+jira: KT-18610
+source-git-commit: 454e5c118acf4617eed2e341b719a8f731eec985
+workflow-type: tm+mt
+source-wordcount: '151'
+ht-degree: 0%
+
+---
+
+
+# Adobe Commerce Optimizerの最初のインスタンスを作成
+
+最初のAdobe Commerce Optimizer インスタンスを開始から終了まで作成する方法について説明します。 取り上げたいくつかのトピックは、組織と使用権限の確認、使用可能なクレジットの確認、適切なインスタンスタイプと環境の選択です。 この初心者向けのチュートリアルは、スムーズに作業を開始するための明確な手順と役立つヒントを提供し、すぐに使い始めることを目的としています。
+
+## このビデオの目的は誰ですか。
+
+* Commerce ソリューションアーキテクト
+* テクニカルマーケティングエンジニア
+* e コマースプラットフォーム管理者
+
+## ビデオコンテンツ
+
+* 最初のAdobe Commerce Optimizer インスタンスをステップごとに設定します。
+* インスタンスに適した環境と地域を選択します。
+* 今後のチュートリアルで、カタログの設定を素早くデプロイし、準備します。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3469877?learn=on&enablevpops)
+
+## 関連コンテンツ
+
+* [Adobe Commerce Optimizerとは ](https://experienceleague.adobe.com/en/docs/commerce/optimizer/overview){target="_blank"}
+* [Adobe Commerce Optimizerの概要 ](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/adobe-commerce-optimizer/overview)
