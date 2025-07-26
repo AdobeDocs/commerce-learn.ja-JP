@@ -33,7 +33,7 @@ ht-degree: 0%
 * インスタンスに適した環境と地域を選択します。
 * 今後のチュートリアルで、カタログの設定を素早くデプロイし、準備します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3469877?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3469879?learn=on&enablevpops&captions=jpn)
 
 ## 関連コンテンツ
 
