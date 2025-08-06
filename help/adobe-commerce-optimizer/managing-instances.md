@@ -9,13 +9,13 @@ doc-type: Tutorial
 duration: 139
 last-substantial-update: 2025-07-29T00:00:00Z
 jira: KT-18638
-source-git-commit: 76313a9901493f5271157e8bd8819a1a5ddcf6ab
+exl-id: 94efabb2-a6b2-4ec2-a82d-4d5e4cd28803
+source-git-commit: f2141e51bd029611e8ee086dbc20d56447e98faa
 workflow-type: tm+mt
-source-wordcount: '113'
+source-wordcount: '109'
 ht-degree: 0%
 
 ---
-
 
 # Adobe Commerce Optimizer インスタンスの管理
 
@@ -37,6 +37,6 @@ Adobe Commerce Optimizer インスタンスを管理して、名前と説明を�
 
 ## 関連コンテンツ
 
-* [Adobe Commerce Optimizerとは ](https://experienceleague.adobe.com/ja/docs/commerce/optimizer/overview){target="_blank"}
-* [Adobe Commerce Optimizerの概要 ](https://experienceleague.adobe.com/ja/docs/commerce-learn/tutorials/adobe-commerce-optimizer/overview){target="_blank"}
-* [Adobe Commerce Optimizerの概要 ](https://experienceleague.adobe.com/ja/docs/commerce/optimizer/get-started){target="_blank"}
+* [[!DNL Adobe Commerce Optimizer]  ガイド ](https://experienceleague.adobe.com/en/docs/commerce/optimizer/overview){target="_blank"}
+* [Adobe Commerce Optimizerの概要 ](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/adobe-commerce-optimizer/overview){target="_blank"}
+* [Adobe Commerce Optimizerの概要 ](https://experienceleague.adobe.com/en/docs/commerce/optimizer/get-started){target="_blank"}
