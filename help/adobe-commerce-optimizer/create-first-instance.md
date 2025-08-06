@@ -9,13 +9,13 @@ doc-type: Tutorial
 duration: 97
 last-substantial-update: 2025-07-25T00:00:00Z
 jira: KT-18610
-source-git-commit: 25082c5dea237d7ce1b325fbe7d0eb709d112008
+exl-id: 7136b0d6-a29f-42f4-8363-5bd4a2d828fc
+source-git-commit: b65f10c09df2487f9ec566dad83f475fc757b5e3
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '148'
 ht-degree: 0%
 
 ---
-
 
 # Adobe Commerce Optimizerの最初のインスタンスを作成
 
@@ -33,9 +33,9 @@ ht-degree: 0%
 * インスタンスに適した環境と地域を選択します。
 * 今後のチュートリアルで、カタログの設定を素早くデプロイし、準備します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3469879?learn=on&enablevpops&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3469877?learn=on&enablevpops)
 
 ## 関連コンテンツ
 
-* [Adobe Commerce Optimizerとは ](https://experienceleague.adobe.com/ja/docs/commerce/optimizer/overview){target="_blank"}
-* [Adobe Commerce Optimizerの概要 ](https://experienceleague.adobe.com/ja/docs/commerce-learn/tutorials/adobe-commerce-optimizer/overview)
+* [[!DNL Adobe Commerce Optimizer]  ガイド ](https://experienceleague.adobe.com/en/docs/commerce/optimizer/overview){target="_blank"}
+* [Adobe Commerce Optimizerの概要 ](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/adobe-commerce-optimizer/overview)
