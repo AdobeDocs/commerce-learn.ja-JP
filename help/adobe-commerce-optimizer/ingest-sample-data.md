@@ -9,9 +9,10 @@ doc-type: Tutorial
 duration: 422
 last-substantial-update: 2025-08-5
 jira: KT-18663
-source-git-commit: 622e996bf7124ffd74fe9db81b0e47ba65ae2279
+exl-id: 629f3781-1f64-4417-b51f-03be4ccfc06a
+source-git-commit: a21cd624655eb2bdb7f92a6699ccbaa5d0642554
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '114'
 ht-degree: 0%
 
 ---
@@ -37,5 +38,6 @@ Adobe Commerce Optimizer インスタンスのサンプルデータを取り込�
 ## 関連コンテンツ
 
 * [GitHub リポジトリのサンプルデータ ](https://github.com/adobe-commerce/aco-sample-catalog-data-ingestion){target="_blank"}
-* [ 管理のユースケース ](https://experienceleague.adobe.com/ja/docs/commerce/optimizer/use-case/admin-use-case){target="_blank"}
-* [Adobe Commerce Optimizerの概要 ](https://experienceleague.adobe.com/ja/docs/commerce/optimizer/get-started){target="_blank"}
+* [ 管理のユースケース ](https://experienceleague.adobe.com/en/docs/commerce/optimizer/use-case/admin-use-case){target="_blank"}
+* [Adobe Commerce Optimizerの概要 ](https://experienceleague.adobe.com/en/docs/commerce/optimizer/get-started){target="_blank"}
+* [[!DNL Adobe Commerce Optimizer]  ガイド ](https://experienceleague.adobe.com/en/docs/commerce/optimizer/overview){target="_blank"}
