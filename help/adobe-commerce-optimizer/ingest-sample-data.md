@@ -33,7 +33,7 @@ Adobe Commerce Optimizer インスタンスのサンプルデータを取り込�
 * ポリシーを作成します。
 * カタログ ビューを作成します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3470472?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3470475?learn=on&enablevpops&captions=jpn)
 
 ## 関連コンテンツ
 
