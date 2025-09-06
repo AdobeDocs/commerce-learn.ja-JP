@@ -30,4 +30,4 @@ Adobe Exchangeを使用して、Adobe Commerce App Builder アプリを検索、
 
 ## ビデオコンテンツ
 
->[!VIDEO](https://video.tv.adobe.com/v/3471513/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3471525/?learn=on&enablevpops&captions=jpn)
