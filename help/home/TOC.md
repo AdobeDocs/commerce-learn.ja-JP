@@ -3,9 +3,9 @@ user-guide-title: ビデオとチュートリアル
 user-guide-description: ビデオとチュートリアルを通じて、Adobe Commerce と Magento Open Source について説明します。
 breadcrumb-title: ビデオとチュートリアル
 auto-video-transcripts: true
-source-git-commit: edb8212ae0052f079192fb0f7bd60f7a1e46ad62
+source-git-commit: 2f6bbab8db0a4223424673fed346d089d11ef351
 workflow-type: tm+mt
-source-wordcount: '913'
+source-wordcount: '910'
 ht-degree: 3%
 
 ---
@@ -144,7 +144,7 @@ ht-degree: 3%
       + [ローカルテスト](../app-builder/first-app/testing-locally.md)
       + [App Builder URL を使用したテスト](../app-builder/first-app/testing-app-builder-url.md)
       + [まとめ](../app-builder/first-app/conclusion.md)
-      + [ サンプルモジュールソースコード](https://github.com/magento/app-builder-samples){target="_blank"}
+      + [ サンプルモジュールソースコード ](https://github.com/magento/app-builder-samples){target="_blank"}
    + Adobe Commerceの IO イベント {#io-events}
       + [入門 IO イベント](../io-events/getting-started-io-events.md)
       + [Adobe Commerce 2.4.5 のインストール](../io-events/2-4-5-installation.md)
@@ -206,7 +206,6 @@ ht-degree: 3%
    + [ レコメンデーションの Live Search](../site-management/live-search-recommendations.md)
    + [CommerceとAJOの統合](../site-management/integrate-commerce-ajo.md)
 + 注文とフルフィルメント {#orders}
-   + [ストアフルフィルメントの概要](../orders-and-fulfillment/store-fulfillment.md)
    + [注文ステータスの管理](../orders-and-fulfillment/order-status.md)
    + [在庫ステータスの確認](../orders-and-fulfillment/checking-inventory-status.md)
 + Adobe Commerceの B2B {#b2b}
@@ -243,7 +242,7 @@ ht-degree: 3%
    + [互換性アップグレードツールの概要](../upgrade/upgrade-compatibility-tool-overview.md)
    + [PHP Storm でのアップグレード互換性ツールの使用](../upgrade/uct-phpstorm.md)
 + バックエンド開発 {#backend-development}
-   + [ データベーステーブルを変更する際のベストプラクティス ](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables.html?lang=ja)
+   + [ データベーステーブルを変更する際のベストプラクティス ](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables.html)
    + [モジュールの作成](../backend-development/create-module.md)
    + [製品属性の追加](../backend-development/add-product-attribute.md)
    + [依存関係の挿入の例](../backend-development/dependency-injection.md)
