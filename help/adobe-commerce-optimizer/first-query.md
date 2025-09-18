@@ -57,4 +57,4 @@ curl '{{insert-your-graphql-endpoint-url}}' \
 ## 関連コンテンツ
 
 * [ マーチャンダイジング API の概要 ](https://developer.adobe.com/commerce/services/optimizer/merchandising-services/using-the-api/#make-your-first-request){target="_blank"}
-* [[!DNL Adobe Commerce Optimizer]  ガイド ](https://experienceleague.adobe.com/en/docs/commerce/optimizer/overview){target="_blank"}
+* [[!DNL Adobe Commerce Optimizer]  ガイド ](https://experienceleague.adobe.com/ja/docs/commerce/optimizer/overview){target="_blank"}
