@@ -10,7 +10,7 @@ duration: 0
 last-substantial-update: 2025-04-07T00:00:00Z
 jira: KT-17553
 exl-id: beb0a6e1-e6b1-4ec0-976c-77a22a27e8a2
-source-git-commit: 3acec65129773a8ba94eb52c53d15d7633440717
+source-git-commit: b015b9c64be631b43ad63d180c003dda8fdd198a
 workflow-type: tm+mt
 source-wordcount: '1095'
 ht-degree: 0%
@@ -50,7 +50,7 @@ Magento-cloud CLI ツールは、開発者とシステム管理者が Adobe Comm
 
 サンプルコードのこの最初のセクション `magento-cloud environment:url -p InsertYourProjectID -e UseYourEnvironmentName --pipe -1` は、環境の URL を要求しています。 戻り値は次の `http://integration-1ajmyuq-mk7xr7zmslfg.us-4.magentosite.cloud/` のようになります。 時々この `http://mcprod.russell.dummycachetest.com.c.abcikdxbg789.ent.magento.cloud/` のように見えます。  この最初のコマンドはかなり簡単で、次のコマンドに沿って移動する時が来ました。
 
-詳しくは、[Cloud CLI の概要 ](https://experienceleague.adobe.com/ja/docs/commerce-on-cloud/user-guide/dev-tools/cloud-cli/cloud-cli-overview){target="_blank"} を参照してください。
+詳しくは、[Cloud CLI の概要 ](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/dev-tools/cloud-cli/cloud-cli-overview){target="_blank"} を参照してください。
 
 ## 検索と置換に `sed` を使用
 
@@ -73,13 +73,13 @@ UNIX®Linux® の `xargs` コマンドを使用して、標準入力からコマ
 
 `dig` コマンドは、Domain Information Groper の略で、DNS （ドメイン ネーム システム）サーバーの照会に使用されるネットワーク管理ツールです。 A、AAAA、MX、CNAME レコードなど、DNS レコードに関する情報を取得するのに役立ちます。 コマンド `dig` は、DNS の問題のトラブルシューティング、DNS 設定の検証、ドメイン名とそれに関連する IP アドレスに関する詳細情報の収集に一般的に使用されます。 様々なオプションとフラグを使用して、特定の詳細や簡潔な概要を表示するように出力をカスタマイズできます。
 
-`dig` を使用した `xargs` の使用はそれを複雑にしますが、必要です。 目標は、クリーンアップされた URL を取得して保存することです。  URL が変数として保存されると、`dig` コマンドに挿入されます。
+`xargs` を使用した `dig` の使用はそれを複雑にしますが、必要です。 目標は、クリーンアップされた URL を取得して保存することです。  URL が変数として保存されると、`dig` コマンドに挿入されます。
 
 DNS 情報を収集するためにコマンド `dig` が作成されました。 返されるデータの量を減らすには、引数 `+short` を使用します。 `dig` を `+short` と組み合わせて使用すると、IP アドレスと、場合によっては文字列が返されます。
 
 コマンドのこの部分では、`xargs` はその URL `abcikdxbg789.ent.magento.cloud` を保存し、次のコマンド `dig` ードに挿入します。 イテレーションと組み合わせて URL を保存する手法により、`dig` コマンドでの使用が容易になります。 私のサンプルコードは目標を達成するための 1 つの方法であることに注意してください。ニーズや期待に合わせて自由に変更できます。
 
-この時点で、URL の準備が整っています。 次に、クラスター内の各サーバーを確認する方法を見てみましょう。 Adobe Commerce Cloud の場合、クラスター内の各サーバーには番号が付けられます。 サーバー識別子は、クリーンアップされて使用する準備が整った URL のプレフィックスです。 `{1..3}` を使用すると、サーバーを素早く簡単にチェックアウトできます。 `dig` のコマンドを 3 回実行することを通知する `{1..3}` を使用する。 次に、実行をリアルタイムで監視する場合の動作を示します。
+この時点で、URL の準備が整っています。 次に、クラスター内の各サーバーを確認する方法を見てみましょう。 Adobe Commerce Cloud の場合、クラスター内の各サーバーには番号が付けられます。 サーバー識別子は、クリーンアップされて使用する準備が整った URL のプレフィックスです。 `{1..3}` を使用すると、サーバーを素早く簡単にチェックアウトできます。 `{1..3}` のコマンドを 3 回実行することを通知する `dig` を使用する。 次に、実行をリアルタイムで監視する場合の動作を示します。
 
 ```bash
 dig +short 1.<projectid>.ent.magento.cloud
@@ -120,4 +120,4 @@ dig +short 6.abcikdxbg789.ent.magento.cloud
 
 ## 関連ドキュメント
 
-* [ 地域 IP アドレス ](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/project/regional-ip-addresses|https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/project/regional-ip-addresses){target="_blank"}
+* [ 地域 IP アドレス ](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/project/regional-ip-addresses){target="_blank"}
