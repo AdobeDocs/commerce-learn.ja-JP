@@ -3,9 +3,9 @@ user-guide-title: ビデオとチュートリアル
 user-guide-description: ビデオとチュートリアルを通じて、Adobe Commerce と Magento Open Source について説明します。
 breadcrumb-title: ビデオとチュートリアル
 auto-video-transcripts: true
-source-git-commit: ac71d30083c1bb44fcb706411cb90d4ca1b70f59
+source-git-commit: 8c3efd5365d8420038f3c0d5e34b34a2b211ead1
 workflow-type: tm+mt
-source-wordcount: '914'
+source-wordcount: '922'
 ht-degree: 3%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 3%
    + [複数の Web サイト](../cloud/multiple-websites.md)
    + [Experience Lead のデータとプロモーション](../cloud/experience-lead-data-promoitions.md)
    + [AEM Assets](../cloud/aem-assets.md)
-   + [&#x200B; 自己ホスト型ソリューションからの移行 &#x200B;](../cloud/overview.md)
+   + [ 自己ホスト型ソリューションからの移行 ](../cloud/overview.md)
    + [Fastly を使用してアクセスを制限する](../cloud/limit-website-access-using-fastly.md)
    + 技術的なオンボーディングとハードウェアのハンドオフ {#technical-onboarding-hardware-handoff}
       + [インフラストラクチャと開発のベストプラクティス](../cloud/infrastructure-development-best-practices.md)
@@ -66,11 +66,11 @@ ht-degree: 3%
       + [構成可能なCommerce](../capabilities/what-is-composable-commerce.md)
       + [Quality Patch ツール](../capabilities/quality-patch-tool.md)
    + 製品の作成 {#create-products}
-      + [&#x200B; シンプルな製品 &#x200B;](../site-management/create-simple-product.md)
-      + [&#x200B; 仮想製品 &#x200B;](../site-management/create-virtual-product.md)
+      + [ シンプルな製品 ](../site-management/create-simple-product.md)
+      + [ 仮想製品 ](../site-management/create-virtual-product.md)
       + [ダウンロード可能な製品](../site-management/create-downloadable-product.md)
-      + [&#x200B; グループ化された製品 &#x200B;](../site-management/create-grouped-product.md)
-      + [&#x200B; 設定可能な製品 &#x200B;](../site-management/create-configurable-product.md)
+      + [ グループ化された製品 ](../site-management/create-grouped-product.md)
+      + [ 設定可能な製品 ](../site-management/create-configurable-product.md)
       + [バンドル製品](../site-management/create-bundle-product.md)
       + [ギフトカード製品](../site-management/create-gift-card-product.md)
    + バックオフィス統合スターターキット {#back-office-integration-starter-kit}
@@ -106,6 +106,10 @@ ht-degree: 3%
       + [住所レイアウトのカスタマイズ](../edge-delivery-services/customize-address-new-account-link.md)
       + [買い物客のエクスペリエンス](../edge-delivery-services/shopper-experience.md)
 + ウェビナーとイベント {#webinars-and-events}
+   + ビジネスの成長 {#business-growth}
+      + [AI イノベーション](../business-growth/ai-innovation.md)
+      + [将来のビジョン](../business-growth/vision-forward.md)
+      + [製品の採用](../business-growth/product-adoption.md)
    + Commerceの未来 {#future-of-commerce}
       + [新製品のお知らせ](../future-of-commerce/new-product-announcements.md)
       + [コストの大幅な削減](../future-of-commerce/drastically-cut-costs.md)
@@ -134,25 +138,25 @@ ht-degree: 3%
    + [App Builderについて](../app-builder/introduction-to-app-builder.md)
    + [App Builderの拡張フレームワーク](../app-builder/extensibility-framework-commerce-eventing.md)
    + [App Builderの機能デモ](../app-builder/app-builder-functional-demonstration.md)
-   + [App Builderの技術概要 &#x200B;](../app-builder/app-builder-technical-overview.md)
+   + [App Builderの技術概要 ](../app-builder/app-builder-technical-overview.md)
    + 最初の App Builder アプリを作成 {#first-app}
       + [概要](../app-builder/first-app/overview.md)
-      + [.env ファイルの生成と設定 &#x200B;](../app-builder/first-app/env-file.md)
-      + [app.config.yaml ファイルの説明と使用方法 &#x200B;](../app-builder/first-app/app-config-yaml-file.md)
+      + [.env ファイルの生成と設定 ](../app-builder/first-app/env-file.md)
+      + [app.config.yaml ファイルの説明と使用方法 ](../app-builder/first-app/app-config-yaml-file.md)
       + [アクションフォルダーについて説明します](../app-builder/first-app/actions-folder.md)
       + [テストフォルダーの詳細](../app-builder/first-app/test-folder.md)
       + [web-src フォルダーの目的を確認する](../app-builder/first-app/web-src-folder.md)
       + [ローカルテスト](../app-builder/first-app/testing-locally.md)
       + [App Builder URL を使用したテスト](../app-builder/first-app/testing-app-builder-url.md)
       + [まとめ](../app-builder/first-app/conclusion.md)
-      + [&#x200B; サンプルモジュールソースコード](https://github.com/magento/app-builder-samples){target="_blank"}
+      + [ サンプルモジュールソースコード ](https://github.com/magento/app-builder-samples){target="_blank"}
    + Adobe Commerceの IO イベント {#io-events}
       + [入門 IO イベント](../io-events/getting-started-io-events.md)
       + [Adobe Commerce 2.4.5 のインストール](../io-events/2-4-5-installation.md)
       + [Adobe Commerce 2.4.6 のインストール](../io-events/2-4-6-installation.md)
-      + [App Builder プロジェクトの作成 &#x200B;](../io-events/create-app-builder-project.md)
+      + [App Builder プロジェクトの作成 ](../io-events/create-app-builder-project.md)
       + [Adobe Commerceの設定](../io-events/configure-commerce.md)
-      + [Adobe Commerce モジュールの開発 &#x200B;](../io-events/commerce-module-development.md)
+      + [Adobe Commerce モジュールの開発 ](../io-events/commerce-module-development.md)
       + [Adobe Commerce条件付きイベント](../io-events/conditional-events.md)
 + API メッシュ {#api-mesh}
    + [GitHub コードスペースを使用した API メッシュのスターターキット](../api-mesh/starter-kit-github-codespaces.md)
@@ -204,7 +208,7 @@ ht-degree: 3%
    + [関連製品ルールの管理](../site-management/related-product-rules.md)
    + [製品レコメンデーションの設定](../site-management/product-recommendations.md)
    + [Live Search の概要](../site-management/live-search.md)
-   + [&#x200B; レコメンデーションの Live Search](../site-management/live-search-recommendations.md)
+   + [ レコメンデーションの Live Search](../site-management/live-search-recommendations.md)
    + [CommerceとAJOの統合](../site-management/integrate-commerce-ajo.md)
 + 注文とフルフィルメント {#orders}
    + [注文ステータスの管理](../orders-and-fulfillment/order-status.md)
@@ -237,13 +241,13 @@ ht-degree: 3%
    + [フィルターセット](../business-intelligence/filter-sets.md)
    + [コホートReport Builder](../business-intelligence/cohort-report-builder.md)
    + [SQL REPORT BUILDER](../business-intelligence/sql-report-builder.md)
-   + [&#x200B; 未来に備えて &#x200B;](../business-intelligence/prepare-for-future.md)
+   + [ 未来に備えて ](../business-intelligence/prepare-for-future.md)
 + Commerce アップグレード {#upgrade}
    + [Adobe Commerce 2.4 アップグレードワークショップ](../upgrade/2-4-upgrade-workshop.md)
    + [互換性アップグレードツールの概要](../upgrade/upgrade-compatibility-tool-overview.md)
    + [PHP Storm でのアップグレード互換性ツールの使用](../upgrade/uct-phpstorm.md)
 + バックエンド開発 {#backend-development}
-   + [&#x200B; データベーステーブルを変更する際のベストプラクティス &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables.html?lang=ja)
+   + [ データベーステーブルを変更する際のベストプラクティス ](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables.html)
    + [モジュールの作成](../backend-development/create-module.md)
    + [製品属性の追加](../backend-development/add-product-attribute.md)
    + [依存関係の挿入の例](../backend-development/dependency-injection.md)
@@ -263,7 +267,7 @@ ht-degree: 3%
    + [ページを作成](../frontend-development/create-page.md)
 + ヘッドレスアーキテクチャ {#headless-architecture}
    + ヘッドレスの概要 {#introduction-to-headless}
-      + [&#x200B; ヘッドレスアーキテクチャ – セッション 1](../headless/session-1.md)
+      + [ ヘッドレスアーキテクチャ – セッション 1](../headless/session-1.md)
    + PWA Studioについて {#introduction}
       + [1 – 概要](../pwa/introduction/1-overview.md)
       + [2 - PWA Studio ツール](../pwa/introduction/2-pwa-studio-tools.md)
