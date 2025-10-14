@@ -22,7 +22,7 @@ ht-degree: 0%
 
 # Adobe Commerce 2.4.6 のインストール
 
-Composer for version 2.4.6 を使用してAdobe Commerceに複数の新しいモジュールをインストールする方法を説明します。追加ドキュメントについては、[Adobe CommerceのAdobe I/Oイベントのインストール ](https://developer.adobe.com/commerce/events/get-started/installation/){target="_blank"} を参照してください。
+Composer for version 2.4.6 を使用してAdobe Commerceに複数の新しいモジュールをインストールする方法を説明します。追加ドキュメントについては、[Adobe CommerceのAdobe I/Oイベントのインストール &#x200B;](https://developer.adobe.com/commerce/events/get-started/installation/){target="_blank"} を参照してください。
 
 ## このビデオの目的は誰ですか。
 

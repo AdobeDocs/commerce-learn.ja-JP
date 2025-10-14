@@ -31,7 +31,7 @@ Covid-19 が世界中で発生する中、何百万人もの人々が最も重�
 
 >[!TIP]
 >
->Commerce Intelligenceを初めて使用する場合は、[Adobe Commerce Intelligence ユーザーガイド ](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/guide-overview.html?lang=ja){target="_blank"} で、データの集計、分析、ビジュアライゼーションを通じてビジネスインサイトや結果を向上させる方法の概要を参照してください。
+>Commerce Intelligenceを初めて使用する場合は、[Adobe Commerce Intelligence ユーザーガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/guide-overview.html?lang=ja){target="_blank"} で、データの集計、分析、ビジュアライゼーションを通じてビジネスインサイトや結果を向上させる方法の概要を参照してください。
 
 ## このビデオの目的は誰ですか。
 

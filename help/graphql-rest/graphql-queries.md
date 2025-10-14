@@ -29,7 +29,7 @@ ht-degree: 0%
 
 * [第 1 部GraphQL – はじめに](../graphql-rest/intro-graphql.md)
 * [第 3 部GraphQL – 突然変異](../graphql-rest/graphql-mutations.md)
-* [ 第 4 部GraphQL - スキーマ ](../graphql-rest/graphql-schema.md)
+* [&#x200B; 第 4 部GraphQL - スキーマ &#x200B;](../graphql-rest/graphql-schema.md)
 
 ## GraphQL構文の例
 
@@ -156,7 +156,7 @@ ht-degree: 0%
 
 また、ネストされたフィールドのこの概念は、最上位の `categories` フィールドに対して行ったのと同じ方法で `products` （`pageSize` および `currentPage`）の引数を渡すことができる理由でもあります。
 
-![GraphQL フィールドツリー ](../assets/graphql-field-tree.png)
+![GraphQL フィールドツリー &#x200B;](../assets/graphql-field-tree.png)
 
 ## 変数
 
@@ -206,6 +206,6 @@ fragment productDetails on ProductInterface {
 
 GraphQL クエリの実際の HTTP リクエストの本文に「query: `{string}`」が含まれるのと同じように、変数ディクショナリを含むリクエストには、同じ本文に追加の「variables: `{json}`」が含まれます。`{json}` は変数値を持つ JSON 文字列です。
 
-また、新しいクエリでは _フラグメント_ （`productDetails`）を使用して、同じフィールド選択を複数の場所で再利用します。 [ フラグメントについて詳しくは ](https://graphql.org/learn/queries/#fragments){target="_blank"} GraphQL ドキュメントを参照してください。
+また、新しいクエリでは _フラグメント_ （`productDetails`）を使用して、同じフィールド選択を複数の場所で再利用します。 [&#x200B; フラグメントについて詳しくは &#x200B;](https://graphql.org/learn/queries/#fragments){target="_blank"} GraphQL ドキュメントを参照してください。
 
 {{$include /help/_includes/graphql-rest-related-links.md}}

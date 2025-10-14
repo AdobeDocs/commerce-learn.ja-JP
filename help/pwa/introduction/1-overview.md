@@ -37,5 +37,5 @@ ht-degree: 14%
 
 ## 役に立つリソース
 
-- [PWA Studioドキュメント ](https://developer.adobe.com/commerce/pwa-studio/)
+- [PWA Studioドキュメント &#x200B;](https://developer.adobe.com/commerce/pwa-studio/)
 - [GitHub リポジトリのPWA Studio](https://github.com/magento/pwa-studio)

@@ -44,4 +44,4 @@ ht-degree: 0%
 
 ## 役に立つリソース
 
-[ フロントエンド開発者ガイド ](https://developer.adobe.com/commerce/frontend-core/guide/)
+[&#x200B; フロントエンド開発者ガイド &#x200B;](https://developer.adobe.com/commerce/frontend-core/guide/)

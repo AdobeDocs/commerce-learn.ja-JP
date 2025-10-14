@@ -33,6 +33,6 @@ ht-degree: 0%
 
 ## その他のリソース
 
-- [ 発送設定 –  [!DNL Commerce]  店舗および購入エクスペリエンスガイド ](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/delivery/shipping-settings.html?lang=ja)
-- [ 基本的な配送方法  [!DNL Commerce]  店舗・購入エクスペリエンスガイド ](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/delivery/delivery.html?lang=ja#basic-delivery-methods)
-- [ 配送業者の設定 –  [!DNL Commerce]  店舗および購入エクスペリエンスガイド ](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/delivery/shipping-carriers/carriers.html?lang=ja)
+- [&#x200B; 発送設定 –  [!DNL Commerce]  店舗および購入エクスペリエンスガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/delivery/shipping-settings.html?lang=ja)
+- [&#x200B; 基本的な配送方法  [!DNL Commerce]  店舗・購入エクスペリエンスガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/delivery/delivery.html?lang=ja#basic-delivery-methods)
+- [&#x200B; 配送業者の設定 –  [!DNL Commerce]  店舗および購入エクスペリエンスガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/delivery/shipping-carriers/carriers.html?lang=ja)

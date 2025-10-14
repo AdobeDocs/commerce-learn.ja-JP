@@ -36,7 +36,7 @@ Adobe Commerceの [!DNL Live Search] は、Adobe Commerceに関する、迅速�
 
 ## その他のリソース
 
-- [ の概要  [!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/marketing/live-search.html?lang=ja)
-- [[!DNL Live Search]  概要 ](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html?lang=ja)
-- [Commerce サービスコネクタ ](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html?lang=ja)
-- [ 製品Recommendationsの概要 ](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/overview.html?lang=ja)
+- [&#x200B; の概要  [!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/marketing/live-search.html?lang=ja)
+- [[!DNL Live Search]  概要 &#x200B;](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html?lang=ja)
+- [Commerce サービスコネクタ &#x200B;](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html?lang=ja)
+- [&#x200B; 製品Recommendationsの概要 &#x200B;](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/overview.html?lang=ja)

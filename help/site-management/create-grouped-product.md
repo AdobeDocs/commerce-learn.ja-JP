@@ -183,10 +183,10 @@ curl --location --request PUT '{{your.url.here}}/rest/default/V1/products/my-new
 
 ## グループ化された製品からのシンプルな製品の削除
 
-グループ化された製品から [ 単純な製品を削除 ](https://developer.adobe.com/commerce/webapi/rest/tutorials/grouped-product/) するには、`DELETE /V1/products/{sku}/links/{type}/{linkedProductSku}` を使用します。
+グループ化された製品から [&#x200B; 単純な製品を削除 &#x200B;](https://developer.adobe.com/commerce/webapi/rest/tutorials/grouped-product/) するには、`DELETE /V1/products/{sku}/links/{type}/{linkedProductSku}` を使用します。
 
 `{type}` として使用するものを調べるには、xdebug を使用してリクエストをキャプチャし、$linkTypes: `related`、`crosssell`、`uupsell` および `associated` を評価します。
-![ グループ化された製品リンクタイプ – 代替テキスト ](/help/assets/site-management/catalog/grouped-types.png "xdebug セッション中にキャプチャされたグループ化された製品リンクタイプ ")
+![&#x200B; グループ化された製品リンクタイプ – 代替テキスト &#x200B;](/help/assets/site-management/catalog/grouped-types.png "xdebug セッション中にキャプチャされたグループ化された製品リンクタイプ ")
 
 シンプルな製品をグループ化された製品にリンクした場合、ペイロードには次のようなセクションが含まれていました。
 
@@ -223,7 +223,7 @@ curl --location '{{your.url.here}}rest/default/V1/products/some-grouped-product-
 
 ## その他のリソース
 
-- [ グループ化された製品の作成と管理 ](https://developer.adobe.com/commerce/webapi/rest/tutorials/grouped-product/){target="_blank"}
-- [ グループ化された製品 ](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/types/product-create-grouped.html?lang=ja){target="_blank"}
-- [Adobe Developer REST チュートリアル ](https://developer.adobe.com/commerce/webapi/rest/tutorials/prerequisite-tasks/){target="_blank"}
+- [&#x200B; グループ化された製品の作成と管理 &#x200B;](https://developer.adobe.com/commerce/webapi/rest/tutorials/grouped-product/){target="_blank"}
+- [&#x200B; グループ化された製品 &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/types/product-create-grouped.html?lang=ja){target="_blank"}
+- [Adobe Developer REST チュートリアル &#x200B;](https://developer.adobe.com/commerce/webapi/rest/tutorials/prerequisite-tasks/){target="_blank"}
 - [Adobe Commerce REST ReDoc](https://adobe-commerce.redoc.ly/2.4.6-admin/tag/products#operation/PostV1Products){target="_blank"}

@@ -43,5 +43,5 @@ _[!UICONTROL Payment on Account]_&#x200B;を有効化し、会社クレジット
 
 ## その他のリソース
 
-- [ 分割払いの構成 ](https://experienceleague.adobe.com/docs/commerce-admin/b2b/enable-basic-features.html?lang=ja#configure-payment-on-account)
-- [ 会社クレジットの管理 ](https://experienceleague.adobe.com/docs/commerce-admin/b2b/companies/credit-company.html?lang=ja)
+- [&#x200B; 分割払いの構成 &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/b2b/enable-basic-features.html?lang=ja#configure-payment-on-account)
+- [&#x200B; 会社クレジットの管理 &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/b2b/companies/credit-company.html?lang=ja)

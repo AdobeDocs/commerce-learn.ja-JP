@@ -21,7 +21,7 @@ ht-degree: 0%
 
 # Adobe Commerce条件付きイベント
 
-Adobe Developer App Builderで使用できるAdobe Commerceの条件付きイベントについて説明します。 追加ドキュメントについては、[Adobe CommerceのAdobe I/Oイベントのインストール ](https://developer.adobe.com/commerce/extensibility/events/conditional-events/){target="_blank"} を参照してください。
+Adobe Developer App Builderで使用できるAdobe Commerceの条件付きイベントについて説明します。 追加ドキュメントについては、[Adobe CommerceのAdobe I/Oイベントのインストール &#x200B;](https://developer.adobe.com/commerce/extensibility/events/conditional-events/){target="_blank"} を参照してください。
 
 ## このビデオの目的は誰ですか。
 

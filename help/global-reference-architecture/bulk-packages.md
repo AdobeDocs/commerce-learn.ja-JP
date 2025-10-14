@@ -24,7 +24,7 @@ ht-degree: 0%
 
 バルクパッケージの GRA パターンでは、共通のすべてのカスタマイズをホストする単一の Git リポジトリーが関与します。 この 1 つの Git リポジトリーは、複数のAdobe Commerce モジュールを含む 1 つのコンポーザーパッケージとして Composer を通じて公開されます。
 
-![ バルクパッケージの GRA パターン内のどこにコードが格納されているかを示す図 ](/help/assets/global-reference-architecture/bulk-gra-pattern-diagram.png){align="center"}
+![&#x200B; バルクパッケージの GRA パターン内のどこにコードが格納されているかを示す図 &#x200B;](/help/assets/global-reference-architecture/bulk-gra-pattern-diagram.png){align="center"}
 
 ## このパターンの長所と短所
 

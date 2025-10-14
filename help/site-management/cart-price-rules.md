@@ -77,7 +77,7 @@ ht-degree: 0%
 
 次に、このシナリオを持つ注文の管理者に表示されるスクリーンショットを示します。
 
-![ 管理者ビューに表示される順序付き項目の値が異なる ](../assets/commerce-admin-cart-price-rule-values-different.png)
+![&#x200B; 管理者ビューに表示される順序付き項目の値が異なる &#x200B;](../assets/commerce-admin-cart-price-rule-values-different.png)
 
 ### その他の潜在的な解決策と、それらが使用されなかった理由
 
@@ -128,5 +128,5 @@ Product 1 New value is 1.99
 
 ## その他のリソース
 
-- [ 買い物かご価格ルールの作成 –  [!DNL Commerce]  マーチャンダイジングおよびプロモーションガイド ](https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-create.html?lang=ja)
-- [ クーポンコード - [!DNL Commerce]  マーチャンダイジング・プロモーションガイド ](https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-coupon.html?lang=ja)
+- [&#x200B; 買い物かご価格ルールの作成 –  [!DNL Commerce]  マーチャンダイジングおよびプロモーションガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-create.html?lang=ja)
+- [&#x200B; クーポンコード - [!DNL Commerce]  マーチャンダイジング・プロモーションガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-coupon.html?lang=ja)

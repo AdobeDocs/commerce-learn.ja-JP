@@ -31,5 +31,5 @@ ht-degree: 0%
 
 ## 役に立つリソース
 
-- [ 依存関係の挿入 ](https://developer.adobe.com/commerce/php/development/components/dependency-injection/)
-- [PHP デベロッパーガイド ](https://developer.adobe.com/commerce/php/development/)
+- [&#x200B; 依存関係の挿入 &#x200B;](https://developer.adobe.com/commerce/php/development/components/dependency-injection/)
+- [PHP デベロッパーガイド &#x200B;](https://developer.adobe.com/commerce/php/development/)

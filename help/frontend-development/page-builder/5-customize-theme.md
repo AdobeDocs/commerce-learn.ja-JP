@@ -32,12 +32,12 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->この内容には、Adobe Commerce 2.3.1 の Page Builder 1.0.0 リリースが含まれています。以降のリリースでの更新について詳しくは、[Page Builder リリースノート ](https://experienceleague.adobe.com/docs/commerce-admin/page-builder/release-notes.html?lang=ja) を参照してください。
+>この内容には、Adobe Commerce 2.3.1 の Page Builder 1.0.0 リリースが含まれています。以降のリリースでの更新について詳しくは、[Page Builder リリースノート &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/page-builder/release-notes.html?lang=ja) を参照してください。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3430980?quality=12&learn=on&captions=jpn)
 
 ## 役に立つリソース
 
-[ ページビルダー開発者向けドキュメント ](https://developer.adobe.com/commerce/frontend-core/page-builder/)
+[&#x200B; ページビルダー開発者向けドキュメント &#x200B;](https://developer.adobe.com/commerce/frontend-core/page-builder/)
 
-[ ページビルダーガイド ](https://experienceleague.adobe.com/docs/commerce-admin/page-builder/introduction.html?lang=ja)
+[&#x200B; ページビルダーガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/page-builder/introduction.html?lang=ja)

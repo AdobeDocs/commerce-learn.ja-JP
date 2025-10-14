@@ -34,12 +34,12 @@ Adobe Commerceのクラウドインフラストラクチャと開発ベストプ
 
 ## ビデオで言及されているExperience Leagueドキュメント
 
-- [ 同期 ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/deploy/staging-production.html?lang=ja#migrate-files-using-rsync)
+- [&#x200B; 同期 &#x200B;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/deploy/staging-production.html?lang=ja#migrate-files-using-rsync)
 - [SFTP](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html?lang=ja#sftp)
 - [Commerce Cloud CLI](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli/cloud-cli-overview.html?lang=ja)
-  [Adobe Commerceのアップグレードとパッチの適用 ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html?lang=ja)
-- [Adobe Commerceの起動前チェックリスト ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/launch/checklist.html?lang=ja)
-- [ サポートチケットの作成 ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=ja)
+  [Adobe Commerceのアップグレードとパッチの適用 &#x200B;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html?lang=ja)
+- [Adobe Commerceの起動前チェックリスト &#x200B;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/launch/checklist.html?lang=ja)
+- [&#x200B; サポートチケットの作成 &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=ja)
 
 {{$include /help/_includes/cloud-technical-onboarding-related-links.md}}
 

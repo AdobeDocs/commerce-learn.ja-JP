@@ -43,5 +43,5 @@ Commerceをサードパーティのバックオフィスシステムと統合す
 
 ## コードサンプル
 
-* [ カスタム取得 Webhook](https://github.com/adobe/adobe-commerce-samples/tree/main/starter-kit/customize-ingestion-webhook)
-* [ 取り込みスケジューラーの追加 ](https://github.com/adobe/adobe-commerce-samples/tree/main/starter-kit/add-ingestion-scheduler)
+* [&#x200B; カスタム取得 Webhook](https://github.com/adobe/adobe-commerce-samples/tree/main/starter-kit/customize-ingestion-webhook)
+* [&#x200B; 取り込みスケジューラーの追加 &#x200B;](https://github.com/adobe/adobe-commerce-samples/tree/main/starter-kit/add-ingestion-scheduler)

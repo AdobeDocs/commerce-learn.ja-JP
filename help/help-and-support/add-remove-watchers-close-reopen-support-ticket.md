@@ -35,4 +35,4 @@ ht-degree: 0%
 
 ## Commerce ナレッジベースヘルプセンターガイド
 
-[ サポートケースの送信 ](https://experienceleague.adobe.com/ja/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case)
+[&#x200B; サポートケースの送信 &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case)

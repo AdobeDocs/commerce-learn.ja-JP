@@ -21,7 +21,7 @@ ht-degree: 0%
 
 # 複数のソースを持つメッシュを作成する
 
-このビデオは、Adobe Developer App Builderの API メッシュで複数のソースを使用してメッシュを作成する方法を開発者が理解するのに役立ちます。 このビデオでは、複数のソースを持つメッシュを作成し、エラーを特定する方法を説明します。 詳細とコードサンプルについては、[ メッシュの作成 ](https://developer.adobe.com/graphql-mesh-gateway/gateway/create-mesh/#create-a-mesh-1){target="_blank"} を参照してください。
+このビデオは、Adobe Developer App Builderの API メッシュで複数のソースを使用してメッシュを作成する方法を開発者が理解するのに役立ちます。 このビデオでは、複数のソースを持つメッシュを作成し、エラーを特定する方法を説明します。 詳細とコードサンプルについては、[&#x200B; メッシュの作成 &#x200B;](https://developer.adobe.com/graphql-mesh-gateway/gateway/create-mesh/#create-a-mesh-1){target="_blank"} を参照してください。
 
 ## このビデオの目的は誰ですか。
 
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 ## ビデオコンテンツ
 
-* [ 変換 ](https://developer.adobe.com/graphql-mesh-gateway/gateway/transforms/){target="_blank"} を使用したデフォルトのソーススキーマの変更方法
+* [&#x200B; 変換 &#x200B;](https://developer.adobe.com/graphql-mesh-gateway/gateway/transforms/){target="_blank"} を使用したデフォルトのソーススキーマの変更方法
 * 名前の競合、スキーマの可用性、その他のスキーマ構文の問題などのエラーのトラブルシューティング方法
 * 変更した設定でメッシュを更新する
 

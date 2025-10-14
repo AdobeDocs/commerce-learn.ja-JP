@@ -33,4 +33,4 @@ ht-degree: 0%
 
 ## その他のリソース
 
-[ カテゴリ - [!DNL Commerce]  カタログ管理ガイド ](https://experienceleague.adobe.com/docs/commerce-admin/catalog/categories/categories.html?lang=ja)
+[&#x200B; カテゴリ - [!DNL Commerce]  カタログ管理ガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/catalog/categories/categories.html?lang=ja)

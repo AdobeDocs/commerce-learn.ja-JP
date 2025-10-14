@@ -35,5 +35,5 @@ URL 書き換えツールを使用すると、商品、カテゴリまたはCMS�
 
 ## その他のリソース
 
-- [URL リライト - [!DNL Commerce]  マーチャンダイジングおよびプロモーションガイド ](https://experienceleague.adobe.com/docs/commerce-admin/marketing/seo/url-rewrites/url-rewrite.html?lang=ja)
-- [ 一般/Web – 設定リファレ  [!DNL Commerce]  スガイド ](https://experienceleague.adobe.com/docs/commerce-admin/config/general/web.html?lang=ja)
+- [URL リライト - [!DNL Commerce]  マーチャンダイジングおよびプロモーションガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/marketing/seo/url-rewrites/url-rewrite.html?lang=ja)
+- [&#x200B; 一般/Web – 設定リファレ  [!DNL Commerce]  スガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/config/general/web.html?lang=ja)

@@ -41,5 +41,5 @@ B2B の顧客は、自分の役割に必要な権限を持っているので、�
 
 ## その他のリソース
 
-- [ 会社の発注 ](https://experienceleague.adobe.com/docs/commerce-admin/b2b/purchase-orders/purchase-order-flow.html?lang=ja){target="_blank"}
-- [ 発注承認規程 ](https://experienceleague.adobe.com/docs/commerce-admin/b2b/purchase-orders/account-dashboard-approval-rules.html?lang=ja){target="_blank"}
+- [&#x200B; 会社の発注 &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/b2b/purchase-orders/purchase-order-flow.html?lang=ja){target="_blank"}
+- [&#x200B; 発注承認規程 &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/b2b/purchase-orders/account-dashboard-approval-rules.html?lang=ja){target="_blank"}

@@ -36,5 +36,5 @@ ht-degree: 0%
 
 ## その他のリソース
 
-- [ コンテンツのステージング -  [!DNL Commerce]  コンテンツとデザインガイド ](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging.html?lang=ja){target="_blank"}
-- [Campaign のプレビュー – コ  [!DNL Commerce]  テンツおよびデザインガイド ](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging-preview.html?lang=ja){target="_blank"}
+- [&#x200B; コンテンツのステージング -  [!DNL Commerce]  コンテンツとデザインガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging.html?lang=ja){target="_blank"}
+- [Campaign のプレビュー – コ  [!DNL Commerce]  テンツおよびデザインガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging-preview.html?lang=ja){target="_blank"}

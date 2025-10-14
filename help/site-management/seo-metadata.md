@@ -34,4 +34,4 @@ ht-degree: 0%
 
 ## その他のリソース
 
-[ メタデータ - [!DNL Commerce]  マーチャンダイジングおよびプロモーションガイド ](https://experienceleague.adobe.com/docs/commerce-admin/marketing/seo/meta-data.html?lang=ja)
+[&#x200B; メタデータ - [!DNL Commerce]  マーチャンダイジングおよびプロモーションガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/marketing/seo/meta-data.html?lang=ja)

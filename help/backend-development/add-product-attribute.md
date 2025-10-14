@@ -235,4 +235,4 @@ class InstallData implements InstallDataInterface
 
 ## 役に立つリソース
 
-[ カスタムテキストフィールド属性の追加 ](https://developer.adobe.com/commerce/php/tutorials/admin/custom-text-field-attribute/)
+[&#x200B; カスタムテキストフィールド属性の追加 &#x200B;](https://developer.adobe.com/commerce/php/tutorials/admin/custom-text-field-attribute/)

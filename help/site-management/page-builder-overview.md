@@ -45,5 +45,5 @@ ht-degree: 1%
 
 ## その他のリソース
 
-- [ ページビルダーユーザーガイド ](https://experienceleague.adobe.com/docs/commerce-admin/page-builder/guide-overview.html?lang=ja)
-- [ ページビルダーデベロッパーガイド ](https://developer.adobe.com/commerce/frontend-core/page-builder/)
+- [&#x200B; ページビルダーユーザーガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/page-builder/guide-overview.html?lang=ja)
+- [&#x200B; ページビルダーデベロッパーガイド &#x200B;](https://developer.adobe.com/commerce/frontend-core/page-builder/)

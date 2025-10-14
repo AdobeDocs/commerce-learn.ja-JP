@@ -41,4 +41,4 @@ Adobe Commerceの買い物かごドロップインを使用する方法を理解
 
 ## その他のドキュメント
 
-* [ 買い物かごの概要を設定 ](https://experienceleague.adobe.com/developer/commerce/storefront/dropins/cart/tutorials/configure-cart-summary/?lang=ja)
+* [&#x200B; 買い物かごの概要を設定 &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/dropins/cart/tutorials/configure-cart-summary/?lang=ja)

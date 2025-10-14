@@ -285,5 +285,5 @@ class RestAddLoggingAfterOrderPlacePlugin
 
 ## 役に立つリソース
 
-- [ モジュールリファレンスガイド ](https://developer.adobe.com/commerce/php/module-reference/){target="_blank"}
-- [ プラグイン ](https://developer.adobe.com/commerce/php/development/components/plugins/){target="_blank"}
+- [&#x200B; モジュールリファレンスガイド &#x200B;](https://developer.adobe.com/commerce/php/module-reference/){target="_blank"}
+- [&#x200B; プラグイン &#x200B;](https://developer.adobe.com/commerce/php/development/components/plugins/){target="_blank"}

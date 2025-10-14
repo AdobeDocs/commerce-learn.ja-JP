@@ -30,7 +30,7 @@ ht-degree: 0%
 
 * [第 1 部GraphQL – はじめに](../graphql-rest/intro-graphql.md)
 * [第 2 部GraphQL - クエリ](../graphql-rest/graphql-queries.md)
-* [ 第 4 部GraphQL - スキーマ ](../graphql-rest/graphql-schema.md)
+* [&#x200B; 第 4 部GraphQL - スキーマ &#x200B;](../graphql-rest/graphql-schema.md)
 
 ## 突然変異の例
 

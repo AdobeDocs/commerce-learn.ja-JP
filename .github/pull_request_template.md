@@ -44,7 +44,7 @@ ht-degree: 0%
 <!--- Go over all the following points, and put an `x` in all the boxes that apply. -->
 <!--- If you're unsure about any of these, don't hesitate to ask. We're here to help! -->
 
-- [ ] 命名基準 [ に従ってい ](https://wiki.corp.adobe.com/display/DMSArchitecture/Naming+Standards) か？
+- [ ] 命名基準 [&#x200B; に従ってい &#x200B;](https://wiki.corp.adobe.com/display/DMSArchitecture/Naming+Standards) か？
 - [ ] 作成または更新する各ページの TOC と H1 の一致。
 - [ ] TOC と H1 には、例えば、次のようなアクションが関連付けられています。GutHub プルリクエストの作成方法を説明します
 - [ ] H1 では等幅にしないでください

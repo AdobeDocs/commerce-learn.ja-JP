@@ -260,7 +260,7 @@ SSH tunnel opened to database at: mysql://user:@127.0.0.1:30000/main
 
 Cloud Console のクラウド資格情報から、SSH のホスト名とユーザー名を確認できます。
 
-![ ロゴ - Adobe Commerce Cloud コンソール ](./assets/cloud-ui-screenshot.png "Adobe Commerce Cloud コンソール ")
+![&#x200B; ロゴ - Adobe Commerce Cloud コンソール &#x200B;](./assets/cloud-ui-screenshot.png "Adobe Commerce Cloud コンソール ")
 
 次に例を 1 つ示します。`ssh abasrpikfw4123-remote-db-ecpefky--mymagento@ssh.us-4.magento.cloud`
 SSH ホスト名は@記号の後にすべてです（この例では `ssh.us-4.magento.cloud`）。
@@ -314,15 +314,15 @@ MariaDB データベースに直接アクセスするには、SSH を使用し�
 
 次に、MySQL GUI で設定値を使用します。 次の例では MySQL Workbench を使用していますが、MySQL 接続をサポートするアプリでは同様のフィールドが表示されます。
 
-![logo - Mysql Workbench を使用した Mysql GUI の例 ](./assets/mysql-workbench-after-connecting.png " Mysql Workbench を使用した Mysql GUI の例 ")
+![logo - Mysql Workbench を使用した Mysql GUI の例 &#x200B;](./assets/mysql-workbench-after-connecting.png " Mysql Workbench を使用した Mysql GUI の例 ")
 
-![logo - TablesPlus を使用した Mysql GUI の例 ](./assets/tablesPlus-db-connection.png " TablesPlus を使用した Mysql GUI の例 ")
+![logo - TablesPlus を使用した Mysql GUI の例 &#x200B;](./assets/tablesPlus-db-connection.png " TablesPlus を使用した Mysql GUI の例 ")
 
 すべてが設定されたら、MySQL GUI を使用してリモート Adobe Commerce Cloud プロジェクトに対してクエリを実行できます。
 
 ## SQL を実行するためのクラウドプロジェクトデータベースへの直接接続
 
-次のメソッドでは、`magento-cloud` cli を使用して mysql データベースに直接接続し、SQL を実行します。これにより、データベースのクエリをより高速に実行できます。 このデータベースをコピーする必要がある場合は、別の方法の 1 つを参照して [ データベース ダンプを作成 ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/create-database-dump-on-cloud.html?lang=ja) します。
+次のメソッドでは、`magento-cloud` cli を使用して mysql データベースに直接接続し、SQL を実行します。これにより、データベースのクエリをより高速に実行できます。 このデータベースをコピーする必要がある場合は、別の方法の 1 つを参照して [&#x200B; データベース ダンプを作成 &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/create-database-dump-on-cloud.html?lang=ja) します。
 
 ```bash
 magento-cloud db:sql    
@@ -383,6 +383,6 @@ MariaDB [main]>
 ## その他のリソース
 
 [Adobe Commerce Cloud CLI](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli/cloud-cli-overview.html?lang=ja)
-[MySQL サービスの設定 ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/mysql.html?lang=ja)
-[ リモート MySQL データベース接続の設定 ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/database-server/mysql-remote.html?lang=ja)
-[ クラウドインフラストラクチャ上のAdobe Commerceにデータベースダンプを作成する ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/create-database-dump-on-cloud.html?lang=ja)
+[MySQL サービスの設定 &#x200B;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/mysql.html?lang=ja)
+[&#x200B; リモート MySQL データベース接続の設定 &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/database-server/mysql-remote.html?lang=ja)
+[&#x200B; クラウドインフラストラクチャ上のAdobe Commerceにデータベースダンプを作成する &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/create-database-dump-on-cloud.html?lang=ja)

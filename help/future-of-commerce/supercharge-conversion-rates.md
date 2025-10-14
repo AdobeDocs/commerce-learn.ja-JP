@@ -40,6 +40,6 @@ Adobe Commerceが、コンバージョン率を最大 8% 向上させるよう�
 
 ## このシリーズのその他のビデオ
 
-[ 新製品のお知らせ ](./new-product-announcements.md)
-[ 大幅なコスト削減 ](./drastically-cut-costs.md)
-[ トラックの高速拡張 ](fast-track-expansion.md)
+[&#x200B; 新製品のお知らせ &#x200B;](./new-product-announcements.md)
+[&#x200B; 大幅なコスト削減 &#x200B;](./drastically-cut-costs.md)
+[&#x200B; トラックの高速拡張 &#x200B;](fast-track-expansion.md)

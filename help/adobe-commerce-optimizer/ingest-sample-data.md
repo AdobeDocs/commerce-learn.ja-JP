@@ -37,7 +37,7 @@ Adobe Commerce Optimizer インスタンスのサンプルデータを取り込�
 
 ## 関連コンテンツ
 
-* [GitHub リポジトリのサンプルデータ ](https://github.com/adobe-commerce/aco-sample-catalog-data-ingestion){target="_blank"}
-* [ 管理のユースケース ](https://experienceleague.adobe.com/ja/docs/commerce/optimizer/use-case/admin-use-case){target="_blank"}
-* [Adobe Commerce Optimizerの概要 ](https://experienceleague.adobe.com/ja/docs/commerce/optimizer/get-started){target="_blank"}
-* [[!DNL Adobe Commerce Optimizer]  ガイド ](https://experienceleague.adobe.com/ja/docs/commerce/optimizer/overview){target="_blank"}
+* [GitHub リポジトリのサンプルデータ &#x200B;](https://github.com/adobe-commerce/aco-sample-catalog-data-ingestion){target="_blank"}
+* [&#x200B; 管理のユースケース &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce/optimizer/use-case/admin-use-case){target="_blank"}
+* [Adobe Commerce Optimizerの概要 &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce/optimizer/get-started){target="_blank"}
+* [[!DNL Adobe Commerce Optimizer]  ガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce/optimizer/overview){target="_blank"}

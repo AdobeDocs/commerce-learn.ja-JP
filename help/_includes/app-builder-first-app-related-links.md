@@ -13,12 +13,12 @@ ht-degree: 2%
 ## App Builder – 最初のアプリ関連ページを作成します
 
 * [概要](../app-builder/first-app/overview.md)
-* [この ](../app-builder/first-app/env-file.md)
-* [この ](../app-builder/first-app/app-config-yaml-file.md)
+* [この &#x200B;](../app-builder/first-app/env-file.md)
+* [この &#x200B;](../app-builder/first-app/app-config-yaml-file.md)
 * [&#39;アクション&#39;](../app-builder/first-app/actions-folder.md)
 * [&#39;テスト&#39;](../app-builder/first-app/test-folder.md)
 * [&#39;web-src&#39;](../app-builder/first-app/web-src-folder.md)
 * [ローカルテスト](../app-builder/first-app/testing-locally.md)
 * [App Builder URL を使用したテスト](../app-builder/first-app/testing-app-builder-url.md)
 * [まとめ](../app-builder/first-app/conclusion.md)
-* [ サンプルモジュールソースコード ](https://github.com/magento/app-builder-samples){target="_blank"}
+* [&#x200B; サンプルモジュールソースコード &#x200B;](https://github.com/magento/app-builder-samples){target="_blank"}

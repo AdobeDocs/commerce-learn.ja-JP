@@ -35,5 +35,5 @@ ht-degree: 0%
 
 ## その他のリソース
 
-- [ ブロック – コ  [!DNL Commerce]  テンツおよび設計ガイド ](https://experienceleague.adobe.com/docs/commerce-admin/content-design/elements/blocks/blocks.html?lang=ja)
-- [ ダイナミック ブロック - [!DNL Commerce]  コンテンツおよび設計ガイド ](https://experienceleague.adobe.com/docs/commerce-admin/content-design/elements/dynamic-blocks/dynamic-blocks.html?lang=ja)
+- [&#x200B; ブロック – コ  [!DNL Commerce]  テンツおよび設計ガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/content-design/elements/blocks/blocks.html?lang=ja)
+- [&#x200B; ダイナミック ブロック - [!DNL Commerce]  コンテンツおよび設計ガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/content-design/elements/dynamic-blocks/dynamic-blocks.html?lang=ja)

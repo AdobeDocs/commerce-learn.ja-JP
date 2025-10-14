@@ -37,5 +37,5 @@ ht-degree: 0%
 
 ## 関連コンテンツ
 
-* [[!DNL Adobe Commerce Optimizer]  ガイド ](https://experienceleague.adobe.com/ja/docs/commerce/optimizer/overview){target="_blank"}
-* [Adobe Commerce Optimizerの概要 ](https://experienceleague.adobe.com/ja/docs/commerce-learn/tutorials/adobe-commerce-optimizer/overview)
+* [[!DNL Adobe Commerce Optimizer]  ガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce/optimizer/overview){target="_blank"}
+* [Adobe Commerce Optimizerの概要 &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-learn/tutorials/adobe-commerce-optimizer/overview)

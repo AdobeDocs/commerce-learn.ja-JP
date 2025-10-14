@@ -54,7 +54,7 @@ REST API とAdobe Commerce Admin を使用して、ダウンロード可能な�
 
 ドメインが `env.php` に追加されたので、Adobe Commerce管理者または REST API を使用して、ダウンロード可能な商品を作成できます。
 
-詳しくは、[ 設定リファレンス ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/files/config-reference-envphp.html?lang=ja#downloadable_domains) を参照してください。
+詳しくは、[&#x200B; 設定リファレンス &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/files/config-reference-envphp.html?lang=ja#downloadable_domains) を参照してください。
 
 >[!IMPORTANT]
 >Adobe Commerceの一部のバージョンでは、Adobe Commerce管理者で商品を編集すると、次のエラーが発生することがあります。 製品は REST API を使用して作成されますが、リンクされたダウンロードの価格は `null` です。
@@ -63,7 +63,7 @@ REST API とAdobe Commerce Admin を使用して、ダウンロード可能な�
 
 このエラーを修正するには、リンク更新 API を使用します：`POST V1/products/{sku}/downloadable-links.`
 
-詳しくは、[cURL を使用した製品ダウンロードリンクのアップデート ](#update-downloadable-links) の節を参照してください。
+詳しくは、[cURL を使用した製品ダウンロードリンクのアップデート &#x200B;](#update-downloadable-links) の節を参照してください。
 
 ## cURL を使用してダウンロード可能な製品を作成する（リモートサーバーからダウンロード）
 
@@ -236,7 +236,7 @@ curl --location '{{your.url.here}}/rest/all/V1/products/abcd12345/downloadable-l
 
 ## その他のリソース
 
-- [ ダウンロード可能な製品タイプ ](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/types/product-create-downloadable.html?lang=ja){target="_blank"}
-- [ ダウンロード可能なドメインの設定ガイド ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/files/config-reference-envphp.html?lang=ja#downloadable_domains){target="_blank"}
-- [Adobe Developer REST チュートリアル ](https://developer.adobe.com/commerce/webapi/rest/tutorials/prerequisite-tasks/){target="_blank"}
+- [&#x200B; ダウンロード可能な製品タイプ &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/types/product-create-downloadable.html?lang=ja){target="_blank"}
+- [&#x200B; ダウンロード可能なドメインの設定ガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/files/config-reference-envphp.html?lang=ja#downloadable_domains){target="_blank"}
+- [Adobe Developer REST チュートリアル &#x200B;](https://developer.adobe.com/commerce/webapi/rest/tutorials/prerequisite-tasks/){target="_blank"}
 - [Adobe Commerce REST ReDoc](https://adobe-commerce.redoc.ly/2.4.6-admin/tag/products#operation/PostV1Products){target="_blank"}
