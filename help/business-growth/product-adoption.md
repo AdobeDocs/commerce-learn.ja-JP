@@ -35,4 +35,4 @@ Adobe Commerceは、Adobe Commerce as a Cloud ServiceおよびAdobe Commerce Opt
 * App Builderの拡張機能を使用すると、カスタムロジックをサーバーレス関数に切り離して、メンテナンスを容易にできます。
 * ストアフロントの機能強化により、ドロップインコンポーネントとエッジ配信でパフォーマンスとコンテンツ作成が向上します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3475737/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3475749/?learn=on&enablevpops&captions=jpn)

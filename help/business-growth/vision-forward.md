@@ -35,4 +35,4 @@ Adobe Commerceの 2026 年のロードマップでは、リアルタイムのデ
 * マーチャントセンターと管理エクスペリエンス
 * 開発者エクスペリエンスとオブザーバビリティの向上
 
->[!VIDEO](https://video.tv.adobe.com/v/3475695/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3475707/?learn=on&enablevpops&captions=jpn)

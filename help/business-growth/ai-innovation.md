@@ -33,4 +33,4 @@ Adobe Commerceが最先端の AI ソリューションと SaaS ファースト�
 * カタログの革新によるグローバルな拡張の促進
 * 会話型Commerceによるストアフロントの操作性の向上
 
->[!VIDEO](https://video.tv.adobe.com/v/3475691/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3475696/?learn=on&enablevpops&captions=jpn)
