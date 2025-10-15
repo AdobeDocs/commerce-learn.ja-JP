@@ -113,7 +113,7 @@ Adobe Commerce Cloudでは、ステージング環境と実稼動環境の両方
    > - メール通信を無効にする方法：
    >   _ストア/設定/詳細/システム/メール送信設定_ に移動します。
 
-4. [&#x200B; 共有責任セキュリティモデル &#x200B;](https://business.adobe.com/products/magento/secure-ecommerce.html){target="_blank"} の一部として、実稼動インスタンスでセキュリティ侵入テストを実施します。 PCI （Payment Card Industry）コンプライアンスのために、カスタマイズされたサイトには侵入テストが必要です。
+4. [&#x200B; 共有責任セキュリティモデル &#x200B;](https://business.adobe.com/jp/products/magento/secure-ecommerce.html){target="_blank"} の一部として、実稼動インスタンスでセキュリティ侵入テストを実施します。 PCI （Payment Card Industry）コンプライアンスのために、カスタマイズされたサイトには侵入テストが必要です。
 
 ## 8.その他の構成
 
