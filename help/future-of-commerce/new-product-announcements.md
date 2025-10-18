@@ -35,7 +35,7 @@ ht-degree: 0%
 * Adobe Commerce Optimizerを使用すると、複雑なシステムや従来のシステムを使用している企業は、完全な再プラットフォームを行わなくてもカスタマーエクスペリエンスを最新化でき、クラウドサービスへのブリッジとして機能します。
 * 柔軟な段階的な導入パスにより、企業は自分のペースで移行でき、既存のソリューションと拡張バージョンサポートのタイムラインを継続的にサポートできます。
 
->[!VIDEO](https://video.tv.adobe.com/v/3458484/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3458486/?captions=jpn&learn=on&enablevpops)
 
 ## このシリーズのその他のビデオ
 

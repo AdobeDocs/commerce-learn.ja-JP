@@ -34,7 +34,7 @@ Adobe Commerceのクラウドネイティブプラットフォームは、完全
 * 迅速なデプロイメント – セルフサービスツールを使用して、事前設定済みの環境を数分で起動できます。
 * 柔軟な統合 – API やアクセラレーターを使用して、ERP や CRM などと簡単に接続できます。
 
->[!VIDEO](https://video.tv.adobe.com/v/3458485/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3458489/?captions=jpn&learn=on&enablevpops)
 
 ## このシリーズのその他のビデオ
 
