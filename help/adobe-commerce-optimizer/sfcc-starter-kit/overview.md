@@ -32,4 +32,4 @@ Salesforce Commerce Cloud（SFCC）をCommerce Optimizer Salesforce Commerce Clo
 * Salesforce Commerce Cloud統合スターターキットの目的について説明します。
 * スターターキットのインストール場所を理解する
 
->[!VIDEO](https://video.tv.adobe.com/v/3476013?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3476014?captions=jpn&learn=on)
