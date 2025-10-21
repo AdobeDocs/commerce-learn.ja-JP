@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # Commerce チュートリアル {#videos}
 
-[!DNL Commerce] のビデオとチュートリアルのコレクションへようこそ。 これらのリソースを [&#x200B; ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/commerce.html) と併用すると、Adobe CommerceとMagento Open Sourceを使用して e コマースビジネスをサポートする方法を学ぶことができます。 このコレクションは、バックエンド開発者、フロントエンド開発者、システム管理者、マーチャント、組織内のその他の役割に役立つコンテンツを提供するように設計されています。
+[!DNL Commerce] のビデオとチュートリアルのコレクションへようこそ。 これらのリソースを [&#x200B; ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/commerce.html?lang=ja) と併用すると、Adobe CommerceとMagento Open Sourceを使用して e コマースビジネスをサポートする方法を学ぶことができます。 このコレクションは、バックエンド開発者、フロントエンド開発者、システム管理者、マーチャント、組織内のその他の役割に役立つコンテンツを提供するように設計されています。
 
 <div id="recs-overview-body-1"></div>
 <div id="recs-overview-body-2"></div>
@@ -27,11 +27,11 @@ ht-degree: 0%
 
 >[!TIP]
 >
->[Commerce イベント &#x200B;](https://experienceleague.adobe.com/docs/commerce-events/events/overview.html) スペースから、オンデマンドで視聴できる録画済みイベント コンテンツにアクセスできます。
+>[Commerce イベント &#x200B;](https://experienceleague.adobe.com/docs/commerce-events/events/overview.html?lang=ja) スペースから、オンデマンドで視聴できる録画済みイベント コンテンツにアクセスできます。
 
 ## その他のリソース
 
-- [&#x200B; マーチャントドキュメント &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)
+- [&#x200B; マーチャントドキュメント &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=ja)
 - [&#x200B; 開発者向けドキュメント &#x200B;](https://developer.adobe.com/commerce)
 - [Adobe デジタルラーニングサービス - Adobe Commerce コースカタログ &#x200B;](https://learning.adobe.com/catalog.html?solution=Adobe%20Commerce)
 
