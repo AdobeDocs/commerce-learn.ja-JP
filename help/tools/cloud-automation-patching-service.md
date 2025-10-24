@@ -33,4 +33,4 @@ Adobe Cloud Automation Patching Service （CAPS）: Adobe Commerce Site Wide Ana
 
 ## 関連ドキュメント
 
-* [ クラウド自動修正パッチサービスのドキュメント ](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/caps-tool/intro)
+* [&#x200B; クラウド自動修正パッチサービスのドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/caps-tool/intro)
