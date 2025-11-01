@@ -29,7 +29,7 @@ Adobe Cloud Automation Patching Service （CAPS）: Adobe Commerce Site Wide Ana
 
 ## ビデオコンテンツ
 
->[!VIDEO](https://video.tv.adobe.com/v/3476247/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3476248/?captions=jpn&learn=on&enablevpops)
 
 ## 関連ドキュメント
 
