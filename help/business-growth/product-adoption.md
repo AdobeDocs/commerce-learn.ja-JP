@@ -1,5 +1,5 @@
 ---
-title: AI ツールを使用してAdobe Commerceの移行を簡素化する
+title: AI ツールを使用したAdobe Commerceの移行のシンプル化
 description: Adobe Commerceが、AI ツール、モジュール式の採用、スケーラブルなビジネスの成長のための迅速な開発を使用してクラウド移行を合理化する方法について説明します。
 feature: App Builder, Storefront, Extensions, Merchandising
 topic: Artificial Intelligence, Migration, Commerce
@@ -9,7 +9,7 @@ doc-type: Technical Video
 duration: 694
 last-substantial-update: 2025-10-13T00:00:00Z
 jira: KT-19378
-source-git-commit: 522ed06396f2512ff87f1a7b59ff081944b2c9af
+source-git-commit: a296152e8c8f94bbf4e3b882be6b8de7e4473d95
 workflow-type: tm+mt
 source-wordcount: '212'
 ht-degree: 0%
@@ -35,4 +35,4 @@ Adobe Commerceは、Adobe Commerce as a Cloud ServiceおよびAdobe Commerce Opt
 * App Builderの拡張機能を使用すると、カスタムロジックをサーバーレス関数に切り離して、メンテナンスを容易にできます。
 * ストアフロントの機能強化により、ドロップインコンポーネントとエッジ配信でパフォーマンスとコンテンツ作成が向上します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3475749/?learn=on&enablevpops&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3475737/?learn=on&enablevpops)
