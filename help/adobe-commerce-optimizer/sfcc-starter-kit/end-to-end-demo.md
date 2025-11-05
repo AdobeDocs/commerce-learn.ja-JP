@@ -9,9 +9,9 @@ doc-type: Technical Video
 duration: 381
 last-substantial-update: 2025-10-21T00:00:00Z
 jira: KT-19017
-source-git-commit: b6748e79109b203772a4846a8197adbb65e6a0d0
+source-git-commit: 68afc11f06a5ac601d23230d23429536f42b13b7
 workflow-type: tm+mt
-source-wordcount: '204'
+source-wordcount: '206'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 * App Builderとスターターキットを使用して、Salesforce Commerce CloudとCommerce Optimizerの間の完全な同期をセットアップし実行する。
 * 完全同期を開始し、ランタイム ログとイベント トレースを使用して成功を確認します。
-* SFC カタログ内の商品の詳細と価格に対する変更は、Delta Sync プロセスを通じてCommerce Optimizerで自動的に検出され、更新されます。
+* Salesforce Commerce Cloud カタログの商品詳細および価格に対する変更は、デルタ同期プロセスを通じてCommerce Optimizerで自動的に検出され、更新されます。
 * リアルタイムのアップデートと、シームレスなデータフローおよびシステム間の同期のデモ。
 
->[!VIDEO](https://video.tv.adobe.com/v/3476094?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3476082?learn=on)
