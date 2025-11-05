@@ -1,5 +1,5 @@
 ---
-title: Salesforce Commerce Cloud Connector アプリのエンドツーエンドのデモ
+title: Salesforce Commerce Cloud コネクタのエンドツーエンドのデモ
 description: Adobe Commerce Optimizerを使用したSalesforce Commerce Cloudのエンドツーエンドのデモをご覧ください。
 feature: App Builder,Saas
 topic: Administration,Commerce,Integrations
@@ -9,17 +9,17 @@ doc-type: Technical Video
 duration: 381
 last-substantial-update: 2025-10-21T00:00:00Z
 jira: KT-19017
-source-git-commit: 2c2484ad679dc1bd46b2093549cb4e0e41545a21
+source-git-commit: b6748e79109b203772a4846a8197adbb65e6a0d0
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '204'
 ht-degree: 0%
 
 ---
 
 
-# Salesforce Commerce Cloud スターターキットのエンドツーエンドのデモをご覧ください
+# Salesforce Commerce Cloud スターターキットのエンドツーエンドのデモ
 
-スターターキットを使用してSalesforce CommerceとCommerce Optimizerの間で完全な同期と差分同期をセットアップして正常に実行する方法を示すエンドツーエンドのデモです。 ランタイムログとイベントトレースで同期の成功を確認し、ライブストアフロントで結果を検証する方法について説明します。 差分同期機能の仕組みを説明します。 また、Salesforce Commerce Cloud カタログの商品の詳細や価格を変更する手順についても説明します。これらの変更は、Commerce Optimizerで自動的に検出および更新され、即座にストアフロントに反映されます。
+スターターキットを使用してSalesforce CommerceとCommerce Optimizerの間で完全な同期と差分同期をセットアップし正常に実行する方法を示す、エンドツーエンドのデモをご覧ください。 ランタイムログとイベントトレースで同期の成功を確認し、ライブストアフロントで結果を検証する方法について説明します。 差分同期機能の仕組みを説明します。 また、Salesforce Commerce Cloud カタログの商品の詳細や価格を変更する手順についても説明します。これらの変更は、Commerce Optimizerで自動的に検出および更新され、即座にストアフロントに反映されます。
 
 ## このビデオの目的は誰ですか。
 
@@ -34,4 +34,4 @@ ht-degree: 0%
 * SFC カタログ内の商品の詳細と価格に対する変更は、Delta Sync プロセスを通じてCommerce Optimizerで自動的に検出され、更新されます。
 * リアルタイムのアップデートと、シームレスなデータフローおよびシステム間の同期のデモ。
 
->[!VIDEO](https://video.tv.adobe.com/v/3476094?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3476082?learn=on)
