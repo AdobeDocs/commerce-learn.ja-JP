@@ -34,4 +34,4 @@ ht-degree: 0%
 * Salesforce Commerce Cloud カタログの商品詳細および価格に対する変更は、デルタ同期プロセスを通じてCommerce Optimizerで自動的に検出され、更新されます。
 * リアルタイムのアップデートと、シームレスなデータフローおよびシステム間の同期のデモ。
 
->[!VIDEO](https://video.tv.adobe.com/v/3476082?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3476094?captions=jpn&learn=on)
