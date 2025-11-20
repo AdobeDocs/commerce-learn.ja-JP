@@ -28,9 +28,9 @@ ht-degree: 29%
 
 - アップグレード互換性ツールとは
 - 新しいAdobe Commerce バージョンへのアップグレードに必要なエラーと修正をすばやく特定する方法を説明します
-- HTML結果にアクセスして、モジュールの重要度と非互換性の数で視覚化する方法
+- HTMLの結果にアクセスして、モジュールの重大度と非互換性の数で視覚化する方法
 
-このツールについて詳しくは、[&#x200B; 互換性アップグレードツールのドキュメント &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/upgrade-compatibility-tool/overview.html?lang=ja) を参照してください。 アップグレードの実行とシンプル化について詳しくは、『アップグレードガイド [&#x200B; を参照してください &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/overview.html?lang=ja)。
+このツールについて詳しくは、[ 互換性アップグレードツールのドキュメント ](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/upgrade-compatibility-tool/overview.html?lang=en) を参照してください。 アップグレードの実行とシンプル化について詳しくは、『アップグレードガイド [ を参照してください ](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/overview.html)。
 
 ## このビデオの目的は誰ですか。
 
@@ -39,11 +39,11 @@ ht-degree: 29%
 
 ## ビデオコンテンツ
 
->[!VIDEO](https://video.tv.adobe.com/v/344385?quality=12&learn=on&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/341245?quality=12&learn=on)
 
 ## その他のリソース
 
-- [&#x200B; 互換性アップグレードツールのドキュメント &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/upgrade-compatibility-tool/overview.html?lang=ja)
-- [&#x200B; アップグレードガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/overview.html?lang=ja)
-- [&#x200B; リリース済みバージョン &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/release/versions.html?lang=ja)
-- [&#x200B; リリーススケジュール &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html?lang=ja)
+- [ 互換性アップグレードツールのドキュメント ](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/upgrade-compatibility-tool/overview.html?lang=en)
+- [ アップグレードガイド ](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/overview.html)
+- [ リリース済みバージョン ](https://experienceleague.adobe.com/docs/commerce-operations/release/versions.html)
+- [ リリーススケジュール ](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html)
