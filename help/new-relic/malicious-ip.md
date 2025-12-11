@@ -10,10 +10,11 @@ activity: use
 last-substantial-update: 2022-12-9
 feature: Tools and External Services, Security
 topic: Security
-role: Architect, Developer, User
+old-role: Architect, Developer
+role: Developer, User
 level: Beginner, Intermediate
 exl-id: 2bd28c6f-5139-485b-a439-dd7dbf2b6f62
-source-git-commit: e07cb40589d77583f18d91c4f52668b85aba2bfe
+source-git-commit: afe0ac1781bcfc55ba0e631f492092fd1bf603fc
 workflow-type: tm+mt
 source-wordcount: '116'
 ht-degree: 0%
@@ -26,4 +27,4 @@ ht-degree: 0%
 
 - Fastly で使用してブロックする&#x200B;疑わしい IP や悪意のある IP を特定します
 
->[!VIDEO](https://video.tv.adobe.com/v/3417129?quality=12&learn=on&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3412088?quality=12&learn=on)

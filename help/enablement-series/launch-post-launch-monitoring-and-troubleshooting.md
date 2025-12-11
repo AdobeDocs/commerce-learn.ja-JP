@@ -3,21 +3,22 @@ title: Adobe Commerceのローンチ、ローンチ後、継続的なモニタ�
 description: Web サイトの準備と開始に関するベストプラクティスとヒントを説明します。 適切なステージング環境を選択し、サポートチケットに関連する詳細を提供し、サポートチームと同じ監視ツールを使用してコミュニケーションを強化する方法について説明します。
 feature: Best Practices, Cloud
 topic: Architecture, Commerce, Performance
-role: Architect, Data Architect, Leader
+old-role: Architect, Data Architect, Leader
+role: Developer, Leader
 level: Beginner, Intermediate
 doc-type: Technical Video
 duration: 3483
 last-substantial-update: 2024-05-07T00:00:00Z
 jira: KT-15467
 exl-id: e3748ec2-b449-4cc2-927d-e7ba4f4dbaf8
-source-git-commit: 0822d94079879592bd88fd0fb318ce5fd143f487
+source-git-commit: afe0ac1781bcfc55ba0e631f492092fd1bf603fc
 workflow-type: tm+mt
 source-wordcount: '326'
 ht-degree: 0%
 
 ---
 
-# Adobe Commerce Cloudの起動、監視、トラブルシューティング
+# Adobe Commerce Cloud のローンチ、監視、トラブルシューティング
 
 このウェビナーでは、web サイトを準備および開始するためのベストプラクティスとヒントをいくつか示します。 適切なステージング環境を選択し、サポートチケットで正確な詳細を提供して、サポートチームとの効果的なコミュニケーションを促進することが重要です。 共同作業と問題解決を向上させるために、New Relicなどのサポートチームと同じモニタリングツールの使用をお勧めします。 支払い処理担当者などの周辺機器システムの徹底的なテストは、立ち上げ時に正しく機能することを確認するために強調されています。 また、スムーズな起動の成功を確保するために、パフォーマンスのボトルネックやキャッシュウォーミングなど、実稼動で発生する可能性がある問題を予測および計画する必要があることも強調しています。 共有責任モデルの理解も、重要な側面の 1 つです。データベースの復元やアプリケーションコードのセキュリティなどの特定のタスクは、web サイト所有者の責任であることを明確にします。 これらのベストプラクティスに従うことで、web サイトのローンチを合理化し、潜在的な問題に事前に対処して、ローンチを成功させることができます
 

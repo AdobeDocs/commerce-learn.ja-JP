@@ -1,16 +1,17 @@
 ---
 title: PWA Docker の開発
-description: 開発タスクでAdobe Commerceと連携するフロントエンド開発者向け Docker でのPWA開発について説明します。
+description: フロントエンド開発者向けの Docker 上のPWA開発について説明し、開発作業のためにAdobe Commerceを操作します。
 kt: 5564
 doc-type: video
 activity: use
 last-substantial-update: 2023-5-28
 feature: GraphQL, REST, Tools and External Services
 topic: Commerce, Headless, Development
-role: Architect, Developer, User
+old-role: Architect, Developer
+role: Developer, User
 level: Beginner, Intermediate
 exl-id: df79e9d8-5047-4063-b37d-184fcf0c0ac4
-source-git-commit: 47759e42f6560a62be459be77fcac82be00488b1
+source-git-commit: afe0ac1781bcfc55ba0e631f492092fd1bf603fc
 workflow-type: tm+mt
 source-wordcount: '38'
 ht-degree: 0%
@@ -25,8 +26,8 @@ ht-degree: 0%
 
 ## ビデオコンテンツ
 
->[!VIDEO](https://video.tv.adobe.com/v/3430976?quality=12&learn=on&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/35784?quality=12&learn=on)
 
 ## 役に立つリソース
 
-[PWA Studioガイド &#x200B;](https://developer.adobe.com/commerce/pwa-studio/)
+[PWA Studio ガイド ](https://developer.adobe.com/commerce/pwa-studio/)

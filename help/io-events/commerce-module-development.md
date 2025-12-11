@@ -9,10 +9,11 @@ audience: all
 last-substantial-update: 2023-02-21T00:00:00Z
 feature: App Builder, Eventing, Backend Development
 topic: Commerce, Architecture
-role: Architect, Developer
+old-role: Architect, Developer
+role: Developer
 level: Beginner, Intermediate
 exl-id: e8103fe0-116a-499c-ae0a-3ad0511f44d0
-source-git-commit: 404d2708a6d540d6fb19a33afb20726356cd8000
+source-git-commit: afe0ac1781bcfc55ba0e631f492092fd1bf603fc
 workflow-type: tm+mt
 source-wordcount: '167'
 ht-degree: 0%
@@ -21,7 +22,7 @@ ht-degree: 0%
 
 # Adobe Commerce module development
 
-カスタムモジュール開発で、イベントを登録、サポートされるイベントを検索、新しい XML ファイルを使用す `io_events.xml` 方法について説明します。 このビデオでは、使用できる登録済みイベントの検索方法や、既に定義されているイベントを登録解除する方法も開発者に示します。 追加ドキュメントについては、[Adobe CommerceのAdobe I/Oイベントのインストール &#x200B;](https://developer.adobe.com/commerce/events/get-started/installation/){target="_blank"} を参照してください。
+カスタムモジュール開発で、イベントを登録、サポートされるイベントを検索、新しい XML ファイルを使用す `io_events.xml` 方法について説明します。 このビデオでは、使用できる登録済みイベントの検索方法や、既に定義されているイベントを登録解除する方法も開発者に示します。 追加ドキュメントについては、[Adobe Commerce用のAdobe I/O Eventsのインストール ](https://developer.adobe.com/commerce/events/get-started/installation/){target="_blank"} を参照してください。
 
 ## このビデオの目的は誰ですか。
 
@@ -35,7 +36,7 @@ ht-degree: 0%
 * Commerce インスタンスでイベントを登録する方法を説明します `app/etc/config.php`
 * イベントの配信停止について説明します
 
->[!VIDEO](https://video.tv.adobe.com/v/3419837?quality=12&learn=on&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3415802?quality=12&learn=on)
 
 ## 便利なコマンド {#useful-commands}
 

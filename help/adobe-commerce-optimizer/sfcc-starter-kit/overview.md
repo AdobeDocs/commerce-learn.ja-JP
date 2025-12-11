@@ -3,13 +3,14 @@ title: Salesforce Commerce Cloud の概要
 description: SFC コネクタを使用したSalesforce Commerce CloudとAdobe Commerce Optimizerの統合について説明します。
 feature: App Builder,Saas
 topic: Administration,Commerce,Integrations
-role: Architect, Developer
+old-role: Architect, Developer
+role: Developer
 level: Beginner
 doc-type: Technical Video
 duration: 194
 last-substantial-update: 2025-10-20T00:00:00Z
 jira: KT-18990
-source-git-commit: 54a1a8e62e86f8ae3456bb41a1b0450134f26b71
+source-git-commit: afe0ac1781bcfc55ba0e631f492092fd1bf603fc
 workflow-type: tm+mt
 source-wordcount: '154'
 ht-degree: 0%
@@ -32,4 +33,4 @@ Salesforce Commerce Cloud（SFCC）をCommerce Optimizer Salesforce Commerce Clo
 * Salesforce Commerce Cloud統合スターターキットの目的について説明します。
 * スターターキットのインストール場所を理解する
 
->[!VIDEO](https://video.tv.adobe.com/v/3476014?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3476013?learn=on)

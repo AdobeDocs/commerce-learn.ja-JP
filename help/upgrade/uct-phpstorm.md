@@ -10,10 +10,11 @@ activity: use
 last-substantial-update: 2023-04-27T00:00:00Z
 feature: Configuration, System, Upgrade, Tools and External Services
 topic: Commerce, Administration
-role: Architect, Developer
+old-role: Architect, Developer
+role: Developer
 level: Beginner, Intermediate
 exl-id: 9b56306c-578b-4c9f-9566-b8c9560d1b1c
-source-git-commit: 404d2708a6d540d6fb19a33afb20726356cd8000
+source-git-commit: afe0ac1781bcfc55ba0e631f492092fd1bf603fc
 workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 35%
@@ -28,7 +29,7 @@ ht-degree: 35%
 
 - アップグレード互換性ツールとは
 - Magento PHP Storm プラグインでの使用方法
-- HTML結果にアクセスして、モジュールの重要度と非互換性の数で視覚化する方法
+- HTMLの結果にアクセスして、モジュールの重大度と非互換性の数で視覚化する方法
 
 ## このビデオの目的は誰ですか。
 
@@ -36,10 +37,10 @@ ht-degree: 35%
 
 ## ビデオコンテンツ
 
->[!VIDEO](https://video.tv.adobe.com/v/344407?quality=12&learn=on&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/340150?quality=12&learn=on)
 
 ## その他のリソース
 
-- [&#x200B; 互換性アップグレードツール &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/upgrade-compatibility-tool/overview.html?lang=ja)
-- [PHP Storm プラグインのMagento](https://plugins.jetbrains.com/plugin/8024-magento-phpstorm)
-- [&#x200B; リリース済みバージョン &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/release/versions.html?lang=ja)
+- [ 互換性アップグレードツール ](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/upgrade-compatibility-tool/overview.html)
+- [Magento PHP Storm プラグイン ](https://plugins.jetbrains.com/plugin/8024-magento-phpstorm)
+- [ リリース済みバージョン ](https://experienceleague.adobe.com/docs/commerce-operations/release/versions.html)

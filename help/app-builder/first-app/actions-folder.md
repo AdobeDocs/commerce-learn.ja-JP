@@ -8,10 +8,11 @@ audience: all
 last-substantial-update: 2023-3-13
 feature: API Mesh, App Builder, Extensibility, Tools and External Services, Backend Development
 topic: App Builder, I/O Events, Developer Console, Commerce, Development, Integrations
-role: Architect, Developer
+old-role: Architect, Developer
+role: Developer
 level: Beginner, Intermediate
 exl-id: d13ed1e7-b18e-4bf5-af87-2a69e2588d65
-source-git-commit: 404d2708a6d540d6fb19a33afb20726356cd8000
+source-git-commit: afe0ac1781bcfc55ba0e631f492092fd1bf603fc
 workflow-type: tm+mt
 source-wordcount: '209'
 ht-degree: 0%
@@ -26,7 +27,7 @@ ht-degree: 0%
 
 ## このビデオの目的は誰ですか。
 
-* Adobe Commerceを初めて使用する開発者で、AdobeApp Builderの使用経験が限られており、サンプルアプリケーションのアクションフォルダーについて学習している人。
+* Adobe Commerceを初めて使用する開発者で、Adobe App Builderの使用経験が限られている人のうち、サンプルアプリケーションのアクションフォルダーについて学んでいる人。
 
 ## ビデオコンテンツ
 
@@ -35,7 +36,7 @@ ht-degree: 0%
 * `actions` フォルダーと `commerce` フォルダーにあるJavaScript ファイルの目的
 * OAuth 認証ファイルの概要
 
->[!VIDEO](https://video.tv.adobe.com/v/3421081?quality=12&learn=on&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3416590?quality=12&learn=on)
 
 ## コードサンプル
 

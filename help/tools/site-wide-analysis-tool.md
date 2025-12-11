@@ -7,12 +7,13 @@ activity: use
 last-substantial-update: 2023-04-27T00:00:00Z
 feature: Configuration, System, Security, Tools and External Services
 topic: Commerce, Administration
-role: Architect, Developer, Admin
+old-role: Architect, Developer
+role: Developer, Admin
 level: Beginner, Intermediate
 KT: 15599
 duration: 101
 exl-id: e96759a8-31c3-4d3b-b395-db9dda2dc2d9
-source-git-commit: 12cbb2929137778d82b707376da0e0250dae2c8b
+source-git-commit: afe0ac1781bcfc55ba0e631f492092fd1bf603fc
 workflow-type: tm+mt
 source-wordcount: '131'
 ht-degree: 0%
@@ -30,9 +31,9 @@ Site-Wide Analysis Tool は、プロアクティブなセルフサービスツ�
 
 ## ビデオコンテンツ
 
->[!VIDEO](https://video.tv.adobe.com/v/3410779?learn=on&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/344001?learn=on)
 
 ## その他のリソース
 
-- [Site-Wide Analysis Tool](https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/intro.html?lang=ja)
-- [&#x200B; ログの表示と管理 &#x200B;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html?lang=ja)
+- [Site-Wide Analysis Tool](https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/intro.html)
+- [ ログの表示と管理 ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html)

@@ -1,18 +1,19 @@
 ---
 title: GraphQLを使用してクエリを実行します
-description: Adobe CommerceでGraphQLを使用してクエリを実行し、 [!DNL Magento Open Source] を実行する方法を説明します。 これは、GETとPOST呼び出しを使用したGraphQLの概要です。
-landing-page-description: Adobe CommerceでGraphQLを使用してクエリを実行し、 [!DNL Magento Open Source] を実行する方法を説明します。 これは、GETとPOST呼び出しを使用したGraphQLの概要です。
-short-description: Adobe CommerceでGraphQLを使用してクエリを実行し、 [!DNL Magento Open Source] を実行する方法を説明します。 これは、GETとPOST呼び出しを使用したGraphQLの概要です。
+description: Adobe CommerceでGraphQLを使用してクエリを実行し、 [!DNL Magento Open Source] を実行する方法を説明します。 これは、GETと POST 呼び出しを使用したGraphQLの概要です。
+landing-page-description: Adobe CommerceでGraphQLを使用してクエリを実行し、 [!DNL Magento Open Source] を実行する方法を説明します。 これは、GETと POST 呼び出しを使用したGraphQLの概要です。
+short-description: Adobe CommerceでGraphQLを使用してクエリを実行し、 [!DNL Magento Open Source] を実行する方法を説明します。 これは、GETと POST 呼び出しを使用したGraphQLの概要です。
 kt: 13937
 doc-type: video
 audience: all
 last-substantial-update: 2023-10-12T00:00:00Z
 feature: GraphQL
 topic: Commerce, Architecture, Headless
-role: Architect, Developer
+old-role: Architect, Developer
+role: Developer
 level: Beginner, Intermediate
 exl-id: 443d711d-ec74-4e07-9357-fbbe0f774853
-source-git-commit: 2041bbf1a2783975091b9806c12fc3c34c34582f
+source-git-commit: afe0ac1781bcfc55ba0e631f492092fd1bf603fc
 workflow-type: tm+mt
 source-wordcount: '984'
 ht-degree: 0%
@@ -23,13 +24,13 @@ ht-degree: 0%
 
 これは、GraphQLとAdobe Commerceのシリーズの第 2 部です。 このチュートリアルとビデオでは、GraphQL クエリと、Adobe Commerceに対するクエリの実行方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3450059?learn=on&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3424120?learn=on)
 
 ## このシリーズのGraphQLに関する関連ビデオとチュートリアル
 
 * [第 1 部GraphQL – はじめに](../graphql-rest/intro-graphql.md)
 * [第 3 部GraphQL – 突然変異](../graphql-rest/graphql-mutations.md)
-* [&#x200B; 第 4 部GraphQL - スキーマ &#x200B;](../graphql-rest/graphql-schema.md)
+* [ 第 4 部GraphQL - スキーマ ](../graphql-rest/graphql-schema.md)
 
 ## GraphQL構文の例
 
@@ -146,7 +147,7 @@ ht-degree: 0%
 
 返すフィールドは各型の中括弧で囲んで指定しますが、名前付きの引数とその値は、型名の後の括弧内で指定します。 引数は多くの場合オプションで、クエリ結果のフィルタリング、書式設定、その他の変換の方法に影響を与えます。
 
-`id` 引数を `country` に渡し、クエリする特定の国を指定し、`categories` に `filters` 引数を指定しています。
+`id` 引数を `country` に渡し、クエリする特定の国を指定し、`filters` に `categories` 引数を指定しています。
 
 ## 下の方のフィールド
 
@@ -154,9 +155,9 @@ ht-degree: 0%
 
 どのGraphQL データグラフにも、ツリーを開始するための 1 つの「ルート」タイプ（通常 `Query` と呼ばれます）があり、エンティティと見なされることが多いタイプは、このルートのフィールドに割り当てられます。 例のクエリは、実際にはルートタイプに対して 1 つの汎用クエリを作成し、`country` フィールドと `categories` フィールドを選択しています。 その後、これらのフィールドのサブフィールドを選択し、潜在的に複数のレベルで選択します。 フィールドの戻り値の型が複合型である場合（たとえば、スカラー型ではなく独自のフィールドを持つ場合）は、引き続き目的のフィールドを選択します。
 
-また、ネストされたフィールドのこの概念は、最上位の `categories` フィールドに対して行ったのと同じ方法で `products` （`pageSize` および `currentPage`）の引数を渡すことができる理由でもあります。
+また、ネストされたフィールドのこの概念は、最上位の `products` フィールドに対して行ったのと同じ方法で `pageSize` （`currentPage` および `categories`）の引数を渡すことができる理由でもあります。
 
-![GraphQL フィールドツリー &#x200B;](../assets/graphql-field-tree.png)
+![GraphQL フィールドツリー ](../assets/graphql-field-tree.png)
 
 ## 変数
 
@@ -188,7 +189,7 @@ fragment productDetails on ProductInterface {
 
 前のクエリでは、フィールドの引数の値を文字列または整数として直接ハードコーディングしました。 ただし、GraphQLの仕様には、変数を使用してメインクエリからユーザー入力を分離するためのファーストクラスのサポートがあります。
 
-新しいクエリでは、クエリ全体の左中括弧の前に括弧を使用して、`$search` 変数を定義します（変数は常にドル記号のプレフィックス構文を使用します）。 `products` の `search` 引数に指定されているのは、この変数です。
+新しいクエリでは、クエリ全体の左中括弧の前に括弧を使用して、`$search` 変数を定義します（変数は常にドル記号のプレフィックス構文を使用します）。 `search` の `products` 引数に指定されているのは、この変数です。
 
 クエリに変数が含まれる場合、GraphQL リクエストには、JSON でエンコードされた個別の値ディクショナリがクエリ自体と一緒に含まれる必要があります。 上記のクエリの場合、クエリ本文に加えて、変数値の次の JSON を送信する場合があります。
 
@@ -206,6 +207,6 @@ fragment productDetails on ProductInterface {
 
 GraphQL クエリの実際の HTTP リクエストの本文に「query: `{string}`」が含まれるのと同じように、変数ディクショナリを含むリクエストには、同じ本文に追加の「variables: `{json}`」が含まれます。`{json}` は変数値を持つ JSON 文字列です。
 
-また、新しいクエリでは _フラグメント_ （`productDetails`）を使用して、同じフィールド選択を複数の場所で再利用します。 [&#x200B; フラグメントについて詳しくは &#x200B;](https://graphql.org/learn/queries/#fragments){target="_blank"} GraphQL ドキュメントを参照してください。
+また、新しいクエリでは _フラグメント_ （`productDetails`）を使用して、同じフィールド選択を複数の場所で再利用します。 [ フラグメントについて詳しくは ](https://graphql.org/learn/queries/#fragments){target="_blank"} GraphQL ドキュメントを参照してください。
 
 {{$include /help/_includes/graphql-rest-related-links.md}}

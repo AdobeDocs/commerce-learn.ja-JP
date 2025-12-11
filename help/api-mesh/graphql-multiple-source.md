@@ -9,10 +9,11 @@ audience: all
 last-substantial-update: 2023-2-8
 feature: API Mesh, App Builder, Extensibility, Tools and External Services, Backend Development
 topic: App Builder, I/O Events, Developer Console, Commerce, Development, Integrations
-role: Architect, Developer
+old-role: Architect, Developer
+role: Developer
 level: Beginner, Intermediate
 exl-id: d788a068-9d20-4db0-a0eb-fd897873253d
-source-git-commit: 404d2708a6d540d6fb19a33afb20726356cd8000
+source-git-commit: afe0ac1781bcfc55ba0e631f492092fd1bf603fc
 workflow-type: tm+mt
 source-wordcount: '234'
 ht-degree: 0%
@@ -21,7 +22,7 @@ ht-degree: 0%
 
 # 複数のソースを持つメッシュを作成する
 
-このビデオは、Adobe Developer App Builderの API メッシュで複数のソースを使用してメッシュを作成する方法を開発者が理解するのに役立ちます。 このビデオでは、複数のソースを持つメッシュを作成し、エラーを特定する方法を説明します。 詳細とコードサンプルについては、[&#x200B; メッシュの作成 &#x200B;](https://developer.adobe.com/graphql-mesh-gateway/gateway/create-mesh/#create-a-mesh-1){target="_blank"} を参照してください。
+このビデオは、Adobe Developer App Builderの API メッシュで複数のソースを使用してメッシュを作成する方法を開発者が理解するのに役立ちます。 このビデオでは、複数のソースを持つメッシュを作成し、エラーを特定する方法を説明します。 詳細とコードサンプルについては、[ メッシュの作成 ](https://developer.adobe.com/graphql-mesh-gateway/gateway/create-mesh/#create-a-mesh-1){target="_blank"} を参照してください。
 
 ## このビデオの目的は誰ですか。
 
@@ -30,11 +31,11 @@ ht-degree: 0%
 
 ## ビデオコンテンツ
 
-* [&#x200B; 変換 &#x200B;](https://developer.adobe.com/graphql-mesh-gateway/gateway/transforms/){target="_blank"} を使用したデフォルトのソーススキーマの変更方法
+* [ 変換 ](https://developer.adobe.com/graphql-mesh-gateway/gateway/transforms/){target="_blank"} を使用したデフォルトのソーススキーマの変更方法
 * 名前の競合、スキーマの可用性、その他のスキーマ構文の問題などのエラーのトラブルシューティング方法
 * 変更した設定でメッシュを更新する
 
->[!VIDEO](https://video.tv.adobe.com/v/3419789?quality=12&learn=on&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3414125?quality=12&learn=on)
 
 ## Json 設定ファイルを作成します。
 

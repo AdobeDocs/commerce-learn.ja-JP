@@ -9,10 +9,11 @@ audience: all
 last-substantial-update: 2023-10-12T00:00:00Z
 feature: GraphQL
 topic: Commerce, Architecture, Headless
-role: Architect, Developer
+old-role: Architect, Developer
+role: Developer
 level: Beginner, Intermediate
 exl-id: 6b59db07-b99e-47ae-9ccb-d4904afc8251
-source-git-commit: 2041bbf1a2783975091b9806c12fc3c34c34582f
+source-git-commit: afe0ac1781bcfc55ba0e631f492092fd1bf603fc
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 0%
@@ -105,7 +106,7 @@ type Mutation {
 }
 ```
 
-[GraphQL ドキュメント &#x200B;](https://graphql.org/learn/schema/){target="_blank"} を詳しく調べて、ここで表現されていない一部の概念の構文を含む、タイプシステムの詳細を確認できます。 ただし、上記の例は自明です。 （また、構文がクエリ構文とどのように似ているかに注意してください。） GraphQL スキーマの定義は、特定のタイプの使用可能な引数とフィールド、およびそれらのフィールドのタイプを表現するだけです。 `String` のような単純なスカラー型になるまで、各複合フィールドタイプには、それ自体に定義を含める必要があり、ツリーを通じて定義を含める必要があります。
+[GraphQL ドキュメント ](https://graphql.org/learn/schema/){target="_blank"} を詳しく調べて、ここで表現されていない一部の概念の構文を含む、タイプシステムの詳細を確認できます。 ただし、上記の例は自明です。 （また、構文がクエリ構文とどのように似ているかに注意してください。） GraphQL スキーマの定義は、特定のタイプの使用可能な引数とフィールド、およびそれらのフィールドのタイプを表現するだけです。 `String` のような単純なスカラー型になるまで、各複合フィールドタイプには、それ自体に定義を含める必要があり、ツリーを通じて定義を含める必要があります。
 
 `input` 宣言は、すべての点で `type` と似ていますが、引数の入力として使用できる型を定義します。 また、`interface` 宣言にも注意してください。 これは PHP のインタフェースと同じかそれ以下の機能を提供します。 他のタイプは、このインターフェイスから継承します。
 

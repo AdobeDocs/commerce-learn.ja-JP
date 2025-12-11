@@ -8,10 +8,11 @@ last-substantial-update: 2025-1-6
 feature: Best Practices, Configuration, Install
 topic: Architecture, Commerce, Development
 badge: label="執筆：Adobe、シニアテクニカルアーキテクト、Tony Evers" type="Informative" url="https://www.linkedin.com/in/evers-tony/" tooltip="寄稿：Tony Evers"
-role: Architect, Developer, User, Leader
+old-role: Architect, Developer
+role: Developer, User, Leader
 level: Beginner, Intermediate
 exl-id: cbddc4a3-602f-4208-85cd-b906d2b81f8b
-source-git-commit: e0b11bbcfff830badf471206ead59fc48dd14b7c
+source-git-commit: afe0ac1781bcfc55ba0e631f492092fd1bf603fc
 workflow-type: tm+mt
 source-wordcount: '2101'
 ht-degree: 0%
@@ -26,7 +27,7 @@ ht-degree: 0%
 
 このグローバル リファレンス アーキテクチャ パターンは完全に Composer ベースであり、すべての Composer 機能から最大限のメリットを得るように設計されています。
 
-![&#x200B; コードが個別のパッケージ GRA パターンのどこに格納されているかを示す図 &#x200B;](/help/assets/global-reference-architecture/separate-packages-gra-pattern-diagram.png){align="center"}
+![ コードが個別のパッケージ GRA パターンのどこに格納されているかを示す図 ](/help/assets/global-reference-architecture/separate-packages-gra-pattern-diagram.png){align="center"}
 
 ## このパターンの長所と短所
 
@@ -176,7 +177,7 @@ GRA メタパッケージにサードパーティパッケージを追加しま�
 
 composer.json に複数の VCS リポジトリがある場合、速度の問題が発生します。 アップグレードの実行時に各 Composer リポジトリを読み取る必要があり、50 個のパッケージに対して 50 個のリポジトリを持つ場合、1 つの Composer リポジトリのオーバーヘッドの少なくとも 50 倍になります。
 
-![&#x200B; コンポーザリポジトリがない場合に速度が低下する場所を示す図 &#x200B;](/help/assets/global-reference-architecture/separate-packages-without-mirror-diagram.png){align="center"}
+![ コンポーザリポジトリがない場合に速度が低下する場所を示す図 ](/help/assets/global-reference-architecture/separate-packages-without-mirror-diagram.png){align="center"}
 
 Composer ミラーをプライベート Composer リポジトリの形式で組み込みます。 ミラーには、他の Composer リポジトリのすべてのパッケージと、Git がホストするすべてのパッケージのコピーが含まれています。 Composer の非公開リポジトリを使用すると、さらに詳細なアクセス制御が可能になります。
 

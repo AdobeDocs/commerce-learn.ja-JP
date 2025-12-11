@@ -9,10 +9,11 @@ audience: all
 last-substantial-update: 2023-8-27
 feature: API Mesh, App Builder, Extensibility, Tools and External Services, Backend Development
 topic: App Builder, I/O Events, Developer Console, Commerce, Development, Integrations
-role: Architect, Developer
+old-role: Architect, Developer
+role: Developer
 level: Beginner, Intermediate
 exl-id: baae6dab-48a4-49a0-b6f6-61cbebe63d0f
-source-git-commit: 15fe8a3387ca3f1c1f0cdc9f8e4cd58ce99260f4
+source-git-commit: afe0ac1781bcfc55ba0e631f492092fd1bf603fc
 workflow-type: tm+mt
 source-wordcount: '305'
 ht-degree: 16%
@@ -27,11 +28,11 @@ Adobe Developer App BuilderAdobeの API メッシュを初めて使用する場�
 
 API メッシュは、複数のデータソースを組み合わせて、アプリケーションが使用する 1 つの応答を取得します。
 
-[&#x200B; 完全な API メッシュのドキュメントを表示 &#x200B;](https://developer.adobe.com/graphql-mesh-gateway/gateway/overview/){target="_blank"}
+[ 完全な API メッシュのドキュメントを表示 ](https://developer.adobe.com/graphql-mesh-gateway/gateway/overview/){target="_blank"}
 
 ## このビデオの目的は誰ですか。
 
-* API メッシュを初めて使用するデベロッパー、または [!DNL Adobe Commerce]Adobe I/O Runtime[&#x200B; と API メッシュを使用した経験が限られている &#x200B;](https://developer.adobe.com/runtime/docs/guides/overview/){target="_blank"}。
+* API メッシュを初めて使用するデベロッパー、または [!DNL Adobe Commerce]Adobe I/O Runtime[ と API メッシュを使用した経験が限られている ](https://developer.adobe.com/runtime/docs/guides/overview/){target="_blank"}。
 
 ## ビデオコンテンツ
 
@@ -40,7 +41,7 @@ API メッシュは、複数のデータソースを組み合わせて、アプ�
 * チェックアウト時にリアルタイムで在庫チェックを行うユースケース
 * 開発作業とリソース使用状況をコマースアプリケーションから移動する
 
->[!VIDEO](https://video.tv.adobe.com/v/3421888?captions=jpn&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3417534?quality=12&learn=on)
 
 ## 使用例
 
@@ -50,7 +51,7 @@ Commerce アプリケーションには、REST API とGraphQL エンドポイン
 
 Adobe App Builderと API メッシュを使用する開発者は、リバースプロキシとは何かを理解する必要はありません。 ただし、Adobe App Builderに関連する全体的な機能に興味がある場合は、次の資料を使用してください。
 
-* [&#x200B; リバースプロキシと &#x200B;](https://www.imperva.com/learn/performance/reverse-proxy/){target="_blank"}
+* [ リバースプロキシと ](https://www.imperva.com/learn/performance/reverse-proxy/){target="_blank"}
 
 
 {{$include /help/_includes/api-mesh-related-links.md}}

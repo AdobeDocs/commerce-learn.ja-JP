@@ -1,21 +1,22 @@
 ---
-title: 一般的なCommerce Cloudエラーをいくつか診断して修正する
-description: サイトの読み込みを妨げる 2 つの一般的なAdobeクラウドプロジェクトエラーを解決します。
+title: 一般的なCommerce Cloud エラーをいくつか診断して修正します
+description: サイトの読み込みを妨げる 2 つの一般的なAdobe Cloud プロジェクトエラーを解決します。
 feature: Cloud, Site Management
 topic: Commerce, Development
-role: Architect, Developer
+old-role: Architect, Developer
+role: Developer
 level: Beginner, Intermediate
 doc-type: Technical Video
 duration: 260
 last-substantial-update: 2024-10-30T00:00:00Z
 jira: KT-16419
-source-git-commit: 27c1715dd42853013181d9c729549a5a32bc2af0
+exl-id: 4c21b6a6-783a-422f-9071-3534ed68e8be
+source-git-commit: afe0ac1781bcfc55ba0e631f492092fd1bf603fc
 workflow-type: tm+mt
 source-wordcount: '135'
 ht-degree: 0%
 
 ---
-
 
 # 診断および修正サービスを利用できず、エラーが発生しました
 
@@ -32,7 +33,7 @@ Adobe Commerce Cloud プロジェクトで発生する 2 つの一般的なエ�
 - メンテナンスモードの管理
 - 効率的なトラブルシューティングのヒント
 
->[!VIDEO](https://video.tv.adobe.com/v/3447694?learn=on&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3435766?learn=on)
 
 
 ## ビデオで使用されているコマンド

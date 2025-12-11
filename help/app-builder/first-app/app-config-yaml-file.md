@@ -8,10 +8,11 @@ audience: all
 last-substantial-update: 2023-3-13
 feature: API Mesh, App Builder, Extensibility, Tools and External Services, Backend Development
 topic: App Builder, I/O Events, Developer Console, Commerce, Development, Integrations
-role: Architect, Developer
+old-role: Architect, Developer
+role: Developer
 level: Beginner, Intermediate
 exl-id: ff5f1811-ca93-494e-8e5c-a5e0c7bb673d
-source-git-commit: 01eb2abc854e7de4b3bbca9c0cd4d09ec43f9bf2
+source-git-commit: afe0ac1781bcfc55ba0e631f492092fd1bf603fc
 workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 0%
@@ -24,14 +25,14 @@ ht-degree: 0%
 
 ## このビデオの目的は誰ですか。
 
-* Adobe Commerceを初めて使用する開発者で、AdobeApp Builderの使用経験が限られており、サンプルアプリケーションの `app.config.yaml` について学んでいる人。
+* Adobe Commerceを初めて使用する開発者で、Adobe App Builderの使用経験が限られており、サンプルアプリケーションの `app.config.yaml` について学習している人。
 
 ## ビデオコンテンツ
 
 * `app.config.yaml` ファイルについて
 * 定義を他の `.js` ファイルにリンクする方法
 
->[!VIDEO](https://video.tv.adobe.com/v/3430839?quality=12&learn=on&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3416592?quality=12&learn=on)
 
 ## コードサンプル
 

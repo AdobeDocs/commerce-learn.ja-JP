@@ -3,13 +3,15 @@ title: ログをトランケート
 description: 大きなログファイルを切り捨てて、ハードドライブがいっぱいになったことが原因でデプロイメントが失敗した場合の対処方法を説明します。
 feature: Cloud, Site Management
 topic: Commerce, Development
-role: Architect, Developer
+old-role: Architect, Developer
+role: Developer
 level: Beginner, Intermediate
 doc-type: Technical Video
 duration: 206
 last-substantial-update: 2025-3-25
 jira: KT-17595
-source-git-commit: b90aa9eb8759391a16dfb29ca25b0d2d271956ed
+exl-id: 4a36de40-fb55-41ad-afef-35fc18a271ec
+source-git-commit: afe0ac1781bcfc55ba0e631f492092fd1bf603fc
 workflow-type: tm+mt
 source-wordcount: '187'
 ht-degree: 0%
@@ -33,7 +35,7 @@ ht-degree: 0%
 - 一般的な大きなログファイルの場所
 - ログファイルをトランケートする簡単な方法
 
->[!VIDEO](https://video.tv.adobe.com/v/3454584?learn=on&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3454572?learn=on)
 
 
 ## ビデオで使用されているコマンド
@@ -89,4 +91,4 @@ drwxr-xr-x 6 web web 4.0K Jan 10  2024 ..
 
 ## 関連ドキュメント
 
-- [&#x200B; 正常性の通知 &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-on-cloud/user-guide/dev-tools/integrations/health-notifications){target="_blank"}
+- [ 正常性の通知 ](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/dev-tools/integrations/health-notifications){target="_blank"}

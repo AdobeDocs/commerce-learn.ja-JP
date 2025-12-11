@@ -3,14 +3,15 @@ title: インプロセス PHP のコーディング標準
 description: PHP、JavaScriptおよびカスタマイズのベストプラクティスに関する、Adobe Commerce移行のプロセス内コーディング規格の概要を説明します。
 feature: Best Practices, Backend Development
 topic: Architecture, Commerce, Development
-role: Architect, Developer
+old-role: Architect, Developer
+role: Developer
 level: Beginner
 doc-type: Technical Video
 duration: 323
 last-substantial-update: 2024-10-02T00:00:00Z
 jira: KT-15994
 exl-id: 2f210adb-6f56-41cb-844e-131cbf85b131
-source-git-commit: b3068480fe1e3008daebff40d95388b161b9721e
+source-git-commit: afe0ac1781bcfc55ba0e631f492092fd1bf603fc
 workflow-type: tm+mt
 source-wordcount: '127'
 ht-degree: 0%
@@ -29,6 +30,6 @@ PHP、JavaScriptおよびカスタマイズに関する基本的なコーディ�
 ## ビデオコンテンツ {#video-content}
 
 * スムーズな移行を実現するための PHP、JavaScriptおよびカスタマイズのベストプラクティスについて説明します。
-* Adobe Commerce プロジェクトを成功に導くための準備、パフォーマンス、セキュリティに関するAdobeエキスパートからのインサイトを得ます。
+* Adobe Commerce プロジェクトを成功に導くための準備、パフォーマンス、セキュリティに関するAdobeのエキスパートからのインサイトを得ます。
 
->[!VIDEO](https://video.tv.adobe.com/v/3434858?learn=on&enablevpops&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3434857?learn=on&enablevpops)

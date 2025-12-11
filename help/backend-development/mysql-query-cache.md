@@ -7,10 +7,11 @@ activity: use
 last-substantial-update: 2023-7-27
 feature: Backend Development, Cache, Logs
 topic: Commerce, Development
-role: Architect, Developer
+old-role: Architect, Developer
+role: Developer
 level: Intermediate
 exl-id: 8d3b0ec2-e80c-4457-b924-69e8b8cedf03
-source-git-commit: 608196b8f68fcd299059907981ec673f2cc60e42
+source-git-commit: afe0ac1781bcfc55ba0e631f492092fd1bf603fc
 workflow-type: tm+mt
 source-wordcount: '142'
 ht-degree: 0%
@@ -34,9 +35,9 @@ MySQL クエリキャッシュの概要と、その仕組みに関する基本�
 - 一致するクエリキャッシュの検索での SQL の保存および使用方法を確認
 - 設定に関するヒント
 
->[!VIDEO](https://video.tv.adobe.com/v/3423386?learn=on&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3422015?learn=on)
 
 ## 役に立つリソース
 
-- [&#x200B; 一般的な MySQL ガイドライン &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/database-server/mysql.html?lang=ja){target="_blank"}
-- [Galera レプリケーションと低速クエリ &#x200B;](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/backend-development/galera-db-slow-replication.html?lang=ja){target="_blank"}
+- [ 一般的な MySQL ガイドライン ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/database-server/mysql.html?lang=en){target="_blank"}
+- [Galera レプリケーションと低速クエリ ](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/backend-development/galera-db-slow-replication.html){target="_blank"}

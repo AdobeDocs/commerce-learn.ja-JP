@@ -8,10 +8,11 @@ audience: all
 last-substantial-update: 2023-10-3
 feature: Best Practices, Configuration, Install
 topic: Architecture, Commerce, Development
-role: Architect, Developer, User, Leader
+old-role: Architect, Developer
+role: Developer, User, Leader
 level: Beginner, Intermediate
 exl-id: d83d7bef-3253-43bc-a442-d13b0afbae4e
-source-git-commit: 8ad911f1dad202e6354a7850ef69f8646e1a31f2
+source-git-commit: afe0ac1781bcfc55ba0e631f492092fd1bf603fc
 workflow-type: tm+mt
 source-wordcount: '164'
 ht-degree: 0%
@@ -20,7 +21,7 @@ ht-degree: 0%
 
 # GRA のアーキテクチャ
 
-グローバルリファレンスアーキテクチャ（略して GRA）の構築方法を説明します。 GRA を成功に導くための準備として、Adobeの専門家が GRA とは何か、GRA ではないものは何かを話し合います。 Git と monorepo を分割した個別のパッケージを使用したコード管理について詳しく説明します。 ドキュメント、ツール、担当者の期待に関するその他のトピックについては、GRA の実装を成功させるための要素を詳しく説明します。
+グローバルリファレンスアーキテクチャ（略して GRA）の構築方法を説明します。 GRA を成功に導くための準備として、Adobeの専門家が GRA の内容とそうでないものを話し合います。 Git と monorepo を分割した個別のパッケージを使用したコード管理について詳しく説明します。 ドキュメント、ツール、担当者の期待に関するその他のトピックについては、GRA の実装を成功させるための要素を詳しく説明します。
 
 ## オーディエンス
 

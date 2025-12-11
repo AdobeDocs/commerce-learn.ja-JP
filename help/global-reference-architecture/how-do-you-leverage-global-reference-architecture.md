@@ -8,10 +8,11 @@ audience: all
 last-substantial-update: 2023-9-27
 feature: Best Practices, Configuration, Install
 topic: Architecture, Commerce, Development
-role: Architect, Developer, User, Leader
+old-role: Architect, Developer
+role: Developer, User, Leader
 level: Beginner, Intermediate
 exl-id: 3b733e3c-b292-4b1a-96f2-30c14f35ac67
-source-git-commit: 803b418ec85c907d087f8fe243799b56a281219b
+source-git-commit: afe0ac1781bcfc55ba0e631f492092fd1bf603fc
 workflow-type: tm+mt
 source-wordcount: '128'
 ht-degree: 0%
@@ -20,7 +21,7 @@ ht-degree: 0%
 
 # グローバル参照アーキテクチャの活用
 
-グローバルリファレンスアーキテクチャ（GRA）を簡単に説明します。 導入を成功させるために GRA の準備を整えるために、Adobeのエキスパートがプロジェクトの様々な段階について話し合い、発見フェーズについて詳しく説明します。 QA リソースについて説明し、GRA 実装にとって QA リソースがどのように役立つかを示します。
+グローバルリファレンスアーキテクチャ（GRA）を簡単に説明します。 導入を成功に導くための GRA の準備を整えるために、Adobeのエキスパートは、プロジェクトの様々な段階について話し合い、発見フェーズについて詳しく説明します。 QA リソースについて説明し、GRA 実装にとって QA リソースがどのように役立つかを示します。
 
 ## オーディエンス
 
@@ -34,6 +35,6 @@ ht-degree: 0%
 * 要件の収集
 * QA チームを関与させるタイミング
 
->[!VIDEO](https://video.tv.adobe.com/v/3456001?learn=on&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3424604?learn=on)
 
 {{$include /help/_includes/gra-related-links.md}}

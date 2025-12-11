@@ -1,18 +1,19 @@
 ---
 title: 開発者向けPWA Studio – はじめに
 description: Progressive Web Application（PWA）の概要と、PWA Studio こそが未来である理由。
-landing-page-description: このビデオシリーズでは、Progressive Web Application（PWA）と、PWA Studioこそがサイトの未来である理由につい  [!DNL Commerce]  説明します。
-short-description: このビデオシリーズでは、Progressive Web Application（PWA）と、PWA Studioこそがサイトの未来である理由につい  [!DNL Commerce]  説明します。
+landing-page-description: このビデオシリーズでは、Progressive Web Application （PWA）と、PWA Studioこそがサイトの未来である理由につい  [!DNL Commerce]  説明します。
+short-description: このビデオシリーズでは、Progressive Web Application （PWA）と、PWA Studioこそがサイトの未来である理由につい  [!DNL Commerce]  説明します。
 kt: 5644
 doc-type: video
 activity: use
 last-substantial-update: 2023-5-28
 feature: GraphQL, REST, Tools and External Services
 topic: Commerce, Headless, Development
-role: Architect, Developer, User
+old-role: Architect, Developer
+role: Developer, User
 level: Beginner, Intermediate
 exl-id: 26b1b560-c155-4316-9481-44679bf9216a
-source-git-commit: f7aa1f0063cbcad6d331a13817214b1bf2158571
+source-git-commit: afe0ac1781bcfc55ba0e631f492092fd1bf603fc
 workflow-type: tm+mt
 source-wordcount: '100'
 ht-degree: 14%
@@ -37,5 +38,5 @@ ht-degree: 14%
 
 ## 役に立つリソース
 
-- [PWA Studioドキュメント &#x200B;](https://developer.adobe.com/commerce/pwa-studio/)
-- [GitHub リポジトリのPWA Studio](https://github.com/magento/pwa-studio)
+- [PWA Studio ドキュメント ](https://developer.adobe.com/commerce/pwa-studio/)
+- [PWA Studio GitHub リポジトリ ](https://github.com/magento/pwa-studio)

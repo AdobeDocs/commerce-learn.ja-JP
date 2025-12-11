@@ -8,10 +8,11 @@ audience: all
 last-substantial-update: 2023-3-13
 feature: API Mesh, App Builder, Extensibility, Tools and External Services, Backend Development
 topic: App Builder, I/O Events, Developer Console, Commerce, Development, Integrations
-role: Architect, Developer
+old-role: Architect, Developer
+role: Developer
 level: Beginner, Intermediate
 exl-id: 120d551d-efb0-4766-b346-1fb55fd868a4
-source-git-commit: 404d2708a6d540d6fb19a33afb20726356cd8000
+source-git-commit: afe0ac1781bcfc55ba0e631f492092fd1bf603fc
 workflow-type: tm+mt
 source-wordcount: '111'
 ht-degree: 0%
@@ -24,13 +25,13 @@ ht-degree: 0%
 
 ## このビデオの目的は誰ですか。
 
-* Adobe Commerceを初めて使用する開発者で、初めてのAdobe Developer App Builder アプリをテストする準備が整ったAdobeApp Builderを使用した経験が限られている人。
+* 初めてのAdobe Commerce アプリをテストする準備が整ったAdobe App Builderを使用した、経験が限られたAdobe Developer App Builderを初めて使用する開発者。
 
 ## ビデオコンテンツ
 
 * アプリケーションのデプロイ方法
 * デプロイメント後の URL の場所
 
->[!VIDEO](https://video.tv.adobe.com/v/3421048?quality=12&learn=on&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3416664?quality=12&learn=on)
 
 {{$include /help/_includes/app-builder-first-app-related-links.md}}

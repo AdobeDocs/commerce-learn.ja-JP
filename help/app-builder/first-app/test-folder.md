@@ -8,10 +8,11 @@ audience: all
 last-substantial-update: 2023-3-13
 feature: API Mesh, App Builder, Extensibility, Tools and External Services, Backend Development
 topic: App Builder, I/O Events, Developer Console, Commerce, Development, Integrations
-role: Architect, Developer
+old-role: Architect, Developer
+role: Developer
 level: Beginner, Intermediate
 exl-id: 5d3ced3f-174d-4481-8511-82616bb77c43
-source-git-commit: 404d2708a6d540d6fb19a33afb20726356cd8000
+source-git-commit: afe0ac1781bcfc55ba0e631f492092fd1bf603fc
 workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 0%
@@ -26,7 +27,7 @@ ht-degree: 0%
 
 ## このビデオの目的は誰ですか。
 
-* Adobe Commerceを初めて使用する開発者で、`test` フォルダーについて知りたいAdobeApp Builderの使用経験が限られている人。
+* Adobe Commerce フォルダーについて学習したいAdobe App Builderを使用した、経験が限られた `test` を初めて使用する開発者。
 
 ## ビデオコンテンツ
 
@@ -34,7 +35,7 @@ ht-degree: 0%
 * 単体テストファイルとそのコンポーネントの簡単な説明
 * エンドツーエンドテストの概要
 
->[!VIDEO](https://video.tv.adobe.com/v/3421063?quality=12&learn=on&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3416662?quality=12&learn=on)
 
 ## コードサンプル
 

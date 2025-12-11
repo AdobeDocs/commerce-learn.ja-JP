@@ -8,10 +8,11 @@ audience: all
 last-substantial-update: 2023-3-13
 feature: API Mesh, App Builder, Extensibility, Tools and External Services, Backend Development
 topic: App Builder, I/O Events, Developer Console, Commerce, Development, Integrations
-role: Architect, Developer
+old-role: Architect, Developer
+role: Developer
 level: Beginner, Intermediate
 exl-id: 0b6a91dd-e5c4-4ead-84d4-362de070815e
-source-git-commit: 404d2708a6d540d6fb19a33afb20726356cd8000
+source-git-commit: afe0ac1781bcfc55ba0e631f492092fd1bf603fc
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 0%
@@ -24,12 +25,12 @@ ht-degree: 0%
 
 * Adobe Developer Consoleへのアクセスが完了しました
 * App Builderへのフルアクセスまたは体験版アクセスが許可されました
-* [Adobe Developer App Builder アプリケーションが作成されました &#x200B;](https://developer.adobe.com/app-builder/docs/getting_started/first_app/){target="_blank"}
-* [Adobe Developer App Builder プロジェクトが作成されました &#x200B;](https://developer.adobe.com/console){target="_blank"}
+* [Adobe Developer App Builder アプリケーションが作成されました ](https://developer.adobe.com/app-builder/docs/getting_started/first_app/){target="_blank"}
+* [Adobe Developer App Builder プロジェクトが作成されました ](https://developer.adobe.com/console){target="_blank"}
 * [Adobe Developer App Builderのワークスペースが作成されました（手順 2.6](https://developer.adobe.com/app-builder/docs/getting_started/first_app/#2-creating-a-new-project-on-developer-console){target="_blank"}
-* [&#x200B; プロジェクトを初期化して実行する AIO CLI コマンドが実行されました &#x200B;](https://developer.adobe.com/runtime){target="_blank"}
+* [ プロジェクトを初期化して実行する AIO CLI コマンドが実行されました ](https://developer.adobe.com/runtime){target="_blank"}
 
-最初のApp Builder アプリケーションの構築に関する詳細については、次のブログ投稿を参照してください。この初期セットアップと設定に役立ちます [App Builderがコマースプラットフォームのビジネスの俊敏性を促進する仕組み &#x200B;](https://business.adobe.com/blog/how-to/how-app-builder-helps-you-implement-a-composable-commerce-strategy){target="_blank"}。
+最初のApp Builder アプリケーションの構築に関する詳細については、次のブログ投稿を参照してください。この初期セットアップと設定に役立ちます [App Builderがコマースプラットフォームのビジネスの俊敏性を促進する仕組み ](https://business.adobe.com/blog/how-to/how-app-builder-helps-you-implement-a-composable-commerce-strategy){target="_blank"}。
 
 ## このチュートリアルを読んで期待されること
 
@@ -41,7 +42,7 @@ ht-degree: 0%
 
 ## このビデオの目的は誰ですか。
 
-* Adobe Commerceを初めて使用する開発者で、Adobe App Builderを使用した経験が限られている人。
+* Adobe Commerce App Builderを使用した経験が限られている、Adobeを初めて使用する開発者。
 
 ## ビデオコンテンツ
 
@@ -50,7 +51,7 @@ ht-degree: 0%
 * サンプルモジュール使用に対する期待
 * サンプルモジュール内の再利用可能な部分
 
->[!VIDEO](https://video.tv.adobe.com/v/3421026?quality=12&learn=on&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3416740?quality=12&learn=on)
 
 {{avoid-400-error}}
 

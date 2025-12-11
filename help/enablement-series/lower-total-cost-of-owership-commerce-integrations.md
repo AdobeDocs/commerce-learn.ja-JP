@@ -3,7 +3,8 @@ title: Adobe Commerce統合の TOC の低下
 description: Adobe Commerceとの統合の総所有コストを削減するためのベストプラクティスについて説明します。
 feature: API Mesh, App Builder, Backend Development, Best Practices, Best Practices, Extensibility, Integration
 topic: Architecture, Commerce, Integrations, Performance
-role: Architect, Data Architect, Leader
+old-role: Architect, Data Architect, Leader
+role: Developer, Leader
 level: Beginner, Intermediate
 doc-type: Technical Video
 duration: 3558
@@ -11,7 +12,7 @@ last-substantial-update: 2024-04-26T00:00:00Z
 jira: KT-15393
 auto-video-transcripts: true
 exl-id: 3c31c204-a33f-4f8a-b74d-d81f5ad6c433
-source-git-commit: 1293fcc506043601ced55286ea4d31b47a68d546
+source-git-commit: afe0ac1781bcfc55ba0e631f492092fd1bf603fc
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 0%
@@ -22,7 +23,7 @@ ht-degree: 0%
 
 このウェビナーでは、Adobe Commerceとの統合の所有コストを削減する方法について説明します。
 
-このウェビナーの講演者は、統合に関連する課題とコスト、技術的負債を減らすことの重要性、Adobe Commerceが提供する拡張ポイントを使用するメリットについて話します。 また、WhatsApp を使用したリーン注文管理システムや、パーソナライズされた製品レコメンデーション用のデータを送信するスマートペットのトイレなど、特定のユースケースについても言及しています。  また、Adobe Commerceと他のAdobe製品の間でデータを送受信できる、CommerceのAdobeデータ接続の使用方法についても説明します。
+このウェビナーの講演者は、統合に関連する課題とコスト、技術的負債を減らすことの重要性、Adobe Commerceが提供する拡張ポイントを使用するメリットについて話します。 また、WhatsApp を使用したリーン注文管理システムや、パーソナライズされた製品レコメンデーション用のデータを送信するスマートペットのトイレなど、特定のユースケースについても言及しています。  また、Adobe Commerceと他のAdobe製品の間でデータをやり取りできるようにする、CommerceのAdobe データ接続の使用方法についても説明します。
 
 ## オーディエンス
 

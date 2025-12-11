@@ -9,16 +9,18 @@ audience: all
 last-substantial-update: 2024-7-30
 feature: Best Practices, Backend Development, Integration
 topic: Architecture, Commerce, Development
-role: Architect, Developer
+old-role: Architect, Developer
+role: Developer
 level: Intermediate
-source-git-commit: aed143b96f13a413f85fc461e11f358b4c657015
+exl-id: e86e8c7b-d5d2-484d-90a2-9c5309c7ea1d
+source-git-commit: afe0ac1781bcfc55ba0e631f492092fd1bf603fc
 workflow-type: tm+mt
 source-wordcount: '352'
 ht-degree: 0%
 
 ---
 
-# Adobeスターターキットを使用したラストマイル統合
+# Adobe スターターキットを使用したラストマイル統合
 
 Adobe Commerceとのラストマイル統合を開始する際に考慮すべき事項について説明します。ここでは、拡張フックを使用してサードパーティシステムとの接続を強化する方法を重点的に説明します。 このビデオでは、検証、変換、前処理、送信、後処理など、様々なフックがシームレスなデータフローとシステム同期を確実に実現する構造化されたアプローチの概要を説明します。 各フックは、次のような異なる目的を果たします。
 
@@ -43,6 +45,6 @@ Adobe Commerceとのラストマイル統合を開始する際に考慮すべき
 * オリジンシステムと宛先システムの間でデータオブジェクトを変換する際の、変換フックの役割を説明します。
 * 宛先システムへの実際のデータ送信を促進する際の送信フックの重要性について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3451917?learn=on&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3431692?learn=on)
 
 {{$include /help/_includes/starter-kit-related-links.md}}

@@ -1,18 +1,19 @@
 ---
 title: GraphQLを使用したミューテーションの実行
-description: Adobe CommerceでGraphQLを使用してミューテーションを実行する方法の概要を説明します。 [!DNL Magento Open Source] POST呼び出しを使用して最初のミューテーションを実行します。
-landing-page-description: Adobe CommerceでGraphQLを使用してミューテーションを実行する方法の概要を説明します。 [!DNL Magento Open Source] POST呼び出しを使用して最初のミューテーションを実行します。
-short-description: Adobe CommerceでGraphQLを使用してミューテーションを実行する方法の概要を説明します。 [!DNL Magento Open Source] POST呼び出しを使用して最初のミューテーションを実行します。
+description: Adobe CommerceでGraphQLを使用してミューテーションを実行する方法の概要を説明します。 [!DNL Magento Open Source] POST 呼び出しを使用して最初のミューテーションを実行します。
+landing-page-description: Adobe CommerceでGraphQLを使用してミューテーションを実行する方法の概要を説明します。 [!DNL Magento Open Source] POST 呼び出しを使用して最初のミューテーションを実行します。
+short-description: Adobe CommerceでGraphQLを使用してミューテーションを実行する方法の概要を説明します。 [!DNL Magento Open Source] POST 呼び出しを使用して最初のミューテーションを実行します。
 kt: 13938
 doc-type: video
 audience: all
 last-substantial-update: 2023-10-12T00:00:00Z
 feature: GraphQL
 topic: Commerce, Architecture, Headless
-role: Architect, Developer
+old-role: Architect, Developer
+role: Developer
 level: Beginner, Intermediate
 exl-id: 6b82ffda-925f-4a81-8ca5-49a2b8ab4929
-source-git-commit: 2041bbf1a2783975091b9806c12fc3c34c34582f
+source-git-commit: afe0ac1781bcfc55ba0e631f492092fd1bf603fc
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 0%
@@ -24,19 +25,19 @@ ht-degree: 0%
 これは、GraphQLとAdobe Commerceのシリーズの第 3 部です。 ミューテーションとは、GraphQLを使用して値を保存、更新および返す機能です。
 
 
->[!VIDEO](https://video.tv.adobe.com/v/3441922?learn=on&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3424121?learn=on)
 
 ## このシリーズのGraphQLに関する関連ビデオとチュートリアル
 
 * [第 1 部GraphQL – はじめに](../graphql-rest/intro-graphql.md)
 * [第 2 部GraphQL - クエリ](../graphql-rest/graphql-queries.md)
-* [&#x200B; 第 4 部GraphQL - スキーマ &#x200B;](../graphql-rest/graphql-schema.md)
+* [ 第 4 部GraphQL - スキーマ ](../graphql-rest/graphql-schema.md)
 
 ## 突然変異の例
 
 完全な API 仕様では、データのクエリ機能だけでなく、データの作成と更新機能も提供する必要があります。
 
-REST は、データを変更するリクエストと、リクエストタイプまたは「動詞」（GETとPOSTまたはPUT）を使用しないリクエストを区別します。
+REST は、データを変更するリクエストと、リクエストタイプまたは「動詞」を持たないリクエストを区別します（GETと POST またはPUT）。
 GraphQLを使用する場合、データ変更クエリは、別のに対応する `mutation` キーワードによって区別されます
 サーバーで定義されたスキーマのルートタイプ。
 
@@ -97,12 +98,12 @@ mutation doAddToCart(
 }
 ```
 
-上記の例について注意しておくべきことは、`query` の代わりに `mutation` キーワードを使用する以外に、
+上記の例について注意しておくべきことは、`mutation` の代わりに `query` キーワードを使用する以外に、
 構文はクエリと同じです。 クエリと同様に、ミューテーションには次が含まれます。
 
 * 任意の操作名（`doAddToCart`）
 * 変数のリスト（例：`$cartId`）
-* 括弧内に引数（例：`cartId` は `$cartId` の値に設定）を含む初期フィールド（`addProductsToCart`）
+* 括弧内に引数（例：`addProductsToCart` は `cartId` の値に設定）を含む初期フィールド（`$cartId`）
 * 中括弧で囲まれたフィールドの部分選択
 
 フィールドの副選択を使用すると、返されるフィールド（として割り当てられたタイプから）を柔軟に定義できます。
@@ -114,8 +115,8 @@ mutation doAddToCart(
 
 上記の例に関するその他の注意事項を次に示します。
 
-* `String` と `CartItemInput` の後ろに `!` 文字が付いている場合は、変数が必須であることを示しています。
-* リストを示すために指定された `CartItemInput` タイプの前後の角かっこ（`[]`） `$cartItems`
+* `!` と `String` の後ろに `CartItemInput` 文字が付いている場合は、変数が必須であることを示しています。
+* リストを示すために指定された `[]` タイプの前後の角かっこ（`CartItemInput`） `$cartItems`
 （単一の値ではなく、そのタイプの）
 
 {{$include /help/_includes/graphql-rest-related-links.md}}

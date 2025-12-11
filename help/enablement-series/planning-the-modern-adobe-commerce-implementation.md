@@ -3,14 +3,15 @@ title: 最新のAdobe Commerce実装の計画
 description: このウェビナーでは、最新のコマースシステム、特にAdobe Commerceの実装計画について説明し、検出フェーズ、サービス、グローバルな参照アーキテクチャ、フロントエンド開発プラクティス、ベストプラクティスに関するディスカッションを含みます。
 feature: API Mesh, App Builder, Best Practices, Extensibility, Integration
 topic: Architecture, Commerce, Integrations, Performance
-role: Architect, Data Architect, Leader
+old-role: Architect, Data Architect, Leader
+role: Developer, Leader
 level: Beginner, Intermediate
 doc-type: Technical Video
 duration: 3511
 last-substantial-update: 2024-05-07T00:00:00Z
 jira: KT-15465
 exl-id: a8e1cd14-e9ff-46ba-87ea-c1cba3b4f72f
-source-git-commit: 670f1676128544811e471a3dfbcab80cdb95b94f
+source-git-commit: afe0ac1781bcfc55ba0e631f492092fd1bf603fc
 workflow-type: tm+mt
 source-wordcount: '394'
 ht-degree: 0%
@@ -20,7 +21,7 @@ ht-degree: 0%
 # 最新のAdobe Commerce実装の計画
 
 このウェビナーでは、カタログサービス、お客様のアーキテクチャの理解、Edge Delivery Servicesなど、Adobe Commerceに関連する様々なトピックの包括的な概要を説明します。
-&#x200B;Adobe Commerce Catalog as a Service におけるライブ検索や Product Recommendations、Edge Delivery Servicesのアーキテクチャを把握するための API やデータフローの分析、顧客の高性能と低遅延の分析など、各サービスの新機能や既存の機能およびメリットについて説明します。 さらに、顧客とやり取りする際に標準的なドキュメントと質問のリストを持つことの重要性、および効率的なプロジェクト構築のためのグローバル参照アーキテクチャ（GRA）の概念に関しても説明しています。
+&#x200B;Adobe Commerce Catalog as a Service におけるライブ検索や商品レコメンデーション、カスタマーアーキテクチャを把握するための API やデータフローの分析、Edge Delivery Servicesの高パフォーマンスと低遅延など、各サービスの新機能や既存の機能やメリットについて説明します。 さらに、顧客とやり取りする際に標準的なドキュメントと質問のリストを持つことの重要性、および効率的なプロジェクト構築のためのグローバル参照アーキテクチャ（GRA）の概念に関しても説明しています。
 
 ## オーディエンス
 
@@ -29,12 +30,12 @@ ht-degree: 0%
 
 ## ビデオコンテンツ
 
-* ライブ検索や商品レコメンデーションなどのカタログサービスはAdobe Commerceに含まれており、Experience Leagueに関するガイドが利用できます。
+* ライブ検索や商品レコメンデーションなどのカタログサービスはAdobe Commerceに含まれており、Experience Leagueのガイドが利用できます。
 * 顧客アーキテクチャの理解には、API、データフロー、一般的な製品の分析、および顧客要件とコマース機能のマッピングが含まれます。
 * 顧客アーキテクチャを理解し、プロジェクトをスムーズに実装するには、一連の標準的なドキュメントと質問のリストを作成することが不可欠です。
 移行プロジェクトでは自動分析ツールを使用できますが、その他のケースでは手動によるドキュメントレビューとアンケートが必要になります。
-* 最近Adobe Commerce用にリリースされたEdge Delivery Servicesでは、低遅延でシンプルなオーサリングエクスペリエンスを備えた高性能のストアフロントソリューションを提供しています。
-* Edge Delivery Servicesはパフォーマンスを優先し、lighthouse スコア、SEO および web サイト全体の速度を大幅に向上させることができます。
+* 最近Adobe Commerce用にリリースされたEdge Delivery Servicesは、低遅延でシンプルなオーサリングエクスペリエンスを備えた高性能のストアフロントソリューションを提供します。
+* Edge Delivery Servicesは、パフォーマンスを優先し、lighthouse スコア、SEO および web サイト全体の速度を大幅に向上させることができます。
 Adobe Commerceと、最新の実装の計画、構築、メンテナンスに関する 4 部構成のシリーズの概要です。
 * 効率的なプロジェクト構築のためのグローバルリファレンスアーキテクチャ（GRA）の概念を紹介します。
 * 検出フェーズでの役割、主要ドキュメント、プロジェクトコンポーネントの理解の重要性に関するディスカッション。

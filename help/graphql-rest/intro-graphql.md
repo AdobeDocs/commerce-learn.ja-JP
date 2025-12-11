@@ -8,10 +8,11 @@ audience: all
 last-substantial-update: 2023-10-12T00:00:00Z
 feature: GraphQL
 topic: Commerce, Architecture, Headless
-role: Architect, Developer
+old-role: Architect, Developer
+role: Developer
 level: Beginner, Intermediate
 exl-id: 8ea823da-24a3-4627-885c-4b3279b9142c
-source-git-commit: b8b1e40a2f4d38954f0d21bc6f1a91b7ec0bd8c9
+source-git-commit: afe0ac1781bcfc55ba0e631f492092fd1bf603fc
 workflow-type: tm+mt
 source-wordcount: '481'
 ht-degree: 0%
@@ -24,13 +25,13 @@ ht-degree: 0%
 
 GraphQLを初めて使用する場合は、この節で、基本的な概念と使用方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3443941?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3424117?learn=on)
 
 ## このシリーズのGraphQLに関する関連ビデオとチュートリアル
 
 * [第 2 部GraphQL - クエリ](../graphql-rest/graphql-queries.md)
 * [第 3 部GraphQL – 突然変異](../graphql-rest/graphql-mutations.md)
-* [&#x200B; 第 4 部GraphQL - スキーマ &#x200B;](../graphql-rest/graphql-schema.md)
+* [ 第 4 部GraphQL - スキーマ ](../graphql-rest/graphql-schema.md)
 
 ## GraphQLとは
 
@@ -43,7 +44,7 @@ GraphQLを使用すると、クライアントは必要なデータを _正確�
 GraphQLの仕様を実装するランタイムは、任意の言語で構築できます。 Adobe Commerceと [!DNL Magento Open Source] は、
 [graphql-php](https://webonyx.github.io/graphql-php/){target="_blank"} PHP の実装とその上に独自のレイヤーを構築します。
 
-[&#x200B; 完全なGraphQLのドキュメントを表示 &#x200B;](https://graphql.org/learn){target="_blank"}
+[ 完全なGraphQLのドキュメントを表示 ](https://graphql.org/learn){target="_blank"}
 
 ## GraphQL クライアントの使用
 

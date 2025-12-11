@@ -8,10 +8,11 @@ last-substantial-update: 2025-1-6
 feature: Best Practices, Configuration, Install
 topic: Architecture, Commerce, Development
 badge: label="執筆：Adobe、シニアテクニカルアーキテクト、Tony Evers" type="Informative" url="https://www.linkedin.com/in/evers-tony/" tooltip="寄稿：Tony Evers"
-role: Architect, Developer, User, Leader
+old-role: Architect, Developer
+role: Developer, User, Leader
 level: Beginner, Intermediate
 exl-id: ac63e31e-3047-410a-a6f9-a578b495bd8c
-source-git-commit: a182b97b7d9a8bf114944d5d920afb2328adbc18
+source-git-commit: afe0ac1781bcfc55ba0e631f492092fd1bf603fc
 workflow-type: tm+mt
 source-wordcount: '1172'
 ht-degree: 0%
@@ -24,7 +25,7 @@ ht-degree: 0%
 
 バルクパッケージの GRA パターンでは、共通のすべてのカスタマイズをホストする単一の Git リポジトリーが関与します。 この 1 つの Git リポジトリーは、複数のAdobe Commerce モジュールを含む 1 つのコンポーザーパッケージとして Composer を通じて公開されます。
 
-![&#x200B; バルクパッケージの GRA パターン内のどこにコードが格納されているかを示す図 &#x200B;](/help/assets/global-reference-architecture/bulk-gra-pattern-diagram.png){align="center"}
+![ バルクパッケージの GRA パターン内のどこにコードが格納されているかを示す図 ](/help/assets/global-reference-architecture/bulk-gra-pattern-diagram.png){align="center"}
 
 ## このパターンの長所と短所
 

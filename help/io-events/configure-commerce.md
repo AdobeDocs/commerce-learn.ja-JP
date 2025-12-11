@@ -9,10 +9,11 @@ audience: all
 last-substantial-update: 2023-02-21T00:00:00Z
 feature: App Builder, Configuration, Backend Development
 topic: Commerce, Architecture
-role: Architect, Developer, User
+old-role: Architect, Developer
+role: Developer, User
 level: Beginner, Intermediate
 exl-id: b8062042-2e90-4750-92ef-d55a76f2d842
-source-git-commit: 404d2708a6d540d6fb19a33afb20726356cd8000
+source-git-commit: afe0ac1781bcfc55ba0e631f492092fd1bf603fc
 workflow-type: tm+mt
 source-wordcount: '145'
 ht-degree: 0%
@@ -21,20 +22,20 @@ ht-degree: 0%
 
 # Adobe Commerceの設定
 
-イベントを公開するようにAdobe Commerceを設定する方法を説明します。 追加ドキュメントについては、[Adobe CommerceのAdobe I/Oイベントのインストール &#x200B;](https://developer.adobe.com/commerce/events/get-started/installation/){target="_blank"} を参照してください。
+イベントを公開するようにAdobe Commerceを設定する方法を説明します。 追加ドキュメントについては、[Adobe Commerce用のAdobe I/O Eventsのインストール ](https://developer.adobe.com/commerce/events/get-started/installation/){target="_blank"} を参照してください。
 
 ## このビデオの目的は誰ですか。
 
-* I/O イベントを使用してAdobe CommerceとAdobe Developer App Builderを初めて使用し、AdobeのApp Builder プロジェクトを作成する必要がある開発者。
+* I/O イベントを使用してAdobe CommerceとAdobe Developer App Builderを初めて使用し、Adobe App Builder プロジェクトを作成する必要がある開発者。
 
 ## ビデオコンテンツ {#video-content}
 
-* Commerce admin でのAdobe I/Oイベントの設定
+* Commerce admin でのAdobe I/O イベントの設定
 * Commerce admin での秘密鍵の保存
 * Commerce admin への一意の ID の保存
 * イベントプロバイダーの作成
 
->[!VIDEO](https://video.tv.adobe.com/v/3419715?quality=12&learn=on&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3415799?quality=12&learn=on)
 
 ## 便利なコマンド {#useful-commands}
 

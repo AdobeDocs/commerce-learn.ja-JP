@@ -7,10 +7,11 @@ activity: use
 last-substantial-update: 2023-7-18
 feature: Backend Development, Logs, Services
 topic: Commerce, Development
-role: Architect, Developer
+old-role: Architect, Developer
+role: Developer
 level: Intermediate
 exl-id: 4a8a2df1-8cac-4bd9-851f-0eaae011b76c
-source-git-commit: 598bff1fd2cefdc449d5ae3431401aec1e796313
+source-git-commit: afe0ac1781bcfc55ba0e631f492092fd1bf603fc
 workflow-type: tm+mt
 source-wordcount: '304'
 ht-degree: 0%
@@ -37,8 +38,8 @@ Galera クラスタは、パフォーマンスと拡張性に役立ちます。 
 - 一括実行はプライマリでのみ発生します。 レプリケーションは一度に 1 つずつ実行
 - 大きなコミットをバッチ化して、レプリケーションがプライマリに対応できるようにします
 
->[!VIDEO](https://video.tv.adobe.com/v/3423542?learn=on&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3421688?learn=on)
 
 ## 役に立つリソース
 
-- [&#x200B; ガレラクラスター &#x200B;](https://galeracluster.com/)
+- [ ガレラクラスター ](https://galeracluster.com/)
