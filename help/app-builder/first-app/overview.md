@@ -25,12 +25,12 @@ ht-degree: 0%
 
 * Adobe Developer Consoleへのアクセスが完了しました
 * App Builderへのフルアクセスまたは体験版アクセスが許可されました
-* [Adobe Developer App Builder アプリケーションが作成されました ](https://developer.adobe.com/app-builder/docs/getting_started/first_app/){target="_blank"}
-* [Adobe Developer App Builder プロジェクトが作成されました ](https://developer.adobe.com/console){target="_blank"}
+* [Adobe Developer App Builder アプリケーションが作成されました &#x200B;](https://developer.adobe.com/app-builder/docs/getting_started/first_app/){target="_blank"}
+* [Adobe Developer App Builder プロジェクトが作成されました &#x200B;](https://developer.adobe.com/console){target="_blank"}
 * [Adobe Developer App Builderのワークスペースが作成されました（手順 2.6](https://developer.adobe.com/app-builder/docs/getting_started/first_app/#2-creating-a-new-project-on-developer-console){target="_blank"}
-* [ プロジェクトを初期化して実行する AIO CLI コマンドが実行されました ](https://developer.adobe.com/runtime){target="_blank"}
+* [&#x200B; プロジェクトを初期化して実行する AIO CLI コマンドが実行されました &#x200B;](https://developer.adobe.com/runtime){target="_blank"}
 
-最初のApp Builder アプリケーションの構築に関する詳細については、次のブログ投稿を参照してください。この初期セットアップと設定に役立ちます [App Builderがコマースプラットフォームのビジネスの俊敏性を促進する仕組み ](https://business.adobe.com/blog/how-to/how-app-builder-helps-you-implement-a-composable-commerce-strategy){target="_blank"}。
+最初のApp Builder アプリケーションの構築に関する詳細については、次のブログ投稿を参照してください。この初期セットアップと設定に役立ちます [App Builderがコマースプラットフォームのビジネスの俊敏性を促進する仕組み &#x200B;](https://business.adobe.com/blog/how-to/how-app-builder-helps-you-implement-a-composable-commerce-strategy){target="_blank"}。
 
 ## このチュートリアルを読んで期待されること
 

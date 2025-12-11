@@ -22,7 +22,7 @@ ht-degree: 0%
 
 # プロジェクトとワークスペースの操作
 
-このチュートリアルでは、メッシュを格納するプロジェクトとワークスペースの作成について説明します。 この作業は [Adobe Developer コンソール ](https://developer.adobe.com/console){target="_blank"} の UI で主に行われます。
+このチュートリアルでは、メッシュを格納するプロジェクトとワークスペースの作成について説明します。 この作業は [Adobe Developer コンソール &#x200B;](https://developer.adobe.com/console){target="_blank"} の UI で主に行われます。
 
 ## このビデオの目的は誰ですか。
 
@@ -41,12 +41,12 @@ ht-degree: 0%
 
 ## Adobe Developer Consoleについて
 
-Adobe Developer Consoleでは、API が組織にどのように適合するかを表す階層が「`Organization > Project > Workspace > [API]`」になります。 Adobe App Builder、コンソールへのログイン、基本的なトラブルシューティングについて詳しくは、[ 最初のApp Builder アプリケーションの作成 ](https://developer.adobe.com/app-builder/docs/getting_started/first_app/){target="_blank"} を参照してください。
+Adobe Developer Consoleでは、API が組織にどのように適合するかを表す階層が「`Organization > Project > Workspace > [API]`」になります。 Adobe App Builder、コンソールへのログイン、基本的なトラブルシューティングについて詳しくは、[&#x200B; 最初のApp Builder アプリケーションの作成 &#x200B;](https://developer.adobe.com/app-builder/docs/getting_started/first_app/){target="_blank"} を参照してください。
 
 ## Adobe Developer Consoleのプロジェクトの概要
 
-Adobe Developer Consoleでの開発作業はすべて、プロジェクトの一部として行われます。 プロジェクトには、1 つまたは複数の製品や、API、イベント、ランタイム、プラグインの組み合わせを含めることができます。 Adobe Developer コンソールのプロジェクトについて詳しくは、[ プロジェクト ](https://developer.adobe.com/developer-console/docs/guides/projects/){target="_blank"} を参照してください。
+Adobe Developer Consoleでの開発作業はすべて、プロジェクトの一部として行われます。 プロジェクトには、1 つまたは複数の製品や、API、イベント、ランタイム、プラグインの組み合わせを含めることができます。 Adobe Developer コンソールのプロジェクトについて詳しくは、[&#x200B; プロジェクト &#x200B;](https://developer.adobe.com/developer-console/docs/guides/projects/){target="_blank"} を参照してください。
 
-API メッシュのコンテキストでプロジェクトとワークスペースを使用する方法については、「[ プロジェクトとワークスペースを修正 ](https://developer.adobe.com/graphql-mesh-gateway/gateway/create-mesh/#modify-projects-and-workspaces){target="_blank"}」を参照してください。
+API メッシュのコンテキストでプロジェクトとワークスペースを使用する方法については、「[&#x200B; プロジェクトとワークスペースを修正 &#x200B;](https://developer.adobe.com/graphql-mesh-gateway/gateway/create-mesh/#modify-projects-and-workspaces){target="_blank"}」を参照してください。
 
 {{$include /help/_includes/api-mesh-related-links.md}}

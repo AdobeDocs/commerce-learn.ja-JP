@@ -91,4 +91,4 @@ drwxr-xr-x 6 web web 4.0K Jan 10  2024 ..
 
 ## 関連ドキュメント
 
-- [ 正常性の通知 ](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/dev-tools/integrations/health-notifications){target="_blank"}
+- [&#x200B; 正常性の通知 &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/dev-tools/integrations/health-notifications){target="_blank"}

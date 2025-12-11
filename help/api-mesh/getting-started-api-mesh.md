@@ -28,11 +28,11 @@ Adobe Developer App BuilderAdobeの API メッシュを初めて使用する場�
 
 API メッシュは、複数のデータソースを組み合わせて、アプリケーションが使用する 1 つの応答を取得します。
 
-[ 完全な API メッシュのドキュメントを表示 ](https://developer.adobe.com/graphql-mesh-gateway/gateway/overview/){target="_blank"}
+[&#x200B; 完全な API メッシュのドキュメントを表示 &#x200B;](https://developer.adobe.com/graphql-mesh-gateway/gateway/overview/){target="_blank"}
 
 ## このビデオの目的は誰ですか。
 
-* API メッシュを初めて使用するデベロッパー、または [!DNL Adobe Commerce]Adobe I/O Runtime[ と API メッシュを使用した経験が限られている ](https://developer.adobe.com/runtime/docs/guides/overview/){target="_blank"}。
+* API メッシュを初めて使用するデベロッパー、または [!DNL Adobe Commerce]Adobe I/O Runtime[&#x200B; と API メッシュを使用した経験が限られている &#x200B;](https://developer.adobe.com/runtime/docs/guides/overview/){target="_blank"}。
 
 ## ビデオコンテンツ
 
@@ -51,7 +51,7 @@ Commerce アプリケーションには、REST API とGraphQL エンドポイン
 
 Adobe App Builderと API メッシュを使用する開発者は、リバースプロキシとは何かを理解する必要はありません。 ただし、Adobe App Builderに関連する全体的な機能に興味がある場合は、次の資料を使用してください。
 
-* [ リバースプロキシと ](https://www.imperva.com/learn/performance/reverse-proxy/){target="_blank"}
+* [&#x200B; リバースプロキシと &#x200B;](https://www.imperva.com/learn/performance/reverse-proxy/){target="_blank"}
 
 
 {{$include /help/_includes/api-mesh-related-links.md}}

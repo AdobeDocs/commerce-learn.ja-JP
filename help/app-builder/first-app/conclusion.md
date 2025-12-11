@@ -38,9 +38,9 @@ ht-degree: 0%
 ## その他のApp Builder リソース
 
 * [Adobe Developer App Builder](https://developer.adobe.com/app-builder/){target="_blank"}
-* [Adobe Developer App Builder体験版 ](https://developer.adobe.com/app-builder/trial/){target="_blank"}
-* [Adobe Developer App Builder ドキュメント ](https://developer.adobe.com/app-builder/docs/overview/){target="_blank"}
-* [Adobe Developer App Builder フォーラム ](https://experienceleaguecommunities.adobe.com/t5/project-firefly/ct-p/project-firefly){target="_blank"}
-* [Adobe Developer App Builderの投稿ガイドライン ](https://developer.adobe.com/app-builder/docs/guides/contribution_guides/){target="_blank"}
+* [Adobe Developer App Builder体験版 &#x200B;](https://developer.adobe.com/app-builder/trial/){target="_blank"}
+* [Adobe Developer App Builder ドキュメント &#x200B;](https://developer.adobe.com/app-builder/docs/overview/){target="_blank"}
+* [Adobe Developer App Builder フォーラム &#x200B;](https://experienceleaguecommunities.adobe.com/t5/project-firefly/ct-p/project-firefly){target="_blank"}
+* [Adobe Developer App Builderの投稿ガイドライン &#x200B;](https://developer.adobe.com/app-builder/docs/guides/contribution_guides/){target="_blank"}
 
 {{$include /help/_includes/app-builder-first-app-related-links.md}}

@@ -32,4 +32,4 @@ ht-degree: 0%
 
 ## 役に立つリソース
 
-[PWA Studio ガイド - Venia の設定 ](https://developer.adobe.com/commerce/pwa-studio/tutorials/setup-storefront/)
+[PWA Studio ガイド - Venia の設定 &#x200B;](https://developer.adobe.com/commerce/pwa-studio/tutorials/setup-storefront/)

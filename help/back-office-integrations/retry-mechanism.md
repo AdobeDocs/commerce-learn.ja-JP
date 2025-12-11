@@ -45,5 +45,5 @@ ht-degree: 0%
 
 ## 関連ドキュメント
 
-* [Webhook がイベントを処理できません ](https://developer.adobe.com/events/docs/support/faq/#what-happens-if-my-webhook-is-unable-to-handle-a-specific-event-but-handles-all-other-events-gracefully)
-* [Webhook がダウンし、不安定としてマークされる ](https://developer.adobe.com/events/docs/support/faq/#what-happens-if-my-webhook-is-down-why-is-my-event-registration-marked-as-unstable)
+* [Webhook がイベントを処理できません &#x200B;](https://developer.adobe.com/events/docs/support/faq/#what-happens-if-my-webhook-is-unable-to-handle-a-specific-event-but-handles-all-other-events-gracefully)
+* [Webhook がダウンし、不安定としてマークされる &#x200B;](https://developer.adobe.com/events/docs/support/faq/#what-happens-if-my-webhook-is-down-why-is-my-event-registration-marked-as-unstable)

@@ -23,7 +23,7 @@ ht-degree: 0%
 # Adobe I/O Runtime CLI とメッシュプラグインのインストール
 
 Adobe Developer App Builderの API メッシュの使用を開始する前に、`aio` CLI と API メッシュプラグインをインストールする必要があります。
-インストール手順と前提条件については、API メッシュ [ はじめに ](https://developer.adobe.com/graphql-mesh-gateway/gateway/getting-started/){target="_blank"} ページを参照してください。
+インストール手順と前提条件については、API メッシュ [&#x200B; はじめに &#x200B;](https://developer.adobe.com/graphql-mesh-gateway/gateway/getting-started/){target="_blank"} ページを参照してください。
 
 ## このビデオの目的は誰ですか。
 

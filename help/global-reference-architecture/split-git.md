@@ -25,7 +25,7 @@ ht-degree: 0%
 
 この分割 Git GRA パターンには、開発用に 2 つの Git リポジトリと、Adobe Commerce インスタンスごとに 1 つの Git リポジトリが含まれます。 この例では、各インスタンスが一意のブランドを表すと想定しています。
 
-![ 分割 GRA パターン内のどこにコードが格納されているかを示す図 ](/help/assets/global-reference-architecture/split-git-gra-pattern-diagram.png){align="center"}
+![&#x200B; 分割 GRA パターン内のどこにコードが格納されているかを示す図 &#x200B;](/help/assets/global-reference-architecture/split-git-gra-pattern-diagram.png){align="center"}
 
 ## このパターンの長所と短所
 
