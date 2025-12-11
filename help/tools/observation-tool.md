@@ -33,5 +33,5 @@ ht-degree: 0%
 
 ## その他のリソース
 
-- [Adobe Commerceの監視 – サポート記事 &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/observation/observation-adobe-commerce-overview.html?)
-- [Adobe Commerceの監視を使用 &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/tools/observation-for-adobe-commerce/intro.html)
+- [Adobe Commerceの監視 – サポート記事 &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/observation/observation-adobe-commerce-overview.html?lang=ja&)
+- [Adobe Commerceの監視を使用 &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/tools/observation-for-adobe-commerce/intro.html?lang=ja)

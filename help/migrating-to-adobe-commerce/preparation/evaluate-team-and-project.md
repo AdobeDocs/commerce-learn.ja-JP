@@ -40,4 +40,4 @@ Adobe Commerceに移行する際は、チームとプロジェクトを徹底的
 
 ## 関連ドキュメント
 
-[Adobe Commerceとは &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-admin/start/about)
+[Adobe Commerceとは &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-admin/start/about)
