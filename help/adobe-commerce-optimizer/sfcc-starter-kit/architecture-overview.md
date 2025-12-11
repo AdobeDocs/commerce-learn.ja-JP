@@ -33,4 +33,4 @@ Adobe Commerce Cloud（SFCC）とCommerce Optimizer App Builderを統合したSa
 * カスタム SFCC カートリッジおよび API は、差分エクスポートによってカタログの変更を検出し、Adobe App Builderとの効率的なデータ同期を可能にします。
 * App Builder ランタイムアクションは、Commerce Optimizerに対する完全な同期、差分の検証、状態のトラッキングを管理し、競合のない正確な更新を確実に行います。
 
->[!VIDEO](https://video.tv.adobe.com/v/3476046?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3476052?captions=jpn&learn=on)

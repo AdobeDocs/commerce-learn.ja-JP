@@ -39,7 +39,7 @@ ht-degree: 0%
 
 これらのパッチは、安定性とパフォーマンスを向上させるため、Adobe Developers Magento Open Source コミュニティによって開発されています。 今後のアップグレードが複雑になる可能性があるので、多数のパッチを適用する場合はお勧めしません。
 
->[!VIDEO](https://video.tv.adobe.com/v/3431436?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3454068?captions=jpn&learn=on)
 
 ## クオリティパッチツールを使用する理由
 

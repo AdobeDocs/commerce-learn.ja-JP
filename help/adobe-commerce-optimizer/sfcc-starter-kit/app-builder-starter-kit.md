@@ -34,4 +34,4 @@ Adobe Commerce Optimizerを使用したSalesforce Commerce Cloud用App Builder �
 * App Builder スターターキットのクローンを作成し、Adobe IO CLI を使用して環境ファイルを設定します。
 * アプリをデプロイし、ワークスペースでアクションとイベントが正常に登録されたことを確認します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3476070?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3476083?captions=jpn&learn=on)

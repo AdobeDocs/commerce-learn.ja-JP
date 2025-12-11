@@ -37,7 +37,7 @@ Adobe Commerceを外部システムと統合し、Adobe Commerce統合スター�
 * スクリプトを実行して、イベントプロバイダーとサブスクリプションを作成および設定します。
 * CommerceとApp Builderのイベントを同期用に更新します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3431690?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3452770?captions=jpn&learn=on)
 
 {{$include /help/_includes/starter-kit-related-links.md}}
 

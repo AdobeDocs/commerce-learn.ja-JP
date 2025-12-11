@@ -34,7 +34,7 @@ Adobe Commerceからイベントを使用するAdobe Developer App Builder プ�
 * Adobe Developer Consoleの使用
 * Adobe I/Oの使用
 
->[!VIDEO](https://video.tv.adobe.com/v/3415797?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3419807?captions=jpn&quality=12&learn=on)
 
 ## 便利なコマンド {#useful-commands}
 

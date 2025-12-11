@@ -36,7 +36,7 @@ Adobe Developer App Builderで使用できるAdobe Commerceの条件付きイベ
 * 条件付きイベントで使用するルールの定義
 * Commerce インスタンスでイベントを登録する方法を説明します `app/etc/config.php`
 
->[!VIDEO](https://video.tv.adobe.com/v/3415806?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3419801?captions=jpn&quality=12&learn=on)
 
 ## 便利なコマンド {#useful-commands}
 

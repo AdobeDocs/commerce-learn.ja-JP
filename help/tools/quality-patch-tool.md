@@ -35,7 +35,7 @@ Adobe Commerce サポートチームとMagento Open Source コミュニティが
 
 ## ビデオコンテンツ
 
->[!VIDEO](https://video.tv.adobe.com/v/344000?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410785?captions=jpn&quality=12&learn=on)
 
 ## その他のリソース
 

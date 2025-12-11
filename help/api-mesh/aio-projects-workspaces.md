@@ -37,7 +37,7 @@ ht-degree: 0%
 * CLI での選択した組織、プロジェクト、またはワークスペースの変更
 * 単純な API メッシュコマンドのテスト
 
->[!VIDEO](https://video.tv.adobe.com/v/3414123?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3419740?captions=jpn&quality=12&learn=on)
 
 ## Adobe Developer Consoleについて
 

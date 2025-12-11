@@ -35,7 +35,7 @@ Composer for version 2.4.6 を使用してAdobe Commerceに複数の新しいモ
 * Adobe Commerce Cloud 用に実行するコマンド
 * Adobe Commerce Cloud yaml の必須編集
 
->[!VIDEO](https://video.tv.adobe.com/v/3415795?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3419813?captions=jpn&quality=12&learn=on)
 
 ## 便利なコマンド {#useful-commands}
 

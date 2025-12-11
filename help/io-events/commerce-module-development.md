@@ -36,7 +36,7 @@ ht-degree: 0%
 * Commerce インスタンスでイベントを登録する方法を説明します `app/etc/config.php`
 * イベントの配信停止について説明します
 
->[!VIDEO](https://video.tv.adobe.com/v/3415802?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3419837?captions=jpn&quality=12&learn=on)
 
 ## 便利なコマンド {#useful-commands}
 

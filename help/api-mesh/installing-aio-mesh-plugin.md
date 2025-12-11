@@ -35,7 +35,7 @@ Adobe Developer App Builderの API メッシュの使用を開始する前に、
 * Adobe I/O Runtime CLI （コマンドラインインターフェイス）のインストール
 * API メッシュプラグインのインストール
 
->[!VIDEO](https://video.tv.adobe.com/v/3414122?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3419795?captions=jpn&quality=12&learn=on)
 
 ## `aio` CLI および API メッシュプラグインのインストール
 

@@ -35,7 +35,7 @@ ht-degree: 0%
 * Commerce admin への一意の ID の保存
 * イベントプロバイダーの作成
 
->[!VIDEO](https://video.tv.adobe.com/v/3415799?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3419715?captions=jpn&quality=12&learn=on)
 
 ## 便利なコマンド {#useful-commands}
 

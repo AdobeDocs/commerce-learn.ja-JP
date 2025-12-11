@@ -33,7 +33,7 @@ ht-degree: 0%
 * 他の開発者への接続方法
 * クローズコメント
 
->[!VIDEO](https://video.tv.adobe.com/v/3416741?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3421075?captions=jpn&quality=12&learn=on)
 
 ## その他のApp Builder リソース
 

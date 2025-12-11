@@ -35,7 +35,7 @@ ht-degree: 0%
 * 名前の競合、スキーマの可用性、その他のスキーマ構文の問題などのエラーのトラブルシューティング方法
 * 変更した設定でメッシュを更新する
 
->[!VIDEO](https://video.tv.adobe.com/v/3414125?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3419789?captions=jpn&quality=12&learn=on)
 
 ## Json 設定ファイルを作成します。
 

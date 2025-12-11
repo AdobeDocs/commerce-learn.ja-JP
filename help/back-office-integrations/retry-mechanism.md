@@ -39,7 +39,7 @@ ht-degree: 0%
 * 失敗したイベントの警告アイコンや再試行したイベントの循環矢印アイコンなど、開発者コンソールの視覚的な指標。
 * 「コンシューマー」ランタイムアクションは、イベント処理に適した HTTP 応答ステータスコードを決定する上で重要な役割を果たします。
 
->[!VIDEO](https://video.tv.adobe.com/v/3431695?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3449074?captions=jpn&learn=on)
 
 {{$include /help/_includes/starter-kit-related-links.md}}
 
