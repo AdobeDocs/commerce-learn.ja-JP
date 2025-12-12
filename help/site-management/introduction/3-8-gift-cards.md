@@ -37,12 +37,12 @@ feature: Configuration, System, Catalogs, Shopping Cart
 
 >[!NOTE]
 >
->このビデオの内容は、2.3.1 リリースを反映しています。 以降のリリースのアップデートについて詳しくは、[&#x200B; リリースノート &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/overview.html) を参照してください。
+>このビデオの内容は、2.3.1 リリースを反映しています。 以降のリリースのアップデートについて詳しくは、[&#x200B; リリースノート &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/overview.html?lang=ja) を参照してください。
 
 >[!VIDEO](https://video.tv.adobe.com/v/35959?quality=12&learn=on)
 
 ## その他のリソース
 
-[&#x200B; ギフトカード製品 –  [!DNL Commerce]  カタログ管理ガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/types/product-gift-card-create.html)
-[&#x200B; ギフトカードの購入および償還 –  [!DNL Commerce]  店舗および購入体験ガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/point-of-purchase/gift-cards/product-gift-card-workflow.html)
+[&#x200B; ギフトカード製品 –  [!DNL Commerce]  カタログ管理ガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/types/product-gift-card-create.html?lang=ja)
+[&#x200B; ギフトカードの購入および償還 –  [!DNL Commerce]  店舗および購入体験ガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/point-of-purchase/gift-cards/product-gift-card-workflow.html?lang=ja)
 

@@ -36,12 +36,12 @@ feature: Configuration, System, Catalogs
 
 >[!NOTE]
 >
->このビデオの内容は、2.3.1 リリースを反映しています。 以降のリリースのアップデートについて詳しくは、[&#x200B; リリースノート &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/overview.html) を参照してください。
+>このビデオの内容は、2.3.1 リリースを反映しています。 以降のリリースのアップデートについて詳しくは、[&#x200B; リリースノート &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/overview.html?lang=ja) を参照してください。
 
 >[!VIDEO](https://video.tv.adobe.com/v/35958?quality=12&learn=on)
 
 ## その他のリソース
 
-[&#x200B; インポート - [!DNL Commerce]  管理システムガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/systems/data-transfer/data-import.html)
+[&#x200B; インポート - [!DNL Commerce]  管理システムガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/systems/data-transfer/data-import.html?lang=ja)
 
-[Export - [!DNL Commerce] Admin Systems Guide](https://experienceleague.adobe.com/docs/commerce-admin/systems/data-transfer/data-export.html)
+[Export - [!DNL Commerce] Admin Systems Guide](https://experienceleague.adobe.com/docs/commerce-admin/systems/data-transfer/data-export.html?lang=ja)
