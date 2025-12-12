@@ -39,7 +39,7 @@ feature: Configuration, System, Catalogs, Shopping Cart
 >
 >このビデオの内容は、2.3.1 リリースを反映しています。 以降のリリースのアップデートについて詳しくは、[&#x200B; リリースノート &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/overview.html?lang=ja) を参照してください。
 
->[!VIDEO](https://video.tv.adobe.com/v/35959?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/329961?captions=jpn&quality=12&learn=on)
 
 ## その他のリソース
 

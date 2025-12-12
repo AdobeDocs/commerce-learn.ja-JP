@@ -33,7 +33,7 @@ feature: Configuration, System, Catalogs, Site Navigation
 
 ## ビデオコンテンツ
 
->[!VIDEO](https://video.tv.adobe.com/v/35950?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/330025?captions=jpn&quality=12&learn=on)
 
 ## その他のリソース
 
