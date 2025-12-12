@@ -3,19 +3,19 @@ title: コードの凍結
 description: Adobe Commerceの移行中にコードフリーズを実装することの重要性を説明します。 QA、テストおよび検証のベストプラクティスに従って、安定性、信頼性およびローンチ成功を確保します。
 feature: Best Practices
 topic: Commerce, Development
-role: Architect
+role: Developer
 level: Beginner
 doc-type: Tutorial
 duration: 199
 last-substantial-update: 2024-10-02T00:00:00Z
 jira: KT-15993
-source-git-commit: 00b97157e20778d1eeaa30236b9d340cccaf3a38
+exl-id: dc1d609f-af81-44ea-b0f0-f48ed6fc8d47
+source-git-commit: f8944c35f90deb00a80e0b20ad5557f4b0a3b472
 workflow-type: tm+mt
 source-wordcount: '228'
 ht-degree: 0%
 
 ---
-
 
 # Adobe Commerceへの移行 – コードの凍結
 
