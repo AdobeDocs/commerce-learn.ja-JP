@@ -39,4 +39,4 @@ Adobe Commerceでの可観測性のライブデモをご覧ください。 こ�
 
 ## 関連ドキュメント
 
-* [ 可観測性の概要 ](https://developer.adobe.com/commerce/extensibility/observability/){target="_blank"}
+* [&#x200B; 可観測性の概要 &#x200B;](https://developer.adobe.com/commerce/extensibility/observability/){target="_blank"}
