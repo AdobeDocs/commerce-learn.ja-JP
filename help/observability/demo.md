@@ -33,7 +33,7 @@ Adobe Commerceでの可観測性のライブデモをご覧ください。 こ�
 * トレーサビリティのために、Webhook とイベントの相関関係を説明します
 * ログとトレースについて Grafana およびNew Relicとの統合を示します
 
->[!VIDEO](https://video.tv.adobe.com/v/3477867?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3477868?captions=jpn&learn=on&enablevpops)
 
 {{$include /help/_includes/app-builder-observability-related-links.md}}
 
