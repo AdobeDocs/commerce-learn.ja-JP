@@ -33,7 +33,7 @@ ht-degree: 0%
 * 一元的な監視機能が重要です。すべてのコンポーネントにわたってログと指標を関連付けます。
 * チェックアウトパフォーマンスの向上：ボトルネックを迅速に特定して、買い物をスムーズに行います。
 
->[!VIDEO](https://video.tv.adobe.com/v/3478286?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3478289?captions=jpn&learn=on&enablevpops)
 
 {{$include /help/_includes/app-builder-observability-related-links.md}}
 

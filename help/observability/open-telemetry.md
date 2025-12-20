@@ -33,7 +33,7 @@ Open Telemetry が、単一の監視ツールにロックされることなく�
 * ログ、トレース、指標を関連づけ、根本原因の解析を迅速化
 * データストリームを統合しながら既存の監視ツールを維持
 
->[!VIDEO](https://video.tv.adobe.com/v/3478287?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3478324?captions=jpn&learn=on&enablevpops)
 
 {{$include /help/_includes/app-builder-observability-related-links.md}}
 
