@@ -10,7 +10,7 @@ role: Admin, User
 level: Beginner, Intermediate
 jira: KT-17151
 exl-id: a2a65242-9510-447d-8e35-4b9698ddd7b2
-source-git-commit: 90752025ab3bc5650f871d6a12d907bfa5d22134
+source-git-commit: f992a1c30652b41568d5cc8a45994047e9807fa7
 workflow-type: tm+mt
 source-wordcount: '75'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 # [!DNL Live Search] の概要
 
-Adobe Commerceの [!DNL Live Search] について簡単に説明します。 Adobe Senseiを活用した [!DNL Live Search] は、人工知能と機械学習アルゴリズムを使用して、集計された訪問者データのディープ分析を実行します。
+Adobe Commerceの [!DNL Live Search] について簡単に説明します。 Adobe AI を活用した [!DNL Live Search] は、人工知能と機械学習アルゴリズムを使用して、集計された訪問者データの深層分析を行います。
 
 {{ee-feature}}
 
@@ -30,12 +30,12 @@ Adobe Commerceの [!DNL Live Search] について簡単に説明します。 Ado
 
 ## ビデオコンテンツ
 
->[!VIDEO](https://video.tv.adobe.com/v/3452570?learn=on&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3418797?learn=on)
 
 
 ## その他のリソース
 
-- [Live Search の完全なデモ &#x200B;](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/getting-started/capabilities/live-search-full-demonstration.html?lang=ja){target="_blank"}
-- [[!DNL Live Search]  お勧め用 &#x200B;](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/marketing/live-search-recommendations.html?lang=ja){target="_blank"}
-- [[!DNL Live Search]  概要 &#x200B;](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html?lang=ja){target="_blank"}
-- [Commerce サービスコネクタ &#x200B;](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html?lang=ja){target="_blank"}
+- [Live Search の完全なデモ ](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/getting-started/capabilities/live-search-full-demonstration.html){target="_blank"}
+- [[!DNL Live Search]  お勧め用 ](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/marketing/live-search-recommendations.html){target="_blank"}
+- [[!DNL Live Search]  概要 ](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html){target="_blank"}
+- [Commerce サービスコネクタ ](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html){target="_blank"}
