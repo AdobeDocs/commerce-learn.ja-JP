@@ -30,7 +30,7 @@ Adobe Commerceの [!DNL Live Search] について簡単に説明します。 Ado
 
 ## ビデオコンテンツ
 
->[!VIDEO](https://video.tv.adobe.com/v/3418797?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3452570?captions=jpn&learn=on)
 
 
 ## その他のリソース
