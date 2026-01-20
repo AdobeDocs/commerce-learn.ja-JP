@@ -37,5 +37,5 @@ ht-degree: 0%
 
 ## その他のリソース
 
-- [&#x200B; 製品レコメンデーションガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/overview.html){target="_blank"}
-- [Commerce サービスコネクタ &#x200B;](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html){target="_blank"}
+- [&#x200B; 製品レコメンデーションガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/overview.html?lang=ja){target="_blank"}
+- [Commerce サービスコネクタ &#x200B;](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html?lang=ja){target="_blank"}
