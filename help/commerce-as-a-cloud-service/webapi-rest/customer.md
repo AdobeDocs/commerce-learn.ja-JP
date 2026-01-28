@@ -36,7 +36,7 @@ Adobe Commerce as a Cloud Serviceで新しいお客様の REST API を使用す�
 
 ## コードサンプル
 
-開始する前に、[Experience Cloudと ](https://experience.adobe.com)2}Adobe Developer Console} から必要なすべての値を収集し [ す。 ](https://developer.adobe.com/console)これらの値を準備しておくと、セットアッププロセスをスムーズに実行できます。
+開始する前に、[Experience Cloudと &#x200B;](https://experience.adobe.com)2&rbrace;Adobe Developer Console&rbrace; から必要なすべての値を収集し [&#x200B; す。 &#x200B;](https://developer.adobe.com/console)これらの値を準備しておくと、セットアッププロセスをスムーズに実行できます。
 
 >[!NOTE]
 >
@@ -244,6 +244,6 @@ curl -s -X PUT \
 
 ## 参照
 
-* [Adobe Commerce as a Cloud Service リリースノート ](https://experienceleague.adobe.com/en/docs/commerce/cloud-service/release-notes)
-* [SaaS REST API リファレンス ](https://developer.adobe.com/commerce/webapi/reference/rest/saas/)
-* [ ユーザー認証ガイド ](https://developer.adobe.com/commerce/webapi/rest/authentication/user/)
+* [Adobe Commerce as a Cloud Service リリースノート &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/cloud-service/release-notes)
+* [SaaS REST API リファレンス &#x200B;](https://developer.adobe.com/commerce/webapi/reference/rest/saas/)
+* [&#x200B; ユーザー認証ガイド &#x200B;](https://developer.adobe.com/commerce/webapi/rest/authentication/user/)
