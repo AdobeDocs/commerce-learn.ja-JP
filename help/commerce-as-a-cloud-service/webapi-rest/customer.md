@@ -9,15 +9,15 @@ doc-type: Tutorial
 duration: 225
 last-substantial-update: 2026-01-27T00:00:00Z
 jira: KT-20160
-source-git-commit: 9e644b4dac87eeb98c9e97c7a931a460e1ef3b81
+source-git-commit: cb3fecf5f8b23425311dc31ed526b3b9bfe07b45
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '470'
 ht-degree: 0%
 
 ---
 
 
-# ACCS – 新しい顧客 REST API
+# 顧客 REST API
 
 Adobe Commerce as a Cloud Serviceで新しいお客様の REST API を使用する方法を説明します。 このチュートリアルは、API ソリューションを効果的に統合および最適化することを検討しているアーキテクトや開発者に最適です。
 
@@ -32,11 +32,11 @@ Adobe Commerce as a Cloud Serviceで新しいお客様の REST API を使用す�
 * Commerce as a Cloud Serviceに適した REST API エンドポイント形式を使用する
 * 適切な JSON ペイロードを使用した POST リクエストとPUT リクエストを使用して、プログラムでカスタマーアカウントを作成および更新する
 
->[!VIDEO](https://video.tv.adobe.com/v/3479363/?captions=jpn&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3479361/?learn=on&enablevpops)
 
 ## コードサンプル
 
-開始する前に、[Experience Cloudと &#x200B;](https://experience.adobe.com)2&rbrace;Adobe Developer Console&rbrace; から必要なすべての値を収集し [&#x200B; す。 &#x200B;](https://developer.adobe.com/console)これらの値を準備しておくと、セットアッププロセスをスムーズに実行できます。
+開始する前に、[Experience Cloudと ](https://experience.adobe.com)2}Adobe Developer Console} から必要なすべての値を収集し [ す。 ](https://developer.adobe.com/console)これらの値を準備しておくと、セットアッププロセスをスムーズに実行できます。
 
 >[!NOTE]
 >
@@ -244,6 +244,6 @@ curl -s -X PUT \
 
 ## 参照
 
-* [Adobe Commerce as a Cloud Service リリースノート &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce/cloud-service/release-notes)
-* [SaaS REST API リファレンス &#x200B;](https://developer.adobe.com/commerce/webapi/reference/rest/saas/)
-* [&#x200B; ユーザー認証ガイド &#x200B;](https://developer.adobe.com/commerce/webapi/rest/authentication/user/)
+* [Adobe Commerce as a Cloud Service リリースノート ](https://experienceleague.adobe.com/en/docs/commerce/cloud-service/release-notes)
+* [SaaS REST API リファレンス ](https://developer.adobe.com/commerce/webapi/reference/rest/saas/)
+* [ ユーザー認証ガイド ](https://developer.adobe.com/commerce/webapi/rest/authentication/user/)
