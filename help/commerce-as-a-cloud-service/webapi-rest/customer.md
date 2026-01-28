@@ -32,7 +32,7 @@ Adobe Commerce as a Cloud Serviceで新しいお客様の REST API を使用す�
 * Commerce as a Cloud Serviceに適した REST API エンドポイント形式を使用する
 * 適切な JSON ペイロードを使用した POST リクエストとPUT リクエストを使用して、プログラムでカスタマーアカウントを作成および更新する
 
->[!VIDEO](https://video.tv.adobe.com/v/3479361/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3479363/?captions=jpn&learn=on&enablevpops)
 
 ## コードサンプル
 
