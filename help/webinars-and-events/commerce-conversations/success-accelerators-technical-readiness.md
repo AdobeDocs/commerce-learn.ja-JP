@@ -35,4 +35,4 @@ Adobe Commerce Success アクセラレータには、Launch Advisory、アップ
 * 製品の使用状況、パフォーマンス、全体的な採用。
 * 重要なキャンペーンや製品発売に関するガイダンスと 24 時間年中無休のサポート。
 
->[!VIDEO](https://video.tv.adobe.com/v/3457655/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3457656/?captions=jpn&learn=on&enablevpops)

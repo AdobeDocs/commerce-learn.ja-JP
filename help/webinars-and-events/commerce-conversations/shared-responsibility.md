@@ -33,7 +33,7 @@ Adobeとマーチャントが、Adobe Commerce Cloud のセキュリティを維
 * インシデント対応：マーチャントは、セキュリティアラートに迅速に対応する必要があります。セキュリティアラートは、メールや管理者通知などの様々なチャネルから送信されます。
 * ベストプラクティス：Adobeでは、二要素認証の有効化、安全な管理アクセスの設定、最小権限の原則に従うなど、マーチャント向けのベストプラクティスをお勧めします。
 
->[!VIDEO](https://video.tv.adobe.com/v/3458392/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3458393/?captions=jpn&learn=on&enablevpops)
 
 ## その他のドキュメント
 

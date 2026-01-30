@@ -34,4 +34,4 @@ ht-degree: 0%
 * スキルギャップを埋め、戦略的優先事項に合わせるためのマルチセッションデスクサイドコーチング。
 * 製品の適切な導入とベストプラクティスを確保するためのアクセス、権限およびデザインガバナンスの作成。
 
->[!VIDEO](https://video.tv.adobe.com/v/3457657/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3463079/?captions=jpn&learn=on&enablevpops)
