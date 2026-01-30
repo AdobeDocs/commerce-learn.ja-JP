@@ -1,5 +1,5 @@
 ---
-title: Adobe Commerce Optimizerでストアフロントを変える
+title: Adobe Commerce Optimizerの概要
 description: Adobe Commerce Optimizerで高パフォーマンス、トラフィックの増加、シームレスな統合を実現してストアフロントを強化する方法を説明します。
 feature: Saas, Storefront
 topic: Commerce, Performance
@@ -10,9 +10,9 @@ duration: 180
 last-substantial-update: 2025-03-6
 jira: KT-17420
 exl-id: e6a59ee0-3e13-41c0-a189-402bf8554f8e
-source-git-commit: aa80d0af5e08fc9ebf09b09b2dd156d91a87ebc7
+source-git-commit: f10c46f29a138e2d2b6b6c80b24111543db821f7
 workflow-type: tm+mt
-source-wordcount: '150'
+source-wordcount: '148'
 ht-degree: 0%
 
 ---
@@ -33,8 +33,8 @@ Adobe Commerce Optimizerは、オーガニックトラフィックを促進し�
 * 再プラットフォームを必要とせずに、既存の ERP、CRM、OMS などのシステムとシームレスに統合できます。
 * デジタル運用の拡張
 
->[!VIDEO](https://video.tv.adobe.com/v/3450464?learn=on&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3450226?learn=on)
 
 ## その他のリソース
 
-[[!DNL Adobe Commerce Optimizer]  ガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce/optimizer/overview){target="_blank"}
+[[!DNL Adobe Commerce Optimizer]  ガイド ](https://experienceleague.adobe.com/en/docs/commerce/optimizer/overview){target="_blank"}
