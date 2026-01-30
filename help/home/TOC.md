@@ -32,7 +32,7 @@ ht-degree: 3%
    + [複数の Web サイト](../cloud/multiple-websites.md)
    + [Experience Lead のデータとプロモーション](../cloud/experience-lead-data-promoitions.md)
    + [AEM Assets](../cloud/aem-assets.md)
-   + [ 自己ホスト型ソリューションからの移行 ](../cloud/overview.md)
+   + [&#x200B; 自己ホスト型ソリューションからの移行 &#x200B;](../cloud/overview.md)
    + [Fastly を使用してアクセスを制限する](../cloud/limit-website-access-using-fastly.md)
    + 技術的なオンボーディングとハードウェアのハンドオフ {#technical-onboarding-hardware-handoff}
       + [インフラストラクチャと開発のベストプラクティス](../cloud/infrastructure-development-best-practices.md)
@@ -51,18 +51,18 @@ ht-degree: 3%
          + [顧客](../commerce-as-a-cloud-service/webapi-rest/customer.md)
       + 製品概要{#product-overview}
          + [導入](../commerce-as-a-cloud-service/product-overview/introduction.md)
-         + [ 設定エクスペリエンス ](../commerce-as-a-cloud-service/product-overview/setup-experience.md)
-         + [ コンテンツのオーサリング ](../commerce-as-a-cloud-service/product-overview/content-authoring.md)
-         + [ コンテンツのローカライズとスケジュール設定 ](../commerce-as-a-cloud-service/product-overview/localize-and-schedule-content.md)
+         + [&#x200B; 設定エクスペリエンス &#x200B;](../commerce-as-a-cloud-service/product-overview/setup-experience.md)
+         + [&#x200B; コンテンツのオーサリング &#x200B;](../commerce-as-a-cloud-service/product-overview/content-authoring.md)
+         + [&#x200B; コンテンツのローカライズとスケジュール設定 &#x200B;](../commerce-as-a-cloud-service/product-overview/localize-and-schedule-content.md)
          + [GenAI を活用したコンテンツ作成](../commerce-as-a-cloud-service/product-overview/genai-powered-content-creation.md)
-         + [ カタログ管理・マーチャンダイジングサービス ](../commerce-as-a-cloud-service/product-overview/catalog-management-and-merchandising-services.md)
+         + [&#x200B; カタログ管理・マーチャンダイジングサービス &#x200B;](../commerce-as-a-cloud-service/product-overview/catalog-management-and-merchandising-services.md)
          + [Commerce ストアフロントの実験](../commerce-as-a-cloud-service/product-overview/commerce-storefront-experimentation.md)
          + [Commerce ストアフロントの速度](../commerce-as-a-cloud-service/product-overview/commerce-storefront-speed.md)
          + [コマースストアフロントのフルショッパージャーニー](../commerce-as-a-cloud-service/product-overview/commerce-storefront-full-shopper-journey.md)
          + [構成可能なストアフロントおよびモジュール型アーキテクチャ](../commerce-as-a-cloud-service/product-overview/composable-storefront-and-modular-architecture.md)
          + [拡張性](../commerce-as-a-cloud-service/product-overview/extensibility.md)
          + [最新化と移行](../commerce-as-a-cloud-service/product-overview/modernization-and-migration.md)
-         + [ 終了 ](../commerce-as-a-cloud-service/product-overview/closing.md)
+         + [&#x200B; 終了 &#x200B;](../commerce-as-a-cloud-service/product-overview/closing.md)
    + Adobe Commerceへの移行{#migrating-to-adobe-commerce}
       + [概要](../migrating-to-adobe-commerce/overview.md)
       + 準備{#preparation}
@@ -82,11 +82,11 @@ ht-degree: 3%
       + [構成可能なCommerce](../capabilities/what-is-composable-commerce.md)
       + [Quality Patch ツール](../capabilities/quality-patch-tool.md)
    + 製品の作成 {#create-products}
-      + [ シンプルな製品 ](../site-management/create-simple-product.md)
-      + [ 仮想製品 ](../site-management/create-virtual-product.md)
+      + [&#x200B; シンプルな製品 &#x200B;](../site-management/create-simple-product.md)
+      + [&#x200B; 仮想製品 &#x200B;](../site-management/create-virtual-product.md)
       + [ダウンロード可能な製品](../site-management/create-downloadable-product.md)
-      + [ グループ化された製品 ](../site-management/create-grouped-product.md)
-      + [ 設定可能な製品 ](../site-management/create-configurable-product.md)
+      + [&#x200B; グループ化された製品 &#x200B;](../site-management/create-grouped-product.md)
+      + [&#x200B; 設定可能な製品 &#x200B;](../site-management/create-configurable-product.md)
       + [バンドル製品](../site-management/create-bundle-product.md)
       + [ギフトカード製品](../site-management/create-gift-card-product.md)
    + バックオフィス統合スターターキット {#back-office-integration-starter-kit}
@@ -100,7 +100,7 @@ ht-degree: 3%
    + [可観測性の概要](../observability/overview.md)
    + [テレメトリを開く](../observability/open-telemetry.md)
    + [デモのセットアップと設定](../observability/demo-setup-configuration.md)
-   + [ デモ ](../observability/demo.md)
+   + [&#x200B; デモ &#x200B;](../observability/demo.md)
 + グローバル参照アーキテクチャ {#global-reference-architecture-implementation-techniques}
    + [概要](../global-reference-architecture/overview.md)
    + [Git を分割](../global-reference-architecture/split-git.md)
@@ -132,22 +132,22 @@ ht-degree: 3%
    + [App Builderの拡張フレームワーク](../app-builder/extensibility-framework-commerce-eventing.md)
    + 最初の App Builder アプリを作成 {#first-app}
       + [概要](../app-builder/first-app/overview.md)
-      + [.env ファイルの生成と設定 ](../app-builder/first-app/env-file.md)
-      + [app.config.yaml ファイルの説明と使用方法 ](../app-builder/first-app/app-config-yaml-file.md)
+      + [.env ファイルの生成と設定 &#x200B;](../app-builder/first-app/env-file.md)
+      + [app.config.yaml ファイルの説明と使用方法 &#x200B;](../app-builder/first-app/app-config-yaml-file.md)
       + [アクションフォルダーについて説明します](../app-builder/first-app/actions-folder.md)
       + [テストフォルダーの詳細](../app-builder/first-app/test-folder.md)
       + [web-src フォルダーの目的を確認する](../app-builder/first-app/web-src-folder.md)
       + [ローカルテスト](../app-builder/first-app/testing-locally.md)
       + [App Builder URL を使用したテスト](../app-builder/first-app/testing-app-builder-url.md)
       + [まとめ](../app-builder/first-app/conclusion.md)
-      + [ サンプルモジュールソースコード ](https://github.com/magento/app-builder-samples){target="_blank"}
+      + [&#x200B; サンプルモジュールソースコード](https://github.com/magento/app-builder-samples){target="_blank"}
    + Adobe Commerceの IO イベント {#io-events}
       + [入門 IO イベント](../io-events/getting-started-io-events.md)
       + [Adobe Commerce 2.4.5 のインストール](../io-events/2-4-5-installation.md)
       + [Adobe Commerce 2.4.6 のインストール](../io-events/2-4-6-installation.md)
-      + [App Builder プロジェクトの作成 ](../io-events/create-app-builder-project.md)
+      + [App Builder プロジェクトの作成 &#x200B;](../io-events/create-app-builder-project.md)
       + [Adobe Commerceの設定](../io-events/configure-commerce.md)
-      + [Adobe Commerce モジュールの開発 ](../io-events/commerce-module-development.md)
+      + [Adobe Commerce モジュールの開発 &#x200B;](../io-events/commerce-module-development.md)
       + [Adobe Commerce条件付きイベント](../io-events/conditional-events.md)
 + API メッシュ {#api-mesh}
    + [GitHub コードスペースを使用した API メッシュのスターターキット](../api-mesh/starter-kit-github-codespaces.md)
@@ -199,7 +199,7 @@ ht-degree: 3%
    + [関連製品ルールの管理](../site-management/related-product-rules.md)
    + [製品レコメンデーションの設定](../site-management/product-recommendations.md)
    + [Live Search の概要](../site-management/live-search.md)
-   + [ レコメンデーションの Live Search](../site-management/live-search-recommendations.md)
+   + [&#x200B; レコメンデーションの Live Search](../site-management/live-search-recommendations.md)
    + [CommerceとAJOの統合](../site-management/integrate-commerce-ajo.md)
 + 注文とフルフィルメント {#orders}
    + [注文ステータスの管理](../orders-and-fulfillment/order-status.md)
@@ -233,13 +233,13 @@ ht-degree: 3%
    + [フィルターセット](../business-intelligence/filter-sets.md)
    + [コホートReport Builder](../business-intelligence/cohort-report-builder.md)
    + [SQL REPORT BUILDER](../business-intelligence/sql-report-builder.md)
-   + [ 未来に備えて ](../business-intelligence/prepare-for-future.md)
+   + [&#x200B; 未来に備えて &#x200B;](../business-intelligence/prepare-for-future.md)
 + Commerce アップグレード {#upgrade}
    + [Adobe Commerce 2.4 アップグレードワークショップ](../upgrade/2-4-upgrade-workshop.md)
    + [互換性アップグレードツールの概要](../upgrade/upgrade-compatibility-tool-overview.md)
    + [PHP Storm でのアップグレード互換性ツールの使用](../upgrade/uct-phpstorm.md)
 + バックエンド開発 {#backend-development}
-   + [ データベーステーブルを変更する際のベストプラクティス ](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables.html)
+   + [&#x200B; データベーステーブルを変更する際のベストプラクティス &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables.html)
    + [モジュールの作成](../backend-development/create-module.md)
    + [製品属性の追加](../backend-development/add-product-attribute.md)
    + [依存関係の挿入の例](../backend-development/dependency-injection.md)
@@ -259,7 +259,7 @@ ht-degree: 3%
    + [ページを作成](../frontend-development/create-page.md)
 + ヘッドレスアーキテクチャ {#headless-architecture}
    + ヘッドレスの概要 {#introduction-to-headless}
-      + [ ヘッドレスアーキテクチャ – セッション 1](../headless/session-1.md)
+      + [&#x200B; ヘッドレスアーキテクチャ – セッション 1](../headless/session-1.md)
    + PWA Studioについて {#introduction}
       + [1 – 概要](../pwa/introduction/1-overview.md)
       + [2 - PWA Studio ツール](../pwa/introduction/2-pwa-studio-tools.md)

@@ -38,6 +38,6 @@ Adobe Commerceのクラウドネイティブプラットフォームは、完全
 
 ## このシリーズのその他のビデオ
 
-[ 新製品のお知らせ ](./new-product-announcements.md)
-[ スーパーチャージコンバージョン率 ](./supercharge-conversion-rates.md)
-[ トラックの高速拡張 ](fast-track-expansion.md)
+[&#x200B; 新製品のお知らせ &#x200B;](./new-product-announcements.md)
+[&#x200B; スーパーチャージコンバージョン率 &#x200B;](./supercharge-conversion-rates.md)
+[&#x200B; トラックの高速拡張 &#x200B;](fast-track-expansion.md)
