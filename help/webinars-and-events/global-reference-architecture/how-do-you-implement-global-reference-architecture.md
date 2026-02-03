@@ -42,6 +42,6 @@ ht-degree: 0%
 * Global Control Board – 作業対象の機能
 * GRA をモジュール・マーケットプレイスとして利用するための代替概念
 
->[!VIDEO](https://video.tv.adobe.com/v/3424702?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3457209?captions=jpn&learn=on)
 
 {{$include /help/_includes/gra-related-links.md}}

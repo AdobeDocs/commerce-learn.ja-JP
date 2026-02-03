@@ -38,6 +38,6 @@ ht-degree: 0%
 * 要件の収集
 * QA チームを関与させるタイミング
 
->[!VIDEO](https://video.tv.adobe.com/v/3424604?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3456001?captions=jpn&learn=on)
 
 {{$include /help/_includes/gra-related-links.md}}
