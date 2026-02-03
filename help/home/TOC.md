@@ -99,7 +99,7 @@ ht-degree: 3%
 
 + 拡張性 {#extensibility}
    + バックエンド開発 {#backend-development}
-      + [&#x200B; データベーステーブルを変更する際のベストプラクティス &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables.html)
+      + [&#x200B; データベーステーブルを変更する際のベストプラクティス &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables.html?lang=ja)
       + [モジュールの作成](../backend-development/create-module.md)
       + [製品属性の追加](../backend-development/add-product-attribute.md)
       + [依存関係の挿入の例](../backend-development/dependency-injection.md)
