@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce ウェビナーとイベント
 user-guide-description: ウェビナーやイベントを通じてAdobe Commerceについて学びます。
 breadcrumb-title: Adobe Commerce ウェビナーとイベント
-source-git-commit: 7a3cccd690a39fd2a5f84f577102f83e0ba85e09
+source-git-commit: 1a73be30f2ee55c9f767b7b10fd3c47172e4057d
 workflow-type: tm+mt
-source-wordcount: '99'
+source-wordcount: '115'
 ht-degree: 0%
 
 ---
@@ -34,3 +34,8 @@ ht-degree: 0%
    + [成功を促進するツールの導入と有効化](./commerce-conversations/success-accelerators-adoption-and-enablement.md)
    + [Success Accelerators 組織への対応](./commerce-conversations/success-accelerators-organizational-readiness.md)
    + [共有責任](./commerce-conversations/shared-responsibility.md)
++ グローバル参照アーキテクチャ{#global-reference-architecture}
+   + [グローバル参照アーキテクチャ](../global-reference-architecture/what-is-global-reference-architecture.md)
+   + [グローバル参照アーキテクチャの活用](../global-reference-architecture/how-do-you-leverage-global-reference-architecture.md)
+   + [アーキテクトグラ](../global-reference-architecture/how-do-you-architect-global-reference-architecture.md)
+   + [グローバルリファレンスアーキテクチャの実装](../global-reference-architecture/how-do-you-implement-global-reference-architecture.md)
