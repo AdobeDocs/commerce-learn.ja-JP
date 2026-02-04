@@ -10,7 +10,7 @@ duration: 199
 last-substantial-update: 2024-10-02T00:00:00Z
 jira: KT-15993
 exl-id: dc1d609f-af81-44ea-b0f0-f48ed6fc8d47
-source-git-commit: f8944c35f90deb00a80e0b20ad5557f4b0a3b472
+source-git-commit: 79d57d2c04c42a8dc23b5735e72e841b7e51cc63
 workflow-type: tm+mt
 source-wordcount: '228'
 ht-degree: 0%
@@ -18,6 +18,8 @@ ht-degree: 0%
 ---
 
 # Adobe Commerceへの移行 – コードの凍結
+
+{{only-for-on-prem-commerce-cloud}}
 
 Adobe Commerceの移行中にコードフリーズを実装することは、ローンチを安定して成功させるために重要です。 新しいコードのデプロイメントを停止することで、QA チーム、開発者および関係者が静的コードベースで作業できるようになり、信頼性が向上し、欠陥のリスクが軽減されます。 このプロセスには、徹底的なテストと検証、優先度の高いバグへの対処、サイトのすべての側面が期待どおりに機能することの確認が含まれます。 適切に実行されたコードフリーズは、プロジェクト全体に利益をもたらし、直前の問題を防ぎ、Adobe Commerceへのスムーズな移行を確実にします。
 

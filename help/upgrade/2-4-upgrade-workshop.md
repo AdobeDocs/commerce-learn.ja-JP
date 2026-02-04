@@ -14,7 +14,7 @@ old-role: Architect, Developer
 role: Developer
 level: Beginner, Intermediate
 exl-id: fba4a08b-5633-433b-bf87-fa85457e4578
-source-git-commit: afe0ac1781bcfc55ba0e631f492092fd1bf603fc
+source-git-commit: 79d57d2c04c42a8dc23b5735e72e841b7e51cc63
 workflow-type: tm+mt
 source-wordcount: '145'
 ht-degree: 33%
@@ -22,6 +22,8 @@ ht-degree: 33%
 ---
 
 # Adobe Commerce 2.4 アップグレードワークショップ
+
+{{only-for-on-prem-commerce-cloud}}
 
 2.4.4 以降への次のアップグレードを準備する際に従う手順とベストプラクティスについては、録画したウェビナーをご覧ください。
 
@@ -39,10 +41,10 @@ ht-degree: 33%
 
 ## ビデオコンテンツ
 
->[!VIDEO](https://video.tv.adobe.com/v/3432518?captions=jpn&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/340038?quality=12&learn=on)
 
 ## その他のリソース
 
-- [&#x200B; アップグレードガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/overview.html?lang=ja)
-- [&#x200B; リリース済みバージョン &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/release/versions.html?lang=ja)
-- [&#x200B; リリーススケジュール &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html?lang=ja)
+- [ アップグレードガイド ](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/overview.html)
+- [ リリース済みバージョン ](https://experienceleague.adobe.com/docs/commerce-operations/release/versions.html)
+- [ リリーススケジュール ](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html)

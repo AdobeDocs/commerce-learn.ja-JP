@@ -14,7 +14,7 @@ old-role: Architect, Developer
 role: Developer
 level: Beginner, Intermediate
 exl-id: 9b56306c-578b-4c9f-9566-b8c9560d1b1c
-source-git-commit: afe0ac1781bcfc55ba0e631f492092fd1bf603fc
+source-git-commit: 79d57d2c04c42a8dc23b5735e72e841b7e51cc63
 workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 35%
@@ -22,6 +22,8 @@ ht-degree: 35%
 ---
 
 # PHP Storm でのアップグレード互換性ツールの使用
+
+{{only-for-on-prem-commerce-cloud}}
 
 アップグレード互換性ツール（UCT）は、現在のバージョンと対象とするアップグレードバージョンの間の非互換性をわずか数分で分析する、無料のツールです。 PHP Storm プラグインを使用すると、このツールがさらに使いやすくなります。
 
@@ -37,10 +39,10 @@ ht-degree: 35%
 
 ## ビデオコンテンツ
 
->[!VIDEO](https://video.tv.adobe.com/v/344407?captions=jpn&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/340150?quality=12&learn=on)
 
 ## その他のリソース
 
-- [&#x200B; 互換性アップグレードツール &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/upgrade-compatibility-tool/overview.html?lang=ja)
-- [Magento PHP Storm プラグイン &#x200B;](https://plugins.jetbrains.com/plugin/8024-magento-phpstorm)
-- [&#x200B; リリース済みバージョン &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/release/versions.html?lang=ja)
+- [ 互換性アップグレードツール ](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/upgrade-compatibility-tool/overview.html)
+- [Magento PHP Storm プラグイン ](https://plugins.jetbrains.com/plugin/8024-magento-phpstorm)
+- [ リリース済みバージョン ](https://experienceleague.adobe.com/docs/commerce-operations/release/versions.html)

@@ -12,7 +12,7 @@ old-role: Architect, Developer
 role: Developer, User, Leader
 level: Beginner, Intermediate
 exl-id: ac544f77-8f5f-4ad1-92b2-bdf323100c13
-source-git-commit: afe0ac1781bcfc55ba0e631f492092fd1bf603fc
+source-git-commit: 79d57d2c04c42a8dc23b5735e72e841b7e51cc63
 workflow-type: tm+mt
 source-wordcount: '1468'
 ht-degree: 0%
@@ -21,11 +21,13 @@ ht-degree: 0%
 
 # 分割 Git グローバル参照アーキテクチャパターン
 
+{{only-for-on-prem-commerce-cloud}}
+
 このガイドでは、分割 Git グローバルリファレンスアーキテクチャ（GRA）パターンを使用してAdobe Commerceをセットアップする方法について説明します。
 
 この分割 Git GRA パターンには、開発用に 2 つの Git リポジトリと、Adobe Commerce インスタンスごとに 1 つの Git リポジトリが含まれます。 この例では、各インスタンスが一意のブランドを表すと想定しています。
 
-![&#x200B; 分割 GRA パターン内のどこにコードが格納されているかを示す図 &#x200B;](/help/assets/global-reference-architecture/split-git-gra-pattern-diagram.png){align="center"}
+![ 分割 GRA パターン内のどこにコードが格納されているかを示す図 ](/help/assets/global-reference-architecture/split-git-gra-pattern-diagram.png){align="center"}
 
 ## このパターンの長所と短所
 

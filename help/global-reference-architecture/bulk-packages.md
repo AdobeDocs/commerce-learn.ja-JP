@@ -12,7 +12,7 @@ old-role: Architect, Developer
 role: Developer, User, Leader
 level: Beginner, Intermediate
 exl-id: ac63e31e-3047-410a-a6f9-a578b495bd8c
-source-git-commit: afe0ac1781bcfc55ba0e631f492092fd1bf603fc
+source-git-commit: 79d57d2c04c42a8dc23b5735e72e841b7e51cc63
 workflow-type: tm+mt
 source-wordcount: '1172'
 ht-degree: 0%
@@ -21,11 +21,13 @@ ht-degree: 0%
 
 # バルクパッケージのグローバル参照アーキテクチャパターン
 
+{{only-for-on-prem-commerce-cloud}}
+
 このガイドでは、バルクパッケージのグローバルリファレンスアーキテクチャ（GRA）パターンを使用してAdobe Commerceをセットアップする方法について説明します。
 
 バルクパッケージの GRA パターンでは、共通のすべてのカスタマイズをホストする単一の Git リポジトリーが関与します。 この 1 つの Git リポジトリーは、複数のAdobe Commerce モジュールを含む 1 つのコンポーザーパッケージとして Composer を通じて公開されます。
 
-![&#x200B; バルクパッケージの GRA パターン内のどこにコードが格納されているかを示す図 &#x200B;](/help/assets/global-reference-architecture/bulk-gra-pattern-diagram.png){align="center"}
+![ バルクパッケージの GRA パターン内のどこにコードが格納されているかを示す図 ](/help/assets/global-reference-architecture/bulk-gra-pattern-diagram.png){align="center"}
 
 ## このパターンの長所と短所
 

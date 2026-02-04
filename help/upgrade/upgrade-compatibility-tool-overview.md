@@ -14,7 +14,7 @@ old-role: Architect, Developer
 role: Developer, Admin
 level: Beginner, Intermediate
 exl-id: 93a59d1c-54a8-4efe-bf98-9d65389bfb27
-source-git-commit: afe0ac1781bcfc55ba0e631f492092fd1bf603fc
+source-git-commit: 79d57d2c04c42a8dc23b5735e72e841b7e51cc63
 workflow-type: tm+mt
 source-wordcount: '206'
 ht-degree: 29%
@@ -22,6 +22,8 @@ ht-degree: 29%
 ---
 
 # 互換性アップグレードツールの概要
+
+{{only-for-on-prem-commerce-cloud}}
 
 アップグレード互換性ツール（UCT）は、現在のバージョンと対象とするアップグレードバージョンの間の非互換性をわずか数分で分析する、無料のツールです。 このツールを使用すると、アップグレードプロセスをより速く、より簡単に実行できます。
 
@@ -31,7 +33,7 @@ ht-degree: 29%
 - 新しいAdobe Commerce バージョンへのアップグレードに必要なエラーと修正をすばやく特定する方法を説明します
 - HTMLの結果にアクセスして、モジュールの重大度と非互換性の数で視覚化する方法
 
-このツールについて詳しくは、[&#x200B; 互換性アップグレードツールのドキュメント &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/upgrade-compatibility-tool/overview.html?lang=ja) を参照してください。 アップグレードの実行とシンプル化について詳しくは、『アップグレードガイド [&#x200B; を参照してください &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/overview.html?lang=ja)。
+このツールについて詳しくは、[ 互換性アップグレードツールのドキュメント ](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/upgrade-compatibility-tool/overview.html?lang=en) を参照してください。 アップグレードの実行とシンプル化について詳しくは、『アップグレードガイド [ を参照してください ](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/overview.html)。
 
 ## このビデオの目的は誰ですか。
 
@@ -40,11 +42,11 @@ ht-degree: 29%
 
 ## ビデオコンテンツ
 
->[!VIDEO](https://video.tv.adobe.com/v/344385?captions=jpn&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/341245?quality=12&learn=on)
 
 ## その他のリソース
 
-- [&#x200B; 互換性アップグレードツールのドキュメント &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/upgrade-compatibility-tool/overview.html?lang=ja)
-- [&#x200B; アップグレードガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/overview.html?lang=ja)
-- [&#x200B; リリース済みバージョン &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/release/versions.html?lang=ja)
-- [&#x200B; リリーススケジュール &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html?lang=ja)
+- [ 互換性アップグレードツールのドキュメント ](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/upgrade-compatibility-tool/overview.html?lang=en)
+- [ アップグレードガイド ](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/overview.html)
+- [ リリース済みバージョン ](https://experienceleague.adobe.com/docs/commerce-operations/release/versions.html)
+- [ リリーススケジュール ](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html)

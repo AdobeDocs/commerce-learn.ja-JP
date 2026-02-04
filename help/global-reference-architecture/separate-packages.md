@@ -12,7 +12,7 @@ old-role: Architect, Developer
 role: Developer, User, Leader
 level: Beginner, Intermediate
 exl-id: cbddc4a3-602f-4208-85cd-b906d2b81f8b
-source-git-commit: afe0ac1781bcfc55ba0e631f492092fd1bf603fc
+source-git-commit: 79d57d2c04c42a8dc23b5735e72e841b7e51cc63
 workflow-type: tm+mt
 source-wordcount: '2101'
 ht-degree: 0%
@@ -21,13 +21,15 @@ ht-degree: 0%
 
 # 個別パッケージのグローバル参照アーキテクチャパターン
 
+{{only-for-on-prem-commerce-cloud}}
+
 このガイドでは、個別パッケージのグローバルリファレンスアーキテクチャ（GRA）パターンを使用してAdobe Commerceをセットアップする方法について説明します。
 
 個別パッケージの GRA パターンには、共通パッケージごとに 1 つの Git リポジトリーと、Adobe Commerce インスタンスごとに 1 つの Git リポジトリーが含まれます。 共通パッケージは、Composer とプライベート Composer リポジトリを通じて公開されます。
 
 このグローバル リファレンス アーキテクチャ パターンは完全に Composer ベースであり、すべての Composer 機能から最大限のメリットを得るように設計されています。
 
-![&#x200B; コードが個別のパッケージ GRA パターンのどこに格納されているかを示す図 &#x200B;](/help/assets/global-reference-architecture/separate-packages-gra-pattern-diagram.png){align="center"}
+![ コードが個別のパッケージ GRA パターンのどこに格納されているかを示す図 ](/help/assets/global-reference-architecture/separate-packages-gra-pattern-diagram.png){align="center"}
 
 ## このパターンの長所と短所
 
@@ -177,7 +179,7 @@ GRA メタパッケージにサードパーティパッケージを追加しま�
 
 composer.json に複数の VCS リポジトリがある場合、速度の問題が発生します。 アップグレードの実行時に各 Composer リポジトリを読み取る必要があり、50 個のパッケージに対して 50 個のリポジトリを持つ場合、1 つの Composer リポジトリのオーバーヘッドの少なくとも 50 倍になります。
 
-![&#x200B; コンポーザリポジトリがない場合に速度が低下する場所を示す図 &#x200B;](/help/assets/global-reference-architecture/separate-packages-without-mirror-diagram.png){align="center"}
+![ コンポーザリポジトリがない場合に速度が低下する場所を示す図 ](/help/assets/global-reference-architecture/separate-packages-without-mirror-diagram.png){align="center"}
 
 Composer ミラーをプライベート Composer リポジトリの形式で組み込みます。 ミラーには、他の Composer リポジトリのすべてのパッケージと、Git がホストするすべてのパッケージのコピーが含まれています。 Composer の非公開リポジトリを使用すると、さらに詳細なアクセス制御が可能になります。
 

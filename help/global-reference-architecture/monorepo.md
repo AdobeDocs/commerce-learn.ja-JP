@@ -12,7 +12,7 @@ old-role: Architect, Developer
 role: Developer, User, Leader
 level: Experienced
 exl-id: ebdc13cf-c452-4728-af00-c3ea1149c2fa
-source-git-commit: afe0ac1781bcfc55ba0e631f492092fd1bf603fc
+source-git-commit: 79d57d2c04c42a8dc23b5735e72e841b7e51cc63
 workflow-type: tm+mt
 source-wordcount: '1371'
 ht-degree: 0%
@@ -21,11 +21,13 @@ ht-degree: 0%
 
 # Monorepo グローバル参照アーキテクチャパターン
 
+{{only-for-on-prem-commerce-cloud}}
+
 このガイドでは、Monorepo グローバルリファレンスアーキテクチャ（GRA）パターンを使用してAdobe Commerceをセットアップする方法について説明します。
 
 Monorepo GRA パターンでは、すべての一般的なカスタマイズをホストする単一の Git リポジトリーが関与します。 この単一の Git リポジトリは、個別の Composer パッケージとして Composer を通じて公開されます。
 
-![&#x200B; モノレポ GRA パターンのどこにコードが格納されているかを示す図 &#x200B;](/help/assets/global-reference-architecture/monorepo-gra-pattern-diagram.png){align="center"}
+![ モノレポ GRA パターンのどこにコードが格納されているかを示す図 ](/help/assets/global-reference-architecture/monorepo-gra-pattern-diagram.png){align="center"}
 
 ## このパターンの長所と短所
 
@@ -288,33 +290,33 @@ bin/magento test:local
 
 自動パッケージ作成を実行するには、複数のオプションがあります。 次のようなオプションがあります。
 
-1. [&#x200B; プライベートパッケージスト &#x200B;](https://packagist.com/)
+1. [ プライベートパッケージスト ](https://packagist.com/)
 1. [Simplyfy Monorepo Builder](https://github.com/symplify/monorepo-builder)
 1. 独自のソリューションの構築
 
 [Private Packagist](https://packagist.com/) は、Git monorepo 内のパッケージの認識を自動化し、Composer を通じて公開します。 Adobe Commerceと互換性があり、迅速でメンテナンスが少なく、エラーが発生しやすいので、このガイドではプライベートパッケージストオプションに重点を置いています。
 
-プライベートパッケージストの設定方法については、このガイドの範囲外です。[&#x200B; ドキュメント &#x200B;](https://packagist.com/docs) を参照してください。
+プライベートパッケージストの設定方法については、このガイドの範囲外です。[ ドキュメント ](https://packagist.com/docs) を参照してください。
 
 組織の同期を設定し、Git リポジトリがプライベートパッケージストと自動的に同期されると、パッケージをモノリポジトリに変換する可能性があります。
 
 まず、「パッケージ」タブに移動し、monorepo を見つけます。
 
-![&#x200B; パッケージ画面に表示される monorepo パッケージを含んだプライベートパッケージストのスクリーンショット &#x200B;](/help/assets/global-reference-architecture/packagist-packages-before-multi-package.png){align="center"}
+![ パッケージ画面に表示される monorepo パッケージを含んだプライベートパッケージストのスクリーンショット ](/help/assets/global-reference-architecture/packagist-packages-before-multi-package.png){align="center"}
 
 monorepo パッケージをクリックし、詳細画面の「編集」をクリックすると、次のページが表示されます。
 
-![monorepo パッケージ編集ページを使用した Private Packagist のスクリーンショット &#x200B;](/help/assets/global-reference-architecture/packagist-packages-edit.png)
+![monorepo パッケージ編集ページを使用した Private Packagist のスクリーンショット ](/help/assets/global-reference-architecture/packagist-packages-edit.png)
 
 最初の入力フィールドの下に、「マルチパッケージリポジトリの作成」というリンクがあります。 このリンクをクリックします。
 
-![&#x200B; マルチパッケージ設定を使用したプライベートパッケージストのスクリーンショット &#x200B;](/help/assets/global-reference-architecture/packagist-packages-multi-package.png)
+![ マルチパッケージ設定を使用したプライベートパッケージストのスクリーンショット ](/help/assets/global-reference-architecture/packagist-packages-multi-package.png)
 
 monorepo 内の composer パッケージの場所を定義します。 この例では、場所は `packages/**/composer.json` です。 プライベートパッケージストが抽出するパッケージを検索する場所を制限または拡張するように場所を変更します。
 
 「パッケージ」タブには、保存後に見つかったすべてのパッケージが表示され、monorepo 自体は Composer パッケージとして表示されなくなります。
 
-![&#x200B; パッケージ画面に表示されるすべての monorepo パッケージを含むプライベートパッケージストのスクリーンショット &#x200B;](/help/assets/global-reference-architecture/packagist-packages-after-multi-package.png)
+![ パッケージ画面に表示されるすべての monorepo パッケージを含むプライベートパッケージストのスクリーンショット ](/help/assets/global-reference-architecture/packagist-packages-after-multi-package.png)
 
 バージョンは、Git の monorepo で作成されたすべてのタグまたはブランチについて、monorepo 内のパッケージごとに Composer で作成されます。
 

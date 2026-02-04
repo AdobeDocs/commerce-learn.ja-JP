@@ -11,7 +11,7 @@ duration: 270
 last-substantial-update: 2024-10-24T00:00:00Z
 jira: KT-16275
 exl-id: 7b521465-db0b-4755-91bd-013368a9fe5e
-source-git-commit: afe0ac1781bcfc55ba0e631f492092fd1bf603fc
+source-git-commit: 79d57d2c04c42a8dc23b5735e72e841b7e51cc63
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 0%
@@ -19,6 +19,8 @@ ht-degree: 0%
 ---
 
 # Adobe Commerceへの移行 – チームとプロジェクトの評価
+
+{{only-for-on-prem-commerce-cloud}}
 
 Adobe Commerceに移行する際は、チームとプロジェクトを徹底的に評価することが重要です。 チームには、プロジェクトマネージャー、QA テスター、開発者、ビジネス関係者、テクニカルリードなどの主要な役割を含める必要があります。 チームの技術的な強みを評価して、プロジェクトの目標と合致していることを確認します。 例えば、JavaScriptとバックエンドの統合に関する強力な背景は、Adobe CommerceとApp Builderを活用するのに最適です。 Java または PHP の使用経験が豊富なチームの場合は、App Builderの部分をAdobe Consulting サービスと提携することを検討してください。
 
@@ -36,8 +38,8 @@ Adobe Commerceに移行する際は、チームとプロジェクトを徹底的
 * フロントエンドとバックエンドの考慮事項について説明します。
 * 既存のモジュールを評価し、コアアプリケーションをアップグレードし、他のAdobe ソリューションと統合することで、スムーズな移行を計画します。
  
->[!VIDEO](https://video.tv.adobe.com/v/3447444/?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3435682/?learn=on)
 
 ## 関連ドキュメント
 
-[Adobe Commerceとは &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-admin/start/about)
+[Adobe Commerceとは ](https://experienceleague.adobe.com/en/docs/commerce-admin/start/about)

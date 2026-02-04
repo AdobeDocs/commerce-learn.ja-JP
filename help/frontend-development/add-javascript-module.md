@@ -9,7 +9,7 @@ topic: Commerce, Development
 role: Admin, Developer, User
 level: Beginner, Intermediate
 exl-id: 5f2984d5-84f7-41d4-99e5-2a2c0ff1b1c7
-source-git-commit: 8465b3cc417d328461c52cf6da07f953c8250dd2
+source-git-commit: 79d57d2c04c42a8dc23b5735e72e841b7e51cc63
 workflow-type: tm+mt
 source-wordcount: '93'
 ht-degree: 0%
@@ -17,6 +17,8 @@ ht-degree: 0%
 ---
 
 # JavaScript モジュールを追加
+
+{{only-for-on-prem-commerce-cloud}}
 
 このビデオでは、「Hello World」という挨拶文を提供するシンプルな JS モジュールを開発するためのウォークスルーを提供します。
 
@@ -38,5 +40,5 @@ ht-degree: 0%
 
 ## 役に立つリソース
 
-- [JavaScript開発者ガイド &#x200B;](https://developer.adobe.com/commerce/frontend-core/javascript/)
-- [JavaScriptの呼び出しと初期化 &#x200B;](https://developer.adobe.com/commerce/frontend-core/javascript/init/)
+- [JavaScript開発者ガイド ](https://developer.adobe.com/commerce/frontend-core/javascript/)
+- [JavaScriptの呼び出しと初期化 ](https://developer.adobe.com/commerce/frontend-core/javascript/init/)
