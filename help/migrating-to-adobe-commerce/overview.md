@@ -36,4 +36,4 @@ ht-degree: 0%
 * Adobe Commerceへ正常に移行するための基本的な手順とベストプラクティスについて説明します。
 * カスタムコード、サードパーティモジュールを評価および最適化し、主要な QA 概念を理解します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3432846/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3444321/?captions=jpn&learn=on)
