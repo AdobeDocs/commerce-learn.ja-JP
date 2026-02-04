@@ -29,7 +29,7 @@ ht-degree: 0%
 
 このグローバル リファレンス アーキテクチャ パターンは完全に Composer ベースであり、すべての Composer 機能から最大限のメリットを得るように設計されています。
 
-![ コードが個別のパッケージ GRA パターンのどこに格納されているかを示す図 ](/help/assets/global-reference-architecture/separate-packages-gra-pattern-diagram.png){align="center"}
+![&#x200B; コードが個別のパッケージ GRA パターンのどこに格納されているかを示す図 &#x200B;](/help/assets/global-reference-architecture/separate-packages-gra-pattern-diagram.png){align="center"}
 
 ## このパターンの長所と短所
 
@@ -179,7 +179,7 @@ GRA メタパッケージにサードパーティパッケージを追加しま�
 
 composer.json に複数の VCS リポジトリがある場合、速度の問題が発生します。 アップグレードの実行時に各 Composer リポジトリを読み取る必要があり、50 個のパッケージに対して 50 個のリポジトリを持つ場合、1 つの Composer リポジトリのオーバーヘッドの少なくとも 50 倍になります。
 
-![ コンポーザリポジトリがない場合に速度が低下する場所を示す図 ](/help/assets/global-reference-architecture/separate-packages-without-mirror-diagram.png){align="center"}
+![&#x200B; コンポーザリポジトリがない場合に速度が低下する場所を示す図 &#x200B;](/help/assets/global-reference-architecture/separate-packages-without-mirror-diagram.png){align="center"}
 
 Composer ミラーをプライベート Composer リポジトリの形式で組み込みます。 ミラーには、他の Composer リポジトリのすべてのパッケージと、Git がホストするすべてのパッケージのコピーが含まれています。 Composer の非公開リポジトリを使用すると、さらに詳細なアクセス制御が可能になります。
 

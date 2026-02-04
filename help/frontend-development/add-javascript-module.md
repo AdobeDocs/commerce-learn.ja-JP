@@ -40,5 +40,5 @@ ht-degree: 0%
 
 ## 役に立つリソース
 
-- [JavaScript開発者ガイド ](https://developer.adobe.com/commerce/frontend-core/javascript/)
-- [JavaScriptの呼び出しと初期化 ](https://developer.adobe.com/commerce/frontend-core/javascript/init/)
+- [JavaScript開発者ガイド &#x200B;](https://developer.adobe.com/commerce/frontend-core/javascript/)
+- [JavaScriptの呼び出しと初期化 &#x200B;](https://developer.adobe.com/commerce/frontend-core/javascript/init/)
