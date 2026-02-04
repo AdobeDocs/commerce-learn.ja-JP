@@ -13,13 +13,13 @@ ht-degree: 0%
 ## EE のみの機能 {#ee-feature}
 
 <table style="border:1px solid red">
-<tr><td><img alt="Adobe Commerce機能" src="../assets/adobe-logo.svg" width="20" height="20" /> Adobe Commerceのみの専用機能（<a href="https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html#product-editions"> 詳細情報 </a>）</td></tr>
+<tr><td><img alt="Adobe Commerce機能" src="../assets/adobe-logo.svg" width="20" height="20" /> Adobe Commerceのみの専用機能（<a href="https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=ja#product-editions"> 詳細情報 </a>）</td></tr>
 </table>
 
 ## B2B のみの機能 {#b2b-feature}
 
 <table style="border:1px solid green">
-<tr><td><img alt="Adobe Commerce機能" src="../assets/b2b.svg" width="20" height="20" /> Adobe Commerceの <a href="https://experienceleague.adobe.com/docs/commerce-admin/b2b/guide-overview.html">B2B でのみ使用できる専用機能 </a></td></tr>
+<tr><td><img alt="Adobe Commerce機能" src="../assets/b2b.svg" width="20" height="20" /> Adobe Commerceの <a href="https://experienceleague.adobe.com/docs/commerce-admin/b2b/guide-overview.html?lang=ja">B2B でのみ使用できる専用機能 </a></td></tr>
 </table>
 
 ## 400 件 {#avoid-400-error}
