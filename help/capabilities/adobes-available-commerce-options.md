@@ -38,6 +38,6 @@ Adobeのコマースオプションについて説明します。 主な機能�
 
 ## 関連ドキュメント
 
-* [Adobe Commerce Cloud](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/overview){target=_blank}
-* [Adobe Commerceas a Cloud Service](https://experienceleague.adobe.com/en/docs/commerce/cloud-service/overview){target="_blank"}
-* [Adobe Commerce Optimizer](https://experienceleague.adobe.com/en/docs/commerce/optimizer/overview){target="_blank"}
+* [Adobe Commerce Cloud](https://experienceleague.adobe.com/ja/docs/commerce-on-cloud/user-guide/overview){target=_blank}
+* [Adobe Commerceas a Cloud Service](https://experienceleague.adobe.com/ja/docs/commerce/cloud-service/overview){target="_blank"}
+* [Adobe Commerce Optimizer](https://experienceleague.adobe.com/ja/docs/commerce/optimizer/overview){target="_blank"}
