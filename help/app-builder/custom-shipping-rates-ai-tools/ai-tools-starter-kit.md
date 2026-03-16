@@ -1,5 +1,5 @@
 ---
-title: AI ツールを使用したカスタム配送料の作成
+title: AI ツールを使用したカスタム配送料の作成 |機能の構築
 description: Adobeの AI ツールを使用して、カスタム配送料を作成し、モック API と安全な設定を使用してチェックアウト機能を拡張する方法を説明します。
 feature: Extensibility
 topic: Artificial Intelligence
@@ -9,15 +9,15 @@ doc-type: Tutorial
 duration: 490
 last-substantial-update: 2026-03-11T00:00:00Z
 jira: KT-20516
-source-git-commit: 2cf5392b7cf21cad9f912f16891cfa550d118d77
+exl-id: 874c8512-a57e-4e0b-882d-be700dcb501b
+source-git-commit: 650cd54d155520f4d2ff89bceefbd529efccc8c3
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '178'
 ht-degree: 0%
 
 ---
 
-
-# AI ツールを使用したカスタム配送料の作成
+# AI ツールを使用したカスタム配送料の作成 – 機能の構築
 
 Adobeの AI を活用したツールを活用して、開発ワークフローを合理化し、チェックアウト機能を拡張する方法を説明します。 このチュートリアルでは、API キーで保護されたモック API を使用して、外部システムからカスタム配送料を統合する方法について説明します。 サービス URL を設定し、セキュリティを管理し、高度なチェックアウト機能を有効にする方法について説明します。 この包括的なガイドでは、要件の収集から実装計画に至るまで、AI がソフトウェア開発を加速する方法を説明します。 詳細なチュートリアルについては、埋め込みビデオをご覧ください。
 
