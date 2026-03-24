@@ -1,38 +1,38 @@
 ---
-title: ウォッチャーを追加および削除し、サポートチケットを閉じて再度開きます
-description: Experience Leagueを使用したウォッチャーの追加と削除、およびサポートチケットを閉じて再度開く
+title: 視聴者を追加および削除し、サポートチケットを閉じて再度開きます
+description: Experience Leagueを使用して視聴者を追加および削除し、サポートチケットを閉じて再度開く
 feature: Customer Service, Support
 topic: Commerce
 role: Admin, Developer, User
 level: Beginner, Intermediate
 doc-type: Technical Video
-duration: 131
+duration: 173
 last-substantial-update: 2024-08-23T00:00:00Z
 jira: KT-16050
 exl-id: 15212a32-5b6b-4b49-8bf7-acc3bf39b6fa
-source-git-commit: 82e4e3e2a922a513c7d45ce3833971bda093a86f
+source-git-commit: b859664f02cf6eac99a551e5f58dff34ca55e37a
 workflow-type: tm+mt
 source-wordcount: '113'
 ht-degree: 0%
 
 ---
 
-# ウォッチャーの追加と削除、チケットのクローズと再オープン
+# ウォッチャーの追加と削除、チケットのクローズと再開
 
-ウォッチャーを追加および削除する方法、Adobe CommerceのExperience League内でサポートチケットを閉じて再度開く方法について説明します。
+Adobe Commerce版Experience League内で視聴者を追加および削除し、サポートチケットを閉じて再度開く方法について説明します。
 
-## このビデオの目的は誰ですか。
+## この動画は誰のためのものでしょうか？
 
-* Adobe CommerceのサポートリクエストをExperience Leagueで管理できるユーザー
+* Experience LeagueでAdobe Commerceのサポートリクエストを管理できる方
 
 ## ビデオコンテンツ {#video-content}
 
-* チケットのウォッチャーを追加および削除する方法を説明します
-* サポートチケットを閉じる方法を学ぶ
+* チケットの視聴者を追加および削除する方法を説明します
+* サポートチケットをクローズする方法を説明します
 * サポートチケットの再開方法を確認する
 
->[!VIDEO](https://video.tv.adobe.com/v/3441350?learn=on&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3433082?learn=on)
 
-## Commerce ナレッジベースヘルプセンターガイド
+## Commerce Knowledge Base ヘルプセンターガイド
 
-[&#x200B; サポートケースの送信 &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case)
+[ サポートケースを送信](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case)

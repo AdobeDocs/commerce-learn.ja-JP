@@ -1,35 +1,35 @@
 ---
-title: Adobe Commerce Cloud Service の概要
-description: Adobe Commerceを使用して、セットアップを簡素化し、パフォーマンスを向上させ、チームが優れたコマースエクスペリエンスを提供できるようにする方法を簡単にまとめます。
+title: Adobe Commerce Cloud Serviceの概要
+description: Adobe Commerceを利用すれば、設定の簡素化、パフォーマンスの向上、優れたコマース体験の提供を実現できます。その方法をご確認ください。
 feature: Admin Workspace, Storefront, Cloud
 topic: Commerce, Performance
 role: Developer, User
 level: Beginner
 doc-type: Technical Video
-duration: 45
+duration: 47
 last-substantial-update: 2026-01-12T00:00:00Z
 jira: KT-20095
-source-git-commit: 22b0ab3d933fc0c517e3b70ca3301751645d1907
+exl-id: ed5829aa-7407-47cc-bf39-de6c7e31a10f
+source-git-commit: b859664f02cf6eac99a551e5f58dff34ca55e37a
 workflow-type: tm+mt
 source-wordcount: '95'
 ht-degree: 0%
 
 ---
 
+# Adobe Commerce Cloud Service クロージング
 
-# Adobe Commerce Cloud Service 終了
+Adobe Commerce as a Cloud Serviceの主な利点をご紹介します。 ACCSが、設定を簡素化し、パフォーマンスを向上させ、優れたデジタルコマース体験を提供するために、どのように役立つのかをご覧ください。
 
-Adobe Commerce as a Cloud Serviceの主なメリットを説明します。 ACCS を使用して、セットアップを簡素化し、パフォーマンスを向上させ、チームが優れたデジタルコマースエクスペリエンスを提供できるようにする方法を説明します。
+## この動画は誰のためのものでしょうか？
 
-## このビデオの目的は誰ですか。
-
-* E コマースマネージャー
-* デジタルマーケティング担当者
+* e コマースマネージャー
+* デジタルマーケティングスペシャリスト
 * ソリューションアーキテクト
 
 ## ビデオコンテンツ
 
-* Adobe Commerceを使用して、最新のストアフロントのセットアップを簡素化し、パフォーマンスを向上させる方法について説明します。
-* ACCS がチームにパフォーマンスの高い、パーソナライズされたコマースエクスペリエンスを提供する方法を説明します。
+* Adobe Commerceが、モダンなストアフロントのセットアップを簡素化し、パフォーマンスを向上させる方法をご確認ください。
+* ACCSが、パフォーマンスに優れ、パーソナライズされたコマース体験を提供するのにどのように役立つのかをご覧ください。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3478801?learn=on)

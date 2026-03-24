@@ -1,35 +1,35 @@
 ---
-title: Edge Deliveryによるストアフロントのパフォーマンスの向上
-description: Adobe CommerceのEdge Delivery アーキテクチャが、改善された SEO とコア web バイタルを使用して、迅速で回復力のあるストアフロントを提供する方法を説明します。
+title: Edge Deliveryでストアフロントのパフォーマンスを向上
+description: Adobe CommerceのEdge Deliveryアーキテクチャが、SEOとCore Web Vitalsを向上させ、迅速かつ回復力の高いストアフロントを提供する方法をご確認ください。
 feature: Cache, Storefront, Best Practices
 topic: Performance, Architecture
 role: Developer, User
 level: Beginner
 doc-type: Technical Video
-duration: 323
+duration: 227
 last-substantial-update: 2026-01-12T00:00:00Z
 jira: KT-20090
-source-git-commit: 86fb1a84f431726e282bd8af664dc668bdb5bc61
+exl-id: 4e8e3760-d42c-46cd-adda-b298e6f487b9
+source-git-commit: b859664f02cf6eac99a551e5f58dff34ca55e37a
 workflow-type: tm+mt
 source-wordcount: '113'
 ht-degree: 0%
 
 ---
 
+# Edge Deliveryでストアフロントのパフォーマンスを向上
 
-# Edge Deliveryによるストアフロントのパフォーマンスの向上
+Edge Delivery Servicesで強化されたAdobe Commerceのストアフロントが、卓越したスピードと回復力をどのように実現するかをご確認ください。 インテリジェントなページレンダリング、永続的なキャッシュ、CDN アーキテクチャにより、Lighthouse スコア、Core Web Vitals、SEOがすぐに向上する方法をご確認ください。
 
-Edge Delivery Servicesを活用したAdobe Commerceのストアフロントで、優れた速度と回復性を実現する方法を説明します。 インテリジェントページレンダリング、永続キャッシュ、CDN アーキテクチャにより、Lighthouse スコア、コア Web バイタル、SEO が標準で改善される仕組みを説明します。
-
-## このビデオの目的は誰ですか。
+## この動画は誰のためのものでしょうか？
 
 * フロントエンド開発者
 * サイトパフォーマンスエンジニア
-* E コマースマネージャー
+* e コマースマネージャー
 
 ## ビデオコンテンツ
 
-* Edge Delivery アーキテクチャを使用して、ストアフロントが Lighthouse で 90 以上のスコアを獲得し、Core Web Vitals を渡す方法を説明します。
-* CDN を利用した配信とキャッシュにより、追加の手間をかけずに SEO、トラフィックおよびコンバージョン率を向上させる方法を説明します。
+* Edge Deliveryのアーキテクチャにより、ストアフロントがLighthouseで90を超えるスコアを獲得し、Core Web Vitalsに合格する方法をご紹介します。
+* CDNを活用した配信とキャッシュが、多くの労力を費やすことなく、SEO、トラフィック、コンバージョン率をどのように向上させるかをご確認ください。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3478796?learn=on)

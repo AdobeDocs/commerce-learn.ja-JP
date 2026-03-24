@@ -1,8 +1,9 @@
 ---
 title: Commerce as a Cloud Serviceのアーキテクチャ
-description: Adobe Commerce as a Cloud Service のアーキテクチャと、拡張性、安全性、柔軟性に優れた e コマースソリューションの主な機能をご確認ください。
+description: Adobe Commerce as a Cloud Serviceのアーキテクチャと、拡張性、安全性、柔軟性に優れたe コマースソリューションの主な機能をご確認ください。
 kt: 17220
 doc-type: Technical Video
+duration: 235
 audience: all
 last-substantial-update: 2025-1-30
 feature: Catalog Management, Catalog Service, Services
@@ -10,7 +11,7 @@ topic: Architecture, Commerce, Headless, Performance
 role: Admin, Leader, User
 level: Beginner
 exl-id: 63450575-b15c-4f26-82ec-36fae5d62127
-source-git-commit: 3336d73e601f55c8be76616c52f087b0a067913e
+source-git-commit: b859664f02cf6eac99a551e5f58dff34ca55e37a
 workflow-type: tm+mt
 source-wordcount: '281'
 ht-degree: 0%
@@ -19,24 +20,24 @@ ht-degree: 0%
 
 # Adobe Commerce as a Cloud Serviceのアーキテクチャ
 
-Adobe Commerce as a cloud service は、コマースアプリケーションを管理するためのセルフサービス機能を備えた、安全な自動ホスティングプラットフォームを提供します。 主な機能には、Adobe Experience Managerによるアセット管理、GraphQLおよび REST API を使用した包括的な API カバレッジ、インテリジェントマーチャンダイジングサービスなどがあります。 このプラットフォームは、完全なヘッドレスアーキテクチャをサポートし、開発者は React やAngularなどの様々なフロントエンドフレームワークを使用できます。 また、ドキュメントベースのオーサリングとネイティブの A/B テストを備えた、最新のヘッドレスストアフロントも提供します。 さらに、Adobe Commerceは、パーソナライズされたコマースエクスペリエンスのためにAdobe Experience Cloudと統合され、Adobe Developer App Builderや API メッシュなどの幅広いツールを開発者向けに提供しています。
+Adobe Commerce as a cloud serviceは、コマースアプリケーションを管理するためのセルフサービス機能を備えた、安全な自動化されたホスティングプラットフォームを提供します。 主な機能には、Adobe Experience Managerによるアセット管理、GraphQLおよびREST APIによる包括的なAPI、インテリジェントなマーチャンダイジングサービスなどがあります。 このプラットフォームは完全なヘッドレスアーキテクチャをサポートしており、開発者はReactやAngularなどのさまざまなフロントエンドフレームワークを使用できます。 また、ドキュメントベースのオーサリングとネイティブのA/B テストを備えた、モダンなヘッドレスストアフロントも提供します。 さらに、Adobe Commerceは、Adobe Experience Cloudと統合してパーソナライズされたコマース体験を実現し、Adobe Developer App BuilderやAPI メッシュなどの開発者向けツールを提供しています。
 
-## 学習内容
+## 学習すること
 
-Adobe Commerce as a cloud service のアーキテクチャと主な機能について説明します。 セキュアホスティング、API カバレッジ、ヘッドレスアーキテクチャ、統合機能などの要素
+Adobe Commerce as a Cloud Serviceのアーキテクチャと主な機能について説明します。 安全なホスティング、API カバレッジ、ヘッドレスアーキテクチャ、統合機能などの要素
 
-## このビデオの目的は誰ですか。
+## この動画は誰のためのものでしょうか？
 
-* E コマースマネージャーはAdobe Commerceの機能を理解する。
-* 開発者は、プラットフォームのアーキテクチャ、API および統合ツールについて学習します。
-* デジタルマーケターは、Adobe Commerceでカスタマーエクスペリエンス（顧客体験）を向上させる方法を模索します。
-* IT 管理者は、クラウドサービスのセキュリティとホスティングの側面を把握する必要があります。
-* プロダクトマネージャーは、プラットフォームが様々なビジネス目標とマーチャンダイジングサービスをどのようにサポートしているかを確認します。
+* e コマースマネージャー：Adobe Commerceの機能と特徴を理解します。
+* 開発者は、プラットフォームのアーキテクチャ、API、統合ツールについて学ぶことができます。
+* デジタルマーケターは、Adobe Commerceがどのように顧客体験を向上させることができるのかを検討します。
+* IT管理者は、クラウドサービスのセキュリティとホスティングの側面を把握できます。
+* プロダクトマネージャー：Adobe Commerceが様々なビジネス目標とマーチャンダイジングサービスをどのようにサポートしているかを確認できます
 
 ## ビデオコンテンツ
 
-* 安全な自動ホスティング：Adobe Commerceは、コマースアプリケーションを管理するためのセルフサービス機能を備えた、安全な自動ホスティングプラットフォームを提供します。
-* 包括的な API 範囲：GraphQL API および REST API を使用した広範な API 範囲をサポートし、サードパーティシステムとのシームレスな統合を可能にします。
-* ヘッドレスアーキテクチャ：完全に分離されたアーキテクチャにより、開発者は様々なフロントエンドフレームワークを使用して、柔軟性とパフォーマンスを提供できます。
+* 安全で自動化されたホスティング：Adobe Commerceは、コマースアプリケーションを管理するためのセルフサービス機能を備えた、安全な自動化されたホスティングプラットフォームを提供します。
+* 包括的なAPI カバレッジ：GraphQLとREST APIを使用した広範なAPI カバレッジをサポートしており、サードパーティシステムとのシームレスな統合を可能にします。
+* ヘッドレスアーキテクチャ：完全に分離されたアーキテクチャにより、開発者はさまざまなフロントエンドフレームワークを使用でき、柔軟性とパフォーマンスを提供します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3443268?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443232?learn=on)

@@ -6,33 +6,33 @@ topic: Commerce
 role: Admin, Developer, User
 level: Beginner, Intermediate
 doc-type: Technical Video
-duration: 186
+duration: 209
 last-substantial-update: 2024-08-23T00:00:00Z
 jira: KT-16049
-source-git-commit: 8a90379998b5540c9fe88dafed14002cd276e926
+exl-id: 15b560bd-29f7-4866-86a4-ef548a5ac953
+source-git-commit: b859664f02cf6eac99a551e5f58dff34ca55e37a
 workflow-type: tm+mt
 source-wordcount: '108'
 ht-degree: 0%
 
 ---
 
-
 # サポートチケットの検索、レビュー、コメント、エスカレーション
 
-Adobe CommerceのExperience League内でサポートチケットを作成、検索、レビュー、コメント、エスカレーションする方法について説明します。
+Experience League Adobe Commerce版でサポートチケットを検索、レビュー、推奨、エスカレーションする方法について説明します。
 
-## このビデオの目的は誰ですか。
+## この動画は誰のためのものでしょうか？
 
-* Adobe CommerceのサポートリクエストをExperience Leagueで管理できるユーザー
+* Experience LeagueでAdobe Commerceのサポートリクエストを管理できる方
 
 ## ビデオコンテンツ {#video-content}
 
-* チケットの検索方法を学ぶ
-* 開いているサポートチケットにコメントを追加する方法を学ぶ
-* サポートチケットをエスカレーションする方法と理由を説明します
+* チケットの検索方法について説明します
+* オープンサポートチケットにコメントを追加する方法を説明します
+* サポートチケットをエスカレーションする方法と理由について説明します
 
->[!VIDEO](https://video.tv.adobe.com/v/3445312?learn=on&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3433076?learn=on)
 
-## Commerce ナレッジベースヘルプセンターガイド
+## Commerce Knowledge Base ヘルプセンターガイド
 
-[&#x200B; サポートケースの送信 &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case)
+[ サポートケースを送信](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case)

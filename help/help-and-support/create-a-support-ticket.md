@@ -1,39 +1,39 @@
 ---
-title: サポートチケットを作成
-description: Experience LeagueでAdobe Commerceのサポートチケットを作成する方法を説明します
+title: サポートチケットの作成
+description: Experience LeagueでAdobe Commerceのサポートチケットを作成する方法について説明します
 feature: Customer Service, Support
 topic: Commerce
 role: Admin, Developer, User
 level: Beginner, Intermediate
 doc-type: Technical Video
-duration: 337
+duration: 355
 last-substantial-update: 2024-08-23T00:00:00Z
 jira: KT-15165
-source-git-commit: 8a90379998b5540c9fe88dafed14002cd276e926
+exl-id: f1ade4e9-f6c3-4498-afad-27c0120242be
+source-git-commit: b859664f02cf6eac99a551e5f58dff34ca55e37a
 workflow-type: tm+mt
 source-wordcount: '129'
 ht-degree: 0%
 
 ---
 
-
 # Experience Leagueを使用したサポートチケットの作成
 
-Adobe CommerceのExperience Leagueでサポートチケットを作成する方法を説明します。
+Experience League for Adobe Commerceでサポートチケットを作成する方法について説明します。
 
-## このビデオの目的は誰ですか。
+## この動画は誰のためのものでしょうか？
 
-* Adobe CommerceのサポートリクエストをExperience Leagueで作成できるユーザー
+* Experience LeagueでAdobe Commerceのサポートリクエストを作成できる方
 
 ## ビデオコンテンツ {#video-content}
 
-* Experience Leagueへのログイン方法を説明します
-* 新しいサポートチケットを作成する際の動的フォーム要素について説明します
-* フォームで使用された情報に応じて、推奨される記事がどのように変化するかを説明します
-* フォームフィールド内のプレースホルダーテキストを理解することは、適切なサポートリクエストに必要な情報の種類を理解するのに役立ちます
+* Experience Leagueへのログイン方法について説明します
+* 新しいサポートチケットを作成する際のダイナミックフォーム要素について説明します
+* フォーム内でどのような情報が使用されたかによって、推奨される記事がどのように変化するかを学習します
+* フォームフィールド内のプレースホルダーテキストを理解すると、適切なサポートリクエストに必要な情報の種類を理解できます
 
->[!VIDEO](https://video.tv.adobe.com/v/3449554?learn=on&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3433065?learn=on)
 
-## Commerce ナレッジベースヘルプセンターガイド
+## Commerce Knowledge Base ヘルプセンターガイド
 
-[&#x200B; サポートケースの送信 &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case)
+[ サポートケースを送信](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case)

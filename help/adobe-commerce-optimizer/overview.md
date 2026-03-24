@@ -1,16 +1,16 @@
 ---
 title: Adobe Commerce Optimizerの概要
-description: Adobe Commerce Optimizerで高パフォーマンス、トラフィックの増加、シームレスな統合を実現してストアフロントを強化する方法を説明します。
+description: Adobe Commerce Optimizerが、高性能、トラフィック増加、シームレスな統合により、ストアフロントを強化する方法をご紹介します。
 feature: Saas, Storefront
 topic: Commerce, Performance
 role: Admin, User
 level: Beginner
 doc-type: Feature Video
-duration: 180
+duration: 242
 last-substantial-update: 2025-03-6
 jira: KT-17420
 exl-id: e6a59ee0-3e13-41c0-a189-402bf8554f8e
-source-git-commit: f10c46f29a138e2d2b6b6c80b24111543db821f7
+source-git-commit: b859664f02cf6eac99a551e5f58dff34ca55e37a
 workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 0%
@@ -19,22 +19,22 @@ ht-degree: 0%
 
 # Adobe Commerce Optimizerの概要
 
-Adobe Commerce Optimizerは、オーガニックトラフィックを促進し、A/B テストなどのマーチャンダイザーツールをサポートする高性能のヘッドレスストアフロントを提供することで、既存のコマースプラットフォームを強化します。 ストアフロントトラフィックとコンバージョン率の向上、マーチャンダイザーの生産性の向上、デジタル運用の拡大、管理の簡素化によるコスト削減とイノベーションの迅速化に重点を置いています。 このソリューションは、既存のシステムとシームレスに統合され、ストアフロント移行サービス、プラグアンドプレイカタログ統合、統合カタログオーケストレーションを提供します。これにより、再統合なしで収益を増やし、ショッピングエクスペリエンスを最適化したいと考えている企業に最適です。
+Adobe Commerce Optimizerは、オーガニックトラフィックを促進し、A/B テストなどのマーチャンダイジングツールをサポートする、高性能なヘッドレスストアフロントを提供することで、既存のコマースプラットフォームを強化します。 ストアフロントのトラフィックとコンバージョン率の向上、マーチャンダイザーの生産性の向上、デジタル業務の拡張、管理の簡素化に重点を置き、コストを削減し、イノベーションを迅速に進めることができます。 このソリューションは、既存のシステムとシームレスに統合され、ストアフロント移行サービス、プラグアンドプレイのカタログ統合、統合されたカタログオーケストレーションなどを提供し、収益を拡大し、リプラットフォームなしでショッピング体験を最適化したい企業に最適です。
 
-## このビデオの目的は誰ですか。
+## この動画は誰のためのものでしょうか？
 
-* Commerce店のオーナー
+* Commerceのストアオーナー
 * ソリューションアーキテクト
-* 経営コンサルタント
+* ビジネスコンサルタント
 
 ## ビデオコンテンツ
 
 * ストアフロントのパフォーマンスを向上
-* 再プラットフォームを必要とせずに、既存の ERP、CRM、OMS などのシステムとシームレスに統合できます。
-* デジタル運用の拡張
+* 既存のERP、CRM、OMSなどのシステムとシームレスに統合できます。リプラットフォームの必要はありません。
+* デジタル業務の拡大
 
->[!VIDEO](https://video.tv.adobe.com/v/3450464?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3450226?learn=on)
 
-## その他のリソース
+## 関連資料
 
-[[!DNL Adobe Commerce Optimizer]  ガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce/optimizer/overview){target="_blank"}
+[[!DNL Adobe Commerce Optimizer]  ガイド ](https://experienceleague.adobe.com/en/docs/commerce/optimizer/overview){target="_blank"}

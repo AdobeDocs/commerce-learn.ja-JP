@@ -1,10 +1,10 @@
 ---
 title: 再試行メカニズムのネイティブ機能の使用
-description: 再試行条件や視覚的な指標など、回復力のあるアプリケーションには、Adobe I/O Eventsの再試行メカニズムを活用します。
-landing-page-description: Adobe I/O Eventsに組み込まれている再試行メカニズムを理解し活用して、アプリケーションの回復性を高め、イベントのアクティベーションを効果的に管理します。
+description: 再試行条件や視覚指標など、回復力の高いアプリケーションに対して、Adobe I/O Eventsの再試行メカニズムを活用します。
+landing-page-description: Adobe I/O Eventsに組み込まれた再試行メカニズムを理解および活用して、アプリケーションのレジリエンスを強化し、イベントのアクティベーションを効果的に管理します。
 kt: 15872
 doc-type: video
-duration: 314
+duration: 402
 audience: all
 last-substantial-update: 2024-7-31
 feature: Best Practices, Backend Development, Integration
@@ -13,37 +13,37 @@ old-role: Architect, Developer
 role: Developer
 level: Intermediate
 exl-id: 412060b3-76ae-4c27-bf96-8eb2a0f0d0e8
-source-git-commit: afe0ac1781bcfc55ba0e631f492092fd1bf603fc
+source-git-commit: b859664f02cf6eac99a551e5f58dff34ca55e37a
 workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 0%
 
 ---
 
-# アプリケーションの回復性のためのAdobe I/O Eventsの再試行メカニズムの活用
+# アプリケーションのレジリエンスのためにAdobe I/O Eventsの再試行メカニズムを活用する
 
-このビデオでは、Adobe I/O Eventsの組み込みの再試行メカニズムを活用してアプリケーションの回復性を強化する方法に関する包括的なガイドの概要を説明します。 特定の HTTP 応答ステータスコードがトリガーイベントの再試行をどのように行うかを説明します。 Adobe I/O Eventsでは、再試行に対して、1 分から 15 分に間隔を広げる、指数関数的で固定されたバックオフ戦略を採用しています。 また、このドキュメントでは、開発者コンソールでの再試行指標の表示方法について詳しく説明します。例えば、警告アイコンや、失敗したイベントと再試行したイベントを示す円の矢印などの視覚的なキューが表示されます。
+このビデオでは、Adobe I/O Eventsに組み込まれた再試行メカニズムを活用して、アプリケーションのレジリエンスを強化するための包括的なガイドの概要を説明します。 特定のHTTP応答ステータスコードがトリガーイベントの再試行をどのように示しているかを説明します。 Adobe I/O Eventsでは、再試行に対して指数関数的かつ固定的なバックオフ戦略を採用しており、間隔は1分から15分に増加しています。 このドキュメントでは、開発者コンソールに再試行インジケーターがどのように表示されるかも詳しく説明しており、警告アイコンや丸い矢印などの視覚的なキューはそれぞれ失敗したイベントと再試行されたイベントを示しています。
 
-「コンシューマー」ランタイムアクションのコンテキスト内で再試行メカニズムがどのように機能するかを説明し、イベントを再試行するかどうかを判断します。 正常な応答は 200 ステータスコードで示され、エラー応答には、「statusCode」属性を持つエラーオブジェクトが含まれます。 「コンシューマー」ランタイムアクションは、ダウンストリーム処理の結果に基づいて返される HTTP 応答コードを決定し、効率的なイベント処理と最終的な成功したアクティベーションを保証します。
+「コンシューマー」ランタイムアクションのコンテキスト内で再試行メカニズムがどのように機能するかを説明し、イベントが再試行されるかどうかを判断します。 正常な応答は200 ステータスコードで示され、エラー応答には「statusCode」属性を持つエラーオブジェクトが含まれます。 「consumer」ランタイムアクションは、ダウンストリームの処理結果に基づいて返されるHTTP応答コードを決定し、効率的なイベント処理と最終的に正常なアクティベーションを実現します。
 
 ## オーディエンス
 
-* トリガーイベントの再試行に使用される特定の HTTP 応答ステータスコードを理解する開発者。
-* Adobe I/O Eventsが再試行に使用する、指数関数的で固定的なバックオフ戦略について学びたいチーム。
-* 開発者コンソールの視覚的な指標が、失敗したイベントや再試行したイベントをどのように表すかを理解したい開発者。
+* トリガーイベントが再試行する特定のHTTP レスポンスステータスコードを理解したい開発者。
+* Adobe I/O Eventsが再試行に使用する指数関数的および固定的バックオフ戦略について学習したいチーム。
+* 開発者コンソールのビジュアルインジケーターで、失敗したイベントと再試行されたイベントがどのように表示されるかを理解したい開発者。
 
-## ビデオコンテンツ
+## 動画コンテンツ
 
-* Adobe I/O Eventsには、すぐに使用できる再試行メカニズムが組み込まれており、特定の HTTP 応答ステータスコードに基づいて、イベントのアクティベーションを自動的に再試行します。
-* Adobe I/O Eventsが実装する再試行メカニズムには、指数関数的な固定バックオフ戦略が含まれます。
-* 失敗したイベントの警告アイコンや再試行したイベントの循環矢印アイコンなど、開発者コンソールの視覚的な指標。
-* 「コンシューマー」ランタイムアクションは、イベント処理に適した HTTP 応答ステータスコードを決定する上で重要な役割を果たします。
+* Adobe I/O Eventsには、特定のHTTP応答ステータスコードにもとづいてイベントアクティベーションを自動的に再試行する、すぐに使用できる再試行メカニズムが組み込まれています。
+* Adobe I/O Eventsで導入されている再試行機能には、指数関数的かつ固定的なバックオフ戦略が組み込まれています。
+* 失敗したイベントの警告アイコンや、再試行されたイベントの円形矢印アイコンなど、開発者コンソールの視覚的なインジケーター。
+* 「consumer」ランタイムアクションは、イベント処理に適したHTTP応答ステータスコードを決定する際に重要な役割を果たします。
 
->[!VIDEO](https://video.tv.adobe.com/v/3449074?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3431695?learn=on)
 
 {{$include /help/_includes/starter-kit-related-links.md}}
 
 ## 関連ドキュメント
 
-* [Webhook がイベントを処理できません &#x200B;](https://developer.adobe.com/events/docs/support/faq/#what-happens-if-my-webhook-is-unable-to-handle-a-specific-event-but-handles-all-other-events-gracefully)
-* [Webhook がダウンし、不安定としてマークされる &#x200B;](https://developer.adobe.com/events/docs/support/faq/#what-happens-if-my-webhook-is-down-why-is-my-event-registration-marked-as-unstable)
+* [Webhookはイベントを処理できません](https://developer.adobe.com/events/docs/support/faq/#what-happens-if-my-webhook-is-unable-to-handle-a-specific-event-but-handles-all-other-events-gracefully)
+* [Webhookを停止し、不安定とマークしました](https://developer.adobe.com/events/docs/support/faq/#what-happens-if-my-webhook-is-down-why-is-my-event-registration-marked-as-unstable)

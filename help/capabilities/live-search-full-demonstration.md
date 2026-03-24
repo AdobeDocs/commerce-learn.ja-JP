@@ -1,8 +1,9 @@
 ---
-title: Live Search の完全なデモ
-description: Live Search の機能と柔軟性に関する完全なデモをご覧ください
+title: ライブサーチの完全デモ
+description: ライブサーチの機能と柔軟性についてデモをご覧ください
 kt: 13168
 doc-type: tutorial
+duration: 935
 audience: all
 last-substantial-update: 2023-04-27T00:00:00Z
 feature: Configuration, System, Personalization, Search
@@ -10,34 +11,34 @@ topic: Commerce, Administration, Content Management
 role: Admin, Leader, User
 level: Beginner, Intermediate
 exl-id: 1ef99de8-3594-4783-a5f3-227e131cecde
-source-git-commit: e306b2cd26506f6a7ef37c2d416be7172dc3c0d2
+source-git-commit: b859664f02cf6eac99a551e5f58dff34ca55e37a
 workflow-type: tm+mt
 source-wordcount: '110'
 ht-degree: 0%
 
 ---
 
-# Adobe Commerce Live Search の完全なデモ
+# Adobe Commerce Live Searchのフルデモ
 
-Adobe Live検索の完全なデモです。
+Adobe Liveの検索機能の詳細。
 
-## 学習内容
+## 学習すること
 
-Adobe Live Search の設定と使用方法について説明します。 ファセット、レポートおよび同義語の理解を深めます。
+Adobe Liveの検索設定と設定の使用方法について説明します。 ファセット、レポート、類義語をより深く理解できます。
 
-## このビデオの目的は誰ですか。
+## この動画は誰のためのものでしょうか？
 
-* Adobe Live Search を初めて使用し、さらに詳しく知りたい開発者やストアオーナー。
+* Adobe Live Searchを初めて利用するデベロッパーやストアオーナーに関する詳細をご覧ください。
 
 ## ビデオコンテンツ
 
-* 顧客向けファセットについて学ぶ
-* API とは
-* Live Search レポート
+* 顧客向けファセットについて詳しく見る
+* APIとは
+* ライブサーチのレポート
 * ファセットのバックオフィス設定とその使用方法について説明します
-* 同義語について説明します
-* インテリジェントマーチャンダイジング
+* 類義語について詳しく見る
+* インテリジェントなマーチャンダイジング
 * ルールベースのランキングタイプの説明
-* GraphQL API の概要
+* GraphQL API イントロスペクション
 
->[!VIDEO](https://video.tv.adobe.com/v/3454453?learn=on&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3418996?learn=on)

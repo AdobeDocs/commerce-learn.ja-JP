@@ -1,10 +1,10 @@
 ---
-title: 主要なフォルダーと自動化スクリプトを含むCommerce統合スターターキットについて説明します
-description: Commerce統合スターターキットでのソースコードの編成について説明します。​
-landing-page-description: Commerce統合スターターキットでのSource コード組織の調査
+title: Commerce Integration Starter Kitの主なフォルダーと自動化スクリプトについて説明します
+description: Commerce Integration starter kitでのソースコードの整理について説明します。​
+landing-page-description: Commerce Integration Starter KitでのSource Code Organizationの調査
 kt: 15868
 doc-type: video
-duration: 420
+duration: 534
 audience: all
 last-substantial-update: 2024-7-30
 feature: Best Practices, Backend Development, Integration
@@ -13,32 +13,32 @@ old-role: Architect, Developer
 role: Developer
 level: Intermediate
 exl-id: 678f4d2b-c57e-4afb-a535-1048a88bc3b1
-source-git-commit: afe0ac1781bcfc55ba0e631f492092fd1bf603fc
+source-git-commit: b859664f02cf6eac99a551e5f58dff34ca55e37a
 workflow-type: tm+mt
 source-wordcount: '377'
 ht-degree: 0%
 
 ---
 
-# Adobe スターターキットのSource コード組織
+# Adobe Starter KitのSource コードの整理
 
-Adobe Commerce統合スターターキット内のソースコード組織について説明します&#x200B; プロジェクトの構造を探索し、`actions` や `scripts` などの主要なフォルダーとそれぞれの内容を強調表示します&#x200B; 「アクション」フォルダーには `ingestion` や `webhook` などのサブフォルダーが含まれており、イベントの処理と追跡に不可欠なコードが含まれています。 また、`starter-kit-info` フォルダーと `scripts` フォルダーについても説明します。 `scripts` フォルダーでは、`commerce-event-subscribe` や `onboarding` などの自動化スクリプトを重点的に使用して、プロジェクト内のイベント設定やプロバイダー設定を効率化します。
+Adobe Commerce Integration スターターキット内のソースコードの整理について説明します&#x200B; `actions`や`scripts`などの主要なフォルダーとそれぞれのコンテンツを強調表示して、プロジェクトの構造を確認します&#x200B; 「アクション」フォルダーには、`ingestion`や`webhook`などのサブフォルダーが含まれており、イベントの処理と追跡に必要なコードが含まれています。 また、`starter-kit-info` フォルダーと`scripts` フォルダーについても学習します。 `scripts` フォルダーは、プロジェクト内でのイベント設定とプロバイダー設定を合理化する`commerce-event-subscribe`や`onboarding`などの自動化スクリプトに焦点を当てています。
 &#x200B;
-ソースコード構造の背後にあるロジックを探索し、各エンティティフォルダーの `commerce` フォルダーおよび `external` フォルダーで様々なシステムからのイベントがどのように処理されるかを詳しく説明します。 このビデオでは、イベントを適切なイベントハンドラー実行時アクションにディスパッチし、シームレスな処理を確実に行う際の `consumer` フォルダーの役割について説明します。 このビデオでは、失敗したイベントを効果的に処理するためにランタイムアクションで実装されている再試行メカニズムについても説明します。&#x200B;Adobe Commerce統合スターターキットのソースコードの編成と機能について説明し、イベント処理、自動スクリプト、設定の設定に関する貴重なインサイトを提供します。
+ソースコード構造の背後にあるロジックを調べ、各エンティティフォルダーの`commerce`および`external` フォルダーが異なるシステムから発生するイベントをどのように処理するかを詳しく説明します。 このビデオでは、適切なイベントハンドラーのランタイムアクションにイベントをディスパッチする際の`consumer` フォルダーの役割について説明し、シームレスな処理を実現します。 このビデオでは、失敗したイベントを効果的に処理するためのランタイムアクションに実装された再試行メカニズムについても説明し&#x200B;す。Adobe Commerce Integration starter kitのソースコードの整理と機能を理解し、イベント処理、自動化スクリプト、設定設定に関する貴重なインサイトを提供します。
 
 ## オーディエンス
 
-* ソースコードが `actions` や `scripts` などの主要なフォルダーにどのように整理されているかを理解したい開発者。
-* イベントの処理とデプロイメントのトラッキングに不可欠なコードを含む `actions` や `ingestion` などのサブフォルダーを含む ` webhook` フォルダーについて説明します。
-* `actions`、`customer`、`order`、`product` などのエンティティのフォルダーが含まれている `stock` フォルダーについて学習したい開発者。
+* ソースコードがどのように`actions`や`scripts`などの主要フォルダーに整理されているかを理解したい開発者。
+* `actions` フォルダーには、`ingestion`や` webhook`などのサブフォルダーが含まれており、イベントの処理やデプロイメントのトラッキングに必要なコードが含まれています。
+* `actions`、`customer`、`order`、`product`などのエンティティのフォルダーを含む`stock` フォルダーについて学習したい開発者。
 
 ## ビデオコンテンツ
 
-* セッション中の `actions` フォルダーと `scripts` フォルダーに焦点を当てて、4 つのメインフォルダー（`test`、`utils`、`actions`、`scripts`）を理解します。&#x200B;
-* `actions` フォルダーと、`ingestion` や `webhook` などの重要なサブフォルダーがどのように含まれているかについて説明します。
-* `actions` フォルダーと、`customer`、`order`、`product`、`stock` などのエンティティに固有のフォルダーがある理由を調べます。各フォルダーには、Commerceやサードパーティシステムからのイベントを効果的に管理するための `commerce` フォルダーと `external` フォルダーに構造化されたランタイムアクションが含まれています。&#x200B;
-* スターターキットに基づいてプロジェクトのデプロイメントを追跡するためにAdobeで使用されるランタイムアクションを含む、`starter-kit-info` フォルダーのコードを変更しない重要性を説明します。&#x200B;
-* イベント設定、プロバイダー設定、CommerceのAdobe I/O Events モジュール設定を自動化する `scripts` や `commerce-event-subscribe` などの自動化スクリプトを含む `onboarding` フォルダーについて説明します。&#x200B;
+* セッション中の`actions`と`scripts`のフォルダーに重点を置いて、4つの主要フォルダー（`test`、`utils`、`actions`、および`scripts`）を理解して&#x200B;ださい。
+* `actions` フォルダーと、`ingestion`や`webhook`などの重要なサブフォルダーが含まれている方法について説明します。
+* `actions` フォルダーと、`customer`、`order`、`product`、`stock`などのエンティティに固有のフォルダーがある理由を確認します。各フォルダーには、`commerce`および`external` フォルダーに構造化されたランタイムアクションが含まれており、Commerceおよびサードパーティシステムからのイベントを効果的に管理できま&#x200B;。
+* Adobeがスターターキットに基づいてプロジェクトのデプロイをトラッキングするために使用するランタイムアクションを含む`starter-kit-info` フォルダー内のコードを変更しない&#x200B;とが重要であることを説明します。
+* イベント設定、プロバイダー設定、CommerceのAdobe I/O Events モジュールの設定を自動化する`scripts`や`commerce-event-subscribe`などの自動化スクリプトを含む`onboarding` フォルダーについて説明&#x200B;ます。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3431691?learn=on)
 

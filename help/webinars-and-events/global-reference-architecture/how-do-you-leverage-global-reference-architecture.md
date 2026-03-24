@@ -1,9 +1,10 @@
 ---
-title: グローバル参照アーキテクチャの活用方法
-description: グローバルな参照アーキテクチャを活用して、拡張性と回復力のあるコマースエクスペリエンスを確立する方法を説明します
-landing-page-description: グローバル参照アーキテクチャとAdobe Commerceでの使用方法について
+title: グローバルリファレンスアーキテクチャを活用して
+description: グローバル参照アーキテクチャを活用して、拡張性と回復力の高いコマース体験を実現する方法をご確認ください
+landing-page-description: グローバル参照アーキテクチャと、Adobe Commerceでの使用方法について説明します
 kt: 14040
 doc-type: video
+duration: 1833
 audience: all
 last-substantial-update: 2023-9-27
 feature: Best Practices, Configuration, Install
@@ -12,7 +13,7 @@ old-role: Architect, Developer
 role: Developer, User, Leader
 level: Beginner, Intermediate
 exl-id: 3b733e3c-b292-4b1a-96f2-30c14f35ac67
-source-git-commit: 42525268cda32ac461b6842c27675ee1b9a3305a
+source-git-commit: b859664f02cf6eac99a551e5f58dff34ca55e37a
 workflow-type: tm+mt
 source-wordcount: '128'
 ht-degree: 0%
@@ -24,20 +25,20 @@ ht-degree: 0%
 
 {{only-for-on-prem-commerce-cloud}}
 
-グローバルリファレンスアーキテクチャ（GRA）を簡単に説明します。 導入を成功に導くための GRA の準備を整えるために、Adobeのエキスパートは、プロジェクトの様々な段階について話し合い、発見フェーズについて詳しく説明します。 QA リソースについて説明し、GRA 実装にとって QA リソースがどのように役立つかを示します。
+グローバルリファレンスアーキテクチャやGRAを活用する方法を簡単に説明します。 Adobeのエキスパートは、GRAの導入を成功させるために、プロジェクトのさまざまなフェーズについて話し合い、調査フェーズに向けて詳細に説明します。 QA リソースについて説明し、GRAの実装にとって貴重なリソースとなる方法について説明します。
 
 ## オーディエンス
 
-* この概念を理解する必要がある人は誰でも。
+* このコンセプトを理解する必要がある人は誰でも。
 * 複数のブランドを持つ大規模プロジェクト
 
 ## ビデオコンテンツ
 
-* グローバルリファレンスアーキテクチャとは見なされないもの
-* GRA 実装のメリット
-* 要件の収集
-* QA チームを関与させるタイミング
+* グローバル参照アーキテクチャとは見なされないもの
+* GRA導入のメリット
+* 要件収集
+* 必要な場面について説明します
 
->[!VIDEO](https://video.tv.adobe.com/v/3456001?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3424604?learn=on)
 
 {{$include /help/_includes/gra-related-links.md}}

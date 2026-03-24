@@ -1,10 +1,10 @@
 ---
-title: 取り込み Webhook の設定、デプロイ、カスタマイズ
-description: Commerceとサードパーティのバックオフィスシステムとの通信を容易にする、取り込み Webhook を設定およびカスタマイズする方法について説明します。
-landing-page-description: Commerce統合スターターキットを使用して、取り込み Webhook を使用してCommerceをサードパーティのバックオフィスシステムと統合する方法を説明します。
+title: 取り込みWebhookの設定、デプロイおよびカスタマイズ
+description: Commerceとサードパーティのバックオフィスシステム間のコミュニケーションを促進するために、取り込みWebhookを設定およびカスタマイズする方法について説明します。
+landing-page-description: Commerce Integration Starter Kitを使用して、取り込みWebhookを使用してCommerceをサードパーティのバックオフィスシステムと統合する方法を説明します。
 kt: 15870
 doc-type: video
-duration: 593
+duration: 697
 audience: all
 last-substantial-update: 2024-7-30
 feature: Best Practices, Backend Development, Integration
@@ -13,31 +13,31 @@ old-role: Architect, Developer
 role: Developer
 level: Intermediate
 exl-id: f2654873-256e-4c1b-abed-8bfbc4db3fbb
-source-git-commit: afe0ac1781bcfc55ba0e631f492092fd1bf603fc
+source-git-commit: b859664f02cf6eac99a551e5f58dff34ca55e37a
 workflow-type: tm+mt
 source-wordcount: '406'
 ht-degree: 0%
 
 ---
 
-# 取り込み Webhook の設定、デプロイ、カスタマイズ
+# 取り込みWebhookの設定、デプロイ、カスタマイズ
 
-Commerceをサードパーティのバックオフィスシステムと統合するための取り込み Webhook のセットアップとカスタマイズについて説明します&#x200B; このビデオでは、サードパーティシステムからAdobe IO イベント API にメッセージを適応させる公開されたエンドポイントを提供することで、システム間のイベント通信の制限に Webhook で対処する方法を説明します。 このプロセスには、`actions.config.yaml` ファイルで Webhook を設定し、`app.config.yaml` ファイルで有効にし、適切に機能するようにデプロイすることが含まれます。
+Commerceとサードパーティのバックオフィスシステムを統合するための取り込みWebhookの設定とカスタマイズについて説明&#x200B;ます。 このビデオでは、サードパーティシステムからのメッセージをAdobe IO イベント APIに適応させる公開されているエンドポイントを提供することで、Webhookがシステム間のイベントコミュニケーションの制限に対処する方法について説明します。 このプロセスでは、`actions.config.yaml` ファイルでWebhookを設定し、`app.config.yaml` ファイルで有効にし、適切な機能を確保するためにデプロイします。
 
-このビデオでは、サードパーティイベントを統合の購読しているイベントタイプと互換性のある形式に変換するように Webhook コードを変更する手順を説明します。 ここでは、この翻訳を容易にする `event-mapping.json` ファイルの追加について説明し、変更を加えた後にランタイムアクションを再デプロイすることの重要性を強調&#x200B;ます。 このビデオでは、受信イベントペイロードを想定されるスキーマに合わせて検証および変換し、処理を成功させて、お客様を作成するためのCommerce API と統合することの重要性についても説明します。
+このビデオでは、サードパーティイベントを統合の購読イベントタイプと互換性のある形式に変換するためのWebhook コードを変更する手順を説明します。 この翻訳を容易にするための`event-mapping.json` ファイルの追加について説明し、変更後にランタイムアクションを再デプロイすることの重要性を強調します。&#x200B; また、このビデオでは、受信イベントペイロードを検証し、想定されるスキーマに合わせて変換することで、処理を成功させ、お客様を作成するためのCommerce APIとの統合を確保することの重要性を強調しています。
 
 ## オーディエンス
 
-* 取り込み Webhook を設定する開発者
-* イベント翻訳用のコードをカスタマイズしたいユーザー
+* 取り込みWebhookを設定する開発者
+* イベント翻訳用にコードをカスタマイズしたい方
 * 認証とペイロード管理の重要性を理解したい開発者とアーキテクト
 
 ## ビデオコンテンツ
 
-* 設定とデプロイメント：このビデオでは、`actions.config.yaml` ファイルで取り込み Webhook を設定し、`app.config.yaml` ファイルで有効にする際の重要性を強調しています。 また、Webhook が正しく機能するように変更を加えた後にプロジェクトを再デプロイする必要があることも強調しています。
-* 互換性のためのカスタマイズ：Webhook コードをカスタマイズして、サードパーティのイベントを統合の購読しているイベントタイプに合った形式に変換することが重要です。&#x200B; このカスタマイズにより、システム間のシームレスな通信とイベント処理の成功が保証されます。
-* 認証の実装：企業は、取り込み Webhook を使用する際に、権限のないリクエストを防ぐために、ニーズに適した認証メカニズムを実装する責任があります。 この手順は、統合のセキュリティと整合性を維持するために不可欠です。
-* ペイロードの検証と変換：受信イベントペイロードを検証し、期待されるスキーマに一致するように変換することは、処理を成功させ、Commerce API と統合するために不可欠です。&#x200B; フィールドを適切にトリミングしてマッピングすることで、必要なデータで効率的に動作します。
+* 設定と展開：このビデオでは、`actions.config.yaml` ファイルで取り込みWebhookを設定し、`app.config.yaml` ファイルで有効にすることの重要性を強調しています。 また、Webhookが正しく機能するように変更を加えた後、プロジェクトを再デプロイする必要性も強調しています。
+* 互換性のカスタマイズ：サードパーティイベントを統合の購読イベントタイプに沿った形式に変換するには、Webhook コードをカスタマイズすることが重要です。&#x200B; このカスタマイズにより、システム間でシームレスなコミュニケーションを実現し、イベント処理を成功させることができます。
+* 認証の実装：企業は、取り込みWebhookを使用する際に不正な要求を防ぐために、ニーズに適した認証メカニズムを実装する責任があります。 このステップは、統合のセキュリティと整合性を維持するために不可欠です。
+* ペイロードの検証と変換：期待されるスキーマに一致するように受信イベントペイロードを検証および変換することは、Commerce APIとの処理と統合を成功させるために不可欠&#x200B;す。 フィールドを適切にトリミングおよびマッピングすることで、必要なデータを使用して効率的に統合を実行できます。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3431694?learn=on)
 
@@ -45,5 +45,5 @@ Commerceをサードパーティのバックオフィスシステムと統合す
 
 ## コードサンプル
 
-* [&#x200B; カスタム取得 Webhook](https://github.com/adobe/adobe-commerce-samples/tree/main/starter-kit/customize-ingestion-webhook)
-* [&#x200B; 取り込みスケジューラーの追加 &#x200B;](https://github.com/adobe/adobe-commerce-samples/tree/main/starter-kit/add-ingestion-scheduler)
+* [ カスタム取り込みWebhook](https://github.com/adobe/adobe-commerce-samples/tree/main/starter-kit/customize-ingestion-webhook)
+* [取り込みスケジューラーを追加](https://github.com/adobe/adobe-commerce-samples/tree/main/starter-kit/add-ingestion-scheduler)
