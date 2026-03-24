@@ -37,7 +37,7 @@ Adobe Commerceのカートのドロップインとトランザクションフロ
 * A/B テストの柔軟性： SharePointによる設定を有効にし、マーケターがこれらの機能を制御し、テストできるようにしました。
 * マーケティング管理の強化： 設定を簡単に管理、テストして、ユーザーエクスペリエンスとマーケティングの効果を向上できます。
 
->[!VIDEO](https://video.tv.adobe.com/v/3442351?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3442352?captions=jpn&learn=on)
 
 ## その他のドキュメント
 

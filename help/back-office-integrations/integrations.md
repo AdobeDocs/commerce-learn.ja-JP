@@ -38,7 +38,7 @@ Adobe Commerceを外部システムと統合する方法を説明します。Ado
 * イベントプロバイダーとサブスクリプションを作成および設定するためのスクリプトの実行。
 * CommerceとApp Builderのイベントを更新して同期します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3431690?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3452770?captions=jpn&learn=on)
 
 {{$include /help/_includes/starter-kit-related-links.md}}
 

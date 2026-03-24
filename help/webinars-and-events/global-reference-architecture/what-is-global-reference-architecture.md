@@ -39,6 +39,6 @@ ht-degree: 1%
 * 考慮すべき全体的な考慮事項
 * GRAが実行可能なオプションであるかどうかを見分ける方法
 
->[!VIDEO](https://video.tv.adobe.com/v/3424597?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3454685?captions=jpn&learn=on)
 
 {{$include /help/_includes/gra-related-links.md}}

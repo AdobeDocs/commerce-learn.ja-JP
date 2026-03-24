@@ -41,4 +41,4 @@ Adobe Liveの検索設定と設定の使用方法について説明します。 
 * ルールベースのランキングタイプの説明
 * GraphQL API イントロスペクション
 
->[!VIDEO](https://video.tv.adobe.com/v/3418996?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3454453?captions=jpn&learn=on)

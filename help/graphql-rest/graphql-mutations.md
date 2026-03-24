@@ -26,7 +26,7 @@ ht-degree: 0%
 これはGraphQLとAdobe Commerceのシリーズの第3部です。 ミューテーションとは、GraphQLを使用して値を保存、更新、返す機能です。
 
 
->[!VIDEO](https://video.tv.adobe.com/v/3424121?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3441922?captions=jpn&learn=on)
 
 ## このシリーズのGraphQLに関する関連動画とチュートリアル
 

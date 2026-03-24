@@ -40,6 +40,6 @@ ht-degree: 0%
 * グローバルコントロールボード – 取り組むべき機能
 * モジュールのマーケットプレイスとしてGRAを使用するための代替コンセプト
 
->[!VIDEO](https://video.tv.adobe.com/v/3424702?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3457209?captions=jpn&learn=on)
 
 {{$include /help/_includes/gra-related-links.md}}

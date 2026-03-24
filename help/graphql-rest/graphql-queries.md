@@ -25,7 +25,7 @@ ht-degree: 0%
 
 これは、GraphQLとAdobe Commerceのシリーズの第2部です。 このチュートリアルとビデオでは、GraphQL クエリについて説明し、Adobe Commerceに対してクエリを実行する方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3424120?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3450059?captions=jpn&learn=on)
 
 ## このシリーズのGraphQLに関する関連動画とチュートリアル
 

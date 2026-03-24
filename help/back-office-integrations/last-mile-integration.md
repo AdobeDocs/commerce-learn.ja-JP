@@ -45,6 +45,6 @@ Adobe Commerceとのラストマイル統合を開始する際に考慮すべき
 * ソースシステムと宛先システム間でデータオブジェクトを変換する際の変換フックの役割について説明します。
 * 実際のデータ送信を宛先システムに容易にするための送信フックの重要性について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3431692?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3451917?captions=jpn&learn=on)
 
 {{$include /help/_includes/starter-kit-related-links.md}}
