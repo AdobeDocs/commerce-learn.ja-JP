@@ -31,7 +31,7 @@ ht-degree: 0%
 
 * [第1部GraphQL – 概要](../graphql-rest/intro-graphql.md)
 * [第3部GraphQL – 変異](../graphql-rest/graphql-mutations.md)
-* [ パート 4 GraphQL - スキーマ ](../graphql-rest/graphql-schema.md)
+* [&#x200B; パート 4 GraphQL - スキーマ &#x200B;](../graphql-rest/graphql-schema.md)
 
 ## GraphQL構文の例
 
@@ -208,6 +208,6 @@ fragment productDetails on ProductInterface {
 
 GraphQL クエリの実際のHTTP リクエストの本文に「query: `{string}`」が含まれていることがわかったように、変数ディクショナリを含むリクエストには、同じ本文に追加の「variables: `{json}`」が含まれます。ここで、`{json}`は変数値を持つJSON文字列です。
 
-新しいクエリでは、_フラグメント_ （`productDetails`）も使用して、同じフィールド選択を複数の場所で再利用します。 [ フラグメント ](https://graphql.org/learn/queries/#fragments){target="_blank"}の詳細については、GraphQL ドキュメントを参照してください。
+新しいクエリでは、_フラグメント_ （`productDetails`）も使用して、同じフィールド選択を複数の場所で再利用します。 [&#x200B; フラグメント &#x200B;](https://graphql.org/learn/queries/#fragments){target="_blank"}の詳細については、GraphQL ドキュメントを参照してください。
 
 {{$include /help/_includes/graphql-rest-related-links.md}}

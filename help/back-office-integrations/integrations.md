@@ -44,4 +44,4 @@ Adobe Commerceを外部システムと統合する方法を説明します。Ado
 
 ## コードサンプル
 
-* [登録とイベントのカスタマイズ ](https://github.com/adobe/adobe-commerce-samples/tree/main/starter-kit/customize-registrations-and-events)
+* [登録とイベントのカスタマイズ &#x200B;](https://github.com/adobe/adobe-commerce-samples/tree/main/starter-kit/customize-registrations-and-events)

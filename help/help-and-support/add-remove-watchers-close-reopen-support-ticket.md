@@ -35,4 +35,4 @@ Adobe Commerce版Experience League内で視聴者を追加および削除し、�
 
 ## Commerce Knowledge Base ヘルプセンターガイド
 
-[ サポートケースを送信](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case)
+[&#x200B; サポートケースを送信](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case)

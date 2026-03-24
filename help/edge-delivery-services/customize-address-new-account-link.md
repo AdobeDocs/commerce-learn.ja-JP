@@ -44,4 +44,4 @@ ht-degree: 0%
 
 ## その他のドキュメント
 
-* [ ユーザーアカウント ](https://experienceleague.adobe.com/developer/commerce/storefront/dropins/user-account/tutorials/)
+* [&#x200B; ユーザーアカウント &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/dropins/user-account/tutorials/)

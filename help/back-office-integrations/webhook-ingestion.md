@@ -45,5 +45,5 @@ Commerceとサードパーティのバックオフィスシステムを統合す
 
 ## コードサンプル
 
-* [ カスタム取り込みWebhook](https://github.com/adobe/adobe-commerce-samples/tree/main/starter-kit/customize-ingestion-webhook)
+* [&#x200B; カスタム取り込みWebhook](https://github.com/adobe/adobe-commerce-samples/tree/main/starter-kit/customize-ingestion-webhook)
 * [取り込みスケジューラーを追加](https://github.com/adobe/adobe-commerce-samples/tree/main/starter-kit/add-ingestion-scheduler)
