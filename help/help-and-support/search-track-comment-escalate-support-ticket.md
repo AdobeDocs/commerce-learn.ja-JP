@@ -35,4 +35,4 @@ Experience League Adobe Commerce版でサポートチケットを検索、レビ
 
 ## Commerce Knowledge Base ヘルプセンターガイド
 
-[&#x200B; サポートケースを送信](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case)
+[&#x200B; サポートケースを送信](https://experienceleague.adobe.com/ja/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case)

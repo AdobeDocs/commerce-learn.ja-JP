@@ -40,4 +40,4 @@ Adobe Commerceのカートのドロップインとカート体験の調整方法
 
 ## その他のドキュメント
 
-* [注文概要](https://experienceleague.adobe.com/developer/commerce/storefront/dropins/cart/tutorials/order-summary-lines/)
+* [注文概要](https://experienceleague.adobe.com/developer/commerce/storefront/dropins/cart/tutorials/order-summary-lines/?lang=ja)

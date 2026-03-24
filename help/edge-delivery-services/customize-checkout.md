@@ -39,4 +39,4 @@ ht-degree: 0%
 
 ## その他のドキュメント
 
-* [&#x200B; マルチステップのゲストチェックアウト &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/dropins/checkout/tutorials/multi-step/)
+* [&#x200B; マルチステップのゲストチェックアウト &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/dropins/checkout/tutorials/multi-step/?lang=ja)

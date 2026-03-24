@@ -41,4 +41,4 @@ Adobe Commerceのカートのドロップインとトランザクションフロ
 
 ## その他のドキュメント
 
-* [買い物かごの概要の設定](https://experienceleague.adobe.com/developer/commerce/storefront/dropins/cart/tutorials/configure-cart-summary/)
+* [買い物かごの概要の設定](https://experienceleague.adobe.com/developer/commerce/storefront/dropins/cart/tutorials/configure-cart-summary/?lang=ja)
