@@ -33,7 +33,7 @@ ht-degree: 0%
 * インスタンスに適した環境と地域を選択します。
 * 今後のチュートリアルで、カタログ設定の準備をすばやく行うことができます。
 
->[!VIDEO](https://video.tv.adobe.com/v/3469877?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3469879?captions=jpn&learn=on)
 
 ## 関連コンテンツ
 

@@ -31,7 +31,7 @@ Adobe Commerceの[!DNL Live Search]の簡単な紹介です。 Adobe AIを活用
 
 ## ビデオコンテンツ
 
->[!VIDEO](https://video.tv.adobe.com/v/3418797?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3452570?captions=jpn&learn=on)
 
 
 ## 関連資料

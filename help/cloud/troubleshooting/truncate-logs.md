@@ -35,7 +35,7 @@ ht-degree: 0%
 * 一般的な大きなログファイルが見つかった場合
 * ログファイルを切り捨てるクイックメソッド
 
->[!VIDEO](https://video.tv.adobe.com/v/3454572?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3454584?captions=jpn&learn=on)
 
 
 ## ビデオで使用されるコマンド

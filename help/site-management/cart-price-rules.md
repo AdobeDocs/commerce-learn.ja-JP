@@ -31,7 +31,7 @@ ht-degree: 0%
 * カートの価格ルールとオプションクーポンコードを作成。
 * カート内に割引がどのように表示されるか、およびプロモーションについて説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/343835?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410806?captions=jpn&learn=on)
 
 ## 価格表示の問題
 

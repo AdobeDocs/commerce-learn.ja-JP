@@ -33,4 +33,4 @@ Adobe Commerceは、AWSとAzureで利用可能なハイブリッドクラウド 
 * AIを利用した高度なサービス。 ライブ検索、AIを活用した商品レコメンデーション、カタログサービスなどのAPI ファーストのインテリジェントなサービスについて理解を深め、顧客体験と業務効率を向上させることができます。
 * 包括的な開発者向けツール： API MeshやApp Builderなど、シームレスな統合とカスタマイズが可能な、クラウドネイティブでサーバーレスな開発者向けツール群について説明し、コマース機能を拡張できます。
 
->[!VIDEO](https://video.tv.adobe.com/v/3433500?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3433501?captions=jpn&learn=on)

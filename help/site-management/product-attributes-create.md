@@ -30,7 +30,7 @@ Adobe Commerceでは、商品、顧客、商品レーティングに関連する
 
 ## ビデオコンテンツ
 
->[!VIDEO](https://video.tv.adobe.com/v/343749?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410131?captions=jpn&learn=on)
 
 ## 関連資料
 

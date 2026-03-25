@@ -35,4 +35,4 @@ API MeshやUnified Event Managementなどの拡張性ツールにより、開発
 * Adobe Commerceは、ライブサーチ、AI レコメンデーション、柔軟な支払いソリューションなど、構成可能なサービスを提供します。
 * API Mesh、イベント統合管理およびAdobe Experience Platformとのシームレスな連携を含む高度な連携。
 
->[!VIDEO](https://video.tv.adobe.com/v/3433435?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3433436?captions=jpn&learn=on)

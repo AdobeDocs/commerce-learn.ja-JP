@@ -31,7 +31,7 @@ FastlyAdobe Commerce版のクラウドでの利用方法について説明しま
 
 ## ビデオコンテンツ
 
->[!VIDEO](https://video.tv.adobe.com/v/3427695?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3432811?captions=jpn&learn=on)
 
 ## ビデオに記載されているExperience LeagueのドキュメントとFastly Adobe Commerce チェッカー
 

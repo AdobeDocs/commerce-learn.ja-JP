@@ -33,6 +33,6 @@ ht-degree: 0%
 * アプリケーションのデプロイ方法
 * デプロイメント後にURLを検索する場所
 
->[!VIDEO](https://video.tv.adobe.com/v/3416664?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3421048?captions=jpn&learn=on)
 
 {{$include /help/_includes/app-builder-first-app-related-links.md}}

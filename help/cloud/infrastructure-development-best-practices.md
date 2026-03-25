@@ -31,7 +31,7 @@ Adobe Commerceのクラウドインフラストラクチャと開発のベスト
 
 ## ビデオコンテンツ
 
->[!VIDEO](https://video.tv.adobe.com/v/3427679?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3432793?captions=jpn&learn=on)
 
 ## ビデオに記載されているExperience League ドキュメント
 

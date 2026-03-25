@@ -37,7 +37,7 @@ ht-degree: 0%
 * JSON設定ファイルからのメッシュの作成
 * 新しく作成したGraphQL エンドポイントへのアクセス
 
->[!VIDEO](https://video.tv.adobe.com/v/3414124?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3419723?captions=jpn&learn=on)
 
 ## json設定ファイルの作成
 

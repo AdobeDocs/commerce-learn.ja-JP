@@ -38,7 +38,7 @@ ht-degree: 0%
 * 選択した組織、プロジェクト、またはワークスペースをCLIで変更する
 * シンプルなAPI Mesh コマンドのテスト
 
->[!VIDEO](https://video.tv.adobe.com/v/3414123?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3419740?captions=jpn&learn=on)
 
 ## Adobe Adobe Developer Consoleについて詳しく見る
 

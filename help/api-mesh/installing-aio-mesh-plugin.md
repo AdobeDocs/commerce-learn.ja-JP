@@ -36,7 +36,7 @@ Adobe Developer App Builder用API Meshの使用を開始する前に、`aio` CLI
 * Adobe I/O Runtime CLIのインストール（コマンドラインインターフェイス）
 * API Mesh プラグインのインストール
 
->[!VIDEO](https://video.tv.adobe.com/v/3414122?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3419795?captions=jpn&learn=on)
 
 ## `aio` CLIおよびAPI Mesh プラグインのインストール
 

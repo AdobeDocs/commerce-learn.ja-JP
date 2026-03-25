@@ -33,6 +33,6 @@ Adobe Commerce管理者を使用して行項目の割引を使用し、値を確
 
 ## ビデオコンテンツ
 
->[!VIDEO](https://video.tv.adobe.com/v/3420415?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3445586?captions=jpn&learn=on)
 
 {{$include /help/_includes/b2b-quote-additional-resources.md}}

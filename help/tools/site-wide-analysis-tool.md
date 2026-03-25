@@ -31,7 +31,7 @@ Site-Wide Analysis Toolは、Adobe Commerce インストールのセキュリテ
 
 ## ビデオコンテンツ
 
->[!VIDEO](https://video.tv.adobe.com/v/344001?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410779?captions=jpn&learn=on)
 
 ## 関連資料
 

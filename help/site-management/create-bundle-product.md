@@ -62,7 +62,7 @@ Adobe Commerce Adminからバンドル製品を作成する場合は、まずシ
 
 ## ビデオコンテンツ
 
->[!VIDEO](https://video.tv.adobe.com/v/3426797?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3454497?captions=jpn&learn=on)
 
 ## RESTを使用した製品の作成
 

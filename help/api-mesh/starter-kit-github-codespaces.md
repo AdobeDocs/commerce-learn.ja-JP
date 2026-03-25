@@ -34,7 +34,7 @@ ht-degree: 0%
 * テスト用の組み込みツール：シームレスな開発のために、事前設定済みのGraphQLサーバー（Yoga）と自動サーバー再起動が含まれています。
 * ハンズオン学習：スターターキットを複製し、エンドポイントを設定し、API応答をブラウザーで直接テストします。
 
->[!VIDEO](https://video.tv.adobe.com/v/3464017?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3464018?captions=jpn&learn=on)
 
 ## 関連ドキュメント
 

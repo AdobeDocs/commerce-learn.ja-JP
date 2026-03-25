@@ -34,7 +34,7 @@ feature: Configuration, System, Catalogs, Site Navigation
 
 ## ビデオコンテンツ
 
->[!VIDEO](https://video.tv.adobe.com/v/35950?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/330025?captions=jpn&learn=on)
 
 ## 関連資料
 

@@ -32,7 +32,7 @@ URL書き換えツールを使用すると、商品、カテゴリ、またはCM
 
 ## ビデオコンテンツ
 
->[!VIDEO](https://video.tv.adobe.com/v/343751?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410126?captions=jpn&learn=on)
 
 ## 関連資料
 

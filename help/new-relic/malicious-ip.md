@@ -28,4 +28,4 @@ ht-degree: 0%
 
 * Fastlyでブロックするために使用される疑わしい&#x200B;または悪意のある潜在的なIPを特定する
 
->[!VIDEO](https://video.tv.adobe.com/v/3412088?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3417129?captions=jpn&learn=on)

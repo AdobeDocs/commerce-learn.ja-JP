@@ -34,7 +34,7 @@ ht-degree: 0%
 * 他の開発者に接続する方法
 * コメントを閉じる
 
->[!VIDEO](https://video.tv.adobe.com/v/3416741?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3421075?captions=jpn&learn=on)
 
 ## App Builderのその他のリソース
 

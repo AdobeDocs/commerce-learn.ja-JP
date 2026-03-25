@@ -35,4 +35,4 @@ Adobeのデジタルエクスペリエンスツールとシームレスに統合
 * デジタルアセットのリアルタイムのパーソナライゼーションと効率的な管理
 * 技術的な知識を持たない利用者の支援
 
->[!VIDEO](https://video.tv.adobe.com/v/3431725?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3448387?captions=jpn&learn=on)

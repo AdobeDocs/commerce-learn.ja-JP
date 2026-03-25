@@ -33,7 +33,7 @@ ht-degree: 0%
 * 顧客の属性、注文、買い物かごのデータなどからセグメントを構築し、
 * プロモーションやカート価格ルールにセグメントを接続。
 
->[!VIDEO](https://video.tv.adobe.com/v/343659?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410191?captions=jpn&learn=on)
 
 ## 関連資料
 

@@ -34,7 +34,7 @@ Adobe Commerce Cloudを使用してプロジェクトと環境を管理する方
 
 ## ビデオコンテンツ
 
->[!VIDEO](https://video.tv.adobe.com/v/3474960?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3474962?captions=jpn&learn=on)
 
 ## 関連コンテンツとドキュメント
 

@@ -39,7 +39,7 @@ Galera クラスターはパフォーマンスと拡張性に役立ちます。 
 * 一括実行はプライマリでのみ実行されます。 レプリケーションは1回に1回ずつ実行されます
 * 大規模なコミットをバッチ処理して、レプリケーションがプライマリに対応できるようにします
 
->[!VIDEO](https://video.tv.adobe.com/v/3421688?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3423542?captions=jpn&learn=on)
 
 ## 役立つリソース
 

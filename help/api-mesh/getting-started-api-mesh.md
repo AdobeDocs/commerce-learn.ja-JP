@@ -42,7 +42,7 @@ API Meshは、複数のデータソースを組み合わせて、アプリケー
 * チェックアウト時にリアルタイムで在庫を確認するユースケース
 * 開発作業やリソース使用をadobe commerce アプリケーションから移行
 
->[!VIDEO](https://video.tv.adobe.com/v/3417534?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3421888?captions=jpn&learn=on)
 
 ## 使用例
 

@@ -37,7 +37,7 @@ ht-degree: 0%
 * `actions`および`commerce` フォルダーにあるJavaScript ファイルの目的
 * OAuth認証ファイルの概要
 
->[!VIDEO](https://video.tv.adobe.com/v/3416590?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3421081?captions=jpn&learn=on)
 
 ## コードサンプル
 

@@ -36,4 +36,4 @@ Adobe Commerceでは、段階的にAdobe Commerce as a Cloud ServiceやAdobe Com
 * App Builderの拡張性により、カスタムロジックをサーバーレス関数に分離して、メンテナンスを容易に行うことができます。
 * ストアフロントの機能強化ドロップインコンポーネントとエッジ配信により、パフォーマンスとコンテンツ制作を向上させます。
 
->[!VIDEO](https://video.tv.adobe.com/v/3475737?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3475749?captions=jpn&learn=on)

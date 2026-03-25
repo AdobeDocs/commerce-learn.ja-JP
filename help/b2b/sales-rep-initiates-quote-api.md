@@ -33,6 +33,6 @@ Adobe Commerce REST APIから営業担当者が見積もりを開始する方法
 
 ## ビデオコンテンツ
 
->[!VIDEO](https://video.tv.adobe.com/v/3420414?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3423712?captions=jpn&learn=on)
 
 {{$include /help/_includes/b2b-quote-additional-resources.md}}

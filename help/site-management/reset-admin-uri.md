@@ -21,7 +21,7 @@ ht-degree: 0%
 
 Adobe Commerce Cloud cli コマンドを使用して管理者URIをリセットする方法について説明します。 これは、管理者のURLが管理者から変更されたものの、間違いがあり、管理者にアクセスできなくなった場合に便利です。
 
->[!VIDEO](https://video.tv.adobe.com/v/3435066?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3439693?captions=jpn&learn=on)
 
 ## チュートリアルで使用されるいくつかのコマンド
 

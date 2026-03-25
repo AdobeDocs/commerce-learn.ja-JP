@@ -31,7 +31,7 @@ ht-degree: 0%
 * ウィジェットの概要と表示場所を把握します。
 * 管理画面でウィジェットを作成および管理します。
 
->[!VIDEO](https://video.tv.adobe.com/v/343786?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3411058?captions=jpn&learn=on)
 
 ## 関連資料
 

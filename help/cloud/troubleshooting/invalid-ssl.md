@@ -33,4 +33,4 @@ ht-degree: 0%
 * プロセス中に新しい証明書を作成するタイミングを特定します。
 * 新しい証明書が期待どおりに動作していることを検証します。&#x200B;
 
->[!VIDEO](https://video.tv.adobe.com/v/3435751?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3439749?captions=jpn&learn=on)

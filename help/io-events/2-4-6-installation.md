@@ -36,7 +36,7 @@ ht-degree: 0%
 * Adobe Commerce Cloudのコマンド実行
 * Adobe Commerce Cloud yaml必要な編集
 
->[!VIDEO](https://video.tv.adobe.com/v/3415795?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3419813?captions=jpn&learn=on)
 
 ## 便利なコマンド {#useful-commands}
 

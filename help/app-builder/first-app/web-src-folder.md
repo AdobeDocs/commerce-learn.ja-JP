@@ -34,7 +34,7 @@ ht-degree: 0%
 * 通常は含まれるファイルとフォルダー
 * サンプルアプリケーションで`web-src` フォルダーとその中のコンテンツをどのように使用するか
 
->[!VIDEO](https://video.tv.adobe.com/v/3416665?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3421041?captions=jpn&learn=on)
 
 ## コードサンプル
 

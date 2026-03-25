@@ -33,7 +33,7 @@ Adobe Adobe Commerceなら、異なる企業向けにカスタマイズされた
 
 ## ビデオコンテンツ
 
->[!VIDEO](https://video.tv.adobe.com/v/344446?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410755?captions=jpn&learn=on)
 
 ## 関連資料
 

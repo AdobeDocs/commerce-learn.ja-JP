@@ -30,4 +30,4 @@ Adobe Exchangeを使用して、Adobe Commerce App Builder アプリケーショ
 
 ## ビデオコンテンツ
 
->[!VIDEO](https://video.tv.adobe.com/v/3471513?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3471525?captions=jpn&learn=on)

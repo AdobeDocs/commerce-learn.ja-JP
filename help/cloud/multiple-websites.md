@@ -33,4 +33,4 @@ Adobe Commerceなら、技術的なスキルを必要とせずに、単一のバ
 * ローカライズとカスタマイズ
 * スケーラビリティと柔軟性
 
->[!VIDEO](https://video.tv.adobe.com/v/3434027?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3434028?captions=jpn&learn=on)

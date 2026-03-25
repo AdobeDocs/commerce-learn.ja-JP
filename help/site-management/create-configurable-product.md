@@ -50,7 +50,7 @@ Adobe Commerce管理者から設定可能な商品を作成する場合は、最
 
 ## ビデオコンテンツ
 
->[!VIDEO](https://video.tv.adobe.com/v/3426381?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3455036?captions=jpn&learn=on)
 
 ## cURLを使用したカラー属性の取得
 

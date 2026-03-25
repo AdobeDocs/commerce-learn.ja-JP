@@ -38,7 +38,7 @@ ht-degree: 0%
 * PhpStormからUCTをインストールして実行します。
 * HTMLレポートを確認し、修正の優先順位を付けます。
 
->[!VIDEO](https://video.tv.adobe.com/v/340150?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/344407?captions=jpn&learn=on)
 
 ## 関連資料
 

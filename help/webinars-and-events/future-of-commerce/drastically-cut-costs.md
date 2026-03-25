@@ -34,7 +34,7 @@ Adobe Commerceのクラウドネイティブな基盤は、フルマネージド
 * 迅速なデプロイメント – セルフサービスツールを利用して、事前設定済みの環境を数分で起動できます。
 * 柔軟な統合 – APIとアクセラレータを利用して、ERPやCRMなどと容易に接続できます。
 
->[!VIDEO](https://video.tv.adobe.com/v/3458485?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3458489?captions=jpn&learn=on)
 
 ## このシリーズの追加動画
 

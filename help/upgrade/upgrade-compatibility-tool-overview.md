@@ -43,7 +43,7 @@ ht-degree: 29%
 
 ## ビデオコンテンツ
 
->[!VIDEO](https://video.tv.adobe.com/v/341245?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/344385?captions=jpn&learn=on)
 
 ## 関連資料
 

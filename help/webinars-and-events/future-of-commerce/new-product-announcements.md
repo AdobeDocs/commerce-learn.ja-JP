@@ -35,7 +35,7 @@ ht-degree: 0%
 * Adobe Commerce Optimizerを利用すれば、複雑なシステムや従来のシステムを抱える企業は、クラウドへの橋渡しとして機能する、包括的なリプラットフォームを利用することなく、顧客体験を近代化できます。
 * 柔軟かつ段階的な導入パスにより、既存のソリューションに対するサポートと長期的なバージョンサポートのタイムラインを維持しながら、企業は自分のペースで移行できます。
 
->[!VIDEO](https://video.tv.adobe.com/v/3458484?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3458486?captions=jpn&learn=on)
 
 ## このシリーズの追加動画
 

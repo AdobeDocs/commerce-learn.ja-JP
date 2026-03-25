@@ -40,7 +40,7 @@ _[!UICONTROL Payment on Account]_&#x200B;が有効で、会社のクレジット
 
 ## ビデオコンテンツ
 
->[!VIDEO](https://video.tv.adobe.com/v/344445?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410761?captions=jpn&learn=on)
 
 ## 関連資料
 
