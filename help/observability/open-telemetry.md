@@ -1,42 +1,42 @@
 ---
 title: テレメトリを開く
-description: OpenTelemetry を使用して監視機能を統合：ログ、トレース、メトリックを使用して、シームレスな監視と根本原因の分析を行います。
+description: OpenTelemetryを使用してオブザーバビリティ（ログ、トレース、指標）を統合し、シームレスなモニタリングと根本原因の分析を実現します。
 feature: Observability,Extensibility,App Builder
 topic: Performance
-role: Architect, Developer
+role: Developer
 level: Intermediate
 doc-type: Technical Video
-duration: 137
+duration: 175
 last-substantial-update: 2025-12-18T00:00:00Z
 jira: KT-19975
-source-git-commit: 25ff63e552412a90796efb29f56d8b1675143cf2
+exl-id: 697d4290-1181-4fde-b8a8-132de9057264
+source-git-commit: 28257af422ceea62585d4f19ad7c81576c4a3653
 workflow-type: tm+mt
 source-wordcount: '113'
 ht-degree: 0%
 
 ---
 
-
 # テレメトリを開く
 
-Open Telemetry が、単一の監視ツールにロックされることなく、ログ、トレースおよび指標全体で監視性を標準化する方法を説明します。 このビデオでは、オープンで業界全体の標準を採用することで、信号のシームレスな関連付けが可能になる理由を説明します。 オープンテレメトリが既存のスタックをどのようにサポートし、エンドツーエンドの運用インサイトを提供して統合されたモニタリング戦略を実現するかについて説明します。
+Open Telemetryが、単一のモニタリングツールに縛られることなく、ログ、トレース、指標をまたいで観測可能性を標準化する方法を説明します。 このビデオでは、オープンで業界全体の標準を採用することで、シグナルのシームレスな相関関係が可能になる理由を説明します。 Open Telemetryが既存のスタックをどのようにサポートし、統合されたモニタリング戦略のためにエンドツーエンドの運用上のインサイトを提供するかをご覧ください。
 
-## このビデオの目的は誰ですか。
+## この動画は誰のためのものでしょうか？
 
-* Adobe Commerce開発者
+* Adobe Commerce Developer
 * ソリューションアーキテクト
-* テクニカル製品マネージャー
+* テクニカルプロダクトマネージャー
 
 ## ビデオコンテンツ
 
-* OpenTelemetry を使用して、すべての信号の可観測性を標準化
-* ログ、トレース、指標を関連づけ、根本原因の解析を迅速化
-* データストリームを統合しながら既存の監視ツールを維持
+* あらゆるシグナルをまたいでOpenTelemetryを使用して観測可能性を標準化する
+* ログ、トレース、指標を関連付けて、根本原因の分析を迅速化
+* 既存のモニタリングツールを維持しながら、データストリームを統合
 
->[!VIDEO](https://video.tv.adobe.com/v/3478324?captions=jpn&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3478287?learn=on)
 
 {{$include /help/_includes/app-builder-observability-related-links.md}}
 
 ## 関連ドキュメント
 
-* [&#x200B; 可観測性の概要 &#x200B;](https://developer.adobe.com/commerce/extensibility/observability/){target="_blank"}
+* [ オブザーバビリティの概要](https://developer.adobe.com/commerce/extensibility/observability/){target="_blank"}

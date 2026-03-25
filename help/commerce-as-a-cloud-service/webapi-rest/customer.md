@@ -1,58 +1,58 @@
 ---
-title: 新しいお客様の REST API の調査
-description: Adobe Commerce Cloud Service で新しい顧客 REST API を使用する方法について説明します。 アーキテクトや開発者に最適です。
+title: 新しいCustomer REST APIについて詳しく見る
+description: Adobe Commerce Cloud Serviceで新しい顧客REST APIを使用する方法をご確認ください。 建築家や開発者にとって理想的です。
 feature: REST, Customers, Saas
 topic: Development, Integrations
-role: Architect, Developer
+role: Developer
 level: Beginner
 doc-type: Tutorial
-duration: 225
+duration: 457
 last-substantial-update: 2026-01-27T00:00:00Z
 jira: KT-20160
-source-git-commit: ad2cfb4b38d739b03e0c2fff8bcd88d77d6e4b12
+exl-id: f40d9b21-1f41-4c76-84a9-161168dbfb1a
+source-git-commit: 28257af422ceea62585d4f19ad7c81576c4a3653
 workflow-type: tm+mt
 source-wordcount: '470'
 ht-degree: 0%
 
 ---
 
+# Customer REST API
 
-# 顧客 REST API
+Adobe Commerce as a Cloud Serviceの新しいCustomer REST APIの使用方法を説明します。 このチュートリアルは、API ソリューションを効果的に統合および最適化したいアーキテクトや開発者に最適です。
 
-Adobe Commerce as a Cloud Serviceで新しいお客様の REST API を使用する方法を説明します。 このチュートリアルは、API ソリューションを効果的に統合および最適化することを検討しているアーキテクトや開発者に最適です。
-
-## このビデオの目的は誰ですか。
+## この動画は誰のためのものでしょうか？
 
 * Adobe Commerceとの統合の構築を担当するバックエンド開発者
-* ヘッドレスコマース実装の顧客管理ワークフローを設計するテクニカルアーキテクト
+* ヘッドレスコマース導入向けに顧客管理ワークフローを設計するテクニカルアーキテクト
 
 ## ビデオコンテンツ
 
-* サーバー間資格情報を使用したAdobe IMSによる認証で API リクエストのアクセストークンを取得
-* Commerce as a Cloud Serviceに適した REST API エンドポイント形式を使用する
-* 適切な JSON ペイロードを使用した POST リクエストとPUT リクエストを使用して、プログラムでカスタマーアカウントを作成および更新する
+* サーバー間の資格情報を使用してAdobe IMSで認証し、API リクエストのアクセストークンを取得します
+* Commerce as a Cloud Serviceに適切なREST API エンドポイントフォーマットを使用する
+* 適切なJSON ペイロードを使用して、POSTおよびPUTリクエストを使用してプログラムで顧客アカウントを作成および更新します
 
->[!VIDEO](https://video.tv.adobe.com/v/3479363/?captions=jpn&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3479361?learn=on)
 
 ## コードサンプル
 
-開始する前に、[Experience Cloudと &#x200B;](https://experience.adobe.com)2&rbrace;Adobe Developer Console&rbrace; から必要なすべての値を収集し [&#x200B; す。 &#x200B;](https://developer.adobe.com/console)これらの値を準備しておくと、セットアッププロセスをスムーズに実行できます。
+開始する前に、[Adobe Developer Console](https://experience.adobe.com)および[Experience Cloud](https://developer.adobe.com/console)から必要なすべての値を収集してください。 これらの値を準備しておくと、設定プロセスがスムーズになります。
 
 >[!NOTE]
 >
->正しい組織で作業していることを確認します。 組織の選択は、Experience CloudとDeveloper Consoleの両方に表示されるインスタンスと環境に影響します。
+>正しい組織で作業していることを確認してください。 組織の選択は、Experience CloudとDeveloper Consoleの両方に表示されるインスタンスと環境に影響します。
 
 ### インスタンスの詳細 – experience.adobe.com
 
 インスタンスの詳細には、インスタンス ID、GraphQL エンドポイント、資格情報などが含まれます。
 
-### 開発者詳細 – https://developer.adobe.com/console/
+### 開発者の詳細 – https://developer.adobe.com/console/
 
-Developer Consoleで、クライアント ID、クライアントシークレット、アクセストークンなどの API 資格情報を管理します。 また、サーバー間認証やネイティブアプリ認証など、新しい資格情報タイプを作成することもできます。
+Developer Consoleでは、クライアント ID、クライアントシークレット、アクセストークンなどのAPI資格情報を管理できます。 また、サーバー間やネイティブアプリ認証など、新しい資格情報タイプを作成することもできます。
 
 ## 前提条件
 
-| 項目 | 値 | ここで、はこの値です |
+| 項目 | 値 | この値はどこにありますか？ |
 |--- |--- |--- |
 | インスタンス ID | `<instance_id>` | experience.adobe.com |
 | REST エンドポイント | `<rest_endpoint>` | experience.adobe.com |
@@ -60,11 +60,11 @@ Developer Consoleで、クライアント ID、クライアントシークレッ
 | クライアント秘密鍵 | `<client_secret>` | developer.adobe.com/console |
 
 
-## 手順 1：アクセストークンの取得（サーバー間認証）
+## 手順1：アクセストークンの取得（サーバー間認証）
 
 >[!IMPORTANT]
 >
-> このサンプルに示されている変数は有効ではありません。 プロジェクト資格情報の &lt;client_id> と &lt;client_secret> を使用します。
+> このサンプルに示されている変数は無効です。 プロジェクトの資格情報から&lt;client_id>と&lt;client_secret>を使用します。
 
 ```bash
 curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' \
@@ -72,7 +72,7 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' \
   -d 'grant_type=client_credentials&client_id=<client_id>&client_secret=<client_secret>&scope=openid,AdobeID,email,additional_info.projectedProductContext,profile,commerce.aco.ingestion,commerce.accs,org.read,additional_info.roles'
 ```
 
-**応答の例：**
+**サンプル応答：**
 
 ```json
 {
@@ -82,13 +82,13 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' \
 }
 ```
 
-## 手順 2：顧客を作成する
+## 手順2：顧客の作成
 
 >[!IMPORTANT]
 >
-> このサンプルで提供された URL は無効です。 REST ベース URL を使用します。 「&lt;rest_endpoint>」を URL と交換します。 次の `https://na1-sandbox.api.commerce.adobe.com/AbCYab34cdEfGHiJ27123` のようになります。
+> このサンプルで指定されたURLは無効です。 REST ベース URLを使用します。 「&lt;rest_endpoint>」をURLと交換します。 この`https://na1-sandbox.api.commerce.adobe.com/AbCYab34cdEfGHiJ27123`と似ています。
 >
-> このエンドポイントには、URL の一部として/rest/がありません。 エラーが発生する場合にそれを含めます。
+> このエンドポイントには、URLの一部として/rest/がありません。 それを含めるとエラーになります。
 
 **エンドポイント：** `POST /V1/customers`
 
@@ -128,13 +128,13 @@ curl -X POST \
 }
 ```
 
-## 手順 3：顧客の更新
+## 手順3：顧客の更新
 
 >[!IMPORTANT]
 >
-> このサンプルで提供された URL は無効です。 REST ベース URL を使用します。 「&lt;rest_endpoint>」を URL と交換します。 次の `https://na1-sandbox.api.commerce.adobe.com/AbCYab34cdEfGHiJ27123` のようになります。
+> このサンプルで指定されたURLは無効です。 REST ベース URLを使用します。 「&lt;rest_endpoint>」をURLと交換します。 この`https://na1-sandbox.api.commerce.adobe.com/AbCYab34cdEfGHiJ27123`と似ています。
 
-次の例に示す数値 `5` は、POST `"id": 5,` を使用して以前に作成した顧客の ID です。 必ず `5` をリクエストで返された id に変更してください。
+次の例の数値`5`は、POST `"id": 5,`を使用して以前に作成した顧客のIDです。 リクエストで返されたIDに`5`を必ず変更してください。
 
 **エンドポイント：** `PUT /V1/customers/{customerId}`
 
@@ -175,7 +175,7 @@ curl -X PUT \
 
 >[!IMPORTANT]
 >
-> このサンプルに示されている変数は有効ではありません。 プロジェクト資格情報からクライアント ID とクライアントシークレットを使用します。 REST ベース URL を使用します。 experience.adobe.comの REST エンドポイント URL と「&lt;rest_endpoint>」を交換します。 次の `https://na1-sandbox.api.commerce.adobe.com/AbCDefGHiJ1234567` のようになります。
+> このサンプルに示されている変数は無効です。 プロジェクトの資格情報からクライアント IDとクライアントの秘密鍵を使用します。 REST ベース URLを使用します。 &#39;&lt;rest_endpoint>&#39;をexperience.adobe.comからREST エンドポイント URLと交換します。 この`https://na1-sandbox.api.commerce.adobe.com/AbCDefGHiJ1234567`と似ています。
 
 ```bash
 #!/bin/bash
@@ -235,15 +235,15 @@ curl -s -X PUT \
   }" | jq .
 ```
 
-## このチュートリアルに関する重要な注意事項
+## このチュートリアルに関する注意事項
 
-1. **URL パス**:`https://<server>.api.commerce.adobe.com/<tenant-id>/V1/customers` を使用 – **なし** `https://<host>/rest/<store-view-code>/V1/customers`
-1. **認証**：このチュートリアルでは、サーバー間（`client_credentials` 付与タイプ）を使用しました
+1. **URL パス**: `https://<server>.api.commerce.adobe.com/<tenant-id>/V1/customers` — **NOT** `https://<host>/rest/<store-view-code>/V1/customers`を使用
+1. **認証**：このチュートリアルでは、サーバー間（`client_credentials`付与タイプ）を使用しました
 1. **必要な範囲**: `commerce.accs`
-1. **トークンの有効期限**:86400 秒（24 時間）
+1. **トークンの有効期限**: 86400秒（24時間）
 
 ## 参照
 
-* [Adobe Commerce as a Cloud Service リリースノート &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce/cloud-service/release-notes)
-* [SaaS REST API リファレンス &#x200B;](https://developer.adobe.com/commerce/webapi/reference/rest/saas/)
-* [&#x200B; ユーザー認証ガイド &#x200B;](https://developer.adobe.com/commerce/webapi/rest/authentication/user/)
+* [Adobe Commerce as a Cloud Service リリースノート ](https://experienceleague.adobe.com/en/docs/commerce/cloud-service/release-notes)
+* [SaaS REST API リファレンス ](https://developer.adobe.com/commerce/webapi/reference/rest/saas/)
+* [ ユーザー認証ガイド ](https://developer.adobe.com/commerce/webapi/rest/authentication/user/)
