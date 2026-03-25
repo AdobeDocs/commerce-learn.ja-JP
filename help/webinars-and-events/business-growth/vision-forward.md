@@ -1,39 +1,39 @@
 ---
-title: Adobeの「Vision Forward Roadmap」による事業成長
-description: B2B ストアフロント、リアルタイムのパーソナライゼーション、支払い、AI を活用したマーチャントおよび開発者エクスペリエンスに関するAdobe Commerceのロードマップをご覧ください。
+title: Adobeのビジョンフォワードロードマップによるビジネス成長
+description: B2B ストアフロント、リアルタイムのパーソナライゼーション、決済、AIを活用したマーチャントおよび開発者の体験に関する、Adobe Commerceのロードマップをご覧ください。
 feature: App Builder,  B2B, Catalog Management,  Cloud,  Extensibility, Observability, Payments, Personalization, Storefront, Saas
 topic: Administration, Artificial Intelligence,  Commerce,  Development, Headless,  Performance, Personalization, Security
 old-role: Data Engineer, Developer
 role: Developer
 level: Beginner
 doc-type: Technical Video
-duration: 976
+duration: 1016
 last-substantial-update: 2025-10-10T00:00:00Z
 jira: KT-19377
-source-git-commit: 6e11d096c445635286f4e8c8adf821fed5c460fd
+exl-id: a7f9ce6d-4bad-4fe2-8692-b8a02fc6dde6
+source-git-commit: 9aa4d70ee6a3825f027aa2a9c6a1ac0f876ed59f
 workflow-type: tm+mt
 source-wordcount: '166'
 ht-degree: 0%
 
 ---
 
+# AdobeのVision Forward ロードマップによるビジネスの成長
 
-# Adobeの「Vision Forward」ロードマップによる事業成長
+Adobe Commerceの2026年のロードマップでは、リアルタイムデータ共有、パーソナライズされた顧客体験、業務効率化のイノベーションを通じて、ビジネスの成長を促進するための包括的な戦略の概要を示しています。 主な開発には、データ共有とパーソナライゼーションのためのAdobe Experience Platformとのネイティブ統合、B2B ストアフロントの迅速な展開などがあります。 その他にも、支払い機能の拡張や、管理を簡素化するためのマーチャントセンターの刷新など、いくつかの重要な展開があります。 また、カタログ管理、プラットフォームの健全性モニタリング、App Builderによる開発者の拡張性、識別可能性の向上など、AIを活用したツールにも重点を置いています。 このようなアップデートにより、B2BとB2Cのチャネルをまたいで、シームレスで拡張性の高い、インテリジェントなコマース体験を提供することが目指されています。
 
-Adobe Commerceの 2026 年のロードマップでは、リアルタイムのデータ共有、パーソナライズされたカスタマーエクスペリエンス、合理化された運用の革新を通じて、ビジネスの成長を強化する包括的な戦略の概要を説明しています。 主な開発には、データ共有とパーソナライゼーションのためのAdobe Experience Platformとのネイティブ統合、迅速な B2B ストアフロントのデプロイメントが含まれます。 さらに重要な開発として、支払機能の拡張と、管理を簡素化するための再考されたマーチャントセンターがあります。 このロードマップでは、カタログ管理、プラットフォームヘルスモニタリング、App Builderを介した開発者の拡張性、観測性の強化のための AI を利用したツールも強調されています。 これらの更新は、B2B および B2C チャネルにわたってシームレスでスケーラブルかつインテリジェントなコマースエクスペリエンスを提供することを目的としています。
-
-## このビデオの目的は誰ですか。
+## この動画は誰のためのものでしょうか？
 
 * Adobe Commerce開発者
-* デジタルCommerceの変革をリードする人物
-* テクニカルマーケターとコマースエンジニア
+* デジタルCommerceの変革をリード
+* テクニカルマーケターおよびコマースエンジニア
 
 ## ビデオコンテンツ
 
 * Personalizationのリアルタイムデータ統合
-* ネイティブ Campaign オーケストレーション
-* 強化された B2B ストアフロント機能
-* マーチャントセンターと管理エクスペリエンス
+* ネイティブキャンペーンオーケストレーション
+* B2B ストアフロント機能の強化
+* Merchant Center &amp; Admin Experience
 * 開発者エクスペリエンスとオブザーバビリティの向上
 
->[!VIDEO](https://video.tv.adobe.com/v/3475707/?captions=jpn&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3475695?learn=on)

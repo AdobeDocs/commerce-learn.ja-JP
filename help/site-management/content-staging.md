@@ -1,7 +1,8 @@
 ---
-title: コンテンツのステージング
-description: 管理者から直接、ストアに対して様々なコンテンツ更新を作成、プレビュー、スケジュールする方法について説明します。
+title: コンテンツステージング
+description: 管理者から直接、ストアの様々なコンテンツ更新を作成、プレビュー、スケジュールする方法について説明します。
 doc-type: feature video
+duration: 309
 audience: all
 activity: use
 kt: 13907
@@ -10,31 +11,31 @@ feature: Configuration, System, Staging
 topic: Commerce, Administration
 role: Admin, User
 level: Beginner, Intermediate
-badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
+badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
 exl-id: fc5a7cd3-905a-49ac-86b8-215dd8c36d73
-source-git-commit: efb067d8595079cc33a9af0c15eb1e60e0dd5796
+source-git-commit: 9aa4d70ee6a3825f027aa2a9c6a1ac0f876ed59f
 workflow-type: tm+mt
 source-wordcount: '143'
 ht-degree: 0%
 
 ---
 
-# コンテンツのステージング
+# コンテンツステージング
 
-コンテンツステージングを使用すると、ビジネスチームは、管理者から直接、ストアに対して様々なコンテンツの更新を簡単に作成、プレビュー、スケジュールできます。 例えば、静的なページを考慮するのではなく、ページを、スケジュールに従って追加または削除できる様々な要素の集まりとみなします。 コンテンツのステージングを使用して、年間を通じてスケジュールに従って自動的に変更されるページを作成できます。
+コンテンツのステージング機能により、ビジネス部門は、管理画面から直接、ストアの様々なコンテンツ更新を簡単に作成、プレビュー、スケジュールできます。 たとえば、ページは静的なページではなく、スケジュールに従って追加または削除できるさまざまな要素のコレクションであると考えてください。 コンテンツステージング機能を利用すれば、年間を通じてスケジュール通りに自動的に変更されるページを作成できます。
 
 {{ee-feature}}
 
-## このビデオの目的は誰ですか。
+## この動画は誰のためのものでしょうか？
 
-- Web サイト管理者
-- e コマースマーケター
+* web サイトマネージャー
+* コマースマーケター
 
 ## ビデオコンテンツ
 
->[!VIDEO](https://video.tv.adobe.com/v/3410856?quality=12&learn=on&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/343784?learn=on)
 
-## その他のリソース
+## 関連資料
 
-- [&#x200B; コンテンツのステージング -  [!DNL Commerce]  コンテンツとデザインガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging.html?lang=ja){target="_blank"}
-- [Campaign のプレビュー – コ  [!DNL Commerce]  テンツおよびデザインガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging-preview.html?lang=ja){target="_blank"}
+* [ コンテンツ ステージング - [!DNL Commerce]  コンテンツとデザイン ガイド ](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging.html){target="_blank"}
+* [ キャンペーンのプレビュー –  [!DNL Commerce]  コンテンツとデザインガイド ](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging-preview.html){target="_blank"}

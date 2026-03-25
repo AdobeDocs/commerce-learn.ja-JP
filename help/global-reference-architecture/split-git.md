@@ -1,58 +1,59 @@
 ---
-title: 分割 Git グローバルリファレンスアーキテクチャを使用したAdobe Commerceのセットアップ
-description: 効率的なコード管理と効率化されたデプロイメントを実現するために、分割 Git グローバルリファレンスアーキテクチャを使用してAdobe Commerceを設定する方法について説明します。​
+title: Split Git グローバルリファレンスアーキテクチャを使用したAdobe Commerceの設定
+description: Split Git Global Reference Architectureを使用してAdobe Commerceを設定し、効率的なコード管理と合理的なデプロイメントを実現する方法を説明​ます。
 kt: 16725
 doc-type: tutorial
+duration: 515
 audience: all
 last-substantial-update: 2025-1-6
 feature: Best Practices, Configuration, Install
-badge: label="執筆：Adobe、シニアテクニカルアーキテクト、Tony Evers" type="Informative" url="https://www.linkedin.com/in/evers-tony/" tooltip="寄稿：Tony Evers"
+badge: label="Contributed by Tony Evers, シニア・テクニカル・アーキテクト，Adobe" type="Informative" url="https://www.linkedin.com/in/evers-tony/" tooltip="アーティスト：Tony Evers"
 topic: Architecture, Commerce, Development
 old-role: Architect, Developer
 role: Developer, User, Leader
 level: Beginner, Intermediate
 exl-id: ac544f77-8f5f-4ad1-92b2-bdf323100c13
-source-git-commit: 79d57d2c04c42a8dc23b5735e72e841b7e51cc63
+source-git-commit: 9aa4d70ee6a3825f027aa2a9c6a1ac0f876ed59f
 workflow-type: tm+mt
 source-wordcount: '1468'
 ht-degree: 0%
 
 ---
 
-# 分割 Git グローバル参照アーキテクチャパターン
+# Split Git グローバル参照アーキテクチャパターン
 
 {{only-for-on-prem-commerce-cloud}}
 
-このガイドでは、分割 Git グローバルリファレンスアーキテクチャ（GRA）パターンを使用してAdobe Commerceをセットアップする方法について説明します。
+このガイドでは、Split Git Global Reference Architecture （GRA）パターンを使用してAdobe Commerceを設定する方法について説明します。
 
-この分割 Git GRA パターンには、開発用に 2 つの Git リポジトリと、Adobe Commerce インスタンスごとに 1 つの Git リポジトリが含まれます。 この例では、各インスタンスが一意のブランドを表すと想定しています。
+分割Git GRA パターンには、開発用の2つのGit リポジトリと、Adobe Commerce インスタンスごとに1つのGit リポジトリが含まれます。 この例では、各インスタンスが一意のブランドを表していると仮定します。
 
-![&#x200B; 分割 GRA パターン内のどこにコードが格納されているかを示す図 &#x200B;](/help/assets/global-reference-architecture/split-git-gra-pattern-diagram.png){align="center"}
+![分割されたGRA パターンでコードが格納されている場所を示す図](/help/assets/global-reference-architecture/split-git-gra-pattern-diagram.png){align="center"}
 
-## このパターンの長所と短所
+## このパターンの利点と欠点
 
-メリット：
+利点：
 
-- 共有コードリポジトリを使用したコードの再利用
-- コンポーザーの知識が限られているチームにも適したシンプルな GRA パターン
-- Adobe Commerce モジュール、テーマ、および言語パックに加えて、composer-plugin、composer-metapackage、magento2-component、および patches など、このモデルを通じてあらゆるタイプの Composer パッケージをインストールできます
-- リリースを段階的にリリースし、独自のメンテナンス期間に地域へのリリースを計画することが可能
-- デプロイメント制御ではなく、管理目的での Git タグのサポート
-- 実稼動デプロイメント内のパッケージの組み合わせが、この正確な設定で開発およびテストされることを保証します。
+* 共有コードリポジトリによるコードの再利用
+* シンプルなGRA パターン。コンポーザーの知識が限られているチームにも適しています
+* Adobe Commerce モジュール、テーマ、言語パックに加えて、このモデルを通じて、composer-plugin、composer-metapackage、magento2-component、およびパッチなど、あらゆるタイプのComposer パッケージをインストールできます
+* 段階的にリリースすることが可能で、独自のメンテナンスウィンドウで地域へのリリースを計画しています
+* デプロイメント管理ではなく、管理目的でのGit タグのサポート
+* 実稼動デプロイメントのパッケージの組み合わせが、この正確な設定で開発およびテストされていることを保証します
 
-デメリット：
+欠点：
 
-- 他の GRA パターンと比較して柔軟性が向上していない
-- インスタンスごとに個別のモジュールをアップグレードまたはダウングレードすることはできません。常に GRA 全体をアップグレードまたはダウングレードしてください
-- ほとんどの場合、バルクパッケージパターンは同様に単純ですが、より従来のものであるため、より適しています
+* 他のGRA パターンと比較して柔軟性が追加されない
+* インスタンスごとに個々のモジュールをアップグレードまたはダウングレードすることはできません。GRA全体を常にアップグレードまたはダウングレードしてください
+* ほとんどの場合、バルクパッケージパターンは、同様にシンプルですが、より従来のものであるため、より適しています
 
-## 分割 Git GRA パターンを使用したAdobe Commerceのセットアップ
+## 分割Git GRA パターンを使用したAdobe Commerceの設定
 
 ### ディレクトリ構造
 
-分割 Git GRA パターンには、開発リポジトリとインストールリポジトリの 2 種類のリポジトリがあります。 開発リポジトリには、Adobe Commerceの完全なインストールの一部のみが含まれます。 インストールリポジトリには、Adobe Commerceの完全なインストールが含まれており、デプロイメントに使用されますが、開発には使用されません。
+Split Git GRA パターンには、開発リポジトリとインストールリポジトリの2種類のリポジトリがあります。 開発リポジトリには、Adobe Commerceの完全なインストールの一部のみが含まれます。 インストールリポジトリには、Adobe Commerceの完全なインストールが含まれており、デプロイメントに使用されますが、開発には使用されません。
 
-分割 Git GRA パターンを使用した完全なAdobe Commerce インストールの最終的なディレクトリ構造は、次のようになります。
+Split Git GRA パターンを持つフル Adobe Commerce インストールの最終的なディレクトリ構造は次のようになります。
 
 ```text
 .
@@ -68,23 +69,23 @@ ht-degree: 0%
     └── local/
 ```
 
-`app/code`、`app/i18n`、および `app/design` ディレクトリは、Composer がこれらのディレクトリ内のコードを評価しないため、意図的に省略されます。 その結果、パッケージで宣言された依存関係は自動的にはインストールされません。 「Git GRA を分割」パターンでは、すべてのカスタムコードを `packages/` にインストールしてそのディレクトリをコンポーザリポジトリとして扱うことで、この問題を解決しています。 Composer は、`packages/` 内のパッケージを `vendor/` にシンボリックリンクします。
+Composerはこれらのディレクトリ内のコードを評価しないため、`app/code`、`app/i18n`および`app/design` ディレクトリは意図的に省略されています。 その結果、パッケージで宣言された依存関係は自動的にはインストールされません。 分割Git GRA パターンは、すべてのカスタムコードを`packages/`にインストールし、そのディレクトリをコンポーザーリポジトリとして扱うことで、この問題を解決します。 Composerは、`packages/`内のパッケージを`vendor/`にリンクします。
 
 ### Git リポジトリの準備
 
-次の Git リポジトリの 3 つを作成します。
+次の3つのGit リポジトリを作成します。
 
 1. Adobe Commerce インスタンス
-2. Composer によってインストールされていないサードパーティ コード
-3. モジュール、テーマ、言語パックなどの形式でカスタマイズする場合：GRA
+2. Composerを使用してインストールされていないサードパーティ製コード
+3. モジュール、テーマ、言語パックなどの形式でのカスタマイズ。GRA
 
-このガイドでは、これらのリポジトリに次の名前を使用します。
+このガイドでは、これらのリポジトリに次の名前が使用されています。
 
 1. gra-split-brand-x
 2. gra-split-3rdparty
 3. gra-split-gra
 
-分割 Git GRA パターン内のすべてのリポジトリは、1 つに結合されます。 Git で複数のリポジトリを結合できるようにするには、3 つのリポジトリすべてに共有履歴が必要です。 1 つのコミットで Git プロジェクトを作成し、すべてのリモートにプッシュします。
+分割Git GRA パターン内のすべてのリポジトリは1つに結合されます。 Gitで複数のリポジトリを結合できるようにするには、3つのリポジトリすべてに共有履歴が必要です。 1回のコミットでGit プロジェクトを作成し、すべてのリモートにプッシュします。
 
 ```bash
 mkdir gra-split-brand-x
@@ -101,11 +102,11 @@ git push 3rdparty main
 git push gra main
 ```
 
-一時ファイル `.gitkeep` をすべてのリモートにプッシュすると、同じコミットハッシュで同じ初期コミットが作成され、共有履歴が作成されます。 1 つのリモコンで作成した各変更は、他のリモコンに結合できます。
+一時ファイル `.gitkeep`をすべてのリモートにプッシュすると、同じコミット ハッシュで同じ初期コミットが作成され、共有履歴が作成されます。 1つのリモートで作成された各変更は、他のリモートに結合できます。
 
-ここから、リポジトリーが分岐します。 gra-split-brand-x リポジトリには、ブランド固有のコードが含まれています。 gra-split-3rdparty リポジトリには、サードパーティのコードのみが含まれています。 gra-split-gra リポジトリには、すべてのカスタムコードで構成されるグローバル参照アーキテクチャ基盤のみが含まれます。
+そこから、リポジトリが分岐します。 gra-split-brand-x リポジトリには、ブランド固有のコードが含まれています。 gra-split-3rdparty リポジトリには、サードパーティのコードのみが含まれます。 gra-split-gra リポジトリには、すべてのカスタムコードで構成されるグローバルリファレンスアーキテクチャ基盤のみが含まれます。
 
-Adobe Commerceを gra-split-brand-x リポジトリにインストールします。
+gra-split-brand-x リポジトリにAdobe Commerceをインストールします。
 
 ```bash
 composer create-project --no-install --repository-url=https://repo.magento.com/ magento/project-enterprise-edition temp
@@ -116,7 +117,7 @@ git commit -m 'install Adobe Commerce'
 git push origin main
 ```
 
-gra-split-3rdparty リポジトリと gra-split-gra リポジトリに初期コミットを作成します。 最も簡単な方法は、これらのリポジトリを別々のディレクトリにチェックアウトすることです。
+gra-split-3rdpartyおよびgra-split-gra リポジトリで初期コミットを作成します。 最も簡単な方法は、個別のディレクトリでこれらのリポジトリを確認することです。
 
 ```bash
 cd ..
@@ -136,7 +137,7 @@ git commit -m 'initialize GRA package storage'
 git push origin main
 ```
 
-これら 2 つのリポジトリには、サードパーティのパッケージと GRA パッケージが格納されます。 Adobe Commerceの各インスタンス専用のコードが存在する場合があります。 gra-split-brand-x リポジトリにこれらのローカルパッケージを保存する場所を作成します。
+これらの2つのリポジトリには、サードパーティパッケージとGRA パッケージが格納されます。 Adobe Commerceの各インスタンス専用のコードが存在する場合があります。 これらのローカルパッケージをgra-split-brand-x リポジトリに保存する場所を作成します。
 
 ```bash
 cd ../gra-split-brand-x
@@ -147,21 +148,21 @@ git commit -m 'initialize local package storage'
 git push origin main
 ```
 
-### 様々なタイプのコードの保存場所
+### 様々な種類のコードの保存場所
 
-Adobe Commerceは Composer アプリケーションです。 をインストールする場合は、常に Composer リポジトリを使用します。 モジュールベンダーが Composer リポジトリを通じてインストールを提供しない場合にのみ、サードパーティモジュールをサードパーティリポジトリに保存できます。 カスタムコードは、GRA リポジトリ内で実行することをお勧めします。 モジュールが 1 つの特定のインスタンスでのみ使用される場合、そのモジュールはローカルコードになります。
+Adobe Commerceは、Composer アプリケーションです。 インストールする推奨される方法は、常にComposer リポジトリを使用することです。 モジュールベンダーがComposer リポジトリを介したインストールを提供しない場合にのみ、サードパーティモジュールをサードパーティリポジトリに保存できます。 カスタムコードの優先される場所は、GRA リポジトリです。 モジュールが1つの特定のインスタンスのみで使用される場合、そのモジュールはローカルコードになります。
 
-要約：
+まとめ：
 
-- **Adobe Commerce**: Composer リポジトリに格納されます。
-- **サードパーティ モジュール**:Composer リポジトリに格納されます。
-- **サードパーティモジュールのフォールバックオプション**:gra-split-3rdparty Git リポジトリに格納されます。
-- **GRA 基盤コード**:gra-split-gra Git リポジトリに保存されます。
-- **ローカルコード**:gra-split-brand-x Git リポジトリに格納されます。
+* **Adobe Commerce**: Composer リポジトリに保存されています。
+* **サードパーティ モジュール**: Composer リポジトリに保存されます。
+* **サードパーティ モジュール フォールバック オプション**: gra-split-3rdparty Git リポジトリに保存されます。
+* **GRA基盤コード**: gra-split-gra Git リポジトリに保存されています。
+* **ローカルコード**: gra-split-brand-x Git リポジトリに保存されます。
 
-### Composer へのパッケージ ストレージの接続
+### パッケージストレージをComposerに接続
 
-Composer では、パッケージ ディレクトリをコンポーザ リポジトリとして扱うことができます。 パッケージ ディレクトリ内のパッケージの場所を Composer に通知します。
+Composerでは、パッケージディレクトリをコンポーザーリポジトリとして扱うことができます。 パッケージディレクトリ内のパッケージの場所をComposerに通知します。
 
 ```json
 "repositories": [
@@ -172,15 +173,15 @@ Composer では、パッケージ ディレクトリをコンポーザ リポジ
 ]
 ```
 
-Composer は、3 つのストレージ ディレクトリ内で 2 レベル深い composer.json ファイルを探します。 3 つのコードストレージディレクトリ内に、`vendor/` ディレクトリと同じサブディレクトリを作成します。
+Composerは、3つのストレージディレクトリ内の2つのレベルの深いcomposer.json ファイルを探します。 3つのコードストレージディレクトリ内に、`vendor/` ディレクトリに表示されるとおりにサブディレクトリを作成します。
 
-例：通常パッケージが `vendor/example-corp/module-example/` にインストールされている場合は、`packages/3rdparty/example-corp/module-example/` に保存します。 Composer は、必要なときにパッケージを `vendor/example-corp/module-example/` にシンボリックリンクします。
+例：パッケージが通常`vendor/example-corp/module-example/`にインストールされている場合は、`packages/3rdparty/example-corp/module-example/`に格納します。 必要なときに、Composerはパッケージを`vendor/example-corp/module-example/`にシンボリックリンクします。
 
-Composer パッケージの名前空間と名前をディレクトリ構造として使用します。 例：従来から `app/code/MyCorp/MyCustomization/` に存在するモジュールの名前は、composer.json で `my-corp/module-my-customization` されています。 このパッケージを `packages/gra/my-corp/module-my-customization` に保存します。
+ディレクトリ構造として、コンポーザーパッケージの名前空間と名前を使用します。 例えば、従来`app/code/MyCorp/MyCustomization/`に存在していたモジュールは、composer.jsonに`my-corp/module-my-customization`という名前です。 このパッケージを`packages/gra/my-corp/module-my-customization`に保存します。
 
-### インスタンスリポジトリーへの新しいパッケージの組み込み
+### インスタンスのリポジトリに新しいパッケージを含める
 
-サードパーティおよび GRA リモートからのパッケージを gra-split-brand-x リポジトリに結合します。
+サードパーティおよびGRA リモートのパッケージをgra-split-brand-x リポジトリにマージします。
 
 ```bash
 cd gra-split-brand-x
@@ -189,7 +190,7 @@ git merge gra/main 3rdparty/main
 git push origin main
 ```
 
-結果として、次のディレクトリ構造が得られます。
+その結果、次のディレクトリ構造が得られます。
 
 ```text
 .
@@ -200,17 +201,17 @@ git push origin main
     └── local/
 ```
 
-サードパーティおよび GRA 基盤リポジトリの変更は、ブランドリポジトリに結合されます。 このように、サードパーティと GRA のコードは 1 か所でのみ管理されます。 Git マージを使用して、変更をブランドに移動します。
+サードパーティおよびGRA基盤リポジトリの変更は、ブランドリポジトリに統合されます。 この方法では、サードパーティとGRA コードは1か所でのみ維持されます。 Git結合で変更をブランドに移動します。
 
-Adobe Commerceでは、新しいモジュールは自動的には認識されません。 Run composer では、マージ後に新しいパッケージを追加する必要があります。 マージ後にパッケージの 1 つを更新するたびに、composer update を実行します。
+Adobe Commerceが新しいモジュールを自動認識しない。 マージ後にコンポーザーを実行するには、新しいパッケージを追加する必要があります。 マージ後にパッケージのいずれかを更新するたびに、コンポーザーの更新を実行します。
 
 ### サンプルモジュールのインストール
 
 概念実証として、サンプルモジュールをインストールして、GRA パターンがどのように機能するかを確認します。
 
-先に進む前に、`composer install` と `bin/magento install` を実行してください。
+次に進む前に`composer install`と`bin/magento install`を実行してください。
 
-GitHub にはのテストモジュールが 3 つあります。
+on GitHubには3つのテストモジュールがあります。
 
 1. [module-example-local](https://github.com/AntonEvers/module-example-local)
 2. [module-example-gra](https://github.com/AntonEvers/module-example-gra)
@@ -218,7 +219,7 @@ GitHub にはのテストモジュールが 3 つあります。
 
 ### ローカルモジュールのインストール
 
-ローカルコードプールにモジュールを追加するのは簡単です。 モジュールをダウンロードして抽出します。 Composer で必要です。 `bin/magento` を使用して有効にし、ブランドリポジトリ内のファイルをコミットします。
+モジュールをローカルコードプールに追加するのは簡単です。 モジュールをダウンロードして抽出します。 Composerで必須にする。 `bin/magento`で有効にし、ブランドリポジトリ内のファイルをコミットします。
 
 ```bash
 cd gra-split-brand-x
@@ -236,7 +237,7 @@ bin/magento module:enable AntonEvers_Local
 bin/magento test:local
 ```
 
-この最後のコマンドにより、モジュールがインストールされ動作していることを示す次の出力が得られます。
+この最後のコマンドは、モジュールがインストールされ、動作していることを証明するために、次の出力になります。
 
 ```bash
 Local module is installed successfully and working!
@@ -250,13 +251,13 @@ git commit -m 'add local module'
 git push origin main
 ```
 
-### GRA 基盤モジュールのインストールと開発
+### GRA基盤モジュールのインストールと開発
 
-GRA リポジトリにモジュールを追加する方法は、ローカルモジュールをインストールする方法とは異なります。 デフォルトでは、コミットは origin/main （gra-split-brand-x リポジトリ）に追加されます。 GRA モジュールに対する変更は、gra-split-gra リポジトリにプッシュし、その後 gra-split-brand-x リポジトリにマージする必要があります。
+GRA リポジトリへのモジュールの追加は、ローカルモジュールのインストールとは異なります。 デフォルトでは、コミットはorigin/mainに追加されます。これはgra-split-brand-x リポジトリです。 GRA モジュールの変更は、gra-split-gra リポジトリにプッシュし、その後、gra-split-brand-x リポジトリにマージする必要があります。
 
 ### 開発環境の作成
 
-すべてのコードプールを 1 か所に組み合わせて、開発環境を作成します。 シンボリックリンクを使用して、コードをローカル、GRA、サードパーティリポジトリに個別にプッシュできます。 まず、ブランド、GRA、サードパーティのリポジトリディレクトリの横に新しい開発ディレクトリを作成します。
+すべてのコードプールを1か所に組み合わせた開発環境を作成します。 シンボリックリンクを使用して、ローカル、GRA、サードパーティのリポジトリに個別にコードをプッシュできます。 まず、ブランド、GRA、サードパーティのリポジトリディレクトリの横に新しい開発ディレクトリを作成します。
 
 ```text
 .
@@ -277,7 +278,7 @@ ln -s ../../gra-split-3rdparty/packages/3rdparty/ packages/
 ln -s ../../gra-split-gra/packages/gra/ packages/
 ```
 
-結果として、次のディレクトリ構造が得られます。
+その結果、次のディレクトリ構造が得られます。
 
 ```text
 .
@@ -289,13 +290,13 @@ ln -s ../../gra-split-gra/packages/gra/ packages/
 └── composer.json
 ```
 
-gra-development ディレクトリで `composer install` と `bin/magento install` を実行します。
+gra-development ディレクトリで`composer install`と`bin/magento install`を実行します。
 
-`packages/3rdparty`、`packages/gra` および `package/local` ディレクトリから直接変更をコミットできるようになりました。 Git は、ディレクトリのシンボリックリンク先の Git リポジトリに変更をコミットします。 Git コミットコマンドは、`packages/3rdparty`、`packages/gra`、または `package/local` ディレクトリ内で発行することが重要です。 プロジェクトルートで Git コミットを実行しないでください。
+`packages/3rdparty`、`packages/gra`、`package/local` ディレクトリから直接変更をコミットできるようになりました。 Gitは、ディレクトリがシンボリックリンクするGit リポジトリに変更をコミットします。 Git commit コマンドは、`packages/3rdparty`、`packages/gra`または`package/local` ディレクトリ内で発行することが重要です。 プロジェクトのルートでGit commitを実行しないでください。
 
 ### サンプルモジュールのインストール
 
-パッケージディレクトリにサードパーティ製モジュールと GRA サンプルモジュールをインストールします。
+サードパーティおよびGRA サンプルモジュールをパッケージディレクトリにインストールします。
 
 ```bash
 cd packages/gra
@@ -323,14 +324,14 @@ bin/magento test:gra
 bin/magento test:3rdparty
 ```
 
-この最後のコマンドにより、モジュールがインストールされ動作していることを示す次の出力が得られます。
+この最後のコマンドは、モジュールがインストールされ、動作していることを証明するために、次の出力になります。
 
 ```bash
 GRA module is installed successfully and working!
 3rd party module is installed successfully and working!
 ```
 
-上記の出力が表示された場合は、ブランドリポジトリに安全にコミットできます。 `git remote -v` を実行して、適切なリモートにコミットしていることを確認します。
+上記の出力が表示された場合は、ブランドリポジトリに安全にコミットできます。 `git remote -v`を実行して、適切なリモートにコミットしていることを確認します。
 
 ```bash
 cd packages/gra
@@ -352,7 +353,7 @@ git push origin main
 
 ### インスタンスへのコードの配信
 
-GRA とサードパーティのリポジトリを gra-split-brand-x リポジトリに結合して、コードをAdobe Commerce インスタンスに提供します。 `composer require`、`bin/magento module:enable` を実行し、結果をコミットします。
+GRAおよびサードパーティのリポジトリをgra-split-brand-x リポジトリに結合して、コードをAdobe Commerce インスタンスに配信します。 `composer require`、`bin/magento module:enable`を実行して、結果を確定します。
 
 ```bash
 cd gra-split-brand-x
@@ -367,19 +368,19 @@ git push origin main
 
 ## 分岐戦略
 
-サードパーティおよび GRA リポジトリ内のストアレポジトリのブランチ戦略を反映する場合、この GRA パターンはすべてのブランチ戦略で機能します。 リリースの場合は、3 つのリポジトリすべてで同じ名前のリリースブランチを作成します。 リリースの準備中に、リリースのブランチをストアリポジトリーで結合します。
+このGRA パターンは、サードパーティおよびGRA リポジトリでストア リポジトリの分岐戦略をミラーリングする場合、すべての分岐戦略で機能します。 リリースの場合は、3つのリポジトリすべてで同じ名前のリリースブランチを作成します。 リリースの準備中に、リリースブランチをストアリポジトリ上で結合します。
 
-ローカルコードとサードパーティのコードまたは GRA コードの両方を変更する必要があるチケットブランチがある場合があります。 この場合、チケットブランチは、関連するすべてのリポジトリで作成する必要があります。
+ローカルコードとサードパーティのコードまたはGRA コードの両方を変更する必要があるチケットブランチがある場合があります。 この場合、関連するすべてのリポジトリでチケットブランチを作成する必要があります。
 
-サードパーティと GRA のコミットをチケット分岐内のブランドリポジトリに結合しないでください。 代わりに、開発環境の適切なブランチを、コードプールごとにチェックアウトします。 ブランドリポジトリーへの結合は、リリースを構成する際、または QA ブランチを構成する際にのみ行われます。
+サードパーティとGRAのコミットを、チケットブランチ内のブランドリポジトリに絶対に統合しないでください。 代わりに、各コードプールの開発環境の適切なブランチを確認してください。 ブランドリポジトリーへのマージは、リリースの作成時、またはQA ブランチの作成時にのみ行われます。
 
-## コードの例
+## コード例
 
-この記事のコード例は、概念実証のテストに使用できる一連の Git リポジトリとして提供されています。
+この記事のコード例は、概念実証のテストに使用できるGit リポジトリのセットとして使用できます。
 
-- 実稼動ストアの例：<https://github.com/AntonEvers/gra-split-brand-x>
-- サードパーティのコードリポジトリ：<https://github.com/AntonEvers/gra-split-3rdparty>
-- GRA コードリポジトリ：<https://github.com/AntonEvers/gra-split-gra>
-- ローカルモジュールの例：<https://github.com/AntonEvers/module-example-local>
-- GRA モジュールの例：<https://github.com/AntonEvers/module-example-gra>
-- サードパーティ製モジュールの例：<https://github.com/AntonEvers/module-example-3rdparty>
+* 実稼動ストアの例：<https://github.com/AntonEvers/gra-split-brand-x>
+* サードパーティのコードリポジトリ：<https://github.com/AntonEvers/gra-split-3rdparty>
+* GRA コード リポジトリ：<https://github.com/AntonEvers/gra-split-gra>
+* ローカル モジュールの例：<https://github.com/AntonEvers/module-example-local>
+* GRA モジュールの例：<https://github.com/AntonEvers/module-example-gra>
+* サードパーティ モジュールの例：<https://github.com/AntonEvers/module-example-3rdparty>

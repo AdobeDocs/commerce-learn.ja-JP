@@ -1,35 +1,35 @@
 ---
-title: カタログ管理とマーチャンダイジングのシンプル化
-description: Adobe Commerceを使用すると、1 つの管理パネルから商品データ、価格、マーチャンダイジングルールを管理して、迅速かつスマートなアップデートを実現できます。
+title: カタログ管理とマーチャンダイジングを簡素化
+description: Adobe Commerceなら、単一の管理パネルから商品データ、価格設定、マーチャンダイジングルールを確認し、より迅速かつスマートに更新できます。
 feature: Catalog Management, Attributes, Recommendations
 topic: Commerce, Personalization
 role: Developer, User
 level: Beginner
 doc-type: Technical Video
-duration: 305
+duration: 326
 last-substantial-update: 2026-01-12T00:00:00Z
 jira: KT-20088
 exl-id: a410f40d-01b4-4cc6-a965-08f2b0e77038
-source-git-commit: cf08e797199c0f3cae566a46b4edbe9efa74052d
+source-git-commit: 9aa4d70ee6a3825f027aa2a9c6a1ac0f876ed59f
 workflow-type: tm+mt
 source-wordcount: '102'
 ht-degree: 0%
 
 ---
 
-# カタログ管理とマーチャンダイジングのシンプル化
+# カタログ管理とマーチャンダイジングを簡素化
 
-Adobe Commerce as a Cloud Serviceがカタログ管理とマーチャンダイジングを効率化する仕組みについて説明します。 製品データ、価格、表示ルールをほぼリアルタイムで更新し、インテリジェントなレコメンデーションを使用してショッピングエクスペリエンスをパーソナライズする方法を説明します。
+Adobe Commerce as a Cloud Serviceで、カタログ管理とマーチャンダイジングを効率化する方法をご確認ください。 商品データ、価格設定、可視性ルールをほぼリアルタイムで更新し、インテリジェントなレコメンデーションを利用してショッピング体験をパーソナライズする方法を解説します。
 
-## このビデオの目的は誰ですか。
+## この動画は誰のためのものでしょうか？
 
 * E コマースマーチャンダイザー
-* 製品マネージャー
-* デジタルマーケティング担当者
+* Product Manager
+* デジタルマーケティングスペシャリスト
 
 ## ビデオコンテンツ
 
-* 一元的な管理パネルから製品データ、属性、価格を管理する方法を説明します。
-* 動的なレコメンデーションと表示ルールを使用して、マーチャンダイジングサービスがストアフロントをパーソナライズする方法を説明します。
+* 一元化された管理パネルから製品データ、属性、価格を管理する方法を説明します。
+* マーチャンダイジングサービスで、動的なレコメンデーションと可視化ルールを利用して、ストアフロントをパーソナライズする方法をご確認ください。
 
->[!VIDEO](https://video.tv.adobe.com/v/3478794/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3478794?learn=on)

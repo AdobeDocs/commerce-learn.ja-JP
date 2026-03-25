@@ -1,35 +1,35 @@
 ---
-title: AI 統合によるAdobe Commerceの強化でアセット管理を合理化
-description: AI とAdobe Commerceを統合すると、パーソナライズされたコンテンツ、合理化されたワークフロー、包括的なアセットライフサイクル管理を実現できます。
+title: AI統合でAdobe Commerceを強化し、アセット管理を合理化
+description: AIとAdobe Commerceを統合することで、パーソナライズされたコンテンツ、合理化されたワークフロー、包括的なアセットのライフサイクル管理を実現します。
 topic: Architecture, Commerce, Integrations
 role: Admin, User
 level: Beginner
 doc-type: Technical Video
-duration: 189
+duration: 223
 last-substantial-update: 2024-12-09T00:00:00Z
 jira: KT-16203
-source-git-commit: 33b4f9f612138656d792b40012446ce9f31cf2f5
+exl-id: afd2c688-8abd-47cb-a6ec-c7e2c3b44743
+source-git-commit: 9aa4d70ee6a3825f027aa2a9c6a1ac0f876ed59f
 workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 0%
 
 ---
 
+# Adobe Commerce AEM Assets
 
-# Adobe CommerceAEM Assets
-
-AI とAdobe Commerceを統合すると、アセット管理が一元化され、パーソナライズされたコンテンツによって顧客エンゲージメントが強化され、ワークフローが合理化されます。&#x200B; このネイティブ統合により、マーチャントにとって追加費用なしで、効率が向上し、コンテンツの市場投入までの時間が短縮されます。&#x200B; 承認、削除、有効期限などの完全なライフサイクル制御を使用して、製品とアセット間のシームレスな同期を可能にします。&#x200B; この統合により、管理パネルとストアフロントの両方でアセットが自動的に同期および表示されるので、スムーズで効率的なコンテンツ管理プロセスがサポートされます。&#x200B;
+AiとAdobe Commerceを統合することで、アセット管理を一元化し、パーソナライズされたコンテンツを通じて顧客エンゲージメントを向上させ、ワークフローを合理化&#x200B;きます。 このネイティブ統合により、マーチャントにとって追加費用なしで、効率性を高め、コンテンツの市場投入までの時間を短縮することができます。&#x200B; 承認、削除、期限切れなど、ライフサイクル全体の制御を利用して、製品とアセットをシームレスに同期で&#x200B;ます。 この統合により、アセットが自動的に同期され、管理パネルとストアフロントの両方に表示されるようになり、スムーズで効率的なコンテンツ管理プロセスを&#x200B;ポートします。
 
 ## このビデオの対象
 
-- Adobe Commerceを使用した e コマースマーチャントとデジタルマーケター
-- IT 管理者
-- コンテンツ・ライフサイクルの最適化を検討しているコンテンツ管理者
+* Adobe Adobe Commerceを活用しているデジタルコマース企業
+* IT管理者
+* コンテンツライフサイクルを最適化したいコンテンツマネージャー
 
 ## ビデオコンテンツ
 
-- 効率と速度の向上。
-- 製品とアセット間のシームレスな同期。
-- 承認、削除、有効期限を含む、完全なライフサイクル管理。
+* 効率とスピードの向上。
+* 製品とアセットのシームレスな同期。
+* 承認、削除、有効期限など、ライフサイクル全体の制御。
 
->[!VIDEO](https://video.tv.adobe.com/v/3434077?learn=on&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3434076?learn=on)

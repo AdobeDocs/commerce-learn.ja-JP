@@ -1,95 +1,95 @@
 ---
-title: Adobe Commerce Cloud デプロイメントの SaaS 製品、サポート、その他の通信、次のステップ
-description: Adobe Commerce Cloud の SaaS 製品、サポート、その他の通信、次の手順について説明します。
+title: Adobe Commerce クラウド導入のSaaS サービス、サポート、その他のコミュニケーション、および次のステップ
+description: Adobe Commerce CloudのSaaS製品、サポート、その他のコミュニケーションと、次のステップについてご紹介します。
 feature: Cloud
 topic: Commerce, Architecture, Development
 old-role: Architect, Developer
 role: Developer
 level: Intermediate
 doc-type: Technical Video
-duration: 0
+duration: 1349
 last-substantial-update: 2024-03-14T00:00:00Z
 jira: KT-15022
 kt: 15022
 exl-id: f8394eec-4579-4adb-abf3-ae2679683fe2
-source-git-commit: afe0ac1781bcfc55ba0e631f492092fd1bf603fc
+source-git-commit: 9aa4d70ee6a3825f027aa2a9c6a1ac0f876ed59f
 workflow-type: tm+mt
 source-wordcount: '273'
 ht-degree: 0%
 
 ---
 
-# テクニカルオンボーディング - SaaS 製品
+# 技術オンボーディング - SaaS製品
 
-Adobe Commerce Cloud の SaaS 製品、サポート、その他の通信、次の手順について説明します。
+Adobe Commerce CloudのSaaS製品、サポート、その他のコミュニケーションと、次のステップについてご紹介します。
 
-## このビデオの目的は誰ですか。
+## この動画は誰のためのものでしょうか？
 
-- Web サイト管理者
-- Commerceアーキテクト
-- e コマース web サイトの所有者
+* web サイトマネージャー
+* Commerce architects
+* コマースサイトの所有者
 
 ## ビデオコンテンツ
 
->[!VIDEO](https://video.tv.adobe.com/v/3432837?captions=jpn&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3427902?learn=on)
 
 ## 頭字語
 
-+++略語辞書
++++頭字語
 
-- SAM ソリューション アカウント マネージャー
-- CTA カスタマーテクニカルアドバイザー
-- サービスとしての PaaS プラットフォーム
-- サービスとしての IaaS インフラストラクチャ
-- CPU中央処理装置
-- UI ユーザーインターフェイス
-- CLI コマンド・ライン・インタフェース
-- SFTP セキュアファイル転送プロトコル
-- CDN コンテンツ配信ネットワーク
-- Fastly IO Fastly 画像オプティマイザー
-- VCL ワニス設定言語
-- WAF web アプリケーションファイアウォール
-- PCI 支払いカード業界
-- TLS トランスポート層サービス
-- ACL アクセス制御リスト
-- IP インターネットプロトコル
-- HTTP （S） ハイパーテキスト転送プロトコル
-- SSL セキュアソケットレイヤー
-- DNS ドメインネームサービス
-- DKIM ドメインキー識別メール
-- SPF 送信者ポリシーフレームワーク
-- API アプリケーションプログラミングインターフェース
-- URL uniform resource locator
-- AI 人工知能
-- B2B Business to Business
-- B2C ビジネスから消費者へ
-- PWA プログレッシブ web アプリケーション
-- PHP PHP: hypertext プリプロセッサ
-- QPT 品質パッチツール
-- SCD 静的コンテンツ展開
-- SWAT サイト全体分析ツール
-- APM アプリケーションパフォーマンスの監視
+* SAM ソリューションアカウントマネージャー
+* CTA カスタマーテクニカルアドバイザー
+* PaaS Platform as a Service
+* IaaS Infrastructure as a Service
+* CPU中央処理装置
+* UI ユーザーインターフェイス
+* CLI コマンドラインインターフェイス
+* SFTP セキュアファイル転送プロトコル
+* CDN コンテンツ配信ネットワーク
+* Fastly IO Fastly画像オプティマイザー
+* VCL ニス設定言語
+* WAF web アプリケーションファイアウォール
+* PCI支払いカード産業
+* TLS トランスポート層サービス
+* ACL アクセス制御リスト
+* IP インターネットプロトコル
+* HTTP （S） ハイパーテキスト転送プロトコル
+* SSL セキュアソケットレイヤー
+* DNS ドメイン名サービス
+* DKIM domain key identified mail
+* SPF送信者ポリシーフレームワーク
+* API アプリケーションプログラミングインターフェイス
+* URL均一リソースロケータ
+* AI （人工知能）
+* B2B企業対企業
+* B2C ビジネスから消費者へ
+* PWAのプログレッシブ web アプリ
+* PHP：ハイパーテキストプリプロセッサ
+* QPT品質パッチツール
+* SCD静的コンテンツデプロイ
+* SWAT サイト全体の分析ツール
+* APM アプリケーションパフォーマンス監視
 
 +++
 
-## ビデオで言及されているExperience League ドキュメント
+## ビデオに記載されているExperience League ドキュメント
 
-- [&#x200B; 検索を開く &#x200B;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/opensearch.html?lang=ja)
-- [Live Search](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html?lang=ja)
-- [&#x200B; 製品の推奨事項 &#x200B;](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/overview.html?lang=ja)
-- [Live Search and Catalog Service](https://experienceleague.adobe.com/docs/events/adobe-developers-live-recordings/2023/nov2023/nov-commerce/commerce-search-and-catalog-service.html?lang=ja)
-- [&#x200B; カタログサービス価格のインデックス作成 &#x200B;](https://experienceleague.adobe.com/docs/commerce-merchant-services/price-indexer/price-indexing.html?lang=ja)
-- [App Builder](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/adobe-developer-app-builder/app-builder-technical-overview.html?lang=ja)
-- [&#x200B; 共有された責任 &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/shared-responsibility.html?lang=ja)
-- [&#x200B; 顧客データへのアクセスとプライバシー &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/announcements/commerce-announcements/adobe-support-customer-data-access-and-privacy.html?lang=ja)
-- [Commerce認定制度 &#x200B;](https://experienceleague.adobe.com/docs/certification/program/technical-certifications/ac/ac-overview.html?lang=ja)
-- [Commerce学習コース &#x200B;](https://learning.adobe.com/catalog.html?products=Commerce)
-- [Commerce コミュニティフォーラム &#x200B;](https://community.magento.com/)
--= [Fastly を設定 &#x200B;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html?lang=ja)
-- [&#x200B; パフォーマンステスト &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-operations/implementation-playbook/best-practices/maintenance/backend-performance)
-- [Site Wide Analysis tool - SWAT](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/site-wide-analysis-tool/swat-tool-overview.html?lang=ja&)
-- [Adobe Commerceの New Relic の監視 &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/tools/observation-for-adobe-commerce/intro.html?lang=ja)
-  [&#x200B; セキュリティパッチ &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/security-patches/overview.html?lang=ja)
-- [Launch チェックリスト &#x200B;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/launch/checklist.html?lang=ja)
+* [検索を開く](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/opensearch.html)
+* [ ライブサーチ ](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html)
+* [商品レコメンデーション ](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/overview.html)
+* [ ライブ検索とカタログサービス ](https://experienceleague.adobe.com/docs/events/adobe-developers-live-recordings/2023/nov2023/nov-commerce/commerce-search-and-catalog-service.html)
+* [ カタログサービス価格インデックス ](https://experienceleague.adobe.com/docs/commerce-merchant-services/price-indexer/price-indexing.html)
+* [App Builder](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/adobe-developer-app-builder/app-builder-technical-overview.html)
+* [共有責任](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/shared-responsibility.html)
+* [顧客データへのアクセスとプライバシー](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/announcements/commerce-announcements/adobe-support-customer-data-access-and-privacy.html)
+* [Commerce認定](https://experienceleague.adobe.com/docs/certification/program/technical-certifications/ac/ac-overview.html)
+* [Commerce学習コース ](https://learning.adobe.com/catalog.html?products=Commerce)
+* [Commerce コミュニティ フォーラム ](https://community.magento.com/)
+* [Fastlyの設定](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html)
+* [ パフォーマンステスト ](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/maintenance/backend-performance)
+* [ サイト全体の分析ツール - SWAT](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/site-wide-analysis-tool/swat-tool-overview.html?)
+* Adobe Commerceの[new Relic Observation](https://experienceleague.adobe.com/docs/commerce-operations/tools/observation-for-adobe-commerce/intro.html)
+* [ セキュリティパッチ ](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/security-patches/overview.html)
+* [ チェックリストを起動](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/launch/checklist.html)
 
 {{$include /help/_includes/cloud-technical-onboarding-related-links.md}}

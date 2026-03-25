@@ -1,8 +1,9 @@
 ---
-title: "ビジネスユーザー向けの [!DNL Commerce] - サイト、ストア、表示"
-description: Web サイト、ストア  [!DNL Commerce]  ストアビュー、アプリケーション範囲の違いなど、アーキテクチャの基本について説明します。 インデックス作成とキャッシュについて説明します。
+title: ビジネスユーザー向け[!DNL Commerce] - サイト、ストア、ビュー
+description: Web サイト、ストア、ストアビュー、アプリケーション範囲の違いなど、 [!DNL Commerce]  アーキテクチャの基本について説明します。 インデックス作成とキャッシュについて。
 kt: 5760
 doc-type: video
+duration: 450
 activity: use
 last-substantial-update: 2022-12-28T00:00:00Z
 feature: Configuration, System, Roles/Permissions
@@ -10,35 +11,35 @@ topic: Commerce, Administration
 role: Admin, Leader, User
 level: Beginner, Intermediate
 exl-id: 858451cc-cbc3-471e-a2f1-148f879aba82
-source-git-commit: 79529c8d77df74e6f77ab3a01b45541a38dbf680
+source-git-commit: 9aa4d70ee6a3825f027aa2a9c6a1ac0f876ed59f
 workflow-type: tm+mt
 source-wordcount: '112'
 ht-degree: 0%
 
 ---
 
-# ビジネスユーザー向けの [!DNL Commerce] - サイト、ストア、表示
+# ビジネスユーザー向け[!DNL Commerce] - サイト、ストア、ビュー
 
-このビデオの内容は次のとおりです。
+このビデオの内容：
 
-- Web サイト、ストア、ストアビューの違いを含む、[!DNL Commerce] アーキテクチャの基本
-- 適用範囲の概念
-- インデックス作成とキャッシュの概要と、[!DNL Commerce] による処理方法の概要
+* Web サイト、ストア、ストアビューの違いを含む、[!DNL Commerce] アーキテクチャの基本
+* アプリケーションスコープの概念
+* インデックス作成とキャッシュの概要と、[!DNL Commerce]での処理方法
 
-## このビデオの目的は誰ですか。
+## この動画は誰のためのものでしょうか？
 
-- ビジネスユーザー
+* ビジネスユーザー
 
 ## ビデオコンテンツ
 
 >[!NOTE]
 >
->このビデオの内容は、2.3.1 リリースを反映しています。 以降のリリースのアップデートについて詳しくは、[&#x200B; リリースノート &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/overview.html?lang=ja) を参照してください。
+>ビデオの内容は、2.3.1 リリースを反映しています。 以降のリリースのアップデートについて詳しくは、[ リリースノート ](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/overview.html)を参照してください。
 
->[!VIDEO](https://video.tv.adobe.com/v/330065?quality=12&learn=on&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/35945?learn=on)
 
-## その他のリソース
+## 関連資料
 
-[Web サイト、ストア、表示 –  [!DNL Commerce]  はじめる前に &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html?lang=ja)
+[Web サイト、ストア、ビュー –  [!DNL Commerce] はじめにガイド ](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html)
 
-[&#x200B; 範囲設定  [!DNL Commerce]  はじめる前に &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html?lang=ja#scope-settings)
+[ スコープ設定 –  [!DNL Commerce] 入門ガイド ](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html#scope-settings)

@@ -1,8 +1,9 @@
 ---
 title: グループ化された製品の作成
-description: REST API とCommerce管理者を使用して、グループ化された製品を作成する方法を説明します。
+description: REST APIとCommerce管理者を使用して、グループ化された商品を作成する方法を説明します。
 kt: 14585
 doc-type: video
+duration: 979
 audience: all
 activity: use
 last-substantial-update: 2023-11-30T00:00:00Z
@@ -11,7 +12,7 @@ topic: Commerce, Integrations, Content Management
 role: Developer, User
 level: Beginner
 exl-id: 3ad7125b-ef6d-4ea0-9fa7-8fc9eb399ec1
-source-git-commit: 76a67af957b0d8c1eb64ad42f92412f338650d4b
+source-git-commit: 9aa4d70ee6a3825f027aa2a9c6a1ac0f876ed59f
 workflow-type: tm+mt
 source-wordcount: '513'
 ht-degree: 0%
@@ -20,36 +21,36 @@ ht-degree: 0%
 
 # グループ化された製品の作成
 
-グループ化された製品は、グループとして表示される単純なスタンドアロン製品で構成されます。 単一の製品のバリエーションを提供したり、季節やテーマ別にグループ化したりできます。 グループ化された商品を作成する前に、グループに含めるシンプルな商品がすべてAdobe Commerceにあることを確認し、存在しない商品は作成します。
+グループ化された製品は、グループとして表示されるシンプルなスタンドアロン製品で構成されます。 単一の商品のバリエーションを提供したり、季節やテーマごとにグループ化したりすることができます。 グループ化された商品を作成する前に、グループに含めるすべてのシンプルな商品がAdobe Commerceで使用可能であることを確認し、存在しないものを作成します。
 
-このチュートリアルでは、REST API とAdobe Commerce管理者を使用して、グループ化された商品を作成する方法を説明します。
+このチュートリアルでは、REST APIとAdobe Commerce管理者を使用してグループ化された商品を作成する方法について説明します。
 
-REST API を使用して、管理者にグループ製品を作成します。
+REST APIを使用して、Adminでグループ製品を作成します。
 
-1. 空のグループ製品を作成します。
+1. 空のグループ化された製品を作成します。
 1. グループ化された製品で使用するシンプルな製品を作成します。
-1. 空のグループ化製品にシンプルな製品を入力します。
-1. 空のグループ製品を作成し、シンプルな製品を関連付けます。
+1. 空のグループ化された製品にシンプルな製品を入力します。
+1. 空のグループ化された製品を作成し、単純な製品を関連付けます。
 
-   グループ化された製品に単純な製品を関連付けると、フロントエンドはペイロードの並べ替え順属性（`position`）を使用して、関連付けられた製品を目的の順序で表示します。 `position` 属性が指定されていない場合、製品はグループ化された製品に追加された順序で表示されます。
+   シンプルな商品をグループ化された商品に関連付ける場合、ペイロードの並べ替え順属性（`position`）がフロントエンドで使用され、関連付けられた商品が目的の順序で表示されます。 `position`属性が指定されていない場合、グループ化された製品に追加された順序で製品が表示されます。
 
-Adobe Commerce Admin からグループ化された商品を作成する場合は、最初にシンプルな商品を作成します。 グループ化された製品を作成する準備が整ったら、グループ化された製品にシンプルな製品を 1 つのバッチで割り当てて関連付けます。
+Adobe Commerce管理者からグループ化された商品を作成する場合は、まずシンプルな商品を作成します。 グループ化された製品を作成する準備ができたら、シンプルな製品を1つのバッチでグループ化された製品に割り当てて関連付けます。
 
-## このビデオの目的は誰ですか。
+## この動画は誰のためのものでしょうか？
 
-- Web サイト管理者
-- e コマースマーチャンダイザー
-- Adobe Commerceの新規開発者向けに、REST API を使用してAdobe Commerceでグループ化された商品を作成する方法を説明します。
+* web サイトマネージャー
+* コマースマーチャンダイジング
+* REST APIを使用してAdobe Commerceでグループ化された商品を作成する方法を学習する新しいAdobe Commerce開発者。
 
 ## ビデオコンテンツ
 
->[!VIDEO](https://video.tv.adobe.com/v/3454039?learn=on&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3425920?learn=on)
 
 ## グループ化された製品の設定
 
-この例では、（最初に作成された）シンプルな 3 つの製品とグループ化された製品があります。 2 つのシンプルな製品がグループ化された製品に関連付けられ、3 番目のシンプルな製品がグループ化された製品に追加されます。
+この例では、3つのシンプルな商品（最初に作成）とグループ化された商品があります。 2つの単純な製品がグループ化された製品に関連付けられ、3番目の単純な製品がグループ化された製品に追加されます。
 
-## cURL を使用した最初のシンプルな製品の作成
+## cURLを使用して最初のシンプルな商品を作成する
 
 ```bash
 curl --location '{{your.url.here}}/rest/default/V1/products' \
@@ -67,7 +68,7 @@ curl --location '{{your.url.here}}/rest/default/V1/products' \
 }
 ```
 
-## cURL を使用して 2 つ目のシンプルな製品を作成します
+## cURLを使用して2番目のシンプルな製品を作成する
 
 ```bash
 curl --location '{{your.url.here}}/rest/default/V1/products' \
@@ -85,7 +86,7 @@ curl --location '{{your.url.here}}/rest/default/V1/products' \
 }
 ```
 
-## cURL を使用した 3 つ目のシンプルな製品の作成
+## cURLを使用して3つ目のシンプルな商品を作成する
 
 ```bash
 curl --location '{{your.url.here}}/rest/default/V1/products' \
@@ -103,7 +104,7 @@ curl --location '{{your.url.here}}/rest/default/V1/products' \
 }
 ```
 
-## cURL を使用して空のグループ製品を作成
+## cURLを使用した空のグループ化された製品の作成
 
 ```bash
 curl --location '{{your.url.here}}/rest/default/V1/products' \
@@ -122,7 +123,7 @@ curl --location '{{your.url.here}}/rest/default/V1/products' \
 '
 ```
 
-## グループ化された製品に 1 番目と 2 番目のシンプルな製品を追加
+## 1番目と2番目のシンプルな商品をグループ化された商品に追加する
 
 ```bash
 curl --location '{{your.url.here}}/rest/default/V1/products/my-new-grouped-product/links' \
@@ -156,9 +157,9 @@ curl --location '{{your.url.here}}/rest/default/V1/products/my-new-grouped-produ
 '
 ```
 
-## 既存のグループ化された製品に 3 番目のシンプルな製品を追加
+## 3つ目のシンプルな商品を既存のグループ化された商品に追加する
 
-グループ化された製品に最初に関連付けられた最初の 2 つの製品に使用される適切な位置番号（`1` または `2` を除くすべて）を含めます。 この例では、位置は `4` です。
+グループ化された製品に最初に関連付けられた2つの製品に使用される適切なポジション番号（`1`または`2`以外の任意の番号）を含めます。 この例では、位置は`4`です。
 
 ```bash
 curl --location --request PUT '{{your.url.here}}/rest/default/V1/products/my-new-grouped-product/links' \
@@ -181,14 +182,14 @@ curl --location --request PUT '{{your.url.here}}/rest/default/V1/products/my-new
 '
 ```
 
-## グループ化された製品からのシンプルな製品の削除
+## グループ化された製品から単純な製品を削除する
 
-グループ化された製品から [&#x200B; 単純な製品を削除 &#x200B;](https://developer.adobe.com/commerce/webapi/rest/tutorials/grouped-product/) するには、`DELETE /V1/products/{sku}/links/{type}/{linkedProductSku}` を使用します。
+グループ化された製品から単純な製品[を](https://developer.adobe.com/commerce/webapi/rest/tutorials/grouped-product/)削除するには、次を使用します：`DELETE /V1/products/{sku}/links/{type}/{linkedProductSku}`。
 
-`{type}` として使用するものを調べるには、xdebug を使用してリクエストをキャプチャし、$linkTypes: `related`、`crosssell`、`uupsell` および `associated` を評価します。
-![&#x200B; グループ化された製品リンクタイプ – 代替テキスト &#x200B;](/help/assets/site-management/catalog/grouped-types.png "xdebug セッション中にキャプチャされたグループ化された製品リンクタイプ ")
+`{type}`として使用する内容を見つけるには、xdebugを使用してリクエストを取得し、$linkTypes: `related`、`crosssell`、`uupsell`、および`associated`を評価します。
+![ グループ化された製品リンクの種類 – alt テキスト ](/help/assets/site-management/catalog/grouped-types.png " グループ化された製品リンクの種類がxdebug セッション中にキャプチャされました")
 
-シンプルな製品をグループ化された製品にリンクした場合、ペイロードには次のようなセクションが含まれていました。
+シンプルな製品をグループ化された製品にリンクする場合、ペイロードには次のようなセクションが含まれています。
 
 ```bash
         {
@@ -203,9 +204,9 @@ curl --location --request PUT '{{your.url.here}}/rest/default/V1/products/my-new
         }
 ```
 
-ペイロードで、`link_type` 値 `associated` はDELETEリクエストに必要な `{type}` 値を提供します。 リクエスト URL は `/V1/products/my-new-grouped-product/links/associated/product-sku-three` のようになります。
+ペイロードで、`link_type`値`associated`は、DELETE リクエストに必要な`{type}`値を提供します。 リクエスト URLは`/V1/products/my-new-grouped-product/links/associated/product-sku-three`に似ています。
 
-`product-sku-three` の SKU を持つグループ化された製品から `my-new-grouped-product` の SKU を持つ単純な製品を削除する cURL リクエストを参照してください。
+`product-sku-three` SKUを持つグループ化された製品から`my-new-grouped-product` SKUを持つシンプルな製品を削除するcURL リクエストを参照してください。
 
 ```bash
 curl --location --request DELETE '{{your.url.here}}rest/default/V1/products/my-new-grouped-product/links/associated/product-sku-three' \
@@ -213,7 +214,7 @@ curl --location --request DELETE '{{your.url.here}}rest/default/V1/products/my-n
 --header 'Cookie: PHPSESSID=9e61396705e9c17423eca2bdf2deefb2'
 ```
 
-## cURL を使用したグループ化された製品の取得
+## cURLを使用したグループ化された製品の取得
 
 ```bash
 curl --location '{{your.url.here}}rest/default/V1/products/some-grouped-product-sku' \
@@ -221,9 +222,9 @@ curl --location '{{your.url.here}}rest/default/V1/products/some-grouped-product-
 --header 'Cookie: private_content_version=3b797a6cc3c5c71f2193109fb9838b12'
 ```
 
-## その他のリソース
+## 関連資料
 
-- [&#x200B; グループ化された製品の作成と管理 &#x200B;](https://developer.adobe.com/commerce/webapi/rest/tutorials/grouped-product/){target="_blank"}
-- [&#x200B; グループ化された製品 &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/types/product-create-grouped.html?lang=ja){target="_blank"}
-- [Adobe Developer REST チュートリアル &#x200B;](https://developer.adobe.com/commerce/webapi/rest/tutorials/prerequisite-tasks/){target="_blank"}
-- [Adobe Commerce REST ReDoc](https://adobe-commerce.redoc.ly/2.4.6-admin/tag/products#operation/PostV1Products){target="_blank"}
+* [ グループ化された製品の作成と管理](https://developer.adobe.com/commerce/webapi/rest/tutorials/grouped-product/){target="_blank"}
+* [ グループ化された製品](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/types/product-create-grouped.html){target="_blank"}
+* [Adobe Developer REST チュートリアル ](https://developer.adobe.com/commerce/webapi/rest/tutorials/prerequisite-tasks/){target="_blank"}
+* [Adobe Commerce REST文書](https://adobe-commerce.redoc.ly/2.4.6-admin/tag/products#operation/PostV1Products){target="_blank"}

@@ -1,48 +1,47 @@
 ---
-title: PHP Storm でのアップグレード互換性ツールの使用
-description: PHP Storm プラグインでアップグレード互換性ツールを使用する方法については、このテクニカルビデオをご覧ください。
-landing-page-description: 非互換性の特定と対処を容易にする PHP Storm プラグインを使用したアップグレード互換性ツールの使用方法について学習します。
-short-description: 非互換性の特定と対処を容易にする PHP Storm プラグインを使用したアップグレード互換性ツールの使用方法について説明します。
-kt: 9651
-doc-type: technical video
-audience: all
-activity: use
+title: PhpStormで互換性をアップグレード ツールを使用する
+description: アップグレードの前に、PhpStorm プラグインで互換性アップグレードツールを使用して非互換性を見つけて修正する方法を説明します。
+doc-type: Technical Video
+duration: 416
 last-substantial-update: 2023-04-27T00:00:00Z
 feature: Configuration, System, Upgrade, Tools and External Services
 topic: Commerce, Administration
-old-role: Architect, Developer
 role: Developer
-level: Beginner, Intermediate
+level: Intermediate
+jira: KT-9651
 exl-id: 9b56306c-578b-4c9f-9566-b8c9560d1b1c
-source-git-commit: 79d57d2c04c42a8dc23b5735e72e841b7e51cc63
+source-git-commit: 9aa4d70ee6a3825f027aa2a9c6a1ac0f876ed59f
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 35%
+source-wordcount: '126'
+ht-degree: 0%
 
 ---
 
-# PHP Storm でのアップグレード互換性ツールの使用
+# PhpStormで互換性をアップグレード ツールを使用する
 
 {{only-for-on-prem-commerce-cloud}}
 
-アップグレード互換性ツール（UCT）は、現在のバージョンと対象とするアップグレードバージョンの間の非互換性をわずか数分で分析する、無料のツールです。 PHP Storm プラグインを使用すると、このツールがさらに使いやすくなります。
+アップグレード互換性ツール（UCT）は、現在のバージョンとターゲットアップグレードバージョンとの互換性の問題を数分で分析します。 PhpStorm プラグインを使用すると、IDEからツールを簡単に実行できます。
 
-このビデオの内容は次のとおりです。
+このビデオの内容：
 
-- アップグレード互換性ツールとは
-- Magento PHP Storm プラグインでの使用方法
-- HTMLの結果にアクセスして、モジュールの重大度と非互換性の数で視覚化する方法
+* アップグレード互換性ツールの機能
+* Magento PhpStorm プラグインでの使用方法
+* モジュールの重要度と非互換性カウントによるHTML結果の読み方
 
-## このビデオの目的は誰ですか。
+## この動画は誰のためのものでしょうか？
 
-- 開発者
+* 開発者
 
 ## ビデオコンテンツ
 
->[!VIDEO](https://video.tv.adobe.com/v/344407?captions=jpn&quality=12&learn=on)
+* PhpStormからUCTをインストールして実行します。
+* HTMLレポートを確認し、修正の優先順位を付けます。
 
-## その他のリソース
+>[!VIDEO](https://video.tv.adobe.com/v/340150?learn=on)
 
-- [&#x200B; 互換性アップグレードツール &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/upgrade-compatibility-tool/overview.html?lang=ja)
-- [Magento PHP Storm プラグイン &#x200B;](https://plugins.jetbrains.com/plugin/8024-magento-phpstorm)
-- [&#x200B; リリース済みバージョン &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/release/versions.html?lang=ja)
+## 関連資料
+
+* [互換性ツールのアップグレード ](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/upgrade-compatibility-tool/overview.html){target="_blank"}
+* [Magento PhpStorm プラグイン ](https://plugins.jetbrains.com/plugin/8024-magento-phpstorm){target="_blank"}
+* [ リリース済みバージョン ](https://experienceleague.adobe.com/docs/commerce-operations/release/versions.html){target="_blank"}

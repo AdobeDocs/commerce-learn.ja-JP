@@ -1,8 +1,9 @@
 ---
 title: 配送方法と配送方法の管理
-description: Commerce ストアの発送元、複数配送、配送料、通信事業者を設定する方法について説明します。
+description: Commerce ストアの配送元、複数配送、配送料、配送業者の設定を行う方法について説明します。
 kt: 10543
 doc-type: feature video
+duration: 155
 audience: all
 activity: use
 last-substantial-update: 2023-04-27T00:00:00Z
@@ -11,7 +12,7 @@ topic: Commerce, Administration
 role: Admin, Leader, User
 level: Beginner, Intermediate
 exl-id: fccbdb7b-2051-490a-a249-3525f96c51ab
-source-git-commit: 404d2708a6d540d6fb19a33afb20726356cd8000
+source-git-commit: 9aa4d70ee6a3825f027aa2a9c6a1ac0f876ed59f
 workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 0%
@@ -20,19 +21,19 @@ ht-degree: 0%
 
 # 配送方法と配送方法の管理
 
-配送および配信方法の管理は、製品を顧客に渡すことができるようにするために重要です。 このビデオでは、発送元、複数配送、配送料、通信事業者の設定を管理する方法を説明します。
+配送プロセスを管理することは、商品を顧客に届けるために不可欠です。 このビデオでは、配送元、複数配送、配送料、配送業者の設定を管理する方法について説明します。
 
-## このビデオの目的は誰ですか。
+## この動画は誰のためのものでしょうか？
 
-- ストア管理者
-- e コマースマネージャー
+* ストア管理者
+* コマース責任者
 
 ## ビデオコンテンツ
 
->[!VIDEO](https://video.tv.adobe.com/v/3410208?quality=12&learn=on&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/343658?learn=on)
 
-## その他のリソース
+## 関連資料
 
-- [&#x200B; 発送設定 –  [!DNL Commerce]  店舗および購入エクスペリエンスガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/delivery/shipping-settings.html?lang=ja)
-- [&#x200B; 基本的な配送方法  [!DNL Commerce]  店舗・購入エクスペリエンスガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/delivery/delivery.html?lang=ja#basic-delivery-methods)
-- [&#x200B; 配送業者の設定 –  [!DNL Commerce]  店舗および購入エクスペリエンスガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/delivery/shipping-carriers/carriers.html?lang=ja)
+* [配送設定 –  [!DNL Commerce] 店舗および購入エクスペリエンスガイド ](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/delivery/shipping-settings.html)
+* [基本的な配信方法 –  [!DNL Commerce]  ストアと購入エクスペリエンスガイド ](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/delivery/delivery.html#basic-delivery-methods)
+* [配送業者の設定 –  [!DNL Commerce] 店舗および購入エクスペリエンスガイド ](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/delivery/shipping-carriers/carriers.html)

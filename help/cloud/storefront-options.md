@@ -1,38 +1,38 @@
 ---
-title: Adobe CommerceのEdge Delivery Servicesで E-Commerceを強化
-description: Adobe Commerceで、SEO に最適化された高速な e コマースを体験してください。 トラフィックの増加、コストの削減、ストアフロントの管理をEdge Delivery Servicesで簡単に行えます。
+title: Adobe CommerceのEdge Delivery ServicesでECommerceを強化しましょう
+description: Adobe Commerceなら、SEO最適化された高速なe コマースを体験できます。 Edge Delivery Servicesなら、トラフィックを大幅に増加させ、コストを削減し、ストアフロントを簡単に管理できます。
 feature: Marketing Tools, Site Management, Storefront
 topic: Architecture, Commerce, Performance
 role: Admin, User
 level: Beginner
 doc-type: Technical Video
-duration: 301
+duration: 338
 last-substantial-update: 2024-11-09T00:00:00Z
 jira: KT-16193
-source-git-commit: 1dd8c4ea80732d68b44d1d200ddcb331551ea224
+exl-id: 1c4c2a64-f610-4079-8491-a61b2b8a1a92
+source-git-commit: 9aa4d70ee6a3825f027aa2a9c6a1ac0f876ed59f
 workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 0%
 
 ---
 
+# Adobe Commerce ストアフロントオプション
 
-# Adobe Commerce ストアフロントのオプション
-
-Adobe CommerceのEdge Delivery Servicesは、高速で効率的な、カスタマイズ性の高い e コマースストアフロントソリューションを提供します。
-Adobeのデジタルエクスペリエンスツールとシームレスに統合されているため、オーガニックのトラフィックを増やし、コストを削減し、新しいサイトをすばやく立ち上げることができます。 最適化されたコンポーネント、リアルタイムのパーソナライゼーション、コンテンツアップデートのノーコード環境により、Edge Delivery Servicesは開発者とビジネスユーザーの両方に対して、パフォーマンスの高い魅力的なオンラインストアを作成および管理する権限を与えます。
+Adobe CommerceのEdge Delivery Servicesは、高速で効率的な、高度にカスタマイズ可能なe コマースストアフロントソリューションを提供します。
+Adobeのデジタルエクスペリエンスツールとシームレスに統合できるため、オーガニックトラフィックを促進し、コストを削減し、新しいサイトを迅速に立ち上げることができます。 Edge Delivery Servicesなら、最適化済みのコンポーネント、リアルタイムのパーソナライゼーション、コンテンツ更新のためのノーコード環境など、開発者とビジネスユーザーの両方がパフォーマンスに優れ、視覚的に魅力的なオンラインストアを構築、管理できます。
 
 ## このビデオの対象
 
-- オンラインストアフロントの強化を検討している企業や e コマースリーダー。
-- IT リーダー、開発者、マーケター。
-- サイトのパフォーマンスを向上させ、オーガニックトラフィックを増やし、パーソナライズされたショッピング体験を提供することを目指している企業。
+* オンラインストアフロントの強化を目指す企業やe コマース担当者。
+* IT リーダー、開発者、マーケター。
+* サイトパフォーマンスの向上、オーガニックトラフィックの増加、パーソナライズされたショッピング体験の提供を目指す企業。
 
 ## ビデオコンテンツ
 
-- Adobe CommerceのEdge Delivery Servicesを使用した迅速なデプロイメントと最適化
-- 他のAdobeソリューションとネイティブに統合されるシームレスな統合とPersonalization
-- デジタルアセットのリアルタイムパーソナライゼーションと効率的な管理を可能にします。
-- 技術者以外のユーザーのエンパワーメント
+* Edge Delivery Services for Adobe Commerceを活用した迅速なデプロイメントと最適化
+* 他のAdobeソリューションとネイティブに統合できる、シームレスな統合とPersonalization
+* デジタルアセットのリアルタイムのパーソナライゼーションと効率的な管理
+* 技術的な知識を持たない利用者の支援
 
->[!VIDEO](https://video.tv.adobe.com/v/3448387?learn=on&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3431725?learn=on)

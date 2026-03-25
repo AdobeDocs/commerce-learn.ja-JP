@@ -1,8 +1,9 @@
 ---
-title: 販売者支援型ショッピング
-description: ストアにアカウントを登録したゲストと顧客の両方にすぐに支援を提供できる追加方法を説明します。
+title: 出品者支援ショッピング
+description: 追加する方法について説明します。お店でアカウントに登録したゲストと顧客の両方に、すぐにサポートを提供できます。
 kt: 10548
 doc-type: feature video
+duration: 205
 audience: all
 activity: use
 last-substantial-update: 2023-04-27T00:00:00Z
@@ -11,27 +12,27 @@ topic: Commerce, Administration
 role: Admin, Leader, User
 level: Beginner, Intermediate
 exl-id: a7129f74-e9f1-4c45-9513-d0328e3f3ec3
-source-git-commit: 404d2708a6d540d6fb19a33afb20726356cd8000
+source-git-commit: 9aa4d70ee6a3825f027aa2a9c6a1ac0f876ed59f
 workflow-type: tm+mt
 source-wordcount: '98'
 ht-degree: 0%
 
 ---
 
-# 販売者支援型ショッピング
+# 出品者支援ショッピング
 
-お客様が購入を完了するために支援が必要な場合があります。 一部のお客様はオンラインでのショッピングを好みますが、電話で注文することをお勧めします。 お店でアカウントを登録したゲストと顧客の両方にすぐに支援を提供できます。
+時には、顧客は購入を完了するために支援を必要としています。 一部の顧客はオンラインでのショッピングを好むが、電話での注文を好む場合もある。 お客様の店舗でアカウントを登録したゲストと顧客の両方に、すぐにサポートを提供できます。
 
-## このビデオの目的は誰ですか。
+## この動画は誰のためのものでしょうか？
 
-- 営業マネージャー
-- 顧客サービス担当者
+* セールスマネージャー
+* カスタマーサービス担当者
 
 ## ビデオコンテンツ
 
->[!VIDEO](https://video.tv.adobe.com/v/3410203?quality=12&learn=on&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/343662?learn=on)
 
-## その他のリソース
+## 関連資料
 
-- [&#x200B; 買い物客への支援の提供 –  [!DNL Commerce]  店舗および購入エクスペリエンスガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/customers/customer-accounts/manage/login-as-customer.html?lang=ja)
-- [&#x200B; 買い物支援 –  [!DNL Commerce]  店舗および購入体験ガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/introduction.html?lang=ja#shopping-assistance)
+* [買い物客の支援を提供 –  [!DNL Commerce] 店舗および購入エクスペリエンスガイド ](https://experienceleague.adobe.com/docs/commerce-admin/customers/customer-accounts/manage/login-as-customer.html)
+* [ ショッピング支援 –  [!DNL Commerce] 店舗および購入エクスペリエンスガイド ](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/introduction.html#shopping-assistance)

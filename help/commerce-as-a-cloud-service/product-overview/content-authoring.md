@@ -1,36 +1,36 @@
 ---
-title: コンテンツオーサリング
-description: ビジュアルエディターやドキュメントオーサーなどのAdobe Commerce ツールを使用して、マーケターを支援し、AI を活用した迅速なコンテンツ作成を実現します。
+title: コンテンツ作成
+description: ビジュアルエディターやドキュメントオーサーなどのAdobe Commerceツールを利用して、AIを活用したコンテンツを迅速に制作できます。
 feature: Page Builder, CMS, Media
 topic: Content Management, Artificial Intelligence
 role: Developer, User
 level: Beginner
 doc-type: Technical Video
-duration: 422
+duration: 442
 last-substantial-update: 2026-01-12T00:00:00Z
 jira: KT-20085
 exl-id: a0907b98-f0c2-4256-8e33-d16e0694ae74
-source-git-commit: de84a587c0d3b85e04929bd97c96e319f096edae
+source-git-commit: 9aa4d70ee6a3825f027aa2a9c6a1ac0f876ed59f
 workflow-type: tm+mt
 source-wordcount: '92'
 ht-degree: 0%
 
 ---
 
-# コンテンツオーサリング
+# コンテンツ作成
 
-Adobe Commerce マーケターが、ビジュアルエディターやドキュメント作成者などのツールを使用して、コンテンツを独立して管理できる方法について説明します。 AI 駆動機能によってコンテンツの最適化とキャンペーンの実行を合理化する方法を説明します。
+Adobe Commerceを利用して、ビジュアルエディターやドキュメントオーサーなどのツールでコンテンツを独自に管理する方法をご確認ください。 AIを利用して、コンテンツの最適化とキャンペーン実施を合理化する方法をご確認ください。
 
-## このビデオの目的は誰ですか。
+## この動画は誰のためのものでしょうか？
 
 * デジタルマーケティングマネージャー
-* コンテンツ戦略
+* コンテンツストラテジスト
 * E コマースマーチャンダイザー
 
 ## ビデオコンテンツ
 
-* マーケターがビジュアル編集ツールを使用して、開発者のサポートなしでサイトコンテンツを作成および更新する方法を説明します。
-* AI を活用したバリエーションと A/B テストが、コンテンツの品質とエンゲージメントをどのように向上させるかを説明します。
+* ビジュアル編集ツールを使用して、マーケターが開発者のサポートなしでサイトコンテンツを作成および更新する方法を説明します。
+* AIを活用したバリエーションとA/B テストによって、コンテンツの質とエンゲージメントがどのように向上するかをご確認ください。
 
 
->[!VIDEO](https://video.tv.adobe.com/v/3478791/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3478791?learn=on)

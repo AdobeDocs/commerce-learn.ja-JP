@@ -6,37 +6,37 @@ topic: Commerce
 role: Developer
 level: Beginner
 doc-type: Tutorial
-duration: 182
+duration: 243
 last-substantial-update: 2025-08-13T00:00:00Z
 jira: KT-18548
 exl-id: bad3d926-2952-4bac-b685-adb16f009f8d
-source-git-commit: 5d34c2e3b93c937139e88fa2f75dc6046f7093fc
+source-git-commit: 9aa4d70ee6a3825f027aa2a9c6a1ac0f876ed59f
 workflow-type: tm+mt
 source-wordcount: '94'
 ht-degree: 0%
 
 ---
 
-# クエリデータのAdobe Commerce Optimizer
+# Query Data Adobe Commerce Optimizer
 
-Adobe Commerce Optimizer インスタンスでGraphQLを使用してデータに対してクエリを実行する方法を説明します。
+Adobe Commerce Optimizer インスタンスでGraphQLを使用してデータをクエリする方法について説明します。
 
-## このビデオの目的は誰ですか。
+## この動画は誰のためのものでしょうか？
 
-* Commerce ソリューションアーキテクトと開発者
+* Commerce Solution Architectと開発者
 
 ## ビデオコンテンツ
 
 * GraphQLを使用したデータのクエリ
-* jq を使用した json の読み取り容易さ
+* jqを使用してjsonを読みやすくする
 
->[!VIDEO](https://video.tv.adobe.com/v/3470801?learn=on&enablevpops&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3470800?learn=on)
 
 ## コードサンプル
 
-`{{insert-your-graphql-endpoint-url}}`、`{{insert-your-ac-view-id}}`、`{{your-search-query-string}}` などの値を、クエリで必要な値と交換してください。
+`{{insert-your-graphql-endpoint-url}}`、`{{insert-your-ac-view-id}}`、`{{your-search-query-string}}`などの値を、クエリに必要な値と交換してください。
 
-基本的なサンプルクエリ
+基本サンプルクエリ
 
 ```bash
 curl '{{insert-your-graphql-endpoint-url}}' \
@@ -45,7 +45,7 @@ curl '{{insert-your-graphql-endpoint-url}}' \
 -d '{"query": "query ProductSearch($search: String!) { productSearch( phrase: $search, page_size: 10, current_page: 2) { items { productView { sku name description shortDescription images { url } ... on SimpleProductView { attributes { label name value } price { regular { amount { value currency } } roles } } } } } }", "variables": { "search": "{{your-search-query-string}}"}}'
 ```
 
-`jq` を使用して出力をプリティプリントする基本的なサンプルクエリ
+`jq`を使用した基本的なサンプルクエリで、出力を整形します
 
 ```bash
 curl '{{insert-your-graphql-endpoint-url}}' \
@@ -56,5 +56,5 @@ curl '{{insert-your-graphql-endpoint-url}}' \
 
 ## 関連コンテンツ
 
-* [&#x200B; マーチャンダイジング API の概要 &#x200B;](https://developer.adobe.com/commerce/services/optimizer/merchandising-services/using-the-api/#make-your-first-request){target="_blank"}
-* [[!DNL Adobe Commerce Optimizer]  ガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce/optimizer/overview){target="_blank"}
+* [ マーチャンダイジング APIの概要](https://developer.adobe.com/commerce/services/optimizer/merchandising-services/using-the-api/#make-your-first-request){target="_blank"}
+* [[!DNL Adobe Commerce Optimizer]  ガイド ](https://experienceleague.adobe.com/en/docs/commerce/optimizer/overview){target="_blank"}

@@ -1,8 +1,9 @@
 ---
 title: 顧客属性の作成
-description: 顧客のアカウントのアカウント情報、アドレス帳、請求情報のセクションにカスタム属性を追加する方法を説明します。
+description: お客様のアカウントの「アカウント情報」、「アドレス帳」、「請求情報」セクションにカスタム属性を追加する方法について説明します。
 kt: 10547
 doc-type: feature video
+duration: 117
 audience: all
 activity: use
 last-substantial-update: 2023-04-27T00:00:00Z
@@ -11,7 +12,7 @@ topic: Commerce, Administration
 role: Admin, Leader, User
 level: Beginner, Intermediate
 exl-id: 75a8213a-145b-4fb2-898c-1ae7ba272748
-source-git-commit: 404d2708a6d540d6fb19a33afb20726356cd8000
+source-git-commit: 9aa4d70ee6a3825f027aa2a9c6a1ac0f876ed59f
 workflow-type: tm+mt
 source-wordcount: '110'
 ht-degree: 0%
@@ -20,18 +21,18 @@ ht-degree: 0%
 
 # 顧客属性の作成
 
-顧客属性は、注文、受け渡し、顧客管理の各プロセスをサポートするために必要な情報を提供します。 ビジネスは一意なので、システムから提供されるデフォルトのフィールドに加えて、フィールドが必要になる場合があります。 顧客のアカウントの「アカウント情報」、「アドレス帳」、「請求情報」の各セクションにカスタム属性を追加できます。
+顧客属性は、注文、フルフィルメント、顧客管理のプロセスをサポートするために必要な情報を提供します。 ビジネスは一意であるため、システムが提供するデフォルトのフィールドに加えて、フィールドが必要になる場合があります。 カスタム属性は、お客様のアカウントの「アカウント情報」、「アドレス帳」、「請求情報」の各セクションに追加できます。
 
-## このビデオの目的は誰ですか。
+## この動画は誰のためのものでしょうか？
 
-- ストア管理者
-- e コマースマーケター
+* ストア管理者
+* コマースマーケター
 
 ## ビデオコンテンツ
 
->[!VIDEO](https://video.tv.adobe.com/v/3410186?quality=12&learn=on&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/343661?learn=on)
 
-## その他のリソース
+## 関連資料
 
-- [&#x200B; 顧客属性プロパティ - [!DNL Commerce]  顧客管理ガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/customers/customer-accounts/attributes/attribute-properties.html?lang=ja)
-- [&#x200B; 個人の顧客アカウントの作成 –  [!DNL Commerce]  顧客管理ガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/customers/customer-accounts/account-create.html?lang=ja)
+* [顧客属性のプロパティ - [!DNL Commerce] 顧客管理ガイド ](https://experienceleague.adobe.com/docs/commerce-admin/customers/customer-accounts/attributes/attribute-properties.html)
+* [個人顧客アカウントの作成 –  [!DNL Commerce] 顧客管理ガイド ](https://experienceleague.adobe.com/docs/commerce-admin/customers/customer-accounts/account-create.html)

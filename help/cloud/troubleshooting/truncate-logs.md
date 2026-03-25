@@ -1,46 +1,46 @@
 ---
-title: ログをトランケート
-description: 大きなログファイルを切り捨てて、ハードドライブがいっぱいになったことが原因でデプロイメントが失敗した場合の対処方法を説明します。
+title: ログを切り捨てる
+description: 大きなログファイルを切り捨てることで、フルハードドライブが原因で失敗したデプロイメントをトリアージする方法を説明します。
 feature: Cloud, Site Management
 topic: Commerce, Development
 old-role: Architect, Developer
 role: Developer
 level: Beginner, Intermediate
 doc-type: Technical Video
-duration: 206
+duration: 302
 last-substantial-update: 2025-3-25
 jira: KT-17595
 exl-id: 4a36de40-fb55-41ad-afef-35fc18a271ec
-source-git-commit: afe0ac1781bcfc55ba0e631f492092fd1bf603fc
+source-git-commit: 9aa4d70ee6a3825f027aa2a9c6a1ac0f876ed59f
 workflow-type: tm+mt
 source-wordcount: '187'
 ht-degree: 0%
 
 ---
 
-# ログをトランケート
+# ログを切り捨てる
 
-ハードドライブ容量超過が原因でデプロイメントが失敗した場合のトリアージ方法を説明します。 Adobe Commerce クラウド環境の領域を解放するために実行できるコマンドを見つける方法と内容について説明します。
+フル ハード ドライブによるデプロイメントのトリアージと失敗の方法について説明します。 Adobe Commerce Cloud環境の空き容量を増やすために実行できるコマンドの検索方法と実行方法について説明します。
 
-これらのログ ファイルが必要だと思われる場合は、切り捨てる前に、それらを `rsync` るか、他の方法を使用してサーバーからコピーを取得できます。
+これらのログファイルが必要になる可能性がある場合は、それらを`rsync`するか、切り捨てる前にサーバーから利用可能なコピーを取得するために他の方法を使用できます。
 
 ## このビデオの対象
 
-- 開発者と IT 担当者
-- システム管理者
+* 開発者およびIT担当者
+* システム管理者
 
 ## ビデオコンテンツ
 
-- 失敗したデプロイメントの診断と解決
-- 一般的な大きなログファイルの場所
-- ログファイルをトランケートする簡単な方法
+* 失敗したデプロイメントの診断と解決
+* 一般的な大きなログファイルが見つかった場合
+* ログファイルを切り捨てるクイックメソッド
 
->[!VIDEO](https://video.tv.adobe.com/v/3454584?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3454572?learn=on)
 
 
-## ビデオで使用されているコマンド
+## ビデオで使用されるコマンド
 
-ハードディスク（HDD）の空き容量を `df -h` しく確認します。 dev/mapper/xxxx という行に注意してください。
+ハード ドライブの空き容量を確認するには`df -h`。 dev/mapper/xxxx行に注意してください
 
 ```SHELL
 df -h
@@ -60,7 +60,7 @@ tmpfs                                   5.0M     0  5.0M   0% /run/lock
 ```
 
 
-コマンド `ls -lah` を使用して、ファイルとそのサイズを人間が読み取れる形式（kb、mb、gb など）で表示する
+コマンド `ls -lah`を使用して、ファイルとそのサイズをkb、mb、gbなどの人間が読み取れる形式で表示します
 
 ```SHELL
 ls -lah
@@ -80,9 +80,9 @@ drwxr-xr-x 6 web web 4.0K Jan 10  2024 ..
 -rw-rw-r-- 1 web web  516 Dec  6  2023 system.log
 ```
 
-## トランケート・ログの例
+## 切り捨てログの例
 
-適切なプロジェクトと環境に ssh で接続したら、`var/log` ディレクトリに移動します。 次に、`> some-log-file.log` に似たものを使用してファイルを切り捨てることができます
+適切なプロジェクトと環境にSSHで移動したら、`var/log` ディレクトリに移動します。 次に、`> some-log-file.log`に似たものでファイルを切り捨てることができます
 
 ```BASH
 > support_report.log 
@@ -91,4 +91,4 @@ drwxr-xr-x 6 web web 4.0K Jan 10  2024 ..
 
 ## 関連ドキュメント
 
-- [&#x200B; 正常性の通知 &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-on-cloud/user-guide/dev-tools/integrations/health-notifications){target="_blank"}
+* [ ヘルス通知](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/dev-tools/integrations/health-notifications){target="_blank"}

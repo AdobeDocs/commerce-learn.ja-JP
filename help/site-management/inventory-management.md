@@ -1,8 +1,9 @@
 ---
 title: Inventory management
-description: Inventory managementの機能と、それらを使用して 1 つの倉庫または複雑な発送ネットワークから作業する方法について説明します。
+description: Inventory managementの機能と、それを使用して単一の倉庫や複雑な配送ネットワークから作業する方法について説明します。
 kt: 10551
 doc-type: feature video
+duration: 383
 audience: all
 activity: use
 last-substantial-update: 2023-04-27T00:00:00Z
@@ -11,7 +12,7 @@ topic: Commerce, Administration
 role: Admin, Leader, User
 level: Beginner, Intermediate
 exl-id: c2f154e0-c5b3-4fcc-aa7b-20dcaabfadbe
-source-git-commit: 404d2708a6d540d6fb19a33afb20726356cd8000
+source-git-commit: 9aa4d70ee6a3825f027aa2a9c6a1ac0f876ed59f
 workflow-type: tm+mt
 source-wordcount: '145'
 ht-degree: 0%
@@ -20,18 +21,18 @@ ht-degree: 0%
 
 # Inventory management
 
-複数の倉庫、店舗、集荷場所、直荷主などに対して 1 つの店舗を持つマーチャントは、在庫管理機能を使用して販売の数量を管理し、出荷を処理して注文を完了できます。 在庫数量を追跡し、すべての web サイトの顧客に正確な販売可能な在庫量を提供し、距離または優先度に基づく推奨事項に従って出荷できます。 また、優先する製品設定を（すべてのストアと製品に対して）、ソースごと、製品ごとにグローバルに設定することもできます。 これらの機能はビジネスの成長に伴って増加し、単一の倉庫や複雑な配送ネットワークから作業できるようになります。
+単一の店舗を複数の倉庫、店舗、受け取り場所、ドロップシッパーなどに持つマーチャントは、在庫管理機能を使用して販売の数量を維持し、出荷を処理して注文を完了することができます。 在庫量を追跡し、あらゆるweb サイトで顧客に正確な販売可能な在庫量を提供し、距離や優先順位にもとづいてレコメンデーションに応じて出荷することができます。 また、グローバルに（すべてのストアと製品に対して）、ソースごと、および製品ごとに好みの製品設定を設定することもできます。 これらの機能はビジネスとともに成長するため、単一の倉庫や複雑な配送ネットワークから作業することが可能です。
 
-## このビデオの目的は誰ですか。
+## この動画は誰のためのものでしょうか？
 
-- Web サイト管理者
-- e コマースマーチャンダイザー
+* web サイトマネージャー
+* コマースマーチャンダイジング
 
 ## ビデオコンテンツ
 
->[!VIDEO](https://video.tv.adobe.com/v/3410198?quality=12&learn=on&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/343748?learn=on)
 
-## その他のリソース
+## 関連資料
 
-- [Inventory management ガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/inventory/introduction.html?lang=ja)
-- [Inventory management - Developer REST ドキュメント &#x200B;](https://developer.adobe.com/commerce/webapi/rest/inventory/)
+* [Inventory management ガイド ](https://experienceleague.adobe.com/docs/commerce-admin/inventory/introduction.html)
+* [Inventory management – 開発者向けREST ドキュメント ](https://developer.adobe.com/commerce/webapi/rest/inventory/)

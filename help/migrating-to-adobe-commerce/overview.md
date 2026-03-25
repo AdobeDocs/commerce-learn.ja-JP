@@ -1,17 +1,17 @@
 ---
 title: Adobe Commerceへの移行の概要
-description: Adobe Commerceへの移行時の準備、カスタムコード、QA、パフォーマンス、セキュリティに関する概要です。
+description: Adobe Commerceへの移行時の準備、カスタムコード、QA、パフォーマンス、セキュリティについて説明します。
 feature: Best Practices
 topic: Commerce, Migration
 old-role: Architect, Developer
 role: Developer
 level: Beginner
 doc-type: Technical Video
-duration: 167
+duration: 201
 last-substantial-update: 2024-10-02T00:00:00Z
 jira: KT-11767
 exl-id: 9b9504c1-0888-46da-b25e-0a5e16833d84
-source-git-commit: 79d57d2c04c42a8dc23b5735e72e841b7e51cc63
+source-git-commit: 9aa4d70ee6a3825f027aa2a9c6a1ac0f876ed59f
 workflow-type: tm+mt
 source-wordcount: '150'
 ht-degree: 0%
@@ -22,18 +22,18 @@ ht-degree: 0%
 
 {{only-for-on-prem-commerce-cloud}}
 
-この包括的なAdobe Commerce移行チュートリアルシリーズへようこそ。 開発者や企業向けに設計されたこれらのチュートリアルでは、準備、カスタムコード評価、QA、パフォーマンス、セキュリティなどの基本的なトピックについて説明します。 Adobe Commerceへのスムーズかつ正常な移行を確実に行うためのベストプラクティスを学び、経験豊富なAdobeのエキスパートから貴重なインサイトを得ます。
+この包括的なAdobe Commerce移行チュートリアルシリーズへようこそ。 開発者と企業向けに設計されたこれらのチュートリアルでは、準備、カスタムコード評価、QA、パフォーマンス、セキュリティなどの重要なトピックを説明します。 Adobe Adobe Commerceへの移行をスムーズに成功させるために、Adobeのベストプラクティスを学び、経験豊富なエキスパートから貴重なインサイトを得ましょう。
 
-## このビデオシリーズの対象は誰ですか？
+## この動画シリーズは誰のためのものでしょうか。
 
-* Adobe Commerceへの移行に関するスキルと知識の向上を目指している開発者。
-* Adobe Commerceへの移行を計画し、ベストプラクティスを模索している。
-* e コマースプラットフォームの管理とサポートを担当する IT チーム。
-* 移行プロセスの合理化を目指すシステムインテグレーター
+* Adobe Commerceへの移行に関するスキルと知識を向上させたい開発者。
+* Adobe Commerceへの移行を計画し、ベストプラクティスを模索するビジネス。
+* e コマースプラットフォームの管理とサポートを担当するIT チーム。
+* 移行プロセスの合理化を目指すシステムインテグレーター。
 
 ## ビデオコンテンツ {#video-content}
 
-* Adobe Commerceへ正常に移行するための基本的な手順とベストプラクティスについて説明します。
-* カスタムコード、サードパーティモジュールを評価および最適化し、主要な QA 概念を理解します。
+* Adobe Commerceへの移行を成功させるための重要な手順とベストプラクティスについて説明します。
+* カスタムコード、サードパーティモジュールの評価と最適化、主要なQA概念の把握。
 
->[!VIDEO](https://video.tv.adobe.com/v/3444321/?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3432846?learn=on)

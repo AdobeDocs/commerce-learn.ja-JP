@@ -1,16 +1,16 @@
 ---
-title: Adobe Commerce Optimizer インスタンスのサンプルデータを取り込む方法
-description: Adobe Commerce Optimizer インスタンスのサンプルデータを取り込む方法を説明します。
+title: Adobe Commerce Optimizer インスタンスにサンプルデータを取り込む方法
+description: Adobe Commerce Optimizer インスタンスのサンプルデータを取り込む方法について説明します。
 feature: Saas, Storefront
 topic: Commerce, Performance
 role: Admin, User
 level: Beginner
 doc-type: Tutorial
-duration: 422
+duration: 446
 last-substantial-update: 2025-08-5
 jira: KT-18663
 exl-id: 629f3781-1f64-4417-b51f-03be4ccfc06a
-source-git-commit: a21cd624655eb2bdb7f92a6699ccbaa5d0642554
+source-git-commit: 9aa4d70ee6a3825f027aa2a9c6a1ac0f876ed59f
 workflow-type: tm+mt
 source-wordcount: '114'
 ht-degree: 0%
@@ -19,25 +19,25 @@ ht-degree: 0%
 
 # サンプルデータの取り込みAdobe Commerce Optimizer
 
-Adobe Commerce Optimizer インスタンスのサンプルデータを取り込む方法について説明します。 このビデオでは、公式の GitHub リポジトリの Readme をガイドとして使用して、開始から終了までのプロセス全体を概説します。
+Adobe Commerce Optimizer インスタンスにサンプルデータを取り込む方法について説明します。 このビデオでは、公式のGitHub リポジトリ readmeをガイドとして使用して、最初から最後までのプロセスの概要を説明します。
 
-## このビデオの目的は誰ですか。
+## この動画は誰のためのものでしょうか？
 
-* Commerce ソリューションアーキテクト
+* Commerce Solution Architect
 * テクニカルマーケティングエンジニア
 * e コマースプラットフォーム管理者
 
 ## ビデオコンテンツ
 
-* Adobe Commerce Optimizer インスタンスのサンプルデータを手順に従って取り込みます。
-* ポリシーを作成します。
-* カタログ ビューを作成します。
+* Adobe Commerce Optimizer インスタンスのサンプルデータをステップバイステップで取り込みます。
+* ポリシーの作成：
+* カタログビューの作成。
 
->[!VIDEO](https://video.tv.adobe.com/v/3470475?learn=on&enablevpops&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3470472?learn=on)
 
 ## 関連コンテンツ
 
-* [GitHub リポジトリのサンプルデータ &#x200B;](https://github.com/adobe-commerce/aco-sample-catalog-data-ingestion){target="_blank"}
-* [&#x200B; 管理のユースケース &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce/optimizer/use-case/admin-use-case){target="_blank"}
-* [Adobe Commerce Optimizerの概要 &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce/optimizer/get-started){target="_blank"}
-* [[!DNL Adobe Commerce Optimizer]  ガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce/optimizer/overview){target="_blank"}
+* [GitHub リポジトリのサンプルデータ ](https://github.com/adobe-commerce/aco-sample-catalog-data-ingestion){target="_blank"}
+* [管理者の使用例](https://experienceleague.adobe.com/en/docs/commerce/optimizer/use-case/admin-use-case){target="_blank"}
+* [Adobe Commerce Optimizerの基本を学ぶ](https://experienceleague.adobe.com/en/docs/commerce/optimizer/get-started){target="_blank"}
+* [[!DNL Adobe Commerce Optimizer]  ガイド ](https://experienceleague.adobe.com/en/docs/commerce/optimizer/overview){target="_blank"}

@@ -1,6 +1,6 @@
 ---
-title: Adobe Commerce Intelligenceの概要
-description: Adobe Commerce Intelligence、命名規則、データ統合、ダッシュボードの初期設定、データソース、データウェアハウス、レポートおよびユーザー管理について説明します。
+title: Adobe Commerce Intelligenceの導入方法
+description: Adobe Commerce Intelligenceについて、命名規則、データ統合、初期ダッシュボード設定、データソース、データウェアハウス、レポート、ユーザー管理を学びましょう。
 feature: Cloud
 topic: Commerce, Administration
 solution: Commerce,Commerce Intelligence
@@ -8,26 +8,26 @@ old-role: Architect, Developer
 role: Developer
 level: Intermediate
 doc-type: Technical Video
-duration: 398
+duration: 429
 last-substantial-update: 2024-03-25T00:00:00Z
 jira: KT-15141
 kt: 15141
 exl-id: 26bc788c-0fc8-405b-a99e-0d202ac18ab8
-source-git-commit: afe0ac1781bcfc55ba0e631f492092fd1bf603fc
+source-git-commit: 9aa4d70ee6a3825f027aa2a9c6a1ac0f876ed59f
 workflow-type: tm+mt
 source-wordcount: '149'
 ht-degree: 0%
 
 ---
 
-# Adobe Commerce Intelligenceの概要
+# Adobe Commerce Intelligenceの導入方法
 
-Adobe Commerce Intelligenceの詳細。 このチュートリアルでは、ツールの概要、注意が必要な命名規則、ツールを設定する最初の手順について説明します。 Adobe Commerce Intelligenceは、データソース、データウェアハウス、レポートの 3 つの部分で構成されます。&#x200B;データソースは、通常、Adobe Commerceの web サイトとそのデータベースです。&#x200B;Data Warehouseでは、Web サイトのデータベースに対して直接実行するのではなく、レポートクエリを実行します。&#x200B;ダッシュボード、指標、レポートなどの&#x200B;Adobe Commerce Intelligenceの主要機能について説明し、ドキュメントへのアクセス、サポートチケットの作成およびユーザー権限の管理に関する情報を提供します。
+Adobe Commerce Intelligenceについてさらに詳しく。 このチュートリアルでは、ツールの概要、いくつかの命名規則、および設定の最初の手順について説明します。 Adobe Commerce Intelligenceは、データソース、データウェアハウス、レポートの3つの部分で構成され&#x200B;す。データソースは、通常、Adobe Commerce web サイトとそのデータベース&#x200B;す。Data Warehouseでは、web サイトのデータベースに直接クエリするのではなく、レポートクエリを実行します&#x200B;。ダッシュボード、指標、レポートなどのAdobe Commerce Intelligenceの主な機能について説明します。また、ドキュメントへのアクセス、サポートチケットの作成、ユーザー権限の管理に関する情報も提供します。
 
-## このビデオの目的は誰ですか。
+## この動画は誰のためのものでしょうか？
 
-- ビジネスユーザー
-- データアナリスト
+* ビジネスユーザー
+* データアナリスト
 
 ## Adobe Commerce Intelligenceの概要
 

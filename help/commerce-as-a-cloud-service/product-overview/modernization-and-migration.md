@@ -1,35 +1,35 @@
 ---
 title: Adobe Commerce as a Cloud Serviceへの移行
-description: Adobe Commerceが柔軟な移行パス、ツール、サポートを提供して、将来に備えたプラットフォームへのスムーズな移行を実現する仕組みについて説明します。
+description: Adobe Commerceが、将来に備えた基盤へのスムーズな移行に役立つ、柔軟な移行パス、ツール、サポートをどのように提供するかをご確認ください。
 feature: App Builder, Storefront, Extensibility
 topic: Migration, Architecture
 role: Developer, User
 level: Beginner
 doc-type: Technical Video
-duration: 339
+duration: 363
 last-substantial-update: 2026-01-12T00:00:00Z
 jira: KT-20094
-source-git-commit: 86fb1a84f431726e282bd8af664dc668bdb5bc61
+exl-id: 45687736-d1be-4d9a-9355-024cfafbf08c
+source-git-commit: 9aa4d70ee6a3825f027aa2a9c6a1ac0f876ed59f
 workflow-type: tm+mt
 source-wordcount: '116'
 ht-degree: 0%
 
 ---
 
-
 # Adobe Commerce as a Cloud Serviceへの移行
 
-Adobe Commerce as a Cloud Serviceに移行する企業に対して、Adobe Commerceがどのように柔軟な移行戦略を提供するかについて説明します。 システム停止を軽減し、価値実現までの時間を短縮するよう設計された、完全移行、増分導入、Adobe Commerce Optimizerなどのコンパニオンソリューションについて説明します。
+Adobe Commerceが、Adobe Commerce as a Cloud Serviceへの移行時に柔軟な移行戦略をどのように提供するかをご確認ください。 完全移行、段階的な導入、Adobe Commerce Optimizerなどの関連ソリューションにより、業務の中断を減らし、価値実現までの時間を短縮することについて解説します。
 
-## このビデオの目的は誰ですか。
+## この動画は誰のためのものでしょうか？
 
-* E コマースマネージャー
+* e コマースマネージャー
 * ソリューションアーキテクト
-* IT プロジェクト管理者
+* IT プロジェクトマネージャー
 
 ## ビデオコンテンツ
 
 * 完全移行、段階的な導入、関連ソリューションなど、移行オプションについて説明します。
-* Adobeが、ツールによる移行、パートナー支援、App Builderと API メッシュを介した拡張機能をどのようにサポートするかについて説明します。
+* Adobeが、App BuilderとAPI Meshによるツール、パートナー支援、拡張性を活用して、どのように移行をサポートするかをご確認ください。
 
->[!VIDEO](https://video.tv.adobe.com/v/3478800/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3478800?learn=on)

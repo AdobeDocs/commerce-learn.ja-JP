@@ -1,7 +1,8 @@
 ---
-title: Quality Patch Tool の使用
-description: このテクニカルビデオでは、Adobe CommerceとMagento Open Source用の Quality Patch Tool の使用方法を説明します。
+title: 品質パッチツールの使用
+description: このテクニカルビデオを見て、Adobe CommerceとMagento Open Sourceの高品質パッチツールの使用方法を学びましょう。
 doc-type: technical video
+duration: 1115
 audience: all
 activity: use
 last-substantial-update: 2023-04-27T00:00:00Z
@@ -11,33 +12,33 @@ old-role: Architect, Developer
 role: Developer
 level: Beginner, Intermediate
 exl-id: d3d42654-8574-48d1-814c-ec46107f1371
-source-git-commit: afe0ac1781bcfc55ba0e631f492092fd1bf603fc
+source-git-commit: 9aa4d70ee6a3825f027aa2a9c6a1ac0f876ed59f
 workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 0%
 
 ---
 
-# Quality Patch Tool の使用
+# 品質パッチツールの使用
 
-Quality Patch Tool は、Adobe CommerceおよびMagento Open Sourceのクオリティパッチを提供するコマンドラインツールです。 次の操作が可能です。
+Quality Patch Toolは、Adobe CommerceとMagento Open Sourceの高品質なパッチを提供するコマンドラインツールです。 これにより、次のことが可能になります。
 
-- 最新の品質パッチに関する一般情報の表示
-- 品質向上パッチの適用
-- 適用されたパッチを元に戻す
+* 最新の品質パッチに関する一般的な情報を表示
+* 品質パッチの適用
+* 適用したパッチを元に戻す
 
-Adobe Commerce サポートチームとMagento Open Source コミュニティが、高品質のパッチを開発します。
+Adobe Commerce サポートチームとMagento Open Source コミュニティは、高品質のパッチを開発します。
 
-## このビデオの目的は誰ですか。
+## この動画は誰のためのものでしょうか？
 
-- バックエンド開発者
-- サイト管理者
+* バックエンド開発者
+* サイト管理者
 
 ## ビデオコンテンツ
 
->[!VIDEO](https://video.tv.adobe.com/v/3410785?captions=jpn&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/344000?learn=on)
 
-## その他のリソース
+## 関連資料
 
-- [Quality Patch Tool](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html?lang=ja)
-- [GitHub の品質パッチツール &#x200B;](https://github.com/magento/quality-patches)
+* [品質パッチツール ](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html)
+* [GitHub](https://github.com/magento/quality-patches)の品質パッチツール

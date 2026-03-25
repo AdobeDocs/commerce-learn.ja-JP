@@ -1,36 +1,36 @@
 ---
-title: クラウド自動修正サービス
-description: SWAT による CAPS を使用したAdobe Commerceのパッチ適用の効率化 – 安全で手間のかからないサイトメンテナンスのための自動更新
+title: Cloud Automation Patching Service
+description: SWATを介してCAPSを使用し、Adobe Commerceのパッチを合理化する – 安全で手間のかからないサイトメンテナンスのための自動更新
 feature: Configuration, System, Security, Tools and External Services
 topic: Commerce, Administration
 role: Developer
 level: Beginner
 doc-type: Tutorial
-duration: 172
+duration: 192
 last-substantial-update: 2025-10-24T00:00:00Z
 jira: KT-19485
-source-git-commit: 12fc97fe5de44b3ba60aa92a1e2202c517897ddc
+exl-id: 2acb0226-516a-4b33-835a-4eeeab2fcfc5
+source-git-commit: 9aa4d70ee6a3825f027aa2a9c6a1ac0f876ed59f
 workflow-type: tm+mt
 source-wordcount: '91'
 ht-degree: 0%
 
 ---
 
+# Cloud Automation Patching Service
 
-# クラウド自動修正サービス
+Adobe Cloud Automation Patching Service （CAPS）:Adobe Commerce Site Wide Analysis Tool （SWAT）の機能で、セキュリティパッチの検出と適用プロセスを合理化します。 ユーザーは、SWAT ダッシュボードのCommerce管理者からCAPSにアクセスし、プロジェクトと環境を選択して、使用可能なパッチを表示します。
 
-Adobe Cloud Automation Patching Service （CAPS）: Adobe Commerce Site Wide Analysis Tool （SWAT）の機能の 1 つで、セキュリティパッチの検出と適用のプロセスを合理化します。 ユーザーは、SWAT ダッシュボードのCommerce管理者から CAPS にアクセスし、プロジェクトと環境を選択して、使用可能なパッチを表示します。
+## この動画は誰のためのものでしょうか？
 
-## このビデオの目的は誰ですか。
-
-* Web サイト管理者
+* web サイトマネージャー
 * 開発者
-* DevOps とシステム管理者
+* DevOpsおよびシステム管理者
 
 ## ビデオコンテンツ
 
->[!VIDEO](https://video.tv.adobe.com/v/3476248/?captions=jpn&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3476247?learn=on)
 
 ## 関連ドキュメント
 
-* [&#x200B; クラウド自動修正パッチサービスのドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-operations/tools/caps-tool/intro)
+* [Cloud Automation Patching Service ドキュメント ](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/caps-tool/intro)

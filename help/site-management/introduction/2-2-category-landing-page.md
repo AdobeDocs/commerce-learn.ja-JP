@@ -1,50 +1,51 @@
 ---
-title: ビジネスユーザー向け [!DNL Commerce] - ランディングページ
-description: カテゴリランディングページを設定し、外観をコントロールする方法について説明します。
+title: ビジネスユーザー向け[!DNL Commerce] - ランディングページ
+description: カテゴリ ランディングページを設定し、外観を制御する方法について説明します。
 kt: 5766
 doc-type: video
+duration: 178
 activity: use
 last-substantial-update: 2022-12-28T00:00:00Z
 topic: Commerce, Administration, Content Management
 role: Admin, Leader, User
 level: Beginner, Intermediate
 exl-id: c38aa97e-4688-42fa-b39f-1702ef1469be
-source-git-commit: f8944c35f90deb00a80e0b20ad5557f4b0a3b472
+source-git-commit: 9aa4d70ee6a3825f027aa2a9c6a1ac0f876ed59f
 workflow-type: tm+mt
 source-wordcount: '86'
 ht-degree: 0%
 
 ---
 
-# ビジネスユーザー向け [!DNL Commerce] - ランディングページ
+# ビジネスユーザー向け[!DNL Commerce] - ランディングページ
 
 <!--
 validation failure (if published)
 feature: Configuration, System, Catalogs, Customers
 -->
 
-このビデオの内容は次のとおりです。
+このビデオの内容：
 
-- 製品カテゴリのランディングページ
-- ページビューオプション
-- ストアフロントの設定
+* 製品カテゴリ用ランディングページ
+* ページビューオプション
+* ストアフロント設定
 
-## このビデオの目的は誰ですか。
+## この動画は誰のためのものでしょうか？
 
-- ビジネスユーザー
+* ビジネスユーザー
 
 ## ビデオコンテンツ
 
 >[!NOTE]
 >
->このビデオの内容は、2.3.1 リリースを反映しています。 以降のリリースのアップデートについて詳しくは、[&#x200B; リリースノート &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/overview.html?lang=ja) を参照してください。
+>ビデオの内容は、2.3.1 リリースを反映しています。 以降のリリースのアップデートについて詳しくは、[ リリースノート ](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/overview.html)を参照してください。
 
->[!VIDEO](https://video.tv.adobe.com/v/36388?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/36388?learn=on)
 
-## その他のリソース
+## 関連資料
 
-[&#x200B; カテゴリコンテンツ - [!DNL Commerce]  カタログ管理ガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/catalog/categories/create/categories-content-settings.html?lang=ja)
+[ カテゴリーコンテンツ - [!DNL Commerce]  カタログ管理ガイド ](https://experienceleague.adobe.com/docs/commerce-admin/catalog/categories/create/categories-content-settings.html)
 
-[&#x200B; 表示設定 –  [!DNL Commerce]  カタログ管理ガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/catalog/categories/create/categories-display-settings.html?lang=ja)
+[表示設定 –  [!DNL Commerce]  カタログ管理ガイド ](https://experienceleague.adobe.com/docs/commerce-admin/catalog/categories/create/categories-display-settings.html)
 
-[&#x200B; デザイン設定 –  [!DNL Commerce]  カタログ管理ガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/catalog/categories/create/categories-custom-design.html?lang=ja)
+[ デザイン設定 –  [!DNL Commerce]  カタログ管理ガイド ](https://experienceleague.adobe.com/docs/commerce-admin/catalog/categories/create/categories-custom-design.html)

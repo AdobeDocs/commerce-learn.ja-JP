@@ -1,8 +1,9 @@
 ---
-title: ビジネスユーザー向け [!DNL Commerce] - データグリッド
-description: ' [!DNL Commerce Admin] でデータグリッドを使用する方法を説明します。'
+title: ビジネスユーザー向け[!DNL Commerce] - データグリッド
+description: ' [!DNL Commerce Admin]でデータグリッドを操作する方法について説明します。'
 kt: 5759
 doc-type: video
+duration: 192
 activity: use
 last-substantial-update: 2022-12-28T00:00:00Z
 feature: Configuration, System, Search
@@ -10,31 +11,31 @@ topic: Commerce, Administration
 role: Admin, Leader, User
 level: Beginner, Intermediate
 exl-id: 9834d448-2907-4c7a-8eed-e5c36b96c9c9
-source-git-commit: 79529c8d77df74e6f77ab3a01b45541a38dbf680
+source-git-commit: 9aa4d70ee6a3825f027aa2a9c6a1ac0f876ed59f
 workflow-type: tm+mt
 source-wordcount: '68'
 ht-degree: 0%
 
 ---
 
-# ビジネスユーザー向けの [!DNL Commerce] - データグリッド
+# ビジネスユーザー向け[!DNL Commerce] - データグリッド
 
-このビデオの内容は次のとおりです。
+このビデオの内容：
 
-- [!DNL Commerce Admin] でのデータグリッドの操作
+* [!DNL Commerce Admin]でのデータグリッドの操作
 
-## このビデオの目的は誰ですか。
+## この動画は誰のためのものでしょうか？
 
-- ビジネスユーザー
+* ビジネスユーザー
 
 ## ビデオコンテンツ
 
 >[!NOTE]
 >
->このビデオの内容は、2.3.1 リリースを反映しています。 以降のリリースのアップデートについて詳しくは、[&#x200B; リリースノート &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/overview.html?lang=ja) を参照してください。
+>ビデオの内容は、2.3.1 リリースを反映しています。 以降のリリースのアップデートについて詳しくは、[ リリースノート ](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/overview.html)を参照してください。
 
->[!VIDEO](https://video.tv.adobe.com/v/330073?quality=12&learn=on&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/35960?learn=on)
 
-## その他のリソース
+## 関連資料
 
-[&#x200B; 管理グリッドコントロール - [!DNL Commerce]  はじめる前に &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/tools/admin-grid-controls.html?lang=ja)
+[管理者グリッドコントロール - [!DNL Commerce] 入門ガイド ](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/tools/admin-grid-controls.html)

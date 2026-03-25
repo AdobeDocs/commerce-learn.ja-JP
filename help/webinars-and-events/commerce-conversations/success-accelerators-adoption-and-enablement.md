@@ -1,27 +1,27 @@
 ---
-title: 成功を促進するツールの導入と活用
-description: 戦略的開発、スキル強化、ガバナンスのためのAdobe Commerce Success Accelerator の採用とイネーブルメントについて説明します。
+title: サクセスアクセレーターの導入とイネーブルメント
+description: Adobe Commerce Success Acceleratorの導入とイネーブルメントにより、戦略的な開発、スキルの強化、ガバナンスを実現する方法を紹介します。
 feature: Site Management, Support
 topic: Administration, Commerce
 role: User
 level: Beginner
 doc-type: Value Video
-duration: 95
+duration: 130
 last-substantial-update: 2025-04-16T00:00:00Z
 jira: KT-17808
 exl-id: 8957dbbe-9bed-41e4-b21e-5371f91085fd
-source-git-commit: 6e11d096c445635286f4e8c8adf821fed5c460fd
+source-git-commit: 9aa4d70ee6a3825f027aa2a9c6a1ac0f876ed59f
 workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 0%
 
 ---
 
-# 成功を促進するツールの導入と有効化
+# サクセスアクセレーターの導入と活用
 
-導入とイネーブルメントのためのAdobe Commerce サクセスアクセラレーターには、ユースケースと KPI の開発、デスクサイドコーチング、ツールと機能のガバナンス戦略という 3 つの主要なサービスが含まれます。 これらのサービスは、戦略的計画とロードマップの策定、スキルギャップを埋めるためのマルチセッションの実施可能性、適切な製品採用を確保するためのガバナンス戦略に関するガイダンスを提供します。 ベストプラクティスと集中的なサポートを通じて、Adobe Commerce製品の使用方法と有効性を高めることを目的としています。
+導入と活用を支援するAdobe Commerceサクセスアクセレーターには、ユースケースとKPI開発、デスクサイドコーチング、ツールと機能のガバナンス戦略という3つの重要なサービスが含まれます。 これらのサービスは、戦略的プランニングとロードマップの策定、スキルギャップを埋めるためのマルチセッション対応、適切な製品採用を確保するためのガバナンス戦略の策定に役立ちます。 同社の目的は、ベストプラクティスと集中的なサポートを通じて、Adobe Commerce製品の使用状況と効果を向上させることです。
 
-## このビデオの目的は誰ですか。
+## この動画は誰のためのものでしょうか？
 
 * プロダクトマネージャー
 * IT ガバナンス管理者
@@ -30,8 +30,8 @@ ht-degree: 0%
 
 ## ビデオコンテンツ {#video-content}
 
-* 効果的なロードマップと戦略的計画を作成するためのユースケースと KPI の開発に関するガイダンス。
-* スキルギャップを埋め、戦略的優先事項に合わせるためのマルチセッションデスクサイドコーチング。
-* 製品の適切な導入とベストプラクティスを確保するためのアクセス、権限およびデザインガバナンスの作成。
+* 効果的なロードマップと戦略的プランニングを構築するためのユースケースとKPIを策定するためのガイダンス。
+* マルチセッション方式のデスクサイドコーチングで、スキルギャップを埋め、戦略的な優先事項に整合させる。
+* 適切な製品の導入とベストプラクティスを確保するためのアクセス、権限、デザインガバナンスの作成。
 
->[!VIDEO](https://video.tv.adobe.com/v/3463079/?captions=jpn&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3457657?learn=on)

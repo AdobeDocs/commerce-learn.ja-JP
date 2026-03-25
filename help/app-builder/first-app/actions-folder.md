@@ -1,9 +1,10 @@
 ---
 title: アクションフォルダー
-description: このサンプルアプリケーションのアクションフォルダーにあるファイルのタイプについて説明します。
-landing-page-description: Adobe Commerceで使用されるAdobe Developer App Builderと、アクションフォルダーに含まれるファイルのタイプについて説明します。
+description: このサンプルアプリケーションのアクションフォルダーにあるファイルの種類について説明します。
+landing-page-description: Adobe Commerceで使用されるAdobe Developer App Builderと、アクションフォルダーに含まれるファイルの種類について説明します。
 kt: 12422
 doc-type: tutorial
+duration: 465
 audience: all
 last-substantial-update: 2023-3-13
 feature: API Mesh, App Builder, Extensibility, Tools and External Services, Backend Development
@@ -12,7 +13,7 @@ old-role: Architect, Developer
 role: Developer
 level: Beginner, Intermediate
 exl-id: d13ed1e7-b18e-4bf5-af87-2a69e2588d65
-source-git-commit: afe0ac1781bcfc55ba0e631f492092fd1bf603fc
+source-git-commit: 9aa4d70ee6a3825f027aa2a9c6a1ac0f876ed59f
 workflow-type: tm+mt
 source-wordcount: '209'
 ht-degree: 0%
@@ -21,22 +22,22 @@ ht-degree: 0%
 
 # アクションフォルダーについて説明します {#actions-folder}
 
-このサンプルアプリの `actions` フォルダーには、いくつかのJavaScript ファイルと `commerce` という 1 つのフォルダーが含まれています。 表示されるJavaScriptは、作業に関連している場合に再利用できる優れたサンプルファイルです。 このフォルダーを使用すると、OAuth や REST を使用してAdobe Commerce アプリケーションに接続する際の開発作業にかかる時間を短縮できます。
+このサンプルアプリの`actions` フォルダーには、いくつかのJavaScript ファイルと`commerce`という1つのフォルダーが含まれています。 表示されているJavaScriptは、作業に関連するファイルであれば再利用できる優れた例です。 このフォルダーは、OAuthとRESTを使用してAdobe Commerce アプリケーションに接続する際の開発作業の時間を節約できます。
 
-この例では、フォルダーの実際の名前は任意ですが、名前を知ることで、サンプルコードを解釈する際に役立ちます。 意味のある命名規則を使用すると、アプリケーションがより複雑になった場合に混乱を避けることができます。
+この例のフォルダーの実際の名前は任意ですが、名前を知ることで、サンプルコードを解釈できます。 意味のある命名規則を使用することで、アプリケーションがより複雑になる場合の混乱を避けることができます。
 
-## このビデオの目的は誰ですか。
+## この動画は誰のためのものでしょうか？
 
-* Adobe Commerceを初めて使用する開発者で、Adobe App Builderの使用経験が限られている人のうち、サンプルアプリケーションのアクションフォルダーについて学んでいる人。
+* Adobe Commerceを初めて使用する開発者で、Adobe App Builderの使用経験が限られており、サンプルアプリケーションのactions フォルダーについて学習しているユーザー。
 
 ## ビデオコンテンツ
 
-* `actions` フォルダーにフォーカスしたApp Builderとサンプルモジュールの概要
-* 「actions」フォルダーの使用方法
-* `actions` フォルダーと `commerce` フォルダーにあるJavaScript ファイルの目的
-* OAuth 認証ファイルの概要
+* App Builderの概要と、`actions` フォルダーに焦点を当てたサンプルモジュール
+* 「アクション」フォルダーの使用方法
+* `actions`および`commerce` フォルダーにあるJavaScript ファイルの目的
+* OAuth認証ファイルの概要
 
->[!VIDEO](https://video.tv.adobe.com/v/3421081?captions=jpn&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3416590?learn=on)
 
 ## コードサンプル
 

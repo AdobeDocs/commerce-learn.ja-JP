@@ -1,6 +1,6 @@
 ---
-title: Site-Wide Analysis Tool ダッシュボード
-description: このテクニカルビデオでは、Site-Wide Analysis Tool ダッシュボードを使用して詳細なシステムインサイトとレコメンデーションにアクセスし、Adobe Commerce インストールのセキュリティと操作性を確保する方法を説明します。
+title: サイト全体の分析ツールダッシュボード
+description: このテクニカルビデオを見て、Site-Wide Analysis Tool ダッシュボードを使用して詳細なシステムインサイトと推奨事項にアクセスし、Adobe Commerce インストールのセキュリティと操作性を確保する方法を学びます。
 doc-type: technical video
 audience: all
 activity: use
@@ -11,29 +11,29 @@ old-role: Architect, Developer
 role: Developer, Admin
 level: Beginner, Intermediate
 KT: 15599
-duration: 101
+duration: 125
 exl-id: e96759a8-31c3-4d3b-b395-db9dda2dc2d9
-source-git-commit: afe0ac1781bcfc55ba0e631f492092fd1bf603fc
+source-git-commit: 9aa4d70ee6a3825f027aa2a9c6a1ac0f876ed59f
 workflow-type: tm+mt
 source-wordcount: '131'
 ht-degree: 0%
 
 ---
 
-# Site-Wide Analysis Tool ダッシュボード
+# サイト全体の分析ツールダッシュボード
 
-Site-Wide Analysis Tool は、プロアクティブなセルフサービスツールで、Adobe Commerce インストールのセキュリティと操作性を確保するための詳細なシステムインサイトおよびレコメンデーションが含まれている中央リポジトリです。 パフォーマンスの監視、レポート、潜在的な問題の特定に関するアドバイスを年中無休で提供します。 このツールを使用すると、サイトの健全性、安全性、およびアプリケーション設定をよりわかりやすく可視化し、解決時間を短縮し、サイトの安定性とパフォーマンスを向上させることができます。
+Site-Wide Analysis Toolは、Adobe Commerce インストールのセキュリティと操作性を確保するための詳細なシステムインサイトと推奨事項を含む、プロアクティブなセルフサービスツールおよび中央リポジトリです。 潜在的な問題を特定するためのリアルタイムのパフォーマンス監視、レポート、アドバイスを24時間年中無休で提供します。 このツールを使用すると、サイトの健全性、安全性、アプリケーション設定をより詳細に可視化し、解決時間を短縮して、サイトの安定性とパフォーマンスを向上させることができます。
 
-## このビデオの目的は誰ですか。
+## この動画は誰のためのものでしょうか？
 
-- Web サイト管理者
-- 開発者
+* web サイトマネージャー
+* 開発者
 
 ## ビデオコンテンツ
 
->[!VIDEO](https://video.tv.adobe.com/v/3410779?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/344001?learn=on)
 
-## その他のリソース
+## 関連資料
 
-- [Site-Wide Analysis Tool](https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/intro.html?lang=ja)
-- [&#x200B; ログの表示と管理 &#x200B;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html?lang=ja)
+* [ サイト全体の分析ツール ](https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/intro.html)
+* [ ログの表示と管理](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html)

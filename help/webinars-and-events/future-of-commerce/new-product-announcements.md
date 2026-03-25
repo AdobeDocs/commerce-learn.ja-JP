@@ -6,11 +6,11 @@ topic: Commerce
 role: User
 level: Beginner
 doc-type: Value Video
-duration: 783
+duration: 838
 last-substantial-update: 2025-05-15T00:00:00Z
 jira: KT-18109
 exl-id: e3b7ca08-e8a7-4ff0-a408-4e7e0460e5ed
-source-git-commit: 6e11d096c445635286f4e8c8adf821fed5c460fd
+source-git-commit: 9aa4d70ee6a3825f027aa2a9c6a1ac0f876ed59f
 workflow-type: tm+mt
 source-wordcount: '221'
 ht-degree: 0%
@@ -19,26 +19,26 @@ ht-degree: 0%
 
 # 新製品のお知らせ
 
-4 部構成のウェビナーシリーズの第 1 弾として、Adobe Commerceはデジタルリテールを変革するために設計された 2 つの画期的な製品を紹介します。 シームレスなアップデートと統合された AI を利用したツールを提供する、拡張性の高い SaaS ソリューションであるAdobe Commerce as a Cloud Service。  Adobe Commerce Optimizer：完全なプラットフォーム移行を必要とせずに、カスタマーエクスペリエンスを最新化します。 これらのイノベーションは、運用コストを削減し、コンバージョン率を高め、市場拡大を加速することを目的としており、柔軟で段階的な導入パスで企業が独自のペースで発展できるようにします。
+4部構成のウェビナーシリーズの第1回では、Adobe Commerceが、デジタル小売業の変革を目的とした2つの画期的な製品を紹介します。 Adobe Commerce as a Cloud Serviceは、シームレスなアップデートとAIを活用した統合ツールを提供する、拡張性の高いSaaS ソリューションです。  Adobe Commerce Optimizer：プラットフォームを全面的に移行することなく、顧客体験を最新化できます これらのイノベーションは、運用コストを削減し、コンバージョン率を高め、市場拡大を加速することを目的としており、柔軟で段階的な導入のパスを通じて、企業が自分のペースで進化できるようにします。
 
-## このビデオの目的は誰ですか。
+## この動画は誰のためのものでしょうか？
 
-* チーフ・デジタル・オフィサー
-* E コマース担当副社長/ディレクター
+* 最高デジタル責任者
+* デジタルコマース担当バイスプレジデント/ディレクター
 * 最高技術責任者
-* Commerceアーキテクト
+* Commerce Architects
 
 ## ビデオコンテンツ {#video-content}
 
-* デジタルコマースの運営を最新化および効率化するために設計された、Adobe Commerce as a Cloud ServiceとAdobe Commerce Optimizerの 2 つの新製品。
-* Adobe Commerce as a Cloud Serviceは、統合された AI ツール、モジュラー機能、運用コストの削減を備えた、完全に管理されたマルチテナント SaaS プラットフォームを提供します。
-* Adobe Commerce Optimizerを使用すると、複雑なシステムや従来のシステムを使用している企業は、完全な再プラットフォームを行わなくてもカスタマーエクスペリエンスを最新化でき、クラウドサービスへのブリッジとして機能します。
-* 柔軟な段階的な導入パスにより、企業は自分のペースで移行でき、既存のソリューションと拡張バージョンサポートのタイムラインを継続的にサポートできます。
+* デジタルコマースの近代化と合理化を目的として設計された、Adobe Commerce as a Cloud ServiceとAdobe Commerce Optimizerの2つの新製品。
+* Adobe Commerce as a Cloud Serviceは、AI ツールの統合、モジュール機能、運用コストの削減を備えた、フルマネージド型のマルチテナント SaaS プラットフォームです。
+* Adobe Commerce Optimizerを利用すれば、複雑なシステムや従来のシステムを抱える企業は、クラウドへの橋渡しとして機能する、包括的なリプラットフォームを利用することなく、顧客体験を近代化できます。
+* 柔軟かつ段階的な導入パスにより、既存のソリューションに対するサポートと長期的なバージョンサポートのタイムラインを維持しながら、企業は自分のペースで移行できます。
 
->[!VIDEO](https://video.tv.adobe.com/v/3458486/?captions=jpn&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3458484?learn=on)
 
-## このシリーズのその他のビデオ
+## このシリーズの追加動画
 
-[&#x200B; 大幅なコスト削減 &#x200B;](./drastically-cut-costs.md)
-[&#x200B; スーパーチャージコンバージョン率 &#x200B;](./supercharge-conversion-rates.md)
-[&#x200B; トラックの高速拡張 &#x200B;](fast-track-expansion.md)
+[ コストを大幅に削減](./drastically-cut-costs.md)
+[ コンバージョン率の増強](./supercharge-conversion-rates.md)
+[迅速な拡張](fast-track-expansion.md)

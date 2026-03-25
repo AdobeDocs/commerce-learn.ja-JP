@@ -1,7 +1,8 @@
 ---
-title: 担当営業が、REST API を使用して B2B の見積もりを開始
-description: 営業担当がAdobe Commerce REST API から見積もりを開始する方法について説明します。
+title: 営業担当者は、REST APIを使用してB2Bの見積もりを開始します
+description: Adobe Commerce REST APIから営業担当者が見積もりを開始する方法について説明します。
 doc-type: feature video
+duration: 250
 audience: all
 activity: use
 kt: 13797
@@ -11,27 +12,27 @@ topic: Commerce, Administration
 role: Admin, User
 level: Beginner, Intermediate
 exl-id: 560f12e2-3713-4a77-94c6-226da205ad8c
-source-git-commit: 598bff1fd2cefdc449d5ae3431401aec1e796313
+source-git-commit: 9aa4d70ee6a3825f027aa2a9c6a1ac0f876ed59f
 workflow-type: tm+mt
 source-wordcount: '61'
 ht-degree: 0%
 
 ---
 
-# 営業担当者が REST API を使用して見積もりを開始
+# 営業担当者は、REST APIを使用して見積もりを開始します
 
-営業担当がAdobe Commerce REST API から見積もりを開始する方法について説明します。
+Adobe Commerce REST APIから営業担当者が見積もりを開始する方法について説明します。
 
 {{b2b-feature}}
 
-## このビデオの目的は誰ですか。
+## この動画は誰のためのものでしょうか？
 
-- Web サイト管理者
-- e コマースマーチャンダイザー
-- 開発者
+* web サイトマネージャー
+* コマースマーチャンダイジング
+* 開発者
 
 ## ビデオコンテンツ
 
->[!VIDEO](https://video.tv.adobe.com/v/3423712?learn=on&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3420414?learn=on)
 
 {{$include /help/_includes/b2b-quote-additional-resources.md}}

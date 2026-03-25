@@ -1,9 +1,10 @@
 ---
 title: テストフォルダー
-description: このサンプルアプリケーションのテストフォルダーにあるファイルのタイプについて説明します。
-landing-page-description: Adobe Commerceで使用されるAdobe Developer App Builderと、テストフォルダーに配置されるファイルのタイプについて説明します。
+description: このサンプルアプリケーションのテストフォルダーにあるファイルの種類について説明します。
+landing-page-description: Adobe Commerceで使用されるAdobe Developer App Builderと、テストフォルダーに含まれるファイルの種類について説明します。
 kt: 12424
 doc-type: tutorial
+duration: 233
 audience: all
 last-substantial-update: 2023-3-13
 feature: API Mesh, App Builder, Extensibility, Tools and External Services, Backend Development
@@ -12,30 +13,30 @@ old-role: Architect, Developer
 role: Developer
 level: Beginner, Intermediate
 exl-id: 5d3ced3f-174d-4481-8511-82616bb77c43
-source-git-commit: afe0ac1781bcfc55ba0e631f492092fd1bf603fc
+source-git-commit: 9aa4d70ee6a3825f027aa2a9c6a1ac0f876ed59f
 workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 0%
 
 ---
 
-# テストフォルダーの詳細 {#test-folder}
+# テストフォルダーについて説明します {#test-folder}
 
-このサンプルアプリの `test` フォルダーには、1 つのJavaScript ファイルが含まれています。このファイルは、アプリケーションで単体テストを実行する際に使用されます。
+このサンプルアプリの`test` フォルダーには、アプリケーションで単体テストを実行する際に使用される1つのJavaScript ファイルが含まれています。
 
-これは簡単な例であり、特定のアプリケーションに対して包括的なテストを作成するように拡張できます。
+これは単純な例であり、特定のアプリケーションに対する包括的なテストを作成するために拡張できます。
 
-## このビデオの目的は誰ですか。
+## この動画は誰のためのものでしょうか？
 
-* Adobe Commerce フォルダーについて学習したいAdobe App Builderを使用した、経験が限られた `test` を初めて使用する開発者。
+* Adobe Commerceを初めて使用する開発者で、Adobe App Builderを使用した経験が限られており、`test` フォルダーについて学習したい場合。
 
 ## ビデオコンテンツ
 
 * `test` フォルダーを使用する理由
 * 単体テストファイルとそのコンポーネントの簡単な説明
-* エンドツーエンドテストの概要
+* エンドツーエンドのテストの概要
 
->[!VIDEO](https://video.tv.adobe.com/v/3421063?captions=jpn&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3416662?learn=on)
 
 ## コードサンプル
 

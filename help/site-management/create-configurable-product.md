@@ -1,8 +1,9 @@
 ---
-title: 設定可能な商品の作成
-description: REST API とCommerce管理者を使用して、設定可能な商品を作成する方法について説明します。
+title: 設定可能な製品の作成
+description: REST APIとCommerce管理者を使用して、設定可能な製品を作成する方法を説明します。
 kt: 14586
 doc-type: video
+duration: 1760
 audience: all
 activity: use
 last-substantial-update: 2023-12-15T00:00:00Z
@@ -11,49 +12,49 @@ topic: Commerce, Integrations, Content Management
 role: Developer, User
 level: Beginner
 exl-id: 112bec9a-0f8e-4252-8c52-f486a5e663b5
-source-git-commit: 765bf4159892416e02ea1e9b8e4fa69e396d40af
+source-git-commit: 9aa4d70ee6a3825f027aa2a9c6a1ac0f876ed59f
 workflow-type: tm+mt
 source-wordcount: '952'
 ht-degree: 0%
 
 ---
 
-# 設定可能な商品の作成
+# 設定可能な製品の作成
 
-設定可能なプロダクトは、複数の単純なプロダクトの親プロダクトです。 設定可能な商品を定義し、購入者が 1 つ以上の選択肢を作成して特定の商品バリエーションを選択するように求めます。 例えば、商品がシャツの場合、購入者はシャツを選択するためにサイズと色のオプションを選択する必要があります。
+コンフィグ商品は、複数のシンプルな商品の親商品です。 購入者が特定の製品バリエーションを選択するために、1つまたは複数の選択を行うことを要求するように、設定可能な製品を定義します。 例えば、商品がシャツの場合、買い手はサイズと色のオプションを選択してシャツを選択する必要があります。
 
-設定可能な製品では、より多くの SKU を使用し、最初は設定に少し時間がかかる場合がありますが、最終的には時間を節約できます。 ビジネスの成長を計画している場合、複数のオプションを持つ製品には、設定可能な製品タイプが適しています。
+設定可能な製品では、より多くのSKUを使用し、最初は設定に少し時間がかかるかもしれませんが、最終的には時間を節約することができます。 ビジネスを拡大したい場合は、複数のオプションがある商品に最適な選択肢である、設定可能な商品タイプを選択しましょう。
 
-設定可能な商品を作成する前に、設定可能な商品に含めるシンプルな商品がすべてAdobe Commerceで使用可能であることを確認します。 存在しないコンポーネントを作成します。
+設定可能な製品を作成する前に、設定可能な製品に含めるすべてのシンプルな製品がAdobe Commerceで使用可能であることを確認します。 存在しないものを作成します。
 
-このチュートリアルでは、REST API とAdobe Commerce管理者を使用して設定可能な商品を作成する方法について説明します。
+このチュートリアルでは、REST APIとAdobe Commerce管理者を使用して設定可能な製品を作成する方法を説明します。
 
-REST API を使用して、設定可能な製品を作成します。
+REST APIを使用して、設定可能な製品を作成します。
 
-1. [attribute set](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/create/attribute-sets.html?lang=ja) の属性を取得して、後続の API 呼び出しに ID 番号を使用します。
-1. 設定可能な商品で使用するシンプルな商品を作成します。
-1. 空の設定可能な商品を作成し、シンプルな商品を関連付けます。
+1. 後続のAPI呼び出しにID番号を使用するために、[属性セット ](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/create/attribute-sets.html)の属性を取得します。
+1. 設定可能な製品で使用するシンプルな製品を作成します。
+1. 空の設定可能な製品を作成し、シンプルな製品を関連付けます。
 1. 設定可能な製品の製品属性を設定します。
-1. 空の設定可能な製品に簡単な製品を入力します。
+1. 空の設定可能な製品にシンプルな製品を入力します。
 1. 設定可能な製品とすべての属性を取得します。
-1. 設定可能な製品に割り当てられた子製品を取得します。
-1. シンプル製品と設定可能な製品の関連付けを削除します。
+1. 設定可能な製品に割り当てられた子の製品を取得します。
+1. シンプルな製品と設定可能な製品の関連付けを削除します。
 
-Adobe Commerce管理から設定可能な商品を作成する場合、最初にシンプルな商品を作成するか、ウィザードを使用して使用する新しいシンプルな商品を作成する自動ツールを使用できます。
+Adobe Commerce管理者から設定可能な商品を作成する場合は、最初にシンプルな商品を作成するか、ウィザードを使用して新しいシンプルな商品を作成する自動ツールを使用できます。
 
-## このビデオの目的は誰ですか。
+## この動画は誰のためのものでしょうか？
 
-- Web サイト管理者
-- e コマースマーチャンダイザー
-- Adobe Commerceの新しい開発者向けに、REST API を使用してAdobe Commerceで設定可能な商品を作成する方法を説明します
+* web サイトマネージャー
+* コマースマーチャンダイジング
+* REST APIを使用してAdobe Commerceで設定可能な製品を作成する方法を学びたい新しいAdobe Commerce開発者
 
 ## ビデオコンテンツ
 
->[!VIDEO](https://video.tv.adobe.com/v/3455036?learn=on&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3426381?learn=on)
 
-## cURL を使用したカラー属性の取得
+## cURLを使用したカラー属性の取得
 
-この例では、属性セット 10 に対して、すべての個々の属性を含む属性セット全体が返されます。 それは長くすることができます、何百行も珍しくありません。 応答を確認する際、色の属性 ID が中央にある可能性があります。 grep またはその他のメソッドを使用して結果を検索することで、これらの値の検索を高速化します。 私の応答は 665 行目に近く、JSON 応答の次のスニペットに含まれています。
+この例では、すべての個々の属性を含む属性セット全体が、属性セット 10に対して返されます。 長くなる可能性があり、何百行もの行が珍しくありません。 応答を確認する場合、色の属性IDは中央になる可能性があります。 grepやその他の方法を使用して結果を検索し、これらの値の検索を迅速化します。 私の応答は665行付近で、JSON応答から次のスニペットに含まれています。
 
 ```json
 ...
@@ -85,23 +86,23 @@ Adobe Commerce管理から設定可能な商品を作成する場合、最初に
 ```
 
 
-設定可能な製品を設定する属性 ID を取得するには、次の cURL リクエストの `attribute-sets/10/attributes` の部分を更新して、環境の属性セット ID`10` 置き換えます。 このリクエストでは、GETメソッドを使用します。
+設定可能な製品を設定するための属性IDを取得するには、次のcURL リクエストの`attribute-sets/10/attributes`部分を更新して、`10`を環境内の属性セット IDに置き換えます。 このリクエストはGET メソッドを使用します。
 
 ```bash
 curl --location '{{your.url.here}}rest/V1/products/attribute-sets/10/attributes' \
 --header 'Authorization: Bearer {{Your Bearer Token}}'
 ```
 
-## cURL を使用した最初のシンプルな製品の作成
+## cURLを使用して最初のシンプルな商品を作成する
 
-### 環境 ID と製品詳細の調整
+### 環境IDと製品の詳細の調整
 
-API を使用して最初のシンプルな商品を作成し、cURL を使用して次のPOSTリクエストを送信します。
+APIを使用して最初のシンプルな製品を作成し、cURLを使用して次のPOST リクエストを送信します。
 
-リクエストを送信する前に、ご使用の環境の値で例を更新してください。
+リクエストを送信する前に、環境の値で例を更新します。
 
-- `"attribute-set": 10` を変更して、`10` を環境の属性セット ID に置き換えます。
-- `"value": "13"` を変更して、`13` をお使いの環境の値に置き換えます。
+* `"attribute-set": 10`を変更して、`10`を環境の属性セット IDに置き換えます。
+* `"value": "13"`を変更して、`13`を環境の値に置き換えます。
 
 ```bash
 curl --location '{{your.url.here}}/rest/default/V1/products' \
@@ -135,14 +136,14 @@ curl --location '{{your.url.here}}/rest/default/V1/products' \
 '
 ```
 
-## cURL を使用して 2 つ目のシンプルな製品を作成します
+## cURLを使用して2番目のシンプルな製品を作成する
 
-API を使用して、cURL を使用して次のPOSTリクエストを送信することで、2 つ目のシンプルな商品を作成します。
+APIを使用して2番目のシンプルな製品を作成し、cURLを使用して次のPOST リクエストを送信します。
 
-リクエストを送信する前に、ご使用の環境の値で例を更新してください。
+リクエストを送信する前に、環境の値で例を更新します。
 
-- `"attribute_set_id": 10,` を変更し、`10` を環境内の属性セット id に置き換えます。
-- `"value": "14"` を変更し、`14` をお使いの環境の値に置き換えます。
+* `"attribute_set_id": 10,`を変更し、`10`を環境内の属性セット IDに置き換えます。
+* `"value": "14"`を変更し、`14`を環境の値に置き換えます。
 
 ```bash
 curl --location '{{your.url.here}}/rest/default/V1/products' \
@@ -176,14 +177,14 @@ curl --location '{{your.url.here}}/rest/default/V1/products' \
 '
 ```
 
-## cURL を使用した 3 つ目のシンプルな製品の作成
+## cURLを使用して3つ目のシンプルな商品を作成する
 
-cURL を使用して次のPOSTリクエストを送信し、3 つ目のシンプルな商品を作成します。
+cURLを使用して次のPOST リクエストを送信し、3番目のシンプルな製品を作成します。
 
-リクエストを送信する前に、ご使用の環境の値で例を更新してください。
+リクエストを送信する前に、環境の値で例を更新します。
 
-- `"attribute_set_id": 10,` を変更して、`10` を環境の属性セット ID に置き換えます。
-- `"value": "15"` を変更し、`15` をお使いの環境の値に置き換えます。
+* `"attribute_set_id": 10,`を変更して、`10`を環境の属性セット IDに置き換えます。
+* `"value": "15"`を変更し、`15`を環境の値に置き換えます。
 
 ```bash
 curl --location '{{your.url.here}}/rest/default/V1/products' \
@@ -217,14 +218,14 @@ curl --location '{{your.url.here}}/rest/default/V1/products' \
 '
 ```
 
-## cURL を使用して、空の設定可能な製品を作成
+## cURLを使用した空の設定可能な製品の作成
 
-cURL を使用して次の設定リクエストを送信し、空のPOST可能な商品を作成します。
+cURLを使用して次のPOST リクエストを送信し、空の設定可能な製品を作成します。
 
-リクエストを送信する前に、ご使用の環境の値で例を更新してください。
+リクエストを送信する前に、環境の値で例を更新します。
 
-- `"attribute_set_id": 10,` を変更し、`10` を環境の属性セット id に置き換えます。
-- `"value": "93"` を変更し、`93` をお使いの環境の値に置き換えます。
+* `"attribute_set_id": 10,`を変更し、`10`を環境の属性セット IDに置き換えます。
+* `"value": "93"`を変更し、`93`を環境の値に置き換えます。
 
 ```bash
 curl --location '{{your.url.here}}/rest/default/V1/products' \
@@ -250,11 +251,11 @@ curl --location '{{your.url.here}}/rest/default/V1/products' \
 }'
 ```
 
-## 設定可能な商品に使用可能なオプションの設定
+## 設定可能な製品で使用できるオプションを設定します
 
-cURL を使用して以下の設定リクエストを送信して、設定可能な商品に使用可能なPOSTを指定します。
+cURLを使用して次のPOST リクエストを送信することで、設定可能な製品で使用可能なオプションを設定します。
 
-リクエストを送信する前に、`"attribute_id": 93,` を変更して、`93` を環境の属性 id に置き換えます。
+リクエストを送信する前に、`"attribute_id": 93,`を変更して、`93`を環境の属性IDに置き換えます。
 
 ```bash
 curl --location '{{your.url.here}}/rest/default/V1/configurable-products/Kids-Hawaiian-Ukulele/options' \
@@ -276,21 +277,21 @@ curl --location '{{your.url.here}}/rest/default/V1/configurable-products/Kids-Ha
 }'
 ```
 
-設定可能な製品（親）のオプションの設定を忘れると、設定可能な製品に子の製品を関連付けようとすると、エラーが発生します。 エラーメッセージは、次の例のようになります。
+設定可能な製品（親）のオプションを設定するのを忘れた場合、子製品を設定可能な製品に関連付けようとするとエラーが発生します。 エラーメッセージは、次の例に似ています。
 
 `{"message":"The parent product doesn't have configurable product options.","trace":"#0 [internal function]: Magento\\ConfigurableProduct\\Model\\LinkManagement->addChild('Kids-Hawaiian-U...'}`
 
-## 子製品を設定可能な製品にリンク
+## 子製品を設定可能な
 
-これで、3 つのシンプルな製品が作成されました。
+これで、3つのシンプルな製品を作成しました。
 
-- `"Kids Hawaiian Ukulele Red"`,
-- `"Kids-Hawaiian-Ukulele-Blue"`
-- `"Kids-Hawaiian-Ukulele-Green"`
+* `"Kids Hawaiian Ukulele Red"`,
+* `"Kids-Hawaiian-Ukulele-Blue"`
+* `"Kids-Hawaiian-Ukulele-Green"`
 
-次のPOSTリクエストを送信して、これらの単純な商品を設定可能な商品の子として追加します。 製品ごとに個別のリクエストを送信します。
+以下のPOST リクエストを送信して、これらのシンプルな製品を設定可能な製品の子として追加します。 製品ごとに個別のリクエストを送信します。
 
-各リクエストで、`childSKU` の値を、追加する子製品の値に更新します。 次の例では、単純な製品 `kids-Hawaiian-Ukulele-red` を SKU`Kids-Hawaiian-Ukulele-red` を持つ設定可能な製品に割り当てます。
+リクエストごとに、`childSKU`値を、追加する子製品の値に更新します。 次の例では、SKU `kids-Hawaiian-Ukulele-red`を持つ設定可能な製品に単純な製品`Kids-Hawaiian-Ukulele-red`を割り当てます。
 
 
 ```bash
@@ -304,9 +305,9 @@ curl --location '{{your.url.here}}rest/default/V1/configurable-products/Kids-Haw
 '
 ```
 
-## cURL を使用した設定可能な製品の取得
+## cURLを使用した設定可能な製品の取得
 
-これで、3 つの子 SKU が割り当てられた、設定可能な製品を作成しました。 cURL を使用して次のGETリクエストを送信すると、割り当てられた商品のリンクされた ID を確認できます。 このリクエストは、設定可能な商品に関する詳細情報を返します。
+これで、3つの子SKUが割り当てられた設定可能な製品を作成しました。 cURLを使用して次のGET リクエストを送信すると、割り当てられた商品のリンク IDを確認できます。 このリクエストは、設定可能な製品に関する詳細情報を返します。
 
 ```json
 ...
@@ -318,36 +319,36 @@ curl --location '{{your.url.here}}rest/default/V1/configurable-products/Kids-Haw
 ...
 ```
 
-以下では、GETメソッドを使用します
+次の例では、GET メソッドを使用しています
 
 ```bash
 curl --location '{{your.url.here}}/rest/default/V1/products/Kids-Hawaiian-Ukulele' \
 --header 'Authorization: Bearer {{Your Bearer Token}}'
 ```
 
-## 設定可能な商品に関連付けられた子商品を取得します
+## 設定可能な製品に関連付けられている子の製品を取得する
 
-次のGETリクエストを送信して、設定可能な商品に関連付けられている子のみを返します。 応答には、SKU や価格など、子製品のすべての属性が含まれます。
+次のGET リクエストを送信して、設定可能な製品に関連付けられている子のみを返します。 応答には、SKUと価格を含む子製品のすべての属性が含まれます。
 
-以下では、GETメソッドを使用します
+次の例では、GET メソッドを使用しています
 
 ```bash
 curl --location '{{your.url.here}}/rest/default/V1/configurable-products/kids-hawaiian-ukulele/children' \
 --header 'Authorization: Bearer {{Your Bearer Token}}'
 ```
 
-## 親設定可能なものから子製品を削除または削除
+## 子製品を親から削除または削除する
 
-cURL を使用して次の削除リクエストを送信することで、カタログから商品を削除することなく、設定可能な商品から子商品をDELETEできます。
+次のDELETE リクエストをcURLを使用して送信すると、カタログから商品を削除せずに、設定可能な商品から子商品を削除できます。
 
 ```bash
 curl --location --request DELETE '{{your.url.here}}/rest/default/V1/configurable-products/Kids-Hawaiian-Ukulele/children/Kids-Hawaiian-Ukulele-Blue' \
 --header 'Authorization: Bearer {{Your Bearer Token}}'
 ```
 
-## その他のリソース
+## 関連資料
 
-- [&#x200B; 設定可能な製品の作成チュートリアル &#x200B;](https://developer.adobe.com/commerce/webapi/rest/tutorials/configurable-product/){target="_blank"}
-- [&#x200B; 設定可能な製品 &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/types/product-create-configurable.html?lang=ja){target="_blank"}
-- [Adobe Developer REST チュートリアル &#x200B;](https://developer.adobe.com/commerce/webapi/rest/tutorials/prerequisite-tasks/){target="_blank"}
-- [Adobe Commerce REST ReDoc](https://adobe-commerce.redoc.ly/2.4.6-admin/tag/products#operation/PostV1Products){target="_blank"}
+* [設定可能な製品チュートリアルを作成](https://developer.adobe.com/commerce/webapi/rest/tutorials/configurable-product/){target="_blank"}
+* [構成可能な製品](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/types/product-create-configurable.html){target="_blank"}
+* [Adobe Developer REST チュートリアル ](https://developer.adobe.com/commerce/webapi/rest/tutorials/prerequisite-tasks/){target="_blank"}
+* [Adobe Commerce REST文書](https://adobe-commerce.redoc.ly/2.4.6-admin/tag/products#operation/PostV1Products){target="_blank"}

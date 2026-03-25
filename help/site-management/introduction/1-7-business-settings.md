@@ -1,8 +1,9 @@
 ---
-title: "ビジネスユーザー向け [!DNL Commerce] - ストア設定"
-description: ロケール設定、ストア情報、セキュアな URL とセキュアでない URL、web サイトのタイトル、ロゴ、著作権情報、通信メールロゴ、ストアのメールアドレス、通貨オプション、通貨レートについて説明します。
+title: ビジネスユーザー向け[!DNL Commerce] - ストア設定
+description: ロケールの設定、保存情報、安全で安全でないURL、web サイトのタイトル、ロゴ、著作権情報、コミュニケーションメールのロゴ、保存メールアドレス、通貨オプション、通貨レートなどについて説明します。
 kt: 5764
 doc-type: video
+duration: 390
 activity: use
 last-substantial-update: 2022-12-28T00:00:00Z
 feature: Configuration, System
@@ -10,39 +11,39 @@ topic: Commerce, Administration
 role: Admin, Leader, User
 level: Beginner, Intermediate
 exl-id: c4b78f66-26eb-4b7e-950d-f2a8ebab9783
-source-git-commit: f7aa1f0063cbcad6d331a13817214b1bf2158571
+source-git-commit: 9aa4d70ee6a3825f027aa2a9c6a1ac0f876ed59f
 workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 0%
 
 ---
 
-# ビジネスユーザー向け [!DNL Commerce] - ストア設定
+# ビジネスユーザー向け[!DNL Commerce] - ストア設定
 
-このビデオの内容は次のとおりです。
+このビデオの内容：
 
-- ロケール設定
-- ストア情報
-- セキュア URL とセキュアでない URL
-- Web サイトのタイトル、ロゴおよび著作権情報
-- コミュニケーション電子メールロゴの保存
-- メールアドレスの保存
-- 請求書、出荷品、クレジット・メモのロゴ
-- 通貨オプション
-- 通貨レート
+* ロケール設定
+* 店舗情報
+* 安全なURLと安全でないURL
+* web サイトのタイトル、ロゴ、著作権情報
+* コミュニケーションメールのロゴを保存する
+* メールアドレスを保存
+* 請求書、発送、およびクレジットメモのロゴ
+* 通貨オプション
+* 通貨レート
 
-## このビデオの目的は誰ですか。
+## この動画は誰のためのものでしょうか？
 
-- ビジネスユーザー
+* ビジネスユーザー
 
 ## ビデオコンテンツ
 
 >[!NOTE]
 >
->このビデオの内容は、2.3.1 リリースを反映しています。 以降のリリースのアップデートについて詳しくは、[&#x200B; リリースノート &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/overview.html?lang=ja) を参照してください。
+>ビデオの内容は、2.3.1 リリースを反映しています。 以降のリリースのアップデートについて詳しくは、[ リリースノート ](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/overview.html)を参照してください。
 
->[!VIDEO](https://video.tv.adobe.com/v/330033?quality=12&learn=on&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/35949?learn=on)
 
-## その他のリソース
+## 関連資料
 
-[&#x200B; ストアの詳細 –  [!DNL Commerce]  はじめる前に &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/store-details.html?lang=ja)
+[ ストアの詳細 –  [!DNL Commerce] 入門ガイド ](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/store-details.html)

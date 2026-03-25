@@ -1,39 +1,39 @@
 ---
-title: AI ツールを使用したAdobe Commerceの移行のシンプル化
-description: Adobe Commerceが、AI ツール、モジュール式の採用、スケーラブルなビジネスの成長のための迅速な開発を使用してクラウド移行を合理化する方法について説明します。
+title: AIを活用して、Adobe Commerceの移行を簡素化
+description: Adobe Commerceで、どのようにAI ツールやモジュール式の導入機能、より迅速な開発を通じてクラウドへの移行を合理化し、拡張性のあるビジネスの成長を実現するのかをご確認ください。
 feature: App Builder, Storefront, Extensions, Merchandising
 topic: Artificial Intelligence, Migration, Commerce
 old-role: Data Engineer, Developer
 role: Developer
 level: Beginner
 doc-type: Technical Video
-duration: 694
+duration: 743
 last-substantial-update: 2025-10-13T00:00:00Z
 jira: KT-19378
-source-git-commit: 6e11d096c445635286f4e8c8adf821fed5c460fd
+exl-id: 9326f53d-e3aa-421f-bdaa-7be523a0ecd8
+source-git-commit: 9aa4d70ee6a3825f027aa2a9c6a1ac0f876ed59f
 workflow-type: tm+mt
 source-wordcount: '212'
 ht-degree: 0%
 
 ---
 
+# 新製品の導入を簡素化し、ビジネスを成長したい
 
-# 新製品の導入をシンプルにすることでビジネスを拡大
+Adobe Commerceでは、段階的にAdobe Commerce as a Cloud ServiceやAdobe Commerce Optimizerに移行することで、ビジネスの成長を促進しています。 AIを活用したスマートツールにより、企業はより少ない手作業で価値創出までの時間を短縮し、より優れた顧客体験を実現できます。 これらのツールは、ストアフロントの計画、更新、カスタム機能の移行、データの安全の確保に役立ちます。 企業は、最初にアップグレードするものを選択し、自分のペースで進めることができます。 Adobeでは、プロセスをより迅速かつシンプルにする新しいアプリやサービスも提供されています。 そうすることで、時間を節約し、最も重要なことに集中することができます。
 
-Adobe Commerceは、Adobe Commerce as a Cloud ServiceおよびAdobe Commerce Optimizerへの段階的アプローチによる移行を支援することで、企業の成長を容易にしています。 AI を活用したスマートツールにより、企業は手動の手間を減らし、より良い顧客体験を実現し、より迅速な価値創出を実現できます。 これらのツールは、計画、ストアフロントの更新、カスタム機能の移動およびデータの安全の維持に役立ちます。 企業はアップグレード対象を選択し、自分のペースで進めることができます。 また、Adobeは、プロセスをより速く、よりシンプルにする新しいアプリやサービスも提供します。 そうすることで、チームは時間を節約し、最も重要なことに集中できます。
+## この動画は誰のためのものでしょうか？
 
-## このビデオの目的は誰ですか。
-
-* 変革 e コマースリーダー
-* Commerce ソリューションアーキテクト
-* テクニカル製品マネージャー
+* ビジネス変革を牽引
+* Commerce Solution Architect
+* テクニカルプロダクトマネージャー
 * リード開発者
 
 ## ビデオコンテンツ
 
-* AI を活用した移行ツールは、コード分析、互換性チェックを合理化し、プラットフォームの移行を加速します。
-* モジュラー型の移行手法により、ダウンタイムとビジネス継続性に対するリスクを最小限に抑えながら、段階的に導入できます。
-* App Builderの拡張機能を使用すると、カスタムロジックをサーバーレス関数に切り離して、メンテナンスを容易にできます。
-* ストアフロントの機能強化により、ドロップインコンポーネントとエッジ配信でパフォーマンスとコンテンツ作成が向上します。
+* AIを活用した移行ツールにより、コード分析を合理化し、互換性チェックを通じてプラットフォーム移行を加速できます。
+* モジュール型の移行手法により、ダウンタイムを最小限に抑え、ビジネス継続性へのリスクを最小限に抑えた段階的な導入が可能になります。
+* App Builderの拡張性により、カスタムロジックをサーバーレス関数に分離して、メンテナンスを容易に行うことができます。
+* ストアフロントの機能強化ドロップインコンポーネントとエッジ配信により、パフォーマンスとコンテンツ制作を向上させます。
 
->[!VIDEO](https://video.tv.adobe.com/v/3475749/?captions=jpn&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3475737?learn=on)

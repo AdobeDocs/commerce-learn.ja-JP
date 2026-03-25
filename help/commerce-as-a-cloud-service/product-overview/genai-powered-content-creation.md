@@ -1,35 +1,35 @@
 ---
-title: GenAI によるコンテンツ作成の高速化
-description: Adobe Commerceに組み込まれているFireflyや Express などの GenAI ツールを使用すると、開発者のサポートを受けなくても、より迅速にコンテンツを作成および最適化できます。
+title: GenAIでコンテンツ制作を加速
+description: FireflyやExpressなど、Adobe Commerceに組み込まれた生成AI ツールを利用して、開発者のサポートなしでコンテンツをより迅速に制作、最適化できます。
 feature: Media, Page Builder, Admin Workspace
 topic: Artificial Intelligence, Content Management
 role: Developer, User
 level: Beginner
 doc-type: Technical Video
-duration: 263
+duration: 285
 last-substantial-update: 2026-01-12T00:00:00Z
 jira: KT-20087
 exl-id: ed0e1d8f-794f-4bc5-9b7b-7cf8faf36e7f
-source-git-commit: 91ed274a4f1eb466addfd1b629f83fd52279e6e0
+source-git-commit: 9aa4d70ee6a3825f027aa2a9c6a1ac0f876ed59f
 workflow-type: tm+mt
 source-wordcount: '107'
 ht-degree: 0%
 
 ---
 
-# genAI によるコンテンツ作成の高速化
+# 生成AIでコンテンツ制作を加速
 
-Adobe Commerceが、Fireflyや Express などのジェネレーティブ AI ツールを、コンテンツ作成ワークフローにどのように統合するかを説明します。 画像とテキストのバリエーションをすばやく作成する方法、キャンペーンを最適化する方法、外部リソースへの依存を減らす方法について説明します。
+Adobe Commerceが、FireflyやExpressなどの生成AI ツールをコンテンツ制作ワークフローに統合している方法をご確認ください。 画像やテキストのバリエーションをすばやく作成し、キャンペーンを最適化して、外部リソースへの依存を低減する方法をご確認ください。
 
-## このビデオの目的は誰ですか。
+## この動画は誰のためのものでしょうか？
 
 * デジタルマーケティングマネージャー
 * E コマースマーチャンダイザー
-* コンテンツ戦略
+* コンテンツストラテジスト
 
 ## ビデオコンテンツ
 
-* 組み込みの GenAI ツールを使用して画像とテキストのバリエーションを生成し、コンテンツ作成を高速化する方法を説明します。
-* AI 駆動型ワークフローにより、設計やエンジニアリングのサポートなしで迅速なテストと最適化を可能にする方法を説明します。
+* 組み込みの生成AI ツールを使用して、画像やテキストのバリエーションを生成し、コンテンツ制作を高速化する方法を紹介します。
+* AIを活用したワークフローで、デザインやエンジニアリングのサポートなしで迅速なテストと最適化を実現する方法をご覧ください。
 
->[!VIDEO](https://video.tv.adobe.com/v/3478793/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3478793?learn=on)

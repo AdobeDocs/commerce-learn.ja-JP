@@ -1,8 +1,9 @@
 ---
-title: Adobe Commerce サービスコネクタの設定
-description: Commerce SaaS 製品と共に使用するようにAdobe Commerce サービスコネクタを設定する方法と、一般的な問題を解決する方法について説明します。
+title: Adobe Commerce Services Connectorの設定
+description: Commerce SaaS製品で使用できるようにAdobe Commerce Services Connectorを設定する方法と、一般的な問題を解決する方法について説明します。
 kt: 14777
 doc-type: video
+duration: 521
 audience: all
 activity: use
 last-substantial-update: 2024-01-09T00:00:00Z
@@ -11,43 +12,43 @@ topic: Commerce, Administration
 role: Admin, User
 level: Beginner, Intermediate
 exl-id: 3ddfab5e-18a4-47ce-8b80-d66db10eebee
-badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
-source-git-commit: 03fab8e76116374c69240173572a276652197d9b
+badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
+source-git-commit: 9aa4d70ee6a3825f027aa2a9c6a1ac0f876ed59f
 workflow-type: tm+mt
 source-wordcount: '210'
 ht-degree: 0%
 
 ---
 
-# Adobe Commerce サービスコネクタの設定
+# Adobe Commerce Services Connectorの設定
 
-Commerce サービスコネクタは、Adobeが開発した設定で、様々な SaaS 機能のロックを解除するものです。 Adobe CommerceとMagento Open Sourceで支払いサービスを使用するには、実稼動およびサンドボックス API キーを使用してCommerce インスタンスを接続し、設定用に設定でデータスペースを指定する必要があります。
+Commerce Services Connectorは、Adobeが開発した設定で、さまざまなSaaS機能を利用できます。 Adobe CommerceとMagento Open Sourceの決済サービスを使用するには、実稼動用およびサンドボックス用のAPI キーを使用してCommerce インスタンスを接続し、設定のために設定でデータスペースを指定する必要があります。
 
-支払いサービスの設定に役立つ _Adobe Commerce サービスコネクタの設定_ ビデオをご覧ください。
+決済サービスの設定に役立つ&#x200B;_Adobe Commerce Services Connector_&#x200B;の設定に関するビデオをご覧ください。
 
-## このビデオの目的は誰ですか。
+## この動画は誰のためのものでしょうか？
 
-- 運用エンジニア
-- e コマースマネージャーと連絡窓口
+* 運用技術者
+* コマースマネージャーと連絡先
 
 ## ビデオコンテンツ
 
 >[!VIDEO](https://video.tv.adobe.com/v/3425958?learn=on)
 
-## 設定に関する FAQ
+## 設定に関するFAQ
 
-Commerce サービスコネクタは、Adobeが開発した設定で、様々な SaaS 機能のロックを解除するものです。 設定に関するよくある質問の一部を次に示します。
+Commerce Services Connectorは、Adobeが開発した設定で、さまざまなSaaS機能を利用できます。 ここでは、設定に関するよくある質問をいくつか紹介します。
 
-- 無効な公開鍵または公開鍵を修正します。
-- ストアの API キーをローテーションします。
-- Commerce サービスコネクタの設定の SaaS Identifier 手順に移動します。
-- 支払いサービスをオンボーディングする際のサンドボックスボタンのトラブルシューティング。
-- Commerce サービスコネクタが UI に読み込まれない。
+* 無効なキーまたは公開鍵を修正します。
+* ストアのAPI キーを回転します。
+* Commerce Service Connectorを設定するSaaS Identifier ステップに移動します。
+* 決済サービスをオンボーディングする際のサンドボックスボタンのトラブルシューティング。
+* Commerce Service ConnectorがUIに読み込まれていません。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3425959?learn=on)
 
-## その他のリソース
+## 関連資料
 
-- [Commerce サービスコネクタ &#x200B;](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html?lang=ja){target="_blank"}
-- [&#x200B; 支払いサービスガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/guide-overview.html?lang=ja){target="+blank"}
-- [Commerce サービスコネクタ &#x200B;](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html?lang=ja){target="+blank"}
+* [Commerce Services Connector](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html){target="_blank"}
+* [決済サービスガイド ](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/guide-overview.html){target="+blank"}
+* [Commerce Services Connector](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html){target="+blank"}

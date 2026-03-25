@@ -1,46 +1,47 @@
 ---
-title: ビジネスユーザー向けの [!DNL Commerce] – 設定可能な属性
+title: ビジネスユーザー向け[!DNL Commerce] – 設定可能な属性
 description: 設定可能な製品属性を設定する方法について説明します。
 kt: 5772
 doc-type: video
+duration: 288
 activity: use
 last-substantial-update: 2022-12-28T00:00:00Z
 topic: Commerce, Administration, Content Management
 role: Admin, Leader, User
 level: Beginner, Intermediate
 exl-id: b528b7d8-0cda-4ee0-88f6-90789e774472
-source-git-commit: f8944c35f90deb00a80e0b20ad5557f4b0a3b472
+source-git-commit: 9aa4d70ee6a3825f027aa2a9c6a1ac0f876ed59f
 workflow-type: tm+mt
 source-wordcount: '69'
 ht-degree: 0%
 
 ---
 
-# ビジネスユーザー向けの [!DNL Commerce] – 設定可能な属性
+# ビジネスユーザー向け[!DNL Commerce] – 設定可能な属性
 
 <!--
 validation failure (if published)
 feature: Configuration, System, Catalogs
 -->
 
-このビデオの内容は次のとおりです。
+このビデオの内容：
 
-- 設定可能な製品属性
+* 設定可能な製品属性
 
-## このビデオの目的は誰ですか。
+## この動画は誰のためのものでしょうか？
 
-- ビジネスユーザー
+* ビジネスユーザー
 
 ## ビデオコンテンツ
 
 >[!NOTE]
 >
->このビデオの内容は、2.3.1 リリースを反映しています。 以降のリリースのアップデートについて詳しくは、[&#x200B; リリースノート &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/overview.html?lang=ja) を参照してください。
+>ビデオの内容は、2.3.1 リリースを反映しています。 以降のリリースのアップデートについて詳しくは、[ リリースノート ](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/overview.html)を参照してください。
 
->[!VIDEO](https://video.tv.adobe.com/v/329977?captions=jpn&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/35957?learn=on)
 
-## その他のリソース
+## 関連資料
 
-[&#x200B; 設定可能な製品  [!DNL Commerce]  カタログ管理ガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/types/product-create-configurable.html?lang=ja)
+[設定可能な製品 –  [!DNL Commerce]  カタログ管理ガイド ](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/types/product-create-configurable.html)
 
-[&#x200B; 属性セット - [!DNL Commerce]  カタログ管理ガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/create/attribute-sets.html?lang=ja)
+[属性セット - [!DNL Commerce]  カタログ管理ガイド ](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/create/attribute-sets.html)

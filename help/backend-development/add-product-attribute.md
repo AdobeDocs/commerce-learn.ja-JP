@@ -1,8 +1,9 @@
 ---
 title: 製品属性の作成
-description: 1 つのパラメーターで json を返すページを作成します。
+description: 1つのパラメーターでjsonを返すページを作成します。
 kt: 14131
 doc-type: video
+duration: 605
 activity: use
 last-substantial-update: 2023-2-10
 feature: Configuration, System, Backend Development
@@ -10,7 +11,7 @@ topic: Commerce, Development
 role: Admin, User
 level: Beginner, Intermediate
 exl-id: 98257e62-b23d-4fa9-a0eb-42e045c53195
-source-git-commit: d6aeac0c4c66bd8117cc9ef1e0186bbb19cf23e9
+source-git-commit: 9aa4d70ee6a3825f027aa2a9c6a1ac0f876ed59f
 workflow-type: tm+mt
 source-wordcount: '305'
 ht-degree: 0%
@@ -19,33 +20,33 @@ ht-degree: 0%
 
 # 製品属性の作成
 
-製品属性の追加は、[!DNL Commerce] で最も一般的な操作の 1 つです。 属性は、製品に関連する多くの実用的なタスクを解決する強力な方法です。 製品に dropdown-type 属性を追加する簡単なプロセスがあります。
+製品属性の追加は、[!DNL Commerce]で最も人気のある操作の1つです。 属性は、製品に関連する多くの実用的なタスクを解決する強力な方法です。 ドロップダウンタイプ属性を製品に追加する簡単なプロセスがあります。
 
-このビデオの内容は次のとおりです。
+このビデオの内容：
 
-- Cotton、Leather、Silk、Denim、Fur、Wool の値を持つ clothing_material というアトリビュートを追加します
-- 製品ビューページでこの属性を太字で表示します
-- デフォルト属性セットに割り当てて、制限を追加します
-- 新しい属性を追加
+* Cotton、Leather、Silk、Denim、Fur、Woolの値を持つclothing_materialという属性を追加します
+* この属性を製品ビューページに太字で表示します
+* デフォルトの属性セットに割り当て、制限を追加します
+* 新しい属性を追加
 
-## このビデオの目的は誰ですか。
+## この動画は誰のためのものでしょうか？
 
-- Commerce を初めて使用する開発者で、プログラムによって製品属性を作成する方法を学ぶ必要があるもの
+* コマースを初めて利用する開発者で、プログラムから商品属性を作成する方法を学ぶ必要がある場合
 
 ## ビデオコンテンツ
 
->[!VIDEO](https://video.tv.adobe.com/v/3412441?quality=12&learn=on&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/35789?learn=on)
 
 ## コードサンプル
 
-まず、必要なフォルダー、xml ファイル、PHP ファイルを作成します。
+最初に、必要なフォルダー、xmlおよびPHP ファイルを作成します。
 
-- app/code/Learning/ClothingMaterial/registration.php
-- app/code/Learning/ClothingMaterial/etc/module.xml
-- app/code/Learning/ClothingMaterial/Model/Attribute/Backend/Material.php
-- app/code/Learning/ClothingMaterial/Model/Attribute/Frontend/Material.php
-- app/code/Learning/ClothingMaterial/Model/Attribute/Source/Material.php
-- app/code/Learning/ClothingMaterial/Setup/InstallData.php
+* app/code/Learning/ClothingMaterial/registration.php
+* app/code/Learning/ClothingMaterial/etc/module.xml
+* app/code/Learning/ClothingMaterial/Model/Attribute/Backend/Material.php
+* app/code/Learning/ClothingMaterial/Model/Attribute/Frontend/Material.php
+* app/code/Learning/ClothingMaterial/Model/Attribute/Source/Material.php
+* app/code/Learning/ClothingMaterial/Setup/InstallData.php
 
 ### app/code/Learning/ClothingMaterial/registration.php
 
@@ -64,8 +65,8 @@ ComponentRegistrar::register(
 
 >[!NOTE]
 >
->モジュールが宣言型スキーマを使用していて、ほとんどのモジュールが 2.3.0 以降である場合、setup_version を省略する必要があります。 ただし、従来のプロジェクトがある場合は、この方法が使用されることがあります。  詳しくは、[developer.adobe.com](https://developer.adobe.com/commerce/php/development/build/component-name/#add-a-modulexml-file){target="_blank"} を参照してください。\
->注意：この例のコードを動作させるには、setup_version を含める必要があります。含めない場合、InstallData.php は実行されません。
+>モジュールで宣言スキーマを使用しており、ほとんどのモジュールで2.3.0以降を使用している場合は、setup_versionを省略する必要があります。 ただし、一部のレガシープロジェクトでは、この方法が使用される場合があります。  詳しくは、[developer.adobe.com](https://developer.adobe.com/commerce/php/development/build/component-name/#add-a-modulexml-file){target="_blank"}を参照してください。\
+>注意：このサンプルコードが機能するには、setup_versionを含める必要があります。そうしないと、InstallData.phpが実行されません。
 
 
 
@@ -81,7 +82,7 @@ ComponentRegistrar::register(
 
 >[!NOTE]
 >
->プロジェクトにある属性セット ID を使用してください。この例では、数値 9 です。
+>プロジェクト内の属性セット IDを使用してください。この例では、番号9です。
 
 ```php
 <?php
@@ -233,6 +234,6 @@ class InstallData implements InstallDataInterface
 }
 ```
 
-## 役に立つリソース
+## 役立つリソース
 
-[&#x200B; カスタムテキストフィールド属性の追加 &#x200B;](https://developer.adobe.com/commerce/php/tutorials/admin/custom-text-field-attribute/)
+[ カスタムテキストフィールド属性を追加](https://developer.adobe.com/commerce/php/tutorials/admin/custom-text-field-attribute/)

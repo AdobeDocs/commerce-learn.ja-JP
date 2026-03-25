@@ -1,35 +1,36 @@
 ---
 title: マルチサイト管理 
-description: Adobe Commerceの堅牢なマルチサイト機能と一元化されたバックエンドインターフェイスにより、複数の店舗、ブランド、web サイトを簡単に管理できます。
+description: Adobe Commerceの堅牢なマルチサイト機能と一元化されたバックエンドインターフェイスにより、複数のストア、ブランド、web サイトを容易に管理できます。
 feature: Admin Workspace, Configuration, Site Management
 topic: Administration, Commerce
 role: Admin, User
 level: Beginner
 doc-type: Technical Video
-duration: 353
+duration: 390
 last-substantial-update: 2024-09-12T00:00:00Z
 jira: KT-16199
-source-git-commit: cea265de4a1e8f828d60d9f5773f0d7fa5e6b5de
+exl-id: c041bd9a-9955-4053-a147-570ae1d88692
+source-git-commit: 9aa4d70ee6a3825f027aa2a9c6a1ac0f876ed59f
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 0%
 
 ---
 
-# Adobe Commerceの複数の Web サイト管理
+# Adobe Commerceの複数のWeb サイト管理
 
-Adobe Commerceを使用すると、技術的なスキルを必要とせずに、1 つのバックエンドインターフェイスから複数の店舗、ブランド、web サイトを管理できます。 複数の web サイトを作成し、それぞれに独自のドメイン、製品、価格、顧客ベースを設定できます。 Web サイト内では複数のストアを作成でき、それぞれに独自のカタログと価格を設定できます。また、ストア内では、異なる言語やバージョンに対して複数のストア表示を設定できます。 この柔軟性により、製品の提供と価格戦略の効率的な管理が可能になり、e コマース業務の拡大と拡張を検討している企業に最適です。
+Adobe Commerceなら、技術的なスキルを必要とせずに、単一のバックエンドインターフェイスを使用して、複数のストア、ブランド、web サイトを管理できます。 これにより、独自のドメイン、製品、価格設定、顧客基盤を持つ複数のweb サイトを構築できます。 web サイトでは、複数のストアを作成し、それぞれに独自のカタログと価格を設定できます。ストア内では、異なる言語やバージョンに対して複数のストアビューを設定できます。 この柔軟性により、商品オファーと価格戦略を効率的に管理できるため、e コマース業務を拡大し、拡大したい企業に最適です。
 
 ## このビデオの対象
 
-- 複数の地域、ブランド、製品ラインにわたる e コマース業務の拡大を検討している企業。
-- ストアマネージャー、e コマースディレクター、マーケティングチーム。
-- オンラインプレゼンスのスケーラビリティと柔軟性を求める企業。
+* 複数の地域、ブランド、製品ラインにe コマース業務を拡大したい企業。
+* ストアマネージャー、e コマースディレクター、マーケティングチーム。
+* オンラインプレゼンスの柔軟性と拡張性を目指す企業。
 
 ## ビデオコンテンツ
 
-- マルチサイト管理
-- ローカライゼーションとカスタマイズ
-- 拡張性と柔軟性
+* 複数サイトの一元管理
+* ローカライズとカスタマイズ
+* スケーラビリティと柔軟性
 
->[!VIDEO](https://video.tv.adobe.com/v/3434028?learn=on&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3434027?learn=on)

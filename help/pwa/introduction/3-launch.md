@@ -1,8 +1,9 @@
 ---
-title: 開発者向けPWA Studio - ローンチと読み込み
-description: PWAのローンチ前に必要な手順、読み​込み時間のベースライン、パフォーマンスによってコンバージョン​率がどのように向上するかについて説明します。
+title: PWA Studio開発者向け – ローンチとロード
+description: ​のリリース前に必要なステップ、読み込み時間の基準値、パフォーマンスがコンバージョンを向上させる方法​などについて説明します。
 kt: 5646
 doc-type: video
+duration: 645
 activity: use
 last-substantial-update: 2023-5-28
 feature: GraphQL, REST, Tools and External Services
@@ -11,26 +12,26 @@ old-role: Architect, Developer
 role: Developer, User
 level: Beginner, Intermediate
 exl-id: d1744a5c-7e56-48d3-971e-5abf21196cfa
-source-git-commit: afe0ac1781bcfc55ba0e631f492092fd1bf603fc
+source-git-commit: 9aa4d70ee6a3825f027aa2a9c6a1ac0f876ed59f
 workflow-type: tm+mt
 source-wordcount: '62'
 ht-degree: 0%
 
 ---
 
-# 開発者向けPWA Studio - ローンチと読み込み
+# PWA Studio開発者向け – ローンチとロード
 
-このビデオの内容は次のとおりです。
+このビデオの内容：
 
-- PWAの起動に必要な手順&#x200B;
-- 読み込み時間のベースライン &#x200B;
-- パフォーマンスによるコンバージョンの改善方法
+* PWAを起動するために必要な手順&#x200B;
+* 読み込み時間のベースライン&#x200B;
+* パフォーマンスがコンバージョンを向上させる方法
 
-## このビデオの目的は誰ですか。
+## この動画は誰のためのものでしょうか？
 
-- フロントエンド開発者
-- プロジェクト管理者
+* フロントエンド開発者
+* プロジェクトマネージャー
 
 ## ビデオコンテンツ
 
->[!VIDEO](https://video.tv.adobe.com/v/35717?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/35717?learn=on)

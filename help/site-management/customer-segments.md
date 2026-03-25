@@ -1,39 +1,41 @@
 ---
-title: 顧客セグメントの作成
-description: 顧客住所、注文履歴、買い物かごの内容などのプロパティに基づいて、特定の顧客に対するコンテンツとプロモーションを動的に表示する方法を説明します。
-kt: 10545
-doc-type: feature video
-audience: all
-activity: use
+title: 顧客セグメントの構築
+description: 顧客セグメントを作成し、住所、注文履歴、買い物かごのデータなどを使用してコンテンツやプロモーションをターゲティングする方法を説明します。
+doc-type: Technical Video
+duration: 221
 last-substantial-update: 2023-04-27T00:00:00Z
 feature: Configuration, System, Personalization, Price Rules
 topic: Commerce, Administration, Content Management
-role: Admin, Leader, User
-level: Beginner, Intermediate
+role: Admin, User
+level: Intermediate
+jira: KT-10545
 exl-id: 17d68833-eb86-49a8-80e7-16b20e435626
-source-git-commit: 404d2708a6d540d6fb19a33afb20726356cd8000
+source-git-commit: 9aa4d70ee6a3825f027aa2a9c6a1ac0f876ed59f
 workflow-type: tm+mt
-source-wordcount: '108'
+source-wordcount: '123'
 ht-degree: 0%
 
 ---
 
-# 顧客セグメントの作成
+# 顧客セグメントの構築
 
 {{ee-feature}}
 
-顧客セグメントを使用すると、顧客の住所、注文履歴、買い物かごの内容などのプロパティに基づいて、特定の顧客に対するコンテンツとプロモーションを動的に表示できます。 買い物かごの価格ルールを使用して、ターゲットセグメントに基づいたマーケティング活動を最適化できます。 また、レポートを生成し、ターゲット顧客のリストを書き出すこともできます。
+顧客セグメントを使用すると、顧客の住所、注文履歴、ショッピングカートの内容などのプロパティに基づいて、特定の顧客にコンテンツやプロモーションを動的に表示できます。 ターゲットセグメントとショッピングカートの価格ルールにより、マーケティング施策を最適化できます。 レポートを生成し、ターゲット顧客のリストを書き出すこともできます。
 
-## このビデオの目的は誰ですか。
+## この動画は誰のためのものでしょうか？
 
-- ストア管理者
-- e コマースマーケター
+* ストア管理者
+* コマースマーケター
 
 ## ビデオコンテンツ
 
->[!VIDEO](https://video.tv.adobe.com/v/3410191?quality=12&learn=on&captions=jpn)
+* 顧客の属性、注文、買い物かごのデータなどからセグメントを構築し、
+* プロモーションやカート価格ルールにセグメントを接続。
 
-## その他のリソース
+>[!VIDEO](https://video.tv.adobe.com/v/343659?learn=on)
 
-- [&#x200B; 顧客セグメント -  [!DNL Commerce]  顧客管理ガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/customers/customers-menu/customer-segments.html?lang=ja)
-- [&#x200B; 価格ルールの顧客セグメント - [!DNL Commerce]  顧客管理ガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/customers/segments/customer-segment-price-rule.html?lang=ja)
+## 関連資料
+
+* [顧客セグメント - [!DNL Commerce] 顧客管理ガイド ](https://experienceleague.adobe.com/docs/commerce-admin/customers/customers-menu/customer-segments.html){target="_blank"}
+* 価格ルールの[顧客セグメント - [!DNL Commerce] 顧客管理ガイド ](https://experienceleague.adobe.com/docs/commerce-admin/customers/segments/customer-segment-price-rule.html){target="_blank"}

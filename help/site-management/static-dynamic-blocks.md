@@ -1,6 +1,6 @@
 ---
-title: 静的ブロックと動的ブロックを作成する
-description: ストアCMSページの静的ブロックと動的ブロックを作成する方法を説明します。
+title: 静的ブロックと動的ブロックの作成
+description: ストア CMS ページの静的ブロックと動的ブロックを作成する方法について説明します。
 doc-type: feature video
 audience: all
 activity: use
@@ -10,30 +10,30 @@ topic: Commerce, Administration, Content Management
 role: Admin, User
 level: Beginner, Intermediate
 jira: KT-17150
-duration: 374
+duration: 302
 exl-id: 756d06cf-f7a2-4b9b-b369-12a9d99586b1
-badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
-source-git-commit: 340b9d7ad9989aab0fe980db4cb176828d93ad97
+badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
+source-git-commit: 9aa4d70ee6a3825f027aa2a9c6a1ac0f876ed59f
 workflow-type: tm+mt
 source-wordcount: '151'
 ht-degree: 0%
 
 ---
 
-# 静的ブロックと動的ブロックを作成する
+# 静的ブロックと動的ブロックの作成
 
-ブロックは、ページ上のほとんどの場所に配置できるコンテンツのモジュール単位です。 コンテンツブロックは、静的ブロックまたはCMS ブロックと呼ばれることもあります。 タグを使用すると、テキスト、画像、埋め込みビデオなどの固定情報や、ウィジェットから提供された、またはデータベースやその他のソースから生成された動的情報を表示できます。 ホームページ上のほとんどの要素は、簡単に管理できるブロックです。 このビデオでは、静的ブロックと動的ブロックの作成方法を説明します。
+ブロックとは、ページ上のどこにでも配置できるコンテンツのモジュール単位です。 コンテンツブロックは、静的ブロックやCMSブロックと呼ばれることもあります。 テキスト、画像、埋め込みビデオなどの固定情報、およびウィジェットから提供される動的情報やデータベースまたはその他のソースから生成される動的情報を表示するために使用できます。 ホームページ上のほとんどの要素は、簡単に管理できるブロックです。 このビデオでは、静的ブロックと動的ブロックを作成する方法を説明します。
 
-## このビデオの目的は誰ですか。
+## この動画は誰のためのものでしょうか？
 
-- Web サイト管理者
-- コンテンツデザイナー
+* web サイトマネージャー
+* コンテンツデザイナー
 
 ## ビデオコンテンツ
 
->[!VIDEO](https://video.tv.adobe.com/v/3411070?quality=12&learn=on&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/343783?learn=on)
 
-## その他のリソース
+## 関連資料
 
-- [&#x200B; ブロック – コ  [!DNL Commerce]  テンツおよび設計ガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/content-design/elements/blocks/blocks.html?lang=ja)
-- [&#x200B; ダイナミック ブロック - [!DNL Commerce]  コンテンツおよび設計ガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/content-design/elements/dynamic-blocks/dynamic-blocks.html?lang=ja)
+* [ ブロック - [!DNL Commerce]  コンテンツおよびデザインガイド ](https://experienceleague.adobe.com/docs/commerce-admin/content-design/elements/blocks/blocks.html)
+* [動的ブロック - [!DNL Commerce]  コンテンツおよびデザインガイド ](https://experienceleague.adobe.com/docs/commerce-admin/content-design/elements/dynamic-blocks/dynamic-blocks.html)

@@ -1,38 +1,39 @@
 ---
-title: ウィジェットの作成
-description: ウィジェットを作成したり、既存のウィジェットを変更したりして、ストア全体のコンテンツを自動的に更新する方法を説明します。
-jira: KT-17155
-doc-type: feature video
-audience: all
-activity: use
+title: ウィジェットを作成
+description: ストア全体でコンテンツが自動的に更新されるように、ウィジェットを作成および編集する方法について説明します。
+doc-type: Tutorial
+duration: 232
 last-substantial-update: 2023-04-27T00:00:00Z
 feature: Configuration, System
 topic: Commerce, Administration
-role: Admin, User
-level: Beginner, Intermediate
-duration: 216
+role: Developer, User
+level: Beginner
+jira: KT-17155
 exl-id: ffb1312c-2686-48a4-945e-e6f58cb0ad18
-source-git-commit: ee2c20d3faab8eb441c8112dcf6bba51906820a5
+source-git-commit: 9aa4d70ee6a3825f027aa2a9c6a1ac0f876ed59f
 workflow-type: tm+mt
-source-wordcount: '76'
+source-wordcount: '87'
 ht-degree: 0%
 
 ---
 
-# ウィジェットの作成
+# ウィジェットを作成
 
-ウィジェットは、ストア全体のコンテンツを自動的に更新するために簡単に作成および変更できる、再利用可能なコンポーネントです。 このビデオでは、ウィジェットを作成および管理する方法を説明します。
+ウィジェットは、ストア全体でコンテンツを自動的に更新するために作成および修正できる再利用可能なコンポーネントです。 このビデオでは、ウィジェットの作成と管理方法を説明します。
 
-## このビデオの目的は誰ですか。
+## この動画は誰のためのものでしょうか？
 
-- Web サイト管理者
-- コンテンツデザイナー
+* web サイトマネージャー
+* コンテンツデザイナー
 
 ## ビデオコンテンツ
 
->[!VIDEO](https://video.tv.adobe.com/v/3411058?quality=12&learn=on&captions=jpn)
+* ウィジェットの概要と表示場所を把握します。
+* 管理画面でウィジェットを作成および管理します。
 
-## その他のリソース
+>[!VIDEO](https://video.tv.adobe.com/v/343786?learn=on)
 
-- [&#x200B; ウィジェット - [!DNL Commerce]  コンテンツおよびデザインガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/content-design/elements/widgets/widgets.html?lang=ja)
-- [&#x200B; ウィジェットの作成と管理 –  [!DNL Commerce]  コンテンツおよびデザインガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/content-design/elements/widgets/widget-create.html?lang=ja)
+## 関連資料
+
+* [ ウィジェット - [!DNL Commerce]  コンテンツとデザインガイド ](https://experienceleague.adobe.com/docs/commerce-admin/content-design/elements/widgets/widgets.html){target="_blank"}
+* [ ウィジェットの作成と管理 –  [!DNL Commerce]  コンテンツとデザインガイド ](https://experienceleague.adobe.com/docs/commerce-admin/content-design/elements/widgets/widget-create.html){target="_blank"}

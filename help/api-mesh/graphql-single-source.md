@@ -1,10 +1,11 @@
 ---
-title: API メッシュでのGraphQL シングルソースメッシュの作成
-description: Adobe Commerceと  [!DNL Adobe App Builder] で API メッシュを使用する方法について説明します。 1 つのソースを持つメッシュの作成について説明します。
-landing-page-description: Adobe Commerceと  [!DNL Adobe App Builder] で API メッシュを使用する方法について説明します。 1 つのソースを持つメッシュの作成について説明します。
-short-description: Adobe Commerceと  [!DNL Adobe App Builder] で API メッシュを使用する方法について説明します。 1 つのソースを持つメッシュの作成について説明します。
+title: API MeshでのGraphQL シングルソースメッシュの作成
+description: Adobe Commerceおよび [!DNL Adobe App Builder]でAPI Meshを使用する方法について説明します。 1つのソースを持つメッシュの作成について説明します。
+landing-page-description: Adobe Commerceおよび [!DNL Adobe App Builder]でAPI Meshを使用する方法について説明します。 1つのソースを持つメッシュの作成について説明します。
+short-description: Adobe Commerceおよび [!DNL Adobe App Builder]でAPI Meshを使用する方法について説明します。 1つのソースを持つメッシュの作成について説明します。
 kt: 11804
 doc-type: tutorial
+duration: 510
 audience: all
 last-substantial-update: 2023-2-8
 feature: API Mesh, App Builder, Extensibility, Tools and External Services, Backend Development
@@ -13,34 +14,34 @@ old-role: Architect, Developer
 role: Developer
 level: Beginner, Intermediate
 exl-id: 9a78457a-1539-49c0-ac69-4bbfc6786137
-source-git-commit: afe0ac1781bcfc55ba0e631f492092fd1bf603fc
+source-git-commit: 9aa4d70ee6a3825f027aa2a9c6a1ac0f876ed59f
 workflow-type: tm+mt
 source-wordcount: '237'
 ht-degree: 0%
 
 ---
 
-# 単一のソースを持つメッシュを作成する
+# 1つのソースでメッシュを作成する
 
-このビデオは、Adobe Developer App Builderの API メッシュで 1 つのソースを使用してメッシュを作成する方法を開発者が理解するのに役立ちます。 この基本的な例が期待どおりに動作するには、公開アクセス可能な API またはGraphQL エンドポイントが必要です。 このビデオでは、Commerce インスタンスで使用する単純な `mesh.json` ファイルを作成する方法についても説明します。 詳細とコードサンプルについては、[&#x200B; メッシュの作成 &#x200B;](https://developer.adobe.com/graphql-mesh-gateway/gateway/create-mesh/#create-a-mesh-1){target="_blank"} を参照してください。
+このビデオでは、Adobe Developer App Builder用API Meshで、1つのソースを持つメッシュを作成する方法について説明します。 この基本的な例を想定どおりに動作させるには、公開アクセス可能なAPIまたはGraphQL エンドポイントが必要です。 このビデオでは、Commerce インスタンスで使用するシンプルな`mesh.json` ファイルを作成する方法についても説明します。 詳細とコードサンプルについては、[ メッシュの作成](https://developer.adobe.com/graphql-mesh-gateway/gateway/create-mesh/#create-a-mesh-1){target="_blank"}を参照してください。
 
-## このビデオの目的は誰ですか。
+## この動画は誰のためのものでしょうか？
 
-* API メッシュを初めて使用するユーザー
-* 複数のGraphQLと API ソースの組み合わせに関心のある開発者
-* 「ネットワーク」タブのフィルタリング方法とGraphQLによるフィルタリング方法を知る必要のあるユーザー
+* API Meshの初心者
+* 複数のGraphQLソースとAPI ソースの組み合わせに関心のある開発者
+* 「ネットワーク」タブをフィルタリングし、GraphQLでフィルタリングする方法を知る必要があるユーザー
 
 ## ビデオコンテンツ
 
-* リバースプロキシとしての API メッシュの使用
-* JSON 設定ファイルからのメッシュの作成
-* 新しく作成されたGraphQL エンドポイントへのアクセス
+* リバースプロキシとしてのAPI メッシュの使用
+* JSON設定ファイルからのメッシュの作成
+* 新しく作成したGraphQL エンドポイントへのアクセス
 
->[!VIDEO](https://video.tv.adobe.com/v/3419723?captions=jpn&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3414124?learn=on)
 
-## Json 設定ファイルを作成します。
+## json設定ファイルの作成
 
-API メッシュでは、JSON 設定ファイルを使用してソースハンドラーを定義します。 JSON ファイルには、メッシュのソースを含む `sources` 配列が含まれています。 単一ソースを持つメッシュの例を次に示します。
+API Meshでは、JSON設定ファイルを使用してソースハンドラーを定義します。 JSON ファイルには、メッシュのソースを含む`sources`配列が含まれています。 1つのソースを持つメッシュの例を次に示します。
 
 ```json
 {

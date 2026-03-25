@@ -1,9 +1,10 @@
 ---
 title: .env ファイル
-description: このサンプルアプリケーションの.env ファイルのファイルのタイプについて説明します
-landing-page-description: Adobe Commerceで使用されるAdobe Developer App Builderと、.env ファイルで使用されるコンテンツのタイプについて説明します
+description: このサンプルアプリケーションの.env ファイルのファイルの種類について説明します
+landing-page-description: Adobe Commerceで使用されるAdobe Developer App Builderと、.env ファイルで使用されるコンテンツの種類について説明します
 kt: 12423
 doc-type: tutorial
+duration: 177
 audience: all
 last-substantial-update: 2023-3-13
 feature: API Mesh, App Builder, Extensibility, Tools and External Services, Backend Development
@@ -12,7 +13,7 @@ old-role: Architect, Developer
 role: Developer
 level: Beginner, Intermediate
 exl-id: 934fcdd1-ee61-4914-89ce-f6f04b1bc763
-source-git-commit: afe0ac1781bcfc55ba0e631f492092fd1bf603fc
+source-git-commit: 9aa4d70ee6a3825f027aa2a9c6a1ac0f876ed59f
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 0%
@@ -21,20 +22,20 @@ ht-degree: 0%
 
 # .env ファイルの生成と設定 {#env-file}
 
-`.env` はサンプルモジュールの一部ではない特別なファイルですが、Adobe Developer App Builder アプリケーションで使用する場合には重要です。 このファイルには、シークレットやその他の情報が含まれています。 このファイルを任意のコードリポジトリにコミットしないでください。
+`.env`は、サンプルモジュールに含まれていないが、Adobe Developer App Builder アプリケーションで使用する際に重要な特殊ファイルです。 このファイルには、秘密鍵とその他の情報が含まれています。 このファイルを任意のコードリポジトリにコミットしないでください。
 
-## このビデオの目的は誰ですか。
+## この動画は誰のためのものでしょうか？
 
-* Adobe Commerce App Builderを使用した経験が限られたAdobeを初めて使用し、`.env` ファイルについて知りたい開発者。
+* Adobe Commerceを初めて使用する開発者で、Adobe App Builderを使用した経験が限られており、`.env` ファイルについて学習する必要があります。
 
 ## ビデオコンテンツ
 
-* .env ファイルの概要とその目的
+* .env ファイルとその目的の概要
 * .env ファイルの生成方法
 * ファイルを追加して新しいシークレットを追加する方法
 * このファイルには機密情報が含まれているため、コミットしないでください
 
->[!VIDEO](https://video.tv.adobe.com/v/3421069?captions=jpn&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3416593?learn=on)
 
 ## コードサンプル
 
@@ -56,7 +57,7 @@ SERVICE_API_KEY=
 #COMMERCE_ACCESS_TOKEN_SECRET=ggg7nb19jhr5gi9jzfan9ggzipe8yrus
 ```
 
-これらの静的な値は、ファイル `actions/commerce.index.js` のサンプルモジュールで使用されていることがわかります。
+これらの静的値は、ファイル `actions/commerce.index.js`のサンプル モジュールで使用されています。
 
 ```javascript
         const oauth = getCommerceOauthClient(

@@ -1,43 +1,43 @@
 ---
-title: コストの大幅な削減
-description: Adobe Commerce as a Cloud Service でコストを大幅に削減する方法を説明します。
+title: コストを大幅に削減
+description: Adobe Commerce as a Cloud Serviceがコストを大幅に削減する方法をご紹介します。
 feature: Cloud, Extensibility
 topic: Commerce
 role: User
 level: Beginner
 doc-type: Value Video
-duration: 663
+duration: 705
 last-substantial-update: 2025-05-15T00:00:00Z
 jira: KT-18110
 exl-id: 87b6200e-79e0-48ed-8926-eaa7bfea36d4
-source-git-commit: 6e11d096c445635286f4e8c8adf821fed5c460fd
+source-git-commit: 9aa4d70ee6a3825f027aa2a9c6a1ac0f876ed59f
 workflow-type: tm+mt
 source-wordcount: '169'
 ht-degree: 0%
 
 ---
 
-# コストの大幅な削減
+# コストを大幅に削減
 
-Adobe Commerceのクラウドネイティブプラットフォームは、完全に管理されたインフラストラクチャ、自動更新、シームレスなスケーラビリティにより、運用コストを削減し、市場投入までの時間を短縮する機能を提供します。 セルフサービスプロビジョニング、事前設定済みのサービス、開発者にとって使いやすいツールを使用することで、チームはこれまで以上に迅速に立ち上げ、革新することができます。 統合されたアプリマーケットプレイスと API ファーストの拡張性により、カスタマイズと拡張が簡単になり、AI を活用したパフォーマンスツールにより、ストアフロントが最適化されたままになります。 ERP、CRM、サードパーティのサービスのいずれと統合する場合でも、Adobe Commerceは、最新のデジタルコマースの需要に応える柔軟性と効率性を提供します。
+Adobe Commerceのクラウドネイティブな基盤は、フルマネージド型のインフラストラクチャ、自動更新、シームレスなスケーラビリティにより、運用コストを削減し、市場投入までの時間を短縮します。 セルフサービスのプロビジョニング、事前設定済みのサービス、開発者が使いやすいツールにより、チームはこれまで以上に迅速にローンチし、イノベーションを起こすことができます。 統合されたアプリマーケットプレイスとAPI ファーストの拡張性により、カスタマイズと拡張が簡単になり、AIを活用したパフォーマンスツールにより、ストアフロントを常に最適化できます。 Adobe Commerceは、ERP、CRM、サードパーティサービスなど、業界を問わず、あらゆる企業が求める柔軟性と効率性を提供します。
 
-## このビデオの目的は誰ですか。
+## この動画は誰のためのものでしょうか？
 
-* チーフ・デジタル・オフィサー
-* E コマース担当副社長/ディレクター
+* 最高デジタル責任者
+* デジタルコマース担当バイスプレジデント/ディレクター
 * 最高技術責任者
-* Commerceアーキテクト
+* Commerce Architects
 
 ## ビデオコンテンツ {#video-content}
 
-* クラウドネイティブで完全に管理可能 – 手動でのアップグレードやスケーリングは不要で、すべてが自動化されています。
-* 迅速なデプロイメント – セルフサービスツールを使用して、事前設定済みの環境を数分で起動できます。
-* 柔軟な統合 – API やアクセラレーターを使用して、ERP や CRM などと簡単に接続できます。
+* クラウドネイティブでフルマネージド – 手動によるアップグレードや拡張は必要なく、すべてが自動化されます。
+* 迅速なデプロイメント – セルフサービスツールを利用して、事前設定済みの環境を数分で起動できます。
+* 柔軟な統合 – APIとアクセラレータを利用して、ERPやCRMなどと容易に接続できます。
 
->[!VIDEO](https://video.tv.adobe.com/v/3458489/?captions=jpn&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3458485?learn=on)
 
-## このシリーズのその他のビデオ
+## このシリーズの追加動画
 
-[&#x200B; 新製品のお知らせ &#x200B;](./new-product-announcements.md)
-[&#x200B; スーパーチャージコンバージョン率 &#x200B;](./supercharge-conversion-rates.md)
-[&#x200B; トラックの高速拡張 &#x200B;](fast-track-expansion.md)
+[新製品のお知らせ](./new-product-announcements.md)
+[ コンバージョン率の増強](./supercharge-conversion-rates.md)
+[迅速な拡張](fast-track-expansion.md)

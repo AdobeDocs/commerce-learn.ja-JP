@@ -1,10 +1,11 @@
 ---
 title: Commerce Intelligence - フィルターセット
-description: Commerce Intelligenceのフィルターセット機能を使用して、Adobe CommerceとMagento Open Sourceのビジネスデータレポートを簡単にする方法を説明します。
-landing-page-description: Commerce Intelligenceのフィルターセット機能を使用してビジネスデータレポートをシンプル化する方法については、このビデオをご覧ください。
-short-description: このビデオでは、MBCommerce IntelligenceI フィルターセット機能を使用してビジネスデータレポートを簡素化する方法を説明します。
+description: Commerce Intelligence フィルターセット機能を使用して、Adobe CommerceとMagento Open Sourceのビジネスデータレポートを簡略化する方法を説明します。
+landing-page-description: Commerce Intelligenceのフィルターセット機能を使用して、ビジネスデータのレポート作成を簡略化する方法を動画でご確認ください。
+short-description: MBCommerce IntelligenceIのフィルターセット機能を使用して、ビジネスデータのレポート作成を簡素化する方法について、この動画をご覧ください。
 kt: 10289
 doc-type: feature video
+duration: 515
 solution: Commerce,Commerce Intelligence
 audience: all
 activity: use
@@ -14,7 +15,7 @@ topic: Commerce, Administration
 role: Admin, User
 level: Beginner, Intermediate
 exl-id: f7d93e45-7382-4fe5-9088-dfba78d148c6
-source-git-commit: 15528d0e2543961e6e6d6d4e12c9b272eab88dc7
+source-git-commit: 9aa4d70ee6a3825f027aa2a9c6a1ac0f876ed59f
 workflow-type: tm+mt
 source-wordcount: '188'
 ht-degree: 0%
@@ -23,30 +24,30 @@ ht-degree: 0%
 
 # Commerce Intelligence - フィルターセット
 
-ビジネスデータの特定の部分のみを分析しますか？ 手動のクリーンアップに飽きましたか？ Commerce Intelligenceでは、フィルターセット機能を使用してこのプロセスを簡略化できます。
+ビジネスデータの特定の部分だけを分析したい場合、 手作業のクリーニングに飽きている？ Commerce Intelligenceでは、フィルターセット機能を使用して、このプロセスを簡略化できます。
 
-このビデオの内容は次のとおりです。
+このビデオの内容：
 
-- フィルターセットの作成
-- フィルター演算子の使用
-- 指標へのフィルターセットの適用
-- 計算済みデータディメンションへのフィルターセットの適用
+* フィルターセットの作成
+* フィルター演算子を使用
+* フィルターセットを指標に適用
+* 計算データディメンションへのフィルターセットの適用
 
 >[!TIP]
 >
->Commerce Intelligenceを初めて使用する場合は、[Adobe Commerce Intelligence ユーザーガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/guide-overview.html?lang=ja){target="_blank"} で、データの集計、分析、ビジュアライゼーションを通じてビジネスインサイトや結果を向上させる方法の概要を参照してください。
+>Commerce Intelligenceを初めて使用する場合は、[Adobe Commerce Intelligence ユーザーガイド ](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/guide-overview.html){target="_blank"}で、データの集計、分析、ビジュアライゼーションを通じてビジネスのインサイトと成果を向上させる方法を詳しく説明しています。
 
-## このビデオの目的は誰ですか。
+## この動画は誰のためのものでしょうか？
 
-- ビジネスユーザー
-- データアナリスト
+* ビジネスユーザー
+* データアナリスト
 
 ## ビデオコンテンツ
 
->[!VIDEO](https://video.tv.adobe.com/v/346404?quality=12&learn=on&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/342408?learn=on)
 
-## 役に立つリソース
+## 役立つリソース
 
-[&#x200B; フィルターセットの作成 – Commerce Intelligence ユーザーガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/build/reports/ess-manage-data-filters.html?lang=ja)
+[ フィルターセットの作成 – Commerce Intelligence ユーザーガイド ](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/build/reports/ess-manage-data-filters.html)
 
-[&#x200B; セグメント化とフィルタリングにお勧めのデータDimension- Commerce Intelligence ユーザーガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/best-practices/data/segment-filter.html?lang=ja)
+[ セグメント化とフィルタリングに推奨されるデータディメンション - Commerce Intelligence ユーザーガイド ](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/best-practices/data/segment-filter.html)

@@ -1,7 +1,8 @@
 ---
 title: 会社アカウントの管理
-description: 承認待ちのリクエストを含む、B2B 会社アカウントの管理方法を説明します。
+description: 承認待ちのリクエストなど、B2B企業アカウントを管理する方法について説明します。
 doc-type: feature video
+duration: 172
 audience: all
 activity: use
 kt: 13909
@@ -11,7 +12,7 @@ topic: Commerce, Administration
 role: Admin, User
 level: Beginner, Intermediate
 exl-id: d8e2748e-ea17-4e4b-9b80-aa7013b605a1
-source-git-commit: 9eb66d4d0da8aa0e26183dea2459fa6e923c430b
+source-git-commit: 9aa4d70ee6a3825f027aa2a9c6a1ac0f876ed59f
 workflow-type: tm+mt
 source-wordcount: '96'
 ht-degree: 0%
@@ -20,21 +21,21 @@ ht-degree: 0%
 
 # 会社アカウントの管理
 
-B2B マーチャントの場合、_[!UICONTROL Companies]_&#x200B;のページには、現在のすべての会社アカウントとそのステータスがリストされます。 ここで会社アカウントを管理でき、承認待ちのリクエストがリストの上部に表示されます。 標準のワークスペースコントロールを使用すると、リストのフィルタリング、列のレイアウトの変更、ビューの保存、データの書き出しを行うことができます。
+B2B マーチャントの場合、_[!UICONTROL Companies]_ページには、現在のすべての会社アカウントとそのステータスが一覧表示されます。 ここで会社アカウントを管理でき、承認待ちのリクエストがリストの上部に表示されます。 標準の作業環境コントロールを使用して、リストのフィルタリング、列レイアウトの変更、ビューの保存、データの書き出しを行うことができます。
 
 {{b2b-feature}}
 
-## このビデオの目的は誰ですか。
+## この動画は誰のためのものでしょうか？
 
-- Web サイト管理者
-- 営業担当者
-- 顧客サービス担当者
+* web サイトマネージャー
+* 営業担当者
+* カスタマーサービス担当者
 
 ## ビデオコンテンツ
 
->[!VIDEO](https://video.tv.adobe.com/v/3410773?quality=12&learn=on&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/344447?learn=on)
 
-## その他のリソース
+## 関連資料
 
-- [&#x200B; 会社アカウント &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/b2b/companies/account-companies.html?lang=ja){target="_blank"}
-- [&#x200B; 会社アカウントの管理 &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/b2b/companies/account-company-manage.html?lang=ja){target="_blank"}
+* [会社アカウント ](https://experienceleague.adobe.com/docs/commerce-admin/b2b/companies/account-companies.html){target="_blank"}
+* [会社アカウントの管理](https://experienceleague.adobe.com/docs/commerce-admin/b2b/companies/account-company-manage.html){target="_blank"}

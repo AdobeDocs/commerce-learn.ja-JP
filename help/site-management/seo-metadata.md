@@ -1,8 +1,9 @@
 ---
 title: SEO メタデータの管理
-description: 検索エンジンでのサイトのインデックス作成方法を改善するために、キーワードの多いメタデータを組み込む方法を説明します。
+description: キーワードが豊富なメタデータを組み込んで、検索エンジンがサイトにインデックスを作成する方法を改善する方法を説明します。
 kt: 10553
 doc-type: feature video
+duration: 223
 audience: all
 activity: use
 last-substantial-update: 2023-04-27T00:00:00Z
@@ -11,7 +12,7 @@ topic: Commerce, Administration, Content Management
 role: Admin, Leader, User
 level: Beginner, Intermediate
 exl-id: affdc3d3-886f-4b39-8c82-c13ee2e79df9
-source-git-commit: 404d2708a6d540d6fb19a33afb20726356cd8000
+source-git-commit: 9aa4d70ee6a3825f027aa2a9c6a1ac0f876ed59f
 workflow-type: tm+mt
 source-wordcount: '83'
 ht-degree: 0%
@@ -20,18 +21,18 @@ ht-degree: 0%
 
 # SEO メタデータの管理
 
-ストアには、検索エンジンによるサイトのインデックス作成方法を改善するために、キーワードが豊富なメタデータを入力できる場所が多数用意されています。 時間の経過と共に、メタデータを微調整して、顧客の購入パターンや好みをターゲットに設定できます。
+ストアには、キーワードに富んだメタデータを入力して、検索エンジンがサイトをインデックス化する方法を改善できる場所がロードされています。 時間の経過とともにメタデータを微調整し、顧客の購入パターンや嗜好をターゲットにすることができます。
 
-## このビデオの目的は誰ですか。
+## この動画は誰のためのものでしょうか？
 
-- Web サイト管理者
-- e コマースマーチャンダイザー
-- e コマースマーケター
+* web サイトマネージャー
+* コマースマーチャンダイジング
+* コマースマーケター
 
 ## ビデオコンテンツ
 
->[!VIDEO](https://video.tv.adobe.com/v/3410176?quality=12&learn=on&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/343750?learn=on)
 
-## その他のリソース
+## 関連資料
 
-[&#x200B; メタデータ - [!DNL Commerce]  マーチャンダイジングおよびプロモーションガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/marketing/seo/meta-data.html?lang=ja)
+[Meta データ - [!DNL Commerce]  マーチャンダイジングおよびプロモーション ガイド ](https://experienceleague.adobe.com/docs/commerce-admin/marketing/seo/meta-data.html)

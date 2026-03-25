@@ -1,7 +1,8 @@
 ---
-title: GraphQLを使用した品目割引の表示
-description: GraphQLを使用した B2B 注文オファー明細行品目割引の見積もりを説明します
+title: GraphQLを使用した行項目の割引の表示
+description: GraphQLを使用したB2B注文オファーの行商品割引の見積もりを説明します
 doc-type: feature video
+duration: 117
 audience: all
 activity: use
 kt: 13800
@@ -11,22 +12,22 @@ topic: Commerce, Administration
 role: Admin, User
 level: Beginner, Intermediate
 exl-id: c30457dc-0eca-4f94-bb7c-b493d173ebab
-source-git-commit: 598bff1fd2cefdc449d5ae3431401aec1e796313
+source-git-commit: 9aa4d70ee6a3825f027aa2a9c6a1ac0f876ed59f
 workflow-type: tm+mt
 source-wordcount: '50'
 ht-degree: 0%
 
 ---
 
-# GraphQLを使用した B2B 販売見積明細行の品目割引
+# GraphQLを使用したB2B セールスの見積もり品目の割引
 
-行品目割引の使用方法と、GraphQLを使用して値を確認する方法を説明します
+GraphQLを使用して行項目の割引を使用し、値を確認する方法を説明します
 
 {{b2b-feature}}
 
-## このビデオの目的は誰ですか。
+## この動画は誰のためのものでしょうか？
 
-- 開発者
+* 開発者
 
 ## ビデオコンテンツ
 

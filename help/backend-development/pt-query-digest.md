@@ -1,8 +1,9 @@
 ---
-title: Percona Toolkit pt-query-digest の仕組みと使用される理由を説明します
-description: 低速のログファイル、一般的なログファイル、バイナリログファイルから MySQL クエリを分析します。 また、「SHOW PROCESSLIST」からのクエリと、tcpdump からの MySQL プロトコルデータも分析できます。
+title: Percona Toolkit pt-query-digestの仕組みと使用理由について説明します
+description: スローログファイル、一般ログファイル、バイナリログファイルからMySQL クエリを分析します。 また、「SHOW PROCESSLIST」からのクエリや、tcpdumpからのMySQL プロトコルデータを分析することもできます。
 kt: 13846
 doc-type: video
+duration: 510
 activity: use
 last-substantial-update: 2023-8-28
 feature: Backend Development, Tools and External Services, Logs
@@ -11,7 +12,7 @@ old-role: Architect, Developer
 role: Developer
 level: Intermediate
 exl-id: 77e91f1b-b3ae-4c6d-bb6d-4fd7ebbb0baf
-source-git-commit: afe0ac1781bcfc55ba0e631f492092fd1bf603fc
+source-git-commit: 9aa4d70ee6a3825f027aa2a9c6a1ac0f876ed59f
 workflow-type: tm+mt
 source-wordcount: '98'
 ht-degree: 0%
@@ -20,21 +21,21 @@ ht-degree: 0%
 
 # Percona Toolkit pt-query-digest
 
-pt-query-digest と実際の例を使用して、推論を深める理由を説明します。
+pt-query-digestと実例を使用して推論を深める理由を説明します。
 
-## このビデオの目的は誰ですか。
+## この動画は誰のためのものでしょうか？
 
-- 建築士
-- 開発者
-- DevOps
+* 設計者
+* 開発者
+* DevOps
 
 ## ビデオコンテンツ
 
-- pt-query-digest usage について説明します
-- この Percona Toolkit 機能のメリットと欠点を説明します
-- 結果を理解し、考えられるパフォーマンス手順を学びます
+* pt-query-digestの使用方法について説明します
+* このPercona Toolkit機能のメリットと欠点について説明します
+* 結果を把握し、考慮すべきパフォーマンスのステップを把握します
 
->[!VIDEO](https://video.tv.adobe.com/v/3452288?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3423480?learn=on)
 
 ## コード参照
 
@@ -44,6 +45,6 @@ Be sure to change to match your logs and time frame
 $ pt-query-digest mysql-slow.log.7 > mysql-slow.log.7.DIGEST
 ```
 
-## 役に立つリソース
+## 役立つリソース
 
-- [Percona Toolkit](https://docs.percona.com/percona-toolkit/pt-query-digest.html){target="_blank"}
+* [Percona Toolkit](https://docs.percona.com/percona-toolkit/pt-query-digest.html){target="_blank"}

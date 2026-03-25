@@ -1,58 +1,59 @@
 ---
-title: バルクパッケージのグローバルリファレンスアーキテクチャを使用したAdobe Commerceの最適化
-description: 効率的なコード管理とバージョン管理を実現するために、バルクパッケージのグローバルリファレンスアーキテクチャを使用してAdobe Commerceをセットアップする方法について説明します。
+title: バルクパッケージを使用したAdobe Commerceの最適化グローバルリファレンスアーキテクチャ
+description: 効率的なコード管理とバージョン管理のために、Bulk Packages Global Reference Architectureを使用してAdobe Commerceを設定する方法を説明します。
 jira: KT-16726
 doc-type: tutorial
+duration: 391
 audience: all
 last-substantial-update: 2025-1-6
 feature: Best Practices, Configuration, Install
 topic: Architecture, Commerce, Development
-badge: label="執筆：Adobe、シニアテクニカルアーキテクト、Tony Evers" type="Informative" url="https://www.linkedin.com/in/evers-tony/" tooltip="寄稿：Tony Evers"
+badge: label="Contributed by Tony Evers, シニア・テクニカル・アーキテクト，Adobe" type="Informative" url="https://www.linkedin.com/in/evers-tony/" tooltip="アーティスト：Tony Evers"
 old-role: Architect, Developer
 role: Developer, User, Leader
 level: Beginner, Intermediate
 exl-id: ac63e31e-3047-410a-a6f9-a578b495bd8c
-source-git-commit: 79d57d2c04c42a8dc23b5735e72e841b7e51cc63
+source-git-commit: 9aa4d70ee6a3825f027aa2a9c6a1ac0f876ed59f
 workflow-type: tm+mt
 source-wordcount: '1172'
 ht-degree: 0%
 
 ---
 
-# バルクパッケージのグローバル参照アーキテクチャパターン
+# Bulk Packages グローバル参照アーキテクチャパターン
 
 {{only-for-on-prem-commerce-cloud}}
 
-このガイドでは、バルクパッケージのグローバルリファレンスアーキテクチャ（GRA）パターンを使用してAdobe Commerceをセットアップする方法について説明します。
+このガイドでは、Bulk Packages Global Reference Architecture （GRA）パターンを使用してAdobe Commerceを設定する方法について説明します。
 
-バルクパッケージの GRA パターンでは、共通のすべてのカスタマイズをホストする単一の Git リポジトリーが関与します。 この 1 つの Git リポジトリーは、複数のAdobe Commerce モジュールを含む 1 つのコンポーザーパッケージとして Composer を通じて公開されます。
+バルクパッケージ GRA パターンには、すべての一般的なカスタマイズをホストする単一のGit リポジトリが含まれます。 この1つのGit リポジトリは、複数のAdobe Commerce モジュールを含む1つのコンポーザーパッケージとしてComposerを通じて公開されます。
 
-![&#x200B; バルクパッケージの GRA パターン内のどこにコードが格納されているかを示す図 &#x200B;](/help/assets/global-reference-architecture/bulk-gra-pattern-diagram.png){align="center"}
+![ コードが一括パッケージ GRA パターンのどこに保存されているかを示す図](/help/assets/global-reference-architecture/bulk-gra-pattern-diagram.png){align="center"}
 
-## このパターンの長所と短所
+## このパターンの利点と欠点
 
-メリット：
+利点：
 
-- 共有コードリポジトリを使用したコードの再利用
-- 異なるインスタンスに異なる履歴バージョンの GRA をインストールして、段階的なリリースを可能にする柔軟性
-- GRA の複数のメジャーバージョンをバックポートおよび保守する柔軟性
-- GRA のセマンティックバージョニングのサポート
-- シンプル。開発者は、通常のシングルストア開発パターン以上のスキルを必要としません
-- 特別なツール、複雑なインフラストラクチャ、特別な分岐戦略は不要
-- リリースでのパッケージの組み合わせは、常に一緒に開発およびテストされます
+* 共有コードリポジトリによるコードの再利用
+* GRAの異なる履歴バージョンを異なるインスタンスにインストールし、段階的なリリースを可能にする柔軟性
+* GRAの複数のメジャーバージョンをバックポートおよび維持する柔軟性
+* GRAのセマンティック バージョン管理のサポート
+* シンプルに、開発者は通常のシングルストア開発パターンよりも多くのスキルを必要としません
+* 特別なツール、複雑なインフラストラクチャ、特別な分岐戦略は必要ありません
+* リリース内のパッケージの組み合わせは、常に開発され、テストされます
 
-デメリット：
+欠点：
 
-- GRA に含まれるすべてのパッケージも含め、完全な GRA をアップグレードすることのみ可能です。
-- Adobe Commerce モジュール、言語パック、テーマ以外のコンポーザパッケージの GRA 一括パッケージではサポートされないため、メタパッケージ、magento2 コンポーネントパッケージ、Composer プラグイン、パッチはサポートされません
+* GRAに含まれるすべてのパッケージを含め、完全なGRAをアップグレードできるのは可能です。
+* Adobe Commerce モジュール、言語パックおよびテーマ以外のコンポーザーパッケージのGRA バルクパッケージはサポートされていません。そのため、メタパッケージ、magento2 コンポーネントパッケージ、コンポーザープラグインおよびパッチはサポートされていません
 
-## 分割 Git GRA パターンを使用したAdobe Commerceのセットアップ
+## 分割Git GRA パターンを使用したAdobe Commerceの設定
 
 ### ディレクトリ構造
 
-バルクパッケージ GRA は、Composer リポジトリを通じてすべての再利用可能なコードをインストールします。 単一のインスタンスに固有のコードは、そのインスタンスの Git リポジトリ内に存在します。 インスタンス固有のコードは、Adobe Commerceの他のインスタンスでは再利用されません。
+Bulk Packages GRAは、Composer リポジトリを通じて、すべての再利用可能なコードをインストールします。 単一のインスタンスに固有のコードは、そのインスタンスのGit リポジトリ内にあります。 インスタンス固有のコードは、Adobe Commerceの他のインスタンスでは再利用されません。
 
-バルクパッケージ GRA パターンを使用した完全なAdobe Commerce インストールの最終的なディレクトリ構造は、次のようになります。
+一括パッケージ GRA パターンを使用したAdobe Commerceの完全インストールの最終的なディレクトリ構造は次のようになります。
 
 ```text
 .
@@ -65,13 +66,13 @@ ht-degree: 0%
     └── local/
 ```
 
-`app/code`、`app/i18n`、および `app/design` ディレクトリは、Composer がこれらのディレクトリ内のコードを評価しないため、意図的に省略されます。 その結果、パッケージで宣言された依存関係は自動的にはインストールされません。 バルクパッケージの GRA パターンでは、`packages/` にカスタムコードをインストールし、そのディレクトリをコンポーザリポジトリとして扱うことで、この問題を解決します。 Composer は、`packages/` 内のパッケージを `vendor/` にシンボリックリンクします。
+Composerはこれらのディレクトリ内のコードを評価しないため、`app/code`、`app/i18n`および`app/design` ディレクトリは意図的に省略されています。 その結果、パッケージで宣言された依存関係は自動的にはインストールされません。 Bulk Packages GRA パターンは、この問題を解決するために、`packages/`にいくつかのカスタムコードをインストールし、そのディレクトリをコンポーザーリポジトリとして扱います。 Composerは、`packages/`内のパッケージを`vendor/`にリンクします。
 
 ### Git リポジトリの準備
 
-共有 GRA コード用と最初のストア用に、2 つの Git リポジトリを作成します。 まず、次のファイル構造を持つ GRA リポジトリから開始します。
+共有GRA コードと最初のストア用に2つのGit リポジトリを作成します。 次のファイル構造を持つGRA リポジトリから開始します。
 
-結果として、次のディレクトリ構造が得られます。
+その結果、次のディレクトリ構造が得られます。
 
 ```text
 .
@@ -86,9 +87,9 @@ ht-degree: 0%
     └── registration.php
 ```
 
-このディレクトリ構造は、GraOne と GraTwo モジュールの composer.json ファイルと registration.php ファイルのみを記述しています。 実際には、これらのモジュール内により多くのファイルがあります。
+このディレクトリ構造は、GraOne モジュールとGraTwo モジュールのcomposer.json ファイルとregistration.php ファイルのみを記述します。 実際には、これらのモジュール内にはより多くのファイルがあります。
 
-次のコマンドを実行して Git リポジトリを開始します。
+Git リポジトリを開始するには、次のコマンドを実行します。
 
 ```bash
 mkdir gra-bulk-foundation
@@ -126,7 +127,7 @@ composer.json ファイルの内容：
 
 composer.json パッケージの名前空間を独自の名前空間に変更します。
 
-src/registration.php ファイルの内容は次のとおりです。
+src/registration.php ファイルの内容：
 
 ```php
 <?php
@@ -145,13 +146,13 @@ foreach ($pathList as $path) {
 }
 ```
 
-registration.php ファイルは、Adobe Commerce モジュール内で他の registration.php ファイルを探し、それらを実行します。
+registration.php ファイルは、Adobe Commerce モジュール内の他のregistration.php ファイルを探して実行します。
 
-<https://github.com/AntonEvers/gra-bulk-foundation> のコードを使用して 2 つのサンプルモジュールを作成します。 Composer は、サンプル モジュール内の composer.json ファイルを評価しません。 彼らは習慣としてそこにあります。 モジュールを別の場所に移動する場合は、composer.json ファイルが再び必要になります。
+<https://github.com/AntonEvers/gra-bulk-foundation>のコードを使用して、2つのサンプルモジュールを作成します。 Composerでは、サンプルモジュール内のcomposer.json ファイルは評価されません。 彼らは習慣としてそこにいる。 モジュールを別の場所に移動する場合は、composer.json ファイルが再度必要になります。
 
-### ストアレポジトリの設定
+### ストアリポジトリの設定
 
-デプロイメントリポジトリには、GRA コードを含むAdobe Commerce インストール全体が含まれています。 デプロイメントリポジトリを作成します。
+デプロイメントリポジトリには、GRA コードを含むAdobe Commerceのインストール全体が含まれます。 デプロイメントリポジトリを作成します。
 
 ```bash
 mkdir gra-bulk-brand-x
@@ -164,7 +165,7 @@ git commit -m 'initialize Brand X repository'
 git push -u origin main
 ```
 
-`bin/magento setup:install` と共にAdobe Commerceをインストールします。 Composer を使用して、GRA サンプル モジュールをデプロイメントリポジトリにインストールします。
+`bin/magento setup:install`でAdobe Commerceをインストールします。 Composerを使用して、デプロイメントリポジトリにGRA サンプルモジュールをインストールします。
 
 ```bash
 composer config repositories.gra-foundation vcs git@github.com:AntonEvers/gra-bulk-foundation.git
@@ -177,18 +178,18 @@ git commit -m 'install GRA foundation'
 git push origin main
 ```
 
-この最後のコマンドにより、モジュールがインストールされ動作していることを示す次の出力が得られます。
+この最後のコマンドは、モジュールがインストールされ、動作していることを証明するために、次の出力になります。
 
 ```bash
 GRA One module is installed successfully and working!
 GRA Two module is installed successfully and working!
 ```
 
-複数のバルクパッケージを作成してコードを整理できます。 例えば、Composer で使用できないサードパーティ コード用のサードパーティ バルク パッケージなどです。 従来 `app/code` にインストールしていたすべてのものは、これでバルクパッケージの `src/` ディレクトリに配置されるはずです。 そのルールの例外は、1 つのインスタンスでのみ使用されるコードです。 これらのパッケージはローカルパッケージと呼ばれます。
+複数のバルクパッケージを作成して、コードを整理できます。 例えば、Composerでは利用できないサードパーティコード用のサードパーティのバルクパッケージなどです。 従来は`app/code`にインストールしていた項目はすべて、バルクパッケージの`src/` ディレクトリに配置する必要があります。 そのルールの例外は、1つのインスタンスでのみ使用されるコードです。 これらのパッケージはローカルパッケージと呼ばれます。
 
 ### ローカルパッケージのインストール
 
-デプロイメントリポジトリは、ローカルパッケージをホストします。 それらは GRA バルクパッケージには住んでいません。 ローカルパッケージの場所は `app/code` ではなく、`packages/local` です。 このディレクトリをリポジトリとして扱うように Composer に指示します。
+デプロイメントリポジトリは、ローカルパッケージをホストします。 GRA バルクパッケージには存在しません。 ローカルパッケージの場所は`app/code`ではなく`packages/local`です。 このディレクトリをリポジトリとして扱うようにComposerに指示します。
 
 ```bash
 composer config repositories.local path 'packages/local/*/*'
@@ -197,7 +198,7 @@ git commit -m 'initialize local composer package storage'
 git push origin main
 ```
 
-<https://github.com/AntonEvers/module-example-local> でホストされているサンプルモジュールを追加します。
+<https://github.com/AntonEvers/module-example-local>でホストされているモジュールの例を追加します。
 
 ```bash
 mkdir -p packages/local
@@ -215,7 +216,7 @@ bin/magento module:enable AntonEvers_Local
 bin/magento test:local
 ```
 
-この最後のコマンドにより、モジュールがインストールされ動作していることを示す次の出力が得られます。
+この最後のコマンドは、モジュールがインストールされ、動作していることを証明するために、次の出力になります。
 
 ```bash
 Local module is installed successfully and working!
@@ -231,47 +232,47 @@ git push origin main
 
 ## コードの場所の概要
 
-サードパーティが Composer リポジトリを通じてインストールを提供しない場合にのみ、サードパーティのモジュールを基盤リポジトリの `src/` ディレクトリまたは専用のサードパーティのバルクパッケージに保存できます。
+サードパーティがComposer リポジトリを介したインストールを提供しない場合にのみ、サードパーティのモジュールを基盤リポジトリの`src/` ディレクトリまたは専用のサードパーティのバルクパッケージに保存できます。
 
-- **Adobe Commerce core**:repo.magento.comから入手できます。
-- **サードパーティモジュール**:Marketplace またはベンダー独自の Composer リポジトリから利用できます。
-- **サードパーティモジュールのフォールバックオプション**：バルクパッケージの `src/` に保存されます。
-- **GRA 基盤コード**：基盤バルクパッケージの `src/` に保存されます。
-- **ローカルコード**：デプロイメントリポジトリの `packages/local` ディレクトリに保存されます。
+* **Adobe Commerce core**: repo.magento.comから利用できます。
+* **サードパーティ製モジュール**: Marketplaceまたはベンダー独自のComposer リポジトリから入手できます。
+* **サードパーティ製モジュールのフォールバックオプション**：一括パッケージの`src/`に保存されます。
+* **GRA基盤コード**：基盤バルクパッケージの`src/`に格納されています。
+* **ローカルコード**：デプロイメントリポジトリの`packages/local` ディレクトリに保存されます。
 
 ## GRA モジュールの開発
 
-ソースからバルクパッケージをインストールして、バルクパッケージディレクトリで Git を有効にします。
+ソースからバルクパッケージをインストールして、バルクパッケージディレクトリでGitを有効にします。
 
 ```bash
 rm -r vendor/antonevers/gra-bulk-foundation
 composer install --prefer-source
 ```
 
-バルクパッケージは Git を使用してチェックアウトされています。 `vendor/antonevers/gra-bulk-foundation` ディレクトリに入ると、gra-bulk-foundation Git リポジトリにも入ることになります。 このディレクトリでブランチの作成、チェックアウトおよびマージを行うことができます。
+バルクパッケージはGitを使用してチェックアウトされました。 `vendor/antonevers/gra-bulk-foundation` ディレクトリに入ると、Git リポジトリもGa-bulk-foundationに入ります。 このディレクトリでブランチを作成、チェックアウト、結合できます。
 
-Composer が評価するバルク パッケージ内の唯一のファイルである GRA バルク パッケージのルートにある composer.json ファイルに Composer 依存関係を追加します。
+GRA バルクパッケージのルートにあるcomposer.json ファイルにComposerの依存関係を追加します。これは、Composerが評価するバルクパッケージ内の唯一のファイルです。
 
-## GRA バルクパッケージにサードパーティモジュールを含める
+## GRA バルクパッケージにサードパーティ製モジュールを含める
 
-GRA 基盤のルートにある composer.json の require セクションにサードパーティパッケージを追加し、GRA に追加します。 これにより、コンポーザーを通じてすべてのインスタンスにパッケージが常にインストールされます。
+GRA基盤のルートにあるcomposer.jsonのrequire セクションにサードパーティパッケージを追加して、GRAに追加します。 これにより、パッケージは常にcomposerを通じてすべてのインスタンスにインストールされます。
 
-## コードの配信
+## コードを配信する
 
-main ブランチにコードを配信するには、2 つのパスがあります。 まず、main ブランチにマージされるローカルモジュール。 これらのモジュールに対して Composer アップデートを実行します。 競合を減らすために、開発者がチケットのブランチで composer.lock を更新できないようにします。 ステージングおよび実稼動のブランチの composer.lock ファイルのみを更新して、競合のリスクを軽減します。
+メインブランチにコードを配信するには、2つのパスがあります。 まず、メインブランチにマージされるローカルモジュール。 これらのモジュールに対してComposerの更新を実行します。 競合を減らすために、開発者がチケットブランチのcomposer.lockを更新することを許可しないでください。 ステージングブランチと実稼動ブランチのcomposer.lock ファイルのみを更新することで、競合のリスクを軽減します。
 
-次に、GRA バルクリポジトリのメインブランチにマージされる GRA バルクパッケージ。 その後、Git タグを main ブランチに追加し、Composer パッケージのバージョンを管理します。 インストールするには、デプロイメントリポジトリの composer.json に新しいバージョンの GRA バルクパッケージが必要です。
+次に、GRA バルク パッケージ。GRA バルク リポジトリのメイン ブランチにマージされます。 次に、Composer パッケージのバージョンを作成して、Git タグをメインブランチに追加します。 デプロイメントリポジトリのcomposer.jsonに新しいバージョンのGRA バルクパッケージをインストールする必要があります。
 
 ## 分岐戦略
 
-GRA バルクリポジトリ内のデプロイメントリポジトリのブランチ戦略を反映している限り、この GRA パターンはすべてのブランチ戦略で機能します。 リリースの場合、両方のリポジトリで同じ名前のリリースブランチを作成します。 開発のために、両方のリポジトリにチケットブランチを作成します。
+このGRA パターンは、GRA バルクリポジトリ内のデプロイメントリポジトリの分岐戦略をミラーリングしている限り、すべての分岐戦略で機能します。 リリースの場合は、両方のリポジトリに同じ名前のリリースブランチを作成します。 開発の場合は、両方のリポジトリにチケットブランチを作成します。
 
-チケット分岐では、composer.lock ファイルを更新する必要はほとんどありません。 Git を使用して、ストアと GRA 基盤リポジトリの両方について、開発環境の適切なブランチを確認するだけです。 ただし、GRA 基盤の composer.json ファイルの要件を更新する場合は例外です。 デプロイメントリポジトリ内の GRA 基盤のアップグレードは、リリースを構築する場合、または QA ブランチを構築する場合にのみ行われます。
+チケットブランチでは、composer.lock ファイルを更新する必要はほとんどありません。 ストアとGitを使用したGRA基盤リポジトリの両方について、開発環境の適切なブランチを確認してください。 例外は、GRA foundation composer.json ファイルの要件を更新する場合です。 デプロイメントリポジトリ内のGRA基盤のアップグレードは、リリースのビルド時、またはQA ブランチのビルド時にのみ実行されます。
 
-## コードの例
+## コード例
 
-この記事のコード例は、概念実証のテストに使用できる一連の Git リポジトリとして提供されています。
+この記事のコード例は、概念実証のテストに使用できるGit リポジトリのセットとして使用できます。
 
-- 実稼動ストアの例：<https://github.com/AntonEvers/gra-bulk-brand-x>
-- GRA コードリポジトリ：<https://github.com/AntonEvers/gra-bulk-foundation>
-- ローカルモジュールの例：<https://github.com/AntonEvers/module-example-local>
+* 実稼動ストアの例：<https://github.com/AntonEvers/gra-bulk-brand-x>
+* GRA コード リポジトリ：<https://github.com/AntonEvers/gra-bulk-foundation>
+* ローカル モジュールの例：<https://github.com/AntonEvers/module-example-local>

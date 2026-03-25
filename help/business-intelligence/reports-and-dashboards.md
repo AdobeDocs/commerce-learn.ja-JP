@@ -1,6 +1,6 @@
 ---
 title: Adobe Commerce Intelligence統合レポートとダッシュボード
-description: Adobe Commerce Intelligenceのレポートとダッシュボードの管理について説明します
+description: Adobe Commerce Intelligenceのレポートとダッシュボード管理の詳細
 feature: Cloud
 topic: Commerce, Administration
 solution: Commerce,Commerce Intelligence
@@ -8,12 +8,12 @@ old-role: Architect, Developer
 role: Developer
 level: Intermediate
 doc-type: Technical Video
-duration: 549
+duration: 563
 last-substantial-update: 2024-04-09T00:00:00Z
 jira: KT-15231
 kt: 15231
 exl-id: d867a1f5-6b0e-4c73-be3f-8561792e0ef3
-source-git-commit: afe0ac1781bcfc55ba0e631f492092fd1bf603fc
+source-git-commit: 9aa4d70ee6a3825f027aa2a9c6a1ac0f876ed59f
 workflow-type: tm+mt
 source-wordcount: '68'
 ht-degree: 0%
@@ -22,13 +22,13 @@ ht-degree: 0%
 
 # レポートとダッシュボード
 
-様々な report builder オプションと、元のレポートを読んで理解する方法について説明します。 ダッシュボードの管理とフィルタリングの方法、および元のダッシュボードを変更する代わりに重複を作成する理由について説明します。
+各種レポートビルダーオプションと、元のレポートの読み取り方法および理解方法について説明します。 ダッシュボードを管理する方法、ダッシュボードをフィルタリングする方法、および元のダッシュボードを変更する代わりにダッシュボードを複製する必要がある理由について説明します。
 
-## このビデオの目的は誰ですか。
+## この動画は誰のためのものでしょうか？
 
-- ビジネスユーザー
-- データアナリスト
+* ビジネスユーザー
+* データアナリスト
 
 ## Adobe Commerce Intelligenceのレポートとダッシュボード
 
->[!VIDEO](https://video.tv.adobe.com/v/3453144?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3428252?learn=on)

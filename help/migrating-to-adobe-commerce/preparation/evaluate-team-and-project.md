@@ -1,17 +1,17 @@
 ---
 title: チームとプロジェクトの評価
-description: Adobe Commerceの担当業務、技術的な強み、フロントエンド、移行を成功させるためのバックエンドに関する考慮事項に焦点を当てて、チームとプロジェクトを評価します。
+description: 移行を成功させるために、役割、技術的な強み、フロントエンド、バックエンドの考慮事項に焦点を当てて、Adobe Adobe Commerceのチームとプロジェクトを評価します。
 feature: Backend Development, Saas, Storefront, Tools and External Services
 topic: Architecture, Collaboration, Development, Migration, Upgrade
 old-role: Architect, Developer
 role: Developer
 level: Beginner
 doc-type: Technical Video
-duration: 270
+duration: 336
 last-substantial-update: 2024-10-24T00:00:00Z
 jira: KT-16275
 exl-id: 7b521465-db0b-4755-91bd-013368a9fe5e
-source-git-commit: 79d57d2c04c42a8dc23b5735e72e841b7e51cc63
+source-git-commit: 9aa4d70ee6a3825f027aa2a9c6a1ac0f876ed59f
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 0%
@@ -22,24 +22,24 @@ ht-degree: 0%
 
 {{only-for-on-prem-commerce-cloud}}
 
-Adobe Commerceに移行する際は、チームとプロジェクトを徹底的に評価することが重要です。 チームには、プロジェクトマネージャー、QA テスター、開発者、ビジネス関係者、テクニカルリードなどの主要な役割を含める必要があります。 チームの技術的な強みを評価して、プロジェクトの目標と合致していることを確認します。 例えば、JavaScriptとバックエンドの統合に関する強力な背景は、Adobe CommerceとApp Builderを活用するのに最適です。 Java または PHP の使用経験が豊富なチームの場合は、App Builderの部分をAdobe Consulting サービスと提携することを検討してください。
+Adobe Commerceに移行する際は、チームとプロジェクトを徹底的に評価することが重要です。 チームには、プロジェクトマネージャー、QA テスター、開発者、ビジネス関係者、テクニカルリードなどの主要な役割を含める必要があります。 自社のチームの技術的強みとプロジェクト目標の整合性を検証します。 たとえば、JavaScriptとバックエンドの強力なバックグラウンドを持つベンダーは、Adobe CommerceやApp Builderの活用に最適です。 JavaやPHPの経験が豊富な場合は、App Builder部分でAdobe Consultingサービスと提携することを検討してください。
 
-フロントエンドでは、ヘッドレス実装のエクスペリエンスにより、プロセスを簡素化できます。 AdobeのEdge Delivery Servicesでは、ドキュメントベースのオーサリングによりパフォーマンスを向上させ、ローンチ時間を短縮できるため、開発者は行わなくても変更を加えることができます。 さらに、既存の PHP モジュールとサードパーティの拡張機能を評価し、カスタムコードを最小限に抑えるために事前にビルドされたApp Builder モジュールの使用を検討します。 コアアプリケーションをアップグレードする際は、不要な属性を削除したり、カスタムデータベーステーブルを評価してデータ移行を効率化するなど、入念な計画が必要です。 Adobe CommerceをAdobe Journey Optimizerや Real-time CDP などの他のAdobe ソリューションと統合すると、プロジェクトの能力をさらに強化できます。
+フロントエンドでは、ヘッドレス実装の経験がプロセスを簡素化します。 AdobeのEdge Delivery Servicesでは、ドキュメントベースのオーサリングにより、パフォーマンスを向上させ、ローンチ時間を短縮することができるため、開発者の手を借りることなく変更を実行できます。 さらに、既存のPHP モジュールとサードパーティ製の拡張機能を検証し、事前定義済みのApp Builderモジュールを使用してカスタムコードを最小限に抑えることも検討しましょう。 コアアプリケーションをアップグレードするには、不要な属性の削除や、データ移行を合理化するためのカスタムデータベーステーブルの評価など、慎重な計画が必要です。 Adobe Commerceを、Adobe Journey OptimizerやReal-time CDPなどの他のAdobeソリューションと統合することで、プロジェクトの能力をさらに向上させることができます。
 
-## このビデオの目的は誰ですか。
+## この動画は誰のためのものでしょうか？
 
-* プロジェクト管理者
+* プロジェクトマネージャー
 * テクニカルリード/アーキテクト
 * E コマース開発者
 
 ## ビデオコンテンツ {#video-content}
 
-* チーム評価では、プロジェクトの目標との整合性を確保するための、チームの役割および技術的強みの評価を行います。
-* フロントエンドとバックエンドの考慮事項について説明します。
-* 既存のモジュールを評価し、コアアプリケーションをアップグレードし、他のAdobe ソリューションと統合することで、スムーズな移行を計画します。
+* チーム評価とは、プロジェクト目標との整合性を確保するために、チームの役割と技術的強みを評価することです。
+* フロントエンドとバックエンドに関する考慮事項。
+* 既存モジュールの検証、コアアプリケーションのアップグレード、ほかのAdobeソリューションとの統合を通じて、円滑な移行を計画します。
  
->[!VIDEO](https://video.tv.adobe.com/v/3447444/?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3435682?learn=on)
 
 ## 関連ドキュメント
 
-[Adobe Commerceとは &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-admin/start/about)
+[Adobe Commerceとは](https://experienceleague.adobe.com/en/docs/commerce-admin/start/about)

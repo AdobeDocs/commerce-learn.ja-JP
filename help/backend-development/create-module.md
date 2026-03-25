@@ -1,42 +1,42 @@
 ---
 title: モジュールの作成
-description: PSR ロガーに情報を送信するモジュールをAdobe Commerceで作成する方法を説明します。 これにより、Adobe Commerceの最初のモジュールに機能が追加されます。
-kt: 5614
-doc-type: video
+description: Adobe Commerceでモジュールを作成して登録し、設定を実行して、管理領域、ストアフロント、REST API コンテキストのPSR ロガーにログを記録するプラグインを追加します。
+jira: KT-5614
+doc-type: Technical Video
+duration: 1113
 activity: use
-last-substantial-update: 2023-6-2
+last-substantial-update: 2026-03-23T00:00:00Z
 feature: Configuration, System, Backend Development
 topic: Commerce, Development
 role: Admin, Developer
 level: Beginner, Intermediate
 exl-id: 941c04ee-54b8-4b81-b77d-fff5875927f0
-source-git-commit: 4f6c8abec90663f80233b94456ad1e58edb86d51
+source-git-commit: 1e67193c9b80c929ec391acef771562fb930cc67
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '260'
 ht-degree: 0%
 
 ---
 
 # モジュールの作成
 
-モジュールは [!DNL Commerce] の構成要素です。システム全体がモジュールに基づいて構築されます。 通常、カスタマイズを作成する最初の手順は、モジュールを構築することです。
+モジュールは[!DNL Commerce]の構造要素です。モジュールはシステムのバックボーンを形成します。 通常、モジュールを作成してカスタマイズを開始します。
 
-## このビデオの目的は誰ですか。
+## この動画は誰のためのものでしょうか？
 
-- 開発者
+* バックエンド開発者
 
-## モジュールの追加手順
+## モジュールを追加する手順
 
-- モジュールフォルダーを作成します。
-- etc/module.xml ファイルを作成します。
-- registration.php ファイルを作成します。
-- bin/magento 設定を実行します。
-- スクリプトをアップグレードして、新しいモジュールをインストールします。
-- モジュールが動作していることを確認します。
+1. モジュールフォルダーを作成します。
+2. `etc/module.xml` ファイルを作成します。
+3. `registration.php` ファイルを作成します。
+4. `bin/magento setup:upgrade`を実行して、モジュールを登録およびインストールします。
+5. モジュールが機能していることを確認します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3412454?learn=on&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/35792?learn=on)
 
-### module.xml
+### module.xml ファイル
 
 ```xml
 <?xml version="1.0"?>
@@ -50,7 +50,7 @@ ht-degree: 0%
 </config>
 ```
 
-### registration.php
+### registration.php ファイル
 
 ```php
 <?php
@@ -63,24 +63,24 @@ ComponentRegistrar::register(
     __DIR__);
 ```
 
-### プラグインの追加と機能の提供
+### プラグインを追加
 
-次の手順では、基本モジュールにいくつかの機能を追加します。 プラグインは、すべてのAdobe Commerce開発者が使用する不可欠なツールです。 このビデオとチュートリアルは、プラグインの作成に役立ちます。
+次に、基本モジュールに機能を追加します。 Adobe Commerceの開発では、プラグインを必須ツールとして使用します。 このビデオとチュートリアルでは、プラグインの作成方法について説明します。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3420255?learn=on)
 
-### プラグインの注意事項
+### プラグインで覚えておくべきこと
 
-- すべてのプラグインは `di.xml` で宣言されます。
-- プラグイン名は一意である必要があります
-- disabled と sortOrder はオプションです
-- プラグインのスコープは、内部のフォルダーによって設定されます
-- プラグインは、メソッドが呼び出される前、後、またはその両方で実行できます
-- `around` プラグインの使用は避けてください。 これらは使用したくなりますが、多くの場合、誤った選択であり、パフォーマンスの問題を引き起こします。
+* `di.xml`ですべてのプラグインを宣言します。
+* 各プラグインに一意の名前を付けます。
+* オプションで`disabled`属性と`sortOrder`属性を設定できます。
+* プラグインの範囲を設定するには、`di.xml` ファイルを含むフォルダーを選択します。
+* ターゲット メソッド呼び出しの前、後、または周囲にプラグインを実行します。
+* `around`個のプラグインは使用しないでください。 彼らはあなたを誘惑しますが、彼らはしばしば間違った選択を表し、パフォーマンスの問題を引き起こします。
 
-### プラグインのコードサンプル
+### プラグインコードサンプル
 
-最初のモジュールにプラグインを追加する際に、チュートリアルで使用する XML クラスと PHP クラスを以下に示します
+このチュートリアルでは、次のXML クラスとPHP クラスを使用して、最初のモジュールにプラグインを追加します。
 
 ### app/code/Training/Sales/etc/adminhtml/di.xml
 
@@ -283,7 +283,7 @@ class RestAddLoggingAfterOrderPlacePlugin
 }
 ```
 
-## 役に立つリソース
+## 役立つリソース
 
-- [&#x200B; モジュールリファレンスガイド &#x200B;](https://developer.adobe.com/commerce/php/module-reference/){target="_blank"}
-- [&#x200B; プラグイン &#x200B;](https://developer.adobe.com/commerce/php/development/components/plugins/){target="_blank"}
+* [ モジュール参照ガイド ](https://developer.adobe.com/commerce/php/module-reference/){target="_blank"}
+* [ プラグイン ](https://developer.adobe.com/commerce/php/development/components/plugins/){target="_blank"}
