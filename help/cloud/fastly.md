@@ -36,8 +36,8 @@ FastlyAdobe Commerce版のクラウドでの利用方法について説明しま
 ## ビデオに記載されているExperience LeagueのドキュメントとFastly Adobe Commerce チェッカー
 
 * [Fastly Checker](https://adobe-commerce-tester.freetls.fastly.net/adobe-commerce-tester/)
-* [Experience LeagueのFastly サービス &#x200B;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/fastly.html)
-* [Fastly WAFに関するFAQ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/faq/web-application-firewall-waf-powered-by-fastly-the-faq.html)
-* [画像の最適化](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/development/image-optimization.html)
+* [Experience LeagueのFastly サービス &#x200B;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/fastly.html?lang=ja)
+* [Fastly WAFに関するFAQ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/faq/web-application-firewall-waf-powered-by-fastly-the-faq.html?lang=ja)
+* [画像の最適化](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/development/image-optimization.html?lang=ja)
 
 {{$include /help/_includes/cloud-technical-onboarding-related-links.md}}

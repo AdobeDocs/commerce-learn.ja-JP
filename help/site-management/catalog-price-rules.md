@@ -34,5 +34,5 @@ ht-degree: 0%
 
 ## 関連資料
 
-* [&#x200B; カタログ価格ルールの作成 –  [!DNL Commerce]  マーチャンダイジングとプロモーションのガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/catalog-rules/price-rules-catalog-create.html)
-* [複数のSKUを含むカタログ価格ルール - [!DNL Commerce]  マーチャンダイジングとプロモーション ガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/catalog-rules/price-rule-multiple-sku.html)
+* [&#x200B; カタログ価格ルールの作成 –  [!DNL Commerce]  マーチャンダイジングとプロモーションのガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/catalog-rules/price-rules-catalog-create.html?lang=ja)
+* [複数のSKUを含むカタログ価格ルール - [!DNL Commerce]  マーチャンダイジングとプロモーション ガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/catalog-rules/price-rule-multiple-sku.html?lang=ja)

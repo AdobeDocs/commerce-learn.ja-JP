@@ -34,7 +34,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Commerce Intelligenceを初めて使用する場合は、[Adobe Commerce Intelligence ユーザーガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/guide-overview.html){target="_blank"}で、データの集計、分析、ビジュアライゼーションを通じてビジネスのインサイトと成果を向上させる方法を詳しく説明しています。
+>Commerce Intelligenceを初めて使用する場合は、[Adobe Commerce Intelligence ユーザーガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/guide-overview.html?lang=ja){target="_blank"}で、データの集計、分析、ビジュアライゼーションを通じてビジネスのインサイトと成果を向上させる方法を詳しく説明しています。
 
 ## この動画は誰のためのものでしょうか？
 
@@ -47,6 +47,6 @@ ht-degree: 0%
 
 ## 役立つリソース
 
-[&#x200B; コホートReport Builderの使用 – Commerce Intelligence ユーザーガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/analyze/sql/cohort-rpt-bldr.html)
+[&#x200B; コホートReport Builderの使用 – Commerce Intelligence ユーザーガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/analyze/sql/cohort-rpt-bldr.html?lang=ja)
 
-[定性コホート分析の作成 – Commerce Intelligence ユーザーガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/analyze/sql/create-qual-cohort-analysis.html)
+[定性コホート分析の作成 – Commerce Intelligence ユーザーガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/analyze/sql/create-qual-cohort-analysis.html?lang=ja)

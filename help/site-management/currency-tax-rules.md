@@ -34,5 +34,5 @@ ht-degree: 0%
 
 ## 関連資料
 
-* [税ルール - [!DNL Commerce]  ストアと購入エクスペリエンスガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/taxes/tax-rules.html)
-* [通貨 –  [!DNL Commerce] 店舗および購入エクスペリエンスガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/currency/currency.html)
+* [税ルール - [!DNL Commerce]  ストアと購入エクスペリエンスガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/taxes/tax-rules.html?lang=ja)
+* [通貨 –  [!DNL Commerce] 店舗および購入エクスペリエンスガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/currency/currency.html?lang=ja)

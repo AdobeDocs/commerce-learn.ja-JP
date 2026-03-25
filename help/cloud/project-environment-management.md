@@ -38,6 +38,6 @@ Adobe Commerce Cloudを使用してプロジェクトと環境を管理する方
 
 ## 関連コンテンツとドキュメント
 
-* [&#x200B; ユーザーアクセスの管理](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/project/user-access)
-* [&#x200B; リモート環境への安全な接続](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/secure-connections)
-* [&#x200B; クラウド インフラストラクチャ プロジェクト &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/project/overview)
+* [&#x200B; ユーザーアクセスの管理](https://experienceleague.adobe.com/ja/docs/commerce-on-cloud/user-guide/project/user-access)
+* [&#x200B; リモート環境への安全な接続](https://experienceleague.adobe.com/ja/docs/commerce-on-cloud/user-guide/develop/secure-connections)
+* [&#x200B; クラウド インフラストラクチャ プロジェクト &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-on-cloud/user-guide/project/overview)

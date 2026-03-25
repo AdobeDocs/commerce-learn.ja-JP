@@ -31,7 +31,7 @@ ht-degree: 0%
 
 REST APIを使用して、設定可能な製品を作成します。
 
-1. 後続のAPI呼び出しにID番号を使用するために、[属性セット &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/create/attribute-sets.html)の属性を取得します。
+1. 後続のAPI呼び出しにID番号を使用するために、[属性セット &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/create/attribute-sets.html?lang=ja)の属性を取得します。
 1. 設定可能な製品で使用するシンプルな製品を作成します。
 1. 空の設定可能な製品を作成し、シンプルな製品を関連付けます。
 1. 設定可能な製品の製品属性を設定します。
@@ -349,6 +349,6 @@ curl --location --request DELETE '{{your.url.here}}/rest/default/V1/configurable
 ## 関連資料
 
 * [設定可能な製品チュートリアルを作成](https://developer.adobe.com/commerce/webapi/rest/tutorials/configurable-product/){target="_blank"}
-* [構成可能な製品](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/types/product-create-configurable.html){target="_blank"}
+* [構成可能な製品](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/types/product-create-configurable.html?lang=ja){target="_blank"}
 * [Adobe Developer REST チュートリアル &#x200B;](https://developer.adobe.com/commerce/webapi/rest/tutorials/prerequisite-tasks/){target="_blank"}
 * [Adobe Commerce REST文書](https://adobe-commerce.redoc.ly/2.4.6-admin/tag/products#operation/PostV1Products){target="_blank"}

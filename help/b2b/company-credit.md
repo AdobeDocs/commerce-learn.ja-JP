@@ -44,5 +44,5 @@ _[!UICONTROL Payment on Account]_&#x200B;が有効で、会社のクレジット
 
 ## 関連資料
 
-* [&#x200B; アカウントの支払いを設定](https://experienceleague.adobe.com/docs/commerce-admin/b2b/enable-basic-features.html#configure-payment-on-account)
-* [会社クレジットの管理](https://experienceleague.adobe.com/docs/commerce-admin/b2b/companies/credit-company.html)
+* [&#x200B; アカウントの支払いを設定](https://experienceleague.adobe.com/docs/commerce-admin/b2b/enable-basic-features.html?lang=ja#configure-payment-on-account)
+* [会社クレジットの管理](https://experienceleague.adobe.com/docs/commerce-admin/b2b/companies/credit-company.html?lang=ja)

@@ -42,6 +42,6 @@ ht-degree: 0%
 
 ## 関連資料
 
-* [互換性ツールのアップグレード &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/upgrade-compatibility-tool/overview.html){target="_blank"}
+* [互換性ツールのアップグレード &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/upgrade-compatibility-tool/overview.html?lang=ja){target="_blank"}
 * [Magento PhpStorm プラグイン &#x200B;](https://plugins.jetbrains.com/plugin/8024-magento-phpstorm){target="_blank"}
-* [&#x200B; リリース済みバージョン &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/release/versions.html){target="_blank"}
+* [&#x200B; リリース済みバージョン &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/release/versions.html?lang=ja){target="_blank"}

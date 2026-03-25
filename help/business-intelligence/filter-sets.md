@@ -35,7 +35,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Commerce Intelligenceを初めて使用する場合は、[Adobe Commerce Intelligence ユーザーガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/guide-overview.html){target="_blank"}で、データの集計、分析、ビジュアライゼーションを通じてビジネスのインサイトと成果を向上させる方法を詳しく説明しています。
+>Commerce Intelligenceを初めて使用する場合は、[Adobe Commerce Intelligence ユーザーガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/guide-overview.html?lang=ja){target="_blank"}で、データの集計、分析、ビジュアライゼーションを通じてビジネスのインサイトと成果を向上させる方法を詳しく説明しています。
 
 ## この動画は誰のためのものでしょうか？
 
@@ -48,6 +48,6 @@ ht-degree: 0%
 
 ## 役立つリソース
 
-[&#x200B; フィルターセットの作成 – Commerce Intelligence ユーザーガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/build/reports/ess-manage-data-filters.html)
+[&#x200B; フィルターセットの作成 – Commerce Intelligence ユーザーガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/build/reports/ess-manage-data-filters.html?lang=ja)
 
-[&#x200B; セグメント化とフィルタリングに推奨されるデータディメンション - Commerce Intelligence ユーザーガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/best-practices/data/segment-filter.html)
+[&#x200B; セグメント化とフィルタリングに推奨されるデータディメンション - Commerce Intelligence ユーザーガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/best-practices/data/segment-filter.html?lang=ja)

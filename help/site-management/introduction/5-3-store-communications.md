@@ -33,12 +33,12 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->ビデオの内容は、2.3.1 リリースを反映しています。 以降のリリースのアップデートについて詳しくは、[&#x200B; リリースノート &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/overview.html)を参照してください。
+>ビデオの内容は、2.3.1 リリースを反映しています。 以降のリリースのアップデートについて詳しくは、[&#x200B; リリースノート &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/overview.html?lang=ja)を参照してください。
 
 >[!VIDEO](https://video.tv.adobe.com/v/36190?learn=on)
 
 ## 関連資料
 
-[&#x200B; メールテンプレート - [!DNL Commerce] 管理者システムガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/systems/communications/email-templates.html)
+[&#x200B; メールテンプレート - [!DNL Commerce] 管理者システムガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/systems/communications/email-templates.html?lang=ja)
 
-[変数と顧客コミュニケーション - [!DNL Commerce] 管理者システムガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/systems/introduction.html#variables-and-customer-communications)
+[変数と顧客コミュニケーション - [!DNL Commerce] 管理者システムガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/systems/introduction.html?lang=ja#variables-and-customer-communications)

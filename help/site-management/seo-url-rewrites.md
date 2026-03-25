@@ -12,7 +12,7 @@ topic: Commerce, Administration
 role: Admin, Leader, User
 level: Beginner, Intermediate
 exl-id: 8b982882-9c59-4d3f-b158-8ea5d38d7a22
-badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
+badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
 source-git-commit: 9aa4d70ee6a3825f027aa2a9c6a1ac0f876ed59f
 workflow-type: tm+mt
 source-wordcount: '115'
@@ -36,5 +36,5 @@ URL書き換えツールを使用すると、商品、カテゴリ、またはCM
 
 ## 関連資料
 
-* [URLの書き換え –  [!DNL Commerce]  マーチャンダイジングおよびプロモーション ガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/marketing/seo/url-rewrites/url-rewrite.html)
-* [一般> Web - [!DNL Commerce] 構成参照ガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/config/general/web.html)
+* [URLの書き換え –  [!DNL Commerce]  マーチャンダイジングおよびプロモーション ガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/marketing/seo/url-rewrites/url-rewrite.html?lang=ja)
+* [一般> Web - [!DNL Commerce] 構成参照ガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/config/general/web.html?lang=ja)

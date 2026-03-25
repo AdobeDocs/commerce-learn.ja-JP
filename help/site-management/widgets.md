@@ -35,5 +35,5 @@ ht-degree: 0%
 
 ## 関連資料
 
-* [&#x200B; ウィジェット - [!DNL Commerce]  コンテンツとデザインガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/content-design/elements/widgets/widgets.html){target="_blank"}
-* [&#x200B; ウィジェットの作成と管理 –  [!DNL Commerce]  コンテンツとデザインガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/content-design/elements/widgets/widget-create.html){target="_blank"}
+* [&#x200B; ウィジェット - [!DNL Commerce]  コンテンツとデザインガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/content-design/elements/widgets/widgets.html?lang=ja){target="_blank"}
+* [&#x200B; ウィジェットの作成と管理 –  [!DNL Commerce]  コンテンツとデザインガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/content-design/elements/widgets/widget-create.html?lang=ja){target="_blank"}

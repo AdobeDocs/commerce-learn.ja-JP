@@ -37,5 +37,5 @@ ht-degree: 0%
 
 ## 関連資料
 
-* [顧客セグメント - [!DNL Commerce] 顧客管理ガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/customers/customers-menu/customer-segments.html){target="_blank"}
-* 価格ルールの[顧客セグメント - [!DNL Commerce] 顧客管理ガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/customers/segments/customer-segment-price-rule.html){target="_blank"}
+* [顧客セグメント - [!DNL Commerce] 顧客管理ガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/customers/customers-menu/customer-segments.html?lang=ja){target="_blank"}
+* 価格ルールの[顧客セグメント - [!DNL Commerce] 顧客管理ガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/customers/segments/customer-segment-price-rule.html?lang=ja){target="_blank"}
