@@ -50,5 +50,5 @@ Commerce Services Connectorは、Adobeが開発した設定で、さまざまな
 ## 関連資料
 
 * [Commerce Services Connector](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html){target="_blank"}
-* [決済サービスガイド ](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/guide-overview.html){target="+blank"}
+* [決済サービスガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/guide-overview.html){target="+blank"}
 * [Commerce Services Connector](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html){target="+blank"}

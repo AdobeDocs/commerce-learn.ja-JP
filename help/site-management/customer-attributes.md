@@ -34,5 +34,5 @@ ht-degree: 0%
 
 ## 関連資料
 
-* [顧客属性のプロパティ - [!DNL Commerce] 顧客管理ガイド ](https://experienceleague.adobe.com/docs/commerce-admin/customers/customer-accounts/attributes/attribute-properties.html)
-* [個人顧客アカウントの作成 –  [!DNL Commerce] 顧客管理ガイド ](https://experienceleague.adobe.com/docs/commerce-admin/customers/customer-accounts/account-create.html)
+* [顧客属性のプロパティ - [!DNL Commerce] 顧客管理ガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/customers/customer-accounts/attributes/attribute-properties.html)
+* [個人顧客アカウントの作成 –  [!DNL Commerce] 顧客管理ガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/customers/customer-accounts/account-create.html)

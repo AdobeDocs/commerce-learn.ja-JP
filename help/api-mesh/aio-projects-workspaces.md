@@ -23,7 +23,7 @@ ht-degree: 0%
 
 # プロジェクトとワークスペースの操作
 
-このチュートリアルでは、メッシュを含めるプロジェクトとワークスペースの作成について説明します。 この作業は、主に[Adobe Developer コンソール ](https://developer.adobe.com/console){target="_blank"} UIで行われます。
+このチュートリアルでは、メッシュを含めるプロジェクトとワークスペースの作成について説明します。 この作業は、主に[Adobe Developer コンソール &#x200B;](https://developer.adobe.com/console){target="_blank"} UIで行われます。
 
 ## この動画は誰のためのものでしょうか？
 
@@ -46,8 +46,8 @@ Adobe Developer Consoleでは、APIが組織にどのように適合するかを
 
 ## Adobe Developer Consoleでのプロジェクトの概要
 
-Adobe Developer Consoleのすべての開発作業は、プロジェクトの一部として行われます。 プロジェクトには、1つまたは複数の製品、およびAPI、イベント、ランタイム、プラグインの組み合わせを含めることができます。 Adobe Developer コンソールのプロジェクトについて詳しくは、[ プロジェクト ](https://developer.adobe.com/developer-console/docs/guides/projects/){target="_blank"}を参照してください。
+Adobe Developer Consoleのすべての開発作業は、プロジェクトの一部として行われます。 プロジェクトには、1つまたは複数の製品、およびAPI、イベント、ランタイム、プラグインの組み合わせを含めることができます。 Adobe Developer コンソールのプロジェクトについて詳しくは、[&#x200B; プロジェクト &#x200B;](https://developer.adobe.com/developer-console/docs/guides/projects/){target="_blank"}を参照してください。
 
-API Meshのコンテキストでプロジェクトとワークスペースを使用する方法について詳しくは、[ プロジェクトとワークスペースの変更](https://developer.adobe.com/graphql-mesh-gateway/gateway/create-mesh/#modify-projects-and-workspaces){target="_blank"}を参照してください。
+API Meshのコンテキストでプロジェクトとワークスペースを使用する方法について詳しくは、[&#x200B; プロジェクトとワークスペースの変更](https://developer.adobe.com/graphql-mesh-gateway/gateway/create-mesh/#modify-projects-and-workspaces){target="_blank"}を参照してください。
 
 {{$include /help/_includes/api-mesh-related-links.md}}

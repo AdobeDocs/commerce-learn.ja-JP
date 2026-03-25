@@ -39,5 +39,5 @@ Adobe Commerceのクラウドネイティブな基盤は、フルマネージド
 ## このシリーズの追加動画
 
 [新製品のお知らせ](./new-product-announcements.md)
-[ コンバージョン率の増強](./supercharge-conversion-rates.md)
+[&#x200B; コンバージョン率の増強](./supercharge-conversion-rates.md)
 [迅速な拡張](fast-track-expansion.md)

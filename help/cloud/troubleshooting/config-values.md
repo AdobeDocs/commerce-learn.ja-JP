@@ -42,5 +42,5 @@ ht-degree: 0%
 * [設定値を設定](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/configuration-management/set-configuration-values)
 * [Config参照config.php](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/files/config-reference-configphp)
 * [設定ガイドの技術的な詳細](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/deployment/technical-details)
-* [ ロックされた設定値](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/deployment/technical-details#:~:text=Configuration%20settings%20locked%20in%20the,php%20files)
+* [&#x200B; ロックされた設定値](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/deployment/technical-details#:~:text=Configuration%20settings%20locked%20in%20the,php%20files)
 * [env.phpに値を保存](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/locked-fields-in-magento-admin#:~:text=Cause,php%20)

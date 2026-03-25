@@ -34,5 +34,5 @@ ht-degree: 0%
 
 ## 関連資料
 
-* [製品属性 –  [!DNL Commerce]  カタログ管理ガイド ](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html)
-* [PWA Studio – 開発者用ドキュメント ](https://developer.adobe.com/commerce/pwa-studio/)
+* [製品属性 –  [!DNL Commerce]  カタログ管理ガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html)
+* [PWA Studio – 開発者用ドキュメント &#x200B;](https://developer.adobe.com/commerce/pwa-studio/)

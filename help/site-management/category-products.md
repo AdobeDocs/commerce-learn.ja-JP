@@ -35,5 +35,5 @@ ht-degree: 0%
 
 ## 関連資料
 
-* [ カテゴリ製品割り当て –  [!DNL Commerce]  カタログ管理ガイド ](https://experienceleague.adobe.com/docs/commerce-admin/catalog/categories/products-in-category/categories-product-assignments.html)
-* [ マーチャンダイジングのカテゴリルール - [!DNL Commerce]  マーチャンダイジングとプロモーションのガイド ](https://experienceleague.adobe.com/docs/commerce-admin/marketing/merchandising/visual-merch/category-product-rules.html)
+* [&#x200B; カテゴリ製品割り当て –  [!DNL Commerce]  カタログ管理ガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/catalog/categories/products-in-category/categories-product-assignments.html)
+* [&#x200B; マーチャンダイジングのカテゴリルール - [!DNL Commerce]  マーチャンダイジングとプロモーションのガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/marketing/merchandising/visual-merch/category-product-rules.html)

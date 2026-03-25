@@ -32,12 +32,12 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->ビデオの内容は、2.3.1 リリースを反映しています。 以降のリリースのアップデートについて詳しくは、[ リリースノート ](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/overview.html)を参照してください。
+>ビデオの内容は、2.3.1 リリースを反映しています。 以降のリリースのアップデートについて詳しくは、[&#x200B; リリースノート &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/overview.html)を参照してください。
 
 >[!VIDEO](https://video.tv.adobe.com/v/35948?learn=on)
 
 ## 関連資料
 
-[管理者ユーザーアカウントの管理 –  [!DNL Commerce] 管理者システムガイド ](https://experienceleague.adobe.com/docs/commerce-admin/systems/user-accounts/permissions-users-all.html)
+[管理者ユーザーアカウントの管理 –  [!DNL Commerce] 管理者システムガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/systems/user-accounts/permissions-users-all.html)
 
-[ ユーザーの役割 –  [!DNL Commerce] 管理者システムガイド ](https://experienceleague.adobe.com/docs/commerce-admin/systems/user-accounts/permissions-user-roles.html)
+[&#x200B; ユーザーの役割 –  [!DNL Commerce] 管理者システムガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/systems/user-accounts/permissions-user-roles.html)

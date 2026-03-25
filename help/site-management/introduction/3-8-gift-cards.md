@@ -38,12 +38,12 @@ feature: Configuration, System, Catalogs, Shopping Cart
 
 >[!NOTE]
 >
->ビデオの内容は、2.3.1 リリースを反映しています。 以降のリリースのアップデートについて詳しくは、[ リリースノート ](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/overview.html)を参照してください。
+>ビデオの内容は、2.3.1 リリースを反映しています。 以降のリリースのアップデートについて詳しくは、[&#x200B; リリースノート &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/overview.html)を参照してください。
 
 >[!VIDEO](https://video.tv.adobe.com/v/35959?learn=on)
 
 ## 関連資料
 
-[ ギフトカード商品 –  [!DNL Commerce]  カタログ管理ガイド ](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/types/product-gift-card-create.html)
-[ ギフトカードの購入と引き換え –  [!DNL Commerce]  ストアと購入エクスペリエンスガイド ](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/point-of-purchase/gift-cards/product-gift-card-workflow.html)
+[&#x200B; ギフトカード商品 –  [!DNL Commerce]  カタログ管理ガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/types/product-gift-card-create.html)
+[&#x200B; ギフトカードの購入と引き換え –  [!DNL Commerce]  ストアと購入エクスペリエンスガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/point-of-purchase/gift-cards/product-gift-card-workflow.html)
 

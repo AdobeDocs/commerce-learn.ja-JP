@@ -39,6 +39,6 @@ ht-degree: 0%
 
 ## このシリーズの追加動画
 
-[ コストを大幅に削減](./drastically-cut-costs.md)
-[ コンバージョン率の増強](./supercharge-conversion-rates.md)
+[&#x200B; コストを大幅に削減](./drastically-cut-costs.md)
+[&#x200B; コンバージョン率の増強](./supercharge-conversion-rates.md)
 [迅速な拡張](fast-track-expansion.md)

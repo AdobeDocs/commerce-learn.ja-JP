@@ -35,6 +35,6 @@ ht-degree: 0%
 
 ## 関連資料
 
-[Web サイト、ストア、ビュー –  [!DNL Commerce] はじめにガイド ](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html)
+[Web サイト、ストア、ビュー –  [!DNL Commerce] はじめにガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html)
 
-[ キャッシュ管理 –  [!DNL Commerce] 管理者システムガイド ](https://experienceleague.adobe.com/docs/commerce-admin/systems/tools/cache-management.html)
+[&#x200B; キャッシュ管理 –  [!DNL Commerce] 管理者システムガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/systems/tools/cache-management.html)

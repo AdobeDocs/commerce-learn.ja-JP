@@ -24,7 +24,7 @@ ht-degree: 0%
 
 # Adobe Commerce 2.4.5 インストール
 
-バージョン 2.4.5のComposerを使用して、Adobe Commerceにいくつかの新しいモジュールをインストールする方法について説明します。これは、Adobe Commerce アプリケーションで使用する必要なモジュールを設定します。 その他のドキュメントについては、[Adobe Commerce用Adobe I/O Eventsのインストール ](https://developer.adobe.com/commerce/events/get-started/installation/){target="_blank"}を参照してください。
+バージョン 2.4.5のComposerを使用して、Adobe Commerceにいくつかの新しいモジュールをインストールする方法について説明します。これは、Adobe Commerce アプリケーションで使用する必要なモジュールを設定します。 その他のドキュメントについては、[Adobe Commerce用Adobe I/O Eventsのインストール &#x200B;](https://developer.adobe.com/commerce/events/get-started/installation/){target="_blank"}を参照してください。
 
 ## この動画は誰のためのものでしょうか？
 

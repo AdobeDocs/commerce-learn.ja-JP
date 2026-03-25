@@ -29,7 +29,7 @@ ht-degree: 0%
 * [Adobe Developer App Builder アプリケーションが作成されました](https://developer.adobe.com/app-builder/docs/getting_started/first_app/){target="_blank"}
 * [Adobe Developer App Builder プロジェクトが作成されました](https://developer.adobe.com/console){target="_blank"}
 * [Adobe Developer App Builder ワークスペースが作成されました – ステップ 2.6](https://developer.adobe.com/app-builder/docs/getting_started/first_app/#2-creating-a-new-project-on-developer-console){target="_blank"}
-* [ プロジェクトを初期化して実行するためのAIO CLI コマンドが実行されました](https://developer.adobe.com/runtime){target="_blank"}
+* [&#x200B; プロジェクトを初期化して実行するためのAIO CLI コマンドが実行されました](https://developer.adobe.com/runtime){target="_blank"}
 
 最初のApp Builder アプリケーションの構築について詳しくは、次のブログ記事を参照して、この初期セットアップと設定に役立てることができます[App Builderがコマースプラットフォームのビジネスの俊敏性を促進する方法](https://business.adobe.com/blog/how-to/how-app-builder-helps-you-implement-a-composable-commerce-strategy){target="_blank"}。
 

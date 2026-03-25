@@ -35,5 +35,5 @@ ht-degree: 0%
 
 ## 関連資料
 
-* [ ブロック - [!DNL Commerce]  コンテンツおよびデザインガイド ](https://experienceleague.adobe.com/docs/commerce-admin/content-design/elements/blocks/blocks.html)
-* [動的ブロック - [!DNL Commerce]  コンテンツおよびデザインガイド ](https://experienceleague.adobe.com/docs/commerce-admin/content-design/elements/dynamic-blocks/dynamic-blocks.html)
+* [&#x200B; ブロック - [!DNL Commerce]  コンテンツおよびデザインガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/content-design/elements/blocks/blocks.html)
+* [動的ブロック - [!DNL Commerce]  コンテンツおよびデザインガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/content-design/elements/dynamic-blocks/dynamic-blocks.html)

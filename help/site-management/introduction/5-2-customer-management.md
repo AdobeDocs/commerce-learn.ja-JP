@@ -37,6 +37,6 @@ ht-degree: 0%
 
 ## 関連資料
 
-[個人顧客アカウントの作成 –  [!DNL Commerce] 顧客管理ガイド ](https://experienceleague.adobe.com/docs/commerce-admin/customers/customer-accounts/account-create.html)
+[個人顧客アカウントの作成 –  [!DNL Commerce] 顧客管理ガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/customers/customer-accounts/account-create.html)
 
-[顧客グループ - [!DNL Commerce] 顧客管理ガイド ](https://experienceleague.adobe.com/docs/commerce-admin/customers/customers-menu/customer-groups.html)
+[顧客グループ - [!DNL Commerce] 顧客管理ガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/customers/customers-menu/customer-groups.html)

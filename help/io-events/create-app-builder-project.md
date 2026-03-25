@@ -23,7 +23,7 @@ ht-degree: 0%
 
 # App Builder プロジェクトの作成
 
-Adobe Developer App Builder プロジェクトを作成して、Adobe Commerceからイベントを使用する方法を説明します。 その他のドキュメントについては、[Adobe Commerce用Adobe I/O Eventsのインストール ](https://developer.adobe.com/commerce/events/get-started/installation/){target="_blank"}を参照してください。
+Adobe Developer App Builder プロジェクトを作成して、Adobe Commerceからイベントを使用する方法を説明します。 その他のドキュメントについては、[Adobe Commerce用Adobe I/O Eventsのインストール &#x200B;](https://developer.adobe.com/commerce/events/get-started/installation/){target="_blank"}を参照してください。
 
 ## この動画は誰のためのものでしょうか？
 

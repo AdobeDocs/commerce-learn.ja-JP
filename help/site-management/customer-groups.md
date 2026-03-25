@@ -34,5 +34,5 @@ ht-degree: 0%
 
 ## 関連資料
 
-* [顧客グループ - [!DNL Commerce] 顧客管理ガイド ](https://experienceleague.adobe.com/docs/commerce-admin/customers/customers-menu/customer-groups.html)
-* [web サイト別の顧客グループの制限 –  [!DNL Commerce] 顧客管理ガイド ](https://developer.adobe.com/commerce/php/development/components/indexing/optimization/#customer-group-limitations-by-websites)
+* [顧客グループ - [!DNL Commerce] 顧客管理ガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/customers/customers-menu/customer-groups.html)
+* [web サイト別の顧客グループの制限 –  [!DNL Commerce] 顧客管理ガイド &#x200B;](https://developer.adobe.com/commerce/php/development/components/indexing/optimization/#customer-group-limitations-by-websites)

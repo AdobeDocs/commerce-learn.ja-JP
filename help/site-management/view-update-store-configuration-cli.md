@@ -62,5 +62,5 @@ SELECT * FROM core_config_data WHERE path = 'trans_email/ident_sales/email';
 
 ## 関連資料
 
-* [ コマンドラインツール ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/config-cli.html){target="_blank"}
+* [&#x200B; コマンドラインツール &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/config-cli.html){target="_blank"}
 * [管理者セキュリティの設定](https://experienceleague.adobe.com/docs/commerce-admin/systems/security/security-admin.html){target="_blank"}

@@ -63,4 +63,4 @@ Adobe Commerce[の](https://experienceleague.adobe.com/docs/commerce-admin/catal
 
 ## Adobe Commerce Marketplace拡張機能
 
-[AR ビューア ](https://commercemarketplace.adobe.com/magento-module-arviewer.html){target="_blank"}
+[AR ビューア &#x200B;](https://commercemarketplace.adobe.com/magento-module-arviewer.html){target="_blank"}

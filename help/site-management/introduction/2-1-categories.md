@@ -38,4 +38,4 @@ feature: Configuration, System, Catalogs, Site Navigation
 
 ## 関連資料
 
-[ カテゴリ - [!DNL Commerce]  カタログ管理ガイド ](https://experienceleague.adobe.com/docs/commerce-admin/catalog/categories/categories.html)
+[&#x200B; カテゴリ - [!DNL Commerce]  カタログ管理ガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/catalog/categories/categories.html)

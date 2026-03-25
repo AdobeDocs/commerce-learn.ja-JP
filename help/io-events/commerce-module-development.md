@@ -23,7 +23,7 @@ ht-degree: 0%
 
 # Adobe Commerce モジュール開発
 
-イベントの登録、サポートされているイベントの検索、カスタムモジュール開発で新しいXML ファイル `io_events.xml`を使用する方法について説明します。 また、このビデオでは、既に定義されている可能性のあるイベントを登録解除するだけでなく、使用できる登録済みイベントを見つける方法も開発者に示します。 その他のドキュメントについては、[Adobe Commerce用Adobe I/O Eventsのインストール ](https://developer.adobe.com/commerce/events/get-started/installation/){target="_blank"}を参照してください。
+イベントの登録、サポートされているイベントの検索、カスタムモジュール開発で新しいXML ファイル `io_events.xml`を使用する方法について説明します。 また、このビデオでは、既に定義されている可能性のあるイベントを登録解除するだけでなく、使用できる登録済みイベントを見つける方法も開発者に示します。 その他のドキュメントについては、[Adobe Commerce用Adobe I/O Eventsのインストール &#x200B;](https://developer.adobe.com/commerce/events/get-started/installation/){target="_blank"}を参照してください。
 
 ## この動画は誰のためのものでしょうか？
 

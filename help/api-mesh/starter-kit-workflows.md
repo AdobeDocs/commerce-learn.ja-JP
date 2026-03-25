@@ -37,6 +37,6 @@ ht-degree: 0%
 
 ## 関連ドキュメント
 
-* [API メッシュスターターキット GitHub リポジトリ ](https://github.com/adobe-commerce/api-mesh-starter-kit)
-* [Adobe Developer OAuth server to server実装ガイド ](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation)
-* [API Mesh ビデオのプレイリスト ](https://experienceleague.adobe.com/en/playlists/commerce-get-started-app-builder-and-api-mesh)
+* [API メッシュスターターキット GitHub リポジトリ &#x200B;](https://github.com/adobe-commerce/api-mesh-starter-kit)
+* [Adobe Developer OAuth server to server実装ガイド &#x200B;](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation)
+* [API Mesh ビデオのプレイリスト &#x200B;](https://experienceleague.adobe.com/en/playlists/commerce-get-started-app-builder-and-api-mesh)

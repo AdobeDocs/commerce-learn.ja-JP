@@ -23,7 +23,7 @@ ht-degree: 0%
 
 # 1つのソースでメッシュを作成する
 
-このビデオでは、Adobe Developer App Builder用API Meshで、1つのソースを持つメッシュを作成する方法について説明します。 この基本的な例を想定どおりに動作させるには、公開アクセス可能なAPIまたはGraphQL エンドポイントが必要です。 このビデオでは、Commerce インスタンスで使用するシンプルな`mesh.json` ファイルを作成する方法についても説明します。 詳細とコードサンプルについては、[ メッシュの作成](https://developer.adobe.com/graphql-mesh-gateway/gateway/create-mesh/#create-a-mesh-1){target="_blank"}を参照してください。
+このビデオでは、Adobe Developer App Builder用API Meshで、1つのソースを持つメッシュを作成する方法について説明します。 この基本的な例を想定どおりに動作させるには、公開アクセス可能なAPIまたはGraphQL エンドポイントが必要です。 このビデオでは、Commerce インスタンスで使用するシンプルな`mesh.json` ファイルを作成する方法についても説明します。 詳細とコードサンプルについては、[&#x200B; メッシュの作成](https://developer.adobe.com/graphql-mesh-gateway/gateway/create-mesh/#create-a-mesh-1){target="_blank"}を参照してください。
 
 ## この動画は誰のためのものでしょうか？
 

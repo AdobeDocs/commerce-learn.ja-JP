@@ -187,7 +187,7 @@ curl --location --request PUT '{{your.url.here}}/rest/default/V1/products/my-new
 グループ化された製品から単純な製品[を](https://developer.adobe.com/commerce/webapi/rest/tutorials/grouped-product/)削除するには、次を使用します：`DELETE /V1/products/{sku}/links/{type}/{linkedProductSku}`。
 
 `{type}`として使用する内容を見つけるには、xdebugを使用してリクエストを取得し、$linkTypes: `related`、`crosssell`、`uupsell`、および`associated`を評価します。
-![ グループ化された製品リンクの種類 – alt テキスト ](/help/assets/site-management/catalog/grouped-types.png " グループ化された製品リンクの種類がxdebug セッション中にキャプチャされました")
+![&#x200B; グループ化された製品リンクの種類 – alt テキスト &#x200B;](/help/assets/site-management/catalog/grouped-types.png " グループ化された製品リンクの種類がxdebug セッション中にキャプチャされました")
 
 シンプルな製品をグループ化された製品にリンクする場合、ペイロードには次のようなセクションが含まれています。
 
@@ -224,7 +224,7 @@ curl --location '{{your.url.here}}rest/default/V1/products/some-grouped-product-
 
 ## 関連資料
 
-* [ グループ化された製品の作成と管理](https://developer.adobe.com/commerce/webapi/rest/tutorials/grouped-product/){target="_blank"}
-* [ グループ化された製品](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/types/product-create-grouped.html){target="_blank"}
-* [Adobe Developer REST チュートリアル ](https://developer.adobe.com/commerce/webapi/rest/tutorials/prerequisite-tasks/){target="_blank"}
+* [&#x200B; グループ化された製品の作成と管理](https://developer.adobe.com/commerce/webapi/rest/tutorials/grouped-product/){target="_blank"}
+* [&#x200B; グループ化された製品](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/types/product-create-grouped.html){target="_blank"}
+* [Adobe Developer REST チュートリアル &#x200B;](https://developer.adobe.com/commerce/webapi/rest/tutorials/prerequisite-tasks/){target="_blank"}
 * [Adobe Commerce REST文書](https://adobe-commerce.redoc.ly/2.4.6-admin/tag/products#operation/PostV1Products){target="_blank"}

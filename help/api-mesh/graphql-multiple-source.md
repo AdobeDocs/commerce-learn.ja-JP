@@ -23,7 +23,7 @@ ht-degree: 0%
 
 # 複数のソースを持つメッシュを作成する
 
-このビデオでは、Adobe Developer App Builder用API Meshで複数のソースを持つメッシュを作成する方法について説明します。 このビデオでは、複数のソースを持つメッシュを作成し、エラーを特定する方法を説明します。 詳細とコードサンプルについては、[ メッシュの作成](https://developer.adobe.com/graphql-mesh-gateway/gateway/create-mesh/#create-a-mesh-1){target="_blank"}を参照してください。
+このビデオでは、Adobe Developer App Builder用API Meshで複数のソースを持つメッシュを作成する方法について説明します。 このビデオでは、複数のソースを持つメッシュを作成し、エラーを特定する方法を説明します。 詳細とコードサンプルについては、[&#x200B; メッシュの作成](https://developer.adobe.com/graphql-mesh-gateway/gateway/create-mesh/#create-a-mesh-1){target="_blank"}を参照してください。
 
 ## この動画は誰のためのものでしょうか？
 

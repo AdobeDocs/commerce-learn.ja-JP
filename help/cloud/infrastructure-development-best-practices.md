@@ -39,7 +39,7 @@ Adobe Commerceのクラウドインフラストラクチャと開発のベスト
 * [SFTP](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html#sftp)
 * [Commerce Cloud CLI](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli/cloud-cli-overview.html)
 * [Adobe Commerceのアップグレードとパッチの適用](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html)
-* [Adobe Commerce導入前のチェックリスト ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/launch/checklist.html)
-* [ サポートチケットの作成](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html)
+* [Adobe Commerce導入前のチェックリスト &#x200B;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/launch/checklist.html)
+* [&#x200B; サポートチケットの作成](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html)
 
 {{$include /help/_includes/cloud-technical-onboarding-related-links.md}}
