@@ -33,7 +33,7 @@ ht-degree: 0%
 * ワークフローの検証、最適化、デバッグ：
 * ECE-Tools、Quality Patches Tool、New Relic、Xdebug、およびログ管理。
 
->[!VIDEO](https://video.tv.adobe.com/v/3427709?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3432820?captions=jpn&learn=on)
 
 ## ビデオに記載されているExperience League ドキュメント
 

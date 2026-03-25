@@ -33,7 +33,7 @@ ht-degree: 0%
 * 自動信号にCommerce Observability Moduleを使用する
 * アプリ用IO ライブ テレメトリ ライブラリを使用した監視の拡張
 
->[!VIDEO](https://video.tv.adobe.com/v/3478288?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3478335?captions=jpn&learn=on)
 
 {{$include /help/_includes/app-builder-observability-related-links.md}}
 

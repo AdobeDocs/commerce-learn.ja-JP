@@ -33,7 +33,7 @@ Adobe Commerceのオブザーバビリティのライブデモをご覧くださ
 * トレーサビリティのためのWebhookとイベントの相関関係について説明します
 * ログとトレースのGrafanaおよびNew Relicとの統合を示します
 
->[!VIDEO](https://video.tv.adobe.com/v/3477867?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3477868?captions=jpn&learn=on)
 
 {{$include /help/_includes/app-builder-observability-related-links.md}}
 

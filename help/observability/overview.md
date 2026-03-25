@@ -33,7 +33,7 @@ ht-degree: 0%
 * 一元化された可観測性が重要：すべてのコンポーネントにわたってログと指標を関連付けます。
 * チェックアウトパフォーマンスを高める：ショッピングをスムーズに保つために、ボトルネックをすばやく特定します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3478286?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3478289?captions=jpn&learn=on)
 
 {{$include /help/_includes/app-builder-observability-related-links.md}}
 
