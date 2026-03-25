@@ -39,4 +39,4 @@ ht-degree: 0%
 
 ## 関連ドキュメント
 
-* [ オブザーバビリティの概要](https://developer.adobe.com/commerce/extensibility/observability/){target="_blank"}
+* [&#x200B; オブザーバビリティの概要](https://developer.adobe.com/commerce/extensibility/observability/){target="_blank"}

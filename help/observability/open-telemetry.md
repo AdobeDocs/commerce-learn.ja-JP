@@ -39,4 +39,4 @@ Open Telemetryが、単一のモニタリングツールに縛られることな
 
 ## 関連ドキュメント
 
-* [ オブザーバビリティの概要](https://developer.adobe.com/commerce/extensibility/observability/){target="_blank"}
+* [&#x200B; オブザーバビリティの概要](https://developer.adobe.com/commerce/extensibility/observability/){target="_blank"}
