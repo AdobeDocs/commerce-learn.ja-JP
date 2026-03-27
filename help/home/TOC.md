@@ -3,9 +3,9 @@ user-guide-title: ビデオとチュートリアル
 user-guide-description: ビデオとチュートリアルを通じて、Adobe Commerce と Magento Open Source について説明します。
 breadcrumb-title: ビデオとチュートリアル
 auto-video-transcripts: true
-source-git-commit: 3015914bce0b6fc1eba125f6a9c0b52a0b5c057f
+source-git-commit: e25c2abc470e1f3cb97b153d335482f8a004c644
 workflow-type: tm+mt
-source-wordcount: '871'
+source-wordcount: '876'
 ht-degree: 3%
 
 ---
@@ -21,6 +21,7 @@ ht-degree: 3%
       + [設定値](../cloud/troubleshooting/config-values.md)
       + [ログを切り捨てる](../cloud/troubleshooting/truncate-logs.md)
    + [プロジェクトと環境の管理](../cloud/project-environment-management.md)
+   + [Adobe Commerce Cloudの拡張方法](../cloud/how-adobe-commerce-cloud-scales.md)
    + [HIPAA対応ホスティング](../cloud/hippa-ready-hosting.md)
    + [IP アドレスの検出](../cloud/detect-ip-address.md)
    + [マーケテク](../cloud/marketecture.md)
@@ -32,7 +33,7 @@ ht-degree: 3%
    + [複数のweb サイト](../cloud/multiple-websites.md)
    + [リードデータとプロモーションの体験](../cloud/experience-lead-data-promoitions.md)
    + [AEM Assets](../cloud/aem-assets.md)
-   + [&#x200B; セルフホスト型ソリューションからの移行](../cloud/overview.md)
+   + [ セルフホスト型ソリューションからの移行](../cloud/overview.md)
    + [Fastlyを使用してアクセスを制限](../cloud/limit-website-access-using-fastly.md)
    + 技術的なオンボーディングとハードウェアの引き継ぎ {#technical-onboarding-hardware-handoff}
       + [インフラと開発のベストプラクティス](../cloud/infrastructure-development-best-practices.md)
@@ -51,11 +52,11 @@ ht-degree: 3%
          + [顧客](../commerce-as-a-cloud-service/webapi-rest/customer.md)
       + 製品概要{#product-overview}
          + [概要](../commerce-as-a-cloud-service/product-overview/introduction.md)
-         + [設定エクスペリエンス &#x200B;](../commerce-as-a-cloud-service/product-overview/setup-experience.md)
-         + [&#x200B; コンテンツオーサリング &#x200B;](../commerce-as-a-cloud-service/product-overview/content-authoring.md)
-         + [&#x200B; コンテンツのローカライズとスケジュール &#x200B;](../commerce-as-a-cloud-service/product-overview/localize-and-schedule-content.md)
+         + [設定エクスペリエンス ](../commerce-as-a-cloud-service/product-overview/setup-experience.md)
+         + [ コンテンツオーサリング ](../commerce-as-a-cloud-service/product-overview/content-authoring.md)
+         + [ コンテンツのローカライズとスケジュール ](../commerce-as-a-cloud-service/product-overview/localize-and-schedule-content.md)
          + [GenAIを利用したコンテンツ制作](../commerce-as-a-cloud-service/product-overview/genai-powered-content-creation.md)
-         + [&#x200B; カタログ管理およびマーチャンダイジングサービス &#x200B;](../commerce-as-a-cloud-service/product-overview/catalog-management-and-merchandising-services.md)
+         + [ カタログ管理およびマーチャンダイジングサービス ](../commerce-as-a-cloud-service/product-overview/catalog-management-and-merchandising-services.md)
          + [Commerce ストアフロントの実験](../commerce-as-a-cloud-service/product-overview/commerce-storefront-experimentation.md)
          + [Commerce ストアフロントの速度](../commerce-as-a-cloud-service/product-overview/commerce-storefront-speed.md)
          + [コマースストアフロントの買い物客のジャーニー](../commerce-as-a-cloud-service/product-overview/commerce-storefront-full-shopper-journey.md)
@@ -79,10 +80,10 @@ ht-degree: 3%
       + [コンポーザブルCommerce](../capabilities/what-is-composable-commerce.md)
       + [品質パッチツール](../capabilities/quality-patch-tool.md)
    + 製品の作成 {#create-products}
-      + [&#x200B; シンプルな製品](../site-management/create-simple-product.md)
-      + [&#x200B; バーチャル製品](../site-management/create-virtual-product.md)
+      + [ シンプルな製品](../site-management/create-simple-product.md)
+      + [ バーチャル製品](../site-management/create-virtual-product.md)
       + [ダウンロード可能な製品](../site-management/create-downloadable-product.md)
-      + [&#x200B; グループ化された製品](../site-management/create-grouped-product.md)
+      + [ グループ化された製品](../site-management/create-grouped-product.md)
       + [設定可能な製品](../site-management/create-configurable-product.md)
       + [バンドル製品](../site-management/create-bundle-product.md)
       + [ギフトカード商品](../site-management/create-gift-card-product.md)
@@ -96,7 +97,7 @@ ht-degree: 3%
 
 + 拡張機能 {#extensibility}
    + バックエンド開発 {#backend-development}
-      + [&#x200B; データベーステーブルを修正するためのベストプラクティス &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables.html?lang=ja)
+      + [ データベーステーブルを修正するためのベストプラクティス ](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables.html)
       + [モジュールの作成](../backend-development/create-module.md)
       + [製品属性の追加](../backend-development/add-product-attribute.md)
       + [依存関係インジェクションの例](../backend-development/dependency-injection.md)
@@ -129,7 +130,7 @@ ht-degree: 3%
             + [買い物客体験](../edge-delivery-services/shopper-experience.md)
       + ヘッドレスアーキテクチャ {#headless-architecture}
          + ヘッドレス CMSの概要 {#introduction-to-headless}
-            + [&#x200B; ヘッドレスアーキテクチャ – セッション 1](../headless/session-1.md)
+            + [ ヘッドレスアーキテクチャ – セッション 1](../headless/session-1.md)
          + PWA Studioの概要 {#introduction}
             + [概要](../pwa/introduction/1-overview.md)
             + [PWA Studio tools](../pwa/introduction/2-pwa-studio-tools.md)
@@ -163,7 +164,7 @@ ht-degree: 3%
          + [ローカルでのテスト](../app-builder/first-app/testing-locally.md)
          + [App Builder URLを使用したテスト](../app-builder/first-app/testing-app-builder-url.md)
          + [まとめ](../app-builder/first-app/conclusion.md)
-         + [&#x200B; モジュールのソースコードのサンプル](https://github.com/magento/app-builder-samples){target="_blank"}
+         + [ モジュールのソースコードのサンプル ](https://github.com/magento/app-builder-samples){target="_blank"}
       + ADOBE COMMERCE用IO イベント {#io-events}
          + [入門IO イベント](../io-events/getting-started-io-events.md)
          + [Adobe Commerce 2.4.5 インストール](../io-events/2-4-5-installation.md)
@@ -185,7 +186,7 @@ ht-degree: 3%
    + [Observability overview](../observability/overview.md)
    + [テレメトリを開く](../observability/open-telemetry.md)
    + [デモの設定と設定](../observability/demo-setup-configuration.md)
-   + [&#x200B; デモ &#x200B;](../observability/demo.md)
+   + [ デモ ](../observability/demo.md)
 + グローバル参照アーキテクチャ {#global-reference-architecture-implementation-techniques}
    + [概要](../global-reference-architecture/overview.md)
    + [Gitを分割](../global-reference-architecture/split-git.md)
@@ -239,7 +240,7 @@ ht-degree: 3%
    + [関連製品ルールの管理](../site-management/related-product-rules.md)
    + [商品レコメンデーションの設定](../site-management/product-recommendations.md)
    + [ライブサーチの概要](../site-management/live-search.md)
-   + [&#x200B; レコメンデーションのライブ検索](../site-management/live-search-recommendations.md)
+   + [ レコメンデーションのライブ検索](../site-management/live-search-recommendations.md)
    + [CommerceとAJOの統合](../site-management/integrate-commerce-ajo.md)
 + 注文とフルフィルメント {#orders}
    + [注文ステータスの管理](../orders-and-fulfillment/order-status.md)
