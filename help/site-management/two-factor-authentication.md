@@ -1,20 +1,18 @@
 ---
 title: 二段階認証
-description: Adobe CommerceとMagento Open Sourceは、複数のプロバイダーによる2要素認証（2FA）方式をサポートしています。 2要素認証機能がストアの管理者の保護にどのように役立つかをご覧ください。
-kt: 9443
-doc-type: feature video
-duration: 421
-audience: all
-activity: use
-last-substantial-update: 2023-04-27T00:00:00Z
+description: 2FAがAdobe CommerceとMagento Open Sourceの管理者を複数のプロバイダーとログイン方法で保護する方法について説明します。
+doc-type: Feature Video
+duration: 422
+last-substantial-update: 2026-03-26T00:00:00Z
 feature: Configuration, System, Security
 topic: Commerce, Administration
 role: Admin, Leader, User
 level: Beginner, Intermediate
+jira: KT-9443
 exl-id: 33d17977-f02e-492a-ac95-a84f2db3b4d0
-source-git-commit: 9aa4d70ee6a3825f027aa2a9c6a1ac0f876ed59f
+source-git-commit: 28c410d47b5aea7a74003506e07bdd0e0df4680a
 workflow-type: tm+mt
-source-wordcount: '121'
+source-wordcount: '127'
 ht-degree: 0%
 
 ---
@@ -32,11 +30,13 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->ビデオの内容は、2.4.0 リリースを反映しています。 以降のリリースのアップデートについて詳しくは、[&#x200B; リリースノート &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/overview.html?lang=ja)を参照してください。
+>ビデオの内容は、2.4.0 リリースを反映しています。 以降のリリースのアップデートについて詳しくは、[ リリースノート ](https://experienceleague.adobe.com/en/docs/commerce-operations/release/notes/overview)を参照してください。
 
 >[!VIDEO](https://video.tv.adobe.com/v/339104?learn=on)
 
 ## 関連資料
 
-* [二段階認証（2FA） – 管理者システムガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/systems/security/2fa/security-two-factor-authentication.html)
-* [二段階認証（2FA）の設定 – 開発者ドキュメント &#x200B;](https://developer.adobe.com/commerce/testing/functional-testing-framework/two-factor-authentication/)
+* [二段階認証（2FA） ](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/tfa/security-two-factor-authentication)
+* [ ユーザーアカウントの2要素認証の設定](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/tfa/security-two-factor-authentication-use)
+* [二段階認証の管理](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/tfa/security-two-factor-authentication-manage)
+* [二段階認証（2FA）の設定 – 開発者ドキュメント ](https://developer.adobe.com/commerce/testing/functional-testing-framework/two-factor-authentication/)
