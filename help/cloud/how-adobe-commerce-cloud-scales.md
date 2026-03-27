@@ -28,7 +28,7 @@ ht-degree: 0%
 
 ## ビデオ
 
->[!VIDEO](https://video.tv.adobe.com/v/3482031?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3482037?captions=jpn&learn=on)
 
 ## 関連ドキュメント
 
