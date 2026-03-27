@@ -30,13 +30,13 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->ビデオの内容は、2.4.0 リリースを反映しています。 以降のリリースのアップデートについて詳しくは、[&#x200B; リリースノート &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-operations/release/notes/overview)を参照してください。
+>ビデオの内容は、2.4.0 リリースを反映しています。 以降のリリースのアップデートについて詳しくは、[&#x200B; リリースノート &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-operations/release/notes/overview)を参照してください。
 
 >[!VIDEO](https://video.tv.adobe.com/v/339104?learn=on)
 
 ## 関連資料
 
-* [二段階認証（2FA） &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/tfa/security-two-factor-authentication)
-* [&#x200B; ユーザーアカウントの2要素認証の設定](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/tfa/security-two-factor-authentication-use)
-* [二段階認証の管理](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/tfa/security-two-factor-authentication-manage)
+* [二段階認証（2FA） &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-admin/systems/security/tfa/security-two-factor-authentication)
+* [&#x200B; ユーザーアカウントの2要素認証の設定](https://experienceleague.adobe.com/ja/docs/commerce-admin/systems/security/tfa/security-two-factor-authentication-use)
+* [二段階認証の管理](https://experienceleague.adobe.com/ja/docs/commerce-admin/systems/security/tfa/security-two-factor-authentication-manage)
 * [二段階認証（2FA）の設定 – 開発者ドキュメント &#x200B;](https://developer.adobe.com/commerce/testing/functional-testing-framework/two-factor-authentication/)
