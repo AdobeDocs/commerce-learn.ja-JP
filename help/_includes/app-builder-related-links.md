@@ -14,6 +14,6 @@ ht-degree: 0%
 
 * [App Builderの概要](../app-builder/introduction-to-app-builder.md)
 * [App Builderの拡張性フレームワーク](../app-builder/extensibility-framework-commerce-eventing.md)
-* [ マーケティングレビューの概要を送信](https://developer.adobe.com/commerce/marketplace/guides/sellers/submit-for-marketing-review){target="_blank"}
+* [&#x200B; マーケティングレビューの概要を送信](https://developer.adobe.com/commerce/marketplace/guides/sellers/submit-for-marketing-review){target="_blank"}
 * [App Builder上のAmazon Sales Channel](https://developer.adobe.com/commerce/extensibility/amazon-sales-channel/){target="_blank"}
 * [管理者UI SDK](https://developer.adobe.com/commerce/extensibility/admin-ui-sdk/){target="_blank"}
