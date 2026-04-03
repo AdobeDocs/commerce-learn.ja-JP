@@ -48,7 +48,7 @@ ht-degree: 0%
 - [ ]作成または更新される各ページの目次とH1が一致します。
 - [ ]目次とH1にはアクションが関連付けられています。例：GutHub プルリクエストの作成方法を説明します
 - [ ] H1に等幅にする必要はありません
-- [ ]各ページタイトルは***C***apitol文字で始める必要があります
+- [ ]各ページタイトルは&#x200B;***C***apitol文字で始める必要があります
 - [ ] ビデオにチャプターが必要かどうかを確認しました
 - [ ]すべてのビデオには、ビデオを適切に表現するためにポスターが割り当てられています
 - [ ] [Acrolinx](https://experienceleague.corp.adobe.com/docs/authoring-guide-exl/using/style-guide/acrolinx.html)を使用しました
