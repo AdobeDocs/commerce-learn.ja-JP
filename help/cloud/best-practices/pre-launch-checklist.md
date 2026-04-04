@@ -139,7 +139,7 @@ Adobe Commerce Cloudでは、ステージング環境と実稼動環境の両方
 
 5. 開発中にXdebugが有効になっていることを確認します（[Commerce Cloud版Xdebugの設定](https://experienceleague.adobe.com/ja/docs/commerce-on-cloud/user-guide/develop/test/debug){target="_blank"}を参照）。
 6. OPcacheおよびその他の設定がphp.ini ファイルで正確に更新されていることを確認します（[このサンプル &#x200B;](https://github.com/magento/magento-cloud/blob/master/php.ini#L41){target="_blank"}を参照）。
-7. [**Adobe Commerceのステータス ページ**](https://status.adobe.com/cloud/experience_cloud#/){target="_blank"}を購読します。
+7. [**Adobe Commerceのステータス ページ**](https://status.adobe.com/ja-jp/cloud/experience_cloud#/){target="_blank"}を購読します。
 8. New Relicの「[Adobe Commerceの管理アラート &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-operations/tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce){target="_blank"}」通知チャネルを購読して、指定されたパフォーマンス指標をモニタリングします（[詳細を読む](https://experienceleague.adobe.com/ja/docs/commerce-on-cloud/user-guide/monitor/new-relic/new-relic-service){target="_blank"}）。
 
 ## &#x200B;9. セキュリティ
