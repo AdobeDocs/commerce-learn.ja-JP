@@ -33,6 +33,6 @@ ht-degree: 0%
 
 ## 関連ドキュメント
 
-* [Commerce on Cloud — プロジェクトの概要](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/project/overview)
-* [&#x200B; パフォーマンステストのガイダンス &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/test/guidance)
+* [Commerce on Cloud — プロジェクトの概要](https://experienceleague.adobe.com/ja/docs/commerce-on-cloud/user-guide/project/overview)
+* [&#x200B; パフォーマンステストのガイダンス &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-on-cloud/user-guide/develop/test/guidance)
 * [起動前のチェックリスト &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/cloud/best-practices/pre-launch-checklist)
