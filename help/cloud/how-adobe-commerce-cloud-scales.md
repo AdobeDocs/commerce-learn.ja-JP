@@ -3,13 +3,14 @@ title: Adobe Commerce Cloudの拡張方法
 description: Adobe Commerce Cloudのプロジェクトがどのように拡大するか、何が自動的に拡大するか、何をサポートリクエストする必要があるか、イベントや急激なトラフィックの急増に対応するためのキャパシティを計画する方法などについて解説します。
 feature: Cloud
 topic: Commerce, Architecture
-role: Admin, Architect, Leader
+role: Admin, Developer, Leader
 level: Intermediate
 doc-type: Tutorial
 duration: 285
 last-substantial-update: 2026-03-26T00:00:00Z
 jira: KT-15161
-source-git-commit: 24edee9f9c5fbe3173e6d5a90ac3a84ed3809917
+exl-id: 8ab5050c-61d5-4029-acb0-06043842b64f
+source-git-commit: 781febd8b00f727708941c35aef1e02dcf2094dd
 workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 0%
@@ -28,10 +29,10 @@ ht-degree: 0%
 
 ## ビデオ
 
->[!VIDEO](https://video.tv.adobe.com/v/3482037?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3482031?learn=on)
 
 ## 関連ドキュメント
 
-* [Commerce on Cloud — プロジェクトの概要](https://experienceleague.adobe.com/ja/docs/commerce-on-cloud/user-guide/project/overview)
-* [&#x200B; パフォーマンステストのガイダンス &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-on-cloud/user-guide/develop/test/guidance)
-* [起動前のチェックリスト &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/cloud/best-practices/pre-launch-checklist)
+* [Commerce on Cloud — プロジェクトの概要](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/project/overview)
+* [ パフォーマンステストのガイダンス ](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/test/guidance)
+* [起動前のチェックリスト ](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/cloud/best-practices/pre-launch-checklist)
