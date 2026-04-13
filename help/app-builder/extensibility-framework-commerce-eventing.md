@@ -1,22 +1,18 @@
 ---
 title: 拡張性のあるフレームワークとコマースイベント
-description: 統合された拡張性フレームワークとコマースについて詳しく見る
-landing-page-description: 統合された拡張性フレームワークとコマースについて詳しく見る
-short-description: 統合された拡張性フレームワークとコマースについて詳しく見る
-kt: 11740
-doc-type: tutorial
+description: 統合された拡張性フレームワークとコマースイベントについてさらに詳しく
+jira: KT-11740
+doc-type: Tutorial
 duration: 298
-audience: all
-last-substantial-update: 2023-2-16
+last-substantial-update: 2023-02-16T00:00:00Z
 feature: API Mesh, App Builder, Extensibility, Tools and External Services, Eventing, Backend Development
 topic: App Builder, I/O Events, Developer Console, Commerce, Development, Integrations
-old-role: Architect, Developer
 role: Developer
 level: Beginner, Intermediate
 exl-id: 9186ba11-180d-45ca-801a-a86547084cca
-source-git-commit: b859664f02cf6eac99a551e5f58dff34ca55e37a
+source-git-commit: 82c30f9cce110c2315822fe236c06a6fc33d54bf
 workflow-type: tm+mt
-source-wordcount: '67'
+source-wordcount: '51'
 ht-degree: 0%
 
 ---
@@ -27,6 +23,6 @@ ht-degree: 0%
 
 ## App Builder for Adobe Commerce {#app-builder-extensibility}
 
->[!VIDEO](https://video.tv.adobe.com/v/3447479?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3413328?learn=on)
 
 {{$include /help/_includes/app-builder-related-links.md}}

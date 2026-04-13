@@ -1,21 +1,18 @@
 ---
 title: アクションフォルダー
 description: このサンプルアプリケーションのアクションフォルダーにあるファイルの種類について説明します。
-landing-page-description: Adobe Commerceで使用されるAdobe Developer App Builderと、アクションフォルダーに含まれるファイルの種類について説明します。
-kt: 12422
-doc-type: tutorial
+jira: KT-12422
+doc-type: Tutorial
 duration: 465
-audience: all
-last-substantial-update: 2023-3-13
+last-substantial-update: 2023-03-13T00:00:00Z
 feature: API Mesh, App Builder, Extensibility, Tools and External Services, Backend Development
 topic: App Builder, I/O Events, Developer Console, Commerce, Development, Integrations
-old-role: Architect, Developer
 role: Developer
 level: Beginner, Intermediate
 exl-id: d13ed1e7-b18e-4bf5-af87-2a69e2588d65
-source-git-commit: 9aa4d70ee6a3825f027aa2a9c6a1ac0f876ed59f
+source-git-commit: 82c30f9cce110c2315822fe236c06a6fc33d54bf
 workflow-type: tm+mt
-source-wordcount: '209'
+source-wordcount: '189'
 ht-degree: 0%
 
 ---
@@ -37,7 +34,7 @@ ht-degree: 0%
 * `actions`および`commerce` フォルダーにあるJavaScript ファイルの目的
 * OAuth認証ファイルの概要
 
->[!VIDEO](https://video.tv.adobe.com/v/3421081?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3416590?learn=on)
 
 ## コードサンプル
 
