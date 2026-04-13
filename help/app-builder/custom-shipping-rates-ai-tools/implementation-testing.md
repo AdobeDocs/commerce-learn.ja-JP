@@ -33,6 +33,6 @@ Agentは実装を終了し、未使用のコードをクリーニングし、デ
 新しい出荷拡張機能をデプロイして登録するように、資格情報と環境が設定されています。
 ストアフロントのテストでは、外部配送料が表示され、期待どおりに機能することが確認されます。
 
->[!VIDEO](https://video.tv.adobe.com/v/3481357?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3481358?captions=jpn&learn=on)
 
 {{$include /help/_includes/ai-shipping-rates-related-links.md}}
