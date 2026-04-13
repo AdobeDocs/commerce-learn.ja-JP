@@ -1,17 +1,16 @@
 ---
 title: ワークフローを使用したAPI Mesh スターターキット
 description: メッシュテストと負荷テストをデプロイするためのワークフローを使用して、Adobe Commerce API Meshを開始します。
-kt: 18388
-doc-type: tutorial
+jira: KT-18388
+doc-type: Tutorial
 duration: 351
-audience: all
-last-substantial-update: 2025-6-27
+last-substantial-update: 2025-06-27T00:00:00Z
 feature: API Mesh, Tools and External Services, Backend Development, GraphQL, Storefront
 topic: App Builder, Commerce, Development, Integrations
 role: Developer
 level: Beginner
 exl-id: 8add45cc-f0cb-43a6-99d9-6b89beff6b19
-source-git-commit: 9aa4d70ee6a3825f027aa2a9c6a1ac0f876ed59f
+source-git-commit: 003d55eac7e13a02ee633bed5ea9ab98825db151
 workflow-type: tm+mt
 source-wordcount: '104'
 ht-degree: 0%

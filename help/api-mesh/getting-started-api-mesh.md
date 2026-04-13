@@ -1,23 +1,19 @@
 ---
 title: API Meshの基本を学ぶ
 description: Adobe Commerceおよび [!DNL Adobe App Builder]でAPI Meshを使用する方法について説明します。 Adobe App Builder のインストール、プロジェクトの操作、GraphQL リバースプロキシの作成などについて説明します。
-landing-page-description: Adobe Commerceおよび [!DNL Adobe App Builder]でAPI Meshを使用する方法について説明します。 Adobe IO のインストール、プロジェクトの操作、graphql リバースプロキシの作成などについて説明します。
-short-description: Adobe Commerceおよび [!DNL Adobe App Builder]でAPI Meshを使用する方法について説明します。 Adobe IO のインストール、プロジェクトの操作、graphql リバースプロキシの作成などについて説明します。
-kt: 11802
-doc-type: tutorial
+jira: KT-11802
+doc-type: Tutorial
 duration: 442
-audience: all
-last-substantial-update: 2023-8-27
+last-substantial-update: 2023-08-27T00:00:00Z
 feature: API Mesh, App Builder, Extensibility, Tools and External Services, Backend Development
 topic: App Builder, I/O Events, Developer Console, Commerce, Development, Integrations
-old-role: Architect, Developer
 role: Developer
 level: Beginner, Intermediate
 exl-id: baae6dab-48a4-49a0-b6f6-61cbebe63d0f
-source-git-commit: 9aa4d70ee6a3825f027aa2a9c6a1ac0f876ed59f
+source-git-commit: 003d55eac7e13a02ee633bed5ea9ab98825db151
 workflow-type: tm+mt
-source-wordcount: '305'
-ht-degree: 16%
+source-wordcount: '253'
+ht-degree: 6%
 
 ---
 
@@ -29,11 +25,11 @@ Adobe Developer App Builder用API Meshを初めて使用する場合は、他の
 
 API Meshは、複数のデータソースを組み合わせて、アプリケーションが使用するための単一の応答を取得します。
 
-[完全なAPI Mesh ドキュメントを表示](https://developer.adobe.com/graphql-mesh-gateway/gateway/overview/){target="_blank"}
+[完全なAPI Mesh ドキュメントを表示](https://developer.adobe.com/graphql-mesh-gateway/gateway/){target="_blank"}
 
 ## この動画は誰のためのものでしょうか？
 
-* [!DNL Adobe Commerce]Adobe I/O Runtime[およびAPI Meshを使用した経験が限られているAPI Meshまたは](https://developer.adobe.com/runtime/docs/guides/overview/){target="_blank"}を初めて使用する開発者。
+* [!DNL Adobe Commerce]Adobe I/O Runtime[およびAPI Meshを使用した経験が限られているAPI Meshまたは](https://developer.adobe.com/app-builder/docs/intro_and_overview/what-is-app-builder){target="_blank"}を初めて使用する開発者。
 
 ## ビデオコンテンツ
 

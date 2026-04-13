@@ -1,22 +1,18 @@
 ---
 title: Adobe I/O Runtime コマンドラインインターフェイスとAPI Mesh プラグインのインストール
 description: Adobe I/O Runtime コマンドラインインターフェイスとAPI Mesh プラグインのインストール方法について説明します
-landing-page-description: Adobe App Builderを使用し、API Mesh プラグインを使用してAdobe I/O Runtimeをインストールする方法について説明します。
-short-description: Adobe App Builderを使用し、API Mesh プラグインを使用してAdobe I/O Runtimeをインストールする方法について説明します。
-kt: 11801
-doc-type: tutorial
+jira: KT-11801
+doc-type: Tutorial
 duration: 433
-audience: all
-last-substantial-update: 2023-2-8
+last-substantial-update: 2023-02-08T00:00:00Z
 feature: API Mesh, App Builder, Extensibility, Tools and External Services, Backend Development
 topic: App Builder, I/O Events, Developer Console, Commerce, Development, Integrations
-old-role: Architect, Developer
 role: Developer
 level: Beginner, Intermediate
 exl-id: 898a0918-0362-4fa4-9204-d770ff1a7e6f
-source-git-commit: 9aa4d70ee6a3825f027aa2a9c6a1ac0f876ed59f
+source-git-commit: 003d55eac7e13a02ee633bed5ea9ab98825db151
 workflow-type: tm+mt
-source-wordcount: '186'
+source-wordcount: '150'
 ht-degree: 0%
 
 ---
@@ -28,7 +24,7 @@ Adobe Developer App Builder用API Meshの使用を開始する前に、`aio` CLI
 
 ## この動画は誰のためのものでしょうか？
 
-* [!DNL Adobe Commerce]Adobe I/O Runtime[およびAPI Meshを使用した経験が限られているAPI Meshまたは](https://developer.adobe.com/runtime/docs/guides/overview/){target="_blank"}を初めて利用する開発者。
+* [!DNL Adobe Commerce]Adobe I/O Runtime[およびAPI Meshを使用した経験が限られているAPI Meshまたは](https://developer.adobe.com/app-builder/docs/intro_and_overview/what-is-app-builder){target="_blank"}を初めて利用する開発者。
 
 ## ビデオコンテンツ
 

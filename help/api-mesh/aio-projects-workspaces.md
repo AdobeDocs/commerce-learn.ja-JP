@@ -1,22 +1,18 @@
 ---
 title: プロジェクトとワークスペースの操作
 description: Adobe Developer Consoleを使用してプロジェクトとワークスペースを操作する方法を説明します。
-landing-page-description: Adobe Developer コンソールの使用方法について説明します。 API Meshで使用するプロジェクトとワークスペースについて説明します。
-short-description: Adobe Developer コンソールの使用方法について説明します。 API Meshで使用するプロジェクトとワークスペースについて説明します。
-kt: 11803
-doc-type: tutorial
+jira: KT-11803
+doc-type: Tutorial
 duration: 593
-audience: all
-last-substantial-update: 2023-2-8
+last-substantial-update: 2023-02-08T00:00:00Z
 feature: API Mesh, App Builder, Extensibility, Tools and External Services, Backend Development
 topic: App Builder, I/O Events, Developer Console, Commerce, Development, Integrations
-old-role: Architect, Developer
 role: Developer
 level: Beginner, Intermediate
 exl-id: ab51f68c-5d28-495b-8472-27b60c4aa8c1
-source-git-commit: 9aa4d70ee6a3825f027aa2a9c6a1ac0f876ed59f
+source-git-commit: 003d55eac7e13a02ee633bed5ea9ab98825db151
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '241'
 ht-degree: 0%
 
 ---
@@ -42,7 +38,7 @@ ht-degree: 0%
 
 ## Adobe Adobe Developer Consoleについて詳しく見る
 
-Adobe Developer Consoleでは、APIが組織にどのように適合するかを次の階層で表します：`Organization > Project > Workspace > [API]`。 Adobe App Builderの詳細、コンソールへのログイン、基本的なトラブルシューティングについては、[最初のApp Builder アプリケーションの作成](https://developer.adobe.com/app-builder/docs/getting_started/first_app/){target="_blank"}を参照してください。
+Adobe Developer Consoleでは、APIが組織にどのように適合するかを次の階層で表します：`Organization > Project > Workspace > [API]`。 Adobe App Builderの詳細、コンソールへのログイン、基本的なトラブルシューティングについては、[最初のApp Builder アプリケーションの作成](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/first-app){target="_blank"}を参照してください。
 
 ## Adobe Developer Consoleでのプロジェクトの概要
 
