@@ -10,7 +10,7 @@ duration: 131
 last-substantial-update: 2025-07-25T00:00:00Z
 jira: KT-18610
 exl-id: 7136b0d6-a29f-42f4-8363-5bd4a2d828fc
-source-git-commit: 9aa4d70ee6a3825f027aa2a9c6a1ac0f876ed59f
+source-git-commit: 8c330bb8aa35c143672f37da954d5cf6b4edb729
 workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 0%
@@ -33,9 +33,9 @@ ht-degree: 0%
 * インスタンスに適した環境と地域を選択します。
 * 今後のチュートリアルで、カタログ設定の準備をすばやく行うことができます。
 
->[!VIDEO](https://video.tv.adobe.com/v/3469879?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3469877?learn=on)
 
 ## 関連コンテンツ
 
-* [[!DNL Adobe Commerce Optimizer]  ガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce/optimizer/overview){target="_blank"}
-* [Adobe Commerce Optimizerの概要](https://experienceleague.adobe.com/ja/docs/commerce-learn/tutorials/adobe-commerce-optimizer/overview)
+* [[!DNL Adobe Commerce Optimizer]  ガイド ](https://experienceleague.adobe.com/en/docs/commerce/optimizer/overview){target="_blank"}
+* [Adobe Commerce Optimizerの概要](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/adobe-commerce-optimizer/overview){target="_blank"}
