@@ -1,16 +1,16 @@
 ---
 title: Adobe Commerce Optimizerの概要
-description: Adobe Commerce Optimizerが、高性能、トラフィック増加、シームレスな統合により、ストアフロントを強化する方法をご紹介します。
+description: Adobe Commerce Optimizerが、ハイパフォーマンス、トラフィックの増加、シームレスな統合を通じて、ストアフロントを強化する方法をご紹介します。
 feature: Saas, Storefront
 topic: Commerce, Performance
 role: Admin, User
 level: Beginner
 doc-type: Feature Video
 duration: 242
-last-substantial-update: 2025-03-6
+last-substantial-update: 2025-03-06T00:00:00Z
 jira: KT-17420
 exl-id: e6a59ee0-3e13-41c0-a189-402bf8554f8e
-source-git-commit: b859664f02cf6eac99a551e5f58dff34ca55e37a
+source-git-commit: 8c330bb8aa35c143672f37da954d5cf6b4edb729
 workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 0%
