@@ -1,29 +1,25 @@
 ---
 title: API Meshで使用する複数のソース GraphQLの作成
 description: Adobe Commerceおよび [!DNL Adobe App Builder]でAPI Meshに複数のソースを使用する方法について説明します。 よくあるエラーとその解決方法について説明します。
-landing-page-description: Adobe Commerceおよび [!DNL Adobe App Builder]でAPI Meshを使用する方法について説明します。 複数のソースを持つメッシュを作成する方法と、一般的なエラーを解決する方法について説明します。
-short-description: Adobe Commerceおよび [!DNL Adobe App Builder]でAPI Meshを使用する方法について説明します。 複数のソースを持つメッシュを作成する方法と、一般的なエラーを解決する方法について説明します。
-kt: 11804
-doc-type: tutorial
+jira: KT-11804
+doc-type: Tutorial
 duration: 409
-audience: all
-last-substantial-update: 2023-2-8
+last-substantial-update: 2023-02-08T00:00:00Z
 feature: API Mesh, App Builder, Extensibility, Tools and External Services, Backend Development
 topic: App Builder, I/O Events, Developer Console, Commerce, Development, Integrations
-old-role: Architect, Developer
 role: Developer
 level: Beginner, Intermediate
 exl-id: d788a068-9d20-4db0-a0eb-fd897873253d
-source-git-commit: 9aa4d70ee6a3825f027aa2a9c6a1ac0f876ed59f
+source-git-commit: 003d55eac7e13a02ee633bed5ea9ab98825db151
 workflow-type: tm+mt
-source-wordcount: '234'
+source-wordcount: '182'
 ht-degree: 0%
 
 ---
 
 # 複数のソースを持つメッシュを作成する
 
-このビデオでは、Adobe Developer App Builder用API Meshで複数のソースを持つメッシュを作成する方法について説明します。 このビデオでは、複数のソースを持つメッシュを作成し、エラーを特定する方法を説明します。 詳細とコードサンプルについては、[&#x200B; メッシュの作成](https://developer.adobe.com/graphql-mesh-gateway/gateway/create-mesh/#create-a-mesh-1){target="_blank"}を参照してください。
+このビデオでは、Adobe Developer App Builder用API Meshで複数のソースを持つメッシュを作成する方法について説明します。 このビデオでは、複数のソースを持つメッシュを作成し、エラーを特定する方法を説明します。 詳細とコードサンプルについては、[ メッシュの作成](https://developer.adobe.com/graphql-mesh-gateway/gateway/create-mesh/#create-a-mesh-1){target="_blank"}を参照してください。
 
 ## この動画は誰のためのものでしょうか？
 
@@ -36,7 +32,7 @@ ht-degree: 0%
 * 名前の競合、スキーマの可用性、その他のスキーマ構文の問題などのエラーのトラブルシューティング方法
 * 変更された設定でメッシュを更新する
 
->[!VIDEO](https://video.tv.adobe.com/v/3419789?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3414125?learn=on)
 
 ## json設定ファイルの作成
 
