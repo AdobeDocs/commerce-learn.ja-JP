@@ -3,9 +3,9 @@ user-guide-title: ビデオとチュートリアル
 user-guide-description: ビデオとチュートリアルを通じて、Adobe Commerce と Magento Open Source について説明します。
 breadcrumb-title: ビデオとチュートリアル
 auto-video-transcripts: true
-source-git-commit: 47b35088f2d3139d58791a2f7d327159db8f2175
+source-git-commit: b98e827d7017c59b0df4c459ea913d69a55f0d56
 workflow-type: tm+mt
-source-wordcount: '915'
+source-wordcount: '924'
 ht-degree: 3%
 
 ---
@@ -149,6 +149,7 @@ ht-degree: 3%
       + [Adobe Exchangeからのアプリのインストール](../app-builder/install-app-builder-app.md)
       + [App Builderの概要](../app-builder/introduction-to-app-builder.md)
       + [分割支払いPOCの構築：App BuilderとAI ツール](../app-builder/split-payment-ai-tools/create-a-split-payment-poc-app-builder-and-ai-tools.md)
+      + [分割払いPOCの作成：App Builderの完全デモ](../app-builder/split-payment-ai-tools/create-a-split-payment-poc-app-builder-and-ai-tools-full-demo.md)
       + [App Builderの拡張性フレームワーク](../app-builder/extensibility-framework-commerce-eventing.md)
       + AI ツールを使用してカスタム配送料を作成する {#custom-shipping-rates-ai-tools}
          + [概要と設定](../app-builder/custom-shipping-rates-ai-tools/introduction-setup.md)
@@ -276,6 +277,4 @@ ht-degree: 3%
    + [コホートReport Builder](../business-intelligence/cohort-report-builder.md)
    + [SQL REPORT BUILDER](../business-intelligence/sql-report-builder.md)
    + [将来に向けて準備](../business-intelligence/prepare-for-future.md)
-
-
 
