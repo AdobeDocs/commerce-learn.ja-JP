@@ -3,9 +3,9 @@ user-guide-title: ビデオとチュートリアル
 user-guide-description: ビデオとチュートリアルを通じて、Adobe Commerce と Magento Open Source について説明します。
 breadcrumb-title: ビデオとチュートリアル
 auto-video-transcripts: true
-source-git-commit: b98e827d7017c59b0df4c459ea913d69a55f0d56
+source-git-commit: 2b41adb47f7e6dd482a9bf071f1b48b1456c8214
 workflow-type: tm+mt
-source-wordcount: '924'
+source-wordcount: '929'
 ht-degree: 3%
 
 ---
@@ -148,9 +148,11 @@ ht-degree: 3%
    + Adobe Developer App Builder {#adobe-developer-app-builder}
       + [Adobe Exchangeからのアプリのインストール](../app-builder/install-app-builder-app.md)
       + [App Builderの概要](../app-builder/introduction-to-app-builder.md)
-      + [分割支払いPOCの構築：App BuilderとAI ツール](../app-builder/split-payment-ai-tools/create-a-split-payment-poc-app-builder-and-ai-tools.md)
-      + [分割払いPOCの作成：App Builderの完全デモ](../app-builder/split-payment-ai-tools/create-a-split-payment-poc-app-builder-and-ai-tools-full-demo.md)
       + [App Builderの拡張性フレームワーク](../app-builder/extensibility-framework-commerce-eventing.md)
+      + AI ツールを使用して分割支払いPOCを作成する {#create-a-split-payment-poc}
+         + [分割支払いPOCの構築：App BuilderとAI ツール](../app-builder/split-payment-ai-tools/create-a-split-payment-poc-app-builder-and-ai-tools.md)
+         + [分割払いPOCの作成：App Builderの完全デモ](../app-builder/split-payment-ai-tools/create-a-split-payment-poc-app-builder-and-ai-tools-full-demo.md)
+
       + AI ツールを使用してカスタム配送料を作成する {#custom-shipping-rates-ai-tools}
          + [概要と設定](../app-builder/custom-shipping-rates-ai-tools/introduction-setup.md)
          + [AI ツールとAdobeスターターキット](../app-builder/custom-shipping-rates-ai-tools/ai-tools-starter-kit.md)

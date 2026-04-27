@@ -8,17 +8,17 @@ level: Intermediate
 doc-type: Technical Video
 duration: 955
 jira: KT-20902
-last-substantial-update: 2026-04-24T00:00:00Z
-source-git-commit: b98e827d7017c59b0df4c459ea913d69a55f0d56
+last-substantial-update: 2026-04-27T00:00:00Z
+source-git-commit: b3a9cee9ab59307883444650e8ee2423ab630b6b
 workflow-type: tm+mt
-source-wordcount: '1045'
+source-wordcount: '1076'
 ht-degree: 0%
 
 ---
 
 # 分割払いPOCの作成：App Builderの完全デモ
 
-これは、Adobe CommerceとAdobe App Builder上に構築された分割払い概念実証のエンドツーエンドのチュートリアルです。 このデモでは、既にAI ツールとプロンプトを使用して、処理中のCommerce拡張機能とApp Builder アプリを生成していることを前提としています。このビデオでは、そのコードが結合され、クラウドのCommerce（Luma）にデプロイされ、App Builder プロジェクトが公開された後に何が起こるかを示しています。
+これは、Adobe CommerceとAdobe App Builder上に構築された分割払い概念実証のエンドツーエンドのチュートリアルです。 このデモでは、既にAI ツールとプロンプトを使用して、処理中のCommerce拡張機能とApp Builder アプリを生成していることを前提としています。このビデオでは、そのコードが結合され、ネイティブのLuma テーマを使用してAdobe Commerce Cloud web サイトにデプロイされ、App Builder プロジェクトが公開された後に何が起こるかを示しています。
 
 買い物客は一部現金と一部&#x200B;**[!UICONTROL Store Credit]**&#x200B;で支払います。 Commerceは、同期チェックアウトとストアフロントに必要なAPIを所有し、App Builderはオーケストレーション、オペレーターワークフロー、I/O イベントコンシューマーを処理します。 参照実装では、多くのマーチャントにとって共通のパスであるEdge Delivery Services ストアフロントではなく、Commerce（PaaS）プロジェクトとLuma ネイティブチェックアウトを使用します。 別のトポロジで&#x200B;**Adobe Commerce as a Cloud Service**&#x200B;を使用する場合、App Builder コードは引き続き似ていますが、ストアフロントと処理中の作業は異なります。 オンプレミス、セルフホスト、Luma上のクラウド内のCommerceの場合、このビデオでは、新しい機能に対するインプロセスコードとApp Builderの実用的な分割を示します。
 
