@@ -3,9 +3,9 @@ user-guide-title: ビデオとチュートリアル
 user-guide-description: ビデオとチュートリアルを通じて、Adobe Commerce と Magento Open Source について説明します。
 breadcrumb-title: ビデオとチュートリアル
 auto-video-transcripts: true
-source-git-commit: 2b41adb47f7e6dd482a9bf071f1b48b1456c8214
+source-git-commit: 68c27de91287f83f044ec777de3ee0cda37704b2
 workflow-type: tm+mt
-source-wordcount: '929'
+source-wordcount: '932'
 ht-degree: 3%
 
 ---
@@ -152,7 +152,6 @@ ht-degree: 3%
       + AI ツールを使用して分割支払いPOCを作成する {#create-a-split-payment-poc}
          + [分割支払いPOCの構築：App BuilderとAI ツール](../app-builder/split-payment-ai-tools/create-a-split-payment-poc-app-builder-and-ai-tools.md)
          + [分割払いPOCの作成：App Builderの完全デモ](../app-builder/split-payment-ai-tools/create-a-split-payment-poc-app-builder-and-ai-tools-full-demo.md)
-
       + AI ツールを使用してカスタム配送料を作成する {#custom-shipping-rates-ai-tools}
          + [概要と設定](../app-builder/custom-shipping-rates-ai-tools/introduction-setup.md)
          + [AI ツールとAdobeスターターキット](../app-builder/custom-shipping-rates-ai-tools/ai-tools-starter-kit.md)
