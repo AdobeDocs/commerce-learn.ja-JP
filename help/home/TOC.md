@@ -3,9 +3,9 @@ user-guide-title: ビデオとチュートリアル
 user-guide-description: ビデオとチュートリアルを通じて、Adobe Commerce と Magento Open Source について説明します。
 breadcrumb-title: ビデオとチュートリアル
 auto-video-transcripts: true
-source-git-commit: e25c2abc470e1f3cb97b153d335482f8a004c644
+source-git-commit: 47b35088f2d3139d58791a2f7d327159db8f2175
 workflow-type: tm+mt
-source-wordcount: '876'
+source-wordcount: '915'
 ht-degree: 3%
 
 ---
@@ -97,7 +97,7 @@ ht-degree: 3%
 
 + 拡張機能 {#extensibility}
    + バックエンド開発 {#backend-development}
-      + [&#x200B; データベーステーブルを修正するためのベストプラクティス &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables.html?lang=ja)
+      + [データベーステーブルの修正に関するベストプラクティス](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables.html?lang=ja)
       + [モジュールの作成](../backend-development/create-module.md)
       + [製品属性の追加](../backend-development/add-product-attribute.md)
       + [依存関係インジェクションの例](../backend-development/dependency-injection.md)
@@ -148,6 +148,7 @@ ht-degree: 3%
    + Adobe Developer App Builder {#adobe-developer-app-builder}
       + [Adobe Exchangeからのアプリのインストール](../app-builder/install-app-builder-app.md)
       + [App Builderの概要](../app-builder/introduction-to-app-builder.md)
+      + [分割支払いPOCの構築：App BuilderとAI ツール](../app-builder/split-payment-ai-tools/create-a-split-payment-poc-app-builder-and-ai-tools.md)
       + [App Builderの拡張性フレームワーク](../app-builder/extensibility-framework-commerce-eventing.md)
       + AI ツールを使用してカスタム配送料を作成する {#custom-shipping-rates-ai-tools}
          + [概要と設定](../app-builder/custom-shipping-rates-ai-tools/introduction-setup.md)
@@ -164,7 +165,7 @@ ht-degree: 3%
          + [ローカルでのテスト](../app-builder/first-app/testing-locally.md)
          + [App Builder URLを使用したテスト](../app-builder/first-app/testing-app-builder-url.md)
          + [まとめ](../app-builder/first-app/conclusion.md)
-         + [&#x200B; モジュールのソースコードのサンプル](https://github.com/magento/app-builder-samples){target="_blank"}
+         + [サンプル モジュールのソースコード](https://github.com/magento/app-builder-samples){target="_blank"}
       + ADOBE COMMERCE用IO イベント {#io-events}
          + [入門IO イベント](../io-events/getting-started-io-events.md)
          + [Adobe Commerce 2.4.5 インストール](../io-events/2-4-5-installation.md)
