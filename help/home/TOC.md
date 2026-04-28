@@ -3,9 +3,9 @@ user-guide-title: ビデオとチュートリアル
 user-guide-description: ビデオとチュートリアルを通じて、Adobe Commerce と Magento Open Source について説明します。
 breadcrumb-title: ビデオとチュートリアル
 auto-video-transcripts: true
-source-git-commit: 68c27de91287f83f044ec777de3ee0cda37704b2
+source-git-commit: 4ce3ef13cbfc5a0001d4a89a6c040eb3fb605c82
 workflow-type: tm+mt
-source-wordcount: '932'
+source-wordcount: '1001'
 ht-degree: 3%
 
 ---
@@ -152,6 +152,15 @@ ht-degree: 3%
       + AI ツールを使用して分割支払いPOCを作成する {#create-a-split-payment-poc}
          + [分割支払いPOCの構築：App BuilderとAI ツール](../app-builder/split-payment-ai-tools/create-a-split-payment-poc-app-builder-and-ai-tools.md)
          + [分割払いPOCの作成：App Builderの完全デモ](../app-builder/split-payment-ai-tools/create-a-split-payment-poc-app-builder-and-ai-tools-full-demo.md)
+         + [分割払いPOC：アーキテクチャとデザインの決定](../app-builder/split-payment-ai-tools/split-payment-poc-architecture-and-decisions.md)
+         + [分割払いPOC：前提条件と環境の設定](../app-builder/split-payment-ai-tools/split-payment-poc-prerequisites-and-setup.md)
+         + [分割支払POC：環境変数リファレンス](../app-builder/split-payment-ai-tools/split-payment-poc-env-reference.md)
+         + [分割支払いPOC: Commerce モジュール AI プロンプト](../app-builder/split-payment-ai-tools/split-payment-poc-commerce-module-prompt.md)
+         + [分割支払いPOC: App Builder orchestrator AI プロンプト](../app-builder/split-payment-ai-tools/split-payment-poc-app-builder-orchestrator-prompt.md)
+         + [分割支払いPOC: Experience Cloud UI拡張機能AI プロンプト](../app-builder/split-payment-ai-tools/split-payment-poc-experience-cloud-ui-prompt.md)
+         + [分割払いPOC：テストと検証ガイド](../app-builder/split-payment-ai-tools/split-payment-poc-testing-and-verification.md)
+         + [分割払いPOC：概念実証の次のステップ](../app-builder/split-payment-ai-tools/split-payment-poc-next-steps.md)
+         + [分割支払いPOC：作成者向けチュートリアルクイックリファレンス](../app-builder/split-payment-ai-tools/split-payment-poc-tutorial-quick-reference.md)
       + AI ツールを使用してカスタム配送料を作成する {#custom-shipping-rates-ai-tools}
          + [概要と設定](../app-builder/custom-shipping-rates-ai-tools/introduction-setup.md)
          + [AI ツールとAdobeスターターキット](../app-builder/custom-shipping-rates-ai-tools/ai-tools-starter-kit.md)
