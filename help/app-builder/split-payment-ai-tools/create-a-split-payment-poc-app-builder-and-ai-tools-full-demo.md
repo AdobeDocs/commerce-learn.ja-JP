@@ -24,7 +24,7 @@ ht-degree: 0%
 
 ## ビデオ
 
->[!VIDEO](https://video.tv.adobe.com/v/3484087?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3484100?captions=jpn&learn=on)
 
 ## この動画は誰のためのものでしょうか？
 
