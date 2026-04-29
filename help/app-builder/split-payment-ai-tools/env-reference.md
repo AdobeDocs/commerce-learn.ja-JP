@@ -18,7 +18,7 @@ ht-degree: 0%
 
 # 分割支払POC：環境変数リファレンス
 
-すべてのコンポーネントで、同じ4つのCommerce OAuth資格情報が使用されます。 **[!UICONTROL Commerce Admin]**&#x200B;で、**[!UICONTROL Integration]**&#x200B;を1つ作成してから、下の`.env` ファイルごとに4つの値を再利用してください。 （アクティベーション手順については、[分割支払いPOC：前提条件と環境セットアップ ](./prerequisites-and-setup.md)を参照してください）。
+すべてのコンポーネントで、同じ4つのCommerce OAuth資格情報が使用されます。 **[!UICONTROL Commerce Admin]**&#x200B;で、**[!UICONTROL Integration]**&#x200B;を1つ作成してから、下の`.env` ファイルごとに4つの値を再利用してください。 （アクティベーション手順については、[分割支払いPOC：前提条件と環境セットアップ &#x200B;](./prerequisites-and-setup.md)を参照してください）。
 
 ## 4つのOAuth資格情報（どこでも使用）
 
