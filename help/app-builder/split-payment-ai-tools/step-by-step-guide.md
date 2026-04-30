@@ -18,7 +18,7 @@ ht-degree: 0%
 
 # 分割支払いPOC ステップバイステップの実装ガイド
 
-このページは、実装のチェックリストです。 [overview](./overview.md)と[の完全なデモ ](./full-demo.md)をすでに視聴しており、Commerce サイトとApp Builder プロジェクトの両方の準備ができていることを前提としています。 個々のチュートリアルページには、以下の各トピックの詳細が含まれています。このページを使用して、何をすべきか、どのような順序で行うべきかを確認してください。
+このページは、実装のチェックリストです。 [overview](./overview.md)と[の完全なデモ &#x200B;](./full-demo.md)をすでに視聴しており、Commerce サイトとApp Builder プロジェクトの両方の準備ができていることを前提としています。 個々のチュートリアルページには、以下の各トピックの詳細が含まれています。このページを使用して、何をすべきか、どのような順序で行うべきかを確認してください。
 
 ## 始める前に
 
@@ -49,7 +49,7 @@ ht-degree: 0%
 
 ### ステップ 1.1 - プロジェクトのプロンプトをカスタマイズする
 
-[Commerce モジュール AI プロンプト ](./commerce-module-prompt.md) ページを開き、プロンプトをコピーする前に次の点に注意してください。
+[Commerce モジュール AI プロンプト &#x200B;](./commerce-module-prompt.md) ページを開き、プロンプトをコピーする前に次の点に注意してください。
 
 * プロンプトで`Client`を実際のベンダー名に置き換えます
 * 別のモジュール名が必要な場合は、`SplitPayment`を置換します
@@ -90,7 +90,7 @@ mysql -u <user> -p <dbname> -e "DESCRIBE sales_order;" | grep split
 
 **機能：** App Builder オーケストレーター、シミュレーション スクリプト、および（オプションで）Experience Cloud UI拡張機能で使用される資格情報ファイルを準備します。 Commerce統合の同じ4つのOAuth値が、すべての`.env` ファイルで使用されます。
 
-コンポーネントごとの変数の完全なリストについては、[環境変数リファレンス ](./env-reference.md)を参照してください。
+コンポーネントごとの変数の完全なリストについては、[環境変数リファレンス &#x200B;](./env-reference.md)を参照してください。
 
 ### 手順2.1 - オーケストレーター`.env`を作成します。
 
@@ -126,7 +126,7 @@ cp commerce-backend-ui-1/.env.simulation.example commerce-backend-ui-1/.env.simu
 
 ### ステップ 3.1 - オーケストレータープロンプトを実行する
 
-[App Builder Orchestrator AI プロンプト ](./orchestrator-prompt.md)を開きます。 完全なプロンプトをコピーし、`split-payment-orchestrator/` ディレクトリから実行します。
+[App Builder Orchestrator AI プロンプト &#x200B;](./orchestrator-prompt.md)を開きます。 完全なプロンプトをコピーし、`split-payment-orchestrator/` ディレクトリから実行します。
 
 ### 手順3.2 – 依存関係のインストールとデプロイ
 
@@ -145,7 +145,7 @@ Adobe Developer Consoleで、App Builder プロジェクトワークスペース
 
 ## フェーズ 4：フロー全体のテスト
 
-確認の手順を順番に実行します。 [ テストと検証ガイド ](./testing-and-verification.md)には、以下の各ステップの完全なcurl コマンド、シミュレーションスクリプトの使用方法、およびトラブルシューティングのリファレンスが記載されています。
+確認の手順を順番に実行します。 [&#x200B; テストと検証ガイド &#x200B;](./testing-and-verification.md)には、以下の各ステップの完全なcurl コマンド、シミュレーションスクリプトの使用方法、およびトラブルシューティングのリファレンスが記載されています。
 
 ### 手順4.1 - REST エンドポイントがルーティング可能であることを確認する
 
@@ -218,7 +218,7 @@ node commerce-backend-ui-1/scripts/simulate-split-payment.mjs decline <entity_id
 
 ### ステップ 5.1 – 前提条件の確認
 
-Experience Cloud UI拡張機能には、OAuth統合値に加えてIMS資格情報が必要です。 プロンプトを実行する前に、[Experience Cloud UI拡張機能AI プロンプト ](./experience-cloud-ui-prompt.md) ページを読み、`OAUTH_CLIENT_ID`および関連するIMS変数に注意してください。
+Experience Cloud UI拡張機能には、OAuth統合値に加えてIMS資格情報が必要です。 プロンプトを実行する前に、[Experience Cloud UI拡張機能AI プロンプト &#x200B;](./experience-cloud-ui-prompt.md) ページを読み、`OAUTH_CLIENT_ID`および関連するIMS変数に注意してください。
 
 ### ステップ 5.2 - UI拡張機能プロンプトを実行する
 
@@ -245,6 +245,6 @@ aio app deploy
 | Commerceの`"The signature is invalid"` | `COMMERCE_BASE_URL`の末尾にスラッシュがないことを確認してください。統合がアクティブになっていることを確認してください |
 | デモダッシュボードに注文が表示されない | `extension_attributes.split_cash_status`が直接`GET /rest/V1/orders`応答に表示されていることを確認してください |
 
-トラブルシューティングの詳細については、[ テストと検証ガイド ](./testing-and-verification.md#common-issues-and-fixes)を参照してください。
+トラブルシューティングの詳細については、[&#x200B; テストと検証ガイド &#x200B;](./testing-and-verification.md#common-issues-and-fixes)を参照してください。
 
 {{$include /help/_includes/split-payment-ai-tools-related-links.md}}

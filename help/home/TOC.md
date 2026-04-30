@@ -34,7 +34,7 @@ ht-degree: 3%
    + [複数のweb サイト](../cloud/multiple-websites.md)
    + [リードデータとプロモーションの体験](../cloud/experience-lead-data-promoitions.md)
    + [AEM Assets](../cloud/aem-assets.md)
-   + [ セルフホスト型ソリューションからの移行](../cloud/overview.md)
+   + [&#x200B; セルフホスト型ソリューションからの移行](../cloud/overview.md)
    + [Fastlyを使用してアクセスを制限](../cloud/limit-website-access-using-fastly.md)
    + 技術的なオンボーディングとハードウェアの引き継ぎ {#technical-onboarding-hardware-handoff}
       + [インフラと開発のベストプラクティス](../cloud/infrastructure-development-best-practices.md)
@@ -53,11 +53,11 @@ ht-degree: 3%
          + [顧客](../commerce-as-a-cloud-service/webapi-rest/customer.md)
       + 製品概要{#product-overview}
          + [概要](../commerce-as-a-cloud-service/product-overview/introduction.md)
-         + [設定エクスペリエンス ](../commerce-as-a-cloud-service/product-overview/setup-experience.md)
-         + [ コンテンツオーサリング ](../commerce-as-a-cloud-service/product-overview/content-authoring.md)
-         + [ コンテンツのローカライズとスケジュール ](../commerce-as-a-cloud-service/product-overview/localize-and-schedule-content.md)
+         + [設定エクスペリエンス &#x200B;](../commerce-as-a-cloud-service/product-overview/setup-experience.md)
+         + [&#x200B; コンテンツオーサリング &#x200B;](../commerce-as-a-cloud-service/product-overview/content-authoring.md)
+         + [&#x200B; コンテンツのローカライズとスケジュール &#x200B;](../commerce-as-a-cloud-service/product-overview/localize-and-schedule-content.md)
          + [GenAIを利用したコンテンツ制作](../commerce-as-a-cloud-service/product-overview/genai-powered-content-creation.md)
-         + [ カタログ管理およびマーチャンダイジングサービス ](../commerce-as-a-cloud-service/product-overview/catalog-management-and-merchandising-services.md)
+         + [&#x200B; カタログ管理およびマーチャンダイジングサービス &#x200B;](../commerce-as-a-cloud-service/product-overview/catalog-management-and-merchandising-services.md)
          + [Commerce ストアフロントの実験](../commerce-as-a-cloud-service/product-overview/commerce-storefront-experimentation.md)
          + [Commerce ストアフロントの速度](../commerce-as-a-cloud-service/product-overview/commerce-storefront-speed.md)
          + [コマースストアフロントの買い物客のジャーニー](../commerce-as-a-cloud-service/product-overview/commerce-storefront-full-shopper-journey.md)
@@ -81,10 +81,10 @@ ht-degree: 3%
       + [コンポーザブルCommerce](../capabilities/what-is-composable-commerce.md)
       + [品質パッチツール](../capabilities/quality-patch-tool.md)
    + 製品の作成 {#create-products}
-      + [ シンプルな製品](../site-management/create-simple-product.md)
-      + [ バーチャル製品](../site-management/create-virtual-product.md)
+      + [&#x200B; シンプルな製品](../site-management/create-simple-product.md)
+      + [&#x200B; バーチャル製品](../site-management/create-virtual-product.md)
       + [ダウンロード可能な製品](../site-management/create-downloadable-product.md)
-      + [ グループ化された製品](../site-management/create-grouped-product.md)
+      + [&#x200B; グループ化された製品](../site-management/create-grouped-product.md)
       + [設定可能な製品](../site-management/create-configurable-product.md)
       + [バンドル製品](../site-management/create-bundle-product.md)
       + [ギフトカード商品](../site-management/create-gift-card-product.md)
@@ -131,7 +131,7 @@ ht-degree: 3%
             + [買い物客体験](../edge-delivery-services/shopper-experience.md)
       + ヘッドレスアーキテクチャ {#headless-architecture}
          + ヘッドレス CMSの概要 {#introduction-to-headless}
-            + [ ヘッドレスアーキテクチャ – セッション 1](../headless/session-1.md)
+            + [&#x200B; ヘッドレスアーキテクチャ – セッション 1](../headless/session-1.md)
          + PWA Studioの概要 {#introduction}
             + [概要](../pwa/introduction/1-overview.md)
             + [PWA Studio tools](../pwa/introduction/2-pwa-studio-tools.md)
@@ -200,7 +200,7 @@ ht-degree: 3%
    + [Observability overview](../observability/overview.md)
    + [テレメトリを開く](../observability/open-telemetry.md)
    + [デモの設定と設定](../observability/demo-setup-configuration.md)
-   + [ デモ ](../observability/demo.md)
+   + [&#x200B; デモ &#x200B;](../observability/demo.md)
 + グローバル参照アーキテクチャ {#global-reference-architecture-implementation-techniques}
    + [概要](../global-reference-architecture/overview.md)
    + [Gitを分割](../global-reference-architecture/split-git.md)
@@ -254,7 +254,7 @@ ht-degree: 3%
    + [関連製品ルールの管理](../site-management/related-product-rules.md)
    + [商品レコメンデーションの設定](../site-management/product-recommendations.md)
    + [ライブサーチの概要](../site-management/live-search.md)
-   + [ レコメンデーションのライブ検索](../site-management/live-search-recommendations.md)
+   + [&#x200B; レコメンデーションのライブ検索](../site-management/live-search-recommendations.md)
    + [CommerceとAJOの統合](../site-management/integrate-commerce-ajo.md)
 + 注文とフルフィルメント {#orders}
    + [注文ステータスの管理](../orders-and-fulfillment/order-status.md)
