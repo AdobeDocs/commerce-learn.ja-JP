@@ -4,9 +4,9 @@ user-guide-description: ビデオとチュートリアルを通じて、Adobe Co
 breadcrumb-title: ビデオとチュートリアル
 auto-video-transcripts: true
 author: Russell A.
-source-git-commit: 3737713df7e1bf1478550f9cc28d74f30e1e98cf
+source-git-commit: be274a0e69527597ddad238ecbb7a46a7546ed84
 workflow-type: tm+mt
-source-wordcount: '967'
+source-wordcount: '958'
 ht-degree: 3%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 3%
    + [複数のweb サイト](../cloud/multiple-websites.md)
    + [リードデータとプロモーションの体験](../cloud/experience-lead-data-promoitions.md)
    + [AEM Assets](../cloud/aem-assets.md)
-   + [&#x200B; セルフホスト型ソリューションからの移行](../cloud/overview.md)
+   + [ セルフホスト型ソリューションからの移行](../cloud/overview.md)
    + [Fastlyを使用してアクセスを制限](../cloud/limit-website-access-using-fastly.md)
    + 技術的なオンボーディングとハードウェアの引き継ぎ {#technical-onboarding-hardware-handoff}
       + [インフラと開発のベストプラクティス](../cloud/infrastructure-development-best-practices.md)
@@ -53,11 +53,11 @@ ht-degree: 3%
          + [顧客](../commerce-as-a-cloud-service/webapi-rest/customer.md)
       + 製品概要{#product-overview}
          + [概要](../commerce-as-a-cloud-service/product-overview/introduction.md)
-         + [設定エクスペリエンス &#x200B;](../commerce-as-a-cloud-service/product-overview/setup-experience.md)
-         + [&#x200B; コンテンツオーサリング &#x200B;](../commerce-as-a-cloud-service/product-overview/content-authoring.md)
-         + [&#x200B; コンテンツのローカライズとスケジュール &#x200B;](../commerce-as-a-cloud-service/product-overview/localize-and-schedule-content.md)
+         + [設定エクスペリエンス ](../commerce-as-a-cloud-service/product-overview/setup-experience.md)
+         + [ コンテンツオーサリング ](../commerce-as-a-cloud-service/product-overview/content-authoring.md)
+         + [ コンテンツのローカライズとスケジュール ](../commerce-as-a-cloud-service/product-overview/localize-and-schedule-content.md)
          + [GenAIを利用したコンテンツ制作](../commerce-as-a-cloud-service/product-overview/genai-powered-content-creation.md)
-         + [&#x200B; カタログ管理およびマーチャンダイジングサービス &#x200B;](../commerce-as-a-cloud-service/product-overview/catalog-management-and-merchandising-services.md)
+         + [ カタログ管理およびマーチャンダイジングサービス ](../commerce-as-a-cloud-service/product-overview/catalog-management-and-merchandising-services.md)
          + [Commerce ストアフロントの実験](../commerce-as-a-cloud-service/product-overview/commerce-storefront-experimentation.md)
          + [Commerce ストアフロントの速度](../commerce-as-a-cloud-service/product-overview/commerce-storefront-speed.md)
          + [コマースストアフロントの買い物客のジャーニー](../commerce-as-a-cloud-service/product-overview/commerce-storefront-full-shopper-journey.md)
@@ -81,10 +81,10 @@ ht-degree: 3%
       + [コンポーザブルCommerce](../capabilities/what-is-composable-commerce.md)
       + [品質パッチツール](../capabilities/quality-patch-tool.md)
    + 製品の作成 {#create-products}
-      + [&#x200B; シンプルな製品](../site-management/create-simple-product.md)
-      + [&#x200B; バーチャル製品](../site-management/create-virtual-product.md)
+      + [ シンプルな製品](../site-management/create-simple-product.md)
+      + [ バーチャル製品](../site-management/create-virtual-product.md)
       + [ダウンロード可能な製品](../site-management/create-downloadable-product.md)
-      + [&#x200B; グループ化された製品](../site-management/create-grouped-product.md)
+      + [ グループ化された製品](../site-management/create-grouped-product.md)
       + [設定可能な製品](../site-management/create-configurable-product.md)
       + [バンドル製品](../site-management/create-bundle-product.md)
       + [ギフトカード商品](../site-management/create-gift-card-product.md)
@@ -98,7 +98,7 @@ ht-degree: 3%
 
 + 拡張機能 {#extensibility}
    + バックエンド開発 {#backend-development}
-      + [データベーステーブルの修正に関するベストプラクティス](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables.html?lang=ja)
+      + [データベーステーブルの修正に関するベストプラクティス](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables.html)
       + [モジュールの作成](../backend-development/create-module.md)
       + [製品属性の追加](../backend-development/add-product-attribute.md)
       + [依存関係インジェクションの例](../backend-development/dependency-injection.md)
@@ -131,7 +131,7 @@ ht-degree: 3%
             + [買い物客体験](../edge-delivery-services/shopper-experience.md)
       + ヘッドレスアーキテクチャ {#headless-architecture}
          + ヘッドレス CMSの概要 {#introduction-to-headless}
-            + [&#x200B; ヘッドレスアーキテクチャ – セッション 1](../headless/session-1.md)
+            + [ ヘッドレスアーキテクチャ – セッション 1](../headless/session-1.md)
          + PWA Studioの概要 {#introduction}
             + [概要](../pwa/introduction/1-overview.md)
             + [PWA Studio tools](../pwa/introduction/2-pwa-studio-tools.md)
@@ -152,16 +152,17 @@ ht-degree: 3%
       + [App Builderの拡張性フレームワーク](../app-builder/extensibility-framework-commerce-eventing.md)
       + AI ツールを使用して分割支払いPOCを作成する {#create-a-split-payment-poc}
          + [App BuilderとAI ツール](../app-builder/split-payment-ai-tools/overview.md)
-         + [App Builderのフルデモを使用して支払いPOCを分割](../app-builder/split-payment-ai-tools/full-demo.md)
+         + [完全デモ](../app-builder/split-payment-ai-tools/full-demo.md)
+         + [ステップバイステップ実装ガイド](../app-builder/split-payment-ai-tools/step-by-step-guide.md)
          + [アーキテクチャおよび設計の決定](../app-builder/split-payment-ai-tools/architecture-and-decisions.md)
          + [前提条件と環境の設定](../app-builder/split-payment-ai-tools/prerequisites-and-setup.md)
-         + [環境変数リファレンス](../app-builder/split-payment-ai-tools/env-reference.md)
-         + [Commerce モジュール AI プロンプト](../app-builder/split-payment-ai-tools/commerce-module-prompt.md)
-         + [App Builder Orchestrator AI プロンプト](../app-builder/split-payment-ai-tools/orchestrator-prompt.md)
-         + [Experience Cloud UI拡張機能AI プロンプト](../app-builder/split-payment-ai-tools/experience-cloud-ui-prompt.md)
-         + [テストおよび検証ガイド](../app-builder/split-payment-ai-tools/testing-and-verification.md)
-         + [概念実証の次のステップ](../app-builder/split-payment-ai-tools/next-steps.md)
-         + [作成者のためのクイックリファレンス](../app-builder/split-payment-ai-tools/quick-reference.md)
+         + [テストと検証](../app-builder/split-payment-ai-tools/testing-and-verification.md)
+         + [次のステップ](../app-builder/split-payment-ai-tools/next-steps.md)
+         + リファレンスリソース {#split-payment-resources}
+            + [環境変数リファレンス](../app-builder/split-payment-ai-tools/env-reference.md)
+            + [Commerce モジュール AI プロンプト](../app-builder/split-payment-ai-tools/commerce-module-prompt.md)
+            + [App Builder Orchestrator AI プロンプト](../app-builder/split-payment-ai-tools/orchestrator-prompt.md)
+            + [Experience Cloud UI拡張機能AI プロンプト](../app-builder/split-payment-ai-tools/experience-cloud-ui-prompt.md)
       + AI ツールを使用してカスタム配送料を作成する {#custom-shipping-rates-ai-tools}
          + [概要と設定](../app-builder/custom-shipping-rates-ai-tools/introduction-setup.md)
          + [AI ツールとAdobeスターターキット](../app-builder/custom-shipping-rates-ai-tools/ai-tools-starter-kit.md)
@@ -199,7 +200,7 @@ ht-degree: 3%
    + [Observability overview](../observability/overview.md)
    + [テレメトリを開く](../observability/open-telemetry.md)
    + [デモの設定と設定](../observability/demo-setup-configuration.md)
-   + [&#x200B; デモ &#x200B;](../observability/demo.md)
+   + [ デモ ](../observability/demo.md)
 + グローバル参照アーキテクチャ {#global-reference-architecture-implementation-techniques}
    + [概要](../global-reference-architecture/overview.md)
    + [Gitを分割](../global-reference-architecture/split-git.md)
@@ -253,7 +254,7 @@ ht-degree: 3%
    + [関連製品ルールの管理](../site-management/related-product-rules.md)
    + [商品レコメンデーションの設定](../site-management/product-recommendations.md)
    + [ライブサーチの概要](../site-management/live-search.md)
-   + [&#x200B; レコメンデーションのライブ検索](../site-management/live-search-recommendations.md)
+   + [ レコメンデーションのライブ検索](../site-management/live-search-recommendations.md)
    + [CommerceとAJOの統合](../site-management/integrate-commerce-ajo.md)
 + 注文とフルフィルメント {#orders}
    + [注文ステータスの管理](../orders-and-fulfillment/order-status.md)
