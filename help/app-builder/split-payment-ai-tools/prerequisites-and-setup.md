@@ -9,7 +9,7 @@ doc-type: Tutorial
 duration: 262
 jira: KT-20902
 last-substantial-update: 2026-04-27T00:00:00Z
-source-git-commit: 1e2c7e0e6d0f2d174b88406ce3fb7c787676ecee
+source-git-commit: d5f1e76c3a5127698f2933810fca218b79082571
 workflow-type: tm+mt
 source-wordcount: '741'
 ht-degree: 1%
@@ -177,27 +177,27 @@ node scripts/simulate-split-payment.mjs show 42
 
 ## &#x200B;8. Fastly （Commerce Cloudのみ）
 
-App Builder actions call Commerce over REST (`/rest/V1/split-payment/orders/...`). If your Commerce Cloud project uses Fastly with IP allowlisting, the App Builder runtime egress IP addresses must be allowlisted.
+App Builder アクションは、REST （`/rest/V1/split-payment/orders/...`）経由でCommerceを呼び出します。 Commerce Cloud プロジェクトでIP 許可リストに加えるでFastlyを使用する場合は、App Builder ランタイムエグレス IP アドレスを許可リストに加えるする必要があります。
 
-**How to check:** Run the simulation script first (direct curl with OAuth signing). If that works but the App Builder action returns `403`, Fastly is likely blocking the request.
+**確認方法：** シミュレーションスクリプトを最初に実行します（OAuth署名を使用して直接カール）。 これが機能するが、App Builder アクションが`403`を返す場合、Fastlyはリクエストをブロックしている可能性があります。
 
-Use Adobe’s current documentation for App Builder egress IP ranges and add them to your Fastly configuration as needed.
+Adobeの現在のドキュメントでApp Builderの出力IP範囲を確認し、必要に応じてFastly設定に追加してください。
 
 
-## Verification checklist
+## 確認用チェックリスト
 
-Before you start the build prompts, confirm the following:
+ビルドプロンプトを開始する前に、次の点を確認してください。
 
-* [ ] Commerce version is 2.4.5 or later
-* [ ] I/O eventing is enabled (Commerce Cloud) and deployed
-* [ ] Cash on delivery is enabled with the title set exactly to `Cash`
-* [ ] Store credit is enabled
-* [ ] The test customer has at least $50 store credit
-* [ ] The Commerce integration is created and activated, and all four OAuth values are saved
-* [ ] The App Builder project has the I/O Events service and the Commerce event provider configured
-* [ ] `aio login` is complete and the correct workspace is selected with `aio app use`
-* [ ] Node.js 18 or later is installed and the `aio` CLI is installed
-* [ ] `.env` files are prepared per [Split payment POC: environment variables reference](split-payment-poc-env-reference.md) (and your source package, if you use one)
+* [ ] Commerce バージョンは2.4.5以降です
+* [ ]個のI/O イベントが有効（Commerce Cloud）になっていて、デプロイされています
+* [ ]代金引換は、タイトルが`Cash`に正確に設定された状態で有効になっています
+* [ ] ストアクレジットが有効です
+* [ ] テストのお客様は、少なくとも$50 ストアクレジットを持っています
+* [ ] Commerce統合が作成され、アクティブ化され、4つのOAuth値がすべて保存されます
+* [ ] App Builder プロジェクトには、I/O Events サービスとCommerce イベントプロバイダーが設定されています
+* [ ] `aio login`が完了し、`aio app use`で正しいワークスペースが選択されました
+* [ ] Node.js 18以降がインストールされ、`aio` CLIがインストールされています
+* [ ] `.env` ファイルは、[分割支払いPOC：環境変数リファレンス &#x200B;](./env-reference.md) （およびソースパッケージを使用している場合）ごとに準備されます
 
 
 {{$include /help/_includes/split-payment-ai-tools-related-links.md}}

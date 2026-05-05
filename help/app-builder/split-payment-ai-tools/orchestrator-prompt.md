@@ -1,6 +1,6 @@
 ---
 title: '分割支払いPOC: App Builder orchestrator AI プロンプト'
-description: このプロンプトを使用して、I/O イベント、payment-orchestrator、web アクション、デモダッシュボード、aio アプリのデプロイなどのsplit-payment-orchestrator アプリを構築する方法について説明します。
+description: このプロンプトを使用してsplit-payment-orchestrator アプリを構築する方法を説明します。 I/O イベント、payment-orchestrator、web アクション、デモダッシュボード、aio アプリのデプロイ。
 feature: App Builder, Configuration, Eventing, Extensibility, Paas, REST
 topic: App Builder, Commerce, Development, I/O Events, Integrations, Runtime
 role: Developer, Leader, User
@@ -9,7 +9,7 @@ doc-type: Tutorial
 duration: 421
 jira: KT-20902
 last-substantial-update: 2026-04-27T00:00:00Z
-source-git-commit: beb22335cec97141b46ddbbca97d21b216c55a80
+source-git-commit: 8dfbf2694378aae76c91afa11bfee7d93077d8ba
 workflow-type: tm+mt
 source-wordcount: '927'
 ht-degree: 0%
@@ -26,8 +26,8 @@ ht-degree: 0%
 
 ## 実行する前
 
-* [分割支払いPOC：前提条件と環境の設定](split-payment-poc-prerequisites-and-setup.md)を完了します。
-* [分割支払いPOC：環境変数リファレンス &#x200B;](split-payment-poc-env-reference.md)と`.env` ファイルをプロジェクトで準備します。
+* [分割支払いPOC：前提条件と環境の設定](./prerequisites-and-setup.md)を完了します。
+* [分割支払いPOC：環境変数リファレンス &#x200B;](./env-reference.md)と`.env` ファイルをプロジェクトで準備します。
 
 
 ## プロンプト

@@ -1,6 +1,6 @@
 ---
 title: '分割支払いPOC: Commerce モジュール AI プロンプト'
-description: このプロンプトを使用して、REST、プラグイン、チェックアウト JavaScript、I/O イベント、および有効化、コンパイル、デプロイ コマンドのClient_SplitPaymentを生成する方法を説明します。
+description: このプロンプトを使用してClient_SplitPaymentを生成する方法を説明します。 REST、プラグイン、チェックアウト、JavaScript、I/O イベント、有効にする、コンパイル、デプロイの各コマンド。
 feature: App Builder, Backend Development, Eventing, Extensibility, Paas, REST, Orders
 topic: App Builder, Commerce, Development, I/O Events, Integrations, Runtime
 role: Developer, Leader, User
@@ -9,7 +9,7 @@ doc-type: Tutorial
 duration: 503
 jira: KT-20902
 last-substantial-update: 2026-04-27T00:00:00Z
-source-git-commit: beb22335cec97141b46ddbbca97d21b216c55a80
+source-git-commit: 8dfbf2694378aae76c91afa11bfee7d93077d8ba
 workflow-type: tm+mt
 source-wordcount: '1207'
 ht-degree: 1%

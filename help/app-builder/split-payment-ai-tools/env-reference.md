@@ -9,7 +9,7 @@ doc-type: Tutorial
 duration: 115
 jira: KT-20902
 last-substantial-update: 2026-04-27T00:00:00Z
-source-git-commit: 1e2c7e0e6d0f2d174b88406ce3fb7c787676ecee
+source-git-commit: d5f1e76c3a5127698f2933810fca218b79082571
 workflow-type: tm+mt
 source-wordcount: '243'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 # 分割支払POC：環境変数リファレンス
 
-すべてのコンポーネントで、同じ4つのCommerce OAuth資格情報が使用されます。 **[!UICONTROL Commerce Admin]**&#x200B;で、**[!UICONTROL Integration]**&#x200B;を1つ作成してから、下の`.env` ファイルごとに4つの値を再利用してください。 （アクティベーション手順については、[分割支払いPOC：前提条件と環境セットアップ &#x200B;](split-payment-poc-prerequisites-and-setup.md)を参照してください）。
+すべてのコンポーネントで、同じ4つのCommerce OAuth資格情報が使用されます。 **[!UICONTROL Commerce Admin]**&#x200B;で、**[!UICONTROL Integration]**&#x200B;を1つ作成してから、下の`.env` ファイルごとに4つの値を再利用してください。 （アクティベーション手順については、[分割支払いPOC：前提条件と環境セットアップ &#x200B;](./prerequisites-and-setup.md)を参照してください）。
 
 ## 4つのOAuth資格情報（どこでも使用）
 
@@ -107,11 +107,11 @@ COMMERCE_ACCESS_TOKEN_SECRET=
 
 **`PAYMENT_THRESHOLD`** — **[!UICONTROL Commerce]** システム構成の`split_payment/general/threshold`と一致する必要があります。 値が見つからない場合、数値でない場合、または`0`以下の場合、両側のデフォルトは`100`です。 **[!UICONTROL Commerce]**&#x200B;のしきい値を変更する場合は、App Builder `.env`を一致するように更新します。
 
-**`DEMO_UI_SECRET`** — オプションですが、localhost以外のデプロイメントでは推奨されます。 Anyone with the dashboard URL can list orders and run accept and decline if this is empty. For a real staging environment, set a shared secret.
+**`DEMO_UI_SECRET`** — オプションですが、localhost以外のデプロイメントでは推奨されます。 ダッシュボードのURLを知っている人なら誰でも注文をリストアップし、空の場合は「承認」と「辞退」を実行できます。 実際のステージング環境の場合は、共有シークレットを設定します。
 
-**`COMMERCE_BASE_URL`** — Never include a trailing slash. The Commerce REST client appends `/rest/V1/` automatically.
+**`COMMERCE_BASE_URL`** – 末尾にスラッシュを含めないでください。 Commerce REST クライアントは`/rest/V1/`を自動的に追加します。
 
-**`AIO_CLI_ENV`** — Set to `stage` for the **[!UICONTROL Stage]** workspace. Change to `prod` when you deploy to **[!UICONTROL Production]**.
+**`AIO_CLI_ENV`** — **[!UICONTROL Stage]** ワークスペースの`stage`に設定します。 **[!UICONTROL Production]**&#x200B;にデプロイするときに`prod`に変更します。
 
 
 {{$include /help/_includes/split-payment-ai-tools-related-links.md}}

@@ -1,6 +1,6 @@
 ---
-title: 'Split payment POC: testing and verification guide'
-description: 'Learn how to verify the split payment POC: Commerce install, REST, checkout, threshold, simulation accept and decline, demo dashboard, and App Builder logs.'
+title: 分割払いPOC：テストと検証ガイド
+description: 分割支払いPOCを確認する方法を説明します。 Commerceのインストール、REST、チェックアウト、しきい値、シミュレーションの承認と拒否、デモダッシュボード、App Builder ログ。
 feature: App Builder, Configuration, Extensibility, Paas, Payments, REST, Orders
 topic: App Builder, Commerce, Development, I/O Events, Integrations, Runtime
 role: Developer, Leader, User
@@ -9,19 +9,19 @@ doc-type: Tutorial
 duration: 359
 jira: KT-20902
 last-substantial-update: 2026-04-27T00:00:00Z
-source-git-commit: beb22335cec97141b46ddbbca97d21b216c55a80
+source-git-commit: 8dfbf2694378aae76c91afa11bfee7d93077d8ba
 workflow-type: tm+mt
 source-wordcount: '907'
 ht-degree: 0%
 
 ---
 
-# Split payment POC: testing and verification guide
+# 分割払いPOC：テストと検証ガイド
 
-This guide walks you through verifying that every component works correctly, in the order they should be tested. Start from the bottom (Commerce module) and work up (App Builder).
+このガイドでは、すべてのコンポーネントがテストする順序で正しく動作することを確認する方法について説明します。 下部（Commerce モジュール）から始めて作業する（App Builder）。
 
 
-## Step 1 — Verify Commerce Module Installation
+## 手順1 - Commerce Moduleのインストールを確認する
 
 `bin/magento setup:upgrade`および`bin/magento setup:di:compile`の実行後：
 
@@ -35,20 +35,20 @@ bin/magento doctrine:schema:validate
 mysql -u <user> -p <dbname> -e "DESCRIBE sales_order;" | grep split
 ```
 
-Expected output: four columns starting with `split_` visible in `sales_order`.
+予想される出力：`sales_order`に`split_`で始まる4列が表示されます。
 
 
-## Step 2 — Verify Commerce Admin Configuration
+## 手順2 - Commerce管理者設定の確認
 
-In Commerce Admin:
+Commerce Adminの場合：
 1. **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Sales]** > **[!UICONTROL Payment Methods]** — **[!UICONTROL Cash On Delivery]**&#x200B;がタイトル `Cash`で有効になっていることを確認します
 2. **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Customers]** > **[!UICONTROL Customer Configuration]** > **[!UICONTROL Store Credit Options]** – 有効化を確認
-3. Confirm your test customer has store credit: **[!UICONTROL Customers]** > **[!UICONTROL All Customers]** > *[customer]* > **[!UICONTROL Store Credit]**
+3. テスト用のお客様がストアクレジットを持っていることを確認します：**[!UICONTROL Customers]** > **[!UICONTROL All Customers]** > *[お客様]* > **[!UICONTROL Store Credit]**
 
 
-## Step 3 — Verify REST Endpoints Are Accessible
+## ステップ 3 - REST エンドポイントにアクセスできることを確認する
 
-Use curl to confirm the endpoints respond (they will reject unauthorized requests, but a 401 confirms they&#39;re routed correctly):
+curlを使用して、エンドポイントが応答することを確認します（エンドポイントは不正なリクエストを拒否しますが、401は正しくルーティングされていることを確認します）。
 
 ```bash
 # Should return 401 (not 404) — endpoint exists but requires auth
@@ -61,17 +61,17 @@ curl -X POST https://your-store.example.com/rest/V1/split-payment/set \
 ```
 
 
-## Step 4 — Test the Checkout UI
+## ステップ 4 - チェックアウト UIをテストする
 
-1. Log in to the storefront as your test customer (who has store credit)
+1. テスト顧客（ストアクレジットを持つ顧客）としてストアフロントにログインします
 2. 商品をカートに追加する（送料+税込み後の合計が100 ドル未満）
-3. Proceed to checkout
-4. At the payment step, select **Cash** (or Cash On Delivery)
-5. Verify the split payment fields appear:
-   * Your store credit balance shown
-   * Cash amount field pre-filled with the order total
-   * &quot;Store credit toward this order&quot; field showing $0.00 (since cash = full order total)
-6. Reduce the cash amount (e.g., enter $10 for a $50 order)
+3. チェックアウトに進む
+4. 支払い手順で、**Cash** （または代金引換）を選択します
+5. 分割された支払いフィールドが表示されることを確認します。
+   * ストアのクレジット残高が表示されます
+   * 注文合計が事前に入力された現金金額フィールド
+   * &quot;Store credit toward this order&quot; フィールドに$0.00が表示されている（現金=注文総額から）
+6. 現金の金額を減らします（例：注文が50 ドルの場合は10 ドル入力）。
 7. ストアのクレジット部分が$40.00に更新されていることを確認します。
 8. メッセージが表示されることを確認します：`"The remaining $40.00 will automatically be applied from your store credit."`
 
@@ -230,33 +230,33 @@ aio runtime activation logs <activation-id>
 
 **原因：** `io_events.xml` フィールドリストに`entity_id`が含まれていないか、イベントペイロードの形状が変更されています。
 
-**Fix:**
-* Confirm `io_events.xml` includes `entity_id` in the field list
-* In the action, log `JSON.stringify(params)` temporarily to see the full payload shape
-* Check that the `extractValue()` function is finding the right nesting level
+**修正：**
+* `io_events.xml`がフィールドリストに`entity_id`を含むことを確認してください
+* アクションで、`JSON.stringify(params)`を一時的にログに記録して、ペイロードの完全な形状を確認します
+* `extractValue()`関数が適切な入れ子レベルを見つけていることを確認してください
 
-### Orders don&#39;t show in demo dashboard
+### デモダッシュボードに注文が表示されない
 
-**Cause:** Commerce REST `orders` search criteria not returning orders, or `split_cash_status` field not in the REST response.
+**原因：** Commerce REST `orders`の検索条件が注文を返していないか、REST応答に`split_cash_status` フィールドが含まれていません。
 
-**Fix:**
-* Confirm `OrderRepositoryPlugin` is loading extension attributes correctly
-* Test directly: `GET /rest/V1/orders?searchCriteria[pageSize]=5` and check if `extension_attributes.split_cash_status` appears in the response
-* Check that `extension_attributes.xml` is correctly declaring the `split_cash_status` attribute on `OrderInterface`
+**修正：**
+* `OrderRepositoryPlugin`が拡張機能の属性を正しく読み込んでいることを確認してください
+* 直接テスト：`GET /rest/V1/orders?searchCriteria[pageSize]=5`。応答に`extension_attributes.split_cash_status`が表示されているかどうかを確認します
+* `extension_attributes.xml`が`OrderInterface`で`split_cash_status`属性を正しく宣言していることを確認してください
 
 
-## Verification Checklist
+## 確認用チェックリスト
 
-* [ ] `split_*` columns visible in `sales_order` table
-* [ ] REST endpoints return 401 (not 404) when called without auth
-* [ ] Split payment UI renders at checkout when Cash is selected
-* [ ] Validation messages work (overpayment, insufficient credit)
-* [ ] Threshold guard blocks orders > $100
-* [ ] Placed order has `pending_payment` status and App Builder comments
-* [ ] `simulate-split-payment.mjs list` shows the test order with split amounts
-* [ ] `simulate-split-payment.mjs accept <id>` moves order to `processing` with invoice and shipment
-* [ ] `simulate-split-payment.mjs decline <id>` cancels the order
-* [ ] Demo dashboard lists pending orders and accept/decline work from the UI
+* [ ] `split_*`列が`sales_order` テーブルに表示されます
+* [ ]個のREST エンドポイントは、認証なしで呼び出されると401 （404ではない）を返します
+* [ ] 「現金」が選択されている場合、分割支払UIはチェックアウト時にレンダリングされます
+* [ ]検証メッセージが機能します（過払い、クレジット不足）
+* [ ]しきい値の監視ブロック注文> $100
+* [ ]件の注文には`pending_payment`件のステータスとApp Builder コメントがあります
+* [ ] `simulate-split-payment.mjs list`は、分割金額を含むテスト注文を表示します
+* [ ] `simulate-split-payment.mjs accept <id>`様は、請求書と発送を含む注文を`processing`様に移動します
+* [ ] `simulate-split-payment.mjs decline <id>`は注文をキャンセルします
+* [ ]件のデモダッシュボードには、保留中の注文とUIからの作業の承認/拒否が一覧表示されます
 
 
 {{$include /help/_includes/split-payment-ai-tools-related-links.md}}

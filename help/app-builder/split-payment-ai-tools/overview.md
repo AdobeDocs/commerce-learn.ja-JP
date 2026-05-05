@@ -8,7 +8,7 @@ level: Intermediate
 doc-type: Technical Video
 duration: 260
 jira: KT-20791
-source-git-commit: 1e2c7e0e6d0f2d174b88406ce3fb7c787676ecee
+source-git-commit: 9add0b4bfa1eba33ec359adaa766b64711df25ba
 workflow-type: tm+mt
 source-wordcount: '574'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # 分割支払いPOCの構築：App BuilderとAI ツール
 
-This is the first of a set of tutorials that introduce you to using AI-assisted development to help you build a split payment proof of concept. Adobe App BuilderとAdobe Commerceをクラウド（PaaS）またはオンプレミスで使用する場合は、このセッションの概要から後の実践チュートリアルに移行します。 目標、高度なアーキテクチャ、シリーズの他の部分へのロードマップを期待します。
+これは、AIを活用した開発により、分割払いの概念実証の構築を支援する一連のチュートリアルの第一弾です。 Adobe App BuilderとAdobe Commerceをクラウド（PaaS）またはオンプレミスで使用する場合は、このセッションの概要から後の実践チュートリアルに移行します。 目標、高度なアーキテクチャ、シリーズの他の部分へのロードマップを期待します。
 
 ## ビデオ
 
@@ -32,12 +32,12 @@ This is the first of a set of tutorials that introduce you to using AI-assisted 
 
 代金引換とストアクレジットを組み合わせて支払いを行う分割支払いシステム。 注文が完了すると、Commerce管理者を開くことなく、オペレーター（またはERP システム）がスタンドアロンダッシュボードを通じて現金支払いを確認または拒否します。 承認/拒否ワークフロー全体がApp Builderで実行されます。
 
-#### The architectural lesson (core teaching)
+#### アーキテクチャのレッスン（コア教育）
 
 このチュートリアルでは、慎重に検討された反復可能な意思決定フレームワークを示します。
 
-* **What must stay in PHP:** anything that runs synchronously in the Commerce request cycle, or that calls Commerce-internal APIs with no clean external surface
-* **What moves to App Builder:** everything else — event processing, operator workflow, external integrations, and operator-facing tools
+* **PHP:**&#x200B;で保持する必要があるものは、Commerce リクエストサイクルで同期的に実行されるもの、またはクリーンな外部サーフェスを持たないCommerce内部APIを呼び出すもの
+* **App Builderに移行するもの：**&#x200B;その他すべて（イベント処理、オペレーターワークフロー、外部統合、オペレーター向けツール）
 
 これは「すべてをApp Builderに移す」ことではありません。 書き換えなしで移行を開始する必要があるチームにとって、実用的で正直な出発点です。
 
