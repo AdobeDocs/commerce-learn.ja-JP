@@ -13,10 +13,15 @@ role: Developer, User
 level: Beginner
 exl-id: 3ad7125b-ef6d-4ea0-9fa7-8fc9eb399ec1
 TQID: https://experienceleague.adobe.com/nosJh3ytiC54wmNWaUmSu9qjZCN-ssjolNZD702EpEg
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fc
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 source-git-commit: b599f79ad41b9552cea6ff41062eb4ef75f183bb
 workflow-type: tm+mt
 source-wordcount: 551
@@ -189,10 +194,10 @@ curl --location --request PUT '{{your.url.here}}/rest/default/V1/products/my-new
 
 ## グループ化された製品から単純な製品を削除する
 
-グループ化された製品から単純な製品](https://developer.adobe.com/commerce/webapi/rest/tutorials/grouped-product/)を[削除するには、次を使用します：`DELETE /V1/products/{sku}/links/{type}/{linkedProductSku}`。
+グループ化された製品から単純な製品[&#128279;](https://developer.adobe.com/commerce/webapi/rest/tutorials/grouped-product/)を削除するには、次を使用します：`DELETE /V1/products/{sku}/links/{type}/{linkedProductSku}`。
 
 `{type}`として使用する内容を見つけるには、xdebugを使用してリクエストを取得し、$linkTypes: `related`、`crosssell`、`uupsell`、および`associated`を評価します。
-![ グループ化された製品リンクの種類 – alt テキスト ](/help/assets/site-management/catalog/grouped-types.png " グループ化された製品リンクの種類がxdebug セッション中にキャプチャされました")
+![&#x200B; グループ化された製品リンクの種類 – alt テキスト &#x200B;](/help/assets/site-management/catalog/grouped-types.png " グループ化された製品リンクの種類がxdebug セッション中にキャプチャされました")
 
 シンプルな製品をグループ化された製品にリンクする場合、ペイロードには次のようなセクションが含まれています。
 
