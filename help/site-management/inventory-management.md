@@ -49,5 +49,5 @@ ht-degree: 0%
 
 ## 関連資料
 
-* [Inventory management ガイド](https://experienceleague.adobe.com/docs/commerce-admin/inventory/introduction.html)
+* [Inventory management ガイド](https://experienceleague.adobe.com/docs/commerce-admin/inventory/introduction.html?lang=ja)
 * [Inventory management – 開発者向けREST ドキュメント](https://developer.adobe.com/commerce/webapi/rest/inventory/)

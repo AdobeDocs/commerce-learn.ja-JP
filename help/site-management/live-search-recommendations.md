@@ -59,7 +59,7 @@ Adobe Commerceの[!DNL Live Search]は、Adobe Commerceの高速で非常に関�
 
 ## 関連資料
 
-* [&#x200B; [!DNL Live Search]の概要](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/marketing/live-search.html)
-* [[!DNL Live Search] の概要](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html)
-* [Commerce Services Connector](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html)
-* [商品レコメンデーション](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/overview.html)
+* [&#x200B; [!DNL Live Search]の概要](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/marketing/live-search.html?lang=ja)
+* [[!DNL Live Search] の概要](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html?lang=ja)
+* [Commerce Services Connector](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html?lang=ja)
+* [商品レコメンデーション](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/overview.html?lang=ja)

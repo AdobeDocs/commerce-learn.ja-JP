@@ -50,5 +50,5 @@ ht-degree: 0%
 
 ## 関連資料
 
-* [製品属性 –  [!DNL Commerce]  カタログ管理ガイド](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html)
+* [製品属性 –  [!DNL Commerce]  カタログ管理ガイド](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html?lang=ja)
 * [PWA Studio – 開発者用マニュアル](https://developer.adobe.com/commerce/pwa-studio/)

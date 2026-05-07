@@ -103,4 +103,4 @@ drwxr-xr-x 6 web web 4.0K Jan 10  2024 ..
 
 ## 関連ドキュメント
 
-* [ヘルス通知](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/dev-tools/integrations/health-notifications){target="_blank"}
+* [ヘルス通知](https://experienceleague.adobe.com/ja/docs/commerce-on-cloud/user-guide/dev-tools/integrations/health-notifications){target="_blank"}

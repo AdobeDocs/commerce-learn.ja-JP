@@ -46,11 +46,11 @@ Adobe CommerceまたはMagento Open Source インストールの各web サイト
 
 >[!NOTE]
 >
->ビデオの内容は、2.1.0 リリースを反映しています。 以降のリリースのアップデートについて詳しくは、[&#x200B; リリースノート &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/overview.html)を参照してください。
+>ビデオの内容は、2.1.0 リリースを反映しています。 以降のリリースのアップデートについて詳しくは、[&#x200B; リリースノート &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/overview.html?lang=ja)を参照してください。
 
 >[!VIDEO](https://video.tv.adobe.com/v/35488?learn=on)
 
 ## 関連資料
 
-* [ストア URL - [!DNL Commerce]  ストアと購入エクスペリエンスガイド](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/store-urls.html)
-* [カスタム管理URLを使用する –  [!DNL Commerce]  ストアと購入エクスペリエンスガイド](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/store-urls.html#use-a-custom-admin-url)
+* [ストア URL - [!DNL Commerce]  ストアと購入エクスペリエンスガイド](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/store-urls.html?lang=ja)
+* [カスタム管理URLを使用する –  [!DNL Commerce]  ストアと購入エクスペリエンスガイド](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/store-urls.html?lang=ja#use-a-custom-admin-url)

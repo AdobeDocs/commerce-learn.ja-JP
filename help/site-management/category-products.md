@@ -12,7 +12,7 @@ topic: Commerce, Administration, Content Management
 role: Admin, Leader, User
 level: Beginner, Intermediate
 exl-id: 81a654bf-d09c-4bab-a050-daba6cce2f79
-badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
+badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
 TQID: https://experienceleague.adobe.com/3WWSsHmsfF43uVGqXj0BXnO5azlCKtzuVIZTOEMz42E
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -52,5 +52,5 @@ ht-degree: 0%
 
 ## 関連資料
 
-* [カテゴリ製品の割り当て –  [!DNL Commerce]  カタログ管理ガイド](https://experienceleague.adobe.com/docs/commerce-admin/catalog/categories/products-in-category/categories-product-assignments.html)
-* [マーチャンダイジングのカテゴリルール - [!DNL Commerce]  マーチャンダイジングとプロモーション ガイド](https://experienceleague.adobe.com/docs/commerce-admin/marketing/merchandising/visual-merch/category-product-rules.html)
+* [カテゴリ製品の割り当て –  [!DNL Commerce]  カタログ管理ガイド](https://experienceleague.adobe.com/docs/commerce-admin/catalog/categories/products-in-category/categories-product-assignments.html?lang=ja)
+* [マーチャンダイジングのカテゴリルール - [!DNL Commerce]  マーチャンダイジングとプロモーション ガイド](https://experienceleague.adobe.com/docs/commerce-admin/marketing/merchandising/visual-merch/category-product-rules.html?lang=ja)

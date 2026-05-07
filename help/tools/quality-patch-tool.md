@@ -54,5 +54,5 @@ Adobe Commerce サポートチームとMagento Open Source コミュニティは
 
 ## 関連資料
 
-* [品質パッチツール](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html)
+* [品質パッチツール](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html?lang=ja)
 * [GitHubの品質パッチツール](https://github.com/magento/quality-patches)

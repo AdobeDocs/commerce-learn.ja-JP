@@ -48,7 +48,7 @@ The Upgrade Compatibility Tool (UCT) is a free tool that analyzes the incompatib
 * How it can help you quickly identify the errors and fixes required to upgrade to a newer Adobe Commerce version
 * How to access the HTML results to help visualize modules by severity and number of incompatibilities
 
-To learn more about the tool see the [Upgrade Compatibility Tool documentation](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/upgrade-compatibility-tool/overview.html?lang=en). If you want to know more about performing and simplifying your upgrades, see the [Upgrade Guide](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/overview.html).
+To learn more about the tool see the [Upgrade Compatibility Tool documentation](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/upgrade-compatibility-tool/overview.html?lang=ja). If you want to know more about performing and simplifying your upgrades, see the [Upgrade Guide](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/overview.html?lang=ja).
 
 ## この動画は誰のためのものでしょうか？
 
@@ -61,7 +61,7 @@ To learn more about the tool see the [Upgrade Compatibility Tool documentation](
 
 ## 関連資料
 
-* [Upgrade Compatibility Tool documentation](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/upgrade-compatibility-tool/overview.html?lang=en)
-* [アップグレードガイド](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/overview.html)
-* [リリース済みバージョン](https://experienceleague.adobe.com/docs/commerce-operations/release/versions.html)
-* [Release schedule](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html)
+* [Upgrade Compatibility Tool documentation](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/upgrade-compatibility-tool/overview.html?lang=ja)
+* [アップグレードガイド](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/overview.html?lang=ja)
+* [リリース済みバージョン](https://experienceleague.adobe.com/docs/commerce-operations/release/versions.html?lang=ja)
+* [Release schedule](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html?lang=ja)

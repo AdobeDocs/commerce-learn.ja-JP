@@ -51,4 +51,4 @@ ht-degree: 0%
 
 ## 関連資料
 
-[Meta データ - [!DNL Commerce]  マーチャンダイジングとプロモーション ガイド](https://experienceleague.adobe.com/docs/commerce-admin/marketing/seo/meta-data.html)
+[Meta データ - [!DNL Commerce]  マーチャンダイジングとプロモーション ガイド](https://experienceleague.adobe.com/docs/commerce-admin/marketing/seo/meta-data.html?lang=ja)

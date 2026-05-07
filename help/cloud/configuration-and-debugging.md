@@ -54,16 +54,16 @@ ht-degree: 0%
 
 ## ビデオに記載されているExperience League ドキュメント
 
-* [Xdebugの設定](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/debug.html){target="_blank"}
+* [Xdebugの設定](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/debug.html?lang=ja){target="_blank"}
 * [Cloud Docker:Xdebugの設定](https://developer.adobe.com/commerce/cloud-tools/docker/test/configure-xdebug/){target="_blank"}
-* [デバッグのベストプラクティス](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/development/debugging.html){target="_blank"}
-* [設定ファイルの概要](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/overview.html){target="_blank"}
-* [ECE-Tools](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/package-overview.html){target="_blank"}
-* [ECE-Tools パッケージの更新](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/update-package.html){target="_blank"}
-* [New Relicの概要](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service.html){target="_blank"}
-* [ログファイルの表示と管理](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html){target="_blank"}
-* [New Relic log management](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/log-management.html){target="_blank"}
-* [品質パッチツール](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html){target="_blank"}
-* [品質パッチツールの使用状況](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html){target="_blank"}
+* [デバッグのベストプラクティス](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/development/debugging.html?lang=ja){target="_blank"}
+* [設定ファイルの概要](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/overview.html?lang=ja){target="_blank"}
+* [ECE-Tools](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/package-overview.html?lang=ja){target="_blank"}
+* [ECE-Tools パッケージの更新](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/update-package.html?lang=ja){target="_blank"}
+* [New Relicの概要](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service.html?lang=ja){target="_blank"}
+* [ログファイルの表示と管理](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html?lang=ja){target="_blank"}
+* [New Relic log management](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/log-management.html?lang=ja){target="_blank"}
+* [品質パッチツール](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html?lang=ja){target="_blank"}
+* [品質パッチツールの使用状況](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html?lang=ja){target="_blank"}
 
 {{$include /help/_includes/cloud-technical-onboarding-related-links.md}}

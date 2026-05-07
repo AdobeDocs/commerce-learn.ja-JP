@@ -50,5 +50,5 @@ ht-degree: 0%
 
 ## 関連資料
 
-* [買い物客の支援を提供 –  [!DNL Commerce] 店舗と購入エクスペリエンスガイド](https://experienceleague.adobe.com/docs/commerce-admin/customers/customer-accounts/manage/login-as-customer.html)
-* [ショッピング支援 –  [!DNL Commerce] 店舗および購入エクスペリエンスガイド](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/introduction.html#shopping-assistance)
+* [買い物客の支援を提供 –  [!DNL Commerce] 店舗と購入エクスペリエンスガイド](https://experienceleague.adobe.com/docs/commerce-admin/customers/customer-accounts/manage/login-as-customer.html?lang=ja)
+* [ショッピング支援 –  [!DNL Commerce] 店舗および購入エクスペリエンスガイド](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/introduction.html?lang=ja#shopping-assistance)

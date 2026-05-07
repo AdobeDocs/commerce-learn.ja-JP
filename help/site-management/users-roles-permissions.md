@@ -50,6 +50,6 @@ ht-degree: 0%
 
 ## 関連資料
 
-[管理者ユーザーアカウントの管理 –  [!DNL Commerce] 管理者システムガイド](https://experienceleague.adobe.com/docs/commerce-admin/systems/user-accounts/permissions-users-all.html)
+[管理者ユーザーアカウントの管理 –  [!DNL Commerce] 管理者システムガイド](https://experienceleague.adobe.com/docs/commerce-admin/systems/user-accounts/permissions-users-all.html?lang=ja)
 
-[ユーザーの役割 –  [!DNL Commerce] 管理者システムガイド](https://experienceleague.adobe.com/docs/commerce-admin/systems/user-accounts/permissions-user-roles.html)
+[ユーザーの役割 –  [!DNL Commerce] 管理者システムガイド](https://experienceleague.adobe.com/docs/commerce-admin/systems/user-accounts/permissions-user-roles.html?lang=ja)

@@ -11,7 +11,7 @@ feature: Configuration, System, Staging
 topic: Commerce, Administration
 role: Admin, User
 level: Beginner, Intermediate
-badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
+badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
 exl-id: fc5a7cd3-905a-49ac-86b8-215dd8c36d73
 TQID: https://experienceleague.adobe.com/BzcXZIYUFoXFVDzIf5yBuebeqjVR7tEt3S-ytvbTCE0
 product_v2:
@@ -51,5 +51,5 @@ ht-degree: 0%
 
 ## 関連資料
 
-* [コンテンツ ステージング -  [!DNL Commerce]  コンテンツとデザイン ガイド](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging.html){target="_blank"}
-* [キャンペーンのプレビュー –  [!DNL Commerce]  コンテンツとデザインガイド](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging-preview.html){target="_blank"}
+* [コンテンツ ステージング -  [!DNL Commerce]  コンテンツとデザイン ガイド](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging.html?lang=ja){target="_blank"}
+* [キャンペーンのプレビュー –  [!DNL Commerce]  コンテンツとデザインガイド](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging-preview.html?lang=ja){target="_blank"}

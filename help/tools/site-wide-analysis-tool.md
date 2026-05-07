@@ -51,5 +51,5 @@ Site-Wide Analysis Toolは、Adobe Commerce インストールのセキュリテ
 
 ## 関連資料
 
-* [サイト全体の分析ツール](https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/intro.html)
-* [ログの表示と管理](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html)
+* [サイト全体の分析ツール](https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/intro.html?lang=ja)
+* [ログの表示と管理](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html?lang=ja)

@@ -53,6 +53,6 @@ ht-degree: 0%
 
 ## 関連資料
 
-* [カテゴリの作成 –  [!DNL Commerce]  カタログ管理ガイド](https://experienceleague.adobe.com/docs/commerce-admin/catalog/categories/create/category-create.html)
-* [カテゴリ権限 –  [!DNL Commerce]  カタログ管理ガイド](https://experienceleague.adobe.com/docs/commerce-admin/catalog/categories/category-permissions.html)
-* [トップ ナビゲーション -  [!DNL Commerce]  カタログ管理ガイド](https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/navigation/navigation-top.html)
+* [カテゴリの作成 –  [!DNL Commerce]  カタログ管理ガイド](https://experienceleague.adobe.com/docs/commerce-admin/catalog/categories/create/category-create.html?lang=ja)
+* [カテゴリ権限 –  [!DNL Commerce]  カタログ管理ガイド](https://experienceleague.adobe.com/docs/commerce-admin/catalog/categories/category-permissions.html?lang=ja)
+* [トップ ナビゲーション -  [!DNL Commerce]  カタログ管理ガイド](https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/navigation/navigation-top.html?lang=ja)

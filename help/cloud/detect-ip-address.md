@@ -63,7 +63,7 @@ Magento-Cloud CLI ツールは、開発者やシステム管理者がAdobe Comme
 
 サンプルコードのこの最初のセクションでは、`magento-cloud environment:url -p InsertYourProjectID -e UseYourEnvironmentName --pipe -1`は環境のURLを要求しています。 返される値は、次のようになります：`http://integration-1ajmyuq-mk7xr7zmslfg.us-4.magentosite.cloud/`。 時々この`http://mcprod.russell.dummycachetest.com.c.abcikdxbg789.ent.magento.cloud/`のように見えます。  この最初のコマンドはかなり簡単で、次のコマンドに進む時が来ました。
 
-詳しくは、[Cloud CLIの概要](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/dev-tools/cloud-cli/cloud-cli-overview){target="_blank"}を参照してください
+詳しくは、[Cloud CLIの概要](https://experienceleague.adobe.com/ja/docs/commerce-on-cloud/user-guide/dev-tools/cloud-cli/cloud-cli-overview){target="_blank"}を参照してください
 
 ## 検索と置換に`sed`を使用しています
 
@@ -133,4 +133,4 @@ dig +short 6.abcikdxbg789.ent.magento.cloud
 
 ## 関連ドキュメント
 
-* [地域IP アドレス](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/project/regional-ip-addresses){target="_blank"}
+* [地域IP アドレス](https://experienceleague.adobe.com/ja/docs/commerce-on-cloud/user-guide/project/regional-ip-addresses){target="_blank"}

@@ -142,5 +142,5 @@ ht-degree: 0%
 
 ## 関連資料
 
-* [カート価格ルールの作成 –  [!DNL Commerce]  マーチャンダイジングとプロモーション ガイド](https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-create.html){target="_blank"}
-* [クーポンコード - [!DNL Commerce]  マーチャンダイジングとプロモーション ガイド](https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-coupon.html){target="_blank"}
+* [カート価格ルールの作成 –  [!DNL Commerce]  マーチャンダイジングとプロモーション ガイド](https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-create.html?lang=ja){target="_blank"}
+* [クーポンコード - [!DNL Commerce]  マーチャンダイジングとプロモーション ガイド](https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-coupon.html?lang=ja){target="_blank"}
