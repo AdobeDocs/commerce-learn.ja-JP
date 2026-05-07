@@ -1,41 +1,58 @@
 ---
-title: Adobe Commerceによるコードの再利用の最適化
-description: Adobe Commerceでグローバル参照アーキテクチャパターンを使用してコードの再利用を最適化し、複数のインスタンスをまたいでパフォーマンスとコンプライアンスを強化する方法を説明します。
+title: Optimizing Code Reuse with Adobe Commerce
+description: Learn how to optimize code reuse in Adobe Commerce with Global Reference Architecture patterns, enhancing performance and compliance across multiple instances.
 kt: 15773
 doc-type: tutorial
 duration: 287
 audience: all
 last-substantial-update: 2025-1-6
 feature: Best Practices, Configuration, Install
-badge: label="Contributed by Tony Evers, シニア・テクニカル・アーキテクト，Adobe" type="Informative" url="https://www.linkedin.com/in/evers-tony/" tooltip="アーティスト：Tony Evers"
+badge: label="Contributed by Tony Evers, シニア・テクニカル・アーキテクト，Adobe" type="Informative" url="https://www.linkedin.com/in/evers-tony/" tooltip="Contributed by Tony Evers"
 topic: Architecture, Commerce, Development
 old-role: Architect, Developer
 role: Developer, User, Leader
 level: Beginner, Intermediate
 exl-id: 5475ade8-028c-4b24-a563-60dcda5ba93a
-source-git-commit: b859664f02cf6eac99a551e5f58dff34ca55e37a
+TQID: https://experienceleague.adobe.com/1-cE8TS4syjsMuX3VmhQu5zhFX-z3yxV-GlwxVl7eqM
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: b5f00040-57a0-4a6d-a39e-383b1936c2c9
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+  - id: e8818fe6-9c8b-4bc0-9ef8-377a10b7bc75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: b599f79ad41b9552cea6ff41062eb4ef75f183bb
 workflow-type: tm+mt
-source-wordcount: '1119'
+source-wordcount: 1127
 ht-degree: 0%
 
 ---
 
-# グローバル参照アーキテクチャの実装テクニック
+# Global Reference Architecture Implementation Techniques
 
 {{only-for-on-prem-commerce-cloud}}
 
-Adobe Commerceを活用して、コードの再利用を最適化するには、いくつかの方法があります。 この4つの実装手法には、それぞれ独自の利点があります。 この記事の例は、単純なものから複雑なものまで順に示しています。 プロジェクトや将来のロードマップに最も適した戦略を選択します。 ある戦略から別の戦略への移行には時間がかかります。
+There are several ways to optimize code reuse with Adobe Commerce. These four implementation techniques each have their own advantages. The examples in this article are ordered from simple to more complex. Pick the strategy that best fits your project and future roadmap. A migration from one strategy to another can be time consuming.
 
-## グローバル参照アーキテクチャの使用例
+## When to use Global Reference Architecture
 
-所有するインスタンスの数に応じて、グローバル参照アーキテクチャを活用します。 インスタンスは、独自のデータベースを使用したAdobe Commerceのスタンドアロンインストールです。 本番データベースの数をカウントして、所有しているインスタンスの数を確認します。 複数のインスタンスを管理する場合、または将来このシナリオを予測する場合は、グローバル参照アーキテクチャを利用できます。 インスタンスが共有する機能が多ければ多いほど、グローバル参照アーキテクチャの価値が高まります。
+Global reference architecture can be valuable, depending on the number of instances you own. An instance is a standalone installation of Adobe Commerce using its own database. Count the number of production databases to know how many instances you own. If you maintain more than one instance, or if you foresee this scenario in the future, you can benefit from global reference architecture. The more functionality the instances share, the more value a global reference architecture adds.
 
-いずれの場合でも、Adobe Commerceの複数のインスタンスを使用して検討することをお勧めします。
+In any of these scenarios, it is advisable to explore using multiple instances of Adobe Commerce.
 
-1. **異なるストア所有者**：複数のストア所有者のコードを管理する場合、それぞれのストアを個別に持つ場合、個々の要件を効果的に維持するために個別のインスタンスが必要になる場合があります。
-2. **国の規制**&#x200B;への準拠：特定の規制では、顧客データを特定の地域に保存することを義務付けています。 このような場合、これらの規制を確実に遵守するために、個別のインスタンスが不可欠です。
-3. **地理的地域間の運用上の差異**：複数の地域で運用すると、メンテナンススケジュールと要件が異なる場合があります。 個別のインスタンスを使用することで、これらのバリエーションを効率的に管理できます。
-4. **高強度フラッシュセールス**：大規模なフラッシュセールスを行うストアでは、多くの場合、最適化されたサーバーパフォーマンスが必要です。 個別のインスタンスによって提供される専用インフラストラクチャは、こうした需要の高い時期に最適なパフォーマンスを実現します。
+1. **Different Store Owners**: If you maintain code for multiple store owners, each with their own distinct store, separate instances may be needed to maintain their individual requirements effectively.
+2. **Compliance with National Regulations**: Certain regulations mandate that customer data must be stored within specific regions. In such cases, separate instances are essential to ensure compliance with these regulations.
+3. **Operational Variances Across Geographical Regions**: Operating in multiple regions may mean differing maintenance schedules and requirements. Using separate instances allows for flexibility in managing these variations efficiently.
+4. **High-Intensity Flash Sales**: Stores conducting large-scale flash sales often require optimized server performance. Dedicated infrastructure provided by separate instances ensures optimal performance during such high-demand periods.
 5. **ブランドと国の大きな違い**：ブランドと国の違いが大きい場合、1つのインスタンスを使用すると、一部のブランドまたは国にのみ使用されるコードが生成されます。 別々のインスタンスを構築することで、不要なコードをブランドやそれを必要としない国に提供できなくなり、パフォーマンスと安定性を向上させることができます。
 
 ## グローバル参照アーキテクチャパターン

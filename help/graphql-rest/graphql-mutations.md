@@ -7,16 +7,26 @@ kt: 13938
 doc-type: video
 duration: 268
 audience: all
-last-substantial-update: 2023-10-12T00:00:00Z
+last-substantial-update: 2023-10-12T00:00:00.000Z
 feature: GraphQL
 topic: Commerce, Architecture, Headless
 old-role: Architect, Developer
 role: Developer
 level: Beginner, Intermediate
 exl-id: 6b82ffda-925f-4a81-8ca5-49a2b8ab4929
-source-git-commit: b859664f02cf6eac99a551e5f58dff34ca55e37a
+TQID: https://experienceleague.adobe.com/DyzC0YLv2eWrfSAUZb-32cMAePHjurmp1RyynMbsa7Q
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: e8818fe6-9c8b-4bc0-9ef8-377a10b7bc75
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: b599f79ad41b9552cea6ff41062eb4ef75f183bb
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: 406
 ht-degree: 0%
 
 ---
@@ -99,12 +109,12 @@ mutation doAddToCart(
 }
 ```
 
-上記の例について注意すべき最も重要なことは、`mutation`の代わりに`query` キーワードを使用する以外に、
+上記の例について注意すべき最も重要なことは、`query`の代わりに`mutation` キーワードを使用する以外に、
 構文はクエリと同じです。 クエリと同様に、突然変異には次のものが含まれます。
 
 * 任意の操作名（`doAddToCart`）
 * 変数のリスト （例：`$cartId`）
-* 括弧内に引数（例：`addProductsToCart`、値`cartId`に設定）を持つ初期フィールド （`$cartId`）
+* 括弧内に引数（例：`cartId`、値`$cartId`に設定）を持つ初期フィールド （`addProductsToCart`）
 * 括弧内のフィールドの部分選択
 
 フィールドのサブセレクションを使用すると、返すフィールドを柔軟に定義できます（
@@ -117,7 +127,7 @@ mutation doAddToCart(
 上記の例に関するその他の注意事項：
 
 * `!`文字のサフィックス `String`と`CartItemInput`は、変数が必要であることを示します。
-* `[]`に指定された`CartItemInput` タイプの周囲の角括弧（`$cartItems`）は、リストを示します
+* `$cartItems`に指定された`CartItemInput` タイプの周囲の角括弧（`[]`）は、リストを示します
 作成することもできます。
 
 {{$include /help/_includes/graphql-rest-related-links.md}}

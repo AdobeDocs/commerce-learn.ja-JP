@@ -1,6 +1,6 @@
 ---
-title: Adobe Commerce Launch、ローンチ後、継続的なモニタリングとトラブルシューティング
-description: web サイトを準備し、立ち上げるためのベストプラクティスとヒントを説明します。 適切なステージング環境の選択、サポートチケットの関連情報の提供、サポートチームと同じ監視ツールを使用したコミュニケーションの改善について説明します。
+title: Adobe Commerce launch, post launch and ongoing monitoring and troubleshooting
+description: Learn the best practices and tips for preparing and launching a website. Learn about choosing the right staging environment, providing relevant details in support tickets, and using the same monitoring tool as the support team for better communication.
 feature: Best Practices, Cloud
 topic: Architecture, Commerce, Performance
 old-role: Architect, Data Architect, Leader
@@ -8,19 +8,35 @@ role: Developer, Leader
 level: Beginner, Intermediate
 doc-type: Technical Video
 duration: 3576
-last-substantial-update: 2024-05-07T00:00:00Z
+last-substantial-update: 2024-05-07T00:00:00.000Z
 jira: KT-15467
 exl-id: e3748ec2-b449-4cc2-927d-e7ba4f4dbaf8
-source-git-commit: b859664f02cf6eac99a551e5f58dff34ca55e37a
+TQID: https://experienceleague.adobe.com/sSK6X9LrKA5LUgdELTzfyNZu8RP9juyYGDdGQfPni4w
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: e8818fe6-9c8b-4bc0-9ef8-377a10b7bc75
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: b599f79ad41b9552cea6ff41062eb4ef75f183bb
 workflow-type: tm+mt
-source-wordcount: '326'
+source-wordcount: 326
 ht-degree: 0%
 
 ---
 
-# Adobe Commerce Cloudを起動、監視、トラブルシューティング
+# Launch, monitor, and troubleshoot Adobe Commerce Cloud
 
-このウェビナーでは、web サイトを準備し、立ち上げるためのベストプラクティスとヒントをいくつか紹介します。 適切なステージング環境を選択し、サポートチケットに正確な詳細を提供することで、サポートチームとの効果的なコミュニケーションを促進することの重要性を強調しています。 より優れたコラボレーションと問題解決のために、New Relicなどのサポートチームと同じモニタリングツールを使用することをお勧めします。 決済代行会社などの周辺システムを徹底的にテストし、ローンチ中に適切に機能することを確認することが重要です。 また、このドキュメントでは、スムーズで成功したローンチを確実に行うために、パフォーマンスのボトルネックやキャッシュウォーミングなどの潜在的な運用上の問題を予測し、計画する必要があることも強調しています。 共有責任モデルを理解することは、もう1つの重要な側面です。データベースの復元やアプリケーションコードのセキュリティなど、特定のタスクがweb サイト所有者の責任であることが明確になります。 これらのベストプラクティスに従うことで、web サイトの立ち上げを合理化し、潜在的な問題に積極的に対処して、立ち上げを成功させることができます
+This webinar provides several best practices and tips for preparing and launching a website. It emphasizes the importance of selecting the appropriate staging environment and providing accurate details in support tickets to facilitate effective communication with the support team. Using the same monitoring tool as the support team, such as New Relic, is recommended for better collaboration and issue resolution. Thorough testing of peripheral systems, like payment processors, is highlighted to ensure their proper functioning during the launch. The document also stresses the need to anticipate and plan for potential production issues, such as performance bottlenecks and cache warming, to ensure a smooth and successful launch. Understanding the shared responsibility model is another key aspect discussed, clarifying that certain tasks, like database restoration and application code security, are the responsibility of the website owner. By following these best practices, website launches can be streamlined, potential issues can be addressed proactively, and the launch can be successful
 
 ## オーディエンス
 
@@ -29,12 +45,12 @@ ht-degree: 0%
 
 ## ビデオコンテンツ
 
-* 適切なステージング環境を選択し、チケットに関連する詳細情報を提供します。
-* サポートチームと同じモニタリングツール（New Relic）を使用して、コミュニケーションと問題解決を向上させる。
-* 問題を説明する際に、スクリーンショットやNew Relicのリンクを提供することで、サポートがより効果的に理解し、トラブルシューティングを行えるようになります。
-* 共有された責任モデル、特にデータベースの復元とセキュリティに関する理解。
-* 決済代行会社などの周辺システムをテストし、カットオーバー時に注文IDが適切に処理されるようにします。
-* パフォーマンスのボトルネックやキャッシュウォーミングの必要性など、生産中の潜在的な問題を予測して計画します。
+* Choosing the appropriate staging environment and providing relevant details in the ticket.
+* Using the same monitoring tool (New Relic) as the support team for better communication and issue resolution.
+* Providing screenshots or New Relic links when describing issues to help support understand and troubleshoot more effectively.
+* Understanding the shared responsibility model, particularly in terms of database restoration and security.
+* Testing peripheral systems, such as payment processors, and ensuring proper handling of order IDs during cutover.
+* Predicting and planning for potential issues during production, such as performance bottlenecks and the need for cache warming.
 
 
 >[!VIDEO](https://video.tv.adobe.com/v/3428990?learn=on)

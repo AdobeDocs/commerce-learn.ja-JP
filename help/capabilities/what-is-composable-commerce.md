@@ -10,16 +10,36 @@ duration: 323
 last-substantial-update: 2024-07-6
 jira: KT-15730
 exl-id: 4d811a2f-8488-4de7-babd-449aced42e3a
-source-git-commit: b859664f02cf6eac99a551e5f58dff34ca55e37a
+TQID: https://experienceleague.adobe.com/NG-US7zLBgzV425mheo3oQ9Z6gnzAr6aRCLNjHVU0aM
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: c32adafa-ed01-4b31-997e-2413013911b0
+  - id: e8818fe6-9c8b-4bc0-9ef8-377a10b7bc75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: b599f79ad41b9552cea6ff41062eb4ef75f183bb
 workflow-type: tm+mt
-source-wordcount: '1257'
+source-wordcount: 1305
 ht-degree: 0%
 
 ---
 
 # コンポーザブルコマース
 
-コンポーザブルコマースとは、フロントエンドのプレゼンテーション層とバックエンドのコマース機能を切り離す、e コマースにおけるアーキテクチャ的なアプローチのこ&#x200B;です。 最適なコンポーネントやモジュールを選択して組み合わせ、カスタマイズされたソリューションを構築できます。 このアプローチでは、従来のモノリシック e コマースプラットフォームを、より小さく独立したサービスやマイクロサービスに分割し、それらを統合します。 コンポーザブルコマースには、柔軟性、スケーラビリティ、カスタマイズ、俊敏性、他のシステムやテクノロジーとの統合を容易にする機能などの利点があります。
+コンポーザブルコマースとは、フロントエンドのプレゼンテーション層とバックエンドのコマース機能を分離する、e コマースにおけるアーキテクチャアプローチのことです。 &#x200B;最適なコンポーネントやモジュールを選択して組み合わせ、カスタマイズされたソリューションを構築できます。 このアプローチでは、従来のモノリシック e コマースプラットフォームを、より小さく独立したサービスやマイクロサービスに分割し、それらを統合します。 コンポーザブルコマースには、柔軟性、スケーラビリティ、カスタマイズ、俊敏性、他のシステムやテクノロジーとの統合を容易にする機能などの利点があります。
 
 Adobe Commerceは、コンポーザブルコマースの導入と実装において、マーチャントをサポートする多くの機能とツールを提供します。 Adobe Commerceは、構成可能なコマース手法と、ハイブリッドヘッドレスおよびヘッドレス以外のフロントエンド体験を提供します。 Adobeでは、プロセス外での拡張性を念頭に置いて、複数のサービスを統合するAPI Meshと、カスタムマイクロサービスを作成するAdobe App Builderを提供しています。
 
@@ -59,22 +79,22 @@ Adobe Commerceには、コンポーザブルコマースの導入と実装にお
 
 **API Mesh:** Adobe CommerceのAPI Meshは、複数のマイクロサービス、サードパーティ製ツール、アプリケーションを、フロントエンド開発者向けの統合API エンドポイントに簡単に統合します。 これにより、開発者は、複数のデータソースを単一のGraphQLエンドポイントに組み合わせて、複雑さを軽減し、新しい機能やエクスペリエンスの開発とメンテナンスを合理化できます。
 
-**Adobe App Builder:** Adobe App Builderは、マーチャントがカスタムマイクロサービスを作成し、カスタムエクスペリエンスを構築し、Adobe ソリューションを拡張できるようにするサーバーレス拡張性プラットフォームです。 App Builderなら、Adobe Commerceのネイティブ機能を拡張し、サードパーティソリューションと統合して、安全性と拡張性の高いアプリを構築できます。 これにより、マーチャントはカスタマイズやマイクロサービスのための独自のインフラストラクチャを構築して維持する必要がなくなり、複雑さを軽減し、総所有コストを削減できます。
+**Adobe App Builder:** Adobe App Builderは、マーチャントがカスタムマイクロサービスを作成し、カスタムエクスペリエンスを構築し、Adobe ソリューションを拡張できるようにするサーバーレス拡張性プラットフォームです。 With App Builder, merchants can build secure and scalable apps that extend Adobe Commerce&#39;s native functionality and integrate with third-party solutions. This eliminates the need for merchants to build and maintain their own infrastructure for customizations and microservices, reducing complexity and lowering the total cost of ownership.
 
-Adobe Commerceが提供するこれらの機能により、コンポーザブルコマースの導入と導入を簡素化し、複雑さや開発の労力を削減しながら、柔軟性、拡張性、カスタマイズ、統合機能の利点を活用することができます。
+These capabilities provided by Adobe Commerce simplify the adoption and implementation of composable commerce, enabling merchants to leverage the benefits of flexibility, scalability, customization, and integration capabilities while reducing complexity and development effort.
 
 ## まとめ
 
-コンポーザブルコマースとは、フロントエンドのプレゼンテーション層とバックエンドのコマース機能を分離する、e コマースにおけるアーキテクチャアプローチのことです。 コンポーザブルコマースについて学んだ重要な教訓は次のとおりです。
+コンポーザブルコマースとは、フロントエンドのプレゼンテーション層とバックエンドのコマース機能を分離する、e コマースにおけるアーキテクチャアプローチのことです。 Here are the key lessons learned about composable commerce:
 
-**アーキテクチャ：** コンポーザブルコマースは、モジュール式および分離型のアーキテクチャに従うため、企業は最適なコンポーネントまたはマイクロサービスを選択して組み合わせ、カスタマイズされたソリューションを構築できます。 このアーキテクチャは、柔軟性、スケーラビリティ、俊敏性を提供します。
+**Architecture:** Composable commerce follows a modular and decoupled architecture, allowing businesses to select and combine the best components or microservices to create a customized solution. This architecture provides flexibility, scalability, and agility.
 
-**利点：** コンポーザブルコマースには、柔軟性とカスタマイズ、スケーラビリティと俊敏性、統合機能、将来性、開発者の能力強化など、いくつかの利点があります。 これにより、企業は開発者の専門知識を活用して、適応、拡張、統合、イノベーションを推進できます。
+**Benefits:** Composable commerce offers several benefits, including flexibility and customization, scalability and agility, integration capabilities, future-proofing, and developer empowerment. It enables businesses to adapt, scale, integrate, innovate, and leverage developer expertise.
 
-**考慮事項：** コンポーザブルコマースを検討する際は、複雑さ、社内の技術的な成熟度、プロジェクトの規模と構造、カスタマイズと標準化、総所有コスト、セキュリティとデータプライバシーなどの要因を慎重に評価する必要があります。
+**Considerations:** When considering composable commerce, factors such as complexity, internal technical maturity, project size and structure, customization vs. standardization, total cost of ownership, and security and data privacy should be carefully evaluated.
 
-**Adobe Commerce:** Adobe Commerceには、コンポーザブルコマースの導入と実装においてマーチャントをサポートする機能とツールが用意されています。 これには、コンポーザブルコマース手法、豊富な機能、ハイブリッドフロントエンドエクスペリエンス、統合用API Mesh、カスタムマイクロサービス用のAdobe App Builderなどが含まれます。
+**Adobe Commerce:** Adobe Commerce provides capabilities and tools to support merchants in adopting and implementing composable commerce. These include a composable commerce methodology, feature-rich functionality, hybrid front-end experiences, API Mesh for integration, and Adobe App Builder for custom microservices.
 
-**ビジネスへの影響：** コンポーザブルコマースは、柔軟性、拡張性、カスタマイズ性の高いe コマースプラットフォームを構築できるよう企業を支援します。 これにより、独自の顧客体験の提供、需要に応じた拡張、他のシステムとの統合、将来を見据えた運用、開発者の専門知識の活用が可能になります。
+**Business Impact:** Composable commerce empowers businesses to create a highly flexible, scalable, and customizable e-commerce platform. It enables them to deliver unique customer experiences, scale based on demand, integrate with other systems, future-proof their operations, and leverage developer expertise.
 
-コンポーザブルコマースを理解することは、e コマース業界の企業が競争力を維持し、変化する市場の状況に適応し、優れた顧客体験を提供するために不可欠です。 コンポーザブルコマースを導入することで、柔軟性、拡張性、カスタマイズ、俊敏性、統合機能などの利点を引き出し、デジタル市場の成長と成功を促進できます。
+Understanding composable commerce is crucial for businesses in the e-commerce industry to stay competitive, adapt to changing market conditions, and deliver exceptional customer experiences. By embracing composable commerce, companies can unlock the benefits of flexibility, scalability, customization, agility, and integration capabilities, driving growth and success in the digital marketplace.

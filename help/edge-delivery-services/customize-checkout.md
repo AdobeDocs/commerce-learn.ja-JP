@@ -1,6 +1,6 @@
 ---
 title: Edge Delivery Services チェックアウトのカスタマイズ
-description: Adobe Developer Aliが、配信オプションやマルチステップのチェックアウトなど、Adobe Commerceチェックアウトを、ベストプラクティスとコード再利用を利用してどのようにカスタマイズするかを​覧ください。
+description: Developer Aliが、配信オプションやマルチステップのチェックアウトなど、Adobe Commerce チェックアウトをカスタマイズする方法について、ベストプラクティスとコードの再利用を利用して説明します。 ​
 feature: Best Practices, Compliance, Extensibility, Storefront, Tools and External Services
 topic: Architecture, Commerce, Headless
 role: Developer
@@ -10,9 +10,20 @@ duration: 885
 last-substantial-update: 2025-1-2
 jira: KT-16723
 exl-id: e6b95ff0-9a41-43ac-9f02-c84a70747d64
-source-git-commit: b859664f02cf6eac99a551e5f58dff34ca55e37a
+TQID: https://experienceleague.adobe.com/sHAJy3AIwUgyWlGcViRb9ZT0ymIOap6HybG--NbI0jM
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: e8818fe6-9c8b-4bc0-9ef8-377a10b7bc75
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: b599f79ad41b9552cea6ff41062eb4ef75f183bb
 workflow-type: tm+mt
-source-wordcount: '148'
+source-wordcount: 160
 ht-degree: 0%
 
 ---
@@ -23,7 +34,7 @@ ht-degree: 0%
 
 ## 学習すること
 
-既存のコードを再利用し、ベストプラクティスに従いながら、配送オプションや見積もりコストなどの要素を削除および再追加し、マルチステップのチェックアウトプロセスを導入することで、Edge Delivery Servicesカートのチェックアウトエクスペリエンスをカスタマイズする例を&#x200B;介します。
+既存のコードを再利用し、ベストプラクティスに従いながら、配送オプションや見積もりコストなどの要素を削除および再追加し、マルチステップのチェックアウトプロセスを導入して、Edge Delivery Servicesカートのチェックアウトエクスペリエンスをカスタマイズする例を紹介します。 &#x200B;
 
 ## この動画は誰のためのものでしょうか？
 
@@ -39,4 +50,4 @@ ht-degree: 0%
 
 ## その他のドキュメント
 
-* [&#x200B; マルチステップのゲストチェックアウト &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/dropins/checkout/tutorials/multi-step/?lang=ja)
+* [マルチステップのゲストチェックアウト](https://experienceleague.adobe.com/developer/commerce/storefront/dropins/checkout/tutorials/multi-step/?lang=ja)

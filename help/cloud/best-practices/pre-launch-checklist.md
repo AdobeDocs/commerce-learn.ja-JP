@@ -7,16 +7,35 @@ role: Admin, Developer, User
 level: Intermediate
 doc-type: Tutorial
 duration: 451
-last-substantial-update: 2024-04-17T00:00:00Z
+last-substantial-update: 2024-04-17T00:00:00.000Z
 jira: KT-15180
 exl-id: c6adb2c2-f194-4a3d-9290-e0837ef062ae
-source-git-commit: 8266ad03ec3bd9364bb9093c8876a4dc1507e1a2
+TQID: https://experienceleague.adobe.com/czbb8zkX55fzgKiZthAj4whBCF-IL2bEox0M7rDr9oE
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+  - id: e8818fe6-9c8b-4bc0-9ef8-377a10b7bc75
+subfeature_v2:
+  - id: f8ddfd3b-6194-46e8-a176-0e918039be56
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: b599f79ad41b9552cea6ff41062eb4ef75f183bb
 workflow-type: tm+mt
-source-wordcount: '1674'
+source-wordcount: 2365
 ht-degree: 0%
 
 ---
-
 
 # 起動前のチェックリスト
 
@@ -45,7 +64,7 @@ ht-degree: 0%
 5. ステージング環境と実稼動環境でのコードのデプロイメントとテストを確認します（[詳細情報](https://experienceleague.adobe.com/ja/docs/commerce-on-cloud/user-guide/develop/test/staging-and-production){target="_blank"}）。
 6. 実稼動クラスターが、契約した1日のベースラインに対して永続的にアップサイズされたことを確認します。 詳しくは、割り当てられたCTA/CSEに問い合わせるか、サポートチケットを発行してください。
 
-## &#x200B;2. 現行コンフィギュレーション
+## &#x200B;2. 現在の設定
 
 1. Adobe Commerceと関連パッケージ/サービスを[最新バージョン &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-operations/release/notes/overview){target="_blank"}にアップグレードします
 2. 現在の設定とサービスをSI/パートナーと確認し、[&#x200B; ベストプラクティスに従います](https://experienceleague.adobe.com/ja/docs/commerce-operations/implementation-playbook/best-practices/planning/catalog-management){target="_blank"}。
@@ -62,7 +81,7 @@ ht-degree: 0%
 3. Fastly Image Optimizationが有効になっていることを確認します（[Fastly Image Optimization](https://experienceleague.adobe.com/ja/docs/commerce-on-cloud/user-guide/cdn/fastly-image-optimization){target="_blank"}を参照）
 4. 正しいシールドの場所が設定されていることを確認します（[&#x200B; キャッシュ、バックエンド、オリジンのシールドを設定](https://experienceleague.adobe.com/ja/docs/commerce-on-cloud/user-guide/cdn/setup-fastly/fastly-custom-cache-configuration){target="_blank"}）。
 5. Web アプリケーションファイアウォール （**WAF**）が機能していることを確認します。 （[&#x200B; ブロックされたリクエストのトラブルシューティング &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-on-cloud/user-guide/cdn/fastly-waf-service){target="_blank"}がある場合は、制限を参照してください）。
-6. 管理者パネルの「無視されたURL パラメーター」 [&#x200B; リストをFastly &#x200B;](https://github.com/iancassidyweb/magento2/commit/68fdecfcd26c957382b8d68b64887e0a83298524){target="_blank"}&quot;に更新して、キャッシュのパフォーマンスを向上させます。
+6. 管理者パネルの「無視されたURL パラメーター」 [&#128279;](https://github.com/iancassidyweb/magento2/commit/68fdecfcd26c957382b8d68b64887e0a83298524){target="_blank"} リストをFastly &quot;に更新して、キャッシュのパフォーマンスを向上させます。
 
    >[!NOTE]
    > _管理者/ストア/設定/システム/フルページキャッシュ/Fastly設定/詳細設定/無視URL パラメーター（グローバル）_&#x200B;の下にあるFastly設定で、キャッシュされたページの検索時にFastlyが無視するパラメーターのコンマ区切りリストを見つけることができます。 このリストを変更した後、VCLを再アップロードします。
@@ -81,13 +100,13 @@ ht-degree: 0%
 
 Adobe Commerce Cloudでは、ステージング環境と実稼動環境の両方のデータベースとしてMariaDB Galera クラスターを採用しています。 Galera クラスターは、パフォーマンスと拡張性を強化するのに役立ちます。 Galera クラスターレプリケーションの最適なプラクティスと制約に関するインサイトを得るには、次の記事を参照してください。
 
-* [MySQL設定のベストプラクティス &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-operations/implementation-playbook/best-practices/planning/mysql-configuration){target="_blank"}
+* [MySQL設定のベストプラクティス](https://experienceleague.adobe.com/ja/docs/commerce-operations/implementation-playbook/best-practices/planning/mysql-configuration){target="_blank"}
 * Adobe Commerceの管理アラート：[MariaDB アラート &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-operations/tools/managed-alerts-for-adobe-commerce/managed-alerts-on-magento-commerce-mariadb-alerts){target="_blank"}
 * [&#x200B; データベース設定](https://experienceleague.adobe.com/ja/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud){target="_blank"}のベストプラクティス
 * [&#x200B; ガレラクラスターのレプリケーションとフロー制御](https://experienceleague.adobe.com/ja/docs/commerce-learn/tutorials/extensibility/backend-development/galera-db-slow-replication){target="_blank"} （詳細分析）
 
 1. データベースの高い読み込み時にパフォーマンスを向上させるには、[MySQL スレーブ接続](https://experienceleague.adobe.com/ja/docs/commerce-operations/implementation-playbook/best-practices/planning/mysql-configuration#slave-connections){target="_blank"}をお勧めします。
-2. すべてのデータベーステーブルの行形式が、COMPACT[ではなく](https://experienceleague.adobe.com/ja/docs/commerce-operations/implementation-playbook/best-practices/maintenance/mariadb-upgrade#convert-database-table-storage-format){target="_blank"}DYNAMICに設定されていることを確認します（オンプレミスからクラウドへの移行の場合は特に重要です）。
+2. すべてのデータベーステーブルの行形式が、COMPACT[&#128279;](https://experienceleague.adobe.com/ja/docs/commerce-operations/implementation-playbook/best-practices/maintenance/mariadb-upgrade#convert-database-table-storage-format){target="_blank"}ではなくDYNAMICに設定されていることを確認します（オンプレミスからクラウドへの移行の場合は特に重要です）。
 3. すべてのテーブルのデータベースストレージエンジンを[MyISAMからInnoDB](https://experienceleague.adobe.com/ja/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud#convert-all-myisam-tables-to-innodb){target="_blank"}に変更します。
 4. 1 GBを超えるデータベーステーブルを事前に確認して最適化します。
 5. データベーススキーマ情報は最新かつ最新です。 （[このガイド &#x200B;](https://mariadb.com/docs/server/ha-and-performance/optimization-and-tuning/query-optimizations/statistics-for-optimizing-queries/engine-independent-table-statistics#collecting-statistics-with-the-analyze-table-statement){target="_blank"}を参照）。
@@ -105,7 +124,7 @@ Adobe Commerce Cloudでは、ステージング環境と実稼動環境の両方
 3. [!BADGE &#x200B; ブロッカー]{type=caution tooltip="潜在的な課題"}本番稼動インスタンスで負荷および負荷テストを実行し、割り当てられたCTA/CSEと結果を共有します。
 
    >[!NOTE]
-   > [負荷および負荷テストは、アプリケーション内のボトルネックを特定し、パフォーマンスの問題を明らかにする目的](https://experienceleague.adobe.com/ja/docs/commerce-on-cloud/user-guide/develop/test/guidance#:~:text=A%20load%20test%20can%20help,Scan%20Tool%20for%20your%20sites.){target="_blank"}を果たします。 これは、クラスタのサイズに関する期待を管理し、ビジネス要件を効果的に満たすために必要なスケーリング調整を決定する上で重要な役割を果たします。
+   > [負荷および負荷テストは、アプリケーション内のボトルネックを特定し、パフォーマンスの問題を明らかにする目的](https://experienceleague.adobe.com/ja/docs/commerce-on-cloud/user-guide/develop/test/guidance#:~:text=A%20load%20test%20can%20help,Scan%20Tool%20for%20your%20sites){target="_blank"}を果たします。 これは、クラスタのサイズに関する期待を管理し、ビジネス要件を効果的に満たすために必要なスケーリング調整を決定する上で重要な役割を果たします。
 
    >[!IMPORTANT]
    > **_WARNING:_**&#x200B;読み込みテストを準備する際、**はライブトランザクションメールを（ダミーアドレスにも）送信しません**。 テスト中にメールを送信すると、プロジェクトが起動前にSendGrid用に設定されたデフォルトの送信制限（12k）に達する可能性があります。
@@ -115,7 +134,7 @@ Adobe Commerce Cloudでは、ステージング環境と実稼動環境の両方
 
 4. [共有責任セキュリティモデル &#x200B;](https://business.adobe.com/jp/products/commerce.html){target="_blank"}の一部として、実稼動インスタンスに対してセキュリティ侵入テストを実施します。 PCI （ペーメントカード業界）認定を取得するためには、カスタマイズされたサイトで侵入テストを実施する必要があります。
 
-## &#x200B;8. その他の構成
+## &#x200B;8. その他の設定
 
 1. インデックス作成を&#x200B;_「スケジュールに合わせて更新_」に切り替えます。ただし、**_customer_grid_**&#x200B;は「保存」に残ります（[&#x200B; インデックスモード &#x200B;](https://developer.adobe.com/commerce/php/development/components/indexing/#indexing-modes){target="_blank"}を参照）。
 2. 使用中のサードパーティ検索エンジンや拡張機能のドキュメント化。
@@ -158,18 +177,18 @@ Adobe Commerce Cloudでは、ステージング環境と実稼動環境の両方
 6. 管理者パスワードが要件を満たしていることを確認します（[管理者パスワード要件](https://experienceleague.adobe.com/ja/docs/commerce-admin/systems/security/security-admin){target="_blank"}を参照）。
 7. 二段階認証を設定します（[二段階認証（管理者） &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-admin/systems/security/security-admin#two-factor-authentication){target="_blank"}を参照）。
 
-## &#x200B;10. 本番稼動
+## &#x200B;10. 運用開始
 
 切り替える時期になったら、次の手順を実行してください（詳細については、[DNS設定](https://experienceleague.adobe.com/ja/docs/commerce-on-cloud/user-guide/launch/checklist){target="_blank"}を参照）。
 
 1. DNS サービスにアクセスし、各ドメインおよびホスト名のA レコードおよびCNAME レコードを更新します。
-   1. _prod.magentocloud.map.fastly.net_&#x200B;を指す&#x200B;**&lt;&lt;www.yourdomain.com>>**&#x200B;のCNAME レコードを追加します
-   2. _&lt;&lt;yourdomain.com>>_&#x200B;の4つのA レコードを設定します。次の場所を指します。\
+   1. **prod.magentocloud.map.fastly.net**&#x200B;を指す&#x200B;_&lt;&lt;www.yourdomain.com>>_&#x200B;のCNAME レコードを追加します
+   2. _&lt;&lt;yourdomain.com>>_&#x200B;に4つのA レコードを設定します。次の場所を指します。\
       151.101.1.124\
       151.101.65.124\
       151.101.129.124\
       151.101.193.124
-2. Adobe Commerce ベース URLを&#x200B;_に変更します&lt;&lt;www.yourdomain.com>>_
+2. Adobe Commerce ベース URLを&#x200B;_に変更します。&lt;&lt;www.yourdomain.com>_
 3. TTL時間が経過するのを待ってから、web ブラウザーを再起動します。
 4. web サイトのテスト：
 
