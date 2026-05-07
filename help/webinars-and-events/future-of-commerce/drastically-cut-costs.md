@@ -7,12 +7,17 @@ role: User
 level: Beginner
 doc-type: Value Video
 duration: 705
-last-substantial-update: 2025-05-15T00:00:00Z
+last-substantial-update: 2025-05-15T00:00:00.000Z
 jira: KT-18110
 exl-id: 87b6200e-79e0-48ed-8926-eaa7bfea36d4
-source-git-commit: 9aa4d70ee6a3825f027aa2a9c6a1ac0f876ed59f
+TQID: https://experienceleague.adobe.com/4k3ud1yDq2WicgWgNkHEn8LiWMznsLZb66bFBgTIPG4
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c32adafa-ed01-4b31-997e-2413013911b0id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: b599f79ad41b9552cea6ff41062eb4ef75f183bb
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: 180
 ht-degree: 0%
 
 ---
@@ -34,10 +39,10 @@ Adobe Commerceのクラウドネイティブな基盤は、フルマネージド
 * 迅速なデプロイメント – セルフサービスツールを利用して、事前設定済みの環境を数分で起動できます。
 * 柔軟な統合 – APIとアクセラレータを利用して、ERPやCRMなどと容易に接続できます。
 
->[!VIDEO](https://video.tv.adobe.com/v/3458489?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3458485?learn=on)
 
 ## このシリーズの追加動画
 
 [新製品のお知らせ](./new-product-announcements.md)
-[&#x200B; コンバージョン率の増強](./supercharge-conversion-rates.md)
+[ コンバージョン率の増強](./supercharge-conversion-rates.md)
 [迅速な拡張](fast-track-expansion.md)

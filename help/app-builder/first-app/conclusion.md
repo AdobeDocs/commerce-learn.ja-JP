@@ -1,44 +1,48 @@
 ---
 title: まとめ
-description: App Builderの詳細。
+description: Learn where to go for more information on App Builder.
 jira: KT-12428
 doc-type: Tutorial
 duration: 100
-last-substantial-update: 2023-03-13T00:00:00Z
+last-substantial-update: 2023-03-13T00:00:00.000Z
 feature: API Mesh, App Builder, Extensibility, Tools and External Services, Backend Development
 topic: App Builder, I/O Events, Developer Console, Commerce, Development, Integrations
 role: Developer
 level: Beginner, Intermediate
 exl-id: bb7cb692-16bd-48fe-9e88-eb1b337bc3a3
-source-git-commit: 82c30f9cce110c2315822fe236c06a6fc33d54bf
+TQID: https://experienceleague.adobe.com/E4kkYcdrs0iH79AE2pDA9dXJA-TtLmiJd2oW-T2VsD8
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: b599f79ad41b9552cea6ff41062eb4ef75f183bb
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: 135
 ht-degree: 0%
 
 ---
 
 # まとめ {#conclusion}
 
-最初のAdobe Developer App Builder アプリを構築したら、Adobeが提供するその他のリソースについて説明します。
+Now that you have built your first Adobe Developer App Builder app, learn about other resources Adobe provides.
 
 ## この動画は誰のためのものでしょうか？
 
-* Adobe Commerceを初めて利用する場合、Adobe App Builderを利用した経験が限られていますが、初回のAdobe Developer App Builder アプリが完成し、詳しく学ぶ準備ができている場合は、その機能をご利用ください。
+* Developers new to Adobe Commerce with limited experience using Adobe App Builder who has completed their first Adobe Developer App Builder app and are ready to learn more.
 
 ## ビデオコンテンツ
 
 * 関連資料
-* 他の開発者に接続する方法
-* コメントを閉じる
+* Methods of connecting to other developers
+* Closing comments
 
->[!VIDEO](https://video.tv.adobe.com/v/3421075?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3416741?learn=on)
 
-## App Builderのその他のリソース
+## Additional App Builder resources
 
 * [Adobe Developer App Builder](https://developer.adobe.com/app-builder/){target="_blank"}
-* [Adobe Developer App Builder体験版](https://developer.adobe.com/app-builder/trial/){target="_blank"}
-* [Adobe Developer App Builder ドキュメント &#x200B;](https://developer.adobe.com/app-builder/docs/overview/){target="_blank"}
-* [Adobe Developer App Builder フォーラム &#x200B;](https://experienceleaguecommunities.adobe.com/t5/project-firefly/ct-p/project-firefly?profile.language=ja){target="_blank"}
-* [Adobe Developer App Builder貢献度ガイドライン &#x200B;](https://developer.adobe.com/app-builder/docs/guides/contribution_guides/){target="_blank"}
+* [Adobe Developer App Builder trial](https://developer.adobe.com/app-builder/trial/){target="_blank"}
+* [Adobe Developer App Builder docs](https://developer.adobe.com/app-builder/docs/overview/){target="_blank"}
+* [Adobe Developer App Builder forums](https://experienceleaguecommunities.adobe.com/t5/project-firefly/ct-p/project-firefly){target="_blank"}
+* [Adobe Developer App Builder contribution guidelines](https://developer.adobe.com/app-builder/docs/guides/contribution_guides/){target="_blank"}
 
 {{$include /help/_includes/app-builder-first-app-related-links.md}}

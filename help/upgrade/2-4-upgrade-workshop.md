@@ -8,17 +8,23 @@ doc-type: technical video
 duration: 4306
 audience: all
 activity: use
-last-substantial-update: 2023-04-27T00:00:00Z
+last-substantial-update: 2023-04-27T00:00:00.000Z
 feature: Configuration, System, Upgrade
 topic: Commerce, Administration
 old-role: Architect, Developer
 role: Developer
 level: Beginner, Intermediate
 exl-id: fba4a08b-5633-433b-bf87-fa85457e4578
-source-git-commit: 9aa4d70ee6a3825f027aa2a9c6a1ac0f876ed59f
+TQID: https://experienceleague.adobe.com/SpGURe19HRbz76i-XkZNwQPdzq-X-iAEsj8XRHeK8RY
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b599f79ad41b9552cea6ff41062eb4ef75f183bb
 workflow-type: tm+mt
-source-wordcount: '145'
-ht-degree: 33%
+source-wordcount: 162
+ht-degree: 30%
 
 ---
 
@@ -26,26 +32,26 @@ ht-degree: 33%
 
 {{only-for-on-prem-commerce-cloud}}
 
-この録画されたウェビナーでは、2.4.4以降への次のアップグレードを準備する際に従うべき手順とベストプラクティスについて説明します。
+Watch this recorded webinar to learn the steps and best practices to follow when preparing for your next upgrade to 2.4.4 or higher.
 
-このワークショップでは、Adobe CommerceはMerkleと提携して以下を共有しました。
+In this workshop, Adobe Commerce partnered with Merkle to share:
 
-* Adobe Commerce 2.4へのアップグレード時に実行する技術的な手順
-* アップグレード時に使用するベストプラクティスとツール
-* バージョン 2.4.4以降への推奨アップグレードパス
-* 参照する主なアップグレードリソース
+* Technical steps to perform when upgrading to Adobe Commerce 2.4
+* Best practices and tools to use when upgrading
+* Recommended upgrade paths to versions 2.4.4 or higher
+* Main upgrade resources to reference
 
 ## この動画は誰のためのものでしょうか？
 
-* サイト管理者
+* Site managers
 * 開発者
 
 ## ビデオコンテンツ
 
->[!VIDEO](https://video.tv.adobe.com/v/3432518?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/340038?learn=on)
 
 ## 関連資料
 
-* [&#x200B; アップグレードガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/overview.html?lang=ja)
-* [&#x200B; リリース済みバージョン &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/release/versions.html?lang=ja)
-* [&#x200B; リリーススケジュール &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html?lang=ja)
+* [アップグレードガイド](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/overview.html)
+* [リリース済みバージョン](https://experienceleague.adobe.com/docs/commerce-operations/release/versions.html)
+* [Release schedule](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html)
