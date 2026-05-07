@@ -57,7 +57,7 @@ To learn more about the tool see the [Upgrade Compatibility Tool documentation](
 
 ## ビデオコンテンツ
 
->[!VIDEO](https://video.tv.adobe.com/v/341245?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/344385?captions=jpn&learn=on)
 
 ## 関連資料
 
