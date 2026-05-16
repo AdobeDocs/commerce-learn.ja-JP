@@ -9,7 +9,7 @@ doc-type: Tutorial
 duration: 259
 last-substantial-update: 2026-05-15T00:00:00Z
 jira: KT-18624
-source-git-commit: e3257f9713b26b0ab8ca2e827aeaac4532ff9dff
+source-git-commit: 96a1356a399fa5cdca9d9befd7c14ebad1b0162f
 workflow-type: tm+mt
 source-wordcount: '597'
 ht-degree: 0%
@@ -31,7 +31,7 @@ ht-degree: 0%
 * カタログビューが、共有ベースカタログと特定のストアフロントやオーディエンスとの間の「レンズ」としての役割を果たす方法
 * ヘッドレスエクスペリエンスが設定されたカタログとの整合性を維持できるように、マーチャンダイジングサービス APIがそれらのビューをどのように使用するか
 
->[!VIDEO](https://video.tv.adobe.com/v/3491285?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491286?captions=jpn&learn=on)
 
 ## 分断されたカタログが抱える課題
 

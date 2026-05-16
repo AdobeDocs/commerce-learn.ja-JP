@@ -9,7 +9,7 @@ doc-type: Tutorial
 duration: 297
 last-substantial-update: 2026-05-15T00:00:00Z
 jira: KT-21132
-source-git-commit: e3257f9713b26b0ab8ca2e827aeaac4532ff9dff
+source-git-commit: 96a1356a399fa5cdca9d9befd7c14ebad1b0162f
 workflow-type: tm+mt
 source-wordcount: '543'
 ht-degree: 0%
@@ -31,7 +31,7 @@ ht-degree: 0%
 * ストアフロントでカタログビューを使用して商品と価格をフィルタリングする方法（例：Celport）
 * カタログビューの一意のIDと、信頼できる唯一の情報源のビジネス価値
 
->[!VIDEO](https://video.tv.adobe.com/v/3491261?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491263?captions=jpn&learn=on)
 
 ## シナリオ：Carvelo Automobiles
 
