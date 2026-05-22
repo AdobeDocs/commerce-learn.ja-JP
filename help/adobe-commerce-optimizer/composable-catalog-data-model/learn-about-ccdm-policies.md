@@ -79,6 +79,6 @@ Celport シナリオでは、静的ルールには次のものが含まれます
 
 * [コンポーザブルカタログデータモデルが存在する理由](./why-ccdm-exists.md)
 * [カタログビューについて詳しく見る](./learn-about-the-ccdm-feature-catalog-views.md)
-* [マーチャンダイジングサービスのカタログビュー](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/catalog-view){target="_blank"}
-* [[!DNL Adobe Commerce Optimizer] ガイド](https://experienceleague.adobe.com/en/docs/commerce/optimizer/overview){target="_blank"}
+* [マーチャンダイジングサービスのカタログビュー](https://experienceleague.adobe.com/ja/docs/commerce/optimizer/setup/catalog-view){target="_blank"}
+* [[!DNL Adobe Commerce Optimizer] ガイド](https://experienceleague.adobe.com/ja/docs/commerce/optimizer/overview){target="_blank"}
 * [マーチャンダイジング APIの概要](https://developer.adobe.com/commerce/services/optimizer/merchandising-services/using-the-api/#make-your-first-request){target="_blank"}
