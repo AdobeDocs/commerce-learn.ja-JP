@@ -9,9 +9,9 @@ doc-type: Tutorial
 duration: 378
 last-substantial-update: 2026-05-21T00:00:00Z
 jira: KT-21258
-source-git-commit: 43fee759ba8ea76dfa91f9ae838a6ad3474d2bcb
+source-git-commit: 84a3cb5868dd7c6f4adb0d46d53ed718133a6895
 workflow-type: tm+mt
-source-wordcount: '672'
+source-wordcount: '563'
 ht-degree: 0%
 
 ---
@@ -33,21 +33,6 @@ ht-degree: 0%
 * カタログを再構築することなく、日常業務でポリシーを更新する
 
 >[!VIDEO](https://video.tv.adobe.com/v/3491413?learn=on)
-
-## シナリオ：Carvelo AutomobilesとCelport
-
-**Carvelo Automobiles**&#x200B;は、Adobe Commerce デモで使用されている架空の自動車部品企業です。 Carveloは、**Celport**&#x200B;などのディーラーを通じて、**Aurora**、**Bolt**、**Cruz**&#x200B;の3つのブランドの部品を販売しています。
-
-[Celport カタログ ビュー](./learn-about-the-ccdm-feature-catalog-views.md)では、次の2つのポリシーが連携します。
-
-1. **ブランドフィルター** — **Bolt**&#x200B;と&#x200B;**Cruz**&#x200B;のブランドのみが許可されます。 Aurora製品はこのフィルターを通過しません。
-2. **カテゴリーフィルター** – 表示される製品を&#x200B;**ブレーキ**&#x200B;と&#x200B;**サスペンション**&#x200B;のみに制限します。
-
-製品を表示するには、アクティブなすべてのポリシー&#x200B;**を**&#x200B;満たす必要があります。 それ以外はすべてフィルタリングされます。
-
-ポリシーでは、**ブランド**、**車両モデル**、**部品カテゴリ**&#x200B;などの製品属性を評価し、そのカタログビューで許可される製品を定義します。
-
-## ポリシーとは？
 
 **ポリシー**&#x200B;は&#x200B;**データアクセスフィルター**&#x200B;です。 製品属性を検査し、カタログビューで表示される製品を決定するルールを適用します。 ポリシーは、共有されたコンポーザブルカタログの上に配置され、カタログデータを複製しません。
 
@@ -94,6 +79,6 @@ Celport シナリオでは、静的ルールには次のものが含まれます
 
 * [コンポーザブルカタログデータモデルが存在する理由](./why-ccdm-exists.md)
 * [カタログビューについて詳しく見る](./learn-about-the-ccdm-feature-catalog-views.md)
-* [マーチャンダイジングサービスのカタログビュー](https://experienceleague.adobe.com/ja/docs/commerce/optimizer/setup/catalog-view){target="_blank"}
-* [[!DNL Adobe Commerce Optimizer] ガイド](https://experienceleague.adobe.com/ja/docs/commerce/optimizer/overview){target="_blank"}
+* [マーチャンダイジングサービスのカタログビュー](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/catalog-view){target="_blank"}
+* [[!DNL Adobe Commerce Optimizer] ガイド](https://experienceleague.adobe.com/en/docs/commerce/optimizer/overview){target="_blank"}
 * [マーチャンダイジング APIの概要](https://developer.adobe.com/commerce/services/optimizer/merchandising-services/using-the-api/#make-your-first-request){target="_blank"}
