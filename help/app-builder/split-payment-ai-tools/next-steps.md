@@ -25,7 +25,7 @@ ht-degree: 0%
 
 `demo-dashboard` web アクションは、Node.js関数内の文字列からHTMLを提供します。 動作しますが、制作パターンではありません。
 
-適切な置き換えは、`commerce-checkout-starter-kit`の`commerce-backend-ui-1`拡張機能です。Adobe管理UI SDKを介してCommerce管理シェルに埋め込まれたReact アプリケーションです。 生成プロンプトについては、[分割支払いPOC: Experience Cloud UI拡張機能AI プロンプト &#x200B;](./experience-cloud-ui-prompt.md)を参照してください。
+適切な置き換えは、`commerce-checkout-starter-kit`の`commerce-backend-ui-1`拡張機能です。Adobe管理UI SDKを介してCommerce管理シェルに埋め込まれたReact アプリケーションです。 生成プロンプトについては、[分割支払いPOC: Experience Cloud UI拡張機能AI プロンプト ](./experience-cloud-ui-prompt.md)を参照してください。
 
 **変更内容：**
 * オペレーターは、Commerce管理シェル（共有シークレットではなくIMS認証）を介してログインします

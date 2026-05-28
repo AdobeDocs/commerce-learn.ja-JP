@@ -13,7 +13,7 @@ level: Beginner, Intermediate
 exl-id: 91530766-07be-4466-879b-1b7bfc14ac10
 source-git-commit: 9aa4d70ee6a3825f027aa2a9c6a1ac0f876ed59f
 workflow-type: tm+mt
-source-wordcount: '89'
+source-wordcount: '113'
 ht-degree: 0%
 
 ---
@@ -33,12 +33,12 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->ビデオの内容は、2.3.1 リリースを反映しています。 以降のリリースのアップデートについて詳しくは、[&#x200B; リリースノート &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/overview.html?lang=ja)を参照してください。
+>ビデオの内容は、2.3.1 リリースを反映しています。 以降のリリースのアップデートについて詳しくは、[ リリースノート ](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/overview.html)を参照してください。
 
->[!VIDEO](https://video.tv.adobe.com/v/330183?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/36190?learn=on)
 
 ## 関連資料
 
-[&#x200B; メールテンプレート - [!DNL Commerce] 管理者システムガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/systems/communications/email-templates.html?lang=ja)
+[メールテンプレート -  [!DNL Commerce] 管理者システムガイド](https://experienceleague.adobe.com/docs/commerce-admin/systems/communications/email-templates.html)
 
-[変数と顧客コミュニケーション - [!DNL Commerce] 管理者システムガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/systems/introduction.html?lang=ja#variables-and-customer-communications)
+[変数と顧客コミュニケーション - [!DNL Commerce] 管理者システムガイド](https://experienceleague.adobe.com/docs/commerce-admin/systems/introduction.html#variables-and-customer-communications)
