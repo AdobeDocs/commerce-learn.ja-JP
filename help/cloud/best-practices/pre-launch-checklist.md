@@ -73,10 +73,10 @@ ht-degree: 0%
 ## &#x200B;3. Fastly設定
 
 1. [!BADGE &#x200B; ブロッカー]{type=caution tooltip="潜在的な課題"} キャッシュが機能していることを確認してください（[&#x200B; フルページキャッシュ &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-admin/systems/tools/cache-management){target="_blank"}または[GraphQL キャッシュ &#x200B;](https://developer.adobe.com/commerce/webapi/graphql/usage/caching/){target="_blank"}）。 [Fastlyの設定ガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-on-cloud/user-guide/cdn/fastly){target="_blank"}を読む。
-2. 該当する場合は、PWA/ヘッドレス web サイトでGraphQL クエリに対してGET メソッドを使用します。
+2. 該当する場合は、PWA/ヘッドレス web サイトでGraphQL クエリにGET メソッドを使用します。
 
    >[!NOTE]
-   > HTTP GET操作で送信されたクエリのみがキャッシュできます（該当する場合）。 [POST クエリをキャッシュできません](https://developer.adobe.com/commerce/webapi/graphql/usage/caching/){target="_blank"}。
+   > HTTP GET操作で送信されたクエリのみをキャッシュできます（該当する場合）。 [POST クエリをキャッシュできません](https://developer.adobe.com/commerce/webapi/graphql/usage/caching/){target="_blank"}。
 
 3. Fastly Image Optimizationが有効になっていることを確認します（[Fastly Image Optimization](https://experienceleague.adobe.com/ja/docs/commerce-on-cloud/user-guide/cdn/fastly-image-optimization){target="_blank"}を参照）
 4. 正しいシールドの場所が設定されていることを確認します（[&#x200B; キャッシュ、バックエンド、オリジンのシールドを設定](https://experienceleague.adobe.com/ja/docs/commerce-on-cloud/user-guide/cdn/setup-fastly/fastly-custom-cache-configuration){target="_blank"}）。
@@ -183,12 +183,12 @@ Adobe Commerce Cloudでは、ステージング環境と実稼動環境の両方
 
 1. DNS サービスにアクセスし、各ドメインおよびホスト名のA レコードおよびCNAME レコードを更新します。
    1. **prod.magentocloud.map.fastly.net**&#x200B;を指す&#x200B;_&lt;&lt;www.yourdomain.com>>_&#x200B;のCNAME レコードを追加します
-   2. _&lt;&lt;yourdomain.com>>_&#x200B;に4つのA レコードを設定します。次の場所を指します。\
+   2. _&lt;&lt;yourdomain.com>>_&#x200B;の4つのA レコードを設定します。次の場所を指します。\
       151.101.1.124\
       151.101.65.124\
       151.101.129.124\
       151.101.193.124
-2. Adobe Commerce ベース URLを&#x200B;_に変更します。&lt;&lt;www.yourdomain.com>_
+2. Adobe Commerce ベース URLを&#x200B;_に変更します&lt;&lt;www.yourdomain.com>>_
 3. TTL時間が経過するのを待ってから、web ブラウザーを再起動します。
 4. web サイトのテスト：
 

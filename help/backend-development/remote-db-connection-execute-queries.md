@@ -216,17 +216,17 @@ SET FOREIGN_KEY_CHECKS=1;
 
 ## Adobe Commerce Cloud プロジェクトへのリモート DB接続
 
-この方法を使用すると、ライブデータを誤って編集および削除することができます。 慎重に使用してください。 可能な場合は、データベースのバックアップとオフラインのレビューをお勧めします。 Sometimes you must access data directly on Adobe Commerce Cloud; that workflow still carries risk. GUIs do not add confirmation prompts, so you can alter or remove data by mistake.
+この方法を使用すると、ライブデータを誤って編集および削除することができます。 慎重に使用してください。 可能な場合は、データベースのバックアップとオフラインのレビューをお勧めします。 場合によっては、Adobe Commerce Cloudから直接データにアクセスする必要がありますが、そのワークフローには依然としてリスクがあります。 GUIは確認プロンプトを追加しないため、誤ってデータを変更または削除することができます。
 
-A remote database connection is convenient but risky. You can easily forget that you are connected to production and delete or change data. You can connect to a read-only replica, but heavy SQL still affects the site. Adobe does not recommend routine remote connections to writable databases; use the steps below only when you understand the risks.
+リモートデータベース接続は便利ですがリスクがあります。 本番環境に接続していることを簡単に忘れてしまい、データを削除したり変更したりすることができます。 読み取り専用のレプリカに接続することはできますが、大量のSQLがサイトに影響を与えます。 Adobeでは、書き込み可能なデータベースへの日常的なリモート接続は推奨されていません。以下の手順は、リスクを理解している場合にのみ使用してください。
 
-Establish an SSH tunnel:
+SSH トンネルを確立します。
 
 ```bash
 magento-cloud tunnel:open
 ```
 
-After the project is chosen and the environment is picked, there is output from the command that is used in the settings for the mysql graphical interface.
+プロジェクトを選択して環境を選択すると、mysql グラフィカルインターフェイスの設定で使用されるコマンドの出力が表示されます。
 
 ```bash
 magento-cloud tunnel:open
@@ -258,45 +258,45 @@ Save encoded tunnel details to the MAGENTO_CLOUD_RELATIONSHIPS variable using:
   export MAGENTO_CLOUD_RELATIONSHIPS="$(magento-cloud tunnel:info --encode)"
 ```
 
-Establish a connection using a MySQL graphical interface by using the `SSH tunnel opened to database at` command option.
+`SSH tunnel opened to database at` コマンドオプションを使用して、MySQL グラフィカルインターフェイスを使用して接続を確立します。
 
 ```bash
 SSH tunnel opened to database at: mysql://user:@127.0.0.1:30000/main
 ```
 
-Now that you have the right information, enter these values in the Cloud Console.
+適切な情報が得られたので、Cloud Consoleでこれらの値を入力します。
 
-You can find the SSH hostname and username from the cloud credentials in the Cloud Console.
+SSH ホスト名とユーザー名は、Cloud Consoleのクラウド資格情報から確認できます。
 
 ![Adobe Commerce Cloud Console](./assets/cloud-ui-screenshot.png "Adobe Commerce Cloud Console")
 
-Here is one example: `ssh abasrpikfw4123-remote-db-ecpefky--mymagento@ssh.us-4.magento.cloud`
-The SSH hostname is everything after the @ sign: `ssh.us-4.magento.cloud` in this example.
-The SSH username is everything before the @ sign: `abasrpikfw4123-remote-db-ecpefky--mymagento`
+例を1つ紹介します。 `ssh abasrpikfw4123-remote-db-ecpefky--mymagento@ssh.us-4.magento.cloud`
+SSH ホスト名は、この例の@記号`ssh.us-4.magento.cloud`の後のすべてです。
+SSH ユーザー名は@記号の前のすべて：`abasrpikfw4123-remote-db-ecpefky--mymagento`
 
-## Finding values to connect to the database
+## データベースに接続する値の検索
 
-To access the MariaDB database directly, use SSH to log in to the remote Cloud environment and connect to the database.
+MariaDB データベースに直接アクセスするには、SSHを使用してリモートクラウド環境にログインし、データベースに接続します。
 
-1. Use SSH to log in to the remote environment.
+1. SSHを使用してリモート環境にログインします。
 
    ```bash
    magento-cloud ssh
    ```
 
-2. Retrieve the MySQL login credentials from the `database` and `type` properties in the [$MAGENTO_CLOUD_RELATIONSHIPS](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/properties.html?lang=ja#relationships) variable.
+2. [$MAGENTO_CLOUD_RELATIONSHIPS](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/properties.html?lang=ja#relationships)変数の`database`および`type` プロパティからMySQL ログイン資格情報を取得します。
 
    ```bash
    echo $MAGENTO_CLOUD_RELATIONSHIPS | base64 -d | json_pp
    ```
 
-   or
+   または
 
    ```bash
    php -r 'print_r(json_decode(base64_decode($_ENV["MAGENTO_CLOUD_RELATIONSHIPS"])));'
    ```
 
-   In the response, find the MySQL information. 例：
+   応答で、MySQL情報を見つけます。 例：
 
    ```json
    "database" : [
@@ -320,11 +320,11 @@ To access the MariaDB database directly, use SSH to log in to the remote Cloud e
    ],
    ```
 
-Then use the configuration values in your MySQL GUI. The following example uses MySQL Workbench, but any app that supports MySQL connections will have similar fields.
+次に、MySQL GUIで設定値を使用します。 次の例では、MySQL Workbenchを使用していますが、MySQL接続をサポートするアプリケーションには同様のフィールドがあります。
 
-![MySQL Workbench connection example](./assets/mysql-workbench-after-connecting.png "MySQL Workbench connection example")
+![MySQL Workbench接続例](./assets/mysql-workbench-after-connecting.png "MySQL Workbench接続例")
 
-![TablePlus connection example](./assets/tablesPlus-db-connection.png "TablePlus connection example")
+![TablePlus接続例](./assets/tablesPlus-db-connection.png "TablePlus接続例")
 
 接続を設定したら、MySQL GUIを使用して、リモート Adobe Commerce Cloud プロジェクトでクエリを実行できます。
 

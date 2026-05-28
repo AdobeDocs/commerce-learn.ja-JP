@@ -13,7 +13,7 @@ level: Beginner, Intermediate
 exl-id: c4b78f66-26eb-4b7e-950d-f2a8ebab9783
 source-git-commit: 9aa4d70ee6a3825f027aa2a9c6a1ac0f876ed59f
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '123'
 ht-degree: 0%
 
 ---
@@ -46,4 +46,4 @@ ht-degree: 0%
 
 ## 関連資料
 
-[&#x200B; ストアの詳細 –  [!DNL Commerce] 入門ガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/store-details.html?lang=ja)
+[ストアの詳細 –  [!DNL Commerce] はじめにガイド](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/store-details.html?lang=ja)
