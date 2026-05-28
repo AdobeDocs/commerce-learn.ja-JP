@@ -46,7 +46,7 @@ Adobe Commerce as a Cloud Serviceの新しいCustomer REST APIの使用方法を
 
 * サーバー間の資格情報を使用してAdobe IMSで認証し、API リクエストのアクセストークンを取得します
 * Commerce as a Cloud Serviceに適切なREST API エンドポイントフォーマットを使用する
-* 適切なJSON ペイロードを使用して、POSTおよびPUTリクエストを使用してプログラムで顧客アカウントを作成および更新します
+* 適切なJSON ペイロードを使用して、POST要求とPUT要求をプログラムで使用して顧客アカウントを作成および更新します
 
 >[!VIDEO](https://video.tv.adobe.com/v/3479363?captions=jpn&learn=on)
 
