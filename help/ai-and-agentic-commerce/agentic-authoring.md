@@ -1,0 +1,39 @@
+---
+title: エージェント型オーサリング
+description: Adobe Experience WorkspaceがAgentic AI アシスタントを活用して、ライブカタログに接続された自然言語プロンプトから、ブランド化されたストアフロントページを構築する方法をご確認ください。
+role: User
+level: Beginner
+doc-type: Value Video
+last-substantial-update: 2026-06-11T00:00:00Z
+jira: KT-21574
+duration: 376
+source-git-commit: cb1adeac1e57f4a0d43827a72f8762fff17bc727
+workflow-type: tm+mt
+source-wordcount: '165'
+ht-degree: 0%
+
+---
+
+# エージェント型オーサリング
+
+Adobe Experience Workspaceは、Adobe Commerceストアフロントに組み込まれたエージェント型オーサリング環境です。 マーケターと開発者が、ファイル構造、ページコンテンツ、メタデータ、ライブプレビューなど、単一のインターフェイスから確認できます。 Ai オーサリングアシスタントはMCP上で実行されます。 製品カタログやブランドコンテンツに直接接続できるため、タブを切り替えたり、コピー&amp;ペーストしたり、チケットをファイリングしたりすることなく、構築したい製品を記述したり、実際に視聴したりすることができます。
+
+## この動画は誰のためのものでしょうか？
+
+* マーケター
+* コンテンツ作成者
+* ストアフロント開発者
+
+## ビデオコンテンツ
+
+* ファイル構造、ページコンテンツ、ライブプレビューが並んだ統一されたオーサリングサーフェス
+* MCP経由で製品カタログに接続されたAI オーサリングアシスタント
+* プロンプトライブラリとスキルビルダーによるアシスタント機能の拡張
+* カタログに対してクエリを実行し、キャンペーンページ全体を生成するように求める自然言語プロンプト
+* 公開前のブロックレベル編集とライブエッジレンダリングのプレビュー
+
+>[!VIDEO](https://video.tv.adobe.com/v/3492281)
+
+<!-- ## Additional resources -->
+
+<!-- Link to related Experience League or Adobe Developer documentation. -->
