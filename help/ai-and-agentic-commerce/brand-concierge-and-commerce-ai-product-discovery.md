@@ -7,14 +7,16 @@ doc-type: Value Video
 last-substantial-update: 2026-06-11T00:00:00Z
 jira: KT-21572
 duration: 451
-source-git-commit: cb1adeac1e57f4a0d43827a72f8762fff17bc727
+source-git-commit: a1e5b576b9e4a75e1dcc26d64a89d1072f6c4bcb
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '180'
 ht-degree: 0%
 
 ---
 
 # Brand ConciergeとCommerceのAIによる商品の検索
+
+[!BADGE Beta]{type=Informative tooltip="この機能は現在ベータ版で、変更される可能性があります。"}
 
 しかし、どれほど豊富な商品カタログであったとしても、大規模言語モデル（LLM）に対する可視性は部分的なものに過ぎません。 商品のバリエーション、挽き型、フレーバーノート、パッケージなどの豊富な属性は、AIweb クローラーが読めない折りたたみ可能なパネルやポップアップの後ろに隠されていることがよくあります。 Brand Conciergeのカタログエージェントは、買い物客に接するストアフロントを変更することなく、そうしたギャップを自動的に特定し、解消します。
 
@@ -36,4 +38,4 @@ ht-degree: 0%
 
 ## 関連資料
 
-[[!DNL Brand Concierge]件のドキュメント](https://experienceleague.adobe.com/ja/docs/brand-concierge/content/home){target="_blank"}
+[[!DNL Brand Concierge]件のドキュメント](https://experienceleague.adobe.com/en/docs/brand-concierge/content/home){target="_blank"}
