@@ -7,7 +7,7 @@ doc-type: Value Video
 last-substantial-update: 2026-06-11T00:00:00Z
 jira: KT-21572
 duration: 451
-source-git-commit: e8599fadf01440009348ce105a2fcef3603bbdfc
+source-git-commit: 618ab9f643122b2155afb07bcaf779f59ef37837
 workflow-type: tm+mt
 source-wordcount: '180'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 [!BADGE 近日リリース予定]{type=Informative tooltip="この機能は近日提供開始予定です。変更される可能性があります。"}
 
-しかし、どれほど豊富な商品カタログであったとしても、大規模言語モデル（LLM）に対する可視性は部分的なものに過ぎません。 商品のバリエーション、挽き型、フレーバーノート、パッケージなどの豊富な属性は、AIweb クローラーが読めない折りたたみ可能なパネルやポップアップの後ろに隠されていることがよくあります。 Brand Conciergeのカタログエージェントは、買い物客に接するストアフロントを変更することなく、そうしたギャップを自動的に特定し、解消します。
+しかし、どれほど豊富な商品カタログであったとしても、大規模言語モデル（LLM）に対する可視性は部分的なものに過ぎません。 商品のバリエーション、挽き型、フレーバーノート、パッケージなどの豊富な属性は、AIweb クローラーが読めない折りたたみ可能なパネルやポップアップの後ろに隠されていることがよくあります。 コマースカタログエージェントは、買い物客に接するストアフロントを変更することなく、そうした可視性のギャップを自動的に特定し、解決します。
 
 ## この動画は誰のためのものでしょうか？
 
@@ -38,4 +38,4 @@ ht-degree: 0%
 
 ## 関連資料
 
-[[!DNL Brand Concierge]件のドキュメント](https://experienceleague.adobe.com/ja/docs/brand-concierge/content/home){target="_blank"}
+[[!DNL Brand Concierge]件のドキュメント](https://experienceleague.adobe.com/en/docs/brand-concierge/content/home){target="_blank"}

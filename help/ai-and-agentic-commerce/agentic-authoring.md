@@ -7,9 +7,9 @@ doc-type: Value Video
 last-substantial-update: 2026-06-11T00:00:00Z
 jira: KT-21574
 duration: 376
-source-git-commit: e8599fadf01440009348ce105a2fcef3603bbdfc
+source-git-commit: cac02a33a2fcbfb83989178b6b2b41f364da1d43
 workflow-type: tm+mt
-source-wordcount: '177'
+source-wordcount: '171'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 [!BADGE 近日リリース予定]{type=Informative tooltip="この機能は近日提供開始予定です。変更される可能性があります。"}
 
-Adobe Experience Workspaceは、Adobe Commerceストアフロントに組み込まれたエージェント型オーサリング環境です。 マーケターと開発者が、ファイル構造、ページコンテンツ、メタデータ、ライブプレビューなど、単一のインターフェイスから確認できます。 Ai オーサリングアシスタントはMCP上で実行されます。 製品カタログやブランドコンテンツに直接接続できるため、タブを切り替えたり、コピー&amp;ペーストしたり、チケットをファイリングしたりすることなく、構築したい製品を記述したり、実際に視聴したりすることができます。
+Adobe Experience Workspaceは、マーケターと開発者がファイル構造、ページコンテンツ、メタデータ、ライブプレビューなど、単一のインターフェイスからコンテンツを制作できるエージェント型のオーサリング環境です。 Ai オーサリングアシスタントはMCP上で実行されます。 製品カタログやブランドコンテンツに直接接続できるため、タブを切り替えたり、コピー&amp;ペーストしたり、チケットをファイリングしたりすることなく、構築したい製品を記述したり、実際に視聴したりすることができます。
 
 ## この動画は誰のためのものでしょうか？
 
