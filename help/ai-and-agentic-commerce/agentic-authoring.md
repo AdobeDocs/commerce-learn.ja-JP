@@ -34,7 +34,7 @@ Adobe Experience Workspaceは、マーケターと開発者がファイル構造
 * カタログに対してクエリを実行し、キャンペーンページ全体を生成するように求める自然言語プロンプト
 * 公開前のブロックレベル編集とライブエッジレンダリングのプレビュー
 
->[!VIDEO](https://video.tv.adobe.com/v/3492281)
+>[!VIDEO](https://video.tv.adobe.com/v/3492297?captions=jpn)
 
 <!-- ## Additional resources -->
 
