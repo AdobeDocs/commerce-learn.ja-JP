@@ -38,4 +38,4 @@ Brand Conciergeなら、対話型のショッピング体験をAdobe Commerceで
 
 ## 関連資料
 
-[[!DNL Brand Concierge]件のドキュメント](https://experienceleague.adobe.com/en/docs/brand-concierge/content/home){target="_blank"}
+[[!DNL Brand Concierge]件のドキュメント](https://experienceleague.adobe.com/ja/docs/brand-concierge/content/home){target="_blank"}
