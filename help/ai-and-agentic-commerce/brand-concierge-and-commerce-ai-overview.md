@@ -7,9 +7,9 @@ doc-type: Value Video
 last-substantial-update: 2026-06-11T00:00:00Z
 jira: KT-21570
 duration: 303
-source-git-commit: e8599fadf01440009348ce105a2fcef3603bbdfc
+source-git-commit: 618ab9f643122b2155afb07bcaf779f59ef37837
 workflow-type: tm+mt
-source-wordcount: '193'
+source-wordcount: '172'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 [!BADGE 近日リリース予定]{type=Informative tooltip="この機能は近日提供開始予定です。変更される可能性があります。"}
 
-コマースへの最前線は、もはやホームページではなく、会話です。 Adobe Commerceと統合されたBrand Conciergeは、フィルター、検索バー、カテゴリーページを、買い物客の意図を理解し、カタログをクエリし、1回の会話でカートを管理するAI アシスタントに置き換えます。 AIを利用することで、コンバージョン率が31%高まり、1訪問あたりの売上が254%増加し、サイトでの滞在時間が45%増加しました（Adobe Digital Insights、2026年1月）。
+Brand Conciergeなら、対話型のショッピング体験をAdobe Commerceで提供できます。買い物客はフィルターや検索バーを使用することなく、欲しいものを平易な言葉で説明し、ライブカタログから一致する商品を入手できます。 同じ会話でカートの更新、チェックアウト、購入後のガイダンスを処理し、セッション全体のコンテキストを完全に保持します。
 
 ## この動画は誰のためのものでしょうか？
 
@@ -34,7 +34,7 @@ ht-degree: 0%
 * 決済プロセスを円滑に進めることができます
 * 購入した製品に特化した購入後のコンテキストに関するガイダンス
 
->[!VIDEO](https://video.tv.adobe.com/v/3492285)
+>[!VIDEO](https://video.tv.adobe.com/v/3492315?captions=jpn)
 
 ## 関連資料
 
