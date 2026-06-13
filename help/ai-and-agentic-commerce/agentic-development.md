@@ -34,7 +34,7 @@ ht-degree: 0%
 * システム全体を通じた同時検証と最適化
 * ハンドオフやコンテクストの損失を回避しながら、継続的にデプロイメントフローを実現
 
->[!VIDEO](https://video.tv.adobe.com/v/3492284)
+>[!VIDEO](https://video.tv.adobe.com/v/3492288?captions=jpn)
 
 <!-- ## Additional resources -->
 
