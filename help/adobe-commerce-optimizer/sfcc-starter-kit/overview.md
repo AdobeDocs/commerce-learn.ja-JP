@@ -32,4 +32,4 @@ Salesforce Commerce Cloud（SFCC）とAdobe Commerce Optimizerを統合するた
 * Salesforce Commerce Cloud integration starter kitの目的について説明します。
 * スターターキットのインストール先について
 
->[!VIDEO](https://video.tv.adobe.com/v/3473977?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3473979?captions=jpn&learn=on)
