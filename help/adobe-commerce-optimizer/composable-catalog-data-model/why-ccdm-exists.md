@@ -9,7 +9,7 @@ doc-type: Tutorial
 duration: 259
 last-substantial-update: 2026-05-15T00:00:00Z
 jira: KT-18624
-source-git-commit: 96a1356a399fa5cdca9d9befd7c14ebad1b0162f
+source-git-commit: bfe282e4f1ef04985cffb109bce90bc05a70fda0
 workflow-type: tm+mt
 source-wordcount: '597'
 ht-degree: 0%
@@ -31,7 +31,7 @@ ht-degree: 0%
 * カタログビューが、共有ベースカタログと特定のストアフロントやオーディエンスとの間の「レンズ」としての役割を果たす方法
 * ヘッドレスエクスペリエンスが設定されたカタログとの整合性を維持できるように、マーチャンダイジングサービス APIがそれらのビューをどのように使用するか
 
->[!VIDEO](https://video.tv.adobe.com/v/3491286?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491285?learn=on)
 
 ## 分断されたカタログが抱える課題
 
@@ -53,14 +53,14 @@ Adobe Commerce Optimizerでは、商品データは、1つ以上の&#x200B;**カ
 
 ## ストアフロントレンズとしてのカタログビュー
 
-[&#x200B; マーチャンダイジングサービスのカタログビュー](https://experienceleague.adobe.com/ja/docs/commerce/optimizer/setup/catalog-view){target="_blank"}で説明されているように、カタログビューは&#x200B;**レンズ**&#x200B;のように動作します。買い物客は、ビューが許可する商品、価格、ルールのみを表示しますが、**ベースカタログ**&#x200B;は共有システムのままです。 このモデルは&#x200B;**マーチャンダイジングサービス**&#x200B;と直接ペアを設定するので、API クライアントは正しいビュー（および関連ヘッダー）を渡し、各エクスペリエンスに対して一貫性のあるポリシー駆動型の応答を受け取ります。
+[ マーチャンダイジングサービスのカタログビュー](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/catalog-view){target="_blank"}で説明されているように、カタログビューは&#x200B;**レンズ**&#x200B;のように動作します。買い物客は、ビューが許可する商品、価格、ルールのみを表示しますが、**ベースカタログ**&#x200B;は共有システムのままです。 このモデルは&#x200B;**マーチャンダイジングサービス**&#x200B;と直接ペアを設定するので、API クライアントは正しいビュー（および関連ヘッダー）を渡し、各エクスペリエンスに対して一貫性のあるポリシー駆動型の応答を受け取ります。
 
-これらの要素がエンドツーエンドのフローにどのように適合するかについての詳細は、開発者チュートリアル [&#x200B; ストアフロント用の構成可能なカタログの作成](https://developer.adobe.com/commerce/services/optimizer/ccdm-use-case/){target="_blank"}を参照してください。
+これらの要素がエンドツーエンドのフローにどのように適合するかについての詳細は、開発者チュートリアル [ ストアフロント用の構成可能なカタログの作成](https://developer.adobe.com/commerce/services/optimizer/ccdm-use-case){target="_blank"}を参照してください。
 
 ## 関連コンテンツ
 
 * [カタログビューについて詳しく見る](./learn-about-the-ccdm-feature-catalog-views.md)
-* [マーチャンダイジングサービスのカタログビュー](https://experienceleague.adobe.com/ja/docs/commerce/optimizer/setup/catalog-view){target="_blank"}
-* [ストアフロント用の構成可能なカタログの作成](https://developer.adobe.com/commerce/services/optimizer/ccdm-use-case/){target="_blank"}
-* [[!DNL Adobe Commerce Optimizer] ガイド](https://experienceleague.adobe.com/ja/docs/commerce/optimizer/overview){target="_blank"}
-* [マーチャンダイジング APIの概要](https://developer.adobe.com/commerce/services/optimizer/merchandising-services/using-the-api/#make-your-first-request){target="_blank"}
+* [マーチャンダイジングサービスのカタログビュー](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/catalog-view){target="_blank"}
+* [ストアフロント用の構成可能なカタログの作成](https://developer.adobe.com/commerce/services/optimizer/ccdm-use-case){target="_blank"}
+* [[!DNL Adobe Commerce Optimizer] ガイド](https://experienceleague.adobe.com/en/docs/commerce/optimizer/overview){target="_blank"}
+* [マーチャンダイジング APIの概要](https://developer.adobe.com/commerce/services/optimizer/merchandising-services/using-the-api#make-your-first-request){target="_blank"}
