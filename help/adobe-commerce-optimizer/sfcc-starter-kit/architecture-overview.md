@@ -1,6 +1,6 @@
 ---
-title: Salesforce Commerce Cloud Connectorのアーキテクチャの概要
-description: Adobe Commerce Optimizerを活用したSalesforce Commerce Cloudのアーキテクチャについて説明します。
+title: Salesforce Commerce Cloud Connector Architecture
+description: Salesforce Commerce Cloud Connector Starter Kitが、App Builder ランタイムアクションと差分エクスポートを使用してカタログをAdobe Commerce Optimizerと同期する方法について説明します。
 feature: App Builder,Saas
 topic: Administration,Commerce,Integrations
 role: Developer
@@ -10,9 +10,9 @@ duration: 288
 last-substantial-update: 2025-10-20T00:00:00Z
 jira: KT-19014
 exl-id: 1e0edcbb-5619-45c2-b06d-9133f23a634f
-source-git-commit: 8c330bb8aa35c143672f37da954d5cf6b4edb729
+source-git-commit: bfe282e4f1ef04985cffb109bce90bc05a70fda0
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '202'
 ht-degree: 0%
 
 ---

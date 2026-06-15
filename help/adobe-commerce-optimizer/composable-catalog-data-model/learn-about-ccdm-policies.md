@@ -1,17 +1,17 @@
 ---
 title: コンポーザブルカタログデータモデルでのCCDM ポリシーについて説明します
-description: Adobe コンポーザブルカタログデータモデルのポリシーが、各カタログビューで静的ルールとトリガーヘッダーを使用して商品をフィルタリングする方法について説明します。
+description: Adobe コンポーザブルカタログデータモデルの静的ポリシーとトリガーポリシーが、カタログを再構築することなく、カタログビュー全体で商品の表示をどのように制御するかをご確認ください。
 feature: Saas, Storefront
 topic: Commerce
 role: Developer
 level: Beginner
 doc-type: Tutorial
-duration: 378
+duration: 349
 last-substantial-update: 2026-05-21T00:00:00Z
 jira: KT-21258
-source-git-commit: 84a3cb5868dd7c6f4adb0d46d53ed718133a6895
+source-git-commit: bfe282e4f1ef04985cffb109bce90bc05a70fda0
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: '564'
 ht-degree: 0%
 
 ---
@@ -81,4 +81,4 @@ Celport シナリオでは、静的ルールには次のものが含まれます
 * [カタログビューについて詳しく見る](./learn-about-the-ccdm-feature-catalog-views.md)
 * [マーチャンダイジングサービスのカタログビュー](https://experienceleague.adobe.com/ja/docs/commerce/optimizer/setup/catalog-view){target="_blank"}
 * [[!DNL Adobe Commerce Optimizer] ガイド](https://experienceleague.adobe.com/ja/docs/commerce/optimizer/overview){target="_blank"}
-* [マーチャンダイジング APIの概要](https://developer.adobe.com/commerce/services/optimizer/merchandising-services/using-the-api/#make-your-first-request){target="_blank"}
+* [マーチャンダイジング APIの概要](https://developer.adobe.com/commerce/services/optimizer/merchandising-services/using-the-api#make-your-first-request){target="_blank"}

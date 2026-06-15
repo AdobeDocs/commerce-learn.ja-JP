@@ -1,6 +1,6 @@
 ---
 title: Salesforce Commerce Cloudの概要
-description: SFCC コネクタを使用したSalesforce Commerce CloudとAdobe Commerce Optimizerの連携について説明します。
+description: Salesforce Commerce Cloud Connectorが、SFCCとCommerce Optimizerを統合し、AIによる発見とカタログの同期によってe コマースを近代化する方法をご確認ください。
 feature: App Builder,Saas
 topic: Administration,Commerce,Integrations
 role: Developer
@@ -10,9 +10,9 @@ duration: 230
 last-substantial-update: 2025-10-20T00:00:00Z
 jira: KT-18990
 exl-id: 042f6a15-0cbb-412e-96e0-383bd4058c0f
-source-git-commit: 8c330bb8aa35c143672f37da954d5cf6b4edb729
+source-git-commit: bfe282e4f1ef04985cffb109bce90bc05a70fda0
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: '166'
 ht-degree: 0%
 
 ---
@@ -32,4 +32,4 @@ Salesforce Commerce Cloud（SFCC）とAdobe Commerce Optimizerを統合するた
 * Salesforce Commerce Cloud integration starter kitの目的について説明します。
 * スターターキットのインストール先について
 
->[!VIDEO](https://video.tv.adobe.com/v/3476014?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3473979?captions=jpn&learn=on)

@@ -1,13 +1,13 @@
 ---
 title: データのクエリ方法
-description: Adobe Commerce Optimizer インスタンスのデータをクエリする方法について説明します。
+description: Jqおよび構造検索クエリ変数を使用してJSON応答をフォーマットする方法など、GraphQLを使用してAdobe Commerce Optimizer製品データをクエリする方法を説明します。
 feature: Saas, Storefront
 topic: Commerce
 role: Developer
 level: Beginner
 doc-type: Tutorial
-duration: 243
-last-substantial-update: 2025-08-13T00:00:00.000Z
+duration: 204
+last-substantial-update: 2025-08-13
 jira: KT-18548
 exl-id: bad3d926-2952-4bac-b685-adb16f009f8d
 TQID: https://experienceleague.adobe.com/IxrS6rwleWgU0-jtwu4hUavQuZesbQ6h5z7zVZR2xCo
@@ -17,9 +17,9 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: b599f79ad41b9552cea6ff41062eb4ef75f183bb
+source-git-commit: bfe282e4f1ef04985cffb109bce90bc05a70fda0
 workflow-type: tm+mt
-source-wordcount: 114
+source-wordcount: 127
 ht-degree: 0%
 
 ---
@@ -63,5 +63,5 @@ curl '{{insert-your-graphql-endpoint-url}}' \
 
 ## 関連コンテンツ
 
-* [マーチャンダイジング APIの概要](https://developer.adobe.com/commerce/services/optimizer/merchandising-services/using-the-api/#make-your-first-request){target="_blank"}
+* [マーチャンダイジング APIの概要](https://developer.adobe.com/commerce/services/optimizer/merchandising-services/using-the-api#make-your-first-request){target="_blank"}
 * [[!DNL Adobe Commerce Optimizer] ガイド](https://experienceleague.adobe.com/ja/docs/commerce/optimizer/overview){target="_blank"}

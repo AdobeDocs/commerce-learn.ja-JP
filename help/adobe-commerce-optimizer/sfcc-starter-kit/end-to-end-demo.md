@@ -1,18 +1,18 @@
 ---
 title: Salesforce Commerce Cloud Connectorのエンドツーエンドのデモ
-description: Adobe Commerce Optimizerを活用したSalesforce Commerce Cloudのエンドツーエンドのデモをご覧ください。
+description: Salesforce Commerce CloudとAdobe Commerce Optimizer間で完全かつ差分の同期を実行し、ライブストアフロントで結果を検証する方法について説明します。
 feature: App Builder,Saas
 topic: Administration,Commerce,Integrations
 role: Developer
 level: Beginner
 doc-type: Technical Video
-duration: 429
+duration: 430
 last-substantial-update: 2025-10-21T00:00:00Z
 jira: KT-19017
 exl-id: 0b7d6adb-e535-4dc1-82cc-cb3a5be9a124
-source-git-commit: 8c330bb8aa35c143672f37da954d5cf6b4edb729
+source-git-commit: bfe282e4f1ef04985cffb109bce90bc05a70fda0
 workflow-type: tm+mt
-source-wordcount: '206'
+source-wordcount: '224'
 ht-degree: 0%
 
 ---
