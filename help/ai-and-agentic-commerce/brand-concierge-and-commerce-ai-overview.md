@@ -34,7 +34,7 @@ Adobe Commerceと統合されたBrand Conciergeは、AI アシスタントを通
 * 決済プロセスを円滑に進めることができます
 * 購入した製品に特化した購入後のコンテキストに関するガイダンス
 
->[!VIDEO](https://video.tv.adobe.com/v/3492285)
+>[!VIDEO](https://video.tv.adobe.com/v/3492315?captions=jpn)
 
 ## 関連資料
 
