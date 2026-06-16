@@ -34,5 +34,5 @@ ht-degree: 0%
 * AIによって最適化された製品名と説明を生成するカタログの強化
 * AIコンテンツの可視性チェッカーを使用した改善の検証
 
->[!VIDEO](https://video.tv.adobe.com/v/3492287)
+>[!VIDEO](https://video.tv.adobe.com/v/3492324?captions=jpn)
 
