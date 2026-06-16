@@ -38,4 +38,4 @@ Adobe Commerceと統合されたBrand Conciergeは、AI アシスタントを通
 
 ## 関連資料
 
-[[!DNL Brand Concierge]件のドキュメント](https://experienceleague.adobe.com/en/docs/brand-concierge/content/home){target="_blank"}
+[[!DNL Brand Concierge]件のドキュメント](https://experienceleague.adobe.com/ja/docs/brand-concierge/content/home){target="_blank"}
