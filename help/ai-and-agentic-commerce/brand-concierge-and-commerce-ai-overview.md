@@ -7,9 +7,9 @@ doc-type: Value Video
 last-substantial-update: 2026-06-11T00:00:00Z
 jira: KT-21570
 duration: 303
-source-git-commit: 618ab9f643122b2155afb07bcaf779f59ef37837
+source-git-commit: 34d8e5a85419be1b8b219f1deafb9d714bd075a1
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '168'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 [!BADGE 近日リリース予定]{type=Informative tooltip="この機能は近日提供開始予定です。変更される可能性があります。"}
 
-Brand Conciergeなら、対話型のショッピング体験をAdobe Commerceで提供できます。買い物客はフィルターや検索バーを使用することなく、欲しいものを平易な言葉で説明し、ライブカタログから一致する商品を入手できます。 同じ会話でカートの更新、チェックアウト、購入後のガイダンスを処理し、セッション全体のコンテキストを完全に保持します。
+Adobe Commerceと統合されたBrand Conciergeは、AI アシスタントを通じて会話をコンバージョンに変え、買い物客の意図を理解します。 この統合により、ライブカタログ、価格設定、在庫データを活用した正確なリアルタイムの商品レコメンデーションを提供でき、顧客は自信を持って購入の意思決定をおこなうことができます。
 
 ## この動画は誰のためのものでしょうか？
 
@@ -34,8 +34,8 @@ Brand Conciergeなら、対話型のショッピング体験をAdobe Commerceで
 * 決済プロセスを円滑に進めることができます
 * 購入した製品に特化した購入後のコンテキストに関するガイダンス
 
->[!VIDEO](https://video.tv.adobe.com/v/3492315?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3492285)
 
 ## 関連資料
 
-[[!DNL Brand Concierge]件のドキュメント](https://experienceleague.adobe.com/ja/docs/brand-concierge/content/home){target="_blank"}
+[[!DNL Brand Concierge]件のドキュメント](https://experienceleague.adobe.com/en/docs/brand-concierge/content/home){target="_blank"}
