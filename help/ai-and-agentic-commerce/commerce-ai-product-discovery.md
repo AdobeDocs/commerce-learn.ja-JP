@@ -1,20 +1,20 @@
 ---
-title: Brand ConciergeとCommerceのAIによる商品の検索
-description: Brand Conciergeでカタログエージェントを使用して、AIによる可視性のギャップを埋め、Commerceの商品データを強化して、LLMが商品を発見し、推奨する方法を説明します。
+title: Commerce AIによる商品の発見
+description: Commerceのカタログエージェントが、AIによる可視性のギャップをどのように埋め、Commerceの商品データを強化して、LLMが商品を発見し、推奨できるようになるのかをご確認ください。
 role: User
 level: Beginner
 doc-type: Value Video
 last-substantial-update: 2026-06-11T00:00:00Z
 jira: KT-21572
 duration: 451
-source-git-commit: 3475138b5a0dd2eaa30ee7da0e3f7b2699428d59
+source-git-commit: 23a3ecdc06ec2738f524359169668a1423c34493
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '160'
 ht-degree: 0%
 
 ---
 
-# Brand ConciergeとCommerceのAIによる商品の検索
+# Commerce AIによる商品の発見
 
 [!BADGE 近日リリース予定]{type=Informative tooltip="この機能は近日提供開始予定です。変更される可能性があります。"}
 
@@ -35,8 +35,4 @@ ht-degree: 0%
 * AIコンテンツの可視性チェッカーを使用した改善の検証
 
 >[!VIDEO](https://video.tv.adobe.com/v/3492324?captions=jpn)
-
-## 関連資料
-
-[[!DNL Brand Concierge]件のドキュメント](https://experienceleague.adobe.com/ja/docs/brand-concierge/content/home){target="_blank"}
 
