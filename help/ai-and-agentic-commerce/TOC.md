@@ -2,9 +2,9 @@
 user-guide-title: AIおよびAgentic Commerceのビデオとチュートリアル
 user-guide-description: 動画とチュートリアルで、Adobe CommerceのAIとAgentic commerce機能について説明します。
 breadcrumb-title: AIとAgentic Commerce
-source-git-commit: 23a3ecdc06ec2738f524359169668a1423c34493
+source-git-commit: 10642c6e867c10aaabd8d87e5e8ffbe2671114cc
 workflow-type: tm+mt
-source-wordcount: '45'
+source-wordcount: '42'
 ht-degree: 2%
 
 ---
@@ -12,8 +12,8 @@ ht-degree: 2%
 
 # AIとAgentic Commerce {#ai-and-agentic-commerce}
 
-+ Brand ConciergeとCommerce AI {#brand-concierge}
-   + [概要](./brand-concierge-and-commerce-ai-overview.md)
++ COMMERCE MCP {#commerce-mcp}
+   + [概要](./commerce-mcp-overview.md)
 + [セマンティック検索](./semantic-search.md)
 + エージェント型Commerce {#agentic-commerce}
    + [製品の発見](./commerce-ai-product-discovery.md)
