@@ -27,7 +27,7 @@ ht-degree: 0%
 ## 実行する前
 
 * [分割支払いPOC：前提条件と環境の設定](./prerequisites-and-setup.md)を完了します。
-* [分割支払いPOC：環境変数リファレンス ](./env-reference.md)と`.env` ファイルをプロジェクトで準備します。
+* [分割支払いPOC：環境変数リファレンス &#x200B;](./env-reference.md)と`.env` ファイルをプロジェクトで準備します。
 
 
 ## プロンプト

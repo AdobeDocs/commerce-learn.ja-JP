@@ -18,7 +18,7 @@ ht-degree: 0%
 
 # 分割支払いPOC: Experience Cloud UI拡張機能AI プロンプト
 
-これは、`commerce-checkout-starter-kit`と`commerce-backend-ui-1` パターンを使用して、**[!UICONTROL Adobe Commerce]**&#x200B;管理シェル （Experience Cloud）に分割支払い注文パネルを埋め込むオプションの手順です。 App Builder orchestratorのスタンドアロン [ デモダッシュボード ](./orchestrator-prompt.md)は、管理者シェルの統合なしで、同じ承認と拒否のフローをカバーしています。
+これは、`commerce-checkout-starter-kit`と`commerce-backend-ui-1` パターンを使用して、**[!UICONTROL Adobe Commerce]**&#x200B;管理シェル （Experience Cloud）に分割支払い注文パネルを埋め込むオプションの手順です。 App Builder orchestratorのスタンドアロン [&#x200B; デモダッシュボード &#x200B;](./orchestrator-prompt.md)は、管理者シェルの統合なしで、同じ承認と拒否のフローをカバーしています。
 
 ## このプロンプトの使用方法
 
@@ -26,8 +26,8 @@ ht-degree: 0%
 
 ## 実行する前
 
-* このパスには、OAuth値に加えて&#x200B;**IMS**&#x200B;資格情報が必要です（`commerce-checkout-starter-kit`変数の[分割支払いPOC：環境変数リファレンス ](./env-reference.md)を参照）。
-* 同じ`payment-accept`と`payment-decline`のビヘイビアーを比較する場合は、[分割支払いPOC: App Builder オーケストレーターAI プロンプト ](./orchestrator-prompt.md)を最初に実行します。UI拡張機能は、そのロジックを`COMMERCE_INTEGRATION_*`個の環境名で再利用します。
+* このパスには、OAuth値に加えて&#x200B;**IMS**&#x200B;資格情報が必要です（`commerce-checkout-starter-kit`変数の[分割支払いPOC：環境変数リファレンス &#x200B;](./env-reference.md)を参照）。
+* 同じ`payment-accept`と`payment-decline`のビヘイビアーを比較する場合は、[分割支払いPOC: App Builder オーケストレーターAI プロンプト &#x200B;](./orchestrator-prompt.md)を最初に実行します。UI拡張機能は、そのロジックを`COMMERCE_INTEGRATION_*`個の環境名で再利用します。
 
 
 ## プロンプト
