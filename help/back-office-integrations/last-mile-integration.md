@@ -1,17 +1,14 @@
 ---
-title: Commerce統合スターターキットのラストマイル統合。
-description: Commerceのラストマイル統合。検証、変換、前処理、送信、後処理などの拡張可能なフックがハイライト表示されている​
-landing-page-description: Commerce システムのラストマイル統合における拡張フックの構造と機能について説明します。
-kt: 15869
-doc-type: video
+title: Commerce スターターキットのラストマイル統合
+description: 検証、変換、前処理、送信、後処理に拡張フックを使用したCommerceでのラストマイル統合について説明します。
+doc-type: Technical Video
 duration: 557
-audience: all
-last-substantial-update: 2024-7-30
+last-substantial-update: 2024-07-30
 feature: Best Practices, Backend Development, Integration
 topic: Architecture, Commerce, Development
-old-role: Architect, Developer
 role: Developer
 level: Intermediate
+jira: KT-15869
 exl-id: e86e8c7b-d5d2-484d-90a2-9c5309c7ea1d
 TQID: https://experienceleague.adobe.com/TCR23A98L8XrVDEQeqLQoOXKQPBQu-Wb7YnGUkBXgak
 product_v2:
@@ -24,16 +21,16 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: b599f79ad41b9552cea6ff41062eb4ef75f183bb
+source-git-commit: 9568f37b026d0e659e8092282cb923c7ecde58ac
 workflow-type: tm+mt
-source-wordcount: 359
+source-wordcount: 342
 ht-degree: 0%
 
 ---
 
 # Adobe Starter Kitによるラストマイル統合
 
-Adobe Commerceとのラストマイル統合を開始する際に考慮すべき事項について説明します。拡張フックを使用してサードパーティシステムとの接続を強化することに重点を置きます。 このビデオでは、検証、変換、前処理、送信、後処理などのさまざまなフックがシームレスなデータフローとシステムの同期を確保する構造化されたアプローチの概要を説明します。 各フックには、次のような明確な目的があります。
+Adobe Commerceとのラストマイル統合を開始する際に考慮すべき項目について説明します。サードパーティシステムとの接続を強化するための拡張性フックに焦点を当てます。 このビデオでは、検証、変換、前処理、送信、後処理などのさまざまなフックがシームレスなデータフローとシステムの同期を確保する構造化されたアプローチの概要を説明します。 各フックには、次のような明確な目的があります。
 
 * スキーマに対する受信データの検証
 * システム間でのデータオブジェクトの変換
@@ -47,12 +44,12 @@ Adobe Commerceとのラストマイル統合を開始する際に考慮すべき
 ## オーディエンス
 
 * 拡張性フックの構造と機能、およびこれらのフックがサードパーティシステムとの接続をどのように強化できるかを学習したい開発者。
-* 検証、変換、前処理、送信、後処理など、各拡張フックに関連する典型的なユースケースとベストプラクティスを学習して、シームレスなデータフロー、システム同期、効率的な統合設定メンテナンスを促進したい開発者。 &#x200B;
+* 検証、変換、前処理、送信、後処理など、各拡張フックに関連する典型的なユースケースとベストプラクティスを学習して、シームレスなデータフロー、システム同期、効率的な統合設定メンテナンスを促進したい開発者&#x200B;。
 
 ## ビデオコンテンツ
 
 * ラストマイル統合で呼び出されたアクションの構造について説明します。
-* スキーマに対する受信データの検証や、特定の条件に基づく特定のイベントのスキップなど、検証フック内の典型的なユースケースを理解します。 &#x200B;
+* スキーマに対する受信データの検証や、特定の条件に基づいて特定のイベントのスキップなど、検証フック内の典型的なユースケースを理解&#x200B;きます。
 * ソースシステムと宛先システム間でデータオブジェクトを変換する際の変換フックの役割について説明します。
 * 実際のデータ送信を宛先システムに容易にするための送信フックの重要性について説明します。
 
