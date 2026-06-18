@@ -44,7 +44,7 @@ ht-degree: 0%
 * 新しいシークレットを追加するには、ファイルを追加します
 * このファイルには機密情報が含まれているため、コミットしないでください
 
->[!VIDEO](https://video.tv.adobe.com/v/3416593?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3421069?captions=jpn&learn=on)
 
 ## コードサンプル
 
