@@ -1,7 +1,7 @@
 ---
 title: テストフォルダー
-description: このサンプルアプリケーションのテストフォルダーにあるファイルの種類について説明します。
-jira: KT-12424
+description: App Builder テストフォルダー内のJavaScript単体テストファイルと、Adobe Commerce サンプルアプリケーションの包括的なテスト用に拡張する方法について説明します。
+jira: KT-21682
 doc-type: Tutorial
 duration: 233
 last-substantial-update: 2023-03-13T00:00:00.000Z
@@ -11,16 +11,12 @@ role: Developer
 level: Beginner, Intermediate
 exl-id: 5d3ced3f-174d-4481-8511-82616bb77c43
 TQID: https://experienceleague.adobe.com/84OKfd7Xbb1q-EoEPOVt9l2bISkQJVqfXdIJFr4jCis
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: b599f79ad41b9552cea6ff41062eb4ef75f183bb
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: e03f0a058d1a08b1a67fd278c1b6127566a370ac
 workflow-type: tm+mt
-source-wordcount: 111
+source-wordcount: 122
 ht-degree: 0%
 
 ---
@@ -29,11 +25,11 @@ ht-degree: 0%
 
 このサンプルアプリの`test` フォルダーには、アプリケーションで単体テストを実行する際に使用される1つのJavaScript ファイルが含まれています。
 
-これは単純な例であり、特定のアプリケーションに対する包括的なテストを作成するために拡張できます。
+この出発点を拡大して、特定のアプリケーションに対する包括的なテストを作成できます。
 
 ## この動画は誰のためのものでしょうか？
 
-* Adobe Commerceを初めて使用する開発者で、Adobe App Builderを使用した経験が限られており、`test` フォルダーについて学習したい場合。
+* Adobe Commerceを初めて利用する場合は、Adobe App Builderを使用した経験が限られており、`test` フォルダーについて学習する必要があります。
 
 ## ビデオコンテンツ
 
@@ -41,7 +37,7 @@ ht-degree: 0%
 * 単体テストファイルとそのコンポーネントの簡単な説明
 * エンドツーエンドのテストの概要
 
->[!VIDEO](https://video.tv.adobe.com/v/3421063?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3416662?learn=on)
 
 ## コードサンプル
 

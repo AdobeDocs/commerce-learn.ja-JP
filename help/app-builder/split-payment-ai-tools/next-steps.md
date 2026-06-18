@@ -1,15 +1,15 @@
 ---
-title: 分割払いPOC：概念実証の次のステップ
+title: 分割払いPOC – 概念実証の次のステップ
 description: 分割支払POCを本番環境に移行する方法を説明します。 Experience Cloud UI、ERP フック、API メッシュ、PHP スコープ、App Builder ワークフロー、デプロイチェックリスト。
 feature: App Builder, API Mesh, Extensibility, Paas, REST, Eventing
 topic: App Builder, Commerce, Development, I/O Events, Integrations, Runtime
-role: Developer, Leader, User
+role: Developer, User
 level: Intermediate
 doc-type: Tutorial
 duration: 269
 jira: KT-20902
 last-substantial-update: 2026-04-27T00:00:00Z
-source-git-commit: 8dfbf2694378aae76c91afa11bfee7d93077d8ba
+source-git-commit: 63ac13d8c5a97ee81dcdd1f3785a9875aaf2a4db
 workflow-type: tm+mt
 source-wordcount: '852'
 ht-degree: 0%
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 `demo-dashboard` web アクションは、Node.js関数内の文字列からHTMLを提供します。 動作しますが、制作パターンではありません。
 
-適切な置き換えは、`commerce-checkout-starter-kit`の`commerce-backend-ui-1`拡張機能です。Adobe管理UI SDKを介してCommerce管理シェルに埋め込まれたReact アプリケーションです。 生成プロンプトについては、[分割支払いPOC: Experience Cloud UI拡張機能AI プロンプト &#x200B;](./experience-cloud-ui-prompt.md)を参照してください。
+適切な置き換えは、`commerce-checkout-starter-kit`の`commerce-backend-ui-1`拡張機能です。Adobe管理UI SDKを介してCommerce管理シェルに埋め込まれたReact アプリケーションです。 生成プロンプトについては、[分割支払いPOC: Experience Cloud UI拡張機能AI プロンプト ](./experience-cloud-ui-prompt.md)を参照してください。
 
 **変更内容：**
 * オペレーターは、Commerce管理シェル（共有シークレットではなくIMS認証）を介してログインします
@@ -117,7 +117,7 @@ aio app deploy
 ```
 
 実稼動準備の&#x200B;**チェックリスト：**
-* [ ] `DEMO_UI_SECRET` セット （またはデモ ダッシュボードはExperience Cloud UIに置き換えられました）
+* [ ] `DEMO_UI_SECRET` セット （またはExperience Cloud UIに置き換えられたデモダッシュボード）
 * [ 実稼動環境の] `LOG_LEVEL=warn`または`error` （`debug`ではありません）
 * [ ] `PAYMENT_THRESHOLD`はCommerceの実稼動設定と一致します
 * [ `.env`の] Commerce統合資格情報は、専用の実稼動統合用です（ステージング用ではありません）

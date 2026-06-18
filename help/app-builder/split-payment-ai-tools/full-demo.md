@@ -1,17 +1,17 @@
 ---
-title: 分割払いPOCの作成：App Builderの完全デモ
+title: 分割払いPOC — App Builderのデモ
 description: このLuma デモでは、分割支払い、REST、App Builder I/O、オペレーターが作業を受け入れる/辞退する方法と、カートをブロックできる設定可能な予約注文の合計数について説明します。
 feature: App Builder, Paas, Payments
 topic: App Builder, Commerce, Development, I/O Events, Integrations, Runtime
-role: Developer, Leader, User
+role: Developer, User
 level: Intermediate
 doc-type: Technical Video
-duration: 933
+duration: 861
 jira: KT-20902
 last-substantial-update: 2026-04-27T00:00:00Z
-source-git-commit: 9add0b4bfa1eba33ec359adaa766b64711df25ba
+source-git-commit: 63ac13d8c5a97ee81dcdd1f3785a9875aaf2a4db
 workflow-type: tm+mt
-source-wordcount: '1031'
+source-wordcount: '1029'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 ## ビデオ
 
->[!VIDEO](https://video.tv.adobe.com/v/3484100?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3484087?learn=on)
 
 ## この動画は誰のためのものでしょうか？
 

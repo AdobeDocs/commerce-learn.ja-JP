@@ -1,6 +1,6 @@
 ---
 title: app.config.yaml ファイル
-description: このサンプルアプリケーションのapp.config.yaml ファイル内のファイルの種類について説明します。
+description: app.config.yaml ファイルがアプリケーション設定を決定する方法と、その定義がAdobe Developer App Builder サンプルアプリケーションのJavaScript ファイルにどのようにリンクされるかを説明します。
 jira: KT-12929
 doc-type: Tutorial
 duration: 136
@@ -11,18 +11,13 @@ role: Developer
 level: Beginner, Intermediate
 exl-id: ff5f1811-ca93-494e-8e5c-a5e0c7bb673d
 TQID: https://experienceleague.adobe.com/iK4PPaI2-vxQK32DMfkMRZMgNYpLExMbNge2lXIJzLg
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: b599f79ad41b9552cea6ff41062eb4ef75f183bb
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 63ac13d8c5a97ee81dcdd1f3785a9875aaf2a4db
 workflow-type: tm+mt
-source-wordcount: 86
+source-wordcount: 96
 ht-degree: 0%
 
 ---
@@ -38,9 +33,9 @@ ht-degree: 0%
 ## ビデオコンテンツ
 
 * `app.config.yaml` ファイルについて説明しました
-* 定義が他の`.js` ファイルにリンクする方法
+* 他の`.js` ファイルに定義をリンクする方法
 
->[!VIDEO](https://video.tv.adobe.com/v/3430839?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3416592?learn=on)
 
 ## コードサンプル
 
