@@ -53,5 +53,5 @@ Adobe Adobe Commerceなら、異なる企業向けにカスタマイズされた
 
 ## 関連資料
 
-* [共有カタログの操作](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/shared-catalogs/catalog-shared){target="_blank"}
-* [共有カタログの作成](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/shared-catalogs/define/catalog-shared-create){target="_blank"}
+* [共有カタログの操作](https://experienceleague.adobe.com/ja/docs/commerce-admin/b2b/shared-catalogs/catalog-shared){target="_blank"}
+* [共有カタログの作成](https://experienceleague.adobe.com/ja/docs/commerce-admin/b2b/shared-catalogs/define/catalog-shared-create){target="_blank"}
