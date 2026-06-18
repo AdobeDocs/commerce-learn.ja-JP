@@ -1,14 +1,14 @@
 ---
 title: Adobe Commerce管理者のB2B見積もり検証レベル
-description: Adobe Commerce アプリケーションの厳格な検証プロセスについて説明します。  このビデオチュートリアルでは、Adobe Commerce管理パネルの検証プロセスを説明し、見積もり手順が有効で一貫性があることを確認します
-doc-type: Feature Video
-duration: 348
+description: Adobe Adobe Commerceの管理パネルで見積もり検証を実施し、B2B見積もり手順が正確かつ一貫性を保ちながら、送信前に完了できるようにする方法をご確認ください。
+doc-type: Technical Video
+duration: 330
 jira: KT-13470
-last-substantial-update: 2023-06-13T00:00:00.000Z
+last-substantial-update: 2023-06-13
 feature: Configuration, System, Quotes, B2B, Companies
 topic: Commerce, Administration
-role: Admin, User
-level: Beginner, Intermediate
+role: User
+level: Beginner
 exl-id: ca789f44-456a-461c-9249-41fdb2bd6804
 TQID: https://experienceleague.adobe.com/UVj-9pN-4ftzPsagPPa9wVPCyNl2WCt4-fJep95zueo
 product_v2:
@@ -23,9 +23,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b599f79ad41b9552cea6ff41062eb4ef75f183bb
+source-git-commit: ba15ff4f563b57cdfb176b6d4423309dae61897d
 workflow-type: tm+mt
-source-wordcount: 81
+source-wordcount: 72
 ht-degree: 0%
 
 ---

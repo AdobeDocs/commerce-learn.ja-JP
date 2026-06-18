@@ -1,14 +1,14 @@
 ---
 title: 共有カタログの管理
-description: B2B共有カタログを使用して、様々な企業向けにカスタマイズされた価格設定のゲーテッドカタログを維持する方法を説明します。
+description: Adobe CommerceでB2B共有カタログを使用して、様々な企業アカウント向けにカスタマイズされた価格構造を持つゲーテッド商品カタログを管理する方法を説明します。
 doc-type: Feature Video
 duration: 456
 jira: KT-10682
-last-substantial-update: 2023-05-10T00:00:00.000Z
+last-substantial-update: 2023-05-10
 feature: Configuration, System, B2B, Companies
 topic: Commerce, Administration
-role: Admin, User
-level: Beginner, Intermediate
+role: User
+level: Intermediate
 exl-id: 74fb5548-a077-4c09-a351-0be830060841
 TQID: https://experienceleague.adobe.com/Fk8p57LTFTqSPxjVCPsxvubqnmr0wCUCINIsK8xqmW0
 product_v2:
@@ -27,9 +27,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b599f79ad41b9552cea6ff41062eb4ef75f183bb
+source-git-commit: ba15ff4f563b57cdfb176b6d4423309dae61897d
 workflow-type: tm+mt
-source-wordcount: 156
+source-wordcount: 164
 ht-degree: 0%
 
 ---
@@ -53,5 +53,5 @@ Adobe Adobe Commerceなら、異なる企業向けにカスタマイズされた
 
 ## 関連資料
 
-* [共有カタログの操作](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/catalog-shared.html?lang=ja){target="_blank"}
-* [共有カタログの作成](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/define/catalog-shared-create.html?lang=ja){target="_blank"}
+* [共有カタログの操作](https://experienceleague.adobe.com/ja/docs/commerce-admin/b2b/shared-catalogs/catalog-shared){target="_blank"}
+* [共有カタログの作成](https://experienceleague.adobe.com/ja/docs/commerce-admin/b2b/shared-catalogs/define/catalog-shared-create){target="_blank"}
