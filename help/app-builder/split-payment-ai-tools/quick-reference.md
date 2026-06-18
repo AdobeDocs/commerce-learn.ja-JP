@@ -1,15 +1,15 @@
 ---
-title: 分割支払いPOC：チュートリアルクイックリファレンス
+title: 分割支払いPOC — チュートリアルクイックリファレンス
 description: 分割支払いPOC ファイルマップについて説明します。 Luma チェックアウトの各AI プロンプト、提案されたセクション順序、作成者メモに一致するExperience League ページ。
 feature: App Builder, Extensibility, Paas, REST, Eventing
 topic: App Builder, Commerce, Development, I/O Events, Integrations, Runtime
-role: Developer, Leader, User
+role: Developer, User
 level: Intermediate
 doc-type: Tutorial
 duration: 398
 jira: KT-20902
 last-substantial-update: 2026-04-27T00:00:00Z
-source-git-commit: 8dfbf2694378aae76c91afa11bfee7d93077d8ba
+source-git-commit: 63ac13d8c5a97ee81dcdd1f3785a9875aaf2a4db
 workflow-type: tm+mt
 source-wordcount: '1444'
 ht-degree: 0%
@@ -165,7 +165,7 @@ ht-degree: 0%
 
 **PoCを実稼動可能なパターンに進化させるための目的：** ロードマップ。
 
-**なぜそれが必要なのか：** PoC チュートリアルでは、開発者に「今すぐ何をするか？」というリスクが生じます。 フィーリング： このドキュメントでは、デモダッシュボードをExperience Cloud拡張機能に置き換える、実際のERPに接続する、API Meshを追加する、App Builder ワークフローを拡張する、実稼動環境デプロイメントのチェックリストなど、デモから実稼動環境への自然な進行をマッピングします。
+**なぜそれが必要なのか：** PoC チュートリアルでは、開発者に「今すぐ何をするか？」というリスクが生じます。 フィーリング： このドキュメントでは、デモダッシュボードをExperience Cloud拡張機能に置き換える、実際のERPを接続する、API Meshを追加する、App Builder ワークフローを拡張する、実稼動環境デプロイメントのチェックリストなど、デモから実稼動環境への自然な進行をマッピングします。
 
 **主要コンテンツ：**
 

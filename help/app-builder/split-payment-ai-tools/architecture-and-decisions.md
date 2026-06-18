@@ -1,15 +1,15 @@
 ---
-title: 分割払いPOC：アーキテクチャとデザインの決定
+title: 分割払いPOC — アーキテクチャとデザインの意思決定
 description: 分割支払いPOCが、拡張機能の属性、REST、5つのプラグインエッジケースを使用して、チェックアウトをCommerceに同期し、I/O駆動型のステップをApp Builderにマッピングする方法について説明します。
 feature: App Builder, Eventing, Extensibility, Paas, Payments, REST
 topic: App Builder, Commerce, Development, I/O Events, Integrations, Runtime
-role: Developer, Leader, User
+role: Developer, User
 level: Intermediate
 doc-type: Tutorial
 duration: 293
 jira: KT-20902
 last-substantial-update: 2026-04-27T00:00:00Z
-source-git-commit: 9add0b4bfa1eba33ec359adaa766b64711df25ba
+source-git-commit: 63ac13d8c5a97ee81dcdd1f3785a9875aaf2a4db
 workflow-type: tm+mt
 source-wordcount: '863'
 ht-degree: 1%

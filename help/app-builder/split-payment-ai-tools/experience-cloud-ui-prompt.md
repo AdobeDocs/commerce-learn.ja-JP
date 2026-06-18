@@ -1,15 +1,15 @@
 ---
-title: '分割支払いPOC: Experience Cloud UI拡張機能AI プロンプト'
-description: このオプションのプロンプトを使用して、Commerce管理に分割支払いを埋め込む方法について説明します。管理UI SDK、IMS、OAuth、承認と拒否、およびシミュレーションスクリプト。
+title: 分割払いPOC — Experience Cloud UI拡張機能AI プロンプト
+description: このオプションのプロンプトを使用して、Commerce管理者に分割支払いを埋め込む方法（管理UI SDK、IMS、OAuth、承認と拒否、およびシミュレーションスクリプト）について説明します。
 feature: App Builder, Admin Workspace, Extensibility, Paas, REST
 topic: App Builder, Commerce, Development, I/O Events, Integrations, Runtime
-role: Developer, Leader, User
+role: Developer, User
 level: Intermediate
 doc-type: Tutorial
 duration: 192
 jira: KT-20902
 last-substantial-update: 2026-04-27T00:00:00Z
-source-git-commit: 629bbb6fe26f128e346d85c857111c2f8dbb6d76
+source-git-commit: 63ac13d8c5a97ee81dcdd1f3785a9875aaf2a4db
 workflow-type: tm+mt
 source-wordcount: '496'
 ht-degree: 0%

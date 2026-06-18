@@ -1,7 +1,7 @@
 ---
 title: アクションフォルダー
-description: このサンプルアプリケーションのアクションフォルダーにあるファイルの種類について説明します。
-jira: KT-12422
+description: サンプルアプリケーションのOAuth認証とCommerce接続パターンなど、App Builder アクションフォルダー内のJavaScript ファイルとフォルダーについて説明します。
+jira: KT-21680
 doc-type: Tutorial
 duration: 465
 last-substantial-update: 2023-03-13T00:00:00.000Z
@@ -20,16 +20,16 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: b599f79ad41b9552cea6ff41062eb4ef75f183bb
+source-git-commit: e03f0a058d1a08b1a67fd278c1b6127566a370ac
 workflow-type: tm+mt
-source-wordcount: 189
+source-wordcount: 199
 ht-degree: 0%
 
 ---
 
 # アクションフォルダーについて説明します {#actions-folder}
 
-このサンプルアプリの`actions` フォルダーには、いくつかのJavaScript ファイルと`commerce`という1つのフォルダーが含まれています。 表示されているJavaScriptは、作業に関連するファイルであれば再利用できる優れた例です。 このフォルダーは、OAuthとRESTを使用してAdobe Commerce アプリケーションに接続する際の開発作業の時間を節約できます。
+このサンプルアプリの`actions` フォルダーには、いくつかのJavaScript ファイルと`commerce`という1つのフォルダーが含まれています。 表示されているJavaScriptは、作業に関連するファイルであれば再利用できる便利なサンプルファイルです。 このフォルダーは、OAuthとRESTを使用してAdobe Commerce アプリケーションに接続する際の開発作業の時間を節約できます。
 
 この例のフォルダーの実際の名前は任意ですが、名前を知ることで、サンプルコードを解釈できます。 意味のある命名規則を使用することで、アプリケーションがより複雑になる場合の混乱を避けることができます。
 
