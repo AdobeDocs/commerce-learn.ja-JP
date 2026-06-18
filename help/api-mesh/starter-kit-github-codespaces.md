@@ -1,6 +1,6 @@
 ---
 title: GitHub Codespacesを使用したAPI Mesh スターターキット
-description: GitHub ベースのスターターキットを使用して、Adobe Commerce API Meshを始めましょう。ローカル設定は必要ありません。
+description: GitHub Codespaces スターターキットを使用して、ローカル環境の設定を必要とせずにAdobe Commerce API Meshの使用を開始する方法を説明します。
 jira: KT-18367
 doc-type: Tutorial
 duration: 253
@@ -19,16 +19,16 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: b599f79ad41b9552cea6ff41062eb4ef75f183bb
+source-git-commit: c73744d503de5023e5c001d0534200522db55b04
 workflow-type: tm+mt
-source-wordcount: 182
+source-wordcount: 188
 ht-degree: 0%
 
 ---
 
 # GitHub Codespacesを使用したAPI Mesh スターターキット
 
-ここでは、ローカル設定なしでGitHub Codespacesを使用してAPI Meshを迅速に探索できるように設計された、Adobe Commerce API Mesh Starter Kitを紹介します。 リポジトリの設定、エンドポイントの設定、テスト用のGraphQL Yogaなどの組み込みツールの使用について説明します。
+ここでは、Adobe Commerce API Mesh Starter Kitの概要を説明します。 ローカル設定なしでGitHub Codespacesを使用してAPI Meshを迅速に探索できるように設計されています。 リポジトリの設定、エンドポイントの設定、テスト用のGraphQL Yogaなどの組み込みツールの使用について説明します。
 
 ## この動画は誰のためのものでしょうか？
 
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 * GitHub Codespacesを使用して、ローカル環境を設定せずにAdobe Commerce API Meshを探索します。
 * テスト用の組み込みツール：シームレスな開発のために、事前設定済みのGraphQLサーバー（Yoga）と自動サーバー再起動が含まれています。
-* ハンズオン学習：スターターキットを複製し、エンドポイントを設定し、API応答をブラウザーで直接テストします。
+* 実用的な学習：スターターキットのクローンを作成し、エンドポイントを設定し、API応答をブラウザーで直接テストします。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3464018?captions=jpn&learn=on)
 
