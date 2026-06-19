@@ -35,5 +35,5 @@ ht-degree: 0%
 
 ## 関連資料
 
-&#x200B;- Adobe Commerce on Cloud、on Prem、およびAdobe Commerce as a Cloud Serviceでのデプロイメントについては、_ライブ検索ガイド_&#x200B;の[[!DNL Live Search]  セマンティック検索](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/semantic-search){target="_blank"}を参照してください。
-&#x200B;- Adobe Commerce Optimizerを使用したデプロイメントについては、_Commerce Optimizer ガイド_&#x200B;の[設定 – 詳細検索](https://experienceleague.adobe.com/en/docs/commerce/optimizer/settings#advanced-search){target="_blank"}を参照してください。
+&#x200B;- Adobe Commerce on Cloud、on Prem、およびAdobe Commerce as a Cloud Serviceでのデプロイメントについては、_ライブ検索ガイド_&#x200B;の[[!DNL Live Search]  セマンティック検索](https://experienceleague.adobe.com/ja/docs/commerce/live-search/live-search-admin/semantic-search){target="_blank"}を参照してください。
+&#x200B;- Adobe Commerce Optimizerを使用したデプロイメントについては、_Commerce Optimizer ガイド_&#x200B;の[設定 – 詳細検索](https://experienceleague.adobe.com/ja/docs/commerce/optimizer/settings#advanced-search){target="_blank"}を参照してください。
