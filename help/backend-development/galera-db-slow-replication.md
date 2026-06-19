@@ -1,38 +1,33 @@
 ---
-title: Learn how to find slow queries in mysql slow query logs and why the Galera DB replication design method may be the reason
-description: Galera DB has a design method that makes the replication of data to secondary databases take longer than the primary. Learn how to find these events in mysql slow query log, and the underlying reason why you see entries in the slow query logs and perhaps how to prevent them in the future.
-kt: 13635
-doc-type: video
+title: MySQL スロークエリログでのGalera DB レプリケーションの診断
+description: Galera DBのレプリケーション設計がセカンダリデータベースの同期を遅くする方法、MySQLのスロークエリログでこれらのイベントを特定する方法、および影響を最小限に抑える方法について説明します。
+doc-type: Technical Video
 duration: 452
-activity: use
-last-substantial-update: 2023-7-18
+last-substantial-update: 2023-07-18
 feature: Backend Development, Logs, Services
 topic: Commerce, Development
-old-role: Architect, Developer
 role: Developer
 level: Intermediate
+jira: KT-13635
 exl-id: 4a8a2df1-8cac-4bd9-851f-0eaae011b76c
 TQID: https://experienceleague.adobe.com/NYapiIjnRv5RAS1glm8do16M4jUPmbgfVCs6ICQwbUc
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: b599f79ad41b9552cea6ff41062eb4ef75f183bb
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: add3e29f8841ca4ca99f4c40afc656f00e93ec36
 workflow-type: tm+mt
-source-wordcount: 305
+source-wordcount: 262
 ht-degree: 0%
 
 ---
 
-# Learn about Galera DB replication and related MySQL slow queries
+# Galera DB レプリケーションと関連するMySQL スロークエリについて説明します
 
-Galera clusters help with performance and scalability. When considering secondary databases, it is important to understand the way the data replication happens is different than on the primary. The primary database can perform bulk operations. When the replication happens for all the secondary databases, they do actions one at a time. For example, if you have 67,000,000 items in a delete, on the secondary databases each one happens one at a time. When reviewing the Mysql slow query logs, you find this action can take a long time. Because the secondary databases are performing things one at a time, is a reason for things to not be in sync and performance impacts can be detected.
+Galera クラスターはパフォーマンスと拡張性に役立ちます。 レプリカ・データベースを検討する場合、データ・レプリケーションの実行方法がプライマリ・データベースとは異なることを理解することが重要です。 プライマリデータベースは一括操作を実行できます。 すべてのレプリカデータベースに対してレプリケーションが実行されると、アクションは一度に1つずつ実行されます。 例えば、削除内に67,000,000個の項目がある場合、レプリカデータベース上では、各項目が一度に1つずつ発生します。 MySQLのスロークエリログを確認すると、このアクションに時間がかかる場合があります。 レプリカデータベースが順次動作していることは、同期しない理由であり、パフォーマンスへの影響を検出できます。
 
-As a solution, if possible, batch your large operations to help the secondary databases keep in sync with the primary. By doing things in batch, it allows the actions to be executed in a timely manner and performance impacts are kept down to a minimum.
+レプリカデータベースをプライマリと同期させるには、可能な限り大規模な操作をバッチ処理します。 バッチ処理により、アクションをタイムリーに実行し、パフォーマンスへの影響を最小限に抑えることができます。
 
-## この動画は誰のためのものでしょうか？
+## 対象オーディエンス
 
 * 設計者
 * 開発者
@@ -40,14 +35,14 @@ As a solution, if possible, batch your large operations to help the secondary da
 
 ## ビデオコンテンツ
 
-* Galera replication to secondary database
-* Learn about flow control
-* Finding thread numbers in mysql slow query logs
-* Bulk executions only happen on the primary. Replications happen 1 at a time
-* Batch your large commits to help the replication keep up with the primary
+* レプリカデータベースへのガレラレプリケーション
+* フロー制御について詳しく見る
+* mysql スロークエリログでのスレッド番号の検索
+* 一括実行はプライマリでのみ実行されます。 レプリケーションは1回に1回ずつ実行されます
+* レプリケーションがプライマリに対応できるように、大規模なコミットをバッチ処理します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3423542?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3421688?learn=on)
 
 ## 役立つリソース
 
-* [ガレラ群](https://galeracluster.com/)
+* [ガレラ群](https://mariadb.com/products/enterprise/galera-cluster/)
