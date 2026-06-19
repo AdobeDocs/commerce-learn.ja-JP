@@ -44,7 +44,7 @@ ht-degree: 0%
 4. モジュールを登録してインストールするには、`bin/magento setup:upgrade`を実行します。
 5. モジュールが機能していることを確認します。
 
->[!VIDEO](https://video.tv.adobe.com/v/35792?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3412454?captions=jpn&learn=on)
 
 ### module.xml ファイル
 
