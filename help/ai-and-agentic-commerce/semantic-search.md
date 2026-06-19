@@ -31,7 +31,7 @@ ht-degree: 0%
 * 商品データをセマンティックシグナルに変換する自動カタログインデックス作成
 * 結果の向上、類似性のしきい値、ファジー検索設定
 
->[!VIDEO](https://video.tv.adobe.com/v/3492286)
+>[!VIDEO](https://video.tv.adobe.com/v/3492306?captions=jpn)
 
 ## 関連資料
 
