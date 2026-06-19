@@ -7,16 +7,14 @@ doc-type: Value Video
 last-substantial-update: 2026-06-11T00:00:00Z
 jira: KT-21573
 duration: 192
-source-git-commit: e8599fadf01440009348ce105a2fcef3603bbdfc
+source-git-commit: 48d47dcb7e559513b72e8e24ec678613d9163515
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '191'
 ht-degree: 0%
 
 ---
 
 # セマンティック検索
-
-[!BADGE 近日リリース予定]{type=Informative tooltip="この機能は近日提供開始予定です。変更される可能性があります。"}
 
 従来のキーワード検索は、正確な単語に一致しますが、買い物客が正しい単語を知ることはほとんどありません。 Adobe Commerceのセマンティック検索では、AIを活用してクエリの背後にある意図を理解し、リテラルテキストではなく意味にもとづいて買い物客と商品を照合します。 これにより、買い物客が何を求めているかを反映した結果を得ることができるため、商品の発見性が向上し、エンゲージメントが高まり、コンバージョン率の向上につながります。
 
@@ -33,8 +31,9 @@ ht-degree: 0%
 * 商品データをセマンティックシグナルに変換する自動カタログインデックス作成
 * 結果の向上、類似性のしきい値、ファジー検索設定
 
->[!VIDEO](https://video.tv.adobe.com/v/3492306?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3492286)
 
 ## 関連資料
 
-[[!DNL Live Search] の概要](https://experienceleague.adobe.com/ja/docs/commerce/live-search/overview){target="_blank"}
+- Adobe Commerce on Cloud、on Prem、およびAdobe Commerce as a Cloud Serviceでのデプロイメントについては、_ライブ検索ガイド_&#x200B;の[[!DNL Live Search]  セマンティック検索](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/semantic-search){target="_blank"}を参照してください。
+- Adobe Commerce Optimizerを使用したデプロイメントについては、_Commerce Optimizer ガイド_&#x200B;の[設定 – 詳細検索](https://experienceleague.adobe.com/en/docs/commerce/optimizer/settings#advanced-search){target="_blank"}を参照してください。
