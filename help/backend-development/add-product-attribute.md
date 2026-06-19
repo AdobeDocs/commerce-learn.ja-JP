@@ -1,15 +1,14 @@
 ---
 title: 製品属性の作成
-description: 1つのパラメーターでjsonを返すページを作成します。
-kt: 14131
-doc-type: video
-duration: 605
-activity: use
-last-substantial-update: 2023-2-10
+description: カスタムバックエンド、フロントエンド、ソースモデルを使用したドロップダウンタイプの属性など、Adobe Commerceでプログラムにより製品属性を作成する方法を説明します。
+doc-type: Tutorial
+duration: 491
+last-substantial-update: 2023-02-10
 feature: Configuration, System, Backend Development
 topic: Commerce, Development
 role: Admin, User
 level: Beginner, Intermediate
+jira: KT-14131
 exl-id: 98257e62-b23d-4fa9-a0eb-42e045c53195
 TQID: https://experienceleague.adobe.com/nK2d0LjWl88FCVRW6IRCa-euZ8cTawlY3YOzjMyNq-Y
 product_v2:
@@ -23,16 +22,16 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: b599f79ad41b9552cea6ff41062eb4ef75f183bb
+source-git-commit: add3e29f8841ca4ca99f4c40afc656f00e93ec36
 workflow-type: tm+mt
-source-wordcount: 325
+source-wordcount: 337
 ht-degree: 0%
 
 ---
 
 # 製品属性の作成
 
-製品属性の追加は、[!DNL Commerce]で最も人気のある操作の1つです。 属性は、製品に関連する多くの実用的なタスクを解決する強力な方法です。 ドロップダウンタイプ属性を製品に追加する簡単なプロセスがあります。
+製品属性の追加は、[!DNL Commerce]で最も人気のある操作の1つです。 属性は、製品に関連する多くの実用的なタスクに対処する効果的な方法です。 ドロップダウンタイプ属性を製品に追加する簡単なプロセスがあります。
 
 このビデオの内容：
 
@@ -43,7 +42,7 @@ ht-degree: 0%
 
 ## この動画は誰のためのものでしょうか？
 
-* コマースを初めて利用する開発者で、プログラムから商品属性を作成する方法を学ぶ必要がある場合
+* プログラムで製品属性を作成する方法を学習する必要がある[!DNL Commerce]を初めて使用する開発者
 
 ## ビデオコンテンツ
 
@@ -84,7 +83,7 @@ ComponentRegistrar::register(
 
 ```xml
 <?xml version="1.0"?>
-<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<config xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance"
         xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
     <module name="Learning_ClothingMaterial" setup_version="0.0.1"/>
 </config>

@@ -3,9 +3,8 @@ title: モジュールの作成
 description: Adobe Commerceでモジュールを作成して登録し、設定を実行して、管理領域、ストアフロント、REST API コンテキストのPSR ロガーにログを記録するプラグインを追加します。
 jira: KT-5614
 doc-type: Technical Video
-duration: 1113
-activity: use
-last-substantial-update: 2026-03-23T00:00:00.000Z
+duration: 958
+last-substantial-update: 2026-03-23
 feature: Configuration, System, Backend Development
 topic: Commerce, Development
 role: Admin, Developer
@@ -22,16 +21,16 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: b599f79ad41b9552cea6ff41062eb4ef75f183bb
+source-git-commit: add3e29f8841ca4ca99f4c40afc656f00e93ec36
 workflow-type: tm+mt
-source-wordcount: 271
+source-wordcount: 272
 ht-degree: 0%
 
 ---
 
 # モジュールの作成
 
-モジュールは[!DNL Commerce]の構造要素です。モジュールはシステムのバックボーンを形成します。 通常、モジュールを作成してカスタマイズを開始します。
+モジュールは[!DNL Commerce]の構造要素です。モジュールは、システムの基盤を形成します。 通常、モジュールを作成してカスタマイズを開始します。
 
 ## この動画は誰のためのものでしょうか？
 
@@ -42,7 +41,7 @@ ht-degree: 0%
 1. モジュールフォルダーを作成します。
 2. `etc/module.xml` ファイルを作成します。
 3. `registration.php` ファイルを作成します。
-4. `bin/magento setup:upgrade`を実行して、モジュールを登録およびインストールします。
+4. モジュールを登録してインストールするには、`bin/magento setup:upgrade`を実行します。
 5. モジュールが機能していることを確認します。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3412454?captions=jpn&learn=on)
@@ -51,7 +50,7 @@ ht-degree: 0%
 
 ```xml
 <?xml version="1.0"?>
-<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<config xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance"
         xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
     <module name="Training_Sales">
         <sequence>
@@ -87,7 +86,7 @@ ComponentRegistrar::register(
 * オプションで`disabled`属性と`sortOrder`属性を設定できます。
 * プラグインの範囲を設定するには、`di.xml` ファイルを含むフォルダーを選択します。
 * ターゲット メソッド呼び出しの前、後、または周囲にプラグインを実行します。
-* `around`個のプラグインは使用しないでください。 彼らはあなたを誘惑しますが、彼らはしばしば間違った選択を表し、パフォーマンスの問題を引き起こします。
+* `around`個のプラグインは使用しないでください。 彼らは便利に見えるかもしれませんが、彼らはしばしば間違った選択を表し、パフォーマンスの問題を引き起こします。
 
 ### プラグインコードサンプル
 
@@ -103,7 +102,7 @@ ComponentRegistrar::register(
  * See COPYING.txt for license details.
  */
 -->
-<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+<config xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
     <!-- A Plugin that executes when the admin user places an order -->
     <type name="Magento\Sales\Model\Order">
         <plugin name="admin-training-sales-add-logging" type="Training\Sales\Plugin\AdminAddLoggingAfterOrderPlacePlugin" disabled="false" sortOrder="0"/>
@@ -121,7 +120,7 @@ ComponentRegistrar::register(
  * See COPYING.txt for license details.
  */
 -->
-<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+<config xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
     <!-- A plugin that executes when a customer uses the LoginPost controller from the Luma frontend -->
     <type name="Magento\Customer\Controller\Account\LoginPost">
         <plugin name="training-customer-loginpost-plugin"
@@ -140,7 +139,7 @@ ComponentRegistrar::register(
  * See COPYING.txt for license details.
  */
 -->
-<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+<config xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
     <!-- A plugin that executes when the REST API is used OR when the Luma frontend places an order -->
     <type name="Magento\Sales\Model\Order">
         <plugin name="rest-training-sales-add-logging" type="Training\Sales\Plugin\RestAddLoggingAfterOrderPlacePlugin"/>
