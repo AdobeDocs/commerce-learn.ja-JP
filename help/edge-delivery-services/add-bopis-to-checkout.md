@@ -1,6 +1,6 @@
 ---
 title: EDGE DELIVERY SERVICES BOPIS
-description: Adobe Edge Delivery Servicesと、店舗でのオンライン購入ピックアップやBOPIS機能を追加してチェックアウトする方法について説明します。
+description: Adobe Commerceのカートコンポーネントとコンテンツフラグメントを使用して、BOPIS （オンラインで購入、実店舗で受け取り）サポートをEdge Delivery Servicesのチェックアウトに追加する方法について説明します。
 feature: Best Practices, Compliance, Extensibility, Storefront, Tools and External Services
 topic: Architecture, Commerce, Headless
 role: Developer
@@ -20,24 +20,24 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: b599f79ad41b9552cea6ff41062eb4ef75f183bb
+source-git-commit: d394484608d6ee530932387938e04030ed3b590e
 workflow-type: tm+mt
-source-wordcount: 147
+source-wordcount: 158
 ht-degree: 0%
 
 ---
 
-# チェックアウトするBOPISの追加
+# チェックアウトにBOPISを追加する
 
-オンラインで購入し、BOPISとして知られている実店舗で受け取る際に利用できるEdge Delivery Servicesのチェックアウトに必要なコンポーネントを追加する方法について説明します。
+BOPISとも呼ばれる、オンラインでの購入や店舗での受け取りに対応するEdge Delivery Servicesのチェックアウトに、必要なコンポーネントを追加する方法について説明します。
 
 ## 学習すること
 
-Edge Delivery ServicesのAdobe Commerce カートを使用して、BOPIS機能を提供する方法を説明します。
+Edge Delivery ServicesのAdobe Commerce カートを使用して、オンラインで購入し、店舗で受け取る機能を提供する方法を説明します。
 
 ## この動画は誰のためのものでしょうか？
 
-* オンラインで購入、店舗で受け取る機能により、ショッピングカートを強化しようとしているコマースビジネス。
+* オンラインでの購入や店舗での受け取りで、ショッピングカートを強化しようとしているコマースビジネス。
 * BOPISの導入方法を学ぶ必要がある開発者。
 
 ## ビデオコンテンツ

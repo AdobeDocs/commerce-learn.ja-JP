@@ -1,6 +1,6 @@
 ---
 title: Edge Delivery Services トランザクションフロー
-description: Adobe Edge Delivery Servicesと、トランザクションフローを変更する方法について説明します。
+description: Edge Delivery Servicesのカートドロップインを使用して、数量、割引、A/B テストなど、Adobe Commerceのチェックアウトでトランザクションフローを調整する方法について説明します。
 feature: Best Practices, Compliance, Extensibility, Storefront, Tools and External Services
 topic: Architecture, Commerce, Headless
 role: Developer
@@ -20,9 +20,9 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: b599f79ad41b9552cea6ff41062eb4ef75f183bb
+source-git-commit: d394484608d6ee530932387938e04030ed3b590e
 workflow-type: tm+mt
-source-wordcount: 217
+source-wordcount: 228
 ht-degree: 0%
 
 ---
@@ -33,12 +33,12 @@ Edge Delivery Services カートのドロップインを使用して、チェッ
 
 ## 学習すること
 
-Adobe Commerceのカートのドロップインとトランザクションフローの調整方法について説明します。これにより、数行のコードを変更して、新しい機能セットを顧客に表示できます。  また、これらの変更をSharepointから管理してAB テストを実行する方法についても説明します。
+Adobe Commerceのカートドロップインを使用してトランザクションフローを調整し、数行のコードを変更して新しい機能セットを顧客に表示する方法を説明します。 また、これらの変更をSharePointから管理してA/B テストを実施する方法についても説明します。
 
 ## この動画は誰のためのものでしょうか？
 
 * Edge Delivery Servicesについて学んでいる開発者やストアオーナーが、買い物かごのドロップイン要素を変える必要がある場合。
-* SharePointを使用して機能とA/B テストを管理することに関心のあるマーケターなど。
+* SharePointを使用して機能を管理し、A/B テストを実施することに関心のあるマーケターなど。
 
 ## ビデオコンテンツ
 

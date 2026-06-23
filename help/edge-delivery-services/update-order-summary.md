@@ -1,6 +1,6 @@
 ---
 title: チェックアウト時のEdge Delivery Services注文の概要
-description: Adobe Edge Delivery Servicesの詳細と、チェックアウト時にCommerce ドロップインの注文概要セクションを更新する方法について説明します。
+description: 配送見積もり、総削減表示、折りたたみ可能なセクションレイアウトなど、Adobe Commerce カートのドロップイン注文概要を更新する方法について説明します。
 feature: Best Practices, Compliance, Extensibility, Storefront, Tools and External Services
 topic: Architecture, Commerce, Headless
 role: Developer
@@ -22,25 +22,25 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: b599f79ad41b9552cea6ff41062eb4ef75f183bb
+source-git-commit: d394484608d6ee530932387938e04030ed3b590e
 workflow-type: tm+mt
-source-wordcount: 196
+source-wordcount: 197
 ht-degree: 0%
 
 ---
 
 # チェックアウト時にカートの概要を更新
 
-Edge Delivery ServicesのAdobe Commerce カート ドロップインの注文概要を変更する方法について説明します。  チェックアウト時に顧客に提供されるレイアウトや情報を迅速に改善する方法については、いくつかの例があります。
+Edge Delivery ServicesのAdobe Commerce カートドロップインの注文概要を変更する方法について説明します。 チェックアウト時に顧客に提供されるレイアウトや情報を改善する方法には、いくつかの例があります。
 
 ## 学習すること
 
-Adobe Commerceのカートのドロップインとカート体験の調整方法について説明します。  コードに軽微な変更や更新を加えて、カートを強化する方法がいくつかあります。
+Adobe Commerceのカートドロップインの使用方法とカート体験を調整する方法について説明します。 コードに軽微な変更や更新を加えて、カートを強化する方法がいくつかあります。
 
 ## この動画は誰のためのものでしょうか？
 
 * 注文の概要にこれらのカスタマイズを実装する方法を学習する必要がある開発者。
-* マーチャンダイジング担当者は、注文の概要に関する顧客体験を向上させるために、ネイティブ機能を使用してどのようなオプションが利用可能かを把握します。
+* 注文の概要に関する顧客体験を向上させるために、ネイティブ機能を使用してどのようなオプションが利用可能かを把握したいマーチャンダイジング担当者。
 
 ## ビデオコンテンツ
 
