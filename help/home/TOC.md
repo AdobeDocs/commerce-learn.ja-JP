@@ -4,7 +4,7 @@ user-guide-description: ビデオとチュートリアルを通じて、Adobe Co
 breadcrumb-title: ビデオとチュートリアル
 auto-video-transcripts: true
 author: Russell A.
-source-git-commit: be274a0e69527597ddad238ecbb7a46a7546ed84
+source-git-commit: f5b1e429dc7c3732d0c9e7be4b2ac972d259143e
 workflow-type: tm+mt
 source-wordcount: '958'
 ht-degree: 3%
@@ -289,4 +289,3 @@ ht-degree: 3%
    + [コホートReport Builder](../business-intelligence/cohort-report-builder.md)
    + [SQL REPORT BUILDER](../business-intelligence/sql-report-builder.md)
    + [将来に向けて準備](../business-intelligence/prepare-for-future.md)
-
