@@ -46,7 +46,7 @@ ht-degree: 0%
 * マルチステップチェックアウトの導入
 * 既存のコードとベストプラクティスの再利用
 
->[!VIDEO](https://video.tv.adobe.com/v/3442650?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3442651?captions=jpn&learn=on)
 
 ## その他のドキュメント
 

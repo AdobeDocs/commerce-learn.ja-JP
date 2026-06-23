@@ -48,7 +48,7 @@ Adobe Commerceのカートドロップインの使用方法とカート体験を
 * カートの概要に保存された合計金額を含める方法を説明します。
 * 買い物かごの概要の行を1つの折りたたみ可能なセクションに結合する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3441185?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3441186?captions=jpn&learn=on)
 
 ## その他のドキュメント
 
