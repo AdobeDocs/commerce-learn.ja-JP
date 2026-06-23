@@ -1,30 +1,24 @@
 ---
 title: Edge Delivery Servicesの買い物かご商品
-description: Adobe Edge Delivery Servicesの概要と、製品属性を使用してカート商品の新しい情報を表示する方法について説明します。
+description: Adobe Commerce Edge Delivery Servicesで製品属性とスロットを使用して、配信タイムライン、セール通知、カート割引を表示する方法を説明します。
 feature: Best Practices, Compliance, Extensibility, Storefront, Tools and External Services
 topic: Architecture, Commerce, Headless
 role: Developer
 level: Beginner
 doc-type: Technical Video
-duration: 429
+duration: 430
 last-substantial-update: 2024-12-16T00:00:00.000Z
 jira: KT-16686
 exl-id: a9a6deb3-6431-4cb2-a3c2-0d584d3da3b5
 TQID: https://experienceleague.adobe.com/Scjl9nt8Oai2tM3y2eTEbxUYWACzoJgAY9U2-bBK4rY
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-  - id: e8818fe6-9c8b-4bc0-9ef8-377a10b7bc75
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: b599f79ad41b9552cea6ff41062eb4ef75f183bb
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: dac87252-6066-4d6e-a9d2-f6d84c323de7id: e8818fe6-9c8b-4bc0-9ef8-377a10b7bc75
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: d394484608d6ee530932387938e04030ed3b590e
 workflow-type: tm+mt
-source-wordcount: 284
+source-wordcount: 287
 ht-degree: 0%
 
 ---
@@ -35,24 +29,24 @@ Adobe Commerceのショッピングカートをカスタマイズして拡張す
 
 ## 学習すること
 
-Adobe Commerceのカートのドロップインとトランザクションフローの調整方法について説明します。これにより、数行のコードを変更して、新しい機能のセットをお客様に表示できます。  また、これらの変更をSharepointから管理してAB テストを実行する方法についても説明します。
+Adobe Commerceのカートのドロップインとトランザクションフローの調整方法について説明します。これにより、数行のコードを変更して、新しい機能のセットをお客様に表示できます。  また、これらの変更をSharepointから管理するように変換してA/B テストを実行する方法についても説明します。
 
 ## この動画は誰のためのものでしょうか？
 
 * 配信のタイムライン、販売情報、割引などで、ショッピングカートを強化しようとしているコマースビジネス。
 * 買い物かごのアイテムにこれらのカスタマイズを実装する方法を学ぶ必要がある開発者。
-* マーチャンダイジング担当者は、顧客体験を向上させるために、ネイティブ機能を使用してどのようなオプションが利用可能かを把握します。
+* マーチャンダイザーは、顧客体験を向上させるために、ネイティブ機能を利用してどのようなオプションが利用できるのかを把握したいと考えています。
 
 ## ビデオコンテンツ
 
-* 商品詳細のカスタマイズと、ショッピングカートでの逆注文商品のカスタマイズされた配送タイムラインの表示。
-* カート商品のすぐに使える機能を使用した、返品可能なセール情報と最終販売情報の例。
+* 商品詳細をカスタマイズし、ショッピングカートで取り寄せ商品のカスタマイズされた配送タイムラインを表示します。
+* カート商品の標準機能を使用した返品可能および最終販売情報の例。
 * カートのルールとフッタースロットを使用して表示されるクーポン割引により、この情報を効果的に表示できます。
 * 製品属性とスロットを使用してショッピングカート機能を拡張およびカスタマイズし、すべてのプロジェクト要件を満たすようにします。
 
->[!VIDEO](https://video.tv.adobe.com/v/3441117?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3441114?learn=on)
 
 
 ## その他のドキュメント
 
-* [商品ラインをカートに追加](https://experienceleague.adobe.com/developer/commerce/storefront/dropins/cart/tutorials/add-product-lines-to-cart-summary/?lang=ja)
+* [商品ラインをカートに追加](https://experienceleague.adobe.com/developer/commerce/storefront/dropins/cart/tutorials/add-product-lines-to-cart-summary/)
