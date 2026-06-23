@@ -50,4 +50,4 @@ ht-degree: 0%
 
 ## その他のドキュメント
 
-* [マルチステップのチェックアウト](https://experienceleague.adobe.com/developer/commerce/storefront/dropins/checkout/tutorials/multi-step/)
+* [マルチステップのチェックアウト](https://experienceleague.adobe.com/developer/commerce/storefront/dropins/checkout/tutorials/multi-step/?lang=ja)

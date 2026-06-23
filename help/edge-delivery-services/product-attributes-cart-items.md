@@ -55,4 +55,4 @@ Adobe Commerceのカートのドロップインとトランザクションフロ
 
 ## その他のドキュメント
 
-* [商品ラインをカートに追加](https://experienceleague.adobe.com/developer/commerce/storefront/dropins/cart/tutorials/add-product-lines-to-cart-summary/)
+* [商品ラインをカートに追加](https://experienceleague.adobe.com/developer/commerce/storefront/dropins/cart/tutorials/add-product-lines-to-cart-summary/?lang=ja)
