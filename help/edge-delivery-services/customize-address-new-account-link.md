@@ -58,4 +58,4 @@ ht-degree: 0%
 
 ## その他のドキュメント
 
-* [ユーザーアカウント](https://experienceleague.adobe.com/developer/commerce/storefront/dropins/user-account)
+* [ユーザーアカウント](https://experienceleague.adobe.com/developer/commerce/storefront/dropins/user-account?lang=ja)
