@@ -9,7 +9,7 @@ topic: Commerce, Development
 role: Admin, Developer, Leader
 level: Beginner
 exl-id: 3c86bf88-b5f9-42be-aabb-f9db1957911f
-badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
+badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
 TQID: https://experienceleague.adobe.com/dAPwxoXoJ-mHMu0WVXfQ1-RMFrkIxSEBIVubAs-nwNI
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -48,7 +48,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->この内容は、Adobe Commerce 2.3.1のPage Builder 1.0.0 リリースを反映しています。 以降のリリースのアップデートについて詳しくは、[&#x200B; ページビルダーのリリースノート &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-admin/page-builder/release-notes)を参照してください。
+>この内容は、Adobe Commerce 2.3.1のPage Builder 1.0.0 リリースを反映しています。 以降のリリースのアップデートについて詳しくは、[&#x200B; ページビルダーのリリースノート &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-admin/page-builder/release-notes)を参照してください。
 
 >[!VIDEO](https://video.tv.adobe.com/v/35711?learn=on)
 
@@ -56,4 +56,4 @@ ht-degree: 0%
 
 [Page Builder開発者用マニュアル](https://developer.adobe.com/commerce/frontend-core/page-builder/)
 
-[ページビルダーガイド](https://experienceleague.adobe.com/en/docs/commerce-admin/page-builder/introduction)
+[ページビルダーガイド](https://experienceleague.adobe.com/ja/docs/commerce-admin/page-builder/introduction)
