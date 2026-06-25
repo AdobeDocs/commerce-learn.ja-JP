@@ -9,7 +9,7 @@ doc-type: Tutorial
 duration: 349
 last-substantial-update: 2026-05-21T00:00:00Z
 jira: KT-21258
-source-git-commit: bfe282e4f1ef04985cffb109bce90bc05a70fda0
+source-git-commit: 456f3cae8c45d137a195456692c2d11204126bb7
 workflow-type: tm+mt
 source-wordcount: '564'
 ht-degree: 0%
@@ -32,7 +32,7 @@ ht-degree: 0%
 * API リクエストヘッダーによってアクティブ化されたトリガーポリシー（例：`AC-Policy-Brand`）
 * カタログを再構築することなく、日常業務でポリシーを更新する
 
->[!VIDEO](https://video.tv.adobe.com/v/3491425?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491413?learn=on)
 
 **ポリシー**&#x200B;は&#x200B;**データアクセスフィルター**&#x200B;です。 製品属性を検査し、カタログビューで表示される製品を決定するルールを適用します。 ポリシーは、共有されたコンポーザブルカタログの上に配置され、カタログデータを複製しません。
 
@@ -79,6 +79,7 @@ Celport シナリオでは、静的ルールには次のものが含まれます
 
 * [コンポーザブルカタログデータモデルが存在する理由](./why-ccdm-exists.md)
 * [カタログビューについて詳しく見る](./learn-about-the-ccdm-feature-catalog-views.md)
-* [マーチャンダイジングサービスのカタログビュー](https://experienceleague.adobe.com/ja/docs/commerce/optimizer/setup/catalog-view){target="_blank"}
-* [[!DNL Adobe Commerce Optimizer] ガイド](https://experienceleague.adobe.com/ja/docs/commerce/optimizer/overview){target="_blank"}
+* [マーチャンダイジングサービスのカタログビュー](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/catalog-view){target="_blank"}
+* [[!DNL Adobe Commerce Optimizer] ガイド](https://experienceleague.adobe.com/en/docs/commerce/optimizer/overview){target="_blank"}
 * [マーチャンダイジング APIの概要](https://developer.adobe.com/commerce/services/optimizer/merchandising-services/using-the-api#make-your-first-request){target="_blank"}
+
