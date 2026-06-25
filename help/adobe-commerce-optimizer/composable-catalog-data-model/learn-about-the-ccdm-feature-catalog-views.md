@@ -30,7 +30,7 @@ ht-degree: 0%
 * ストアフロントでカタログビューを使用して商品と価格をフィルタリングする方法（例：Celport）
 * カタログビューの一意のIDと、信頼できる唯一の情報源のビジネス価値
 
->[!VIDEO](https://video.tv.adobe.com/v/3491261?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491263?captions=jpn&learn=on)
 
 ## 関連コンテンツ
 
