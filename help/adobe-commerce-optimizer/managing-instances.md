@@ -18,7 +18,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: bfe282e4f1ef04985cffb109bce90bc05a70fda0
+source-git-commit: 456f3cae8c45d137a195456692c2d11204126bb7
 workflow-type: tm+mt
 source-wordcount: 140
 ht-degree: 0%
@@ -48,3 +48,4 @@ Adobe Commerce Optimizer インスタンスを管理して、名前と説明を�
 * [[!DNL Adobe Commerce Optimizer] ガイド](https://experienceleague.adobe.com/ja/docs/commerce/optimizer/overview){target="_blank"}
 * [Adobe Commerce Optimizerの概要](https://experienceleague.adobe.com/ja/docs/commerce-learn/adobe-commerce-optimizer/overview){target="_blank"}
 * [Adobe Commerce Optimizer入門](https://experienceleague.adobe.com/ja/docs/commerce/optimizer/get-started){target="_blank"}
+

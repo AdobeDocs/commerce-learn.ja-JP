@@ -10,7 +10,7 @@ duration: 288
 last-substantial-update: 2025-10-20T00:00:00Z
 jira: KT-19014
 exl-id: 1e0edcbb-5619-45c2-b06d-9133f23a634f
-source-git-commit: bfe282e4f1ef04985cffb109bce90bc05a70fda0
+source-git-commit: 456f3cae8c45d137a195456692c2d11204126bb7
 workflow-type: tm+mt
 source-wordcount: '202'
 ht-degree: 0%
@@ -33,3 +33,4 @@ Salesforce Commerce Cloud（SFCC）とAdobe App Builderを統合するCommerce O
 * App Builder ランタイムアクション フル同期と差分同期、検証、状態追跡を管理して、Commerce Optimizerの更新を正確かつスムーズに行うことができます。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3476052?captions=jpn&learn=on)
+

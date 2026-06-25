@@ -9,7 +9,7 @@ doc-type: Tutorial
 duration: 259
 last-substantial-update: 2026-05-15T00:00:00Z
 jira: KT-18624
-source-git-commit: bfe282e4f1ef04985cffb109bce90bc05a70fda0
+source-git-commit: 456f3cae8c45d137a195456692c2d11204126bb7
 workflow-type: tm+mt
 source-wordcount: '597'
 ht-degree: 0%
@@ -64,3 +64,4 @@ Adobe Commerce Optimizerでは、商品データは、1つ以上の&#x200B;**カ
 * [ストアフロント用の構成可能なカタログの作成](https://developer.adobe.com/commerce/services/optimizer/ccdm-use-case){target="_blank"}
 * [[!DNL Adobe Commerce Optimizer] ガイド](https://experienceleague.adobe.com/ja/docs/commerce/optimizer/overview){target="_blank"}
 * [マーチャンダイジング APIの概要](https://developer.adobe.com/commerce/services/optimizer/merchandising-services/using-the-api#make-your-first-request){target="_blank"}
+
