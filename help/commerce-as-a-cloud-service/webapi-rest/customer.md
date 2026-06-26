@@ -259,6 +259,6 @@ curl -s -X PUT \
 
 ## 参照
 
-* [Adobe Commerce as a Cloud Service リリースノート](https://experienceleague.adobe.com/en/docs/commerce/cloud-service/release-notes)
+* [Adobe Commerce as a Cloud Service リリースノート](https://experienceleague.adobe.com/ja/docs/commerce/cloud-service/release-notes)
 * [SaaS REST API リファレンス](https://developer.adobe.com/commerce/webapi/reference/rest/saas/)
 * [ユーザー認証ガイド](https://developer.adobe.com/commerce/webapi/rest/authentication/user/)
