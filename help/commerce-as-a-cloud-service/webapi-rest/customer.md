@@ -7,7 +7,7 @@ role: Developer
 level: Beginner
 doc-type: Tutorial
 duration: 457
-last-substantial-update: 2026-01-27T00:00:00.000Z
+last-substantial-update: 2026-01-27
 jira: KT-20160
 exl-id: f40d9b21-1f41-4c76-84a9-161168dbfb1a
 TQID: https://experienceleague.adobe.com/DiP21e4T-iLM-IuOVDVkJIvHOJ6y-q4IIdSKVplxcX0
@@ -26,9 +26,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: b599f79ad41b9552cea6ff41062eb4ef75f183bb
+source-git-commit: a919fc30133c58050d260bea8562e920694f5c58
 workflow-type: tm+mt
-source-wordcount: 505
+source-wordcount: 507
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Adobe Commerce as a Cloud Serviceの新しいCustomer REST APIの使用方法を
 
 ## コードサンプル
 
-開始する前に、[Adobe Developer Console](https://experience.adobe.com)および[Experience Cloud](https://developer.adobe.com/console)から必要なすべての値を収集してください。 これらの値を準備しておくと、設定プロセスがスムーズになります。
+開始する前に、[Experience Cloud](https://experience.adobe.com)および[Adobe Developer Console](https://developer.adobe.com/console)から必要なすべての値を収集してください。 これらの値を準備しておくと、設定プロセスがスムーズになります。
 
 >[!NOTE]
 >
@@ -62,7 +62,7 @@ Adobe Commerce as a Cloud Serviceの新しいCustomer REST APIの使用方法を
 
 インスタンスの詳細には、インスタンス ID、GraphQL エンドポイント、資格情報などが含まれます。
 
-### 開発者の詳細 – https://developer.adobe.com/console/
+### 開発者の詳細 – [developer.adobe.com/console](https://developer.adobe.com/console/)
 
 Developer Consoleでは、クライアント ID、クライアントシークレット、アクセストークンなどのAPI資格情報を管理できます。 また、サーバー間やネイティブアプリ認証など、新しい資格情報タイプを作成することもできます。
 
@@ -74,7 +74,6 @@ Developer Consoleでは、クライアント ID、クライアントシークレ
 | REST エンドポイント | `<rest_endpoint>` | experience.adobe.com |
 | クライアント ID | `<client_id>` | developer.adobe.com/console |
 | クライアント秘密鍵 | `<client_secret>` | developer.adobe.com/console |
-
 
 ## 手順1：アクセストークンの取得（サーバー間認証）
 

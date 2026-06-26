@@ -1,14 +1,13 @@
 ---
 title: Adobe Commerce as a Cloud Serviceの概要
 description: Adobe Commerce as a Cloud Serviceについてさらに詳しく。 構成可能なアーキテクチャにより、動的なデジタル運用を実現する、柔軟性、拡張性、効率性に優れたソリューションです。
-kt: 17219
+jira: KT-17219
 doc-type: Technical Video
-duration: 232
-audience: all
-last-substantial-update: 2025-2-3
+duration: 231
+last-substantial-update: 2025-02-03
 feature: Auto Scaling, Cloud, Services
 topic: Architecture, Commerce, Headless, Performance
-role: Admin, Leader, User
+role: Developer
 level: Beginner
 exl-id: ba6cd559-812f-4985-881f-45a9324095f3
 TQID: https://experienceleague.adobe.com/5qPs-Bkz-AgLjlQfgdHMh7nXyew33l3kz58HBGiqse8
@@ -25,7 +24,7 @@ role_v2:
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: b599f79ad41b9552cea6ff41062eb4ef75f183bb
+source-git-commit: 496cf8fad3c8178ae50839deb4b9f9cd8ffded2e
 workflow-type: tm+mt
 source-wordcount: 267
 ht-degree: 0%
