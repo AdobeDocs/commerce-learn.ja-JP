@@ -1,17 +1,14 @@
 ---
 title: グローバル参照アーキテクチャの概念の概要
 description: グローバル参照アーキテクチャと呼ばれる、複雑なコマースプロジェクトの管理に使用される手法について説明します
-landing-page-description: グローバル参照アーキテクチャと、Adobe Commerceでの使用方法について説明します
-kt: 14039
-doc-type: video
-duration: 1165
-audience: all
-last-substantial-update: 2023-9-27
+jira: KT-14039
+doc-type: Value Video
+duration: 1143
+last-substantial-update: 2023-09-27
 feature: Best Practices, Configuration, Install
 topic: Architecture, Commerce, Development
-old-role: Architect, Developer
 role: Developer, User, Leader
-level: Beginner, Intermediate
+level: Beginner
 exl-id: 71c310ab-593c-4f64-b07e-8337b3f3255e
 TQID: https://experienceleague.adobe.com/dxP-u56ARgMmP8DD5-upAzhzQYieMLN0GPvdnrc-DR8
 product_v2:
@@ -29,9 +26,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: b599f79ad41b9552cea6ff41062eb4ef75f183bb
+source-git-commit: 776428136218d5d3cf5b1720832798822039aee2
 workflow-type: tm+mt
-source-wordcount: 87
+source-wordcount: 74
 ht-degree: 1%
 
 ---
@@ -49,7 +46,7 @@ ht-degree: 1%
 
 * グローバル参照アーキテクチャの概要
 * 主な特長
-* 考慮すべき全体的な考慮事項
+* 対処すべき全体的な考慮事項
 * GRAが実行可能なオプションであるかどうかを見分ける方法
 
 >[!VIDEO](https://video.tv.adobe.com/v/3454685?captions=jpn&learn=on)

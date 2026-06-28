@@ -1,16 +1,14 @@
 ---
-title: バルクパッケージを使用したAdobe Commerceの最適化グローバルリファレンスアーキテクチャ
-description: 効率的なコード管理とバージョン管理のために、Bulk Packages Global Reference Architectureを使用してAdobe Commerceを設定する方法を説明します。
+title: バルクパッケージのグローバル参照アーキテクチャパターン
+description: 効率的なコード管理、バージョン管理、スケーラブルなマルチインスタンス展開のために、Bulk Packages GRA パターンを使用してAdobe Commerceを設定する方法を説明します。
 jira: KT-16726
-doc-type: tutorial
-duration: 391
-audience: all
-last-substantial-update: 2025-1-6
+doc-type: Tutorial
+duration: 296
+last-substantial-update: 2025-01-06
 feature: Best Practices, Configuration, Install
 topic: Architecture, Commerce, Development
-badge: label="Contributed by Tony Evers, シニア・テクニカル・アーキテクト，Adobe" type="Informative" url="https://www.linkedin.com/in/evers-tony/" tooltip="アーティスト：Tony Evers"
-old-role: Architect, Developer
-role: Developer, User, Leader
+badge: label="Contributed by Tony Evers, シニア・テクニカル・アーキテクト，Adobe" type="Informative" url="https://www.linkedin.com/in/evers-tony" tooltip="アーティスト：Tony Evers"
+role: Developer
 level: Beginner, Intermediate
 exl-id: ac63e31e-3047-410a-a6f9-a578b495bd8c
 TQID: https://experienceleague.adobe.com/q4NzQxc7XJDB-TNv2pU7ghDr6bahliY6soUGPu7fhfg
@@ -28,7 +26,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: b599f79ad41b9552cea6ff41062eb4ef75f183bb
+source-git-commit: 776428136218d5d3cf5b1720832798822039aee2
 workflow-type: tm+mt
 source-wordcount: 1188
 ht-degree: 0%
@@ -53,7 +51,7 @@ ht-degree: 0%
 * GRAの異なる履歴バージョンを異なるインスタンスにインストールし、段階的なリリースを可能にする柔軟性
 * GRAの複数のメジャーバージョンをバックポートおよび維持する柔軟性
 * GRAのセマンティック バージョン管理のサポート
-* シンプルに、開発者は通常のシングルストア開発パターンよりも多くのスキルを必要としません
+* 簡素化：開発者は、通常のシングルストア開発パターンよりも多くのスキルを必要としません
 * 特別なツール、複雑なインフラストラクチャ、特別な分岐戦略は必要ありません
 * リリース内のパッケージの組み合わせは、常に開発され、テストされます
 

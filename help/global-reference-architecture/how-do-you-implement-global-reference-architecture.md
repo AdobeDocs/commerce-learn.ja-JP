@@ -1,17 +1,14 @@
 ---
 title: グローバル参照アーキテクチャの導入方法
 description: グローバル参照アーキテクチャの実装方法を説明します。 Web サイトを配布するためのアイデア、成功のための鍵、およびグローバルリファレンスアーキテクチャプロジェクトを正しい軌道に乗せるために必要な役割について説明します。
-landing-page-description: Adobe Commerceを使用してグローバル参照アーキテクチャを実装する方法について説明します
-kt: 14042
-doc-type: video
-duration: 2289
-audience: all
-last-substantial-update: 2023-10-6
+jira: KT-14042
+doc-type: Value Video
+duration: 2273
+last-substantial-update: 2023-10-06
 feature: Best Practices, Configuration, Install
 topic: Architecture, Commerce, Development
-old-role: Architect, Developer
 role: Developer, User, Leader
-level: Beginner, Intermediate
+level: Beginner
 exl-id: 0eb1f994-24a7-491f-b267-00202f6086e6
 TQID: https://experienceleague.adobe.com/gvluu4w1CEQOC6Ar77DspSSx9ED682P41DSEqG44cok
 product_v2:
@@ -29,16 +26,16 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-source-git-commit: b599f79ad41b9552cea6ff41062eb4ef75f183bb
+source-git-commit: 776428136218d5d3cf5b1720832798822039aee2
 workflow-type: tm+mt
-source-wordcount: 169
+source-wordcount: 157
 ht-degree: 0%
 
 ---
 
 # グローバル参照アーキテクチャの実装
 
-グローバル参照アーキテクチャやGRAを簡単に実装する方法について説明します。 GRAを成功に導くための早期判断について説明します。 web サイトを分離する方法、成功の鍵、整理整頓して機能を開発するためのコンセプトを紹介します。
+GRA （グローバル参照アーキテクチャ）の導入方法について説明します。 GRAを成功に導くための早期判断について解説します。 web サイトを分離する方法、成功の鍵、整理整頓して機能を開発するためのコンセプトを紹介します。
 
 ## オーディエンス
 
