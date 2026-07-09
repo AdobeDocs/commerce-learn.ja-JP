@@ -7,9 +7,9 @@ doc-type: Value Video
 last-substantial-update: 2026-06-11T00:00:00Z
 jira: KT-21573
 duration: 192
-source-git-commit: 48d47dcb7e559513b72e8e24ec678613d9163515
+source-git-commit: 676b83020173983f2045c715e3b3ee28f7bb1c6b
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: '212'
 ht-degree: 0%
 
 ---
@@ -26,14 +26,16 @@ ht-degree: 0%
 
 ## ビデオコンテンツ
 
-* セマンティック検索でカタログを理解できるように、属性を選択します
-* 買い物客のインテントマッチングに最も関連性の高いシグナルを重み付けする優先順位設定
-* 商品データをセマンティックシグナルに変換する自動カタログインデックス作成
-* 結果の向上、類似性のしきい値、ファジー検索設定
+* セマンティック検索の概要と製品発見の改善
+* ライブサーチ設定でセマンティック検索を有効にする方法
+* セマンティック検索を有効にした後に加盟店が期待できること
+* 自動カタログインデックス作成とAIを活用した商品データの理解
+* 買い物客の意図と検索関連性の向上を示す実例
+* 主な利点：関連性の向上、検索結果ゼロの検索の減少、買い物客の体験の向上
 
 >[!VIDEO](https://video.tv.adobe.com/v/3492306?captions=jpn)
 
 ## 関連資料
 
-&#x200B;- Adobe Commerce on Cloud、on Prem、およびAdobe Commerce as a Cloud Serviceでのデプロイメントについては、_ライブ検索ガイド_&#x200B;の[[!DNL Live Search]  セマンティック検索](https://experienceleague.adobe.com/ja/docs/commerce/live-search/live-search-admin/semantic-search){target="_blank"}を参照してください。
-&#x200B;- Adobe Commerce Optimizerを使用したデプロイメントについては、_Commerce Optimizer ガイド_&#x200B;の[設定 – 詳細検索](https://experienceleague.adobe.com/ja/docs/commerce/optimizer/settings#advanced-search){target="_blank"}を参照してください。
+&#x200B;- Adobe Commerce on Cloud、オンプレミス、およびAdobe Commerce as a Cloud Serviceでのデプロイメントについては、_ライブ検索ガイド_&#x200B;の[[!DNL Live Search]  セマンティック検索](https://experienceleague.adobe.com/ja/docs/commerce/live-search/live-search-admin/semantic-search){target="_blank"}を参照してください。
+&#x200B;- Adobe Commerce Optimizerを使用したデプロイメントについては、_Commerce Optimizer ガイド_&#x200B;の[&#x200B; セマンティック検索](https://experienceleague.adobe.com/ja/docs/commerce/optimizer/setup/semantic-search){target="_blank"}を参照してください。
