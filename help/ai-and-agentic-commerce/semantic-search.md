@@ -33,7 +33,7 @@ ht-degree: 0%
 * 買い物客の意図と検索関連性の向上を示す実例
 * 主な利点：関連性の向上、検索結果ゼロの検索の減少、買い物客の体験の向上
 
->[!VIDEO](https://video.tv.adobe.com/v/3492286)
+>[!VIDEO](https://video.tv.adobe.com/v/3492306?captions=jpn)
 
 ## 関連資料
 
