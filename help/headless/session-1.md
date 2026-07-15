@@ -1,14 +1,12 @@
 ---
 title: ヘッドレスアーキテクチャセッション 1
-description: ヘッドレスアーキテクチャ、コンポーザブルコマース、パーソナライズされたエクスペリエンスとは何かをご確認ください
-kt: 13144
-doc-type: tutorial
+description: Adobe Commerceのヘッドレスアーキテクチャ、コンポーザブルコマース、パーソナライズされたエクスペリエンス、分離型ストアフロントの利点をご紹介します。
+jira: KT-13144
+doc-type: Value Video
 duration: 1952
-audience: all
 last-substantial-update: 2023-04-25T00:00:00.000Z
 feature: GraphQL, REST
 topic: Commerce, Architecture, Headless
-old-role: Architect, Developer
 role: Developer, User
 level: Beginner, Intermediate
 exl-id: b6998fe9-dc74-4b43-8e13-b3e63e0e8312
@@ -32,20 +30,20 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: b599f79ad41b9552cea6ff41062eb4ef75f183bb
+source-git-commit: 58b3a0c27f74abac23412518e4a5747bbe4cf240
 workflow-type: tm+mt
-source-wordcount: 133
+source-wordcount: 141
 ht-degree: 0%
 
 ---
 
 # Adobe Commerceのヘッドレスアーキテクチャ
 
-Adobe Commerceの導入履歴と、ヘッドレスを完全にサポートするための取り組みを解説します。  ヘッドレスアーキテクチャの利点には、顧客接点のバランス、開発工程の分離、拡張性の向上などが含まれます。
+Adobe Adobe Commerceの導入履歴と、ヘッドレス CMSの導入に伴う準備状況を解説します。 ヘッドレスアーキテクチャの利点には、顧客接点のバランス、開発活動の分離、拡張性の向上などの利点があります。
 
 ## 学習すること
 
-ヘッドレス CMSの概要と、Adobe Commerceがヘッドレスアーキテクチャにどのように対応しているかをご確認ください。
+ヘッドレス CMSの概要と、Adobe Commerceが包括的なヘッドレスアーキテクチャをどのようにサポートしているかをご確認ください。
 
 ## この動画は誰のためのものでしょうか？
 
