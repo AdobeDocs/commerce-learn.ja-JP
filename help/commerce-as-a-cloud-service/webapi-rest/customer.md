@@ -11,24 +11,15 @@ last-substantial-update: 2026-01-27
 jira: KT-20160
 exl-id: f40d9b21-1f41-4c76-84a9-161168dbfb1a
 TQID: https://experienceleague.adobe.com/DiP21e4T-iLM-IuOVDVkJIvHOJ6y-q4IIdSKVplxcX0
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
-  - id: c32adafa-ed01-4b31-997e-2413013911b0
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-  - id: e8818fe6-9c8b-4bc0-9ef8-377a10b7bc75
-subfeature_v2:
-  - id: f8ddfd3b-6194-46e8-a176-0e918039be56
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: a919fc30133c58050d260bea8562e920694f5c58
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c32adafa-ed01-4b31-997e-2413013911b0id: dac87252-6066-4d6e-a9d2-f6d84c323de7id: e8818fe6-9c8b-4bc0-9ef8-377a10b7bc75
+subfeature_v2: id: f8ddfd3b-6194-46e8-a176-0e918039be56
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: a9472912c20d157e310abfece16519156b10945f
 workflow-type: tm+mt
-source-wordcount: 507
+source-wordcount: 509
 ht-degree: 0%
 
 ---
@@ -48,7 +39,7 @@ Adobe Commerce as a Cloud Serviceの新しいCustomer REST APIの使用方法を
 * Commerce as a Cloud Serviceに適切なREST API エンドポイントフォーマットを使用する
 * 適切なJSON ペイロードを使用して、POST要求とPUT要求をプログラムで使用して顧客アカウントを作成および更新します
 
->[!VIDEO](https://video.tv.adobe.com/v/3479363?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3479361?learn=on)
 
 ## コードサンプル
 
@@ -62,7 +53,9 @@ Adobe Commerce as a Cloud Serviceの新しいCustomer REST APIの使用方法を
 
 インスタンスの詳細には、インスタンス ID、GraphQL エンドポイント、資格情報などが含まれます。
 
-### 開発者の詳細 – [developer.adobe.com/console](https://developer.adobe.com/console/)
+### 開発者の詳細 – developer.adobe.com/console
+
+[developer.adobe.com/console](https://developer.adobe.com/console/)
 
 Developer Consoleでは、クライアント ID、クライアントシークレット、アクセストークンなどのAPI資格情報を管理できます。 また、サーバー間やネイティブアプリ認証など、新しい資格情報タイプを作成することもできます。
 
@@ -259,6 +252,6 @@ curl -s -X PUT \
 
 ## 参照
 
-* [Adobe Commerce as a Cloud Service リリースノート](https://experienceleague.adobe.com/ja/docs/commerce/cloud-service/release-notes)
+* [Adobe Commerce as a Cloud Service リリースノート](https://experienceleague.adobe.com/en/docs/commerce/cloud-service/release-notes)
 * [SaaS REST API リファレンス](https://developer.adobe.com/commerce/webapi/reference/rest/saas/)
 * [ユーザー認証ガイド](https://developer.adobe.com/commerce/webapi/rest/authentication/user/)
