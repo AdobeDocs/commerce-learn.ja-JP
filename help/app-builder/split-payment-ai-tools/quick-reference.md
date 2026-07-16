@@ -194,15 +194,15 @@ ht-degree: 0%
 
 | チュートリアルセクション | Experience League page |
 | --- | --- |
-| 概要と学習目標 | [分割支払いPOCの作成：App BuilderとAI ツール ](./overview.md) |
-| エンドツーエンドのデモ（動画） | [分割支払いPOCの作成：App Builderの完全デモ ](./full-demo.md) |
+| 概要と学習目標 | [分割支払いPOCの作成：App BuilderとAI ツール &#x200B;](./overview.md) |
+| エンドツーエンドのデモ（動画） | [分割支払いPOCの作成：App Builderの完全デモ &#x200B;](./full-demo.md) |
 | 建築：どこに住むか | [分割支払いPOC: アーキテクチャとデザインの決定](./architecture-and-decisions.md) |
 | 前提条件と設定 | [分割支払いPOC：前提条件と環境の設定](./prerequisites-and-setup.md) |
-| 環境変数 | [分割支払いPOC：環境変数リファレンス ](./env-reference.md) |
-| 手順1:Commerce モジュールの構築 | [分割支払いPOC: Commerce モジュール AI プロンプト ](./commerce-module-prompt.md) |
-| 手順2:App Builder オーケストレーターの構築 | [分割支払いPOC: App Builder Orchestrator AI プロンプト ](./orchestrator-prompt.md) |
-| ステップ 3：エンドツーエンドのフローをテストする | [分割支払いPOC：テストと検証ガイド ](./testing-and-verification.md) |
-| 手順4 （オプション）：管理者UI拡張機能 | [分割支払いPOC: Experience Cloud UI拡張機能AI プロンプト ](./experience-cloud-ui-prompt.md) |
+| 環境変数 | [分割支払いPOC：環境変数リファレンス &#x200B;](./env-reference.md) |
+| 手順1:Commerce モジュールの構築 | [分割支払いPOC: Commerce モジュール AI プロンプト &#x200B;](./commerce-module-prompt.md) |
+| 手順2:App Builder オーケストレーターの構築 | [分割支払いPOC: App Builder Orchestrator AI プロンプト &#x200B;](./orchestrator-prompt.md) |
+| ステップ 3：エンドツーエンドのフローをテストする | [分割支払いPOC：テストと検証ガイド &#x200B;](./testing-and-verification.md) |
+| 手順4 （オプション）：管理者UI拡張機能 | [分割支払いPOC: Experience Cloud UI拡張機能AI プロンプト &#x200B;](./experience-cloud-ui-prompt.md) |
 | 次のステップと本番パス | [分割支払POC：概念実証の次の手順](./next-steps.md) |
 
 
