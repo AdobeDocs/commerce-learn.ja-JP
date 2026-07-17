@@ -9,9 +9,9 @@ doc-type: Tutorial
 duration: 398
 jira: KT-20902
 last-substantial-update: 2026-04-27T00:00:00Z
-source-git-commit: 63ac13d8c5a97ee81dcdd1f3785a9875aaf2a4db
+source-git-commit: a9472912c20d157e310abfece16519156b10945f
 workflow-type: tm+mt
-source-wordcount: '1444'
+source-wordcount: '1515'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,9 @@ ht-degree: 0%
 
 ## ファイル単位の参照
 
-### [分割支払いPOCの作成：App BuilderとAI ツール &#x200B;](./overview.md)
+### 分割支払いPOCの構築：App BuilderとAI ツール
+
+[分割支払いPOCの構築：App BuilderとAI ツール](./overview.md)
 
 **目的：** チュートリアルの概要と方向。
 
@@ -32,8 +34,9 @@ ht-degree: 0%
 **チュートリアルの使用：** セクションを開いています。 技術的なステップに進む前に、コンテクストを設定することで、
 
 
-### [分割支払いPOC: アーキテクチャとデザインの決定](./architecture-and-decisions.md)
+### 分割払いPOC：アーキテクチャとデザインの決定
 
+[分割払いPOC：アーキテクチャとデザインの決定](./architecture-and-decisions.md)
 
 **目的：** PoCにおけるアーキテクチャに関するあらゆる決定を詳細に説明します。
 
@@ -50,8 +53,9 @@ ht-degree: 0%
 **チュートリアルの使用：** 「アーキテクチャ」または「仕組み」セクション。 経験豊富なCommerce開発者はスキップできますが、App Builderを初めて利用する場合は必須です。
 
 
-### [分割支払いPOC：前提条件と環境の設定](./prerequisites-and-setup.md)
+### 分割払いPOC：前提条件と環境の設定
 
+[分割払いPOC：前提条件と環境の設定](./prerequisites-and-setup.md)
 
 **目的：** コードを記述したり、プロンプトを実行したりする前に、フライト前のチェックリストを完了します。
 
@@ -66,8 +70,9 @@ ht-degree: 0%
 **チュートリアルの使用：** 「前提条件」または「入門」セクション。 読むだけでなく、インタラクティブに完了する必要があります。
 
 
-### [分割支払いPOC：環境変数リファレンス &#x200B;](./env-reference.md)
+### 分割支払POC：環境変数リファレンス
 
+[分割支払POC：環境変数リファレンス](./env-reference.md)
 
 **目的：**&#x200B;すべての3つのコンポーネントのすべての環境変数を1か所に集めます。
 
@@ -82,8 +87,9 @@ ht-degree: 0%
 **チュートリアル使用：**&#x200B;参照サイドバーまたは「設定」セクション。 ビルドプロンプトのコンパニオンとしても使用されます。
 
 
-### [分割支払いPOC: Commerce モジュール AI プロンプト &#x200B;](./commerce-module-prompt.md)
+### 分割支払いPOC: Commerce モジュール AI プロンプト
 
+[分割支払いPOC: Commerce モジュール AI プロンプト](./commerce-module-prompt.md)
 
 **目的：** `Client_SplitPayment` PHP モジュール全体を生成するための、自己完結型のAI プロンプトを完成させます。
 
@@ -101,8 +107,9 @@ ht-degree: 0%
 **チュートリアルの使用：** 「Commerce モジュールのビルド」セクション。 プロンプト自体は成果物です。開発者はそれをAI ツールにコピーして実行します。
 
 
-### [分割支払いPOC: App Builder Orchestrator AI プロンプト &#x200B;](./orchestrator-prompt.md)
+### 分割支払いPOC: App Builder orchestrator AI プロンプト
 
+[分割支払いPOC: App Builder orchestrator AI プロンプト](./orchestrator-prompt.md)
 
 **目的：** `split-payment-orchestrator` App Builder アプリケーションを生成するための、完全な自己完結型AI プロンプトを実行します。
 
@@ -120,8 +127,9 @@ ht-degree: 0%
 **チュートリアルの使用：** 「App Builder アプリケーションのビルド」セクション。 Commerce モジュールプロンプトのコンパニオン。
 
 
-### [分割支払いPOC: Experience Cloud UI拡張機能AI プロンプト &#x200B;](./experience-cloud-ui-prompt.md)
+### 分割支払いPOC: Experience Cloud UI拡張機能AI プロンプト
 
+[分割支払いPOC: Experience Cloud UI拡張機能AI プロンプト](./experience-cloud-ui-prompt.md)
 
 **目的：** AI プロンプトを使用して、オプションのExperience Cloud Admin UI SDK拡張機能を生成します。
 
@@ -137,8 +145,9 @@ ht-degree: 0%
 **チュートリアルの使用：** オプション「さらに進む」または「実稼動パス」セクション。 チュートリアルがPoCのみに焦点を当てている場合は、スキップできます。
 
 
-### [分割支払いPOC：テストと検証ガイド &#x200B;](./testing-and-verification.md)
+### 分割払いPOC：テストと検証ガイド
 
+[分割払いPOC：テストと検証ガイド](./testing-and-verification.md)
 
 **目的：** ステップバイステップのテストガイドで、すべてのコンポーネントを正しい検証順序で説明します。
 
@@ -160,8 +169,9 @@ ht-degree: 0%
 **チュートリアル使用：** 「テスト」または「検証」セクション。 トラブルシューティングの参考資料としても役立ちます。
 
 
-### [分割支払POC：概念実証の次の手順](./next-steps.md)
+### 分割払いPOC：概念実証の次のステップ
 
+[分割払いPOC：概念実証の次のステップ](./next-steps.md)
 
 **PoCを実稼動可能なパターンに進化させるための目的：** ロードマップ。
 

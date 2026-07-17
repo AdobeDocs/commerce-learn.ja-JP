@@ -26,9 +26,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: a919fc30133c58050d260bea8562e920694f5c58
+source-git-commit: a9472912c20d157e310abfece16519156b10945f
 workflow-type: tm+mt
-source-wordcount: 507
+source-wordcount: 509
 ht-degree: 0%
 
 ---
@@ -62,7 +62,9 @@ Adobe Commerce as a Cloud Serviceの新しいCustomer REST APIの使用方法を
 
 インスタンスの詳細には、インスタンス ID、GraphQL エンドポイント、資格情報などが含まれます。
 
-### 開発者の詳細 – [developer.adobe.com/console](https://developer.adobe.com/console/)
+### 開発者の詳細 – developer.adobe.com/console
+
+[developer.adobe.com/console](https://developer.adobe.com/console/)
 
 Developer Consoleでは、クライアント ID、クライアントシークレット、アクセストークンなどのAPI資格情報を管理できます。 また、サーバー間やネイティブアプリ認証など、新しい資格情報タイプを作成することもできます。
 
