@@ -33,4 +33,4 @@ ht-degree: 0%
 * Adobe Developer Consoleの&#x200B;**Project** > **OAuth Server-to-Server**&#x200B;からAdobe IMSクライアント IDとクライアントシークレットを取得します。
 * ターゲット組織IDをコピーし、環境に合わせてCDMS ホスト、ポート、ローカルサーバーの設定を設定します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3496167?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3496168?captions=jpn&learn=on)
