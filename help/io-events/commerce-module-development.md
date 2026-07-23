@@ -44,7 +44,7 @@ ht-degree: 0%
 * Commerce インスタンス `app/etc/config.php`でイベントを登録する方法を説明します
 * イベントから購読を解除する方法を説明します
 
->[!VIDEO](https://video.tv.adobe.com/v/3415802?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3419837?captions=jpn&learn=on)
 
 ## 便利なコマンド {#useful-commands}
 
