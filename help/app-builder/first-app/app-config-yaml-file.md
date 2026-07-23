@@ -40,7 +40,7 @@ ht-degree: 0%
 * `app.config.yaml` ファイルについて説明しました
 * 他の`.js` ファイルに定義をリンクする方法
 
->[!VIDEO](https://video.tv.adobe.com/v/3416592?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3430839?captions=jpn&learn=on)
 
 ## コードサンプル
 
