@@ -1,16 +1,12 @@
 ---
-title: Adobe Commerceでモジュールを作成してイベントを使用する方法を説明します。
+title: I/O イベントを使用するためのAdobe Commerce モジュールの作成
 description: Commerce モジュールを作成してイベントを使用する方法を説明します。
-landing-page-description: Adobe Commerce モジュールを作成してイベントを使用する方法を説明します。
-short-description: Adobe Commerce モジュールを作成してイベントを使用する方法を説明します。
-kt: 11891
-doc-type: tutorial
-duration: 348
-audience: all
-last-substantial-update: 2023-02-21T00:00:00.000Z
+jira: KT-11891
+doc-type: Tutorial
+duration: 314
+last-substantial-update: 2023-02-21
 feature: App Builder, Eventing, Backend Development
 topic: Commerce, Architecture
-old-role: Architect, Developer
 role: Developer
 level: Beginner, Intermediate
 exl-id: e8103fe0-116a-499c-ae0a-3ad0511f44d0
@@ -25,16 +21,16 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 456f3cae8c45d137a195456692c2d11204126bb7
+source-git-commit: 282072f1e29b836d19dee2e1b6498f75150fe3a5
 workflow-type: tm+mt
-source-wordcount: 173
+source-wordcount: 140
 ht-degree: 0%
 
 ---
 
 # Adobe Commerce モジュール開発
 
-イベントの登録、サポートされているイベントの検索、カスタムモジュール開発で新しいXML ファイル `io_events.xml`を使用する方法について説明します。 また、このビデオでは、既に定義されている可能性のあるイベントを登録解除するだけでなく、使用できる登録済みイベントを見つける方法も開発者に示します。 その他のドキュメントについては、[Adobe Commerce用Adobe I/O Eventsのインストール &#x200B;](https://developer.adobe.com/commerce/events/get-started/installation/){target="_blank"}を参照してください。
+カスタムモジュール開発でイベントを登録し、サポートされているイベントを見つけ、新しいXML ファイル `io_events.xml`を使用する方法を説明します。 また、このビデオでは、使用する登録イベントの検索方法と、定義済みのイベントの削除方法も説明します。 その他のドキュメントについては、[Adobe Commerce用Adobe I/O Eventsのインストール &#x200B;](https://developer.adobe.com/commerce/extensibility/events/installation){target="_blank"}を参照してください。
 
 ## この動画は誰のためのものでしょうか？
 
@@ -42,11 +38,11 @@ ht-degree: 0%
 
 ## ビデオコンテンツ {#video-content}
 
-* Adobe Developer App Builderで使用するためのCommerceでのイベントの登録
+* Adobe Developer App BuilderへのCommerce イベントの登録
 * 登録可能なイベントを特定する
 * io_events.xmlでのイベントの登録方法を説明します
 * Commerce インスタンス `app/etc/config.php`でイベントを登録する方法を説明します
-* イベントの購読を解除する方法
+* イベントから購読を解除する方法を説明します
 
 >[!VIDEO](https://video.tv.adobe.com/v/3419837?captions=jpn&learn=on)
 
@@ -67,4 +63,5 @@ bin/magento events:list
 ```
 
 {{$include /help/_includes/io-events-related-links.md}}
+
 

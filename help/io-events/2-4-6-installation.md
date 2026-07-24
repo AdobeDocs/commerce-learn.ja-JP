@@ -1,17 +1,13 @@
 ---
 title: Adobe Commerce 2.4.6のIO イベントのインストール方法について説明します
 description: Adobe Developer App Builderで使用するAdobe Commerce 2.4.6のIO イベントに必要なモジュールをインストールする方法について説明します
-landing-page-description: Adobe Commerce 2.4.6に必要な複数のモジュールをインストールする方法について説明します。
-short-description: Adobe Commerce 2.4.6に必要な複数のモジュールをインストールする方法について説明します。
-kt: 11887
-doc-type: tutorial
-duration: 167
-audience: all
-last-substantial-update: 2023-02-22T00:00:00.000Z
+jira: KT-11887
+doc-type: Tutorial
+duration: 136
+last-substantial-update: 2023-02-22
 badge: Adobe Commerce 2.4.6
 feature: App Builder, Eventing
 topic: Commerce, Architecture
-old-role: Architect, Developer
 role: Developer
 level: Beginner, Intermediate
 exl-id: 41b31ed8-04c5-4d50-aaff-abc3718b5957
@@ -26,18 +22,18 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 456f3cae8c45d137a195456692c2d11204126bb7
+source-git-commit: 282072f1e29b836d19dee2e1b6498f75150fe3a5
 workflow-type: tm+mt
-source-wordcount: 166
+source-wordcount: 141
 ht-degree: 0%
 
 ---
 
 # Adobe Commerce 2.4.6 インストール
 
-バージョン 2.4.6のComposerを使用して、Adobe Commerceに新しいモジュールをインストールする方法について説明します。 その他のドキュメントについては、[Adobe Commerce用Adobe I/O Eventsのインストール &#x200B;](https://developer.adobe.com/commerce/events/get-started/installation/){target="_blank"}を参照してください。
+バージョン 2.4.6のComposerを使用して、Adobe Commerceに新しいモジュールをインストールする方法について説明します。 その他のドキュメントについては、[Adobe Commerce用Adobe I/O Eventsのインストール &#x200B;](https://developer.adobe.com/commerce/extensibility/events/installation){target="_blank"}を参照してください。
 
-## この動画は誰のためのものでしょうか？
+## 対象オーディエンス
 
 * I/O Eventsを使用してAdobe CommerceとAdobe Developer App Builderを初めて使用する開発者。
 
@@ -51,7 +47,7 @@ ht-degree: 0%
 
 ## 便利なコマンド {#useful-commands}
 
-セルフホスト環境を使用している場合とAdobe Commerce Cloudを使用している場合で、若干異なる様々なコマンドがあります。
+セルフホスト環境を使用しているか、Adobe Commerce Cloudを使用しているかによって、若干異なる様々なコマンドがあります。
 
 ### オンプレミスホスティング {#on-premise}
 
@@ -78,4 +74,5 @@ stage:
 ```
 
 {{$include /help/_includes/io-events-related-links.md}}
+
 

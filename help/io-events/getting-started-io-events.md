@@ -1,16 +1,12 @@
 ---
-title: Adobe App BuilderとAdobe Commerceを使用したIO Eventsの概要
-description: Adobe I/O Eventsの導入方法。 Adobe Commerce イベントのApp Builder ランタイムアクションを作成します。
-landing-page-description: Adobe Commerce EventsにApp Builder ランタイムアクションを使用する方法を説明します。
-short-description: Adobe Commerce イベントのApp Builder ランタイムアクションの作成。
-kt: 14583
-doc-type: tutorial
-duration: 750
-audience: all
-last-substantial-update: 2023-11-27T00:00:00.000Z
+title: CommerceおよびApp BuilderのI/O イベントの概要
+description: Adobe Commerce イベントのApp Builder ランタイムアクションを作成して、Adobe I/O Eventsの使用を開始する方法を説明します。
+jira: KT-14583
+doc-type: Tutorial
+duration: 725
+last-substantial-update: 2023-11-27
 feature: App Builder, Eventing, Backend Development
 topic: Commerce, Architecture
-old-role: Architect, Developer
 role: Developer
 level: Beginner, Intermediate
 exl-id: 266d13ac-439e-4590-a0be-e22ea8e34014
@@ -25,26 +21,26 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 456f3cae8c45d137a195456692c2d11204126bb7
+source-git-commit: 282072f1e29b836d19dee2e1b6498f75150fe3a5
 workflow-type: tm+mt
-source-wordcount: 173
+source-wordcount: 151
 ht-degree: 0%
 
 ---
 
 # Adobe Commerce向けIO Eventsの概要
 
-Adobe I/O eventsについて詳しく見る。 このデモでは、Adobe CommerceのイベントがAdobe Developer App Builderを使用してSlack チャンネルに送信され、Adobe Commerceのイベントが送信されます。
+Adobe I/O Eventsについてさらに詳しく。 このデモでは、Adobe CommerceのイベントがAdobe Developer App Builderを使用してSlack チャネルに送信されます。
 
 ## この動画は誰のためのものでしょうか？
 
-* Adobe CommerceとAdobe IO Eventsを使用して、イベント駆動型アプリケーションを構築する方法を学ぶ開発者。
+* Adobe CommerceとAdobe I/O Eventsを利用して、イベント駆動型アプリケーションの構築を学ぶ開発者。
 
 ## ビデオコンテンツ {#video-content}
 
-* Adobe IOのイベントについて詳しく見る
-* Amazon EventBridgeを含むAdobe IO Eventsのさまざまなエンドポイントについて説明します
-* App Builder プロジェクトのセットアップと設定方法について説明します
+* Adobe I/O Eventsについてさらに詳しく
+* Amazon EventBridgeを含むAdobe I/O Eventsの様々なエンドポイントについて説明します
+* App Builder プロジェクトの設定と設定方法について説明します
 * CLIでのAdobe I/O コマンドの使用
 * イベントを処理するためのランタイムアクションの作成
 * Adobe CommerceからSlack チャネルへのイベントの送信
@@ -56,4 +52,5 @@ Adobe I/O eventsについて詳しく見る。 このデモでは、Adobe Commer
 [Adobe I/O Events Workbook](../assets/io-events/IO-Events-Workbook.pdf)
 
 {{$include /help/_includes/io-events-related-links.md}}
+
 
