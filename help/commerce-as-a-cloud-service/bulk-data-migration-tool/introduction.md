@@ -33,4 +33,4 @@ Dockerを準備し、Bulk Data Migration Toolにアクセスして、Adobe Comme
 * ツールパッケージを抽出し、正しいフォルダー権限を設定します。
 * このシリーズの次のビデオで構成されている`.env.example` ファイルを確認します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3496121?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3496123?captions=jpn&learn=on)

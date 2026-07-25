@@ -33,4 +33,4 @@ ht-degree: 0%
 * Magento Cloud CLI トンネルコマンドを使用して、host、user、password、portおよびdatabaseの値を取得します。
 * ソースがオンプレミスの場合は、ツールを実行する前に、ホストとポートの接続を確認してください。
 
->[!VIDEO](https://video.tv.adobe.com/v/3496152?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3496158?captions=jpn&learn=on)

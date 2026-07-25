@@ -33,4 +33,4 @@ ht-degree: 0%
 * 必要な4つのトークンを生成するには、統合をアクティブにします。
 * ソースがAdobe Commerce as a Cloud Service（PaaS）の場合は、account.magento.cloudからMagento CLI トークンを取得します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3496142?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3496143?captions=jpn&learn=on)
