@@ -4,9 +4,9 @@ user-guide-description: ビデオとチュートリアルを通じて、Adobe Co
 breadcrumb-title: ビデオとチュートリアル
 auto-video-transcripts: true
 author: Russell A.
-source-git-commit: b3c029f7c1080550900cbc5838478cd7a4137a20
+source-git-commit: 838387ffddbd8bee3ef3ec22694818eb2de5fe2d
 workflow-type: tm+mt
-source-wordcount: '969'
+source-wordcount: '972'
 ht-degree: 3%
 
 ---
@@ -70,6 +70,7 @@ ht-degree: 3%
       + [Source資格情報](../commerce-as-a-cloud-service/bulk-data-migration-tool/source-credentials.md)
       + [DB資格情報](../commerce-as-a-cloud-service/bulk-data-migration-tool/db-credentials.md)
       + [ターゲット資格情報](../commerce-as-a-cloud-service/bulk-data-migration-tool/target-credentials.md)
+      + [単相移行](../commerce-as-a-cloud-service/bulk-data-migration-tool/bulk-data-migration-tool-single-phase-migration.md)
   + Adobe Commerceへの移行{#migrating-to-adobe-commerce}
     + [概要](../migrating-to-adobe-commerce/overview.md)
     + 準備{#preparation}
