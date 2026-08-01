@@ -32,4 +32,4 @@ ht-degree: 0%
 * ソースがまだ稼動している間にフェーズ 1が実行されます。`bin console migration:before-maintenance`は設定を確認し、環境を初期化し、CDMSに接続し、移行を登録し、機能テストを実行し、合成テストデータを作成します。 このフェーズが完了するまで、メンテナンスモードを有効にしないでください。
 * フェーズ 3は、凍結環境からの抽出です。`bin/console migration:during-maintenance`は、必要に応じてPaaS トンネルを再開し、ソースからの抽出、ステージングビューのクリーンアップ、ACCS ターゲットへの読み込み、検証の実行、ターゲット上のテストデータのクリーンアップを行います。
 
->[!VIDEO](https://video.tv.adobe.com/v/3496413?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3496414?captions=jpn&learn=on)
