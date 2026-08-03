@@ -1,7 +1,7 @@
 ---
 title: スターターキット関連ページ
-description: 「はじめに」の関連ページへのリンク – スターターキットの節
-source-git-commit: 4445a494d0d84c8ececba27c976d06fe0f54fb70
+description: 「はじめに – スターターキット」セクションの関連ページへのリンク
+source-git-commit: dfb2e7146ddb881646a3d219282e36056f246824
 workflow-type: tm+mt
 source-wordcount: '33'
 ht-degree: 0%
@@ -10,10 +10,10 @@ ht-degree: 0%
 
 # スターターキット関連リンク
 
-## 関連するスターターキットリソース
+## 関連するスターターキット リソース
 
-* [統合](../back-office-integrations/integrations.md)
-* [Source コード組織](../back-office-integrations/source-code-organization.md)
-* [ラストマイル統合](../back-office-integrations/last-mile-integration.md)
-* [Webhook 取り込み](../back-office-integrations/webhook-ingestion.md)
-* [再試行メカニズム](../back-office-integrations/retry-mechanism.md)
+* [連携](/help/back-office-integrations/integrations.md)
+* [Source コードの整理](/help/back-office-integrations/source-code-organization.md)
+* [ラストマイル統合](/help/back-office-integrations/last-mile-integration.md)
+* [Webhook取り込み](/help/back-office-integrations/webhook-ingestion.md)
+* [再試行メカニズム](/help/back-office-integrations/retry-mechanism.md)

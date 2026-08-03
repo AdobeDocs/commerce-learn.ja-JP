@@ -1,18 +1,18 @@
 ---
 title: グローバルリファレンスアーキテクチャ関連ページ
-description: GRA の関連ページへのリンク
-source-git-commit: 2a7ad32a6cab1236b94e3ba988cbc06e1046daec
+description: GRAの関連ページへのリンク
+source-git-commit: dfb2e7146ddb881646a3d219282e36056f246824
 workflow-type: tm+mt
-source-wordcount: '42'
+source-wordcount: '43'
 ht-degree: 0%
 
 ---
 
-# GRA 関連リンク
+# GRA関連リンク
 
 ## 関連リソース
 
-* [グローバルリファレンスアーキテクチャとは](../global-reference-architecture/what-is-global-reference-architecture.md)
-* [グローバル参照アーキテクチャの活用方法](../global-reference-architecture/how-do-you-leverage-global-reference-architecture.md)
-* [グローバル参照アーキテクチャの設計方法](../global-reference-architecture/how-do-you-architect-global-reference-architecture.md)
-* [グローバル参照アーキテクチャの実装方法](../global-reference-architecture/how-do-you-architect-global-reference-architecture.md)
+* [グローバル参照アーキテクチャとは](../global-reference-architecture/what-is-global-reference-architecture.md)
+* [グローバル参照アーキテクチャの使用方法](../global-reference-architecture/how-do-you-leverage-global-reference-architecture.md)
+* [グローバル参照アーキテクチャの構築方法](../global-reference-architecture/how-do-you-architect-global-reference-architecture.md)
+* [グローバル参照アーキテクチャの実装方法](../global-reference-architecture/how-do-you-implement-global-reference-architecture.md)
