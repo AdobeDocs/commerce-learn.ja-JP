@@ -4,13 +4,13 @@ description: Adobe Developer Consoleを使用して、メッシュの追加、CL
 jira: KT-11803
 doc-type: Tutorial
 duration: 572
-last-substantial-update: 2023-02-08T00:00:00Z
+last-substantial-update: 2026-08-03T00:00:00Z
 feature: API Mesh, App Builder, Extensibility, Tools and External Services, Backend Development
 topic: App Builder, I/O Events, Developer Console, Commerce, Development, Integrations
 role: Developer
 level: Beginner
 exl-id: ab51f68c-5d28-495b-8472-27b60c4aa8c1
-source-git-commit: c73744d503de5023e5c001d0534200522db55b04
+source-git-commit: 8155d699c1dd34cba776ffb928ab2d835b5a4d4b
 workflow-type: tm+mt
 source-wordcount: '280'
 ht-degree: 0%
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 ## Adobe Adobe Developer Consoleについて詳しく見る
 
-Adobe Developer Consoleでは、APIが組織内でどのように整理されるかを次の階層で表します：`Organization > Project > Workspace > [API]`。 Adobe App Builderの詳細、コンソールへのログイン、基本的なトラブルシューティングについては、[最初のApp Builder アプリケーションの作成](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/first-app){target="_blank"}を参照してください。
+Adobe Developer Consoleでは、APIが組織内でどのように整理されるかを次の階層で示します：`Organization > Project > Workspace > [API]`。 Adobe App Builderの詳細、コンソールへのログイン、基本的なトラブルシューティングについては、[最初のApp Builder アプリケーションの作成](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/first-app){target="_blank"}を参照してください。
 
 ## Adobe Developer Consoleでのプロジェクトの概要
 
