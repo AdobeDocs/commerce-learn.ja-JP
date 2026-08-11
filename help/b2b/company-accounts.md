@@ -53,5 +53,5 @@ B2B マーチャントの場合、_[!UICONTROL Companies]_&#x200B;ページに�
 
 ## 関連資料
 
-* [会社アカウント](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/companies/account-companies){target="_blank"}
-* [会社アカウントの管理](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/companies/account-company-manage){target="_blank"}
+* [会社アカウント](https://experienceleague.adobe.com/ja/docs/commerce-admin/b2b/companies/account-companies){target="_blank"}
+* [会社アカウントの管理](https://experienceleague.adobe.com/ja/docs/commerce-admin/b2b/companies/account-company-manage){target="_blank"}

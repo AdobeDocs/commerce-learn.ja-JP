@@ -60,5 +60,5 @@ B2B顧客は、役割に必要な権限により、承認ルールを設定し�
 
 ## 関連資料
 
-* [企業の発注書](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/purchase-orders/purchase-order-flow){target="_blank"}
-* [発注書の承認ルール](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/purchase-orders/account-dashboard-approval-rules){target="_blank"}
+* [企業の発注書](https://experienceleague.adobe.com/ja/docs/commerce-admin/b2b/purchase-orders/purchase-order-flow){target="_blank"}
+* [発注書の承認ルール](https://experienceleague.adobe.com/ja/docs/commerce-admin/b2b/purchase-orders/account-dashboard-approval-rules){target="_blank"}
