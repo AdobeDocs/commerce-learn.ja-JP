@@ -45,7 +45,7 @@ Adobe Commerce Optimizerは、オーガニックトラフィックを促進し�
 * 既存のERP、CRM、OMSなどのシステムとシームレスに統合できます。リプラットフォームの必要はありません。
 * デジタル業務の拡大
 
->[!VIDEO](https://video.tv.adobe.com/v/3450226?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3450464?captions=jpn&learn=on)
 
 ## 関連資料
 

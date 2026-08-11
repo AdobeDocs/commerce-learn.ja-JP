@@ -42,7 +42,7 @@ Adobe Commerce Optimizer インスタンスにサンプルデータを取り込�
 * ポリシーの作成：
 * カタログビューの作成。
 
->[!VIDEO](https://video.tv.adobe.com/v/3470472?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3470475?captions=jpn&learn=on)
 
 ## 関連コンテンツ
 
