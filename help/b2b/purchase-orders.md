@@ -56,7 +56,7 @@ B2B顧客は、役割に必要な権限により、承認ルールを設定し�
 
 ## ビデオコンテンツ
 
->[!VIDEO](https://video.tv.adobe.com/v/344450?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410767?captions=jpn&learn=on)
 
 ## 関連資料
 

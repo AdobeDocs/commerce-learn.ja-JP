@@ -49,7 +49,7 @@ B2B マーチャントの場合、_[!UICONTROL Companies]_&#x200B;ページに�
 
 ## ビデオコンテンツ
 
->[!VIDEO](https://video.tv.adobe.com/v/344447?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410773?captions=jpn&learn=on)
 
 ## 関連資料
 
