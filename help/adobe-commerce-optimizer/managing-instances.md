@@ -46,7 +46,7 @@ Adobe Commerce Optimizer インスタンスを管理して、名前と説明を�
 
 ## 関連コンテンツ
 
-* [[!DNL Adobe Commerce Optimizer] ガイド](https://experienceleague.adobe.com/en/docs/commerce/optimizer/overview){target="_blank"}
-* [Adobe Commerce Optimizerの概要](https://experienceleague.adobe.com/en/docs/commerce-learn/adobe-commerce-optimizer/overview){target="_blank"}
-* [Adobe Commerce Optimizer入門](https://experienceleague.adobe.com/en/docs/commerce/optimizer/get-started){target="_blank"}
+* [[!DNL Adobe Commerce Optimizer] ガイド](https://experienceleague.adobe.com/ja/docs/commerce/optimizer/overview){target="_blank"}
+* [Adobe Commerce Optimizerの概要](https://experienceleague.adobe.com/ja/docs/commerce-learn/adobe-commerce-optimizer/overview){target="_blank"}
+* [Adobe Commerce Optimizer入門](https://experienceleague.adobe.com/ja/docs/commerce/optimizer/get-started){target="_blank"}
 

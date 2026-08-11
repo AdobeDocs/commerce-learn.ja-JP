@@ -49,5 +49,5 @@ Adobe Commerce Optimizerは、オーガニックトラフィックを促進し�
 
 ## 関連資料
 
-[[!DNL Adobe Commerce Optimizer] ガイド](https://experienceleague.adobe.com/en/docs/commerce/optimizer/overview){target="_blank"}
+[[!DNL Adobe Commerce Optimizer] ガイド](https://experienceleague.adobe.com/ja/docs/commerce/optimizer/overview){target="_blank"}
 
