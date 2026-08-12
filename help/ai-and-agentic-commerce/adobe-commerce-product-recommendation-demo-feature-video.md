@@ -3,15 +3,14 @@ title: Adobe Commerceの商品レコメンデーションデモ – 機能ビデ
 description: 価格帯や在庫切れの除外ルールなど、Adobe Senseiの商品レコメンデーションをAdobe Commerceの商品詳細ページに追加する方法について説明します。
 feature: Recommendations
 topic: Commerce
-role:
-  - Admin
-  - User
+role: AdminUser
 level: Beginner
 doc-type: Feature Video
 duration: 235
 last-substantial-update: 2026-08-11T00:00:00Z
+nudge-edit: 2026-08-12T00:00:00Z
 jira: KT-20981
-source-git-commit: 98ef78b8c4e9ad3fcb74b77dab0f4018d069dd5b
+source-git-commit: 8312ab50a3e31461d2ae676d9e5fb9c911741d74
 workflow-type: tm+mt
 source-wordcount: '144'
 ht-degree: 0%
@@ -35,4 +34,4 @@ Adobe Commerceを使用すると、Adobe Senseiベースの商品レコメンデ
 * 在庫切れおよび低在庫商品を除外し、設定可能な在庫閾値を設定する
 * レコメンデーションをアクティブ化し、PDPに表示されることを確認する
 
->[!VIDEO](https://video.tv.adobe.com/v/3484914?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3484913)
