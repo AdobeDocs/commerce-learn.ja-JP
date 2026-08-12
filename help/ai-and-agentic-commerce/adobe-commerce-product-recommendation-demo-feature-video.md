@@ -34,4 +34,4 @@ Adobe Commerceを使用すると、Adobe Senseiベースの商品レコメンデ
 * 在庫切れおよび低在庫商品を除外し、設定可能な在庫閾値を設定する
 * レコメンデーションをアクティブ化し、PDPに表示されることを確認する
 
->[!VIDEO](https://video.tv.adobe.com/v/3484913)
+>[!VIDEO](https://video.tv.adobe.com/v/3484914?captions=jpn)
