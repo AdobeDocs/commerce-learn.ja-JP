@@ -3,7 +3,9 @@ title: Adobe Commerceの商品レコメンデーションデモ – 機能ビデ
 description: 価格帯や在庫切れの除外ルールなど、Adobe Senseiの商品レコメンデーションをAdobe Commerceの商品詳細ページに追加する方法について説明します。
 feature: Recommendations
 topic: Commerce
-role: AdminUser
+role:
+  - Admin
+  - User
 level: Beginner
 doc-type: Feature Video
 duration: 235
