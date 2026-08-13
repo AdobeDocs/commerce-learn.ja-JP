@@ -10,7 +10,7 @@ duration: 327
 last-substantial-update: 2026-03-11T00:00:00Z
 jira: KT-20516
 exl-id: 874c8512-a57e-4e0b-882d-be700dcb501b
-source-git-commit: 282072f1e29b836d19dee2e1b6498f75150fe3a5
+source-git-commit: ac5024c37b1cee5aa090ea8163c3fd7758b811a5
 workflow-type: tm+mt
 source-wordcount: '182'
 ht-degree: 0%
@@ -34,8 +34,7 @@ AdobeのAIを活用したツールを活用して、開発ワークフローを�
 * MCP ツールは、エージェントがコードの計画と生成に使用するコマンドとデータを公開します。
 * AIを活用して、要件、アーキテクチャ、実装に関する意思決定を自動化。
 
->[!VIDEO](https://video.tv.adobe.com/v/3481345?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3481344?learn=on)
 
 {{$include /help/_includes/ai-shipping-rates-related-links.md}}
-
 
