@@ -4,9 +4,9 @@ user-guide-description: ビデオとチュートリアルを通じて、Adobe Co
 breadcrumb-title: ビデオとチュートリアル
 auto-video-transcripts: true
 author: Russell A.
-source-git-commit: ac5024c37b1cee5aa090ea8163c3fd7758b811a5
+source-git-commit: 6ce75fe023cfb9c3be988787e8993db556cf3150
 workflow-type: tm+mt
-source-wordcount: '975'
+source-wordcount: '999'
 ht-degree: 3%
 
 ---
@@ -104,6 +104,15 @@ ht-degree: 3%
     + [再試行メカニズム](../back-office-integrations/retry-mechanism.md)
 
 + 拡張機能 {#extensibility}
+  + Commerce Developer Agent {#commerce-developer-agent}
+    + [概要](../commerce-developer-agent/adobe-commerce-developer-agent-overview-technical-video.md)
+    + [ブループリントと開発ステージ](../commerce-developer-agent/adobe-commerce-developer-agent-blueprint-and-develop-stages-technical-video.md)
+    + [連携の統合](../commerce-developer-agent/adobe-commerce-developer-agent-connect-integrations-technical-video.md)
+    + [デプロイ、関連付け、インストール](../commerce-developer-agent/adobe-commerce-developer-agent-deploy-associate-and-install-technical-video.md)
+    + [設定とテスト](../commerce-developer-agent/adobe-commerce-developer-agent-configure-and-test-technical-video.md)
+    + [既存のコードの移行](../commerce-developer-agent/adobe-commerce-developer-agent-migrate-existing-code-technical-video.md)
+    + [まとめ](../commerce-developer-agent/adobe-commerce-developer-agent-conclusion-technical-video.md)
+    + [App Builderドライラン](../commerce-developer-agent/adobe-commerce-developer-agent-app-builder-dry-run.md)
   + バックエンド開発 {#backend-development}
     + [データベーステーブルの修正に関するベストプラクティス](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables.html?lang=ja)
     + [モジュールの作成](../backend-development/create-module.md)
