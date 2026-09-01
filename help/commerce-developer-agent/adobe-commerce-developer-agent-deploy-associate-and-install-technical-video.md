@@ -34,7 +34,7 @@ ht-degree: 0%
 * アプリカードの確認：名前、バージョン、追加機能（webhook）
 * アプリをインストールして機能を有効にし、正常にインストールされたことを確認する
 
->[!VIDEO](https://video.tv.adobe.com/v/3502481)
+>[!VIDEO](https://video.tv.adobe.com/v/3502512?captions=jpn)
 
 {{$include /help/_includes/commerce-developer-agent-related-links.md}}
 

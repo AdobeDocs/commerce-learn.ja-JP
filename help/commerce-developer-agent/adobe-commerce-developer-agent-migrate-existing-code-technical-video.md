@@ -35,7 +35,7 @@ ht-degree: 0%
 * 最もリスクの高いレガシーロジックを置き換える同期webhookの設計図とアーキテクチャ図の生成
 * 各ハンドラーと一緒に書かれた一致するテストファイルを使用して実装を構築する
 
->[!VIDEO](https://video.tv.adobe.com/v/3502483)
+>[!VIDEO](https://video.tv.adobe.com/v/3502530?captions=jpn)
 
 {{$include /help/_includes/commerce-developer-agent-related-links.md}}
 

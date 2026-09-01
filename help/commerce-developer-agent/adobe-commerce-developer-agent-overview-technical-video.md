@@ -34,7 +34,7 @@ Adobe Commerce Developer Agentは、英語の平易なリクエストを、手�
 * ストア部門がローンチ後に調整できるビジネス設定として、制限とメッセージを公開する
 * ブループリント、開発、接続、デプロイ、設定、テストのチュートリアルのプレビュー
 
->[!VIDEO](https://video.tv.adobe.com/v/3502440)
+>[!VIDEO](https://video.tv.adobe.com/v/3502450?captions=jpn)
 
 {{$include /help/_includes/commerce-developer-agent-related-links.md}}
 
