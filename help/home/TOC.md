@@ -114,7 +114,7 @@ ht-degree: 3%
     + [まとめ](../commerce-developer-agent/adobe-commerce-developer-agent-conclusion-technical-video.md)
     + [App Builderドライラン](../commerce-developer-agent/adobe-commerce-developer-agent-app-builder-dry-run.md)
   + バックエンド開発 {#backend-development}
-    + [データベーステーブルの修正に関するベストプラクティス](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables.html)
+    + [データベーステーブルの修正に関するベストプラクティス](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables.html?lang=ja)
     + [モジュールの作成](../backend-development/create-module.md)
     + [製品属性の追加](../backend-development/add-product-attribute.md)
     + [依存関係インジェクションの例](../backend-development/dependency-injection.md)
