@@ -47,4 +47,4 @@ Adobe Commerce Patching Automationは、Adobe Commerce Site Wide Analysis Tool �
 
 ## 関連ドキュメント
 
-* [パッチの自動適用に関するドキュメント](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/caps-tool/intro)
+* [パッチの自動適用に関するドキュメント](https://experienceleague.adobe.com/ja/docs/commerce-operations/tools/caps-tool/intro)
