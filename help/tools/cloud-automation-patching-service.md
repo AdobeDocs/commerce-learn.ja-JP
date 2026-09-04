@@ -43,7 +43,7 @@ Adobe Commerce Patching Automationは、Adobe Commerce Site Wide Analysis Tool �
 
 ## ビデオコンテンツ
 
->[!VIDEO](https://video.tv.adobe.com/v/3476247?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3476248?captions=jpn&learn=on)
 
 ## 関連ドキュメント
 
