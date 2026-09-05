@@ -1,13 +1,13 @@
 ---
-title: Cloud Automation Patching Service
-description: SWATを介してCAPSを使用し、Adobe Commerceのパッチを合理化する – 安全で手間のかからないサイトメンテナンスのための自動更新
+title: パッチの自動適用
+description: SWAT ダッシュボードでAdobe Commerce Patching Automationを使用してプロジェクトと環境を選択し、パッチを検出、適用、元に戻す方法を説明します。
 feature: Configuration, System, Security, Tools and External Services
 topic: Commerce, Administration
 role: Developer
 level: Beginner
 doc-type: Tutorial
-duration: 192
-last-substantial-update: 2025-10-24T00:00:00.000Z
+duration: 216
+last-substantial-update: 2025-10-24
 jira: KT-19485
 exl-id: 2acb0226-516a-4b33-835a-4eeeab2fcfc5
 TQID: https://experienceleague.adobe.com/ZGVmvNQFySX-mmXehuwNiW9PSKhQtgMeeioKG2Rz--M
@@ -24,22 +24,22 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b599f79ad41b9552cea6ff41062eb4ef75f183bb
+source-git-commit: 1081236a1fc40ae079dd2e489290a33c7b3be18d
 workflow-type: tm+mt
-source-wordcount: 102
+source-wordcount: 106
 ht-degree: 0%
 
 ---
 
-# Cloud Automation Patching Service
+# Adobe Commerceのパッチ適用の自動化
 
-Adobe Cloud Automation Patching Service （CAPS）:Adobe Commerce Site Wide Analysis Tool （SWAT）の機能で、セキュリティパッチの検出と適用プロセスを合理化します。 ユーザーは、SWAT ダッシュボードのCommerce管理者からCAPSにアクセスし、プロジェクトと環境を選択して、使用可能なパッチを表示します。
+Adobe Commerce Patching Automationは、Adobe Commerce Site Wide Analysis Tool （SWAT）内の機能で、セキュリティパッチの検出と適用プロセスを合理化します。 ユーザーは、SWAT ダッシュボードのCommerce管理者からパッチの自動処理にアクセスし、プロジェクトと環境を選択して、使用可能なパッチを表示できます。
 
 ## この動画は誰のためのものでしょうか？
 
 * web サイトマネージャー
 * 開発者
-* DevOpsおよびシステム管理者
+* DevOpsとシステム管理
 
 ## ビデオコンテンツ
 
@@ -47,4 +47,4 @@ Adobe Cloud Automation Patching Service （CAPS）:Adobe Commerce Site Wide Anal
 
 ## 関連ドキュメント
 
-* [Cloud Automation Patching Service ドキュメント](https://experienceleague.adobe.com/ja/docs/commerce-operations/tools/caps-tool/intro)
+* [パッチの自動適用に関するドキュメント](https://experienceleague.adobe.com/ja/docs/commerce-operations/tools/caps-tool/intro)
