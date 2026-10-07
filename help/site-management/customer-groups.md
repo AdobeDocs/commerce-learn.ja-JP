@@ -56,4 +56,4 @@ Adobe Commerceの顧客グループでは、ターゲットを絞ったプロモ
 
 ## 関連資料
 
-* [顧客グループ - [!DNL Commerce] 顧客管理ガイド](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-groups)
+* [顧客グループ - [!DNL Commerce] 顧客管理ガイド](https://experienceleague.adobe.com/ja/docs/commerce-admin/customers/customer-groups)
