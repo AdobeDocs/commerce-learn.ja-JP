@@ -4,13 +4,11 @@ user-guide-description: ビデオとチュートリアルを通じて、Adobe Co
 breadcrumb-title: ビデオとチュートリアル
 auto-video-transcripts: true
 author: Russell A.
-source-git-commit: 6ce75fe023cfb9c3be988787e8993db556cf3150
+source-git-commit: 43c67e910e10d5db0f8c14ea24ba97ba89bd35d2
 workflow-type: tm+mt
-source-wordcount: '999'
+source-wordcount: '1006'
 ht-degree: 3%
-
 ---
-
 
 # Adobe Commerceのビデオとチュートリアル {#tutorials}
 
@@ -238,6 +236,7 @@ ht-degree: 3%
   + [発送および配送方法](../site-management/shipping-delivery.md)
   + [管理者グリッドとフィルター](../site-management/admin-grids-and-filters.md)
   + [Commerce cli](../site-management/view-update-store-configuration-cli.md)
+  + [ストア設定とシステムメニューに移動します](../site-management/store-configuration-and-system-menu.md)
   + Adobe Commerce Services {#adobe-commerce-services}
     + [Commerce Services Connectorの設定](../site-management/configure-adobe-commerce-services-connector.md)
     + [決済サービスを設定](../site-management/configure-adobe-payment-services.md)
