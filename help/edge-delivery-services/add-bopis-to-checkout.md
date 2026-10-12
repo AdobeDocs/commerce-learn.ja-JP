@@ -63,7 +63,7 @@ Edge Delivery ServicesのAdobe Commerce カートを使用して、オンライ�
 * 配送と実店舗での受け取りを切り替える
 * 受け取り場所の取得
 
->[!VIDEO](https://video.tv.adobe.com/v/3441699?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3441701?captions=jpn&learn=on)
 
 ## その他のドキュメント
 

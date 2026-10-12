@@ -60,4 +60,4 @@ Adobe IDまたはFederated IDを使用してAdobe Commerce管理ポータルに�
 * 役割の作成と管理について
 * ユーザーの割り当てとアクセスレベルについて。 &#x200B;
 
->[!VIDEO](https://video.tv.adobe.com/v/3433512?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3433514?captions=jpn&learn=on)

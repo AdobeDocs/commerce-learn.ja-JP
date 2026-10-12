@@ -50,7 +50,7 @@ Adobe Commerce on cloud プロジェクトに接続する方法、オフサイ�
 * MySQL WorkbenchやTablePlusなどのデータベース管理ツールを使用して、リモートのAdobe Commerce Cloud プロジェクトに接続します。
 * プロジェクトに接続し、コマンドラインからSQLを実行します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3430507?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3450037?captions=jpn&learn=on)
 
 クラウドプロジェクトからAdobe Commerce データにアクセスするには、次のいずれかの方法を使用します。
 

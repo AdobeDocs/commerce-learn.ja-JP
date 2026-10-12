@@ -71,7 +71,7 @@ Adobe Commerceは、医療業界の企業がHIPAA規制を遵守するために�
 * このソリューションには、PHI向けの強化されたログ記録メカニズムが含まれており、内部Adobe製品と外部サードパーティサービスの両方との統合機能を提供します。
 * Adobe Commerceでは、サポートとトラブルシューティングのための特別なステージング環境を提供しており、機密データを保護し、本番環境と密接に連携できます。
 
->[!VIDEO](https://video.tv.adobe.com/v/3463177?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3463178?captions=jpn&learn=on)
 
 ## その他のドキュメント
 

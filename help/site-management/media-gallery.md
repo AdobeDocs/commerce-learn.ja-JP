@@ -53,7 +53,7 @@ Adobe CommerceまたはMagento Open Source 2.4では、新しい拡張メディ�
 
 ## ビデオコンテンツ
 
->[!VIDEO](https://video.tv.adobe.com/v/343785?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3411046?captions=jpn&learn=on)
 
 ## 関連資料
 

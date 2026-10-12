@@ -63,7 +63,7 @@ Fastly Edge ACLとカスタム VCLでAdobe Commerceサイトアクセスを制�
 * Adobe Commerce Developer
 * サイト信頼性エンジニア
 
->[!VIDEO](https://video.tv.adobe.com/v/3464779?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3464780?captions=jpn&learn=on)
 
 ## コードサンプル
 

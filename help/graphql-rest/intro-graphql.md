@@ -41,7 +41,7 @@ ht-degree: 6%
 
 GraphQLを初めて使用する場合は、この節では基本的な概念と使用方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3424117?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443941?captions=jpn&learn=on)
 
 ## このシリーズのGraphQLに関する関連動画とチュートリアル
 

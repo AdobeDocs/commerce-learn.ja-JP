@@ -54,7 +54,7 @@ MySQL クエリキャッシュの概要と、その仕組みに関する基本�
 * SQLの保存方法と、一致するクエリキャッシュの検索での使用方法を確認します
 * 設定設定に関するいくつかのヒント
 
->[!VIDEO](https://video.tv.adobe.com/v/3422015?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3423386?captions=jpn&learn=on)
 
 ## 役立つリソース
 

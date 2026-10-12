@@ -52,4 +52,4 @@ Adobe Commerce Ultimate Successは、先見的なビジネスおよび技術的�
 * 多層的なロードマップとサクセスアクセレーター：包括的なプランニングとインパクトのあるエンゲージメントを提供し、製品の利用性を向上させます。
 * 優先順位付けされた問題解決とエスカレーション管理：重要な問題に対する迅速な応答時間とエキスパート分析を提供します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3457644?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3457646?captions=jpn&learn=on)

@@ -65,6 +65,6 @@ GRAを活用する方法について説明します。 GRAの導入を成功さ�
 * 要件収集
 * 必要な場面について説明します
 
->[!VIDEO](https://video.tv.adobe.com/v/3424604?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3456001?captions=jpn&learn=on)
 
 {{$include /help/_includes/gra-related-links.md}}

@@ -56,4 +56,4 @@ PHP、JavaScript、カスタマイズに関する基本的なコーディング�
 * スムーズな移行を実現するためのPHP、JavaScript、カスタマイズのベストプラクティスについて説明します。
 * Adobe Adobeの専門家から、Adobe Commerceプロジェクトを成功させるための準備、パフォーマンス、セキュリティに関するインサイトを得ましょう。
 
->[!VIDEO](https://video.tv.adobe.com/v/3434857?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3434858?captions=jpn&learn=on)

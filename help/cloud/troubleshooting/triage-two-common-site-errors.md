@@ -53,7 +53,7 @@ Adobe Commerce Cloud プロジェクトで発生する2つの一般的なエラ�
 * メンテナンスモードの管理
 * 効率的なトラブルシューティングのヒント
 
->[!VIDEO](https://video.tv.adobe.com/v/3435766?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3447694?captions=jpn&learn=on)
 
 
 ## ビデオで使用されるコマンド

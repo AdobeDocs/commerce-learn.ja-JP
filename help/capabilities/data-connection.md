@@ -68,4 +68,4 @@ Adobe Commerce Data Connectionの使用方法と基本的な設定について�
 * Real-Time CDPのオーディエンス ブラウザーデータ、サーバーサイドのデータ（注文履歴を含む）、その他のソースからのデータ（ロイヤルティデータ）にもとづいて、リアルタイムでセグメントを更新および変更する。
 * Real-Time CDPのオーディエンスを活用して、Adobe Commerceのカート価格ルールとダイナミックブロックの両方をパーソナライズ。
 
->[!VIDEO](https://video.tv.adobe.com/v/3425591?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3453819?captions=jpn&learn=on)

@@ -71,4 +71,4 @@ Adobe Experience Cloud製品とのシームレスな統合により、リアル�
 * 顧客エンゲージメントとロイヤルティの向上
 * シームレスな統合と統合顧客プロファイル
 
->[!VIDEO](https://video.tv.adobe.com/v/3433568?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3433570?captions=jpn&learn=on)

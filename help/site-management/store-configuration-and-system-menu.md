@@ -56,7 +56,7 @@ ht-degree: 0%
 * デフォルトのビューと保存されたビューを切り替え、既存のビューを更新します。
 * ストア設定に移動し、一般、カタログ、セキュリティ、顧客、セールスの設定を確認します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3473115?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3473172?captions=jpn&learn=on)
 
 ## 保存したグリッド ビュー
 

@@ -81,7 +81,7 @@ Adobe Commerceなら、コマースの管理者や開発者のために設計さ
 * 高度な統合とカスタマイズ：
 * ショッピング体験の向上：
 
->[!VIDEO](https://video.tv.adobe.com/v/3434039?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3434065?captions=jpn&learn=on)
 
 ## ライブサーチ
 
@@ -93,7 +93,7 @@ Adobe AIを活用したAdobe Commerceライブサーチの高度な検索機能�
 * カスタマイズ可能な検索エクスペリエンス：高度な検索ルール、類義語、ファセットなどの機能により、顧客に合わせて最適化された検索エクスペリエンスを提供できます。
 * B2B統合：ライブサーチは、カタログと価格設定を共有してB2B モデルをサポートし、様々なビジネスニーズに対応する汎用性を高めます。
 
->[!VIDEO](https://video.tv.adobe.com/v/3434040?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3434043?captions=jpn&learn=on)
 
 ## プロモーション  
 
@@ -105,5 +105,5 @@ Adobe Commerceなら、コーディングのスキルがなくても、ストア
 * 高度なプロモーション戦略：
 * サードパーティシステムとのシームレスな統合、柔軟性と自動化の強化。
 
->[!VIDEO](https://video.tv.adobe.com/v/3434041?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3434054?captions=jpn&learn=on)
 >
