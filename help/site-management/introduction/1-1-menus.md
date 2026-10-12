@@ -54,10 +54,10 @@ ht-degree: 26%
 
 >[!NOTE]
 >
->ビデオの内容は、2.3.1 リリースを反映しています。 以降のリリースのアップデートについて詳しくは、[&#x200B; リリースノート &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/overview.html)を参照してください。
+>ビデオの内容は、2.3.1 リリースを反映しています。 以降のリリースのアップデートについて詳しくは、[&#x200B; リリースノート &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/overview.html?lang=ja)を参照してください。
 
 >[!VIDEO](https://video.tv.adobe.com/v/35942?learn=on)
 
 ## 関連資料
 
-[[!DNL Commerce]件のマーチャント ドキュメント](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)
+[[!DNL Commerce]件のマーチャント ドキュメント](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=ja)

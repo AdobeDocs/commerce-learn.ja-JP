@@ -58,5 +58,5 @@ MySQL クエリキャッシュの概要と、その仕組みに関する基本�
 
 ## 役立つリソース
 
-* [一般的なMySQL ガイドライン](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/database-server/mysql){target="_blank"}
-* [Galera レプリケーションと低速クエリ](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/extensibility/backend-development/galera-db-slow-replication){target="_blank"}
+* [一般的なMySQL ガイドライン](https://experienceleague.adobe.com/ja/docs/commerce-operations/installation-guide/prerequisites/database-server/mysql){target="_blank"}
+* [Galera レプリケーションと低速クエリ](https://experienceleague.adobe.com/ja/docs/commerce-learn/tutorials/extensibility/backend-development/galera-db-slow-replication){target="_blank"}

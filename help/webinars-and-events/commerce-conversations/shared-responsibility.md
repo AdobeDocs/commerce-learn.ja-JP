@@ -61,7 +61,7 @@ Adobe Commerceを安全に保つ上で、Adobeと販売者が責任を分担す�
 
 ## その他のドキュメント
 
-* [セキュリティパッチリリースノート](https://experienceleague.adobe.com/en/docs/commerce-operations/release/notes/security-patches/overview)
-* [通知チャネル](https://business.adobe.com/blog/introducing-enhanced-security-patch-deployment-and-communications-in-adobe-commerce#proactive-communication--keeping-customers-informed)
-* [Adobe セキュリティ情報](https://helpx.adobe.com/search.html?q=security%2520updates%2520commerce&context=https%253A%252F%252Fhelpx.adobe.com%252Fsupport.html)
-* [コマースサイトとインフラストラクチャの保護](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices)
+* [セキュリティパッチリリースノート](https://experienceleague.adobe.com/ja/docs/commerce-operations/release/notes/security-patches/overview)
+* [通知チャネル](https://business.adobe.com/jp/blog/introducing-enhanced-security-patch-deployment-and-communications-in-adobe-commerce#proactive-communication--keeping-customers-informed)
+* [Adobe セキュリティ情報](https://helpx.adobe.com/jp/search.html?q=security%2520updates%2520commerce&context=https%253A%252F%252Fhelpx.adobe.com%252Fsupport.html)
+* [コマースサイトとインフラストラクチャの保護](https://experienceleague.adobe.com/ja/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices)

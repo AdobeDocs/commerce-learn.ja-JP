@@ -87,8 +87,8 @@ AR Viewerは、実店舗とデジタル店舗の差を[!DNL bridge]に引き上�
 
 ## 役立つリソース
 
-Adobe Commerce用[AR ビューア](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/digital-assets/product-3d-model/ar-viewer-overview.html){target="_blank"}
-[Adobe CommerceのAR ビューアで商品3D モデルを管理](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/digital-assets/product-3d-model/ar-viewer-setup.html){target="_blank"}
+Adobe Commerce用[AR ビューア](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/digital-assets/product-3d-model/ar-viewer-overview.html?lang=ja){target="_blank"}
+[Adobe CommerceのAR ビューアで商品3D モデルを管理](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/digital-assets/product-3d-model/ar-viewer-setup.html?lang=ja){target="_blank"}
 
 ## Adobe Commerce Marketplace拡張機能
 

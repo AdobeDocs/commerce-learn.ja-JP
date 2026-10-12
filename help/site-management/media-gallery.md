@@ -57,5 +57,5 @@ Adobe CommerceまたはMagento Open Source 2.4では、新しい拡張メディ�
 
 ## 関連資料
 
-* [メディア ギャラリー –  [!DNL Commerce]  コンテンツとデザイン ガイド](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/wysiwyg/gallery/media-gallery)
-* [代替メディアストレージ - [!DNL Commerce]  コンテンツおよびデザインガイド](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/wysiwyg/storage/media-storage)
+* [メディア ギャラリー –  [!DNL Commerce]  コンテンツとデザイン ガイド](https://experienceleague.adobe.com/ja/docs/commerce-admin/content-design/wysiwyg/gallery/media-gallery)
+* [代替メディアストレージ - [!DNL Commerce]  コンテンツおよびデザインガイド](https://experienceleague.adobe.com/ja/docs/commerce-admin/content-design/wysiwyg/storage/media-storage)

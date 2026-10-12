@@ -76,6 +76,6 @@ ht-degree: 30%
 
 ## 関連資料
 
-* [アップグレードガイド](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/overview.html)
-* [リリース済みバージョン](https://experienceleague.adobe.com/docs/commerce-operations/release/versions.html)
-* [リリーススケジュール](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html)
+* [アップグレードガイド](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/overview.html?lang=ja)
+* [リリース済みバージョン](https://experienceleague.adobe.com/docs/commerce-operations/release/versions.html?lang=ja)
+* [リリーススケジュール](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html?lang=ja)

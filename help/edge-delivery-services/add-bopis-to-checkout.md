@@ -67,4 +67,4 @@ Edge Delivery ServicesのAdobe Commerce カートを使用して、オンライ�
 
 ## その他のドキュメント
 
-* [オンラインで購入、店舗で受け取り](https://experienceleague.adobe.com/developer/commerce/storefront/dropins/checkout/tutorials/buy-online-pickup-in-store/)
+* [オンラインで購入、店舗で受け取り](https://experienceleague.adobe.com/developer/commerce/storefront/dropins/checkout/tutorials/buy-online-pickup-in-store/?lang=ja)
