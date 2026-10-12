@@ -11,27 +11,42 @@ role: Admin, Developer, User
 level: Beginner, Intermediate
 badge: COMMERCE MARKETPLACEで利用可能なAR Viewer
 exl-id: c57d44b3-2a9c-4623-b45a-678203d9a894
-TQID: https://experienceleague.adobe.com/K5mqLVuOB8-Pm3-EpKOKOzGGTgPGmbMIyKThQKlo3n8
+TQID: 'https://experienceleague.adobe.com/K5mqLVuOB8-Pm3-EpKOKOzGGTgPGmbMIyKThQKlo3n8'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 17d326fa-534a-55a5-b46f-8ae1de1e2f75
+    internal-label: Page Content
+  - id: 8b440f30-6794-5ed6-981f-391de4e9b0cc
+    internal-label: Themes
+  - id: cc250cf1-34eb-4863-80d0-d170d45ea067
+    internal-label: Developer tools
+subfeature_v2:
+  - id: aa64eb87-f03e-49eb-a367-66fa1adc2192
+    internal-label: Native Luma Frontend Development
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: b599f79ad41b9552cea6ff41062eb4ef75f183bb
+    internal-label: Customer experience
+source-git-commit: 71835f0240311d4b26ec8e0d9bbdf005f9887579
 workflow-type: tm+mt
-source-wordcount: 525
+source-wordcount: '524'
 ht-degree: 0%
-
 ---
-
 # Adobe Commerce向け拡張現実ビューア
 
 デジタルショッピングの環境が進化し続ける中、購入プロセスに拡張現実（AR）を組み込むことの重要性が高まっています。 ARによって、対面でのショッピング体験に似た方法で商品を操作することができ、それにより顧客満足度とコンバージョン率が向上します。
@@ -53,28 +68,28 @@ AR Viewerは、実店舗とデジタル店舗の差を[!DNL bridge]に引き上�
 
 ## 製品への3D モデルの追加
 
-Adding a new 3D model to the product is a simple process after the module is installed on the Adobe Commerce installation.
-In the following video, there is a new section that supports the upload of the `.USDZ` file upload.
+新しい3D モデルを製品に追加するには、Adobe Commerce インストールでモジュールをインストールしてから簡単に行います。
+次のビデオでは、`.USDZ` ファイルのアップロードをサポートする新しいセクションがあります。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3422370?learn=on)
 
-## View the QR code from the Luma storefront
+## Luma ストアフロントのQR コードを表示する
 
-Using the native Luma frontend, the video below shows how it would be displayed to a customer.
+ネイティブ Luma フロントエンドを使用して、以下のビデオは顧客に対してどのように表示されるかを示しています。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3422371?learn=on)
 
-## Watch the AR item on a mobile device
+## モバイルデバイスでAR商品を視聴する
 
-Once the visitor scans the QR code with their device, the item is superimposed on the camera view so they can see it item.
+訪問者がデバイスでQR コードをスキャンすると、カメラ画面に商品が重ねて表示され、商品を見ることができます。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3422372?learn=on)
 
 ## 役立つリソース
 
-[AR Viewer for Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/digital-assets/product-3d-model/ar-viewer-overview.html?lang=ja){target="_blank"}
-[Manage product 3D models with the AR Viewer for Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/digital-assets/product-3d-model/ar-viewer-setup.html?lang=ja){target="_blank"}
+Adobe Commerce用[AR ビューア](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/digital-assets/product-3d-model/ar-viewer-overview.html?lang=ja){target="_blank"}
+[Adobe CommerceのAR ビューアで商品3D モデルを管理](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/digital-assets/product-3d-model/ar-viewer-setup.html?lang=ja){target="_blank"}
 
-## Adobe Commerce Marketplace extension
+## Adobe Commerce Marketplace拡張機能
 
-[AR viewer](https://commercemarketplace.adobe.com/magento-module-arviewer.html){target="_blank"}
+[AR ビューアー](https://commercemarketplace.adobe.com/magento-module-arviewer.html){target="_blank"}

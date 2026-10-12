@@ -10,26 +10,38 @@ duration: 390
 last-substantial-update: 2024-09-12T00:00:00.000Z
 jira: KT-16199
 exl-id: c041bd9a-9955-4053-a147-570ae1d88692
-TQID: https://experienceleague.adobe.com/M2GVjaK07ANWXhNB5laKmS0N-FdVtpnPj751G1AywnM
+TQID: 'https://experienceleague.adobe.com/M2GVjaK07ANWXhNB5laKmS0N-FdVtpnPj751G1AywnM'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 938d2364-5176-55ec-80f1-9415253e5e51
+    internal-label: Site Management
+  - id: e7dae43f-215c-4cdf-90d3-c5a461a6e669
+    internal-label: Admin tools and workspace
+subfeature_v2:
+  - id: bb2df8be-afdd-4818-b6b5-95ca1dd3bc3a
+    internal-label: Admin workspace
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b599f79ad41b9552cea6ff41062eb4ef75f183bb
+    internal-label: Administration
+source-git-commit: 71835f0240311d4b26ec8e0d9bbdf005f9887579
 workflow-type: tm+mt
-source-wordcount: 167
+source-wordcount: '167'
 ht-degree: 0%
-
 ---
-
 # Adobe Commerceの複数のWeb サイト管理
 
 Adobe Commerceなら、技術的なスキルを必要とせずに、単一のバックエンドインターフェイスを使用して、複数のストア、ブランド、web サイトを管理できます。 これにより、独自のドメイン、製品、価格設定、顧客基盤を持つ複数のweb サイトを構築できます。 web サイトでは、複数のストアを作成し、それぞれに独自のカタログと価格を設定できます。ストア内では、異なる言語やバージョンに対して複数のストアビューを設定できます。 この柔軟性により、商品オファーと価格戦略を効率的に管理できるため、e コマース業務を拡大し、拡大したい企業に最適です。

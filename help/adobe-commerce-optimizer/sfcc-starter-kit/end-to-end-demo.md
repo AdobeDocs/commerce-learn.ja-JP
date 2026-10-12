@@ -7,16 +7,31 @@ role: Developer
 level: Beginner
 doc-type: Technical Video
 duration: 430
-last-substantial-update: 2025-10-21T00:00:00Z
+last-substantial-update: 2025-10-21T00:00:00.000Z
 jira: KT-19017
 exl-id: 0b7d6adb-e535-4dc1-82cc-cb3a5be9a124
-source-git-commit: 456f3cae8c45d137a195456692c2d11204126bb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: d3b92bef-63fa-5031-a925-d04d9362d616
+    internal-label: Saas
+  - id: cc250cf1-34eb-4863-80d0-d170d45ea067
+    internal-label: Developer tools
+subfeature_v2:
+  - id: a743e5dc-8f37-4b5d-a848-03c32ca30598
+    internal-label: App Builder
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+source-git-commit: 71835f0240311d4b26ec8e0d9bbdf005f9887579
 workflow-type: tm+mt
 source-wordcount: '224'
 ht-degree: 0%
-
 ---
-
 # Salesforce Commerce Cloud starter kitのエンドツーエンドのデモ
 
 Salesforce CommerceとCommerce Optimizerの間で、スターターキットを使用して完全かつ差分の同期を正常に設定し、実行するエンドツーエンドのデモをご覧ください。 ランタイムログとイベントトレースを通じて同期の成功を確認し、ライブストアフロントで結果を検証する方法を説明します。 差分同期機能の仕組みをご紹介します。 また、Salesforce Commerce Cloudカタログの商品情報や価格の変更などのステップも説明します。Commerce Optimizerはこれらの変更を自動的に検出して更新し、ストアフロントに即座に反映します。
