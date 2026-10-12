@@ -50,7 +50,7 @@ ht-degree: 0%
 
 Monorepo GRA パターンには、すべての一般的なカスタマイズをホストする単一のGit リポジトリが含まれます。 この単一のGit リポジトリは、Composerを通じて個別のコンポーザーパッケージとして公開されます。
 
-![ モノレポ GRA パターン内のコードの保存場所を示す図](/help/assets/global-reference-architecture/monorepo-gra-pattern-diagram.png){align="center"}
+![&#x200B; モノレポ GRA パターン内のコードの保存場所を示す図](/help/assets/global-reference-architecture/monorepo-gra-pattern-diagram.png){align="center"}
 
 ## このパターンの利点と欠点
 
@@ -319,27 +319,27 @@ bin/magento test:local
 
 [Private Packagist](https://packagist.com/)は、Git monorepo内のパッケージの認識を自動化し、Composerを通じて公開します。 Adobe Commerceと互換性があり、高速でメンテナンスが少なく、エラーが発生しにくいため、このガイドではPrivate Packagist オプションに焦点を当てています。
 
-プライベート Packagistの設定方法については、このガイドの範囲を超えています。[ ドキュメント ](https://packagist.com/docs)を参照してください。
+プライベート Packagistの設定方法については、このガイドの範囲を超えています。[&#x200B; ドキュメント &#x200B;](https://packagist.com/docs)を参照してください。
 
 組織の同期を設定し、Git リポジトリがPrivate Packagistに自動的に同期されたら、パッケージをモノレポに変換する可能性があります。
 
 まず、「パッケージ」タブに移動して、monorepoを見つけます。
 
-![ パッケージ画面にmonorepo パッケージが表示されているプライベート Packagistのスクリーンショット ](/help/assets/global-reference-architecture/packagist-packages-before-multi-package.png){align="center"}
+![&#x200B; パッケージ画面にmonorepo パッケージが表示されているプライベート Packagistのスクリーンショット &#x200B;](/help/assets/global-reference-architecture/packagist-packages-before-multi-package.png){align="center"}
 
 monorepo パッケージをクリックし、詳細画面の「編集」をクリックすると、次のページに移動します。
 
-monorepo パッケージ編集ページを含む![Private Packagistのスクリーンショット ](/help/assets/global-reference-architecture/packagist-packages-edit.png)
+monorepo パッケージ編集ページを含む![Private Packagistのスクリーンショット &#x200B;](/help/assets/global-reference-architecture/packagist-packages-edit.png)
 
 最初の入力フィールドの下には、「マルチパッケージリポジトリを作成する」というリンクがあります。 このリンクをクリックします。
 
-マルチパッケージ設定を使用した![Private Packagistのスクリーンショット ](/help/assets/global-reference-architecture/packagist-packages-multi-package.png)
+マルチパッケージ設定を使用した![Private Packagistのスクリーンショット &#x200B;](/help/assets/global-reference-architecture/packagist-packages-multi-package.png)
 
 Monorepo内でコンポーザーパッケージを見つけることができる場所を定義します。 この例では、場所は`packages/**/composer.json`です。 Private Packagistが抽出するパッケージを検索する場所を制限または拡大するには、場所を変更します。
 
 「パッケージ」タブには、保存後に見つかったすべてのパッケージが表示され、monorepo自体はComposer パッケージとして表示されなくなります。
 
-![ パッケージ画面に表示されているすべてのmonorepo パッケージを含むプライベート Packagistのスクリーンショット ](/help/assets/global-reference-architecture/packagist-packages-after-multi-package.png)
+![&#x200B; パッケージ画面に表示されているすべてのmonorepo パッケージを含むプライベート Packagistのスクリーンショット &#x200B;](/help/assets/global-reference-architecture/packagist-packages-after-multi-package.png)
 
 Gitのmonorepoで作成されるタグまたはブランチごとに、monorepo内のパッケージごとにComposerでバージョンが作成されます。
 

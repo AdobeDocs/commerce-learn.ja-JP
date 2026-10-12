@@ -210,10 +210,10 @@ curl --location --request PUT '{{your.url.here}}/rest/default/V1/products/my-new
 
 ## グループ化された製品から単純な製品を削除する
 
-グループ化された製品から単純な製品](https://developer.adobe.com/commerce/webapi/rest/tutorials/grouped-product/)を[削除するには、次を使用します：`DELETE /V1/products/{sku}/links/{type}/{linkedProductSku}`。
+グループ化された製品から単純な製品[&#128279;](https://developer.adobe.com/commerce/webapi/rest/tutorials/grouped-product/)を削除するには、次を使用します：`DELETE /V1/products/{sku}/links/{type}/{linkedProductSku}`。
 
 `{type}`として使用する内容を見つけるには、xdebugを使用してリクエストを取得し、$linkTypes: `related`、`crosssell`、`uupsell`、および`associated`を評価します。
-![ グループ化された製品リンクの種類 – alt テキスト ](/help/assets/site-management/catalog/grouped-types.png " グループ化された製品リンクの種類がxdebug セッション中にキャプチャされました")
+![&#x200B; グループ化された製品リンクの種類 – alt テキスト &#x200B;](/help/assets/site-management/catalog/grouped-types.png " グループ化された製品リンクの種類がxdebug セッション中にキャプチャされました")
 
 シンプルな製品をグループ化された製品にリンクする場合、ペイロードには次のようなセクションが含まれています。
 

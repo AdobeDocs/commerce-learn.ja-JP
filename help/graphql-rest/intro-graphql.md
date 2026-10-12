@@ -47,7 +47,7 @@ GraphQLを初めて使用する場合は、この節では基本的な概念と�
 
 * [パート 2 GraphQL - クエリ](../graphql-rest/graphql-queries.md)
 * [第3部GraphQL – 変異](../graphql-rest/graphql-mutations.md)
-* [ パート 4 GraphQL - スキーマ ](../graphql-rest/graphql-schema.md)
+* [&#x200B; パート 4 GraphQL - スキーマ &#x200B;](../graphql-rest/graphql-schema.md)
 
 ## GraphQLとは？
 

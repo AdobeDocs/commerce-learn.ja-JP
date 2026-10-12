@@ -63,5 +63,5 @@ Adobe Commerceなら、カタログ管理、B2B コマース、マルチチャ�
 ## このシリーズの追加動画
 
 [新製品のお知らせ](./new-product-announcements.md)
-[ コストを大幅に削減](./drastically-cut-costs.md)
-[ コンバージョン率の増強](./supercharge-conversion-rates.md)
+[&#x200B; コストを大幅に削減](./drastically-cut-costs.md)
+[&#x200B; コンバージョン率の増強](./supercharge-conversion-rates.md)

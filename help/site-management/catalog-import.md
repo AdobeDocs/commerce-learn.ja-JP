@@ -62,7 +62,7 @@ Adobe Commerceにカタログを読み込むには、いくつかのネイティ
 
 ## 製品の手動作成 {#manual-import}
 
-カタログが限られており、更新の頻度が低い場合は、手作業で作成するのが最適です。 Commerce管理者の使用方法に関する各製品と一部の限定トレーニングに参加するには、時間が必要です。 手作業によるカタログ管理は、多くの実店舗では適切なオプションではありませんが、状況によっては理にかなっていることもあります。 このプロセスに関する追加のドキュメントについては、[製品の作成](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/product-create.html){target="_blank"}を参照してください。 複数の方法でカタログを管理することもできますが、オートメーションを使用する場合は、手作業での編集を制限する必要があります。 自動更新では、手動で実行された変更を上書きする機会があるため、混乱が生じます。 カタログを管理するためのAdobe Commerceとの統合がオートメーションとAPIを使用している場合は、管理者から[ ユーザーの役割と権限](https://experienceleague.adobe.com/docs/commerce-admin/systems/user-accounts/permissions-user-roles.html){target="_blank"}を通じてカタログの管理を制限することをお勧めします。
+カタログが限られており、更新の頻度が低い場合は、手作業で作成するのが最適です。 Commerce管理者の使用方法に関する各製品と一部の限定トレーニングに参加するには、時間が必要です。 手作業によるカタログ管理は、多くの実店舗では適切なオプションではありませんが、状況によっては理にかなっていることもあります。 このプロセスに関する追加のドキュメントについては、[製品の作成](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/product-create.html){target="_blank"}を参照してください。 複数の方法でカタログを管理することもできますが、オートメーションを使用する場合は、手作業での編集を制限する必要があります。 自動更新では、手動で実行された変更を上書きする機会があるため、混乱が生じます。 カタログを管理するためのAdobe Commerceとの統合がオートメーションとAPIを使用している場合は、管理者から[&#x200B; ユーザーの役割と権限](https://experienceleague.adobe.com/docs/commerce-admin/systems/user-accounts/permissions-user-roles.html){target="_blank"}を通じてカタログの管理を制限することをお勧めします。
 
 ### このアプローチを検討するタイミング
 
@@ -102,7 +102,7 @@ Adobe Commerceにカタログを読み込むには、いくつかのネイティ
 ## Bulk REST API {#bulk-rest-api}
 
 Bulk REST APIを使用すると、自動化とより頻繁な更新が可能になります。 このAPIは、CSVの管理者アップロードを使用するよりも高速です。
-[一括エンドポイントドキュメント ](https://developer.adobe.com/commerce/webapi/rest/use-rest/bulk-endpoints/){target="_blank"}
+[一括エンドポイントドキュメント &#x200B;](https://developer.adobe.com/commerce/webapi/rest/use-rest/bulk-endpoints/){target="_blank"}
 
 長所：
 CSV形式ではない大規模なデータセットをインポートする機能。
@@ -124,7 +124,7 @@ CSV形式ではない大規模なデータセットをインポートする機�
 ## 非同期REST API {#async-rest-api}
 
 非同期web エンドポイントは、Web APIへのメッセージをインターセプトし、メッセージキューに書き込みます。 システムがそのようなAPI リクエストを受け入れるたびに、UUID ID IDを生成します。 Adobe Commerceは、メッセージをキューに追加するときに、このUUIDを含めます。 次に、消費者はキューからメッセージを読み取り、1つずつ実行します。
-[非同期web エンドポイントのドキュメント ](https://developer.adobe.com/commerce/webapi/rest/use-rest/asynchronous-web-endpoints/){target="_blank"}
+[非同期web エンドポイントのドキュメント &#x200B;](https://developer.adobe.com/commerce/webapi/rest/use-rest/asynchronous-web-endpoints/){target="_blank"}
 
 長所：
 
@@ -147,7 +147,7 @@ CSV形式ではない大規模なデータセットをインポートする機�
 
 このAPI オプションを使用すると、他のすべてのネイティブオプションと比較して、非常に高速な読み込みが可能になります。
 
-[ データ REST CSV APIのインポート](https://developer.adobe.com/commerce/webapi/rest/modules/import/){target="_blank"}
+[&#x200B; データ REST CSV APIのインポート](https://developer.adobe.com/commerce/webapi/rest/modules/import/){target="_blank"}
 長所：
 
 * 受信データを処理する最速の方法

@@ -80,5 +80,5 @@ Adobe Commerceで[Data Connection](https://experienceleague.adobe.com/docs/comme
 
 ## 関連資料
 
-[ データ接続の概要](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/overview.html){target="_blank"}
-[ データ接続のインストール ](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/install.html){target="_blank"}
+[&#x200B; データ接続の概要](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/overview.html){target="_blank"}
+[&#x200B; データ接続のインストール &#x200B;](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/install.html){target="_blank"}
