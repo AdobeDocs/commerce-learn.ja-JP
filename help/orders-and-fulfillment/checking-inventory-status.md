@@ -7,10 +7,10 @@ role: Developer
 level: Intermediate, Experienced
 doc-type: Tutorial
 duration: 496
-last-substantial-update: 2024-05-09
+last-substantial-update: 2024-05-09T00:00:00.000Z
 jira: KT-15462
 exl-id: bd2be562-5738-4398-8afb-2faeb0ba6b83
-TQID: https://experienceleague.adobe.com/IfBm4JSpLXViUNTHo7amAL6GIYJsC4O-rdITtbqJV24
+TQID: 'https://experienceleague.adobe.com/IfBm4JSpLXViUNTHo7amAL6GIYJsC4O-rdITtbqJV24'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -23,6 +23,10 @@ feature_v2:
     internal-label: Configuration
   - id: e8818fe6-9c8b-4bc0-9ef8-377a10b7bc75
     internal-label: Architecture
+  - id: cdfd3bc1-dc23-5cf0-b965-d3c0c55cde67
+    internal-label: Best Practices
+  - id: 8dc0e58b-adf0-51bb-8db5-bb36e3e656fb
+    internal-label: Inventory
 subfeature_v2:
   - id: b01a71b7-d17a-42b2-a9ac-af4b8d9d2ef5
     internal-label: 2FA
@@ -34,6 +38,8 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
@@ -41,14 +47,14 @@ topic_v2:
     internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: fcf0f5116ba75bd618f4ed80591ecc96132cdb45
+source-git-commit: 71835f0240311d4b26ec8e0d9bbdf005f9887579
 workflow-type: tm+mt
 source-wordcount: '1834'
 ht-degree: 0%
 ---
 # 在庫状況チェックの開発とパフォーマンスに関する考慮事項
 
-在庫の正確性は重要な検討事項です。 バックオーダーや在庫切れのしきい値の設定など、このリスクを可能な限り低くするのに役立つネイティブ機能がいくつかあります。 これらのトピックは両方とも[Adobe Experience League](https://experienceleague.adobe.com/ja/docs/commerce-admin/inventory/configuration/backorders)で読むことができます。詳しくは、こちらを参照してください。
+在庫の正確性は重要な検討事項です。 バックオーダーや在庫切れのしきい値の設定など、このリスクを可能な限り低くするのに役立つネイティブ機能がいくつかあります。 これらのトピックは両方とも[Adobe Experience League](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/configuration/backorders)で読むことができます。詳しくは、こちらを参照してください。
 
 Adobe Commerceストアでリアルタイムの在庫状況チェックが要求されるプロジェクトやユースケースがあります。 このチュートリアルでは、開発とパフォーマンスに関する考慮事項を含め、この会話を処理するためのinsightについて説明します。
 
@@ -62,7 +68,7 @@ Adobe Commerceストアでリアルタイムの在庫状況チェックが要求
 
 在庫チェックと、それが3つのアプローチでどのように達成されるかを検討してみてください。 それぞれに利点と限界があります。 また、複雑さが増し、エラー処理に対してより多くのテストと思考が必要になります。 カスタムソリューションを導入する際には、追加の責任と考慮事項があることを忘れないでください。 例えば、フォールバックプロセス、モニタリング、テスト、トラブルシューティングなどがあり、これらは開発チームが担当します。 その際、新しいサポートドキュメント、トレーニング、モニタリング機能を導入し、開発チームが機能全体をサポートできるようにすることが重要です。 副作用として、開発チームがプロセスを所有し、コアAdobe Commerceアプリケーションが提供するネイティブ機能を活用しなくなることが挙げられます。 Adobe サポートは、このレベルのカスタマイズを支援できません。
 
-まず、ネイティブ機能を利用します。 ネイティブ機能を利用することで、リスクを最小限に抑え、多くのメリットを享受できます。 このアプローチを採用すると、Adobe Commerceが提供するすべての既存のドキュメントとチュートリアルを利用して、この機能を使用できます。 在庫管理にはさまざまな側面があるため、最初の検討事項としてアプリケーションに付属しているものを使用してください。 ただし、注文時にコマースで見つかったデータが正確ではないユースケースがあります。 データが非同期になる例として、Order Managementシステムで直接Adobe Commerce アプリケーションの外部に営業部門が許可されることがあります。 その理由は、正確な在庫量をAdobe Commerceで表すためには、Adobe Commerce情報をできるだけ正確に保つために、何らかの統合が必要だからです。 過剰販売が許されない場合は、在庫切れのしきい値を追加することは、ゼロになる前に商品の販売を停止するための優れた方法です。 Adobe Commerceのネイティブ同期機能は、1日あたり最大1回です。 この頻度は、いくつかのユースケースでは十分ですが、他のユースケースでは十分ではありません。 詳しくは、[&#x200B; スケジュールされたインポートとエクスポート &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-admin/systems/data-transfer/data-scheduled-import-export)を参照してください。
+まず、ネイティブ機能を利用します。 ネイティブ機能を利用することで、リスクを最小限に抑え、多くのメリットを享受できます。 このアプローチを採用すると、Adobe Commerceが提供するすべての既存のドキュメントとチュートリアルを利用して、この機能を使用できます。 在庫管理にはさまざまな側面があるため、最初の検討事項としてアプリケーションに付属しているものを使用してください。 ただし、注文時にコマースで見つかったデータが正確ではないユースケースがあります。 データが非同期になる例として、Order Managementシステムで直接Adobe Commerce アプリケーションの外部に営業部門が許可されることがあります。 その理由は、正確な在庫量をAdobe Commerceで表すためには、Adobe Commerce情報をできるだけ正確に保つために、何らかの統合が必要だからです。 過剰販売が許されない場合は、在庫切れのしきい値を追加することは、ゼロになる前に商品の販売を停止するための優れた方法です。 Adobe Commerceのネイティブ同期機能は、1日あたり最大1回です。 この頻度は、いくつかのユースケースでは十分ですが、他のユースケースでは十分ではありません。 詳しくは、[ スケジュールされたインポートとエクスポート ](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-scheduled-import-export)を参照してください。
 
 2つ目は`near real-time`です。 ほぼリアルタイムでネイティブ機能を使用しています。 しかし、これには、コマースを頻繁にフィードし、スケジュールどおりに在庫を更新するための統合を提供するための追加作業が含まれます。 例えば、毎時間。 このオプションでは、統合の仕組みについて考える必要がありますが、「bulk api」を使用してミドルウェアでデータの変換を行い、それをコマースにプッシュすることは素晴らしいアプローチです。 Adobe App Builderなどの基盤を利用して、作業の大部分を処理し、より頻繁にAdobe Commerceにプッシュします。
 
@@ -88,7 +94,7 @@ API メッシュでAdobe App Builderを使用することも、複数のソー�
 
 Adobe Developer App Builderは、Adobe ソリューションを拡張するためのカスタムエクスペリエンスを統合および作成するための、統一されたサードパーティ拡張性フレームワークを提供します。 Adobe CommerceはAdobe Developer App Builderを使用できます。 このアプローチは、通常コアアプリケーションで発生する一部の機能を拡張し、オフサイトに移動させる優れたユースケースです。 Commerce アプリケーションから機能を削除することで、Commerce アプリケーションのモジュール数と複雑さが軽減されます。 これにより、プロセス内でのカスタマイズ数が少なくなり、アップグレードやメンテナンスの複雑さが軽減されます。
 
-Adobeでは、このタスクの実行方法を把握するために、優れたインスピレーション源となるドキュメントをいくつか作成し、実際に使用できるコードサンプルを提供しています。 買い物客が商品をカートに入れた際、サードパーティの在庫管理システムは、その商品の在庫があるかどうかをチェックします。 その場合は、製品を追加します。 それ以外は、エラーメッセージを表示します。 コードサンプルと詳細については、[Webhook ユースケース &#x200B;](https://developer.adobe.com/commerce/extensibility/webhooks/use-cases/#add-product-to-cart)を参照してください。
+Adobeでは、このタスクの実行方法を把握するために、優れたインスピレーション源となるドキュメントをいくつか作成し、実際に使用できるコードサンプルを提供しています。 買い物客が商品をカートに入れた際、サードパーティの在庫管理システムは、その商品の在庫があるかどうかをチェックします。 その場合は、製品を追加します。 それ以外は、エラーメッセージを表示します。 コードサンプルと詳細については、[Webhook ユースケース ](https://developer.adobe.com/commerce/extensibility/webhooks/use-cases/#add-product-to-cart)を参照してください。
 
 ## 在庫チェックを実施するタイミング
 

@@ -1,37 +1,52 @@
 ---
 title: GraphQLを使用したクエリの実行
-description: Adobe Commerceおよび [!DNL Magento Open Source]でGraphQLを使用してクエリを実行する方法について説明します。 GETとPOST呼び出しを使用したGraphQLの概要です。
-landing-page-description: Adobe Commerceおよび [!DNL Magento Open Source]でGraphQLを使用してクエリを実行する方法について説明します。 GETとPOST呼び出しを使用したGraphQLの概要です。
-short-description: Adobe Commerceおよび [!DNL Magento Open Source]でGraphQLを使用してクエリを実行する方法について説明します。 GETとPOST呼び出しを使用したGraphQLの概要です。
+description: Adobe Commerceおよび[!DNL Magento Open Source]でGraphQLを使用してクエリを実行する方法について説明します。 これは、GET呼び出しとPOST呼び出しを使用したGraphQLの概要です。
+landing-page-description: Adobe Commerceおよび[!DNL Magento Open Source]でGraphQLを使用してクエリを実行する方法について説明します。 これは、GET呼び出しとPOST呼び出しを使用したGraphQLの概要です。
+short-description: Adobe Commerceおよび[!DNL Magento Open Source]でGraphQLを使用してクエリを実行する方法について説明します。 これは、GET呼び出しとPOST呼び出しを使用したGraphQLの概要です。
 kt: 13937
 doc-type: video
 duration: 651
 audience: all
-last-substantial-update: 2023-10-12T00:00:00Z
+last-substantial-update: 2023-10-12T00:00:00.000Z
 feature: GraphQL
 topic: Commerce, Architecture, Headless
 old-role: Architect, Developer
 role: Developer
 level: Beginner, Intermediate
 exl-id: 443d711d-ec74-4e07-9357-fbbe0f774853
-source-git-commit: b859664f02cf6eac99a551e5f58dff34ca55e37a
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: c32adafa-ed01-4b31-997e-2413013911b0
+    internal-label: Integrations
+subfeature_v2:
+  - id: e396cff5-f586-484c-89f0-7f1da3308f92
+    internal-label: GraphQL
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+source-git-commit: 71835f0240311d4b26ec8e0d9bbdf005f9887579
 workflow-type: tm+mt
-source-wordcount: '984'
+source-wordcount: '1000'
 ht-degree: 0%
-
 ---
-
 # GraphQLのクエリ
 
 これは、GraphQLとAdobe Commerceのシリーズの第2部です。 このチュートリアルとビデオでは、GraphQL クエリについて説明し、Adobe Commerceに対してクエリを実行する方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3450059?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3424120?learn=on)
 
 ## このシリーズのGraphQLに関する関連動画とチュートリアル
 
 * [第1部GraphQL – 概要](../graphql-rest/intro-graphql.md)
 * [第3部GraphQL – 変異](../graphql-rest/graphql-mutations.md)
-* [&#x200B; パート 4 GraphQL - スキーマ &#x200B;](../graphql-rest/graphql-schema.md)
+* [ パート 4 GraphQL - スキーマ ](../graphql-rest/graphql-schema.md)
 
 ## GraphQL構文の例
 
@@ -148,7 +163,7 @@ GraphQLのクエリ構文を、本格的な例で詳しく見てみましょう�
 
 返すフィールドは各タイプの中かっこ内で指定しますが、名前の付いた引数と値は、タイプ名の後の括弧内で指定します。 引数はオプションであることが多く、クエリの結果をフィルタリング、フォーマット、その他の方法で変換する方法にしばしば影響します。
 
-`id`引数を`country`に渡し、クエリする特定の国を指定し、`filters`に`categories`引数を指定します。
+`id`引数を`country`に渡し、クエリする特定の国を指定し、`categories`に`filters`引数を指定します。
 
 ## フィールドをダウンして
 
@@ -156,7 +171,7 @@ GraphQLのクエリ構文を、本格的な例で詳しく見てみましょう�
 
 任意のGraphQL データグラフには、ツリーを開始する1つの「ルート」型（通常は`Query`と呼ばれます）があり、エンティティと見なされる型は、このルートのフィールドに割り当てられます。 このクエリの例では、実際にルートタイプに対して1つの汎用クエリを作成し、フィールド `country`と`categories`を選択しています。 その後、これらのフィールドのサブフィールドを選択し、いくつかのレベルの深い可能性があります。 フィールドの戻り値のタイプが複雑なタイプの場合（たとえば、スカラー型ではなく独自のフィールドを持つフィールドなど）は、目的のフィールドを引き続き選択します。
 
-ネストされたフィールドのこの概念は、トップレベル `products` フィールドと同じように`pageSize` （`currentPage`および`categories`）の引数を渡すことができる理由でもあります。
+ネストされたフィールドのこの概念は、トップレベル `categories` フィールドと同じように`products` （`pageSize`および`currentPage`）の引数を渡すことができる理由でもあります。
 
 ![GraphQL フィールド ツリー](../assets/graphql-field-tree.png)
 
@@ -190,7 +205,7 @@ fragment productDetails on ProductInterface {
 
 前のクエリでは、フィールドの引数の値を文字列または整数として直接ハードコーディングしました。 ただし、GraphQL仕様では、変数を使用してユーザー入力をメインクエリから分離するためのファーストクラスのサポートがあります。
 
-新しいクエリでは、クエリ全体の先頭の括弧の前に括弧を使用して`$search`変数を定義します（変数は常にドル記号のプレフィックス構文を使用します）。 この変数は、`search`の`products`引数に指定されています。
+新しいクエリでは、クエリ全体の先頭の括弧の前に括弧を使用して`$search`変数を定義します（変数は常にドル記号のプレフィックス構文を使用します）。 この変数は、`products`の`search`引数に指定されています。
 
 クエリに変数が含まれている場合、GraphQL リクエストには、クエリ自体と並行して、JSON エンコードされた個別の値ディクショナリが含まれていることが必要です。 上記のクエリでは、クエリ本文に加えて、次の変数値のJSONを送信できます。
 
@@ -208,6 +223,6 @@ fragment productDetails on ProductInterface {
 
 GraphQL クエリの実際のHTTP リクエストの本文に「query: `{string}`」が含まれていることがわかったように、変数ディクショナリを含むリクエストには、同じ本文に追加の「variables: `{json}`」が含まれます。ここで、`{json}`は変数値を持つJSON文字列です。
 
-新しいクエリでは、_フラグメント_ （`productDetails`）も使用して、同じフィールド選択を複数の場所で再利用します。 [&#x200B; フラグメント &#x200B;](https://graphql.org/learn/queries/#fragments){target="_blank"}の詳細については、GraphQL ドキュメントを参照してください。
+新しいクエリでは、_フラグメント_ （`productDetails`）も使用して、同じフィールド選択を複数の場所で再利用します。 [ フラグメント ](https://graphql.org/learn/queries/#fragments){target="_blank"}の詳細については、GraphQL ドキュメントを参照してください。
 
 {{$include /help/_includes/graphql-rest-related-links.md}}

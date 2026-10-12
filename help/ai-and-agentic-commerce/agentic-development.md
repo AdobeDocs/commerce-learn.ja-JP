@@ -4,16 +4,23 @@ description: Adobe Commerceのエージェント開発が、分析、デザイ�
 role: User
 level: Beginner
 doc-type: Value Video
-last-substantial-update: 2026-06-11T00:00:00Z
+last-substantial-update: 2026-06-11T00:00:00.000Z
 jira: KT-21575
 duration: 225
-source-git-commit: e8599fadf01440009348ce105a2fcef3603bbdfc
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+source-git-commit: 71835f0240311d4b26ec8e0d9bbdf005f9887579
 workflow-type: tm+mt
 source-wordcount: '169'
 ht-degree: 0%
-
 ---
-
 # エージェント開発
 
 [!BADGE 近日リリース予定]{type=Informative tooltip="この機能は近日提供開始予定です。変更される可能性があります。"}
@@ -34,7 +41,7 @@ ht-degree: 0%
 * システム全体を通じた同時検証と最適化
 * ハンドオフやコンテクストの損失を回避しながら、継続的にデプロイメントフローを実現
 
->[!VIDEO](https://video.tv.adobe.com/v/3492288?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3492284)
 
 <!-- ## Additional resources -->
 

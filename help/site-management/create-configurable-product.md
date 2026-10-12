@@ -12,24 +12,41 @@ topic: Commerce, Integrations, Content Management
 role: Developer, User
 level: Beginner
 exl-id: 112bec9a-0f8e-4252-8c52-f486a5e663b5
-TQID: https://experienceleague.adobe.com/XAvtOnOIycqQ4z-uztWuVzzv0--eVit-I-QDnl67ba8
+TQID: 'https://experienceleague.adobe.com/XAvtOnOIycqQ4z-uztWuVzzv0--eVit-I-QDnl67ba8'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: b48dbafb-4193-5648-b9d9-bf96e9c9a411
+    internal-label: Backend Development
+  - id: cc04bd17-78d5-5120-8c3d-1b8a57e49280
+    internal-label: Integration
+  - id: e7dae43f-215c-4cdf-90d3-c5a461a6e669
+    internal-label: Admin tools and workspace
+  - id: c4f010fa-1478-4300-a88d-706fbc036a7a
+    internal-label: APIs and SDKs
+subfeature_v2:
+  - id: bb2df8be-afdd-4818-b6b5-95ca1dd3bc3a
+    internal-label: Admin workspace
+  - id: e0ca0e7a-9738-48d1-b98b-615468ab4aaf
+    internal-label: REST API
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: b599f79ad41b9552cea6ff41062eb4ef75f183bb
+    internal-label: Beginner
+source-git-commit: 71835f0240311d4b26ec8e0d9bbdf005f9887579
 workflow-type: tm+mt
-source-wordcount: 994
+source-wordcount: '998'
 ht-degree: 0%
-
 ---
-
 # 設定可能な製品の作成
 
 コンフィグ商品は、複数のシンプルな商品の親商品です。 購入者が特定の製品バリエーションを選択するために、1つまたは複数の選択を行うことを要求するように、設定可能な製品を定義します。 例えば、商品がシャツの場合、買い手はサイズと色のオプションを選択してシャツを選択する必要があります。
@@ -42,7 +59,7 @@ ht-degree: 0%
 
 REST APIを使用して、設定可能な製品を作成します。
 
-1. 後続のAPI呼び出しにID番号を使用するために、[属性セット &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/create/attribute-sets.html?lang=ja)の属性を取得します。
+1. 後続のAPI呼び出しにID番号を使用するために、[属性セット ](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/create/attribute-sets.html)の属性を取得します。
 1. 設定可能な製品で使用するシンプルな製品を作成します。
 1. 空の設定可能な製品を作成し、シンプルな製品を関連付けます。
 1. 設定可能な製品の製品属性を設定します。
@@ -61,7 +78,7 @@ Adobe Commerce管理者から設定可能な商品を作成する場合は、最
 
 ## ビデオコンテンツ
 
->[!VIDEO](https://video.tv.adobe.com/v/3455036?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3426381?learn=on)
 
 ## cURLを使用したカラー属性の取得
 
@@ -360,6 +377,6 @@ curl --location --request DELETE '{{your.url.here}}/rest/default/V1/configurable
 ## 関連資料
 
 * [設定可能な製品チュートリアルの作成](https://developer.adobe.com/commerce/webapi/rest/tutorials/configurable-product/){target="_blank"}
-* [コンフィグ商品](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/types/product-create-configurable.html?lang=ja){target="_blank"}
+* [コンフィグ商品](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/types/product-create-configurable.html){target="_blank"}
 * [Adobe Developer REST チュートリアル](https://developer.adobe.com/commerce/webapi/rest/tutorials/prerequisite-tasks/){target="_blank"}
 * [Adobe Commerce REST Redoc](https://adobe-commerce.redoc.ly/2.4.6-admin/tag/products#operation/PostV1Products){target="_blank"}

@@ -7,15 +7,27 @@ role: Developer
 level: Beginner
 doc-type: Tutorial
 duration: 259
-last-substantial-update: 2026-05-15T00:00:00Z
+last-substantial-update: 2026-05-15T00:00:00.000Z
 jira: KT-18624
-source-git-commit: 456f3cae8c45d137a195456692c2d11204126bb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: d3b92bef-63fa-5031-a925-d04d9362d616
+    internal-label: Saas
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+source-git-commit: 71835f0240311d4b26ec8e0d9bbdf005f9887579
 workflow-type: tm+mt
 source-wordcount: '597'
 ht-degree: 0%
-
 ---
-
 # コンポーザブルカタログデータモデルが存在する理由
 
 現代のコマースチームでは、多くの場合、**ブランド**、**地域**、**ディーラー**、**デジタルチャネル**&#x200B;にわたって販売されています。 各チャネルが独自のカタログコピーを保持している場合、買い物客の体験を向上させるよりも、SKU、価格、可用性の調整により多くの時間を費やします。 **Adobe Commerce Optimizer**&#x200B;の背後にある&#x200B;**Adobe コンポーザブルカタログデータモデル（CCDM）**&#x200B;は、そのパターンを反転するように設計されています。SaaS レイヤーの&#x200B;**単一の統合カタログ**、各ストアフロントまたは統合で許可される内容を&#x200B;**カタログビュー**&#x200B;および&#x200B;**ポリシー**。
@@ -31,7 +43,7 @@ ht-degree: 0%
 * カタログビューが、共有ベースカタログと特定のストアフロントやオーディエンスとの間の「レンズ」としての役割を果たす方法
 * ヘッドレスエクスペリエンスが設定されたカタログとの整合性を維持できるように、マーチャンダイジングサービス APIがそれらのビューをどのように使用するか
 
->[!VIDEO](https://video.tv.adobe.com/v/3491286?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491285?learn=on)
 
 ## 分断されたカタログが抱える課題
 
@@ -53,15 +65,15 @@ Adobe Commerce Optimizerでは、商品データは、1つ以上の&#x200B;**カ
 
 ## ストアフロントレンズとしてのカタログビュー
 
-[&#x200B; マーチャンダイジングサービスのカタログビュー](https://experienceleague.adobe.com/ja/docs/commerce/optimizer/setup/catalog-view){target="_blank"}で説明されているように、カタログビューは&#x200B;**レンズ**&#x200B;のように動作します。買い物客は、ビューが許可する商品、価格、ルールのみを表示しますが、**ベースカタログ**&#x200B;は共有システムのままです。 このモデルは&#x200B;**マーチャンダイジングサービス**&#x200B;と直接ペアを設定するので、API クライアントは正しいビュー（および関連ヘッダー）を渡し、各エクスペリエンスに対して一貫性のあるポリシー駆動型の応答を受け取ります。
+[ マーチャンダイジングサービスのカタログビュー](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/catalog-view){target="_blank"}で説明されているように、カタログビューは&#x200B;**レンズ**&#x200B;のように動作します。買い物客は、ビューが許可する商品、価格、ルールのみを表示しますが、**ベースカタログ**&#x200B;は共有システムのままです。 このモデルは&#x200B;**マーチャンダイジングサービス**&#x200B;と直接ペアを設定するので、API クライアントは正しいビュー（および関連ヘッダー）を渡し、各エクスペリエンスに対して一貫性のあるポリシー駆動型の応答を受け取ります。
 
-これらの要素がエンドツーエンドのフローにどのように適合するかについての詳細は、開発者チュートリアル [&#x200B; ストアフロント用の構成可能なカタログの作成](https://developer.adobe.com/commerce/services/optimizer/ccdm-use-case){target="_blank"}を参照してください。
+これらの要素がエンドツーエンドのフローにどのように適合するかについての詳細は、開発者チュートリアル [ ストアフロント用の構成可能なカタログの作成](https://developer.adobe.com/commerce/services/optimizer/ccdm-use-case){target="_blank"}を参照してください。
 
 ## 関連コンテンツ
 
 * [カタログビューについて詳しく見る](./learn-about-the-ccdm-feature-catalog-views.md)
-* [マーチャンダイジングサービスのカタログビュー](https://experienceleague.adobe.com/ja/docs/commerce/optimizer/setup/catalog-view){target="_blank"}
+* [マーチャンダイジングサービスのカタログビュー](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/catalog-view){target="_blank"}
 * [ストアフロント用の構成可能なカタログの作成](https://developer.adobe.com/commerce/services/optimizer/ccdm-use-case){target="_blank"}
-* [[!DNL Adobe Commerce Optimizer] ガイド](https://experienceleague.adobe.com/ja/docs/commerce/optimizer/overview){target="_blank"}
+* [[!DNL Adobe Commerce Optimizer] ガイド](https://experienceleague.adobe.com/en/docs/commerce/optimizer/overview){target="_blank"}
 * [マーチャンダイジング APIの概要](https://developer.adobe.com/commerce/services/optimizer/merchandising-services/using-the-api#make-your-first-request){target="_blank"}
 

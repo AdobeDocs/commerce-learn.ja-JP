@@ -12,28 +12,44 @@ topic: Commerce, Administration, Content Management
 role: Admin, User
 level: Beginner, Intermediate
 exl-id: 18713a44-df39-4b94-91ce-c7efeb4ce2b3
-TQID: https://experienceleague.adobe.com/-JG7blrxImSXjA2DP9soZfsicISW0hkP2zJeWdMpVBU
+TQID: 'https://experienceleague.adobe.com/-JG7blrxImSXjA2DP9soZfsicISW0hkP2zJeWdMpVBU'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: b48dbafb-4193-5648-b9d9-bf96e9c9a411
+    internal-label: Backend Development
+  - id: 601e4abe-d9bf-58de-a779-32ed6794dcbe
+    internal-label: Data Import/Export
+  - id: c4f010fa-1478-4300-a88d-706fbc036a7a
+    internal-label: APIs and SDKs
+subfeature_v2:
+  - id: e0ca0e7a-9738-48d1-b98b-615468ab4aaf
+    internal-label: REST API
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b599f79ad41b9552cea6ff41062eb4ef75f183bb
+    internal-label: Administration
+source-git-commit: 71835f0240311d4b26ec8e0d9bbdf005f9887579
 workflow-type: tm+mt
-source-wordcount: 898
+source-wordcount: '907'
 ht-degree: 0%
-
 ---
-
 # カタログを読み込むためのオプション
 
 Adobe Commerceにカタログを読み込むには、いくつかのネイティブな方法があります。 各メソッドには、使用の理由と考慮すべき長所と短所があります。
@@ -46,7 +62,7 @@ Adobe Commerceにカタログを読み込むには、いくつかのネイティ
 
 ## 製品の手動作成 {#manual-import}
 
-カタログが限られており、更新の頻度が低い場合は、手作業で作成するのが最適です。 Commerce管理者の使用方法に関する各製品と一部の限定トレーニングに参加するには、時間が必要です。 手作業によるカタログ管理は、多くの実店舗では適切なオプションではありませんが、状況によっては理にかなっていることもあります。 このプロセスに関する追加のドキュメントについては、[製品の作成](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/product-create.html?lang=ja){target="_blank"}を参照してください。 複数の方法でカタログを管理することもできますが、オートメーションを使用する場合は、手作業での編集を制限する必要があります。 自動更新では、手動で実行された変更を上書きする機会があるため、混乱が生じます。 カタログを管理するためのAdobe Commerceとの統合がオートメーションとAPIを使用している場合は、管理者から[&#x200B; ユーザーの役割と権限](https://experienceleague.adobe.com/docs/commerce-admin/systems/user-accounts/permissions-user-roles.html?lang=ja){target="_blank"}を通じてカタログの管理を制限することをお勧めします。
+カタログが限られており、更新の頻度が低い場合は、手作業で作成するのが最適です。 Commerce管理者の使用方法に関する各製品と一部の限定トレーニングに参加するには、時間が必要です。 手作業によるカタログ管理は、多くの実店舗では適切なオプションではありませんが、状況によっては理にかなっていることもあります。 このプロセスに関する追加のドキュメントについては、[製品の作成](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/product-create.html){target="_blank"}を参照してください。 複数の方法でカタログを管理することもできますが、オートメーションを使用する場合は、手作業での編集を制限する必要があります。 自動更新では、手動で実行された変更を上書きする機会があるため、混乱が生じます。 カタログを管理するためのAdobe Commerceとの統合がオートメーションとAPIを使用している場合は、管理者から[ ユーザーの役割と権限](https://experienceleague.adobe.com/docs/commerce-admin/systems/user-accounts/permissions-user-roles.html){target="_blank"}を通じてカタログの管理を制限することをお勧めします。
 
 ### このアプローチを検討するタイミング
 
@@ -61,7 +77,7 @@ Adobe Commerceにカタログを読み込むには、いくつかのネイティ
 ## 管理者CSV読み込みツール {#admin-csv}
 
 このツールを使用すると、ストア所有者はコマース管理者からCSVを使用してカタログを直接インポートできます。
-[Commerce管理者からのデータの読み込み](https://experienceleague.adobe.com/docs/commerce-admin/systems/data-transfer/import/data-import.html?lang=ja){target="_blank"}
+[Commerce管理者からのデータの読み込み](https://experienceleague.adobe.com/docs/commerce-admin/systems/data-transfer/import/data-import.html){target="_blank"}
 
 長所：
 管理者からCSVをアップロードすることは、カタログ管理への直接的なアプローチです。 これにより、カタログ製品の更新を中程度のサイズに高速化できます。
@@ -86,7 +102,7 @@ Adobe Commerceにカタログを読み込むには、いくつかのネイティ
 ## Bulk REST API {#bulk-rest-api}
 
 Bulk REST APIを使用すると、自動化とより頻繁な更新が可能になります。 このAPIは、CSVの管理者アップロードを使用するよりも高速です。
-[一括エンドポイントドキュメント &#x200B;](https://developer.adobe.com/commerce/webapi/rest/use-rest/bulk-endpoints/){target="_blank"}
+[一括エンドポイントドキュメント ](https://developer.adobe.com/commerce/webapi/rest/use-rest/bulk-endpoints/){target="_blank"}
 
 長所：
 CSV形式ではない大規模なデータセットをインポートする機能。
@@ -108,7 +124,7 @@ CSV形式ではない大規模なデータセットをインポートする機�
 ## 非同期REST API {#async-rest-api}
 
 非同期web エンドポイントは、Web APIへのメッセージをインターセプトし、メッセージキューに書き込みます。 システムがそのようなAPI リクエストを受け入れるたびに、UUID ID IDを生成します。 Adobe Commerceは、メッセージをキューに追加するときに、このUUIDを含めます。 次に、消費者はキューからメッセージを読み取り、1つずつ実行します。
-[非同期web エンドポイントのドキュメント &#x200B;](https://developer.adobe.com/commerce/webapi/rest/use-rest/asynchronous-web-endpoints/){target="_blank"}
+[非同期web エンドポイントのドキュメント ](https://developer.adobe.com/commerce/webapi/rest/use-rest/asynchronous-web-endpoints/){target="_blank"}
 
 長所：
 
@@ -131,7 +147,7 @@ CSV形式ではない大規模なデータセットをインポートする機�
 
 このAPI オプションを使用すると、他のすべてのネイティブオプションと比較して、非常に高速な読み込みが可能になります。
 
-[&#x200B; データ REST CSV APIのインポート](https://developer.adobe.com/commerce/webapi/rest/modules/import/){target="_blank"}
+[ データ REST CSV APIのインポート](https://developer.adobe.com/commerce/webapi/rest/modules/import/){target="_blank"}
 長所：
 
 * 受信データを処理する最速の方法
@@ -155,6 +171,6 @@ CSV形式ではない大規模なデータセットをインポートする機�
 ## 関連資料
 
 * [新しいREST CSVを使用したデータの読み込み](https://developer.adobe.com/commerce/webapi/rest/modules/import/){target="_blank"}
-* [データのメインドキュメントの読み込み](https://experienceleague.adobe.com/docs/commerce-admin/systems/data-transfer/import/data-import.html?lang=ja){target="_blank"}
-* [Adobe Commerce バージョン 2.4.6 リリースノート](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-6.html?lang=ja){target="_blank"}
+* [データのメインドキュメントの読み込み](https://experienceleague.adobe.com/docs/commerce-admin/systems/data-transfer/import/data-import.html){target="_blank"}
+* [Adobe Commerce バージョン 2.4.6 リリースノート](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-6.html){target="_blank"}
 * [ユーザー、役割、権限](../site-management/users-roles-permissions.md){target="_blank"}

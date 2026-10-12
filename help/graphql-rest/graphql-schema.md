@@ -14,25 +14,34 @@ old-role: Architect, Developer
 role: Developer
 level: Beginner, Intermediate
 exl-id: 6b59db07-b99e-47ae-9ccb-d4904afc8251
-TQID: https://experienceleague.adobe.com/P9gopqc6BD8qZJlc1-gvVem4Gq3fqpX8AsRvglLAQYI
+TQID: 'https://experienceleague.adobe.com/P9gopqc6BD8qZJlc1-gvVem4Gq3fqpX8AsRvglLAQYI'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: e8818fe6-9c8b-4bc0-9ef8-377a10b7bc75
+    internal-label: Architecture
+  - id: c32adafa-ed01-4b31-997e-2413013911b0
+    internal-label: Integrations
+subfeature_v2:
+  - id: e396cff5-f586-484c-89f0-7f1da3308f92
+    internal-label: GraphQL
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: b599f79ad41b9552cea6ff41062eb4ef75f183bb
+    internal-label: Implementation
+source-git-commit: 71835f0240311d4b26ec8e0d9bbdf005f9887579
 workflow-type: tm+mt
-source-wordcount: 436
+source-wordcount: '436'
 ht-degree: 0%
-
 ---
-
 # スキーマ言語
 
 これはGraphQLとAdobe Commerceのシリーズの第4部です。 使用されるクエリと変異は、GraphQL ランタイムがクエリを解決するために使用する、サーバーに実装されている特定のデータグラフに依存しています。 GraphQL仕様では、データグラフの種類と関係を表現するための非依存の言語を定義します。
@@ -119,7 +128,7 @@ type Mutation {
 }
 ```
 
-[GraphQL ドキュメント &#x200B;](https://graphql.org/learn/schema/){target="_blank"}を詳しく調べて、ここで表されていない一部の概念の構文を含め、書体システムの詳細について学ぶことができます。 上記の例は自明である。 （また、構文がクエリ構文とどの程度似ているかに注意してください）。 GraphQL スキーマの定義は、特定の型の利用可能な引数とフィールドを、それらの型と共に表現するだけです。 `String`のような単純なスカラー型に到達するまで、各フィールド型はツリーを通して定義を持つ必要があります。
+[GraphQL ドキュメント ](https://graphql.org/learn/schema/){target="_blank"}を詳しく調べて、ここで表されていない一部の概念の構文を含め、書体システムの詳細について学ぶことができます。 上記の例は自明である。 （また、構文がクエリ構文とどの程度似ているかに注意してください）。 GraphQL スキーマの定義は、特定の型の利用可能な引数とフィールドを、それらの型と共に表現するだけです。 `String`のような単純なスカラー型に到達するまで、各フィールド型はツリーを通して定義を持つ必要があります。
 
 `input`宣言は、`type`のように、すべての点で有効ですが、引数の入力として使用できる型を定義します。 `interface`宣言にも注意してください。 これは、PHPのインターフェイスと多かれ少なかれ同じ関数を提供します。 その他のタイプはこのインターフェイスから継承されます。
 

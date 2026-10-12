@@ -12,26 +12,44 @@ topic: Commerce, Integrations, Content Management
 role: Developer, User
 level: Beginner
 exl-id: 5d688e6a-ae8c-4a55-b16c-5d3ae2d1bfd5
-TQID: https://experienceleague.adobe.com/9RhL9cCMdV9Cs9Q8LkCWUSfPlYIyB3XMoWtaXLI0PlM
+TQID: 'https://experienceleague.adobe.com/9RhL9cCMdV9Cs9Q8LkCWUSfPlYIyB3XMoWtaXLI0PlM'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: b48dbafb-4193-5648-b9d9-bf96e9c9a411
+    internal-label: Backend Development
+  - id: cc04bd17-78d5-5120-8c3d-1b8a57e49280
+    internal-label: Integration
+  - id: e7dae43f-215c-4cdf-90d3-c5a461a6e669
+    internal-label: Admin tools and workspace
+  - id: c4f010fa-1478-4300-a88d-706fbc036a7a
+    internal-label: APIs and SDKs
+subfeature_v2:
+  - id: bb2df8be-afdd-4818-b6b5-95ca1dd3bc3a
+    internal-label: Admin workspace
+  - id: e0ca0e7a-9738-48d1-b98b-615468ab4aaf
+    internal-label: REST API
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: b599f79ad41b9552cea6ff41062eb4ef75f183bb
+    internal-label: Optimization
+source-git-commit: 71835f0240311d4b26ec8e0d9bbdf005f9887579
 workflow-type: tm+mt
-source-wordcount: 673
+source-wordcount: '673'
 ht-degree: 0%
-
 ---
-
 # バンドル製品の作成
 
 バンドル製品とは、複数の製品を親製品の下にグループ化する方法です。 これらの子製品は、定義済みの製品セットであったり、顧客に柔軟な設定オプションを提供するバリエーションをいくつか提供したりすることができます。 バンドル製品タイプの設定には少し時間がかかるため、設定する前に計画を立てる必要があります。 ただし、バンドル商品を提供することで、顧客が商品の選択を簡単にカスタマイズできるようにし、ショッピング体験を向上させることができます。
@@ -47,9 +65,9 @@ ht-degree: 0%
 * 標準的なサーフボード
 * 典型的なサーフボードのリード
 * フィンカラーの選択：
-   * 赤
-   * 青
-   * 黄色
+  * 赤
+  * 青
+  * 黄色
 
 バンドルがシンプルな商品の静的グループであろうと、バリエーションの複数の商品であろうと、柔軟な設定オプションにより、バンドル商品タイプは、Adobe Commerceストアにとって一意の強力なマーチャンダイジングツールになります。
 
@@ -75,7 +93,7 @@ Adobe Commerce Adminからバンドル製品を作成する場合は、まずシ
 
 ## ビデオコンテンツ
 
->[!VIDEO](https://video.tv.adobe.com/v/3454497?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3426797?learn=on)
 
 ## RESTを使用した製品の作成
 
@@ -444,6 +462,6 @@ curl --location '{{your.url.here}}/rest/default/V1/bundle-products/options/add' 
 ## 関連資料
 
 * [バンドル製品チュートリアルの作成](https://developer.adobe.com/commerce/webapi/rest/tutorials/bundle-product/){target="_blank"}
-* [バンドル製品](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/types/product-create-bundle.html?lang=ja){target="_blank"}
+* [バンドル製品](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/types/product-create-bundle.html){target="_blank"}
 * [Adobe Developer REST チュートリアル](https://developer.adobe.com/commerce/webapi/rest/tutorials/prerequisite-tasks/){target="_blank"}
 * [Adobe Commerce REST Redoc](https://adobe-commerce.redoc.ly/2.4.6-admin/tag/products#operation/PostV1Products){target="_blank"}

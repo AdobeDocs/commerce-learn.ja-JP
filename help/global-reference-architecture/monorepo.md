@@ -4,32 +4,44 @@ description: Monorepoを活用してグローバル参照アーキテクチャ�
 jira: KT-16728
 doc-type: Tutorial
 duration: 349
-last-substantial-update: 2025-01-06
+last-substantial-update: 2025-01-06T00:00:00.000Z
 feature: Best Practices, Configuration, Install
 badge: label="Contributed by Tony Evers, シニア・テクニカル・アーキテクト，Adobe" type="Informative" url="https://www.linkedin.com/in/evers-tony" tooltip="アーティスト：Tony Evers"
 topic: Architecture, Commerce, Development
 role: Developer, User, Leader
 level: Experienced
 exl-id: ebdc13cf-c452-4728-af00-c3ea1149c2fa
-TQID: https://experienceleague.adobe.com/22ayPTG7ZgpcWr5l53Ide2sZeGTN-9P0jept0ZQ6njQ
+TQID: 'https://experienceleague.adobe.com/22ayPTG7ZgpcWr5l53Ide2sZeGTN-9P0jept0ZQ6njQ'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
   - id: e8818fe6-9c8b-4bc0-9ef8-377a10b7bc75
+    internal-label: Architecture
+  - id: cdfd3bc1-dc23-5cf0-b965-d3c0c55cde67
+    internal-label: Best Practices
+  - id: 6388cf7b-8a81-5248-a1e4-7bb57bbe250f
+    internal-label: Install
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 776428136218d5d3cf5b1720832798822039aee2
+    internal-label: Implementation
+source-git-commit: 71835f0240311d4b26ec8e0d9bbdf005f9887579
 workflow-type: tm+mt
-source-wordcount: 1399
+source-wordcount: '1399'
 ht-degree: 0%
-
 ---
-
 # Monorepo グローバル参照アーキテクチャパターン
 
 {{only-for-on-prem-commerce-cloud}}
@@ -38,7 +50,7 @@ ht-degree: 0%
 
 Monorepo GRA パターンには、すべての一般的なカスタマイズをホストする単一のGit リポジトリが含まれます。 この単一のGit リポジトリは、Composerを通じて個別のコンポーザーパッケージとして公開されます。
 
-![&#x200B; モノレポ GRA パターン内のコードの保存場所を示す図](/help/assets/global-reference-architecture/monorepo-gra-pattern-diagram.png){align="center"}
+![ モノレポ GRA パターン内のコードの保存場所を示す図](/help/assets/global-reference-architecture/monorepo-gra-pattern-diagram.png){align="center"}
 
 ## このパターンの利点と欠点
 
@@ -307,27 +319,27 @@ bin/magento test:local
 
 [Private Packagist](https://packagist.com/)は、Git monorepo内のパッケージの認識を自動化し、Composerを通じて公開します。 Adobe Commerceと互換性があり、高速でメンテナンスが少なく、エラーが発生しにくいため、このガイドではPrivate Packagist オプションに焦点を当てています。
 
-プライベート Packagistの設定方法については、このガイドの範囲を超えています。[&#x200B; ドキュメント &#x200B;](https://packagist.com/docs)を参照してください。
+プライベート Packagistの設定方法については、このガイドの範囲を超えています。[ ドキュメント ](https://packagist.com/docs)を参照してください。
 
 組織の同期を設定し、Git リポジトリがPrivate Packagistに自動的に同期されたら、パッケージをモノレポに変換する可能性があります。
 
 まず、「パッケージ」タブに移動して、monorepoを見つけます。
 
-![&#x200B; パッケージ画面にmonorepo パッケージが表示されているプライベート Packagistのスクリーンショット &#x200B;](/help/assets/global-reference-architecture/packagist-packages-before-multi-package.png){align="center"}
+![ パッケージ画面にmonorepo パッケージが表示されているプライベート Packagistのスクリーンショット ](/help/assets/global-reference-architecture/packagist-packages-before-multi-package.png){align="center"}
 
 monorepo パッケージをクリックし、詳細画面の「編集」をクリックすると、次のページに移動します。
 
-monorepo パッケージ編集ページを含む![Private Packagistのスクリーンショット &#x200B;](/help/assets/global-reference-architecture/packagist-packages-edit.png)
+monorepo パッケージ編集ページを含む![Private Packagistのスクリーンショット ](/help/assets/global-reference-architecture/packagist-packages-edit.png)
 
 最初の入力フィールドの下には、「マルチパッケージリポジトリを作成する」というリンクがあります。 このリンクをクリックします。
 
-マルチパッケージ設定を使用した![Private Packagistのスクリーンショット &#x200B;](/help/assets/global-reference-architecture/packagist-packages-multi-package.png)
+マルチパッケージ設定を使用した![Private Packagistのスクリーンショット ](/help/assets/global-reference-architecture/packagist-packages-multi-package.png)
 
 Monorepo内でコンポーザーパッケージを見つけることができる場所を定義します。 この例では、場所は`packages/**/composer.json`です。 Private Packagistが抽出するパッケージを検索する場所を制限または拡大するには、場所を変更します。
 
 「パッケージ」タブには、保存後に見つかったすべてのパッケージが表示され、monorepo自体はComposer パッケージとして表示されなくなります。
 
-![&#x200B; パッケージ画面に表示されているすべてのmonorepo パッケージを含むプライベート Packagistのスクリーンショット &#x200B;](/help/assets/global-reference-architecture/packagist-packages-after-multi-package.png)
+![ パッケージ画面に表示されているすべてのmonorepo パッケージを含むプライベート Packagistのスクリーンショット ](/help/assets/global-reference-architecture/packagist-packages-after-multi-package.png)
 
 Gitのmonorepoで作成されるタグまたはブランチごとに、monorepo内のパッケージごとにComposerでバージョンが作成されます。
 

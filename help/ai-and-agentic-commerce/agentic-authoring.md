@@ -4,16 +4,23 @@ description: Adobe Experience WorkspaceがAgentic AI アシスタントを活用
 role: User
 level: Beginner
 doc-type: Value Video
-last-substantial-update: 2026-06-11T00:00:00Z
+last-substantial-update: 2026-06-11T00:00:00.000Z
 jira: KT-21574
 duration: 376
-source-git-commit: cac02a33a2fcbfb83989178b6b2b41f364da1d43
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+source-git-commit: 71835f0240311d4b26ec8e0d9bbdf005f9887579
 workflow-type: tm+mt
 source-wordcount: '171'
 ht-degree: 0%
-
 ---
-
 # エージェント型オーサリング
 
 [!BADGE 近日リリース予定]{type=Informative tooltip="この機能は近日提供開始予定です。変更される可能性があります。"}
@@ -34,7 +41,7 @@ Adobe Experience Workspaceは、マーケターと開発者がファイル構造
 * カタログに対してクエリを実行し、キャンペーンページ全体を生成するように求める自然言語プロンプト
 * 公開前のブロックレベル編集とライブエッジレンダリングのプレビュー
 
->[!VIDEO](https://video.tv.adobe.com/v/3492297?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3492281)
 
 <!-- ## Additional resources -->
 
