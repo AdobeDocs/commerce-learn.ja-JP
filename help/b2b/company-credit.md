@@ -51,7 +51,7 @@ ht-degree: 0%
 ---
 # 会社クレジットを管理
 
-_[!UICONTROL Payment on Account]_&#x200B;が有効で、会社のクレジットが利用可能な会社は、付与されたクレジット制限までアカウントで購入できます。 この機能により、顧客はアカウントダッシュボードから自社のクレジットのステータスを確認することができます。
+_[!UICONTROL Payment on Account]_が有効で、会社のクレジットが利用可能な会社は、付与されたクレジット制限までアカウントで購入できます。 この機能により、顧客はアカウントダッシュボードから自社のクレジットのステータスを確認することができます。
 
 会社プロファイルごとに次のクレジット関連パラメーターを設定できます。
 
@@ -70,9 +70,9 @@ _[!UICONTROL Payment on Account]_&#x200B;が有効で、会社のクレジット
 
 ## ビデオコンテンツ
 
->[!VIDEO](https://video.tv.adobe.com/v/3410761?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/344445?learn=on)
 
 ## 関連資料
 
-* [アカウントでの支払いを設定](https://experienceleague.adobe.com/ja/docs/commerce-admin/b2b/enable-basic-features#configure-payment-on-account)
-* [会社クレジットを管理](https://experienceleague.adobe.com/ja/docs/commerce-admin/b2b/companies/credit-company)
+* [アカウントでの支払いを設定](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/enable-basic-features#configure-payment-on-account)
+* [会社クレジットを管理](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/companies/credit-company)

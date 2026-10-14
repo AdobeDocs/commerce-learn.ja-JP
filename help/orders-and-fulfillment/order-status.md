@@ -51,9 +51,9 @@ ht-degree: 0%
 
 ## ビデオコンテンツ
 
->[!VIDEO](https://video.tv.adobe.com/v/3410799?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/343935?learn=on)
 
 ## 関連資料
 
-* [注文の処理 –  [!DNL Commerce] 店舗および購入エクスペリエンスガイド](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/order-processing.html?lang=ja#process-an-order)
-* [注文状況 –  [!DNL Commerce] 店舗および購入エクスペリエンスガイド](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/order-status.html?lang=ja)
+* [注文の処理 –  [!DNL Commerce] 店舗および購入エクスペリエンスガイド](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/order-processing.html#process-an-order)
+* [注文状況 –  [!DNL Commerce] 店舗および購入エクスペリエンスガイド](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/order-status.html)

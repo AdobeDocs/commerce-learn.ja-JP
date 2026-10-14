@@ -53,10 +53,10 @@ ht-degree: 0%
 
 ## ビデオコンテンツ
 
->[!VIDEO](https://video.tv.adobe.com/v/330191?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/36189?learn=on)
 
 ## 関連資料
 
-[個々の顧客アカウントの作成 –  [!DNL Commerce] 顧客管理ガイド](https://experienceleague.adobe.com/docs/commerce-admin/customers/customer-accounts/account-create.html?lang=ja)
+[個々の顧客アカウントの作成 –  [!DNL Commerce] 顧客管理ガイド](https://experienceleague.adobe.com/docs/commerce-admin/customers/customer-accounts/account-create.html)
 
-[顧客グループ - [!DNL Commerce] 顧客管理ガイド](https://experienceleague.adobe.com/docs/commerce-admin/customers/customers-menu/customer-groups.html?lang=ja)
+[顧客グループ - [!DNL Commerce] 顧客管理ガイド](https://experienceleague.adobe.com/docs/commerce-admin/customers/customers-menu/customer-groups.html)
