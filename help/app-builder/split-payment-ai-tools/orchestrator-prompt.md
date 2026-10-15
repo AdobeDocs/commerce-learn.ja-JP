@@ -8,14 +8,12 @@ level: Intermediate
 doc-type: Tutorial
 duration: 421
 jira: KT-20902
-last-substantial-update: 2026-04-27T00:00:00Z
+last-substantial-update: 2026-04-27
 source-git-commit: 63ac13d8c5a97ee81dcdd1f3785a9875aaf2a4db
 workflow-type: tm+mt
-source-wordcount: '927'
-ht-degree: 0%
-
+source-wordcount: '945'
+ht-degree: 1%
 ---
-
 # 分割支払いPOC: App Builder orchestrator AI プロンプト
 
 このページを使用して、**split-payment-orchestrator** プロジェクトを生成するプロンプト全体をコピーします。**payment-orchestrator** I/O イベントコンシューマー、**payment-accept**&#x200B;および&#x200B;**payment-decline** web アクション、**demo-dashboard**、およびCommerce REST クライアント。
@@ -217,8 +215,8 @@ Adobe Commerce I/O Eventsは、ペイロードを複数の形状で配信する�
 * `orderId = value.entity_id || value.id`
 * `orderTotal = parseFloat(value.grand_total ?? value.base_grand_total ?? value.subtotal ?? '0')`
 * `value.extension_attributes`から金額を分割（`extension_attributes`と`extensionAttributes`の両方を確認）:
-   * `storeCredit = parseFloat(ext.split_store_credit_amount ?? value.split_store_credit_amount ?? '0')`
-   * `cash = parseFloat(ext.split_cash_amount ?? value.split_cash_amount ?? '0')`
+  * `storeCredit = parseFloat(ext.split_store_credit_amount ?? value.split_store_credit_amount ?? '0')`
+  * `cash = parseFloat(ext.split_cash_amount ?? value.split_cash_amount ?? '0')`
 
 **フロー：**
 1. 値を抽出します。`orderId`が見つからない場合は、エラーをログに記録して`{ statusCode: 200, body: { ok: false, message: PUBLIC_ERROR } }`を返します
