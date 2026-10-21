@@ -110,8 +110,8 @@ Adobe CommerceまたはMagento Open Sourceの品質パッチツールを使用�
 
 ## 関連する記事とビデオ
 
-* [品質パッチツール検索](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html)
-* [リリースノート](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/release-notes)
+* [品質パッチツール検索](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html?lang=ja)
+* [リリースノート](https://experienceleague.adobe.com/ja/docs/commerce-operations/tools/quality-patches-tool/release-notes)
 * [パッチ用Github](https://github.com/magento/quality-patches/blob/master/patches/os/)
-* [品質パッチツールの使用](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/usage)
-* [QPTのテクニカルビデオ](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/tools/quality-patch-tool)
+* [品質パッチツールの使用](https://experienceleague.adobe.com/ja/docs/commerce-operations/tools/quality-patches-tool/usage)
+* [QPTのテクニカルビデオ](https://experienceleague.adobe.com/ja/docs/commerce-learn/tutorials/tools/quality-patch-tool)

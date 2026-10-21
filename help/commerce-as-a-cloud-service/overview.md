@@ -69,4 +69,4 @@ Adobe Commerce as a Cloud Serviceは、自動更新やコンポーザブルア�
 
 ## 関連ドキュメント
 
-* [Adobe Commerce as a Cloud Service ガイド](https://experienceleague.adobe.com/en/docs/commerce/cloud-service/overview)
+* [Adobe Commerce as a Cloud Service ガイド](https://experienceleague.adobe.com/ja/docs/commerce/cloud-service/overview)
