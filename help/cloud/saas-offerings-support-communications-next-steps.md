@@ -66,7 +66,7 @@ Adobe Commerce CloudのSaaS製品、サポート、その他のコミュニケ�
 
 ## ビデオコンテンツ
 
->[!VIDEO](https://video.tv.adobe.com/v/3427902?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3432837?captions=jpn&learn=on)
 
 ## 頭字語
 

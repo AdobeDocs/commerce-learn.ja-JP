@@ -65,7 +65,7 @@ Adobe Commerce as a Cloud Serviceは、自動更新やコンポーザブルア�
 * オンボーディングとセルフサービスのプロビジョニングを簡素化し、サンドボックスまたは実稼動インスタンスを迅速かつ効率的にセットアップできます。
 * API ファーストの拡張性を備え、独立したデプロイメント、スケーリング、サービスの更新を可能にするコンポーザブルアーキテクチャ。
 
->[!VIDEO](https://video.tv.adobe.com/v/3443311?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443312?captions=jpn&learn=on)
 
 ## 関連ドキュメント
 

@@ -61,7 +61,7 @@ Adobe Experience League for Adobe Commerceでサポートチケットを作成�
 * フォームで使用された情報に応じて、推奨される記事がどのように変化するかを説明します
 * フォームフィールド内のプレースホルダーテキストが、適切なサポートリクエストに必要な情報タイプを理解するのに役立つ仕組み
 
->[!VIDEO](https://video.tv.adobe.com/v/3433065?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3449554?captions=jpn&learn=on)
 
 ## Commerce Knowledge Base アドビヘルプセンターガイド
 

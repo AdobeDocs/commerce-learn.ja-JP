@@ -51,5 +51,5 @@ Salesforce Commerce Cloud インスタンス用のAdobe Commerce Optimizer カ�
 * 追跡と同期をサポートするために、カスタムオブジェクトとジョブ定義をインポートします。
 * カスタム API エンドポイントをテストして、正常にインストールされたことを確認し、カタログ同期の準備を行います。
 
->[!VIDEO](https://video.tv.adobe.com/v/3476069?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3476071?captions=jpn&learn=on)
 

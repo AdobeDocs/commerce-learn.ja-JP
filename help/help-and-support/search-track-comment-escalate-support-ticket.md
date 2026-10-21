@@ -49,7 +49,7 @@ Adobe Experience League for Adobe Commerce内でサポートチケットを検�
 * オープンサポートチケットにコメントを追加する方法を説明します
 * サポートチケットをエスカレーションする方法と理由について説明します
 
->[!VIDEO](https://video.tv.adobe.com/v/3433076?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3445312?captions=jpn&learn=on)
 
 ## Commerce Knowledge Base アドビヘルプセンターガイド
 

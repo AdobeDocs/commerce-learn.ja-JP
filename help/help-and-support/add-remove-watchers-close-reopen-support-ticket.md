@@ -49,7 +49,7 @@ Adobe Experience League for Adobe Commerce内で、視聴者を追加および�
 * サポートチケットをクローズする方法を説明します
 * サポートチケットの再開方法を確認する
 
->[!VIDEO](https://video.tv.adobe.com/v/3433082?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3441350?captions=jpn&learn=on)
 
 ## Commerce Knowledge Base アドビヘルプセンターガイド
 

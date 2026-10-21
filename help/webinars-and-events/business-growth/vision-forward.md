@@ -85,4 +85,4 @@ Adobe Commerceの2026年のロードマップでは、リアルタイムデー�
 * Merchant Center &amp; Admin Experience
 * 開発者エクスペリエンスとオブザーバビリティの向上
 
->[!VIDEO](https://video.tv.adobe.com/v/3475695?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3475707?captions=jpn&learn=on)

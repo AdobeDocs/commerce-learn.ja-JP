@@ -55,7 +55,7 @@ pt-query-digestを使用する理由と、分析の改善に役立つ実用的�
 * このPercona Toolkit機能のメリットと欠点について説明します
 * 結果を把握し、考慮すべきパフォーマンスのステップを把握します
 
->[!VIDEO](https://video.tv.adobe.com/v/3423480?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3452288?captions=jpn&learn=on)
 
 ## コード参照
 
