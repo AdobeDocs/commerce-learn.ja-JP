@@ -43,7 +43,7 @@ ht-degree: 0%
 ---
 # Adobe Commerceの設定
 
-イベントを公開するようにAdobe Commerceを設定する方法を説明します。 その他のドキュメントについては、[Adobe Commerce用Adobe I/O Eventsのインストール ](https://developer.adobe.com/commerce/extensibility/events/installation){target="_blank"}を参照してください。
+イベントを公開するようにAdobe Commerceを設定する方法を説明します。 その他のドキュメントについては、[Adobe Commerce用Adobe I/O Eventsのインストール &#x200B;](https://developer.adobe.com/commerce/extensibility/events/installation){target="_blank"}を参照してください。
 
 ## この動画は誰のためのものでしょうか？
 

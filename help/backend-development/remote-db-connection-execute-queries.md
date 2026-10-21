@@ -344,7 +344,7 @@ MariaDB データベースに直接アクセスするには、SSHを使用して
 
 ## SQLを実行するためのクラウドプロジェクトデータベースへの直接接続
 
-次のメソッドは、`magento-cloud` CLIを使用してMySQL データベースに直接接続し、SQLを実行してクエリを高速化します。 このデータベースのコピーが必要な場合は、[ データベースダンプの作成](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/how-to/create-database-dump-on-cloud)に代わりの方法のいずれかを使用します。
+次のメソッドは、`magento-cloud` CLIを使用してMySQL データベースに直接接続し、SQLを実行してクエリを高速化します。 このデータベースのコピーが必要な場合は、[&#x200B; データベースダンプの作成](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/how-to/create-database-dump-on-cloud)に代わりの方法のいずれかを使用します。
 
 ```bash
 magento-cloud db:sql    
