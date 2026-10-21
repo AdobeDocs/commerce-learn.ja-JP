@@ -36,14 +36,14 @@ level_v2:
     internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 71835f0240311d4b26ec8e0d9bbdf005f9887579
+source-git-commit: 7516911fc14bc80f327310b99a00f9cbff7c65c7
 workflow-type: tm+mt
 source-wordcount: '140'
 ht-degree: 0%
 ---
 # Adobe Commerce モジュール開発
 
-カスタムモジュール開発でイベントを登録し、サポートされているイベントを見つけ、新しいXML ファイル `io_events.xml`を使用する方法を説明します。 また、このビデオでは、使用する登録イベントの検索方法と、定義済みのイベントの削除方法も説明します。 その他のドキュメントについては、[Adobe Commerce用Adobe I/O Eventsのインストール &#x200B;](https://developer.adobe.com/commerce/extensibility/events/installation){target="_blank"}を参照してください。
+カスタムモジュール開発でイベントを登録し、サポートされているイベントを見つけ、新しいXML ファイル `io_events.xml`を使用する方法を説明します。 また、このビデオでは、使用する登録イベントの検索方法と、定義済みのイベントの削除方法も説明します。 その他のドキュメントについては、[Adobe Commerce用Adobe I/O Eventsのインストール ](https://developer.adobe.com/commerce/extensibility/events/installation){target="_blank"}を参照してください。
 
 ## この動画は誰のためのものでしょうか？
 
@@ -57,7 +57,7 @@ ht-degree: 0%
 * Commerce インスタンス `app/etc/config.php`でイベントを登録する方法を説明します
 * イベントから購読を解除する方法を説明します
 
->[!VIDEO](https://video.tv.adobe.com/v/3419837?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3415802?learn=on)
 
 ## 便利なコマンド {#useful-commands}
 

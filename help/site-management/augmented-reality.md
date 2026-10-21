@@ -42,7 +42,7 @@ level_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 71835f0240311d4b26ec8e0d9bbdf005f9887579
+source-git-commit: 7516911fc14bc80f327310b99a00f9cbff7c65c7
 workflow-type: tm+mt
 source-wordcount: '524'
 ht-degree: 0%
@@ -87,8 +87,8 @@ AR Viewerは、実店舗とデジタル店舗の差を[!DNL bridge]に引き上�
 
 ## 役立つリソース
 
-Adobe Commerce用[AR ビューア](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/digital-assets/product-3d-model/ar-viewer-overview.html?lang=ja){target="_blank"}
-[Adobe CommerceのAR ビューアで商品3D モデルを管理](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/digital-assets/product-3d-model/ar-viewer-setup.html?lang=ja){target="_blank"}
+Adobe Commerce用[AR ビューア](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/digital-assets/product-3d-model/ar-viewer-overview.html){target="_blank"}
+[Adobe CommerceのAR ビューアで商品3D モデルを管理](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/digital-assets/product-3d-model/ar-viewer-setup.html){target="_blank"}
 
 ## Adobe Commerce Marketplace拡張機能
 

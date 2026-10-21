@@ -37,7 +37,7 @@ topic_v2:
     internal-label: Troubleshooting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 71835f0240311d4b26ec8e0d9bbdf005f9887579
+source-git-commit: 7516911fc14bc80f327310b99a00f9cbff7c65c7
 workflow-type: tm+mt
 source-wordcount: '121'
 ht-degree: 0%
@@ -58,7 +58,7 @@ Open Telemetryが、単一のモニタリングツールに縛られることな
 * ログ、トレース、指標を関連付けて、根本原因の分析を迅速化
 * 既存のモニタリングツールを維持しながら、データストリームを統合
 
->[!VIDEO](https://video.tv.adobe.com/v/3478324?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3478287?learn=on)
 
 {{$include /help/_includes/app-builder-observability-related-links.md}}
 

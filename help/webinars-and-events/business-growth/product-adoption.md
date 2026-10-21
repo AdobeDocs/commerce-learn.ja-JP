@@ -40,7 +40,7 @@ topic_v2:
     internal-label: Artificial intelligence
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 71835f0240311d4b26ec8e0d9bbdf005f9887579
+source-git-commit: 7516911fc14bc80f327310b99a00f9cbff7c65c7
 workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 0%
@@ -63,4 +63,4 @@ Adobe Commerceでは、段階的にAdobe Commerce as a Cloud ServiceやAdobe Com
 * App Builderの拡張性により、カスタムロジックをサーバーレス関数に分離して、メンテナンスを容易に行うことができます。
 * ストアフロントの機能強化ドロップインコンポーネントとエッジ配信により、パフォーマンスとコンテンツ制作を向上させます。
 
->[!VIDEO](https://video.tv.adobe.com/v/3475749?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3475737?learn=on)

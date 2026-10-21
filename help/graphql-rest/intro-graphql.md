@@ -30,7 +30,7 @@ level_v2:
     internal-label: Beginner
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
-source-git-commit: 71835f0240311d4b26ec8e0d9bbdf005f9887579
+source-git-commit: 7516911fc14bc80f327310b99a00f9cbff7c65c7
 workflow-type: tm+mt
 source-wordcount: '514'
 ht-degree: 6%
@@ -41,13 +41,13 @@ ht-degree: 6%
 
 GraphQLを初めて使用する場合は、この節では基本的な概念と使用方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3443941?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3424117?learn=on)
 
 ## このシリーズのGraphQLに関する関連動画とチュートリアル
 
 * [パート 2 GraphQL - クエリ](../graphql-rest/graphql-queries.md)
 * [第3部GraphQL – 変異](../graphql-rest/graphql-mutations.md)
-* [&#x200B; パート 4 GraphQL - スキーマ &#x200B;](../graphql-rest/graphql-schema.md)
+* [ パート 4 GraphQL - スキーマ ](../graphql-rest/graphql-schema.md)
 
 ## GraphQLとは？
 

@@ -35,7 +35,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 71835f0240311d4b26ec8e0d9bbdf005f9887579
+source-git-commit: 7516911fc14bc80f327310b99a00f9cbff7c65c7
 workflow-type: tm+mt
 source-wordcount: '112'
 ht-degree: 0%
@@ -54,4 +54,4 @@ Adobe Commerce管理者で使用するフィルターを検索および調整す
 * フィルターを使用して管理者グリッドの結果を制限する方法について説明します
 * Adobe Commerce Admin Consoleの他の管理者に対するフィルターの影響について説明します
 
->[!VIDEO](https://video.tv.adobe.com/v/3440383?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3440382?learn=on)

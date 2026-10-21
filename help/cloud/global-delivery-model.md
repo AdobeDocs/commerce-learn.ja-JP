@@ -67,7 +67,7 @@ topic_v2:
     internal-label: Optimization
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: 71835f0240311d4b26ec8e0d9bbdf005f9887579
+source-git-commit: 7516911fc14bc80f327310b99a00f9cbff7c65c7
 workflow-type: tm+mt
 source-wordcount: '269'
 ht-degree: 0%
@@ -88,4 +88,4 @@ Adobe Commerceは、AWSとAzureで利用可能なハイブリッドクラウド 
 * AIを利用した高度なサービス。 ライブ検索、AIを活用した商品レコメンデーション、カタログサービスなどのAPI ファーストのインテリジェントなサービスについて理解を深め、顧客体験と業務効率を向上させることができます。
 * 包括的な開発者向けツール： API MeshやApp Builderなど、シームレスな統合とカスタマイズが可能な、クラウドネイティブでサーバーレスな開発者向けツール群について説明し、コマース機能を拡張できます。
 
->[!VIDEO](https://video.tv.adobe.com/v/3433501?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3433500?learn=on)

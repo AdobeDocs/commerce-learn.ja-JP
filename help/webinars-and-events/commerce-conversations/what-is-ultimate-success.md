@@ -31,7 +31,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 71835f0240311d4b26ec8e0d9bbdf005f9887579
+source-git-commit: 7516911fc14bc80f327310b99a00f9cbff7c65c7
 workflow-type: tm+mt
 source-wordcount: '167'
 ht-degree: 0%
@@ -52,4 +52,4 @@ Adobe Commerce Ultimate Successは、先見的なビジネスおよび技術的�
 * 多層的なロードマップとサクセスアクセレーター：包括的なプランニングとインパクトのあるエンゲージメントを提供し、製品の利用性を向上させます。
 * 優先順位付けされた問題解決とエスカレーション管理：重要な問題に対する迅速な応答時間とエキスパート分析を提供します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3457646?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3457644?learn=on)

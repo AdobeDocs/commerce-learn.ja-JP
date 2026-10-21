@@ -41,7 +41,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 71835f0240311d4b26ec8e0d9bbdf005f9887579
+source-git-commit: 7516911fc14bc80f327310b99a00f9cbff7c65c7
 workflow-type: tm+mt
 source-wordcount: '218'
 ht-degree: 0%
@@ -58,7 +58,7 @@ ht-degree: 0%
 * 新しいAdobe Commerce バージョンへのアップグレードに必要なエラーと修正をすばやく特定する方法
 * モジュールの重大度と非互換性の数を確認するには、HTMLの結果にアクセスしてください
 
-このツールについて詳しくは、[互換性ツールのアップグレードに関するドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-operations/upgrade-guide/upgrade-compatibility-tool/overview)を参照してください。 アップグレードの実行と簡素化について詳しくは、[&#x200B; アップグレードガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-operations/upgrade-guide/overview)を参照してください。
+このツールについて詳しくは、[互換性ツールのアップグレードに関するドキュメント ](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/upgrade-compatibility-tool/overview)を参照してください。 アップグレードの実行と簡素化について詳しくは、[ アップグレードガイド ](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/overview)を参照してください。
 
 ## この動画は誰のためのものでしょうか？
 
@@ -67,11 +67,11 @@ ht-degree: 0%
 
 ## ビデオコンテンツ
 
->[!VIDEO](https://video.tv.adobe.com/v/344385?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/341245?learn=on)
 
 ## 関連資料
 
-* [互換性ツールのドキュメントのアップグレード](https://experienceleague.adobe.com/ja/docs/commerce-operations/upgrade-guide/upgrade-compatibility-tool/overview)
-* [アップグレードガイド](https://experienceleague.adobe.com/ja/docs/commerce-operations/upgrade-guide/overview)
-* [リリース済みバージョン](https://experienceleague.adobe.com/ja/docs/commerce-operations/release/versions)
-* [リリーススケジュール](https://experienceleague.adobe.com/ja/docs/commerce-operations/release/planning/schedule)
+* [互換性ツールのドキュメントのアップグレード](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/upgrade-compatibility-tool/overview)
+* [アップグレードガイド](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/overview)
+* [リリース済みバージョン](https://experienceleague.adobe.com/en/docs/commerce-operations/release/versions)
+* [リリーススケジュール](https://experienceleague.adobe.com/en/docs/commerce-operations/release/planning/schedule)

@@ -41,7 +41,7 @@ topic_v2:
     internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 71835f0240311d4b26ec8e0d9bbdf005f9887579
+source-git-commit: 7516911fc14bc80f327310b99a00f9cbff7c65c7
 workflow-type: tm+mt
 source-wordcount: '166'
 ht-degree: 0%
@@ -61,8 +61,8 @@ Adobe Experience League for Adobe Commerceでサポートチケットを作成�
 * フォームで使用された情報に応じて、推奨される記事がどのように変化するかを説明します
 * フォームフィールド内のプレースホルダーテキストが、適切なサポートリクエストに必要な情報タイプを理解するのに役立つ仕組み
 
->[!VIDEO](https://video.tv.adobe.com/v/3449554?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3433065?learn=on)
 
 ## Commerce Knowledge Base アドビヘルプセンターガイド
 
-[サポートケースを送信](https://experienceleague.adobe.com/ja/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case)
+[サポートケースを送信](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case)

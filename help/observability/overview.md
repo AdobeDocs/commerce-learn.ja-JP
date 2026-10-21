@@ -41,7 +41,7 @@ topic_v2:
     internal-label: Troubleshooting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 71835f0240311d4b26ec8e0d9bbdf005f9887579
+source-git-commit: 7516911fc14bc80f327310b99a00f9cbff7c65c7
 workflow-type: tm+mt
 source-wordcount: '124'
 ht-degree: 0%
@@ -62,7 +62,7 @@ ht-degree: 0%
 * 一元化された可観測性が重要：すべてのコンポーネントにわたってログと指標を関連付けます。
 * チェックアウトパフォーマンスを高める：ショッピングをスムーズに保つために、ボトルネックをすばやく特定します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3478289?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3478286?learn=on)
 
 {{$include /help/_includes/app-builder-observability-related-links.md}}
 

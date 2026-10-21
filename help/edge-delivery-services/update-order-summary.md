@@ -41,7 +41,7 @@ level_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 71835f0240311d4b26ec8e0d9bbdf005f9887579
+source-git-commit: 7516911fc14bc80f327310b99a00f9cbff7c65c7
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 0%
@@ -65,8 +65,8 @@ Adobe Commerceのカートドロップインの使用方法とカート体験を
 * カートの概要に保存された合計金額を含める方法を説明します。
 * 買い物かごの概要の行を1つの折りたたみ可能なセクションに結合する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3441186?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3441185?learn=on)
 
 ## その他のドキュメント
 
-* [注文の概要](https://experienceleague.adobe.com/developer/commerce/storefront/dropins/cart/tutorials/order-summary-lines/?lang=ja)
+* [注文の概要](https://experienceleague.adobe.com/developer/commerce/storefront/dropins/cart/tutorials/order-summary-lines/)

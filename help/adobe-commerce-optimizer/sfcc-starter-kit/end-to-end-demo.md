@@ -27,7 +27,7 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 71835f0240311d4b26ec8e0d9bbdf005f9887579
+source-git-commit: 7516911fc14bc80f327310b99a00f9cbff7c65c7
 workflow-type: tm+mt
 source-wordcount: '224'
 ht-degree: 0%
@@ -49,5 +49,5 @@ Salesforce CommerceとCommerce Optimizerの間で、スターターキットを�
 * Salesforce Commerce Cloud カタログ内の商品の詳細と価格の変更は、Delta Sync プロセスを介してCommerce Optimizerで自動的に検出および更新されます。
 * リアルタイムで更新され、システム間のシームレスなデータフローと同期を実証します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3476094?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3476082?learn=on)
 

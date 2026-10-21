@@ -30,7 +30,7 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 71835f0240311d4b26ec8e0d9bbdf005f9887579
+source-git-commit: 7516911fc14bc80f327310b99a00f9cbff7c65c7
 workflow-type: tm+mt
 source-wordcount: '143'
 ht-degree: 0%
@@ -49,8 +49,8 @@ Adobe Experience League for Adobe Commerce内で、視聴者を追加および�
 * サポートチケットをクローズする方法を説明します
 * サポートチケットの再開方法を確認する
 
->[!VIDEO](https://video.tv.adobe.com/v/3441350?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3433082?learn=on)
 
 ## Commerce Knowledge Base アドビヘルプセンターガイド
 
-[サポートケースを送信](https://experienceleague.adobe.com/ja/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case)
+[サポートケースを送信](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case)

@@ -38,7 +38,7 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 71835f0240311d4b26ec8e0d9bbdf005f9887579
+source-git-commit: 7516911fc14bc80f327310b99a00f9cbff7c65c7
 workflow-type: tm+mt
 source-wordcount: '158'
 ht-degree: 0%
@@ -63,8 +63,8 @@ Edge Delivery ServicesのAdobe Commerce カートを使用して、オンライ�
 * 配送と実店舗での受け取りを切り替える
 * 受け取り場所の取得
 
->[!VIDEO](https://video.tv.adobe.com/v/3441701?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3441699?learn=on)
 
 ## その他のドキュメント
 
-* [オンラインで購入、店舗で受け取り](https://experienceleague.adobe.com/developer/commerce/storefront/dropins/checkout/tutorials/buy-online-pickup-in-store/?lang=ja)
+* [オンラインで購入、店舗で受け取り](https://experienceleague.adobe.com/developer/commerce/storefront/dropins/checkout/tutorials/buy-online-pickup-in-store/)

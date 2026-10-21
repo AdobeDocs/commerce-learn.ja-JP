@@ -40,7 +40,7 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 71835f0240311d4b26ec8e0d9bbdf005f9887579
+source-git-commit: 7516911fc14bc80f327310b99a00f9cbff7c65c7
 workflow-type: tm+mt
 source-wordcount: '559'
 ht-degree: 0%
@@ -70,7 +70,7 @@ Adobe Commerce管理者からグループ化された商品を作成する場合
 
 ## ビデオコンテンツ
 
->[!VIDEO](https://video.tv.adobe.com/v/3454039?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3425920?learn=on)
 
 ## グループ化された製品の設定
 
@@ -210,10 +210,10 @@ curl --location --request PUT '{{your.url.here}}/rest/default/V1/products/my-new
 
 ## グループ化された製品から単純な製品を削除する
 
-グループ化された製品から単純な製品[&#128279;](https://developer.adobe.com/commerce/webapi/rest/tutorials/grouped-product/)を削除するには、次を使用します：`DELETE /V1/products/{sku}/links/{type}/{linkedProductSku}`。
+グループ化された製品から単純な製品](https://developer.adobe.com/commerce/webapi/rest/tutorials/grouped-product/)を[削除するには、次を使用します：`DELETE /V1/products/{sku}/links/{type}/{linkedProductSku}`。
 
 `{type}`として使用する内容を見つけるには、xdebugを使用してリクエストを取得し、$linkTypes: `related`、`crosssell`、`uupsell`、および`associated`を評価します。
-![&#x200B; グループ化された製品リンクの種類 – alt テキスト &#x200B;](/help/assets/site-management/catalog/grouped-types.png " グループ化された製品リンクの種類がxdebug セッション中にキャプチャされました")
+![ グループ化された製品リンクの種類 – alt テキスト ](/help/assets/site-management/catalog/grouped-types.png " グループ化された製品リンクの種類がxdebug セッション中にキャプチャされました")
 
 シンプルな製品をグループ化された製品にリンクする場合、ペイロードには次のようなセクションが含まれています。
 
@@ -251,6 +251,6 @@ curl --location '{{your.url.here}}rest/default/V1/products/some-grouped-product-
 ## 関連資料
 
 * [グループ化された商品の作成と管理](https://developer.adobe.com/commerce/webapi/rest/tutorials/grouped-product/){target="_blank"}
-* [グループ化された製品](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/types/product-create-grouped.html?lang=ja){target="_blank"}
+* [グループ化された製品](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/types/product-create-grouped.html){target="_blank"}
 * [Adobe Developer REST チュートリアル](https://developer.adobe.com/commerce/webapi/rest/tutorials/prerequisite-tasks/){target="_blank"}
 * [Adobe Commerce REST Redoc](https://adobe-commerce.redoc.ly/2.4.6-admin/tag/products#operation/PostV1Products){target="_blank"}

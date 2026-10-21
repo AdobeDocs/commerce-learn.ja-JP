@@ -27,7 +27,7 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 71835f0240311d4b26ec8e0d9bbdf005f9887579
+source-git-commit: 7516911fc14bc80f327310b99a00f9cbff7c65c7
 workflow-type: tm+mt
 source-wordcount: '202'
 ht-degree: 0%
@@ -47,5 +47,5 @@ Salesforce Commerce Cloud（SFCC）とAdobe App Builderを統合するCommerce O
 * カスタム SFCC カートリッジとAPIにより、差分エクスポートによってカタログの変更を検出できるため、Adobe App Builderとの効率的なデータ同期が可能です。
 * App Builder ランタイムアクション フル同期と差分同期、検証、状態追跡を管理して、Commerce Optimizerの更新を正確かつスムーズに行うことができます。
 
->[!VIDEO](https://video.tv.adobe.com/v/3476052?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3476046?learn=on)
 

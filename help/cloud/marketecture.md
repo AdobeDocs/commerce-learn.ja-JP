@@ -49,7 +49,7 @@ topic_v2:
     internal-label: Insights
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: 71835f0240311d4b26ec8e0d9bbdf005f9887579
+source-git-commit: 7516911fc14bc80f327310b99a00f9cbff7c65c7
 workflow-type: tm+mt
 source-wordcount: '230'
 ht-degree: 0%
@@ -72,4 +72,4 @@ API MeshやUnified Event Managementなどの拡張性ツールにより、開発
 * Adobe Commerceは、ライブサーチ、AI レコメンデーション、柔軟な支払いソリューションなど、構成可能なサービスを提供します。
 * API Mesh、イベント統合管理およびAdobe Experience Platformとのシームレスな連携を含む高度な連携。
 
->[!VIDEO](https://video.tv.adobe.com/v/3433436?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3433435?learn=on)

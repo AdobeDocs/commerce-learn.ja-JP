@@ -37,7 +37,7 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 71835f0240311d4b26ec8e0d9bbdf005f9887579
+source-git-commit: 7516911fc14bc80f327310b99a00f9cbff7c65c7
 workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 0%
@@ -52,7 +52,7 @@ Commerce CLIで設定値を表示、設定、検索する方法のデモ。 値�
 
 ## ビデオコンテンツ
 
->[!VIDEO](https://video.tv.adobe.com/v/3439971?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3427123?learn=on)
 
 ## チュートリアルで使用されるいくつかのコマンド
 
@@ -87,5 +87,5 @@ SELECT * FROM core_config_data WHERE path = 'trans_email/ident_sales/email';
 
 ## 関連資料
 
-* [コマンドラインツール](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/config-cli.html?lang=ja){target="_blank"}
-* [管理者セキュリティの設定](https://experienceleague.adobe.com/docs/commerce-admin/systems/security/security-admin.html?lang=ja){target="_blank"}
+* [コマンドラインツール](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/config-cli.html){target="_blank"}
+* [管理者セキュリティの設定](https://experienceleague.adobe.com/docs/commerce-admin/systems/security/security-admin.html){target="_blank"}

@@ -36,14 +36,14 @@ level_v2:
     internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 71835f0240311d4b26ec8e0d9bbdf005f9887579
+source-git-commit: 7516911fc14bc80f327310b99a00f9cbff7c65c7
 workflow-type: tm+mt
 source-wordcount: '114'
 ht-degree: 0%
 ---
 # Adobe Commerceの設定
 
-イベントを公開するようにAdobe Commerceを設定する方法を説明します。 その他のドキュメントについては、[Adobe Commerce用Adobe I/O Eventsのインストール &#x200B;](https://developer.adobe.com/commerce/extensibility/events/installation){target="_blank"}を参照してください。
+イベントを公開するようにAdobe Commerceを設定する方法を説明します。 その他のドキュメントについては、[Adobe Commerce用Adobe I/O Eventsのインストール ](https://developer.adobe.com/commerce/extensibility/events/installation){target="_blank"}を参照してください。
 
 ## この動画は誰のためのものでしょうか？
 
@@ -56,7 +56,7 @@ ht-degree: 0%
 * 一意のIDをCommerce管理者に保存する
 * イベントプロバイダーの作成
 
->[!VIDEO](https://video.tv.adobe.com/v/3419715?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3415799?learn=on)
 
 ## 便利なコマンド {#useful-commands}
 

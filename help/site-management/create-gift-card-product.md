@@ -49,7 +49,7 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: 71835f0240311d4b26ec8e0d9bbdf005f9887579
+source-git-commit: 7516911fc14bc80f327310b99a00f9cbff7c65c7
 workflow-type: tm+mt
 source-wordcount: '237'
 ht-degree: 0%
@@ -66,7 +66,7 @@ REST APIとAdobe Commerce管理者を使用してギフトカード商品を作�
 
 ## ビデオコンテンツ
 
->[!VIDEO](https://video.tv.adobe.com/v/3453078?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3427128?learn=on)
 
 ## シンプルなペイロードでギフトカードを作成
 
@@ -360,6 +360,6 @@ curl --location '{{your.url.here}}/rest/default/V1/products' \
 
 ## 関連資料
 
-* [Commerce管理者からギフトカード商品を作成する](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/types/product-gift-card-create.html?lang=ja){target="_blank"}
+* [Commerce管理者からギフトカード商品を作成する](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/types/product-gift-card-create.html){target="_blank"}
 * [Adobe Developer REST チュートリアル](https://developer.adobe.com/commerce/webapi/rest/tutorials/prerequisite-tasks/){target="_blank"}
 * [Adobe Commerce REST Redoc](https://adobe-commerce.redoc.ly/2.4.6-admin/tag/products#operation/PostV1Products){target="_blank"}

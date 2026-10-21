@@ -10,9 +10,6 @@ topic: Commerce, Administration
 role: User
 level: Beginner
 exl-id: d8e2748e-ea17-4e4b-9b80-aa7013b605a1
-subFeature_v2:
-  - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
-    internal-label: B2B
 autotag-review: '2026-08-11T19:20:30.601Z'
 TQID: 'https://experienceleague.adobe.com/f1P1dTAZPjXJzVsKD5NE8HLgCnGChCPwLbEHXDIbKKg'
 product_v2:
@@ -47,14 +44,14 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 71835f0240311d4b26ec8e0d9bbdf005f9887579
+source-git-commit: 7516911fc14bc80f327310b99a00f9cbff7c65c7
 workflow-type: tm+mt
 source-wordcount: '124'
 ht-degree: 0%
 ---
 # 会社アカウントの管理
 
-B2B マーチャントの場合、_[!UICONTROL Companies]_&#x200B;ページには、現在のすべての会社アカウントとそのステータスが一覧表示されます。 会社アカウントはここで管理できます。保留中の承認要求はリストの上部に表示されます。 標準の作業環境コントロールを使用して、リストのフィルタリング、列レイアウトの変更、ビューの保存、データの書き出しを行うことができます。
+B2B マーチャントの場合、_[!UICONTROL Companies]_ページには、現在のすべての会社アカウントとそのステータスが一覧表示されます。 会社アカウントはここで管理できます。保留中の承認要求はリストの上部に表示されます。 標準の作業環境コントロールを使用して、リストのフィルタリング、列レイアウトの変更、ビューの保存、データの書き出しを行うことができます。
 
 {{b2b-feature}}
 
@@ -66,9 +63,9 @@ B2B マーチャントの場合、_[!UICONTROL Companies]_&#x200B;ページに�
 
 ## ビデオコンテンツ
 
->[!VIDEO](https://video.tv.adobe.com/v/3410773?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/344447?learn=on)
 
 ## 関連資料
 
-* [会社アカウント](https://experienceleague.adobe.com/ja/docs/commerce-admin/b2b/companies/account-companies){target="_blank"}
-* [会社アカウントの管理](https://experienceleague.adobe.com/ja/docs/commerce-admin/b2b/companies/account-company-manage){target="_blank"}
+* [会社アカウント](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/companies/account-companies){target="_blank"}
+* [会社アカウントの管理](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/companies/account-company-manage){target="_blank"}

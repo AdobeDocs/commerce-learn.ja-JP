@@ -47,7 +47,7 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: 71835f0240311d4b26ec8e0d9bbdf005f9887579
+source-git-commit: 7516911fc14bc80f327310b99a00f9cbff7c65c7
 workflow-type: tm+mt
 source-wordcount: '664'
 ht-degree: 4%
@@ -64,7 +64,7 @@ REST APIとAdobe Commerce管理者を使用して、ダウンロード可能な�
 
 ## ビデオコンテンツ
 
->[!VIDEO](https://video.tv.adobe.com/v/3453942?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3425753?learn=on)
 
 ## ダウンロード可能なドメイン
 
@@ -88,7 +88,7 @@ REST APIとAdobe Commerce管理者を使用して、ダウンロード可能な�
 
 ドメインが`env.php`に追加されたので、Adobe Commerce AdminまたはREST APIを使用して、ダウンロード可能な製品を作成できます。
 
-詳しくは、[構成参照](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/files/config-reference-envphp.html?lang=ja#downloadable_domains)を参照してください。
+詳しくは、[構成参照](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/files/config-reference-envphp.html#downloadable_domains)を参照してください。
 
 >[!IMPORTANT]
 >Adobe Commerceの一部のバージョンでは、Adobe Commerce管理者で商品を編集すると、次のエラーが表示される場合があります。 製品はREST APIを使用して作成されますが、リンクされたダウンロードの価格は`null`です。
@@ -270,7 +270,7 @@ curl --location '{{your.url.here}}/rest/all/V1/products/abcd12345/downloadable-l
 
 ## 関連資料
 
-* [ダウンロード可能な製品タイプ](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/types/product-create-downloadable.html?lang=ja){target="_blank"}
-* [ダウンロード可能なドメインの設定ガイド](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/files/config-reference-envphp.html?lang=ja#downloadable_domains){target="_blank"}
+* [ダウンロード可能な製品タイプ](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/types/product-create-downloadable.html){target="_blank"}
+* [ダウンロード可能なドメインの設定ガイド](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/files/config-reference-envphp.html#downloadable_domains){target="_blank"}
 * [Adobe Developer REST チュートリアル](https://developer.adobe.com/commerce/webapi/rest/tutorials/prerequisite-tasks/){target="_blank"}
 * [Adobe Commerce REST Redoc](https://adobe-commerce.redoc.ly/2.4.6-admin/tag/products#operation/PostV1Products){target="_blank"}

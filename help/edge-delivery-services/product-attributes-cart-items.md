@@ -41,7 +41,7 @@ level_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 71835f0240311d4b26ec8e0d9bbdf005f9887579
+source-git-commit: 7516911fc14bc80f327310b99a00f9cbff7c65c7
 workflow-type: tm+mt
 source-wordcount: '287'
 ht-degree: 0%
@@ -67,9 +67,9 @@ Adobe Commerceのカートのドロップインとトランザクションフロ
 * カートのルールとフッタースロットを使用して表示されるクーポン割引により、この情報を効果的に表示できます。
 * 製品属性とスロットを使用してショッピングカート機能を拡張およびカスタマイズし、すべてのプロジェクト要件を満たすようにします。
 
->[!VIDEO](https://video.tv.adobe.com/v/3441117?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3441114?learn=on)
 
 
 ## その他のドキュメント
 
-* [商品ラインをカートに追加](https://experienceleague.adobe.com/developer/commerce/storefront/dropins/cart/tutorials/add-product-lines-to-cart-summary/?lang=ja)
+* [商品ラインをカートに追加](https://experienceleague.adobe.com/developer/commerce/storefront/dropins/cart/tutorials/add-product-lines-to-cart-summary/)

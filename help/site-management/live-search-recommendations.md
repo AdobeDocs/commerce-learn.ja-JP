@@ -55,7 +55,7 @@ topic_v2:
     internal-label: Machine learning
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 71835f0240311d4b26ec8e0d9bbdf005f9887579
+source-git-commit: 7516911fc14bc80f327310b99a00f9cbff7c65c7
 workflow-type: tm+mt
 source-wordcount: '165'
 ht-degree: 0%
@@ -73,12 +73,12 @@ Adobe Commerceの[!DNL Live Search]は、Adobe Commerceの高速で非常に関�
 
 ## ビデオコンテンツ
 
->[!VIDEO](https://video.tv.adobe.com/v/3432508?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3412586?learn=on)
 
 
 ## 関連資料
 
-* [&#x200B; [!DNL Live Search]の概要](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/marketing/live-search.html?lang=ja)
-* [[!DNL Live Search] の概要](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html?lang=ja)
-* [Commerce Services Connector](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html?lang=ja)
-* [商品レコメンデーション](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/overview.html?lang=ja)
+* [ [!DNL Live Search]の概要](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/marketing/live-search.html)
+* [[!DNL Live Search] の概要](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html)
+* [Commerce Services Connector](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html)
+* [商品レコメンデーション](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/overview.html)

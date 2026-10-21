@@ -49,7 +49,7 @@ topic_v2:
     internal-label: Machine learning
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 71835f0240311d4b26ec8e0d9bbdf005f9887579
+source-git-commit: 7516911fc14bc80f327310b99a00f9cbff7c65c7
 workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 0%
@@ -66,7 +66,7 @@ Adobe Commerce CloudのSaaS製品、サポート、その他のコミュニケ�
 
 ## ビデオコンテンツ
 
->[!VIDEO](https://video.tv.adobe.com/v/3432837?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3427902?learn=on)
 
 ## 頭字語
 
@@ -109,22 +109,22 @@ Adobe Commerce CloudのSaaS製品、サポート、その他のコミュニケ�
 
 ## ビデオに記載されているExperience League ドキュメント
 
-* [検索を開く](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/opensearch.html?lang=ja)
-* [ライブサーチ](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html?lang=ja)
-* [商品レコメンデーション](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/overview.html?lang=ja)
-* [ライブサーチとカタログサービス](https://experienceleague.adobe.com/docs/events/adobe-developers-live-recordings/2023/nov2023/nov-commerce/commerce-search-and-catalog-service.html?lang=ja)
-* [カタログサービス価格インデックス](https://experienceleague.adobe.com/docs/commerce-merchant-services/price-indexer/price-indexing.html?lang=ja)
+* [検索を開く](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/opensearch.html)
+* [ライブサーチ](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html)
+* [商品レコメンデーション](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/overview.html)
+* [ライブサーチとカタログサービス](https://experienceleague.adobe.com/docs/events/adobe-developers-live-recordings/2023/nov2023/nov-commerce/commerce-search-and-catalog-service.html)
+* [カタログサービス価格インデックス](https://experienceleague.adobe.com/docs/commerce-merchant-services/price-indexer/price-indexing.html)
 * [App Builder](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/adobe-developer-app-builder/app-builder-technical-overview.html)
-* [共通の責任](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/shared-responsibility.html?lang=ja)
+* [共通の責任](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/shared-responsibility.html)
 * [顧客データのアクセスとプライバシー](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/announcements/commerce-announcements/adobe-support-customer-data-access-and-privacy.html)
-* [Commerce認定](https://experienceleague.adobe.com/docs/certification/program/technical-certifications/ac/ac-overview.html?lang=ja)
+* [Commerce認定](https://experienceleague.adobe.com/docs/certification/program/technical-certifications/ac/ac-overview.html)
 * [Commerce学習コース](https://learning.adobe.com/catalog.html?products=Commerce)
 * [Commerce Community Forum](https://community.magento.com/)
-* [Fastlyの設定](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html?lang=ja)
-* [パフォーマンステスト](https://experienceleague.adobe.com/ja/docs/commerce-operations/implementation-playbook/best-practices/maintenance/backend-performance)
-* [サイト全体の分析ツール - SWAT](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/site-wide-analysis-tool/swat-tool-overview.html?lang=ja&)
-* [new Relic Observation for Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-operations/tools/observation-for-adobe-commerce/intro.html?lang=ja)
-* [セキュリティパッチ](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/security-patches/overview.html?lang=ja)
-* [チェックリストを起動](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/launch/checklist.html?lang=ja)
+* [Fastlyの設定](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html)
+* [パフォーマンステスト](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/maintenance/backend-performance)
+* [サイト全体の分析ツール - SWAT](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/site-wide-analysis-tool/swat-tool-overview.html?)
+* [new Relic Observation for Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-operations/tools/observation-for-adobe-commerce/intro.html)
+* [セキュリティパッチ](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/security-patches/overview.html)
+* [チェックリストを起動](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/launch/checklist.html)
 
 {{$include /help/_includes/cloud-technical-onboarding-related-links.md}}

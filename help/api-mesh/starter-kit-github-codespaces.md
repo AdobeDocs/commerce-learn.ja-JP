@@ -41,7 +41,7 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 71835f0240311d4b26ec8e0d9bbdf005f9887579
+source-git-commit: 7516911fc14bc80f327310b99a00f9cbff7c65c7
 workflow-type: tm+mt
 source-wordcount: '188'
 ht-degree: 0%
@@ -62,10 +62,10 @@ ht-degree: 0%
 * テスト用の組み込みツール：シームレスな開発のために、事前設定済みのGraphQLサーバー（Yoga）と自動サーバー再起動が含まれています。
 * 実用的な学習：スターターキットのクローンを作成し、エンドポイントを設定し、API応答をブラウザーで直接テストします。
 
->[!VIDEO](https://video.tv.adobe.com/v/3464018?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3464017?learn=on)
 
 ## 関連ドキュメント
 
 * [API メッシュスターターキット GitHub リポジトリ](https://github.com/adobe-commerce/api-mesh-starter-kit)
 * [Adobe Developer docs-graphql-mesh-gateway](https://developer.adobe.com/graphql-mesh-gateway/)
-* [API Mesh ビデオのプレイリスト](https://experienceleague.adobe.com/ja/playlists/commerce-get-started-app-builder-and-api-mesh)
+* [API Mesh ビデオのプレイリスト](https://experienceleague.adobe.com/en/playlists/commerce-get-started-app-builder-and-api-mesh)

@@ -36,7 +36,7 @@ level_v2:
     internal-label: Intermediate
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 71835f0240311d4b26ec8e0d9bbdf005f9887579
+source-git-commit: 7516911fc14bc80f327310b99a00f9cbff7c65c7
 workflow-type: tm+mt
 source-wordcount: '1105'
 ht-degree: 0%
@@ -50,7 +50,7 @@ Adobe Commerce on cloud プロジェクトに接続する方法、オフサイ�
 * MySQL WorkbenchやTablePlusなどのデータベース管理ツールを使用して、リモートのAdobe Commerce Cloud プロジェクトに接続します。
 * プロジェクトに接続し、コマンドラインからSQLを実行します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3450037?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3430507?learn=on)
 
 クラウドプロジェクトからAdobe Commerce データにアクセスするには、次のいずれかの方法を使用します。
 
@@ -62,7 +62,7 @@ Adobe Commerce on cloud プロジェクトに接続する方法、オフサイ�
 
 ## Adobe Commerce Cloud CLI ツールの使用
 
-データベースダンプを作成するには、[Adobe Commerce Cloud CLI](https://experienceleague.adobe.com/ja/docs/commerce-on-cloud/user-guide/dev-tools/cloud-cli/cloud-cli-overview)がインストールされている必要があります。 ローカルコンピューターでディレクトリを開き、次のコマンドを実行します。 `your-project-id`をプロジェクト IDに置き換えます（`asasdasd45q`と同様）。 `your-environment-name`を環境名（`master`や`staging`など）に置き換えます。
+データベースダンプを作成するには、[Adobe Commerce Cloud CLI](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/dev-tools/cloud-cli/cloud-cli-overview)がインストールされている必要があります。 ローカルコンピューターでディレクトリを開き、次のコマンドを実行します。 `your-project-id`をプロジェクト IDに置き換えます（`asasdasd45q`と同様）。 `your-environment-name`を環境名（`master`や`staging`など）に置き換えます。
 
 `magento-cloud db:dump -p your-project-id -e your-environment-name`
 
@@ -298,7 +298,7 @@ MariaDB データベースに直接アクセスするには、SSHを使用して
    magento-cloud ssh
    ```
 
-2. [$MAGENTO_CLOUD_RELATIONSHIPS](https://experienceleague.adobe.com/ja/docs/commerce-on-cloud/user-guide/configure/app/properties/properties#relationships)変数の`database`および`type` プロパティからMySQL ログイン資格情報を取得します。
+2. [$MAGENTO_CLOUD_RELATIONSHIPS](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure/app/properties/properties#relationships)変数の`database`および`type` プロパティからMySQL ログイン資格情報を取得します。
 
    ```bash
    echo $MAGENTO_CLOUD_RELATIONSHIPS | base64 -d | json_pp
@@ -344,7 +344,7 @@ MariaDB データベースに直接アクセスするには、SSHを使用して
 
 ## SQLを実行するためのクラウドプロジェクトデータベースへの直接接続
 
-次のメソッドは、`magento-cloud` CLIを使用してMySQL データベースに直接接続し、SQLを実行してクエリを高速化します。 このデータベースのコピーが必要な場合は、[&#x200B; データベースダンプの作成](https://experienceleague.adobe.com/ja/docs/commerce-knowledge-base/kb/how-to/create-database-dump-on-cloud)に代わりの方法のいずれかを使用します。
+次のメソッドは、`magento-cloud` CLIを使用してMySQL データベースに直接接続し、SQLを実行してクエリを高速化します。 このデータベースのコピーが必要な場合は、[ データベースダンプの作成](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/how-to/create-database-dump-on-cloud)に代わりの方法のいずれかを使用します。
 
 ```bash
 magento-cloud db:sql    
@@ -404,7 +404,7 @@ MariaDB [main]>
 
 ## 関連資料
 
-* [Adobe Commerce Cloud CLI](https://experienceleague.adobe.com/ja/docs/commerce-on-cloud/user-guide/dev-tools/cloud-cli/cloud-cli-overview)
-* [MySQL サービスの設定](https://experienceleague.adobe.com/ja/docs/commerce-on-cloud/user-guide/configure/service/mysql)
-* [リモート MySQL データベース接続の設定](https://experienceleague.adobe.com/ja/docs/commerce-operations/installation-guide/prerequisites/database-server/mysql-remote)
-* [クラウドインフラストラクチャ上のAdobe Commerceでのデータベースダンプの作成](https://experienceleague.adobe.com/ja/docs/commerce-knowledge-base/kb/how-to/create-database-dump-on-cloud)
+* [Adobe Commerce Cloud CLI](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/dev-tools/cloud-cli/cloud-cli-overview)
+* [MySQL サービスの設定](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure/service/mysql)
+* [リモート MySQL データベース接続の設定](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/database-server/mysql-remote)
+* [クラウドインフラストラクチャ上のAdobe Commerceでのデータベースダンプの作成](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/how-to/create-database-dump-on-cloud)

@@ -51,7 +51,7 @@ topic_v2:
     internal-label: Reporting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: 71835f0240311d4b26ec8e0d9bbdf005f9887579
+source-git-commit: 7516911fc14bc80f327310b99a00f9cbff7c65c7
 workflow-type: tm+mt
 source-wordcount: '592'
 ht-degree: 0%
@@ -78,7 +78,7 @@ ht-degree: 0%
 
 これらのパッチは、安定性とパフォーマンスを向上させるために、Adobe DevelopersとMagento Open Source コミュニティから開発されます。 今後のアップグレードが複雑になる可能性があるため、多数のパッチを適用するのはお勧めしません。
 
->[!VIDEO](https://video.tv.adobe.com/v/3454068?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3431436?learn=on)
 
 ## 品質パッチツールを使用する理由
 
@@ -110,8 +110,8 @@ Adobe CommerceまたはMagento Open Sourceの品質パッチツールを使用�
 
 ## 関連する記事とビデオ
 
-* [品質パッチツール検索](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html?lang=ja)
-* [リリースノート](https://experienceleague.adobe.com/ja/docs/commerce-operations/tools/quality-patches-tool/release-notes)
+* [品質パッチツール検索](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html)
+* [リリースノート](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/release-notes)
 * [パッチ用Github](https://github.com/magento/quality-patches/blob/master/patches/os/)
-* [品質パッチツールの使用](https://experienceleague.adobe.com/ja/docs/commerce-operations/tools/quality-patches-tool/usage)
-* [QPTのテクニカルビデオ](https://experienceleague.adobe.com/ja/docs/commerce-learn/tutorials/tools/quality-patch-tool)
+* [品質パッチツールの使用](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/usage)
+* [QPTのテクニカルビデオ](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/tools/quality-patch-tool)

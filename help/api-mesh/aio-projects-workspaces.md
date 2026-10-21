@@ -37,14 +37,14 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 71835f0240311d4b26ec8e0d9bbdf005f9887579
+source-git-commit: 7516911fc14bc80f327310b99a00f9cbff7c65c7
 workflow-type: tm+mt
 source-wordcount: '280'
 ht-degree: 0%
 ---
 # プロジェクトとワークスペースの操作
 
-このチュートリアルでは、メッシュを含めるプロジェクトとワークスペースの作成について説明します。 この作業は、主に[Adobe Developer コンソール &#x200B;](https://developer.adobe.com/console){target="_blank"} UIで行われます。
+このチュートリアルでは、メッシュを含めるプロジェクトとワークスペースの作成について説明します。 この作業は、主に[Adobe Developer コンソール ](https://developer.adobe.com/console){target="_blank"} UIで行われます。
 
 ## この動画は誰のためのものでしょうか？
 
@@ -59,7 +59,7 @@ ht-degree: 0%
 * 選択した組織、プロジェクト、またはワークスペースをCLIで変更する
 * シンプルなAPI Mesh コマンドのテスト
 
->[!VIDEO](https://video.tv.adobe.com/v/3419740?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3414123?learn=on)
 
 ## Adobe Adobe Developer Consoleについて詳しく見る
 
@@ -67,8 +67,8 @@ Adobe Developer Consoleでは、APIが組織内でどのように整理される
 
 ## Adobe Developer Consoleでのプロジェクトの概要
 
-Adobe Developer Consoleのすべての開発作業は、プロジェクトの一部として行われます。 プロジェクトには、1つまたは複数の製品、およびAPI、イベント、ランタイム、プラグインの組み合わせを含めることができます。 Adobe Developer コンソールのプロジェクトについて詳しくは、[&#x200B; プロジェクト &#x200B;](https://developer.adobe.com/developer-console/docs/guides/projects/){target="_blank"}を参照してください。
+Adobe Developer Consoleのすべての開発作業は、プロジェクトの一部として行われます。 プロジェクトには、1つまたは複数の製品、およびAPI、イベント、ランタイム、プラグインの組み合わせを含めることができます。 Adobe Developer コンソールのプロジェクトについて詳しくは、[ プロジェクト ](https://developer.adobe.com/developer-console/docs/guides/projects/){target="_blank"}を参照してください。
 
-API Meshのコンテキストでプロジェクトとワークスペースを使用する方法について詳しくは、[&#x200B; プロジェクトとワークスペースの変更](https://developer.adobe.com/graphql-mesh-gateway/mesh/basic/create-mesh){target="_blank"}を参照してください。
+API Meshのコンテキストでプロジェクトとワークスペースを使用する方法について詳しくは、[ プロジェクトとワークスペースの変更](https://developer.adobe.com/graphql-mesh-gateway/mesh/basic/create-mesh){target="_blank"}を参照してください。
 
 {{$include /help/_includes/api-mesh-related-links.md}}

@@ -55,7 +55,7 @@ topic_v2:
     internal-label: Machine learning
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 71835f0240311d4b26ec8e0d9bbdf005f9887579
+source-git-commit: 7516911fc14bc80f327310b99a00f9cbff7c65c7
 workflow-type: tm+mt
 source-wordcount: '489'
 ht-degree: 0%
@@ -81,7 +81,7 @@ Adobe Commerceなら、コマースの管理者や開発者のために設計さ
 * 高度な統合とカスタマイズ：
 * ショッピング体験の向上：
 
->[!VIDEO](https://video.tv.adobe.com/v/3434065?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3434039?learn=on)
 
 ## ライブサーチ
 
@@ -93,7 +93,7 @@ Adobe AIを活用したAdobe Commerceライブサーチの高度な検索機能�
 * カスタマイズ可能な検索エクスペリエンス：高度な検索ルール、類義語、ファセットなどの機能により、顧客に合わせて最適化された検索エクスペリエンスを提供できます。
 * B2B統合：ライブサーチは、カタログと価格設定を共有してB2B モデルをサポートし、様々なビジネスニーズに対応する汎用性を高めます。
 
->[!VIDEO](https://video.tv.adobe.com/v/3434043?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3434040?learn=on)
 
 ## プロモーション  
 
@@ -105,5 +105,5 @@ Adobe Commerceなら、コーディングのスキルがなくても、ストア
 * 高度なプロモーション戦略：
 * サードパーティシステムとのシームレスな統合、柔軟性と自動化の強化。
 
->[!VIDEO](https://video.tv.adobe.com/v/3434054?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3434041?learn=on)
 >

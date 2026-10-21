@@ -35,7 +35,7 @@ topic_v2:
     internal-label: Reporting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: 71835f0240311d4b26ec8e0d9bbdf005f9887579
+source-git-commit: 7516911fc14bc80f327310b99a00f9cbff7c65c7
 workflow-type: tm+mt
 source-wordcount: '116'
 ht-degree: 0%
@@ -56,4 +56,4 @@ New Relicで、web サイトのトラフィックをモニタリングし、ア�
 * データ集計にもとづいてアラートのしきい値を設定する方法を理解する。
 * 重大度レベルでアラートを設定し、既存のポリシーに割り当てて、通知ワークフローと宛先を制御します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3440772?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3440771?learn=on)

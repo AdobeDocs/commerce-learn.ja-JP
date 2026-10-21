@@ -33,7 +33,7 @@ topic_v2:
     internal-label: Governance
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 71835f0240311d4b26ec8e0d9bbdf005f9887579
+source-git-commit: 7516911fc14bc80f327310b99a00f9cbff7c65c7
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 0%
@@ -55,4 +55,4 @@ ht-degree: 0%
 * マルチセッション方式のデスクサイドコーチングで、スキルギャップを埋め、戦略的な優先事項に整合させる。
 * 適切な製品の導入とベストプラクティスを確保するためのアクセス、権限、デザインガバナンスの作成。
 
->[!VIDEO](https://video.tv.adobe.com/v/3463079?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3457657?learn=on)

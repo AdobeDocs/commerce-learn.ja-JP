@@ -34,7 +34,7 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 71835f0240311d4b26ec8e0d9bbdf005f9887579
+source-git-commit: 7516911fc14bc80f327310b99a00f9cbff7c65c7
 workflow-type: tm+mt
 source-wordcount: '309'
 ht-degree: 0%
@@ -58,10 +58,10 @@ ht-degree: 0%
 
 ## 関連するExperience League ドキュメント
 
-* [設定の書き出し](https://experienceleague.adobe.com/ja/docs/commerce-operations/configuration-guide/cli/configuration-management/export-configuration)
-* [構成設定の上書き](https://experienceleague.adobe.com/ja/docs/commerce-operations/configuration-guide/paths/override-config-settings)
-* [設定値の設定](https://experienceleague.adobe.com/ja/docs/commerce-operations/configuration-guide/cli/configuration-management/set-configuration-values)
-* [Config reference config.php](https://experienceleague.adobe.com/ja/docs/commerce-operations/configuration-guide/files/config-reference-configphp)
-* [設定ガイドの技術的な詳細](https://experienceleague.adobe.com/ja/docs/commerce-operations/configuration-guide/deployment/technical-details)
-* [&#x200B; ロックされた設定値](https://experienceleague.adobe.com/ja/docs/commerce-operations/configuration-guide/deployment/technical-details#:~:text=Configuration%20settings%20locked%20in%20the,php%20files)
-* [env.phpに値を保存](https://experienceleague.adobe.com/ja/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/locked-fields-in-magento-admin#:~:text=Cause,php%20)
+* [設定の書き出し](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/configuration-management/export-configuration)
+* [構成設定の上書き](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/paths/override-config-settings)
+* [設定値の設定](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/configuration-management/set-configuration-values)
+* [Config reference config.php](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/files/config-reference-configphp)
+* [設定ガイドの技術的な詳細](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/deployment/technical-details)
+* [ ロックされた設定値](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/deployment/technical-details#:~:text=Configuration%20settings%20locked%20in%20the,php%20files)
+* [env.phpに値を保存](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/locked-fields-in-magento-admin#:~:text=Cause,php%20)

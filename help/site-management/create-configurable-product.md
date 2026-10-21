@@ -42,7 +42,7 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 71835f0240311d4b26ec8e0d9bbdf005f9887579
+source-git-commit: 7516911fc14bc80f327310b99a00f9cbff7c65c7
 workflow-type: tm+mt
 source-wordcount: '998'
 ht-degree: 0%
@@ -59,7 +59,7 @@ ht-degree: 0%
 
 REST APIを使用して、設定可能な製品を作成します。
 
-1. 後続のAPI呼び出しにID番号を使用するために、[属性セット &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/create/attribute-sets.html?lang=ja)の属性を取得します。
+1. 後続のAPI呼び出しにID番号を使用するために、[属性セット ](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/create/attribute-sets.html)の属性を取得します。
 1. 設定可能な製品で使用するシンプルな製品を作成します。
 1. 空の設定可能な製品を作成し、シンプルな製品を関連付けます。
 1. 設定可能な製品の製品属性を設定します。
@@ -78,7 +78,7 @@ Adobe Commerce管理者から設定可能な商品を作成する場合は、最
 
 ## ビデオコンテンツ
 
->[!VIDEO](https://video.tv.adobe.com/v/3455036?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3426381?learn=on)
 
 ## cURLを使用したカラー属性の取得
 
@@ -377,6 +377,6 @@ curl --location --request DELETE '{{your.url.here}}/rest/default/V1/configurable
 ## 関連資料
 
 * [設定可能な製品チュートリアルの作成](https://developer.adobe.com/commerce/webapi/rest/tutorials/configurable-product/){target="_blank"}
-* [コンフィグ商品](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/types/product-create-configurable.html?lang=ja){target="_blank"}
+* [コンフィグ商品](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/types/product-create-configurable.html){target="_blank"}
 * [Adobe Developer REST チュートリアル](https://developer.adobe.com/commerce/webapi/rest/tutorials/prerequisite-tasks/){target="_blank"}
 * [Adobe Commerce REST Redoc](https://adobe-commerce.redoc.ly/2.4.6-admin/tag/products#operation/PostV1Products){target="_blank"}

@@ -42,7 +42,7 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 71835f0240311d4b26ec8e0d9bbdf005f9887579
+source-git-commit: 7516911fc14bc80f327310b99a00f9cbff7c65c7
 workflow-type: tm+mt
 source-wordcount: '138'
 ht-degree: 0%
@@ -62,10 +62,10 @@ ht-degree: 0%
 * メッシュを自動的にデプロイまたは更新するdeployMesh ワークフロー
 * K6負荷テストワークフローによる負荷テスト
 
->[!VIDEO](https://video.tv.adobe.com/v/3464525?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3464524?learn=on)
 
 ## 関連ドキュメント
 
 * [API メッシュスターターキット GitHub リポジトリ](https://github.com/adobe-commerce/api-mesh-starter-kit)
 * [Adobe Developer OAuth server to server実装ガイド](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation)
-* [API Mesh ビデオのプレイリスト](https://experienceleague.adobe.com/ja/playlists/commerce-get-started-app-builder-and-api-mesh)
+* [API Mesh ビデオのプレイリスト](https://experienceleague.adobe.com/en/playlists/commerce-get-started-app-builder-and-api-mesh)
