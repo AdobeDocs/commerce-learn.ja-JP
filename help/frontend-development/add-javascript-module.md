@@ -66,7 +66,7 @@ ht-degree: 0%
 * レイアウトの更新とテンプレートを通じてスクリプトを接続します。
 * ページ上の挨拶を確認します。
 
->[!VIDEO](https://video.tv.adobe.com/v/35790?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3507644?captions=jpn&learn=on)
 
 ## 役立つリソース
 

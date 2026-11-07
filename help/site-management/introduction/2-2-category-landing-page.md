@@ -53,7 +53,7 @@ feature: Configuration, System, Catalogs, Customers
 >
 >ビデオの内容は、2.3.1 リリースを反映しています。 以降のリリースのアップデートについて詳しくは、[&#x200B; リリースノート &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/overview.html?lang=ja)を参照してください。
 
->[!VIDEO](https://video.tv.adobe.com/v/36388?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3507610?captions=jpn&learn=on)
 
 ## 関連資料
 

@@ -54,4 +54,4 @@ Adobe Commerceは、さまざまなプランとアドオンを通じて、包括
 * 使用可能なアドオンについて説明します。
 
 
->[!VIDEO](https://video.tv.adobe.com/v/3457545?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3505272?captions=jpn&learn=on)
