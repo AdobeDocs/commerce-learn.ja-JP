@@ -52,7 +52,7 @@ Adobe Commerceが、コンバージョン率を最大8%向上させるように�
 * 開発者向けコンポーネントとSDK
 * 統合されたビジュアル編集ツール
 
->[!VIDEO](https://video.tv.adobe.com/v/3458517?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3505704?captions=jpn&learn=on)
 
 ## このシリーズの追加動画
 
