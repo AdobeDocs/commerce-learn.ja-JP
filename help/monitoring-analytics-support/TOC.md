@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # 監視、分析、サポート {#monitoring-analytics-support}
 
-+ [Commerce チュートリアルホーム](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/overview)
++ [Commerce チュートリアルホーム](https://experienceleague.adobe.com/ja/docs/commerce-learn/tutorials/overview)
 + ヘルプとサポート {#help-and-support}
   + [サポートチケットの作成](help-and-support/create-a-support-ticket.md)
   + [サポートチケットの検索、追跡、コメント、エスカレーション](help-and-support/search-track-comment-escalate-support-ticket.md)
