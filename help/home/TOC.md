@@ -4,15 +4,39 @@ user-guide-description: ビデオとチュートリアルを通じて、Adobe Co
 breadcrumb-title: ビデオとチュートリアル
 auto-video-transcripts: true
 author: Russell A.
-source-git-commit: 43c67e910e10d5db0f8c14ea24ba97ba89bd35d2
+source-git-commit: 3be42a811f2532f46071612ec5d930ef711dc8d8
 workflow-type: tm+mt
-source-wordcount: '1006'
+source-wordcount: '1016'
 ht-degree: 3%
 ---
 
 # Adobe Commerceのビデオとチュートリアル {#tutorials}
 
 + [[!DNL Commerce] チュートリアル](overview.md)
++ Adobe Commerce as a Cloud Service {#commerce-as-a-cloud-service}
+  + [概要](../commerce-as-a-cloud-service/overview.md)
+  + [デザイン](../commerce-as-a-cloud-service/architecture.md)
+  + 製品ツアー {#product-overview}
+    + [概要](../commerce-as-a-cloud-service/product-overview/introduction.md)
+    + [エクスペリエンスの設定](../commerce-as-a-cloud-service/product-overview/setup-experience.md)
+    + [コンテンツ作成](../commerce-as-a-cloud-service/product-overview/content-authoring.md)
+    + [コンテンツのローカライズとスケジュール](../commerce-as-a-cloud-service/product-overview/localize-and-schedule-content.md)
+    + [GenAIを利用したコンテンツ制作](../commerce-as-a-cloud-service/product-overview/genai-powered-content-creation.md)
+    + [カタログ管理およびマーチャンダイジングサービス](../commerce-as-a-cloud-service/product-overview/catalog-management-and-merchandising-services.md)
+    + [Commerce ストアフロントの実験](../commerce-as-a-cloud-service/product-overview/commerce-storefront-experimentation.md)
+    + [Commerce ストアフロントの速度](../commerce-as-a-cloud-service/product-overview/commerce-storefront-speed.md)
+    + [Commerce ストアフロントの買い物客ジャーニー](../commerce-as-a-cloud-service/product-overview/commerce-storefront-full-shopper-journey.md)
+    + [コンポーザブルストアフロントとモジュール式アーキテクチャ](../commerce-as-a-cloud-service/product-overview/composable-storefront-and-modular-architecture.md)
+    + [拡張機能](../commerce-as-a-cloud-service/product-overview/extensibility.md)
+    + [近代化と移行](../commerce-as-a-cloud-service/product-overview/modernization-and-migration.md)
+    + [閉じる](../commerce-as-a-cloud-service/product-overview/closing.md)
+  + バルクデータ移行ツール {#bulk-data-migration-tool}
+    + [概要](../commerce-as-a-cloud-service/bulk-data-migration-tool/introduction.md)
+    + [Source資格情報](../commerce-as-a-cloud-service/bulk-data-migration-tool/source-credentials.md)
+    + [DB資格情報](../commerce-as-a-cloud-service/bulk-data-migration-tool/db-credentials.md)
+    + [ターゲット資格情報](../commerce-as-a-cloud-service/bulk-data-migration-tool/target-credentials.md)
+    + [単相移行](../commerce-as-a-cloud-service/bulk-data-migration-tool/bulk-data-migration-tool-single-phase-migration.md)
+    + [多相移行](../commerce-as-a-cloud-service/bulk-data-migration-tool/bulk-data-migration-tool-multi-phase-migration.md)
 + Adobe Commerce Cloud {#adobe-commerce-cloud}
   + トラブルシューティング {#troubleshooting}
     + [無効なSSL](../cloud/troubleshooting/invalid-ssl.md)
@@ -44,32 +68,6 @@ ht-degree: 3%
     + [サポートリクエスト](../cloud/best-practices/support-request.md)
     + [起動前のチェックリスト](../cloud/best-practices/pre-launch-checklist.md)
 + はじめに {#getting-started}
-  + Commerce as a Cloud Service {#commerce-as-a-cloud-service}
-    + [概要](../commerce-as-a-cloud-service/overview.md)
-    + [デザイン](../commerce-as-a-cloud-service/architecture.md)
-    + Webapi-rest{#webapi-rest}
-      + [顧客](../commerce-as-a-cloud-service/webapi-rest/customer.md)
-    + 製品概要{#product-overview}
-      + [概要](../commerce-as-a-cloud-service/product-overview/introduction.md)
-      + [設定エクスペリエンス &#x200B;](../commerce-as-a-cloud-service/product-overview/setup-experience.md)
-      + [&#x200B; コンテンツオーサリング &#x200B;](../commerce-as-a-cloud-service/product-overview/content-authoring.md)
-      + [&#x200B; コンテンツのローカライズとスケジュール &#x200B;](../commerce-as-a-cloud-service/product-overview/localize-and-schedule-content.md)
-      + [GenAIを利用したコンテンツ制作](../commerce-as-a-cloud-service/product-overview/genai-powered-content-creation.md)
-      + [&#x200B; カタログ管理およびマーチャンダイジングサービス &#x200B;](../commerce-as-a-cloud-service/product-overview/catalog-management-and-merchandising-services.md)
-      + [Commerce ストアフロントの実験](../commerce-as-a-cloud-service/product-overview/commerce-storefront-experimentation.md)
-      + [Commerce ストアフロントの速度](../commerce-as-a-cloud-service/product-overview/commerce-storefront-speed.md)
-      + [コマースストアフロントの買い物客のジャーニー](../commerce-as-a-cloud-service/product-overview/commerce-storefront-full-shopper-journey.md)
-      + [コンポーザブルストアフロントとモジュール式アーキテクチャ](../commerce-as-a-cloud-service/product-overview/composable-storefront-and-modular-architecture.md)
-      + [拡張機能](../commerce-as-a-cloud-service/product-overview/extensibility.md)
-      + [近代化と移行](../commerce-as-a-cloud-service/product-overview/modernization-and-migration.md)
-      + [終了](../commerce-as-a-cloud-service/product-overview/closing.md)
-    + バルクデータ移行ツール{#bulk-data-migration-tool}
-      + [概要](../commerce-as-a-cloud-service/bulk-data-migration-tool/introduction.md)
-      + [Source資格情報](../commerce-as-a-cloud-service/bulk-data-migration-tool/source-credentials.md)
-      + [DB資格情報](../commerce-as-a-cloud-service/bulk-data-migration-tool/db-credentials.md)
-      + [ターゲット資格情報](../commerce-as-a-cloud-service/bulk-data-migration-tool/target-credentials.md)
-      + [単相移行](../commerce-as-a-cloud-service/bulk-data-migration-tool/bulk-data-migration-tool-single-phase-migration.md)
-      + [多相移行](../commerce-as-a-cloud-service/bulk-data-migration-tool/bulk-data-migration-tool-multi-phase-migration.md)
   + Adobe Commerceへの移行{#migrating-to-adobe-commerce}
     + [概要](../migrating-to-adobe-commerce/overview.md)
     + 準備{#preparation}
@@ -100,6 +98,10 @@ ht-degree: 3%
     + [ラストマイル統合](../back-office-integrations/last-mile-integration.md)
     + [Webhook取り込み](../back-office-integrations/webhook-ingestion.md)
     + [再試行メカニズム](../back-office-integrations/retry-mechanism.md)
+
++ APIと統合 {#apis-and-integration}
+  + RESTとGraphQLの実用的な例 {#examples}
+    + [RESTを使用しているお客様](../apis-and-integration/examples/customer.md)
 
 + 拡張機能 {#extensibility}
   + Commerce Developer Agent {#commerce-developer-agent}
@@ -210,21 +212,30 @@ ht-degree: 3%
     + [シングルソース GraphQL API メッシュの作成](../api-mesh/graphql-single-source.md)
     + [複数のソース GraphQL API メッシュの作成](../api-mesh/graphql-multiple-source.md)
 
-+ 可観測性 {#observability}
-  + [Observability overview](../observability/overview.md)
-  + [テレメトリを開く](../observability/open-telemetry.md)
-  + [デモの設定と設定](../observability/demo-setup-configuration.md)
-  + [&#x200B; デモ &#x200B;](../observability/demo.md)
 + グローバル参照アーキテクチャ {#global-reference-architecture-implementation-techniques}
   + [概要](../global-reference-architecture/overview.md)
   + [Gitを分割](../global-reference-architecture/split-git.md)
   + [バルクパッケージ](../global-reference-architecture/bulk-packages.md)
   + [個別のパッケージ](../global-reference-architecture/separate-packages.md)
   + [モノレポ](../global-reference-architecture/monorepo.md)
-+ ヘルプとサポート {#help-and-support}
-  + [サポートチケットの作成](../help-and-support/create-a-support-ticket.md)
-  + [サポートチケットの検索、追跡、コメント、エスカレーション](../help-and-support/search-track-comment-escalate-support-ticket.md)
-  + [ウォッチャーの追加と削除、チケットのクローズと再オープン](../help-and-support/add-remove-watchers-close-reopen-support-ticket.md)
++ 監視、分析、サポート {#monitoring-analytics-support}
+  + 可観測性 {#observability}
+    + [Observability overview](../monitoring-analytics-support/observability/overview.md)
+    + [OpenTelemetry](../monitoring-analytics-support/observability/open-telemetry.md)
+    + [デモの設定と設定](../monitoring-analytics-support/observability/demo-setup-configuration.md)
+    + [デモ](../monitoring-analytics-support/observability/demo.md)
+  + Commerce Intelligence {#commerce-intelligence}
+    + [はじめに](../monitoring-analytics-support/commerce-intelligence/getting-started.md)
+    + [統合と設定](../monitoring-analytics-support/commerce-intelligence/integrations-configurations.md)
+    + [レポートとダッシュボード](../monitoring-analytics-support/commerce-intelligence/reports-and-dashboards.md)
+    + [フィルターセット](../monitoring-analytics-support/commerce-intelligence/filter-sets.md)
+    + [コホートReport Builder](../monitoring-analytics-support/commerce-intelligence/cohort-report-builder.md)
+    + [SQL REPORT BUILDER](../monitoring-analytics-support/commerce-intelligence/sql-report-builder.md)
+    + [将来に備える](../monitoring-analytics-support/commerce-intelligence/prepare-for-future.md)
+  + ヘルプとサポート {#help-and-support}
+    + [サポートチケットの作成](../monitoring-analytics-support/help-and-support/create-a-support-ticket.md)
+    + [サポートチケットの検索、レビュー、コメント、エスカレーション](../monitoring-analytics-support/help-and-support/search-track-comment-escalate-support-ticket.md)
+    + [サポートチケットの視聴者とステータスの管理](../monitoring-analytics-support/help-and-support/add-remove-watchers-close-reopen-support-ticket.md)
 
 + 店舗の管理 {#admin}
   + [ユーザーの役割と権限の管理](../site-management/users-roles-permissions.md)
@@ -296,11 +307,3 @@ ht-degree: 3%
     + [悪意のあるIPを探す](../new-relic/malicious-ip.md)
     + [アラート通知の設定](../new-relic/new-relic-alert-notification-setup.md)
     + [カスタムアラート](../new-relic/custom-alerts.md)
-+ Commerce Intelligence {#mbi}
-  + [はじめに](../business-intelligence/getting-started.md)
-  + [統合と設定](../business-intelligence/integrations-configurations.md)
-  + [レポートとダッシュボード](../business-intelligence/reports-and-dashboards.md)
-  + [フィルターセット](../business-intelligence/filter-sets.md)
-  + [コホートReport Builder](../business-intelligence/cohort-report-builder.md)
-  + [SQL REPORT BUILDER](../business-intelligence/sql-report-builder.md)
-  + [将来に向けて準備](../business-intelligence/prepare-for-future.md)

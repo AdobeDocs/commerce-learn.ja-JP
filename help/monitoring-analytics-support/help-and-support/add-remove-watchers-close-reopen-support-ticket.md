@@ -1,16 +1,16 @@
 ---
-title: サポートチケットの検索、レビュー、コメント、エスカレーション
-description: ケースをエスカレーションする理由など、Adobe Experience League for Adobe Commerceでサポートチケットを検索、レビュー、コメント、エスカレーションする方法について説明します。
+title: ウォッチャーの追加または削除、チケットのクローズまたは再開
+description: Adobe Experience League for Adobe Commerceで、視聴者の追加と削除、サポートチケットのクローズ、クローズドチケットの再オープンを14日以内に行う方法について説明します。
 feature: Customer Service, Support
 topic: Commerce
 role: Admin
 level: Beginner
 doc-type: Tutorial
-duration: 209
+duration: 173
 last-substantial-update: 2024-08-23T00:00:00.000Z
-jira: KT-16049
-exl-id: 15b560bd-29f7-4866-86a4-ef548a5ac953
-TQID: 'https://experienceleague.adobe.com/-ATvMO7lsgqxCIZpBJTYLFeDrWYKRKgZPaZMk-aSsoQ'
+jira: KT-16050
+exl-id: 15212a32-5b6b-4b49-8bf7-acc3bf39b6fa
+TQID: 'https://experienceleague.adobe.com/oMaFarsBJxR0XQzrXGDV0Ry4ZGBKU0EzUMFHIQe7S54'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -30,14 +30,14 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 7516911fc14bc80f327310b99a00f9cbff7c65c7
+source-git-commit: 5c0f4dcbf6ba5b317d27e911624f3175cebc5662
 workflow-type: tm+mt
 source-wordcount: '143'
 ht-degree: 0%
 ---
-# サポートチケットの検索、レビュー、コメント、エスカレーション
+# ウォッチャーの管理、チケットのクローズと再開
 
-Adobe Experience League for Adobe Commerce内でサポートチケットを検索、レビュー、コメント、エスカレーションする方法について説明します。
+Adobe Experience League for Adobe Commerce内で、視聴者を追加および削除したり、サポートチケットを閉じて再度開いたりする方法を説明します。
 
 ## この動画は誰のためのものでしょうか？
 
@@ -45,11 +45,11 @@ Adobe Experience League for Adobe Commerce内でサポートチケットを検�
 
 ## ビデオコンテンツ {#video-content}
 
-* チケットの検索方法について説明します
-* オープンサポートチケットにコメントを追加する方法を説明します
-* サポートチケットをエスカレーションする方法と理由について説明します
+* チケットの視聴者を追加および削除する方法を説明します
+* サポートチケットをクローズする方法を説明します
+* サポートチケットの再開方法を確認する
 
->[!VIDEO](https://video.tv.adobe.com/v/3445312?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3441350?captions=jpn&learn=on)
 
 ## Commerce Knowledge Base アドビヘルプセンターガイド
 

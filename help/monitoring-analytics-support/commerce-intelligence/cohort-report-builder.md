@@ -3,10 +3,10 @@ title: Commerce Intelligence - コホートReport Builder
 description: Commerce IntelligenceコホートReport Builderを使用して、ビジネスに関連する最適化されたレポートと分析を作成する方法を説明します。
 landing-page-description: Commerce IntelligenceコホートReport Builderを活用して、ビジネスに合わせて最適化されたレポートと分析を作成する方法をご覧ください。
 short-description: Commerce IntelligenceコホートReport Builderを活用して、ビジネスに合わせて最適化されたレポートと分析を作成する方法をご覧ください。
-kt: 10288
-doc-type: feature video
+jira: KT-10288
+doc-type: Technical Video
 duration: 103
-solution: Commerce,Commerce Intelligence
+solution: Adobe Commerce
 audience: all
 activity: use
 last-substantial-update: 2023-2-10
@@ -43,13 +43,11 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: b599f79ad41b9552cea6ff41062eb4ef75f183bb
+source-git-commit: d943f9c761a4f22d1a457703d1bfb7b339584305
 workflow-type: tm+mt
-source-wordcount: 262
+source-wordcount: '262'
 ht-degree: 0%
-
 ---
-
 # Commerce Intelligence - コホートReport Builder
 
 ユーザーのさまざまなサブセットが時間とともにどのように動作するかを調べたいと思ったことがありますか？ 例えば、プロモ – ション期間中に登録したオーディエンスの平均生涯売上が、そうでないオーディエンスよりも高いかどうか疑問に思ったことはありませんか？ 答えが&#x200B;_Yes_&#x200B;の場合、コホートReport Builderは最適なツールです。 Commerce Intelligenceは、この分析を実行し、ビジネスに適したものにするように最適化されています。

@@ -3,10 +3,10 @@ title: Commerce Intelligence - フィルターセット
 description: Commerce Intelligence フィルターセット機能を使用して、Adobe CommerceとMagento Open Sourceのビジネスデータレポートを簡略化する方法を説明します。
 landing-page-description: Commerce Intelligenceのフィルターセット機能を使用して、ビジネスデータのレポート作成を簡略化する方法を動画でご確認ください。
 short-description: MBCommerce IntelligenceIのフィルターセット機能を使用して、ビジネスデータのレポート作成を簡素化する方法について、この動画をご覧ください。
-kt: 10289
-doc-type: feature video
+jira: KT-10289
+doc-type: Technical Video
 duration: 515
-solution: Commerce,Commerce Intelligence
+solution: Adobe Commerce
 audience: all
 activity: use
 last-substantial-update: 2023-2-10
@@ -47,7 +47,7 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 71835f0240311d4b26ec8e0d9bbdf005f9887579
+source-git-commit: d943f9c761a4f22d1a457703d1bfb7b339584305
 workflow-type: tm+mt
 source-wordcount: '219'
 ht-degree: 0%
