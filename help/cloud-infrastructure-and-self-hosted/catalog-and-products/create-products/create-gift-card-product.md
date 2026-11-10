@@ -66,7 +66,7 @@ REST APIとAdobe Commerce管理者を使用してギフトカード商品を作�
 
 ## ビデオコンテンツ
 
->[!VIDEO](https://video.tv.adobe.com/v/3427128?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3453078?captions=jpn&learn=on)
 
 ## シンプルなペイロードでギフトカードを作成
 

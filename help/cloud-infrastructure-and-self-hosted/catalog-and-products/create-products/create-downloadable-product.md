@@ -64,7 +64,7 @@ REST APIとAdobe Commerce管理者を使用して、ダウンロード可能な�
 
 ## ビデオコンテンツ
 
->[!VIDEO](https://video.tv.adobe.com/v/3425753?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3453942?captions=jpn&learn=on)
 
 ## ダウンロード可能なドメイン
 
