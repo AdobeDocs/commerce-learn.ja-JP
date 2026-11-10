@@ -85,10 +85,10 @@ ht-degree: 3%
     + [コンポーザブルCommerce](../capabilities/what-is-composable-commerce.md)
     + [品質パッチツール](../capabilities/quality-patch-tool.md)
   + 製品の作成 {#create-products}
-    + [ シンプルな製品](../site-management/create-simple-product.md)
-    + [ バーチャル製品](../site-management/create-virtual-product.md)
+    + [&#x200B; シンプルな製品](../site-management/create-simple-product.md)
+    + [&#x200B; バーチャル製品](../site-management/create-virtual-product.md)
     + [ダウンロード可能な製品](../site-management/create-downloadable-product.md)
-    + [ グループ化された製品](../site-management/create-grouped-product.md)
+    + [&#x200B; グループ化された製品](../site-management/create-grouped-product.md)
     + [設定可能な製品](../site-management/create-configurable-product.md)
     + [バンドル製品](../site-management/create-bundle-product.md)
     + [ギフトカード商品](../site-management/create-gift-card-product.md)
@@ -148,7 +148,7 @@ ht-degree: 3%
         + [買い物客体験](../edge-delivery-services/shopper-experience.md)
     + ヘッドレスアーキテクチャ {#headless-architecture}
       + ヘッドレス CMSの概要 {#introduction-to-headless}
-        + [ ヘッドレスアーキテクチャ – セッション 1](../headless/session-1.md)
+        + [&#x200B; ヘッドレスアーキテクチャ – セッション 1](../headless/session-1.md)
       + PWA Studioの概要 {#introduction}
         + [概要](../pwa/introduction/1-overview.md)
         + [PWA Studio tools](../pwa/introduction/2-pwa-studio-tools.md)
@@ -281,7 +281,7 @@ ht-degree: 3%
   + [関連製品ルールの管理](../site-management/related-product-rules.md)
   + [商品レコメンデーションの設定](../site-management/product-recommendations.md)
   + [ライブサーチの概要](../site-management/live-search.md)
-  + [ レコメンデーションのライブ検索](../site-management/live-search-recommendations.md)
+  + [&#x200B; レコメンデーションのライブ検索](../site-management/live-search-recommendations.md)
   + [CommerceとAJOの統合](../site-management/integrate-commerce-ajo.md)
 + 注文とフルフィルメント {#orders}
   + [注文ステータスの管理](../orders-and-fulfillment/order-status.md)
