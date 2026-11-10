@@ -46,7 +46,7 @@ ht-degree: 0%
 
 誤ったURL変更後に管理者へのアクセスを回復するには、Adobe Commerce Cloud CLIを使用して管理者URIをリセットします。
 
->[!VIDEO](https://video.tv.adobe.com/v/3435066?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3439693?captions=jpn&learn=on)
 
 ## チュートリアルで使用されるいくつかのコマンド
 

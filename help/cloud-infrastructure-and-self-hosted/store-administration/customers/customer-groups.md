@@ -62,7 +62,7 @@ Adobe Commerceの顧客グループでは、ターゲットを絞ったプロモ
 
 ## ビデオコンテンツ
 
->[!VIDEO](https://video.tv.adobe.com/v/3473262?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3473317?captions=jpn&learn=on)
 
 ## 関連資料
 

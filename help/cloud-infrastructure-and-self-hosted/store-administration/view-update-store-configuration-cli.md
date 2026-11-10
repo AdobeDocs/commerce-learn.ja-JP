@@ -52,7 +52,7 @@ Commerce CLIで設定値を表示、設定、検索する方法のデモ。 値�
 
 ## ビデオコンテンツ
 
->[!VIDEO](https://video.tv.adobe.com/v/3427123?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3439971?captions=jpn&learn=on)
 
 ## チュートリアルで使用されるいくつかのコマンド
 

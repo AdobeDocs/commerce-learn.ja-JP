@@ -63,7 +63,7 @@ Adobe CommerceとMagento Open Sourceをインストールするたびに、web �
 >
 >ビデオの内容は、2.1.0 リリースを反映しています。 以降のリリースのアップデートについて詳しくは、[&#x200B; リリースノート &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-operations/release/notes/overview)を参照してください。
 
->[!VIDEO](https://video.tv.adobe.com/v/35787?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3507653?captions=jpn&learn=on)
 
 ## 関連資料
 
