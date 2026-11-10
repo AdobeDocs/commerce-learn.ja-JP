@@ -76,5 +76,5 @@ if ( !(client.ip ~ allowlist) && !req.http.Fastly-FF) { error 403 "Forbidden";}
 ## 関連ドキュメント
 
 * [悪意のあるIP アドレスの検出](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/cloud-infrastructure-and-self-hosted/cloud-operations/tools/new-relic/malicious-ip)
-* [リクエストを許可するためのカスタム VCL](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/cdn/custom-vcl-snippets/fastly-vcl-allowlist)
-* [ブロック要求のカスタム VCL](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/cdn/custom-vcl-snippets/fastly-vcl-blocking)
+* [リクエストを許可するためのカスタム VCL](https://experienceleague.adobe.com/ja/docs/commerce-on-cloud/user-guide/cdn/custom-vcl-snippets/fastly-vcl-allowlist)
+* [ブロック要求のカスタム VCL](https://experienceleague.adobe.com/ja/docs/commerce-on-cloud/user-guide/cdn/custom-vcl-snippets/fastly-vcl-blocking)
