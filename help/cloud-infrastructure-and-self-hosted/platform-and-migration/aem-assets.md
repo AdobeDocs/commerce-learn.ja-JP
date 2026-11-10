@@ -55,4 +55,4 @@ AiとAdobe Commerceを統合することで、アセット管理を一元化し�
 * 製品とアセットのシームレスな同期。
 * 承認、削除、有効期限など、ライフサイクル全体の制御。
 
->[!VIDEO](https://video.tv.adobe.com/v/3434076?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3434077?captions=jpn&learn=on)
