@@ -60,6 +60,6 @@ ht-degree: 0%
 
 ## 関連資料
 
-* [出荷設定 –  [!DNL Commerce] 店舗および購入エクスペリエンスガイド](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-settings)
-* [基本的な配信方法 –  [!DNL Commerce]  ストアと購入エクスペリエンスガイド](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/delivery#basic-delivery-methods)
-* [配送業者の設定 –  [!DNL Commerce] 店舗および購入エクスペリエンスガイド](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/carriers)
+* [出荷設定 –  [!DNL Commerce] 店舗および購入エクスペリエンスガイド](https://experienceleague.adobe.com/ja/docs/commerce-admin/stores-sales/delivery/shipping-settings)
+* [基本的な配信方法 –  [!DNL Commerce]  ストアと購入エクスペリエンスガイド](https://experienceleague.adobe.com/ja/docs/commerce-admin/stores-sales/delivery/delivery#basic-delivery-methods)
+* [配送業者の設定 –  [!DNL Commerce] 店舗および購入エクスペリエンスガイド](https://experienceleague.adobe.com/ja/docs/commerce-admin/stores-sales/delivery/shipping-carriers/carriers)

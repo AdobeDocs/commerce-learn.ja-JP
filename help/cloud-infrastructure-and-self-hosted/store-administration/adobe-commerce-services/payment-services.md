@@ -62,5 +62,5 @@ Adobe CommerceおよびMagento Open Sourceの決済サービスは、小規模�
 
 ## 関連資料
 
-* [決済サービスガイド](https://experienceleague.adobe.com/en/docs/commerce/payment-services/guide-overview)
-* [Commerce Services Connector](https://experienceleague.adobe.com/en/docs/commerce/user-guides/integration-services/saas)
+* [決済サービスガイド](https://experienceleague.adobe.com/ja/docs/commerce/payment-services/guide-overview)
+* [Commerce Services Connector](https://experienceleague.adobe.com/ja/docs/commerce/user-guides/integration-services/saas)

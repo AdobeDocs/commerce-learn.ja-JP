@@ -70,6 +70,6 @@ ht-degree: 0%
 
 * [管理者グリッドフィルター](admin-grids-and-filters.md)
 * [コマンドラインを使用した管理者設定の表示と設定](view-update-store-configuration-cli.md)
-* [管理者ツールとワークスペース](https://experienceleague.adobe.com/en/docs/commerce-admin/start/admin/tools/admin-workspace)
-* [管理者グリッドコントロール](https://experienceleague.adobe.com/en/docs/commerce-admin/start/admin/tools/admin-grid-controls)
-* [サイト、保存、表示範囲](https://experienceleague.adobe.com/en/docs/commerce-admin/start/setup/websites-stores-views)
+* [管理者ツールとワークスペース](https://experienceleague.adobe.com/ja/docs/commerce-admin/start/admin/tools/admin-workspace)
+* [管理者グリッドコントロール](https://experienceleague.adobe.com/ja/docs/commerce-admin/start/admin/tools/admin-grid-controls)
+* [サイト、保存、表示範囲](https://experienceleague.adobe.com/ja/docs/commerce-admin/start/setup/websites-stores-views)

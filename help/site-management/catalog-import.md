@@ -62,7 +62,7 @@ Adobe Commerceにカタログを読み込むには、いくつかのネイティ
 
 ## 製品の手動作成 {#manual-import}
 
-更新頻度が低い小規模なカタログでは、手作業による製品作成を検討する。 各製品の導入には時間がかかり、Commerce管理者に対する基本的なトレーニングが必要です。 大半の実店舗では対応できないが、手作業によるカタログ管理は特定の状況に適している。 手順については、[製品の作成](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/product-create){target="_blank"}を参照してください。 カタログ管理手法を組み合わせて使用する場合は、自動化の導入後に手作業による編集を制限します。 自動アップデートは、手作業による変更を上書きし、混乱を引き起こすリスクがあります。 統合が自動化とAPIを通じてカタログを管理する場合、[&#x200B; ユーザーの役割と権限](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/user-accounts/permissions-user-roles){target="_blank"}を通じて管理者のカタログ管理を制限します。
+更新頻度が低い小規模なカタログでは、手作業による製品作成を検討する。 各製品の導入には時間がかかり、Commerce管理者に対する基本的なトレーニングが必要です。 大半の実店舗では対応できないが、手作業によるカタログ管理は特定の状況に適している。 手順については、[製品の作成](https://experienceleague.adobe.com/ja/docs/commerce-admin/catalog/products/product-create){target="_blank"}を参照してください。 カタログ管理手法を組み合わせて使用する場合は、自動化の導入後に手作業による編集を制限します。 自動アップデートは、手作業による変更を上書きし、混乱を引き起こすリスクがあります。 統合が自動化とAPIを通じてカタログを管理する場合、[&#x200B; ユーザーの役割と権限](https://experienceleague.adobe.com/ja/docs/commerce-admin/systems/user-accounts/permissions-user-roles){target="_blank"}を通じて管理者のカタログ管理を制限します。
 
 ### このアプローチを検討するタイミング
 
@@ -77,7 +77,7 @@ Adobe Commerceにカタログを読み込むには、いくつかのネイティ
 ## 管理者CSV読み込みツール {#admin-csv}
 
 このツールを使用すると、ストア所有者はコマース管理者からCSVを使用してカタログを直接インポートできます。
-[Commerce管理者からのデータの読み込み](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/import/data-import){target="_blank"}
+[Commerce管理者からのデータの読み込み](https://experienceleague.adobe.com/ja/docs/commerce-admin/systems/data-transfer/import/data-import){target="_blank"}
 
 長所：
 管理者からCSVをアップロードすることは、カタログ管理への直接的なアプローチです。 これにより、カタログ製品の更新を中程度のサイズに高速化できます。
@@ -171,6 +171,6 @@ CSV形式ではない大規模なデータセットをインポートする機�
 ## 関連資料
 
 * [新しいREST CSVを使用したデータの読み込み](https://developer.adobe.com/commerce/webapi/rest/modules/import/){target="_blank"}
-* [データのメインドキュメントの読み込み](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/import/data-import){target="_blank"}
-* [Adobe Commerce バージョン 2.4.6 リリースノート](https://experienceleague.adobe.com/en/docs/commerce-operations/release/notes/adobe-commerce/2-4-6){target="_blank"}
+* [データのメインドキュメントの読み込み](https://experienceleague.adobe.com/ja/docs/commerce-admin/systems/data-transfer/import/data-import){target="_blank"}
+* [Adobe Commerce バージョン 2.4.6 リリースノート](https://experienceleague.adobe.com/ja/docs/commerce-operations/release/notes/adobe-commerce/2-4-6){target="_blank"}
 * [ユーザー、役割、権限](../cloud-infrastructure-and-self-hosted/store-administration/users-roles-permissions.md){target="_blank"}
