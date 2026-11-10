@@ -4,9 +4,9 @@ user-guide-description: ビデオとチュートリアルを通じて、Adobe Co
 breadcrumb-title: ビデオとチュートリアル
 auto-video-transcripts: true
 author: Russell A.
-source-git-commit: 3be42a811f2532f46071612ec5d930ef711dc8d8
+source-git-commit: 5a6f6ae98433b30290cadd75dde499e6bc3fb253
 workflow-type: tm+mt
-source-wordcount: '1016'
+source-wordcount: '1024'
 ht-degree: 3%
 ---
 
@@ -37,6 +37,26 @@ ht-degree: 3%
     + [ターゲット資格情報](../commerce-as-a-cloud-service/bulk-data-migration-tool/target-credentials.md)
     + [単相移行](../commerce-as-a-cloud-service/bulk-data-migration-tool/bulk-data-migration-tool-single-phase-migration.md)
     + [多相移行](../commerce-as-a-cloud-service/bulk-data-migration-tool/bulk-data-migration-tool-multi-phase-migration.md)
++ クラウド基盤とセルフホスト {#cloud-infrastructure-and-self-hosted}
+  + プラットフォームと移行 {#platform-and-migration}
+    + [マーケテク](../cloud-infrastructure-and-self-hosted/platform-and-migration/marketecture.md)
+    + [グローバル配信モデル](../cloud-infrastructure-and-self-hosted/platform-and-migration/global-delivery-model.md)
+    + [管理者の役割](../cloud-infrastructure-and-self-hosted/platform-and-migration/admin-roles.md)
+    + [マーケティングフロー](../cloud-infrastructure-and-self-hosted/platform-and-migration/marketing-flows.md)
+    + [ストアフロントオプション](../cloud-infrastructure-and-self-hosted/platform-and-migration/storefront-options.md)
+    + [データの共有](../cloud-infrastructure-and-self-hosted/platform-and-migration/data-sharing.md)
+    + [複数のweb サイト](../cloud-infrastructure-and-self-hosted/platform-and-migration/multiple-websites.md)
+    + [リードデータとプロモーションの体験](../cloud-infrastructure-and-self-hosted/platform-and-migration/experience-lead-data-promoitions.md)
+    + [AEM Assets](../cloud-infrastructure-and-self-hosted/platform-and-migration/aem-assets.md)
+    + [セルフホストソリューションからの移行](../cloud-infrastructure-and-self-hosted/platform-and-migration/overview.md)
+    + Adobe Commerceへの移行 {#migrating-to-adobe-commerce}
+      + [概要](../cloud-infrastructure-and-self-hosted/platform-and-migration/migrating-to-adobe-commerce/overview.md)
+      + 準備 {#preparation}
+        + [チームとプロジェクトの評価](../cloud-infrastructure-and-self-hosted/platform-and-migration/migrating-to-adobe-commerce/preparation/evaluate-team-and-project.md)
+      + カスタマイズ {#customizations}
+        + [インプロセスのコード標準](../cloud-infrastructure-and-self-hosted/platform-and-migration/migrating-to-adobe-commerce/customizations/in-process-code-standards.md)
+      + QA {#qa}
+        + [コードのフリーズ](../cloud-infrastructure-and-self-hosted/platform-and-migration/migrating-to-adobe-commerce/qa/code-freeze.md)
 + Adobe Commerce Cloud {#adobe-commerce-cloud}
   + トラブルシューティング {#troubleshooting}
     + [無効なSSL](../cloud/troubleshooting/invalid-ssl.md)
@@ -47,16 +67,6 @@ ht-degree: 3%
   + [Adobe Commerce Cloudの拡張方法](../cloud/how-adobe-commerce-cloud-scales.md)
   + [HIPAA対応ホスティング](../cloud/hippa-ready-hosting.md)
   + [IP アドレスの検出](../cloud/detect-ip-address.md)
-  + [マーケテク](../cloud/marketecture.md)
-  + [グローバル配信モデル](../cloud/global-delivery-model.md)
-  + [管理者の役割](../cloud/admin-roles.md)
-  + [マーケティングフロー](../cloud/marketing-flows.md)
-  + [ストアフロントオプション](../cloud/storefront-options.md)
-  + [データの共有](../cloud/data-sharing.md)
-  + [複数のweb サイト](../cloud/multiple-websites.md)
-  + [リードデータとプロモーションの体験](../cloud/experience-lead-data-promoitions.md)
-  + [AEM Assets](../cloud/aem-assets.md)
-  + [&#x200B; セルフホスト型ソリューションからの移行](../cloud/overview.md)
   + [Fastlyを使用してアクセスを制限](../cloud/limit-website-access-using-fastly.md)
   + 技術的なオンボーディングとハードウェアの引き継ぎ {#technical-onboarding-hardware-handoff}
     + [インフラと開発のベストプラクティス](../cloud/infrastructure-development-best-practices.md)
@@ -68,15 +78,6 @@ ht-degree: 3%
     + [サポートリクエスト](../cloud/best-practices/support-request.md)
     + [起動前のチェックリスト](../cloud/best-practices/pre-launch-checklist.md)
 + はじめに {#getting-started}
-  + Adobe Commerceへの移行{#migrating-to-adobe-commerce}
-    + [概要](../migrating-to-adobe-commerce/overview.md)
-    + 準備{#preparation}
-      + [チームとプロジェクトの評価](../migrating-to-adobe-commerce/preparation/evaluate-team-and-project.md)
-    + カスタマイズ{#customizations}
-      + [インプロセスのコード標準](../migrating-to-adobe-commerce/customizations/in-process-code-standards.md)
-    + QA{#qa}
-      + [コードのフリーズ](../migrating-to-adobe-commerce/qa/code-freeze.md)
-
   + Commerce製品 {#capabilities}
     + [利用可能なコマースオプション](../capabilities/adobes-available-commerce-options.md)
     + [データ接続](../capabilities/data-connection.md)
@@ -84,10 +85,10 @@ ht-degree: 3%
     + [コンポーザブルCommerce](../capabilities/what-is-composable-commerce.md)
     + [品質パッチツール](../capabilities/quality-patch-tool.md)
   + 製品の作成 {#create-products}
-    + [&#x200B; シンプルな製品](../site-management/create-simple-product.md)
-    + [&#x200B; バーチャル製品](../site-management/create-virtual-product.md)
+    + [ シンプルな製品](../site-management/create-simple-product.md)
+    + [ バーチャル製品](../site-management/create-virtual-product.md)
     + [ダウンロード可能な製品](../site-management/create-downloadable-product.md)
-    + [&#x200B; グループ化された製品](../site-management/create-grouped-product.md)
+    + [ グループ化された製品](../site-management/create-grouped-product.md)
     + [設定可能な製品](../site-management/create-configurable-product.md)
     + [バンドル製品](../site-management/create-bundle-product.md)
     + [ギフトカード商品](../site-management/create-gift-card-product.md)
@@ -114,7 +115,7 @@ ht-degree: 3%
     + [まとめ](../commerce-developer-agent/adobe-commerce-developer-agent-conclusion-technical-video.md)
     + [App Builderドライラン](../commerce-developer-agent/adobe-commerce-developer-agent-app-builder-dry-run.md)
   + バックエンド開発 {#backend-development}
-    + [データベーステーブルの修正に関するベストプラクティス](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables.html?lang=ja)
+    + [データベーステーブルの修正に関するベストプラクティス](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables.html)
     + [モジュールの作成](../backend-development/create-module.md)
     + [製品属性の追加](../backend-development/add-product-attribute.md)
     + [依存関係インジェクションの例](../backend-development/dependency-injection.md)
@@ -147,7 +148,7 @@ ht-degree: 3%
         + [買い物客体験](../edge-delivery-services/shopper-experience.md)
     + ヘッドレスアーキテクチャ {#headless-architecture}
       + ヘッドレス CMSの概要 {#introduction-to-headless}
-        + [&#x200B; ヘッドレスアーキテクチャ – セッション 1](../headless/session-1.md)
+        + [ ヘッドレスアーキテクチャ – セッション 1](../headless/session-1.md)
       + PWA Studioの概要 {#introduction}
         + [概要](../pwa/introduction/1-overview.md)
         + [PWA Studio tools](../pwa/introduction/2-pwa-studio-tools.md)
@@ -280,7 +281,7 @@ ht-degree: 3%
   + [関連製品ルールの管理](../site-management/related-product-rules.md)
   + [商品レコメンデーションの設定](../site-management/product-recommendations.md)
   + [ライブサーチの概要](../site-management/live-search.md)
-  + [&#x200B; レコメンデーションのライブ検索](../site-management/live-search-recommendations.md)
+  + [ レコメンデーションのライブ検索](../site-management/live-search-recommendations.md)
   + [CommerceとAJOの統合](../site-management/integrate-commerce-ajo.md)
 + 注文とフルフィルメント {#orders}
   + [注文ステータスの管理](../orders-and-fulfillment/order-status.md)
