@@ -1,0 +1,71 @@
+---
+title: 効果的なサポートリクエストの作成
+description: サポートチケットを作成して、リクエストの効率を最大化する方法について説明します。
+feature: Best Practices, Customer Service, Support
+topic: Commerce
+role: Admin, Developer, User
+level: Beginner, Intermediate
+doc-type: Tutorial
+duration: 126
+last-substantial-update: 2024-08-23T00:00:00.000Z
+jira: KT-23100
+exl-id: cea62272-c7b9-44f7-9c39-5ad3d9122382
+TQID: 'https://experienceleague.adobe.com/Si-izuH329pVtctIZ71FLXHfo48YaFtOGXGtAisu-tw'
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: cdfd3bc1-dc23-5cf0-b965-d3c0c55cde67
+    internal-label: Best Practices
+  - id: da76473c-f99b-5ad0-9b14-896aed473f8a
+    internal-label: Services
+  - id: 125c1f49-aefd-5f34-a252-288937f95f6b
+    internal-label: Marketing Tools
+subfeature_v2:
+  - id: deedbb4d-f1b7-58ea-a34a-de1f481f9d4c
+    internal-label: Customer Service
+  - id: a59f76dc-e003-5617-951e-dffa5bd3de81
+    internal-label: Support
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
+source-git-commit: 75bc52b62261883eb98f22c112aaa7bd42b6382d
+workflow-type: tm+mt
+source-wordcount: '519'
+ht-degree: 0%
+---
+# 効果的なサポートリクエスト
+
+サポートチケットを作成する際には、適切なチャネルを通じてチケットを提出し、問題に関する正確で詳細な情報を提供し、正しい組織と連絡理由を選択し、適切な製品とバージョンを選択し、潜在的な解決策について推奨記事を確認し、すべての情報を再確認してからサポートチームと話し合い、問題が解決されたときにチケットをマークし、さらに支援が必要必要な場合場合チケットを開をします。 &#x200B;適切なチャネルを通じてチケットを送信し、正確で詳細な情報を提供し、適切な組織と連絡理由を選択し、適切な製品とバージョンを選択し、提案された記事を確認し、送信前にすべての情報を再確認し、チケットの進行状況を追跡し、サポートチームと会話し、問題が解決したらチケットを解決済みとしてマークし、必要に応じてフォローアップチケットを発行します。 &#x200B;
+
+## ログまたはスクリーンショットを含める
+
+目の前の問題に応じて役立つログがいくつかあります。 可能であれば、ログのセクションを見つけて、サポートリクエストの一部として含めます。 このログのスニペットは、エンジニアが表示されるエラーを理解するのに役立ち、トリアージのプロセスを迅速化します。 すべてのアプリサーバーには個々のログがあり、それらのログは集計としてNew Relicに入力されます。  つまり、各アプリケーションサーバーの個々のログファイルを読み取るのではなく、すべてのエラーを1か所で検索できます。 最後の選択肢として、New Relicでエントリが見つかった場合は、スクリーンショットを追加情報として使用してプロセスを迅速化することもできますが、NRQL ステートメントを持つことが推奨されます。
+
+## タイムゾーンが参照されていることを確認します
+
+サポートに関する問題に貢献した場合に、インシデントに関するタイムゾーンを明確にするように促す。 タイムゾーンを参照することで、サポートエンジニアリングチームがログとイベントを調査する際に、実際に関連する時間枠に集中できるようになります。 サーバーのログ時間の何時間前または遅れている可能性があることを忘れないでください。
+
+## 最初に実施したトリアージと調査結果を説明する
+
+これまで行ったすべてのトリアージ手順について議論し、文書化することで、サポートエンジニアは早期の仮定を検証できます。 関連するトリアージのステップと調査結果が提示された場合は、プロセス全体を迅速化できます。 これにより、作業の重複を減らし、最終的には検証レベルで調査結果を文書化する方法を提供することもできます。
+
+## Adobe New RelicレポートへのリンクまたはNRQL ステートメントの提供
+
+Adobe Commerceの問題の多くは、New Relicを通じて追跡できます。 New Relicダッシュボードやカスタム NRQL ステートメントを確認することで、問題の原因に関するインサイトを得ることができます。 これらのダッシュボードとカスタム New Relic クエリは共有可能です。 サポートチケットにそれらのリンクを提供することで、エンジニアはレポーターが何であるかを正確に確認できます。
+
+>[!MORELIKETHIS]
+> 
+> * [Adobe Commerce ヘルプユーザーガイド ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide){target="_blank"}

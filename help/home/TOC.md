@@ -4,9 +4,9 @@ user-guide-description: ビデオとチュートリアルを通じて、Adobe Co
 breadcrumb-title: ビデオとチュートリアル
 auto-video-transcripts: true
 author: Russell A.
-source-git-commit: 5a6f6ae98433b30290cadd75dde499e6bc3fb253
+source-git-commit: 75bc52b62261883eb98f22c112aaa7bd42b6382d
 workflow-type: tm+mt
-source-wordcount: '1024'
+source-wordcount: '1023'
 ht-degree: 3%
 ---
 
@@ -57,26 +57,26 @@ ht-degree: 3%
         + [インプロセスのコード標準](../cloud-infrastructure-and-self-hosted/platform-and-migration/migrating-to-adobe-commerce/customizations/in-process-code-standards.md)
       + QA {#qa}
         + [コードのフリーズ](../cloud-infrastructure-and-self-hosted/platform-and-migration/migrating-to-adobe-commerce/qa/code-freeze.md)
-+ Adobe Commerce Cloud {#adobe-commerce-cloud}
-  + トラブルシューティング {#troubleshooting}
-    + [無効なSSL](../cloud/troubleshooting/invalid-ssl.md)
-    + [2つの一般的なサイトエラーのトリアージと解決](../cloud/troubleshooting/triage-two-common-site-errors.md)
-    + [設定値](../cloud/troubleshooting/config-values.md)
-    + [ログを切り捨てる](../cloud/troubleshooting/truncate-logs.md)
-  + [プロジェクトと環境の管理](../cloud/project-environment-management.md)
-  + [Adobe Commerce Cloudの拡張方法](../cloud/how-adobe-commerce-cloud-scales.md)
-  + [HIPAA対応ホスティング](../cloud/hippa-ready-hosting.md)
-  + [IP アドレスの検出](../cloud/detect-ip-address.md)
-  + [Fastlyを使用してアクセスを制限](../cloud/limit-website-access-using-fastly.md)
-  + 技術的なオンボーディングとハードウェアの引き継ぎ {#technical-onboarding-hardware-handoff}
-    + [インフラと開発のベストプラクティス](../cloud/infrastructure-development-best-practices.md)
-    + [Fastly](../cloud/fastly.md)
-    + [設定とデバッグ](../cloud/configuration-and-debugging.md)
-    + [実装、テスト、モニタリング、セキュリティ](../cloud/deployments-testing-monitoring-security.md)
-    + [SaaS製品、サポート、コミュニケーション、次のステップ](../cloud/saas-offerings-support-communications-next-steps.md)
-  + ベストプラクティス {#commerce-cloud-best-practices}
-    + [サポートリクエスト](../cloud/best-practices/support-request.md)
-    + [起動前のチェックリスト](../cloud/best-practices/pre-launch-checklist.md)
+  + クラウド運用 {#cloud-operations}
+    + トラブルシューティング {#troubleshooting}
+      + [無効なSSL](../cloud-infrastructure-and-self-hosted/cloud-operations/troubleshooting/invalid-ssl.md)
+      + [2つの一般的なサイトエラーのトリアージと解決](../cloud-infrastructure-and-self-hosted/cloud-operations/troubleshooting/triage-two-common-site-errors.md)
+      + [設定値](../cloud-infrastructure-and-self-hosted/cloud-operations/troubleshooting/config-values.md)
+      + [ログを切り捨てる](../cloud-infrastructure-and-self-hosted/cloud-operations/troubleshooting/truncate-logs.md)
+    + [プロジェクトと環境の管理](../cloud-infrastructure-and-self-hosted/cloud-operations/project-environment-management.md)
+    + [Adobe Commerce Cloudの拡張方法](../cloud-infrastructure-and-self-hosted/cloud-operations/how-adobe-commerce-cloud-scales.md)
+    + [HIPAA対応ホスティング](../cloud-infrastructure-and-self-hosted/cloud-operations/hippa-ready-hosting.md)
+    + [IP アドレスの検出](../cloud-infrastructure-and-self-hosted/cloud-operations/detect-ip-address.md)
+    + [Fastlyを使用してアクセスを制限](../cloud-infrastructure-and-self-hosted/cloud-operations/limit-website-access-using-fastly.md)
+    + 技術的なオンボーディングとハードウェアの引き継ぎ {#technical-onboarding-hardware-handoff}
+      + [インフラと開発のベストプラクティス](../cloud-infrastructure-and-self-hosted/cloud-operations/technical-onboarding-hardware-handoff/infrastructure-development-best-practices.md)
+      + [Fastly](../cloud-infrastructure-and-self-hosted/cloud-operations/technical-onboarding-hardware-handoff/fastly.md)
+      + [設定とデバッグ](../cloud-infrastructure-and-self-hosted/cloud-operations/technical-onboarding-hardware-handoff/configuration-and-debugging.md)
+      + [実装、テスト、モニタリング、セキュリティ](../cloud-infrastructure-and-self-hosted/cloud-operations/technical-onboarding-hardware-handoff/deployments-testing-monitoring-security.md)
+      + [SaaS製品、サポート、コミュニケーション、次のステップ](../cloud-infrastructure-and-self-hosted/cloud-operations/technical-onboarding-hardware-handoff/saas-offerings-support-communications-next-steps.md)
+    + ベストプラクティス {#commerce-cloud-best-practices}
+      + [サポートリクエスト](../cloud-infrastructure-and-self-hosted/cloud-operations/commerce-cloud-best-practices/support-request.md)
+      + [起動前のチェックリスト](../cloud-infrastructure-and-self-hosted/cloud-operations/commerce-cloud-best-practices/pre-launch-checklist.md)
 + はじめに {#getting-started}
   + Commerce製品 {#capabilities}
     + [利用可能なコマースオプション](../capabilities/adobes-available-commerce-options.md)
@@ -85,10 +85,10 @@ ht-degree: 3%
     + [コンポーザブルCommerce](../capabilities/what-is-composable-commerce.md)
     + [品質パッチツール](../capabilities/quality-patch-tool.md)
   + 製品の作成 {#create-products}
-    + [&#x200B; シンプルな製品](../site-management/create-simple-product.md)
-    + [&#x200B; バーチャル製品](../site-management/create-virtual-product.md)
+    + [ シンプルな製品](../site-management/create-simple-product.md)
+    + [ バーチャル製品](../site-management/create-virtual-product.md)
     + [ダウンロード可能な製品](../site-management/create-downloadable-product.md)
-    + [&#x200B; グループ化された製品](../site-management/create-grouped-product.md)
+    + [ グループ化された製品](../site-management/create-grouped-product.md)
     + [設定可能な製品](../site-management/create-configurable-product.md)
     + [バンドル製品](../site-management/create-bundle-product.md)
     + [ギフトカード商品](../site-management/create-gift-card-product.md)
@@ -115,7 +115,7 @@ ht-degree: 3%
     + [まとめ](../commerce-developer-agent/adobe-commerce-developer-agent-conclusion-technical-video.md)
     + [App Builderドライラン](../commerce-developer-agent/adobe-commerce-developer-agent-app-builder-dry-run.md)
   + バックエンド開発 {#backend-development}
-    + [データベーステーブルの修正に関するベストプラクティス](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables.html?lang=ja)
+    + [データベーステーブルの修正に関するベストプラクティス](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables.html)
     + [モジュールの作成](../backend-development/create-module.md)
     + [製品属性の追加](../backend-development/add-product-attribute.md)
     + [依存関係インジェクションの例](../backend-development/dependency-injection.md)
@@ -148,7 +148,7 @@ ht-degree: 3%
         + [買い物客体験](../edge-delivery-services/shopper-experience.md)
     + ヘッドレスアーキテクチャ {#headless-architecture}
       + ヘッドレス CMSの概要 {#introduction-to-headless}
-        + [&#x200B; ヘッドレスアーキテクチャ – セッション 1](../headless/session-1.md)
+        + [ ヘッドレスアーキテクチャ – セッション 1](../headless/session-1.md)
       + PWA Studioの概要 {#introduction}
         + [概要](../pwa/introduction/1-overview.md)
         + [PWA Studio tools](../pwa/introduction/2-pwa-studio-tools.md)
@@ -281,7 +281,7 @@ ht-degree: 3%
   + [関連製品ルールの管理](../site-management/related-product-rules.md)
   + [商品レコメンデーションの設定](../site-management/product-recommendations.md)
   + [ライブサーチの概要](../site-management/live-search.md)
-  + [&#x200B; レコメンデーションのライブ検索](../site-management/live-search-recommendations.md)
+  + [ レコメンデーションのライブ検索](../site-management/live-search-recommendations.md)
   + [CommerceとAJOの統合](../site-management/integrate-commerce-ajo.md)
 + 注文とフルフィルメント {#orders}
   + [注文ステータスの管理](../orders-and-fulfillment/order-status.md)
