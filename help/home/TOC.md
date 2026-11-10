@@ -4,9 +4,9 @@ user-guide-description: ビデオとチュートリアルを通じて、Adobe Co
 breadcrumb-title: ビデオとチュートリアル
 auto-video-transcripts: true
 author: Russell A.
-source-git-commit: 3be42a811f2532f46071612ec5d930ef711dc8d8
+source-git-commit: 36f5d4ba374d54d6590c65947f893918eb50074e
 workflow-type: tm+mt
-source-wordcount: '1016'
+source-wordcount: '1022'
 ht-degree: 3%
 ---
 
@@ -37,52 +37,62 @@ ht-degree: 3%
     + [ターゲット資格情報](../commerce-as-a-cloud-service/bulk-data-migration-tool/target-credentials.md)
     + [単相移行](../commerce-as-a-cloud-service/bulk-data-migration-tool/bulk-data-migration-tool-single-phase-migration.md)
     + [多相移行](../commerce-as-a-cloud-service/bulk-data-migration-tool/bulk-data-migration-tool-multi-phase-migration.md)
-+ Adobe Commerce Cloud {#adobe-commerce-cloud}
-  + トラブルシューティング {#troubleshooting}
-    + [無効なSSL](../cloud/troubleshooting/invalid-ssl.md)
-    + [2つの一般的なサイトエラーのトリアージと解決](../cloud/troubleshooting/triage-two-common-site-errors.md)
-    + [設定値](../cloud/troubleshooting/config-values.md)
-    + [ログを切り捨てる](../cloud/troubleshooting/truncate-logs.md)
-  + [プロジェクトと環境の管理](../cloud/project-environment-management.md)
-  + [Adobe Commerce Cloudの拡張方法](../cloud/how-adobe-commerce-cloud-scales.md)
-  + [HIPAA対応ホスティング](../cloud/hippa-ready-hosting.md)
-  + [IP アドレスの検出](../cloud/detect-ip-address.md)
-  + [マーケテク](../cloud/marketecture.md)
-  + [グローバル配信モデル](../cloud/global-delivery-model.md)
-  + [管理者の役割](../cloud/admin-roles.md)
-  + [マーケティングフロー](../cloud/marketing-flows.md)
-  + [ストアフロントオプション](../cloud/storefront-options.md)
-  + [データの共有](../cloud/data-sharing.md)
-  + [複数のweb サイト](../cloud/multiple-websites.md)
-  + [リードデータとプロモーションの体験](../cloud/experience-lead-data-promoitions.md)
-  + [AEM Assets](../cloud/aem-assets.md)
-  + [&#x200B; セルフホスト型ソリューションからの移行](../cloud/overview.md)
-  + [Fastlyを使用してアクセスを制限](../cloud/limit-website-access-using-fastly.md)
-  + 技術的なオンボーディングとハードウェアの引き継ぎ {#technical-onboarding-hardware-handoff}
-    + [インフラと開発のベストプラクティス](../cloud/infrastructure-development-best-practices.md)
-    + [Fastly](../cloud/fastly.md)
-    + [設定とデバッグ](../cloud/configuration-and-debugging.md)
-    + [実装、テスト、モニタリング、セキュリティ](../cloud/deployments-testing-monitoring-security.md)
-    + [SaaS製品、サポート、コミュニケーション、次のステップ](../cloud/saas-offerings-support-communications-next-steps.md)
-  + ベストプラクティス {#commerce-cloud-best-practices}
-    + [サポートリクエスト](../cloud/best-practices/support-request.md)
-    + [起動前のチェックリスト](../cloud/best-practices/pre-launch-checklist.md)
++ クラウド基盤とセルフホスト {#cloud-infrastructure-and-self-hosted}
+  + プラットフォームと移行 {#platform-and-migration}
+    + [マーケテク](../cloud-infrastructure-and-self-hosted/platform-and-migration/marketecture.md)
+    + [グローバル配信モデル](../cloud-infrastructure-and-self-hosted/platform-and-migration/global-delivery-model.md)
+    + [管理者の役割](../cloud-infrastructure-and-self-hosted/platform-and-migration/admin-roles.md)
+    + [マーケティングフロー](../cloud-infrastructure-and-self-hosted/platform-and-migration/marketing-flows.md)
+    + [ストアフロントオプション](../cloud-infrastructure-and-self-hosted/platform-and-migration/storefront-options.md)
+    + [データの共有](../cloud-infrastructure-and-self-hosted/platform-and-migration/data-sharing.md)
+    + [複数のweb サイト](../cloud-infrastructure-and-self-hosted/platform-and-migration/multiple-websites.md)
+    + [リードデータとプロモーションの体験](../cloud-infrastructure-and-self-hosted/platform-and-migration/experience-lead-data-promoitions.md)
+    + [AEM Assets](../cloud-infrastructure-and-self-hosted/platform-and-migration/aem-assets.md)
+    + [セルフホストソリューションからの移行](../cloud-infrastructure-and-self-hosted/platform-and-migration/overview.md)
+    + Adobe Commerceへの移行 {#migrating-to-adobe-commerce}
+      + [概要](../cloud-infrastructure-and-self-hosted/platform-and-migration/migrating-to-adobe-commerce/overview.md)
+      + 準備 {#preparation}
+        + [チームとプロジェクトの評価](../cloud-infrastructure-and-self-hosted/platform-and-migration/migrating-to-adobe-commerce/preparation/evaluate-team-and-project.md)
+      + カスタマイズ {#customizations}
+        + [インプロセスのコード標準](../cloud-infrastructure-and-self-hosted/platform-and-migration/migrating-to-adobe-commerce/customizations/in-process-code-standards.md)
+      + QA {#qa}
+        + [コードのフリーズ](../cloud-infrastructure-and-self-hosted/platform-and-migration/migrating-to-adobe-commerce/qa/code-freeze.md)
+  + クラウド運用 {#cloud-operations}
+    + トラブルシューティング {#troubleshooting}
+      + [無効なSSL](../cloud-infrastructure-and-self-hosted/cloud-operations/troubleshooting/invalid-ssl.md)
+      + [2つの一般的なサイトエラーのトリアージと解決](../cloud-infrastructure-and-self-hosted/cloud-operations/troubleshooting/triage-two-common-site-errors.md)
+      + [設定値](../cloud-infrastructure-and-self-hosted/cloud-operations/troubleshooting/config-values.md)
+      + [ログを切り捨てる](../cloud-infrastructure-and-self-hosted/cloud-operations/troubleshooting/truncate-logs.md)
+    + [プロジェクトと環境の管理](../cloud-infrastructure-and-self-hosted/cloud-operations/project-environment-management.md)
+    + [Adobe Commerce Cloudの拡張方法](../cloud-infrastructure-and-self-hosted/cloud-operations/how-adobe-commerce-cloud-scales.md)
+    + [HIPAA対応ホスティング](../cloud-infrastructure-and-self-hosted/cloud-operations/hippa-ready-hosting.md)
+    + [IP アドレスの検出](../cloud-infrastructure-and-self-hosted/cloud-operations/detect-ip-address.md)
+    + [Fastlyを使用してアクセスを制限](../cloud-infrastructure-and-self-hosted/cloud-operations/limit-website-access-using-fastly.md)
+    + 技術的なオンボーディングとハードウェアの引き継ぎ {#technical-onboarding-hardware-handoff}
+      + [インフラと開発のベストプラクティス](../cloud-infrastructure-and-self-hosted/cloud-operations/technical-onboarding-hardware-handoff/infrastructure-development-best-practices.md)
+      + [Fastly](../cloud-infrastructure-and-self-hosted/cloud-operations/technical-onboarding-hardware-handoff/fastly.md)
+      + [設定とデバッグ](../cloud-infrastructure-and-self-hosted/cloud-operations/technical-onboarding-hardware-handoff/configuration-and-debugging.md)
+      + [実装、テスト、モニタリング、セキュリティ](../cloud-infrastructure-and-self-hosted/cloud-operations/technical-onboarding-hardware-handoff/deployments-testing-monitoring-security.md)
+      + [SaaS製品、サポート、コミュニケーション、次のステップ](../cloud-infrastructure-and-self-hosted/cloud-operations/technical-onboarding-hardware-handoff/saas-offerings-support-communications-next-steps.md)
+    + ベストプラクティス {#commerce-cloud-best-practices}
+      + [サポートリクエスト](../cloud-infrastructure-and-self-hosted/cloud-operations/commerce-cloud-best-practices/support-request.md)
+      + [起動前のチェックリスト](../cloud-infrastructure-and-self-hosted/cloud-operations/commerce-cloud-best-practices/pre-launch-checklist.md)
+    + 運用ツール {#tools}
+      + [サイト全体の分析ツールダッシュボード](../cloud-infrastructure-and-self-hosted/cloud-operations/tools/site-wide-analysis-tool.md)
+      + [Cloud Automation Patching Service](../cloud-infrastructure-and-self-hosted/cloud-operations/tools/cloud-automation-patching-service.md)
+      + [Adobe Commerceの観測](../cloud-infrastructure-and-self-hosted/cloud-operations/tools/observation-tool.md)
+      + [品質パッチツールの概要](../cloud-infrastructure-and-self-hosted/cloud-operations/tools/quality-patch-tool-overview.md)
+      + [品質パッチツール](../cloud-infrastructure-and-self-hosted/cloud-operations/tools/quality-patch-tool.md)
+      + New Relic {#new-relic}
+        + [悪意のあるIPを探す](../cloud-infrastructure-and-self-hosted/cloud-operations/tools/new-relic/malicious-ip.md)
+        + [アラート通知の設定](../cloud-infrastructure-and-self-hosted/cloud-operations/tools/new-relic/new-relic-alert-notification-setup.md)
+        + [カスタムアラート](../cloud-infrastructure-and-self-hosted/cloud-operations/tools/new-relic/custom-alerts.md)
 + はじめに {#getting-started}
-  + Adobe Commerceへの移行{#migrating-to-adobe-commerce}
-    + [概要](../migrating-to-adobe-commerce/overview.md)
-    + 準備{#preparation}
-      + [チームとプロジェクトの評価](../migrating-to-adobe-commerce/preparation/evaluate-team-and-project.md)
-    + カスタマイズ{#customizations}
-      + [インプロセスのコード標準](../migrating-to-adobe-commerce/customizations/in-process-code-standards.md)
-    + QA{#qa}
-      + [コードのフリーズ](../migrating-to-adobe-commerce/qa/code-freeze.md)
-
   + Commerce製品 {#capabilities}
     + [利用可能なコマースオプション](../capabilities/adobes-available-commerce-options.md)
     + [データ接続](../capabilities/data-connection.md)
     + [ライブサーチの完全デモ](../capabilities/live-search-full-demonstration.md)
     + [コンポーザブルCommerce](../capabilities/what-is-composable-commerce.md)
-    + [品質パッチツール](../capabilities/quality-patch-tool.md)
   + 製品の作成 {#create-products}
     + [&#x200B; シンプルな製品](../site-management/create-simple-product.md)
     + [&#x200B; バーチャル製品](../site-management/create-virtual-product.md)
@@ -298,12 +308,3 @@ ht-degree: 3%
     + [見積もり行項目メモ](../b2b/quote-line-item-notes.md)
     + [見積もり行項目の割引GraphQL](../b2b/quote-graphql-line-item-discount.md)
     + [見積もり行項目の割引REST API](../b2b/quote-rest-api-line-item-notes.md)
-+ ツールと外部サービス {#tools}
-  + [サイト全体の分析ツールダッシュボード](../tools/site-wide-analysis-tool.md)
-  + [Cloud Automation Patching Service](../tools/cloud-automation-patching-service.md)
-  + [Adobe Commerceの観測](../tools/observation-tool.md)
-  + [品質パッチツール](../tools/quality-patch-tool.md)
-  + New Relic {#new-relic}
-    + [悪意のあるIPを探す](../new-relic/malicious-ip.md)
-    + [アラート通知の設定](../new-relic/new-relic-alert-notification-setup.md)
-    + [カスタムアラート](../new-relic/custom-alerts.md)
