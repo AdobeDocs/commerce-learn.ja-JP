@@ -61,4 +61,4 @@ New Relicでアラート、ポリシー、ワークフロー、宛先を検索�
 * アラート通知、ポリシー、ワークフローについて詳しく見る
 * 宛先を保存し、新しい電子メールを検証することがポリシーに追加されました
 
->[!VIDEO](https://video.tv.adobe.com/v/3432774?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3441199?captions=jpn&learn=on)
