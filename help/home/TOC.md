@@ -4,9 +4,9 @@ user-guide-description: ビデオとチュートリアルを通じて、Adobe Co
 breadcrumb-title: ビデオとチュートリアル
 auto-video-transcripts: true
 author: Russell A.
-source-git-commit: 75bc52b62261883eb98f22c112aaa7bd42b6382d
+source-git-commit: 36f5d4ba374d54d6590c65947f893918eb50074e
 workflow-type: tm+mt
-source-wordcount: '1023'
+source-wordcount: '1022'
 ht-degree: 3%
 ---
 
@@ -77,18 +77,27 @@ ht-degree: 3%
     + ベストプラクティス {#commerce-cloud-best-practices}
       + [サポートリクエスト](../cloud-infrastructure-and-self-hosted/cloud-operations/commerce-cloud-best-practices/support-request.md)
       + [起動前のチェックリスト](../cloud-infrastructure-and-self-hosted/cloud-operations/commerce-cloud-best-practices/pre-launch-checklist.md)
+    + 運用ツール {#tools}
+      + [サイト全体の分析ツールダッシュボード](../cloud-infrastructure-and-self-hosted/cloud-operations/tools/site-wide-analysis-tool.md)
+      + [Cloud Automation Patching Service](../cloud-infrastructure-and-self-hosted/cloud-operations/tools/cloud-automation-patching-service.md)
+      + [Adobe Commerceの観測](../cloud-infrastructure-and-self-hosted/cloud-operations/tools/observation-tool.md)
+      + [品質パッチツールの概要](../cloud-infrastructure-and-self-hosted/cloud-operations/tools/quality-patch-tool-overview.md)
+      + [品質パッチツール](../cloud-infrastructure-and-self-hosted/cloud-operations/tools/quality-patch-tool.md)
+      + New Relic {#new-relic}
+        + [悪意のあるIPを探す](../cloud-infrastructure-and-self-hosted/cloud-operations/tools/new-relic/malicious-ip.md)
+        + [アラート通知の設定](../cloud-infrastructure-and-self-hosted/cloud-operations/tools/new-relic/new-relic-alert-notification-setup.md)
+        + [カスタムアラート](../cloud-infrastructure-and-self-hosted/cloud-operations/tools/new-relic/custom-alerts.md)
 + はじめに {#getting-started}
   + Commerce製品 {#capabilities}
     + [利用可能なコマースオプション](../capabilities/adobes-available-commerce-options.md)
     + [データ接続](../capabilities/data-connection.md)
     + [ライブサーチの完全デモ](../capabilities/live-search-full-demonstration.md)
     + [コンポーザブルCommerce](../capabilities/what-is-composable-commerce.md)
-    + [品質パッチツール](../capabilities/quality-patch-tool.md)
   + 製品の作成 {#create-products}
-    + [&#x200B; シンプルな製品](../site-management/create-simple-product.md)
-    + [&#x200B; バーチャル製品](../site-management/create-virtual-product.md)
+    + [ シンプルな製品](../site-management/create-simple-product.md)
+    + [ バーチャル製品](../site-management/create-virtual-product.md)
     + [ダウンロード可能な製品](../site-management/create-downloadable-product.md)
-    + [&#x200B; グループ化された製品](../site-management/create-grouped-product.md)
+    + [ グループ化された製品](../site-management/create-grouped-product.md)
     + [設定可能な製品](../site-management/create-configurable-product.md)
     + [バンドル製品](../site-management/create-bundle-product.md)
     + [ギフトカード商品](../site-management/create-gift-card-product.md)
@@ -115,7 +124,7 @@ ht-degree: 3%
     + [まとめ](../commerce-developer-agent/adobe-commerce-developer-agent-conclusion-technical-video.md)
     + [App Builderドライラン](../commerce-developer-agent/adobe-commerce-developer-agent-app-builder-dry-run.md)
   + バックエンド開発 {#backend-development}
-    + [データベーステーブルの修正に関するベストプラクティス](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables.html?lang=ja)
+    + [データベーステーブルの修正に関するベストプラクティス](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables.html)
     + [モジュールの作成](../backend-development/create-module.md)
     + [製品属性の追加](../backend-development/add-product-attribute.md)
     + [依存関係インジェクションの例](../backend-development/dependency-injection.md)
@@ -148,7 +157,7 @@ ht-degree: 3%
         + [買い物客体験](../edge-delivery-services/shopper-experience.md)
     + ヘッドレスアーキテクチャ {#headless-architecture}
       + ヘッドレス CMSの概要 {#introduction-to-headless}
-        + [&#x200B; ヘッドレスアーキテクチャ – セッション 1](../headless/session-1.md)
+        + [ ヘッドレスアーキテクチャ – セッション 1](../headless/session-1.md)
       + PWA Studioの概要 {#introduction}
         + [概要](../pwa/introduction/1-overview.md)
         + [PWA Studio tools](../pwa/introduction/2-pwa-studio-tools.md)
@@ -281,7 +290,7 @@ ht-degree: 3%
   + [関連製品ルールの管理](../site-management/related-product-rules.md)
   + [商品レコメンデーションの設定](../site-management/product-recommendations.md)
   + [ライブサーチの概要](../site-management/live-search.md)
-  + [&#x200B; レコメンデーションのライブ検索](../site-management/live-search-recommendations.md)
+  + [ レコメンデーションのライブ検索](../site-management/live-search-recommendations.md)
   + [CommerceとAJOの統合](../site-management/integrate-commerce-ajo.md)
 + 注文とフルフィルメント {#orders}
   + [注文ステータスの管理](../orders-and-fulfillment/order-status.md)
@@ -299,12 +308,3 @@ ht-degree: 3%
     + [見積もり行項目メモ](../b2b/quote-line-item-notes.md)
     + [見積もり行項目の割引GraphQL](../b2b/quote-graphql-line-item-discount.md)
     + [見積もり行項目の割引REST API](../b2b/quote-rest-api-line-item-notes.md)
-+ ツールと外部サービス {#tools}
-  + [サイト全体の分析ツールダッシュボード](../tools/site-wide-analysis-tool.md)
-  + [Cloud Automation Patching Service](../tools/cloud-automation-patching-service.md)
-  + [Adobe Commerceの観測](../tools/observation-tool.md)
-  + [品質パッチツール](../tools/quality-patch-tool.md)
-  + New Relic {#new-relic}
-    + [悪意のあるIPを探す](../new-relic/malicious-ip.md)
-    + [アラート通知の設定](../new-relic/new-relic-alert-notification-setup.md)
-    + [カスタムアラート](../new-relic/custom-alerts.md)
