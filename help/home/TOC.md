@@ -190,7 +190,7 @@ ht-degree: 3%
         + [買い物客体験](../edge-delivery-services/shopper-experience.md)
     + ヘッドレスアーキテクチャ {#headless-architecture}
       + ヘッドレス CMSの概要 {#introduction-to-headless}
-        + [ ヘッドレスアーキテクチャ – セッション 1](../headless/session-1.md)
+        + [&#x200B; ヘッドレスアーキテクチャ – セッション 1](../headless/session-1.md)
       + PWA Studioの概要 {#introduction}
         + [概要](../pwa/introduction/1-overview.md)
         + [PWA Studio tools](../pwa/introduction/2-pwa-studio-tools.md)
@@ -293,7 +293,7 @@ ht-degree: 3%
   + [関連製品ルールの管理](../site-management/related-product-rules.md)
   + [商品レコメンデーションの設定](../site-management/product-recommendations.md)
   + [ライブサーチの概要](../site-management/live-search.md)
-  + [ レコメンデーションのライブ検索](../site-management/live-search-recommendations.md)
+  + [&#x200B; レコメンデーションのライブ検索](../site-management/live-search-recommendations.md)
   + [CommerceとAJOの統合](../site-management/integrate-commerce-ajo.md)
 + B2B for Adobe Commerce {#b2b}
   + [会社アカウントの管理](../b2b/company-accounts.md)
