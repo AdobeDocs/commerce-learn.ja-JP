@@ -4,9 +4,9 @@ user-guide-description: ビデオとチュートリアルを通じて、Adobe Co
 breadcrumb-title: ビデオとチュートリアル
 auto-video-transcripts: true
 author: Russell A.
-source-git-commit: 36f5d4ba374d54d6590c65947f893918eb50074e
+source-git-commit: 1ca7a530f5f685af907ad1d161ee73e45de6b667
 workflow-type: tm+mt
-source-wordcount: '1022'
+source-wordcount: '1021'
 ht-degree: 3%
 ---
 
@@ -87,6 +87,29 @@ ht-degree: 3%
         + [悪意のあるIPを探す](../cloud-infrastructure-and-self-hosted/cloud-operations/tools/new-relic/malicious-ip.md)
         + [アラート通知の設定](../cloud-infrastructure-and-self-hosted/cloud-operations/tools/new-relic/new-relic-alert-notification-setup.md)
         + [カスタムアラート](../cloud-infrastructure-and-self-hosted/cloud-operations/tools/new-relic/custom-alerts.md)
+  + 店舗の管理 {#store-administration}
+    + [ユーザーの役割と権限の管理](../cloud-infrastructure-and-self-hosted/store-administration/users-roles-permissions.md)
+    + [二段階認証](../cloud-infrastructure-and-self-hosted/store-administration/two-factor-authentication.md)
+    + [通貨と税ルールの管理](../cloud-infrastructure-and-self-hosted/store-administration/currency-tax-rules.md)
+    + [Web サイト、ストア、ストアビューの追加](../cloud-infrastructure-and-self-hosted/store-administration/add-websites-stores-views.md)
+    + [ストア URLの変更](../cloud-infrastructure-and-self-hosted/store-administration/change-store-url.md)
+    + [管理者URIのリセット](../cloud-infrastructure-and-self-hosted/store-administration/reset-admin-uri.md)
+    + [発送および配送方法](../cloud-infrastructure-and-self-hosted/store-administration/shipping-delivery.md)
+    + [管理者グリッドとフィルター](../cloud-infrastructure-and-self-hosted/store-administration/admin-grids-and-filters.md)
+    + [Commerce cli](../cloud-infrastructure-and-self-hosted/store-administration/view-update-store-configuration-cli.md)
+    + [ストア設定とシステムメニューに移動します](../cloud-infrastructure-and-self-hosted/store-administration/store-configuration-and-system-menu.md)
+    + Commerce サービスの設定 {#adobe-commerce-services}
+      + [Commerce Services Connectorの設定](../cloud-infrastructure-and-self-hosted/store-administration/adobe-commerce-services/configure-adobe-commerce-services-connector.md)
+      + [決済サービスを設定](../cloud-infrastructure-and-self-hosted/store-administration/adobe-commerce-services/configure-adobe-payment-services.md)
+      + [決済サービスを利用](../cloud-infrastructure-and-self-hosted/store-administration/adobe-commerce-services/payment-services.md)
+    + 顧客 {#customers}
+      + [顧客セグメントの構築](../cloud-infrastructure-and-self-hosted/store-administration/customers/customer-segments.md)
+      + [顧客グループの作成](../cloud-infrastructure-and-self-hosted/store-administration/customers/customer-groups.md)
+      + [顧客属性の作成](../cloud-infrastructure-and-self-hosted/store-administration/customers/customer-attributes.md)
+      + [出品者支援ショッピング](../cloud-infrastructure-and-self-hosted/store-administration/customers/seller-assisted-shopping.md)
+    + 注文とフルフィルメント {#orders}
+      + [注文ステータスの管理](../cloud-infrastructure-and-self-hosted/store-administration/orders/order-status.md)
+      + [在庫状況の確認](../cloud-infrastructure-and-self-hosted/store-administration/orders/checking-inventory-status.md)
 + はじめに {#getting-started}
   + Commerce製品 {#capabilities}
     + [利用可能なコマースオプション](../capabilities/adobes-available-commerce-options.md)
@@ -94,10 +117,10 @@ ht-degree: 3%
     + [ライブサーチの完全デモ](../capabilities/live-search-full-demonstration.md)
     + [コンポーザブルCommerce](../capabilities/what-is-composable-commerce.md)
   + 製品の作成 {#create-products}
-    + [&#x200B; シンプルな製品](../site-management/create-simple-product.md)
-    + [&#x200B; バーチャル製品](../site-management/create-virtual-product.md)
+    + [ シンプルな製品](../site-management/create-simple-product.md)
+    + [ バーチャル製品](../site-management/create-virtual-product.md)
     + [ダウンロード可能な製品](../site-management/create-downloadable-product.md)
-    + [&#x200B; グループ化された製品](../site-management/create-grouped-product.md)
+    + [ グループ化された製品](../site-management/create-grouped-product.md)
     + [設定可能な製品](../site-management/create-configurable-product.md)
     + [バンドル製品](../site-management/create-bundle-product.md)
     + [ギフトカード商品](../site-management/create-gift-card-product.md)
@@ -124,7 +147,7 @@ ht-degree: 3%
     + [まとめ](../commerce-developer-agent/adobe-commerce-developer-agent-conclusion-technical-video.md)
     + [App Builderドライラン](../commerce-developer-agent/adobe-commerce-developer-agent-app-builder-dry-run.md)
   + バックエンド開発 {#backend-development}
-    + [データベーステーブルの修正に関するベストプラクティス](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables.html?lang=ja)
+    + [データベーステーブルの修正に関するベストプラクティス](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables.html)
     + [モジュールの作成](../backend-development/create-module.md)
     + [製品属性の追加](../backend-development/add-product-attribute.md)
     + [依存関係インジェクションの例](../backend-development/dependency-injection.md)
@@ -157,7 +180,7 @@ ht-degree: 3%
         + [買い物客体験](../edge-delivery-services/shopper-experience.md)
     + ヘッドレスアーキテクチャ {#headless-architecture}
       + ヘッドレス CMSの概要 {#introduction-to-headless}
-        + [&#x200B; ヘッドレスアーキテクチャ – セッション 1](../headless/session-1.md)
+        + [ ヘッドレスアーキテクチャ – セッション 1](../headless/session-1.md)
       + PWA Studioの概要 {#introduction}
         + [概要](../pwa/introduction/1-overview.md)
         + [PWA Studio tools](../pwa/introduction/2-pwa-studio-tools.md)
@@ -247,26 +270,6 @@ ht-degree: 3%
     + [サポートチケットの検索、レビュー、コメント、エスカレーション](../monitoring-analytics-support/help-and-support/search-track-comment-escalate-support-ticket.md)
     + [サポートチケットの視聴者とステータスの管理](../monitoring-analytics-support/help-and-support/add-remove-watchers-close-reopen-support-ticket.md)
 
-+ 店舗の管理 {#admin}
-  + [ユーザーの役割と権限の管理](../site-management/users-roles-permissions.md)
-  + [二段階認証](../site-management/two-factor-authentication.md)
-  + [通貨と税ルールの管理](../site-management/currency-tax-rules.md)
-  + [Web サイト、ストア、ストアビューの追加](../site-management/add-websites-stores-views.md)
-  + [ストア URLの変更](../site-management/change-store-url.md)
-  + [管理者URIのリセット](../site-management/reset-admin-uri.md)
-  + [発送および配送方法](../site-management/shipping-delivery.md)
-  + [管理者グリッドとフィルター](../site-management/admin-grids-and-filters.md)
-  + [Commerce cli](../site-management/view-update-store-configuration-cli.md)
-  + [ストア設定とシステムメニューに移動します](../site-management/store-configuration-and-system-menu.md)
-  + Adobe Commerce Services {#adobe-commerce-services}
-    + [Commerce Services Connectorの設定](../site-management/configure-adobe-commerce-services-connector.md)
-    + [決済サービスを設定](../site-management/configure-adobe-payment-services.md)
-    + [決済サービスを利用](../site-management/payment-services.md)
-+ 顧客管理 {#customers}
-  + [顧客セグメントの構築](../site-management/customer-segments.md)
-  + [顧客グループの作成](../site-management/customer-groups.md)
-  + [顧客属性の作成](../site-management/customer-attributes.md)
-  + [出品者支援ショッピング](../site-management/seller-assisted-shopping.md)
 + カタログ管理 {#catalog}
   + [カテゴリの作成](../site-management/category-create.md)
   + [カテゴリ内の製品の管理](../site-management/category-products.md)
@@ -290,11 +293,8 @@ ht-degree: 3%
   + [関連製品ルールの管理](../site-management/related-product-rules.md)
   + [商品レコメンデーションの設定](../site-management/product-recommendations.md)
   + [ライブサーチの概要](../site-management/live-search.md)
-  + [&#x200B; レコメンデーションのライブ検索](../site-management/live-search-recommendations.md)
+  + [ レコメンデーションのライブ検索](../site-management/live-search-recommendations.md)
   + [CommerceとAJOの統合](../site-management/integrate-commerce-ajo.md)
-+ 注文とフルフィルメント {#orders}
-  + [注文ステータスの管理](../orders-and-fulfillment/order-status.md)
-  + [在庫状況の確認](../orders-and-fulfillment/checking-inventory-status.md)
 + B2B for Adobe Commerce {#b2b}
   + [会社アカウントの管理](../b2b/company-accounts.md)
   + [共有カタログの管理](../b2b/shared-catalogs.md)
