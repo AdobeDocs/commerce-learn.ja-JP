@@ -4,9 +4,9 @@ user-guide-description: ビデオとチュートリアルを通じて、Adobe Co
 breadcrumb-title: ビデオとチュートリアル
 auto-video-transcripts: true
 author: Russell A.
-source-git-commit: 1ca7a530f5f685af907ad1d161ee73e45de6b667
+source-git-commit: 6cea5e57261352c845a9f5fc21a11860f23116a1
 workflow-type: tm+mt
-source-wordcount: '1021'
+source-wordcount: '1022'
 ht-degree: 3%
 ---
 
@@ -110,20 +110,30 @@ ht-degree: 3%
     + 注文とフルフィルメント {#orders}
       + [注文ステータスの管理](../cloud-infrastructure-and-self-hosted/store-administration/orders/order-status.md)
       + [在庫状況の確認](../cloud-infrastructure-and-self-hosted/store-administration/orders/checking-inventory-status.md)
+  + カタログと商品 {#catalog-and-products}
+    + 製品の作成 {#create-products}
+      + [簡易商品](../cloud-infrastructure-and-self-hosted/catalog-and-products/create-products/create-simple-product.md)
+      + [バーチャル商品](../cloud-infrastructure-and-self-hosted/catalog-and-products/create-products/create-virtual-product.md)
+      + [ダウンロード可能な製品](../cloud-infrastructure-and-self-hosted/catalog-and-products/create-products/create-downloadable-product.md)
+      + [グループ化された製品](../cloud-infrastructure-and-self-hosted/catalog-and-products/create-products/create-grouped-product.md)
+      + [コンフィグ商品](../cloud-infrastructure-and-self-hosted/catalog-and-products/create-products/create-configurable-product.md)
+      + [バンドル製品](../cloud-infrastructure-and-self-hosted/catalog-and-products/create-products/create-bundle-product.md)
+      + [ギフトカード商品](../cloud-infrastructure-and-self-hosted/catalog-and-products/create-products/create-gift-card-product.md)
+    + [カテゴリの作成](../cloud-infrastructure-and-self-hosted/catalog-and-products/category-create.md)
+    + [カテゴリ内の製品の管理](../cloud-infrastructure-and-self-hosted/catalog-and-products/category-products.md)
+    + [Inventory management](../cloud-infrastructure-and-self-hosted/catalog-and-products/inventory-management.md)
+    + [製品属性の作成](../cloud-infrastructure-and-self-hosted/catalog-and-products/product-attributes-create.md)
+    + [PWA Studioで製品属性を使用する](../cloud-infrastructure-and-self-hosted/catalog-and-products/product-attributes-pwa.md)
+    + [SEO メタデータの管理](../cloud-infrastructure-and-self-hosted/catalog-and-products/seo-metadata.md)
+    + [SEOのURL書き換えを管理](../cloud-infrastructure-and-self-hosted/catalog-and-products/seo-url-rewrites.md)
+    + [AR ビューアー](../cloud-infrastructure-and-self-hosted/catalog-and-products/augmented-reality.md)
+    + [カタログの読み込みと更新](../cloud-infrastructure-and-self-hosted/catalog-and-products/catalog-import.md)
 + はじめに {#getting-started}
   + Commerce製品 {#capabilities}
     + [利用可能なコマースオプション](../capabilities/adobes-available-commerce-options.md)
     + [データ接続](../capabilities/data-connection.md)
     + [ライブサーチの完全デモ](../capabilities/live-search-full-demonstration.md)
     + [コンポーザブルCommerce](../capabilities/what-is-composable-commerce.md)
-  + 製品の作成 {#create-products}
-    + [&#x200B; シンプルな製品](../site-management/create-simple-product.md)
-    + [&#x200B; バーチャル製品](../site-management/create-virtual-product.md)
-    + [ダウンロード可能な製品](../site-management/create-downloadable-product.md)
-    + [&#x200B; グループ化された製品](../site-management/create-grouped-product.md)
-    + [設定可能な製品](../site-management/create-configurable-product.md)
-    + [バンドル製品](../site-management/create-bundle-product.md)
-    + [ギフトカード商品](../site-management/create-gift-card-product.md)
   + バックオフィス統合スターターキット {#back-office-integration-starter-kit}
     + [スターターキットのデモ](../back-office-integrations/starter-kit-demo.md)
     + [連携](../back-office-integrations/integrations.md)
@@ -147,7 +157,7 @@ ht-degree: 3%
     + [まとめ](../commerce-developer-agent/adobe-commerce-developer-agent-conclusion-technical-video.md)
     + [App Builderドライラン](../commerce-developer-agent/adobe-commerce-developer-agent-app-builder-dry-run.md)
   + バックエンド開発 {#backend-development}
-    + [データベーステーブルの修正に関するベストプラクティス](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables.html?lang=ja)
+    + [データベーステーブルの修正に関するベストプラクティス](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables.html)
     + [モジュールの作成](../backend-development/create-module.md)
     + [製品属性の追加](../backend-development/add-product-attribute.md)
     + [依存関係インジェクションの例](../backend-development/dependency-injection.md)
@@ -180,7 +190,7 @@ ht-degree: 3%
         + [買い物客体験](../edge-delivery-services/shopper-experience.md)
     + ヘッドレスアーキテクチャ {#headless-architecture}
       + ヘッドレス CMSの概要 {#introduction-to-headless}
-        + [&#x200B; ヘッドレスアーキテクチャ – セッション 1](../headless/session-1.md)
+        + [ ヘッドレスアーキテクチャ – セッション 1](../headless/session-1.md)
       + PWA Studioの概要 {#introduction}
         + [概要](../pwa/introduction/1-overview.md)
         + [PWA Studio tools](../pwa/introduction/2-pwa-studio-tools.md)
@@ -270,16 +280,6 @@ ht-degree: 3%
     + [サポートチケットの検索、レビュー、コメント、エスカレーション](../monitoring-analytics-support/help-and-support/search-track-comment-escalate-support-ticket.md)
     + [サポートチケットの視聴者とステータスの管理](../monitoring-analytics-support/help-and-support/add-remove-watchers-close-reopen-support-ticket.md)
 
-+ カタログ管理 {#catalog}
-  + [カテゴリの作成](../site-management/category-create.md)
-  + [カテゴリ内の製品の管理](../site-management/category-products.md)
-  + [Inventory management](../site-management/inventory-management.md)
-  + [製品属性の作成](../site-management/product-attributes-create.md)
-  + [PWA Studioで製品属性を使用する](../site-management/product-attributes-pwa.md)
-  + [SEO メタデータの管理](../site-management/seo-metadata.md)
-  + [SEOのURL書き換えを管理](../site-management/seo-url-rewrites.md)
-  + [AR ビューアー](../site-management/augmented-reality.md)
-  + [カタログの読み込みと更新](../site-management/catalog-import.md)
 + コンテンツ管理 {#content}
   + [ページビルダーの概要](../site-management/page-builder-overview.md)
   + [静的ブロックと動的ブロックの作成](../site-management/static-dynamic-blocks.md)
@@ -293,7 +293,7 @@ ht-degree: 3%
   + [関連製品ルールの管理](../site-management/related-product-rules.md)
   + [商品レコメンデーションの設定](../site-management/product-recommendations.md)
   + [ライブサーチの概要](../site-management/live-search.md)
-  + [&#x200B; レコメンデーションのライブ検索](../site-management/live-search-recommendations.md)
+  + [ レコメンデーションのライブ検索](../site-management/live-search-recommendations.md)
   + [CommerceとAJOの統合](../site-management/integrate-commerce-ajo.md)
 + B2B for Adobe Commerce {#b2b}
   + [会社アカウントの管理](../b2b/company-accounts.md)
