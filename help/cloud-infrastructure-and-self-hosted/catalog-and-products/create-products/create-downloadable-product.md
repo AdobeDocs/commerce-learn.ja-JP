@@ -1,0 +1,276 @@
+---
+title: ダウンロード可能な製品を作成する
+description: REST APIとAdobe Commerce管理者を使用して、ダウンロード可能な製品を作成する方法を説明します。
+jira: KT-14496
+doc-type: Technical Video
+duration: 946
+audience: all
+activity: use
+last-substantial-update: 2023-11-16T00:00:00.000Z
+feature: Catalog Management, Admin Workspace, Backend Development, Integration, REST
+topic: Commerce, Integrations, Content Management
+role: Developer, User
+level: Beginner
+exl-id: 90753b8d-eca0-4868-b40e-9563d2b0e1e8
+TQID: 'https://experienceleague.adobe.com/YHtAD-NRQmIG58myhZk9X7-jJjwlk8S4NX9jYnZwnQc'
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: b48dbafb-4193-5648-b9d9-bf96e9c9a411
+    internal-label: Backend Development
+  - id: cc04bd17-78d5-5120-8c3d-1b8a57e49280
+    internal-label: Integration
+  - id: e7dae43f-215c-4cdf-90d3-c5a461a6e669
+    internal-label: Admin tools and workspace
+  - id: c4f010fa-1478-4300-a88d-706fbc036a7a
+    internal-label: APIs and SDKs
+subfeature_v2:
+  - id: bb2df8be-afdd-4818-b6b5-95ca1dd3bc3a
+    internal-label: Admin workspace
+  - id: e0ca0e7a-9738-48d1-b98b-615468ab4aaf
+    internal-label: REST API
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
+source-git-commit: 8d29942509b7ec6ad6411889789a9661c9c8fb91
+workflow-type: tm+mt
+source-wordcount: '664'
+ht-degree: 4%
+---
+# ダウンロード可能な製品を作成する
+
+REST APIとAdobe Commerce管理者を使用して、ダウンロード可能な製品を作成する方法を説明します。
+
+## この動画は誰のためのものでしょうか？
+
+* web サイトマネージャー
+* コマースマーチャンダイジング
+* REST APIを使用してAdobe Commerceでプロダクトを作成する方法を学びたい新しいAdobe Commerce開発者
+
+## ビデオコンテンツ
+
+>[!VIDEO](https://video.tv.adobe.com/v/3453942?captions=jpn&learn=on)
+
+## ダウンロード可能なドメイン
+
+ダウンロードを許可するドメインを指定してください。 ドメインは、コマンドラインを使用してプロジェクトの`env.php` ファイルに追加されます。 `env.php` ファイルには、ダウンロード可能なコンテンツを含めることができるドメインの詳細が記載されています。 REST API _を使用してダウンロード可能な製品を作成すると、`php.env` ファイルが更新される前にエラーが発生します。_
+
+```bash
+{
+    "message": "Link URL's domain is not in list of downloadable_domains in env.php."
+}
+```
+
+ドメインを設定するには、サーバーに接続してください：`bin/magento downloadable:domains:add www.example.com`
+
+これが完了すると、`env.php`は&#x200B;_downloadable_ domains_配列内で変更されます。
+
+```php
+    'downloadable_domains' => [
+        'www.example.com'
+    ],
+```
+
+ドメインが`env.php`に追加されたので、Adobe Commerce AdminまたはREST APIを使用して、ダウンロード可能な製品を作成できます。
+
+詳しくは、[構成参照](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/files/config-reference-envphp.html?lang=ja#downloadable_domains)を参照してください。
+
+>[!IMPORTANT]
+>Adobe Commerceの一部のバージョンでは、Adobe Commerce管理者で商品を編集すると、次のエラーが表示される場合があります。 製品はREST APIを使用して作成されますが、リンクされたダウンロードの価格は`null`です。
+
+`Deprecated Functionality: number_format(): Passing null to parameter #1 ($num) of type float is deprecated in /app/vendor/magento/module-downloadable/Ui/DataProvider/Product/Form/Modifier/Data/Links.php on line 228`.
+
+このエラーを修正するには、更新リンク APIを使用します：`POST V1/products/{sku}/downloadable-links.`
+
+詳しくは、「[cURLを使用して製品ダウンロードリンクを更新する](#update-downloadable-links)」の節を参照してください。
+
+## cURLを使用してダウンロード可能な製品を作成する（リモートサーバーからダウンロード）
+
+この例では、ダウンロードするファイルが同じサーバー上にない場合に、cURLを使用してダウンロード可能な製品を作成する方法を示します。 この使用例は、ファイルがS3 バケットまたはその他のデジタルアセット管理に保存されている場合に一般的です。
+
+```bash
+curl --location '{{your.url.here}}/rest/default/V1/products' \
+--header 'Content-Type: application/json' \
+--header 'Authorization: Bearer {{Your Bearer Token}}' \
+--header 'Cookie: PHPSESSID=b78cae2338f12d846d233d4e9486607e; private_content_version=564dde2976849891583a9a649073f01' \
+--data '{
+  "product": {
+    "sku": "POSTMAN-download-product-1",
+    "name": "POSTMAN download product-1",
+    "attribute_set_id": 4,
+    "price": 9.9,
+    "status": 1,
+    "visibility": 4,
+    "type_id": "downloadable",
+    "extension_attributes": {
+        "website_ids": [
+            1
+        ],
+        
+        "downloadable_product_links": [
+            {
+                "title": "My url link",
+                "sort_order": 1,
+                "is_shareable": 1,
+                "price": 0,
+                "number_of_downloads": 0,
+                "link_type": "url",
+                "link_url": "{{location.url.where.file.exists}}/some-file.zip",
+                "sample_type": "url",
+                "sample_url": "{{location.url.where.file.exists}}/sample-file.zip"
+            }
+        ],
+        "downloadable_product_samples": []
+    },
+    "product_links": [],
+    "options": [],
+    "media_gallery_entries": [],
+    "tier_prices": []
+  }
+}
+'
+```
+
+## cURLを使用してダウンロード可能な製品を作成する（Commerce アプリケーションサーバーからダウンロード）
+
+この例では、ファイルがAdobe Commerce アプリケーションと同じサーバーに保存されている場合に、cURLを使用してAdobe Commerce管理者からダウンロード可能な製品を作成する方法を示します。
+
+この使用例では、カタログを管理する管理者が`upload file`を選択すると、ファイルが`pub/media/downloadable/files/links/` ディレクトリに転送されます。  オートメーションは、次のパターンに基づいてファイルを作成し、それぞれの場所に移動します。
+
+* アップロードされた各ファイルは、ファイル名の最初の2文字に基づいてフォルダーに保存されます。
+* アップロードが開始されると、Commerce アプリケーションは既存のフォルダーを作成または使用してファイルを転送します。
+* ファイルをダウンロードする際、パスの`link_file` セクションは、`pub/media/downloadable/files/links/` ディレクトリに追加されたパスの部分を使用します。
+
+例えば、アップロードされたファイルの名前が`download-example.zip`の場合は次のようになります。
+
+* ファイルがパス `pub/media/downloadable/files/links/d/o/`にアップロードされます。
+サブディレクトリ `/d`と`/d/o`が存在しない場合は作成されます。
+
+* ファイルへの最終パスは`/pub/media/downloadable/files/links/d/o/download-example.zip`です。
+
+* この例の`link_url`値は`d/o/download-example.zip`です
+
+```bash
+curl --location '{{your.url.here}}/rest/default/V1/products' \
+--header 'Content-Type: application/json' \
+--header 'Authorization: Bearer {{Your Bearer Token}}' \
+--header 'Cookie: PHPSESSID=571f5ebe48857569cd56bde5d65f83a2; private_content_version=9f3286b427812be6aec0b04cae33ba35' \
+--data '{
+  "product": {
+    "sku": "sample-local-download-file",
+    "name": "A downloadable product with locally hosted download file",
+    "attribute_set_id": 4,
+    "price": 33,
+    "status": 1,
+    "visibility": 4,
+    "type_id": "downloadable",
+    "extension_attributes": {
+        "website_ids": [
+            1
+        ],
+        "downloadable_product_links": [
+            {
+                "title": "an api version of already upload file",
+                "sort_order": 1,
+                "is_shareable": 1,
+                "price": 0,
+                "number_of_downloads": 0,
+                "link_type": "file",
+                "link_file": "/d/o/downloadable-file-demo-file-upload.zip",
+                "sample_type": null
+            }
+        ],
+        "downloadable_product_samples": []
+    },
+    "product_links": [],
+    "options": [],
+    "media_gallery_entries": [],
+    "tier_prices": []
+  }
+}'
+```
+
+## curlを使用した製品の取得
+
+```bash
+curl --location '{{your.url.here}}/rest/default/V1/products/POSTMAN-download-product-1' \
+--header 'Authorization: Bearer {{Your Bearer Token}}' \
+--header 'Cookie: PHPSESSID=b78cae2338f12d846d233d4e9486607e; private_content_version=564dde2976849891583a9a649073f01e'
+```
+
+## Postmanを使用した製品の更新 {#update-downloadable-links}
+
+エンドポイントの使用 `rest/all/V1/products/{sku}/downloadable-links`
+`SKU`は、製品の作成時に生成された製品IDです。 例えば、以下のコードサンプルでは、番号は39ですが、web サイトのIDを使用するように更新されていることを確認してください。 これにより、ダウンロード可能な製品のリンクが更新されます。
+
+```json
+{
+  "link": {
+    "id": 39,
+    "title": "My swagger update",
+    "sort_order": 0,
+    "is_shareable": 0,
+    "price": 0,
+    "number_of_downloads": 0,
+    "link_type": "url",
+    "link_file": "{{your.url.here}}/some-file.zip",
+    "link_url": "{{your.url.here}}/some-file.zip",
+    "link_file_content": {
+      "file_data": "{{your.url.here}}/some-file.zip",
+      "extension_attributes": {}
+    }
+  },
+  "isGlobalScopeContent": true
+}
+```
+
+## CURLを使用した製品ダウンロードリンクの更新
+
+cURLを使用して製品ダウンロードリンクを更新すると、URLには更新中の製品のSKUが含まれます。  次のコード例では、SKUは`abcd12345`です。 コマンドを送信する場合は、更新する製品のSKUに合わせて値を変更します。
+
+```bash
+curl --location '{{your.url.here}}/rest/all/V1/products/abcd12345/downloadable-links' \
+--header 'Content-Type: application/json' \
+--header 'Authorization: Bearer {{Your Bearer Token}}' \
+--header 'Cookie: PHPSESSID=fa5d76f4568982adf369f758e8cb9544; private_content_version=564dde2976849891583a9a649073f01e' \
+--data '{
+  "link": {
+    "id": {{The ID of the download link for example 39}},
+    "title": "My update",
+    "sort_order": 0,
+    "is_shareable": 0,
+    "price": 0,
+    "number_of_downloads": 0,
+    "link_type": "url",
+    "link_file": "{{your.url.here}}/some-file.zip",
+    "link_url": "{{your.url.here}}/some-file.zip",
+    "link_file_content": {
+      "file_data": "{{your.url.here}}/some-file.zip",
+      "extension_attributes": {}
+    }
+  },
+  "isGlobalScopeContent": true
+}'
+```
+
+## 関連資料
+
+* [ダウンロード可能な製品タイプ](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/types/product-create-downloadable.html?lang=ja){target="_blank"}
+* [ダウンロード可能なドメインの設定ガイド](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/files/config-reference-envphp.html?lang=ja#downloadable_domains){target="_blank"}
+* [Adobe Developer REST チュートリアル](https://developer.adobe.com/commerce/webapi/rest/tutorials/prerequisite-tasks/){target="_blank"}
+* [Adobe Commerce REST Redoc](https://adobe-commerce.redoc.ly/2.4.6-admin/tag/products#operation/PostV1Products){target="_blank"}
