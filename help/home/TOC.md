@@ -4,9 +4,9 @@ user-guide-description: ビデオとチュートリアルを通じて、Adobe Co
 breadcrumb-title: ビデオとチュートリアル
 auto-video-transcripts: true
 author: Russell A.
-source-git-commit: 4c8284ddf9ad9c6ed6bae53e9b251c81dd3a2e33
+source-git-commit: 99725eaac5f58955a7e6639c09db678b34520cc6
 workflow-type: tm+mt
-source-wordcount: '1023'
+source-wordcount: '1025'
 ht-degree: 3%
 ---
 
@@ -144,6 +144,16 @@ ht-degree: 3%
     + [レコメンデーションのライブサーチ](../cloud-infrastructure-and-self-hosted/marketing-and-merchandising/live-search-recommendations.md)
     + [ライブサーチの完全デモ](../cloud-infrastructure-and-self-hosted/marketing-and-merchandising/live-search-full-demonstration.md)
     + [CommerceとAJOの統合](../cloud-infrastructure-and-self-hosted/marketing-and-merchandising/integrate-commerce-ajo.md)
+  + B2B for Adobe Commerce {#b2b}
+    + [会社アカウントの管理](../cloud-infrastructure-and-self-hosted/b2b/company-accounts.md)
+    + [共有カタログの管理](../cloud-infrastructure-and-self-hosted/b2b/shared-catalogs.md)
+    + [会社クレジットを管理](../cloud-infrastructure-and-self-hosted/b2b/company-credit.md)
+    + [発注と承認](../cloud-infrastructure-and-self-hosted/b2b/purchase-orders.md)
+    + 見積もり {#quotes}
+      + [営業担当者が見積を開始](../cloud-infrastructure-and-self-hosted/b2b/quotes/sales-rep-initiates-quote.md)
+      + [管理者からの見積もり検証](../cloud-infrastructure-and-self-hosted/b2b/quotes/quote-validation-admin-panel.md)
+      + [見積もり行項目の割引](../cloud-infrastructure-and-self-hosted/b2b/quotes/quote-line-item-discount.md)
+      + [見積もり行項目メモ](../cloud-infrastructure-and-self-hosted/b2b/quotes/quote-line-item-notes.md)
 + はじめに {#getting-started}
   + Commerce製品 {#capabilities}
     + [利用可能なコマースオプション](../capabilities/adobes-available-commerce-options.md)
@@ -160,6 +170,10 @@ ht-degree: 3%
 + APIと統合 {#apis-and-integration}
   + RESTとGraphQLの実用的な例 {#examples}
     + [RESTを使用しているお客様](../apis-and-integration/examples/customer.md)
+    + B2B ビジネスの見積もり {#b2b-quotes}
+      + [営業担当者が見積REST APIを開始](../apis-and-integration/examples/b2b-quotes/sales-rep-initiates-quote-api.md)
+      + [見積もり行項目の割引GraphQL](../apis-and-integration/examples/b2b-quotes/quote-graphql-line-item-discount.md)
+      + [見積もり行項目メモ REST API](../apis-and-integration/examples/b2b-quotes/quote-rest-api-line-item-notes.md)
 
 + 拡張機能 {#extensibility}
   + Commerce Developer Agent {#commerce-developer-agent}
@@ -172,7 +186,7 @@ ht-degree: 3%
     + [まとめ](../commerce-developer-agent/adobe-commerce-developer-agent-conclusion-technical-video.md)
     + [App Builderドライラン](../commerce-developer-agent/adobe-commerce-developer-agent-app-builder-dry-run.md)
   + バックエンド開発 {#backend-development}
-    + [データベーステーブルの修正に関するベストプラクティス](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables.html?lang=ja)
+    + [データベーステーブルの修正に関するベストプラクティス](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables.html)
     + [モジュールの作成](../backend-development/create-module.md)
     + [製品属性の追加](../backend-development/add-product-attribute.md)
     + [依存関係インジェクションの例](../backend-development/dependency-injection.md)
@@ -205,7 +219,7 @@ ht-degree: 3%
         + [買い物客体験](../edge-delivery-services/shopper-experience.md)
     + ヘッドレスアーキテクチャ {#headless-architecture}
       + ヘッドレス CMSの概要 {#introduction-to-headless}
-        + [&#x200B; ヘッドレスアーキテクチャ – セッション 1](../headless/session-1.md)
+        + [ ヘッドレスアーキテクチャ – セッション 1](../headless/session-1.md)
       + PWA Studioの概要 {#introduction}
         + [概要](../pwa/introduction/1-overview.md)
         + [PWA Studio tools](../pwa/introduction/2-pwa-studio-tools.md)
@@ -294,17 +308,3 @@ ht-degree: 3%
     + [サポートチケットの作成](../monitoring-analytics-support/help-and-support/create-a-support-ticket.md)
     + [サポートチケットの検索、レビュー、コメント、エスカレーション](../monitoring-analytics-support/help-and-support/search-track-comment-escalate-support-ticket.md)
     + [サポートチケットの視聴者とステータスの管理](../monitoring-analytics-support/help-and-support/add-remove-watchers-close-reopen-support-ticket.md)
-
-+ B2B for Adobe Commerce {#b2b}
-  + [会社アカウントの管理](../b2b/company-accounts.md)
-  + [共有カタログの管理](../b2b/shared-catalogs.md)
-  + [会社クレジットを管理](../b2b/company-credit.md)
-  + [発注と承認](../b2b/purchase-orders.md)
-  + 見積り {#b2b-quote}
-    + [営業担当者が見積を開始](../b2b/sales-rep-initiates-quote.md)
-    + [管理者からの見積もり検証](../b2b/quote-validation-admin-panel.md)
-    + [営業担当者が見積REST APIを開始](../b2b/sales-rep-initiates-quote-api.md)
-    + [見積もり行項目の割引](../b2b/quote-line-item-discount.md)
-    + [見積もり行項目メモ](../b2b/quote-line-item-notes.md)
-    + [見積もり行項目の割引GraphQL](../b2b/quote-graphql-line-item-discount.md)
-    + [見積もり行項目の割引REST API](../b2b/quote-rest-api-line-item-notes.md)
