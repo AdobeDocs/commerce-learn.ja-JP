@@ -28,7 +28,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
 autotag-review: '2026-11-11T17:28:59.029Z'
-source-git-commit: 169243ff1dda03b06b8b014a1ce17b725671e169
+source-git-commit: fde7a0e2880f8e5a692f6d11ca9d3c6a6f6b4c2f
 workflow-type: tm+mt
 source-wordcount: '305'
 ht-degree: 0%
@@ -37,7 +37,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->これらのチュートリアルでは、Adobe Commerce on cloud infrastructureとセルフホスト型デプロイメントの既存のプロセス内開発とアップグレードについて説明します。 新しい機能の開発または適切なカスタマイズの移行を行う場合は、[App Builderの概要](../../app-builder/introduction-to-app-builder.md)から始めます。
+>これらのチュートリアルでは、Adobe Commerce on cloud infrastructureとセルフホスト型デプロイメントの既存のプロセス内開発とアップグレードについて説明します。 新しい機能の開発または適切なカスタマイズの移行を行う場合は、[App Builderの概要](../../app-builder/foundations/introduction-to-app-builder.md)から始めます。
 
 モジュールは[!DNL Commerce]の構造要素です。モジュールは、システムの基盤を形成します。 通常、モジュールを作成してカスタマイズを開始します。
 
@@ -53,7 +53,7 @@ ht-degree: 0%
 4. モジュールを登録してインストールするには、`bin/magento setup:upgrade`を実行します。
 5. モジュールが機能していることを確認します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3412454?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/35792?learn=on)
 
 ### module.xml ファイル
 

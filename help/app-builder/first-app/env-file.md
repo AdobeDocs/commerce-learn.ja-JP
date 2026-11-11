@@ -1,6 +1,6 @@
 ---
 title: .env ファイル
-description: シークレットの管理やソース管理への誤ったコミットの防止など、Adobe Developer App Builder アプリケーションの.env ファイルを生成および設定する方法について説明します。
+description: App Builder アプリケーションの.env ファイルを生成して設定し、シークレットを管理し、ソース管理への誤ったコミットを防ぐ方法について説明します。
 jira: KT-21681
 doc-type: Tutorial
 duration: 177
@@ -33,13 +33,11 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
 autotag-review: '2026-08-11T19:18:20.957Z'
-source-git-commit: 3010e288b409fa4eeed20aa532a3c96f649891fb
+source-git-commit: fde7a0e2880f8e5a692f6d11ca9d3c6a6f6b4c2f
 workflow-type: tm+mt
-source-wordcount: 147
+source-wordcount: '143'
 ht-degree: 0%
-
 ---
-
 # .env ファイルの生成と設定 {#env-file}
 
 `.env`は、サンプルモジュールに含まれていないが、Adobe Developer App Builder アプリケーションで使用する際に重要な特殊ファイルです。 このファイルには、秘密鍵とその他の情報が含まれています。 このファイルを任意のコードリポジトリにコミットしないでください。
@@ -55,7 +53,7 @@ ht-degree: 0%
 * 新しいシークレットを追加するには、ファイルを追加します
 * このファイルには機密情報が含まれているため、コミットしないでください
 
->[!VIDEO](https://video.tv.adobe.com/v/3421069?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3416593?learn=on)
 
 ## コードサンプル
 

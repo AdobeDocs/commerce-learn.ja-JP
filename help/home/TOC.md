@@ -4,9 +4,9 @@ user-guide-description: ビデオとチュートリアルを通じて、Adobe Co
 breadcrumb-title: ビデオとチュートリアル
 auto-video-transcripts: true
 author: Russell A.
-source-git-commit: 169243ff1dda03b06b8b014a1ce17b725671e169
+source-git-commit: fde7a0e2880f8e5a692f6d11ca9d3c6a6f6b4c2f
 workflow-type: tm+mt
-source-wordcount: '1028'
+source-wordcount: '1035'
 ht-degree: 3%
 ---
 
@@ -155,7 +155,7 @@ ht-degree: 3%
       + [見積もり行項目の割引](../cloud-infrastructure-and-self-hosted/b2b/quotes/quote-line-item-discount.md)
       + [見積もり行項目メモ](../cloud-infrastructure-and-self-hosted/b2b/quotes/quote-line-item-notes.md)
   + アプリケーションの開発とアップグレード {#application-development-and-upgrades}
-    + [データベーステーブルの修正に関するベストプラクティス](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables.html?lang=ja)
+    + [データベーステーブルの修正に関するベストプラクティス](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables.html)
     + [モジュールの作成](../cloud-infrastructure-and-self-hosted/application-development-and-upgrades/create-module.md)
     + [製品属性の追加](../cloud-infrastructure-and-self-hosted/application-development-and-upgrades/add-product-attribute.md)
     + [依存関係インジェクションの例](../cloud-infrastructure-and-self-hosted/application-development-and-upgrades/dependency-injection.md)
@@ -173,6 +173,23 @@ ht-degree: 3%
       + [バルクパッケージ](../cloud-infrastructure-and-self-hosted/application-development-and-upgrades/global-reference-architecture-implementation-techniques/bulk-packages.md)
       + [個別のパッケージ](../cloud-infrastructure-and-self-hosted/application-development-and-upgrades/global-reference-architecture-implementation-techniques/separate-packages.md)
       + [モノレポ](../cloud-infrastructure-and-self-hosted/application-development-and-upgrades/global-reference-architecture-implementation-techniques/monorepo.md)
++ App Builder {#app-builder}
+  + 基礎 {#foundations}
+    + [App Builderの概要](../app-builder/foundations/introduction-to-app-builder.md)
+    + [拡張性のあるフレームワークとCommerceのイベント](../app-builder/foundations/extensibility-framework-commerce-eventing.md)
+    + [Adobe ExchangeからApp Builder アプリをインストールする](../app-builder/foundations/install-app-builder-app.md)
+  + 最初のアプリケーションを作成する {#first-app}
+    + [概要](../app-builder/first-app/overview.md)
+    + [生成して.env ファイルを設定](../app-builder/first-app/env-file.md)
+    + [app.config.yaml ファイルの説明と使用状況](../app-builder/first-app/app-config-yaml-file.md)
+    + [アクションフォルダーについて説明します](../app-builder/first-app/actions-folder.md)
+    + [テストフォルダーについて説明します](../app-builder/first-app/test-folder.md)
+    + [Web-src フォルダーの目的を確認します](../app-builder/first-app/web-src-folder.md)
+    + [ローカルでのテスト](../app-builder/first-app/testing-locally.md)
+    + [App Builder URLを使用したテスト](../app-builder/first-app/testing-app-builder-url.md)
+    + [まとめ](../app-builder/first-app/conclusion.md)
+    + [サンプル モジュールのソースコード](https://github.com/magento/app-builder-samples){target="_blank"}
+
 + はじめに {#getting-started}
   + Commerce製品 {#capabilities}
     + [利用可能なコマースオプション](../capabilities/adobes-available-commerce-options.md)
@@ -225,7 +242,7 @@ ht-degree: 3%
         + [買い物客体験](../edge-delivery-services/shopper-experience.md)
     + ヘッドレスアーキテクチャ {#headless-architecture}
       + ヘッドレス CMSの概要 {#introduction-to-headless}
-        + [&#x200B; ヘッドレスアーキテクチャ – セッション 1](../headless/session-1.md)
+        + [ ヘッドレスアーキテクチャ – セッション 1](../headless/session-1.md)
       + PWA Studioの概要 {#introduction}
         + [概要](../pwa/introduction/1-overview.md)
         + [PWA Studio tools](../pwa/introduction/2-pwa-studio-tools.md)
@@ -240,10 +257,7 @@ ht-degree: 3%
     + [クエリ](../graphql-rest/graphql-queries.md)
     + [突然変異](../graphql-rest/graphql-mutations.md)
     + [スキーマ](../graphql-rest/graphql-schema.md)
-  + Adobe Developer App Builder {#adobe-developer-app-builder}
-    + [Adobe Exchangeからのアプリのインストール](../app-builder/install-app-builder-app.md)
-    + [App Builderの概要](../app-builder/introduction-to-app-builder.md)
-    + [App Builderの拡張性フレームワーク](../app-builder/extensibility-framework-commerce-eventing.md)
+  + その他のApp Builder チュートリアルとI/O イベント {#adobe-developer-app-builder}
     + AI ツールを使用して分割支払いPOCを作成する {#create-a-split-payment-poc}
       + [App BuilderとAI ツール](../app-builder/split-payment-ai-tools/overview.md)
       + [完全デモ](../app-builder/split-payment-ai-tools/full-demo.md)
@@ -262,17 +276,6 @@ ht-degree: 3%
       + [AI ツールとAdobeスターターキット](../app-builder/custom-shipping-rates-ai-tools/ai-tools-starter-kit.md)
       + [実装とテスト](../app-builder/custom-shipping-rates-ai-tools/implementation-testing.md)
       + [Adobeにフィードバックを提供する](../app-builder/custom-shipping-rates-ai-tools/feedback.md)
-    + 初めてのApp Builder アプリの構築 {#first-app}
-      + [概要](../app-builder/first-app/overview.md)
-      + [生成して.env ファイルを設定](../app-builder/first-app/env-file.md)
-      + [app.config.yaml ファイルの説明と使用状況](../app-builder/first-app/app-config-yaml-file.md)
-      + [アクションフォルダーについて説明します](../app-builder/first-app/actions-folder.md)
-      + [テストフォルダーについて説明します](../app-builder/first-app/test-folder.md)
-      + [Web-src フォルダーの目的を確認します](../app-builder/first-app/web-src-folder.md)
-      + [ローカルでのテスト](../app-builder/first-app/testing-locally.md)
-      + [App Builder URLを使用したテスト](../app-builder/first-app/testing-app-builder-url.md)
-      + [まとめ](../app-builder/first-app/conclusion.md)
-      + [サンプル モジュールのソースコード](https://github.com/magento/app-builder-samples){target="_blank"}
     + ADOBE COMMERCE用IO イベント {#io-events}
       + [入門IO イベント](../io-events/getting-started-io-events.md)
       + [Adobe Commerce 2.4.5 インストール](../io-events/2-4-5-installation.md)
