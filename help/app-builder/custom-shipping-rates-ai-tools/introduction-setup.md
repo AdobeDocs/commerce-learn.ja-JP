@@ -1,22 +1,20 @@
 ---
 title: AIを活用した配送料の概要と設定
-description: スターターキットの複製、プロジェクト構造のレビュー、環境の準備など、カスタム配送料を作成するためのAI ツールの設定方法を説明します。
+description: カスタム配送料用のAI ツールの設定、チェックアウトスターターキットの複製、プロジェクト構造のレビュー、開発環境の準備の方法について説明します。
 feature: Install
 topic: Development
 role: Developer
 level: Beginner
 doc-type: Tutorial
 duration: 180
-last-substantial-update: 2026-03-11T00:00:00Z
+last-substantial-update: 2026-03-11
 jira: KT-20428
 exl-id: 1766f908-e0cb-4618-bee7-165e7dc54c2f
-source-git-commit: 282072f1e29b836d19dee2e1b6498f75150fe3a5
+source-git-commit: 2438933afca636cd633375ece98e15c57c1d9ead
 workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 0%
-
 ---
-
 # AI ツールでカスタム配送料を作成する – 概要と設定
 
 AI ツールを設定してカスタム配送料を作成する方法をご確認ください。 このチュートリアルでは、チェックアウトスターターキットのクローン作成、構造の確認、ローカル環境の準備について説明します。 この基盤により、外部配送料をワークフローにシームレスに統合することができます。 最初に、以下の動画をご覧ください。
@@ -33,7 +31,7 @@ AI ツールを設定してカスタム配送料を作成する方法をご確�
 * リポジトリのクローン作成、スターターキット構造の確認、必要なツールのインストールなど、開発環境の設定について説明します。
 * ログイン、アクセスの設定、すべての依存関係と前提条件の準備を行うことで、AI支援による開発に備えます。
 
->[!VIDEO](https://video.tv.adobe.com/v/3481329?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3481328?learn=on)
 
 {{$include /help/_includes/ai-shipping-rates-related-links.md}}
 

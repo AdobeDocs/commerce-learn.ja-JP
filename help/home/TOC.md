@@ -4,7 +4,7 @@ user-guide-description: ビデオとチュートリアルを通じて、Adobe Co
 breadcrumb-title: ビデオとチュートリアル
 auto-video-transcripts: true
 author: Russell A.
-source-git-commit: 24f9e04b5b41765f855476ff2e1be648b6634d1f
+source-git-commit: 2438933afca636cd633375ece98e15c57c1d9ead
 workflow-type: tm+mt
 source-wordcount: '1035'
 ht-degree: 3%
@@ -155,7 +155,7 @@ ht-degree: 3%
       + [見積もり行項目の割引](../cloud-infrastructure-and-self-hosted/b2b/quotes/quote-line-item-discount.md)
       + [見積もり行項目メモ](../cloud-infrastructure-and-self-hosted/b2b/quotes/quote-line-item-notes.md)
   + アプリケーションの開発とアップグレード {#application-development-and-upgrades}
-    + [データベーステーブルの修正に関するベストプラクティス](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables.html?lang=ja)
+    + [データベーステーブルの修正に関するベストプラクティス](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables.html)
     + [モジュールの作成](../cloud-infrastructure-and-self-hosted/application-development-and-upgrades/create-module.md)
     + [製品属性の追加](../cloud-infrastructure-and-self-hosted/application-development-and-upgrades/add-product-attribute.md)
     + [依存関係インジェクションの例](../cloud-infrastructure-and-self-hosted/application-development-and-upgrades/dependency-injection.md)
@@ -203,6 +203,12 @@ ht-degree: 3%
       + [Commerce モジュール AI プロンプト](../app-builder/split-payment-ai-tools/commerce-module-prompt.md)
       + [App Builder Orchestrator AI プロンプト](../app-builder/split-payment-ai-tools/orchestrator-prompt.md)
       + [Experience Cloud UI拡張機能AI プロンプト](../app-builder/split-payment-ai-tools/experience-cloud-ui-prompt.md)
+
+  + AI ツールを使用してカスタム配送料を作成する {#custom-shipping-rates-ai-tools}
+    + [概要と設定](../app-builder/custom-shipping-rates-ai-tools/introduction-setup.md)
+    + [AI ツールとAdobeスターターキット](../app-builder/custom-shipping-rates-ai-tools/ai-tools-starter-kit.md)
+    + [実装とテスト](../app-builder/custom-shipping-rates-ai-tools/implementation-testing.md)
+    + [Adobeにフィードバックを提供する](../app-builder/custom-shipping-rates-ai-tools/feedback.md)
 
 + はじめに {#getting-started}
   + Commerce製品 {#capabilities}
@@ -256,7 +262,7 @@ ht-degree: 3%
         + [買い物客体験](../edge-delivery-services/shopper-experience.md)
     + ヘッドレスアーキテクチャ {#headless-architecture}
       + ヘッドレス CMSの概要 {#introduction-to-headless}
-        + [&#x200B; ヘッドレスアーキテクチャ – セッション 1](../headless/session-1.md)
+        + [ ヘッドレスアーキテクチャ – セッション 1](../headless/session-1.md)
       + PWA Studioの概要 {#introduction}
         + [概要](../pwa/introduction/1-overview.md)
         + [PWA Studio tools](../pwa/introduction/2-pwa-studio-tools.md)
@@ -272,11 +278,6 @@ ht-degree: 3%
     + [突然変異](../graphql-rest/graphql-mutations.md)
     + [スキーマ](../graphql-rest/graphql-schema.md)
   + その他のApp Builder チュートリアルとI/O イベント {#adobe-developer-app-builder}
-    + AI ツールを使用してカスタム配送料を作成する {#custom-shipping-rates-ai-tools}
-      + [概要と設定](../app-builder/custom-shipping-rates-ai-tools/introduction-setup.md)
-      + [AI ツールとAdobeスターターキット](../app-builder/custom-shipping-rates-ai-tools/ai-tools-starter-kit.md)
-      + [実装とテスト](../app-builder/custom-shipping-rates-ai-tools/implementation-testing.md)
-      + [Adobeにフィードバックを提供する](../app-builder/custom-shipping-rates-ai-tools/feedback.md)
     + ADOBE COMMERCE用IO イベント {#io-events}
       + [入門IO イベント](../io-events/getting-started-io-events.md)
       + [Adobe Commerce 2.4.5 インストール](../io-events/2-4-5-installation.md)
