@@ -80,9 +80,9 @@ Adobe Developer App Builderでは、事前設定されたソリューション�
 
 次の図は、App Builder上に構築された標準アプリケーションがこれらの機能をどのように使用するかを示しています。
 
-![ アーキテクチャ ](/help/assets/app-builder/app-builder-architecture.jpeg)
+![&#x200B; アーキテクチャ &#x200B;](/help/assets/app-builder/app-builder-architecture.jpeg)
 
-App Builder アーキテクチャについて詳しくは、[ アーキテクチャの概要](https://developer.adobe.com/app-builder/docs/guides/app_builder_guides/architecture_overview/architecture-overview){target="_blank"}を参照してください。
+App Builder アーキテクチャについて詳しくは、[&#x200B; アーキテクチャの概要](https://developer.adobe.com/app-builder/docs/guides/app_builder_guides/architecture_overview/architecture-overview){target="_blank"}を参照してください。
 
 ## App Builder入門 {#additional-resources}
 
