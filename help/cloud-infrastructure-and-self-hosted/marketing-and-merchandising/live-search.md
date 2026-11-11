@@ -71,5 +71,5 @@ Adobe Commerceの[!DNL Live Search]の簡単な紹介です。 Adobe AIを活用
 
 * [ライブサーチの完全デモ](live-search-full-demonstration.md){target="_blank"}
 * [レコメンデーション用[!DNL Live Search]](live-search-recommendations.md){target="_blank"}
-* [[!DNL Live Search] の概要](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html){target="_blank"}
-* [Commerce Services Connector](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html){target="_blank"}
+* [[!DNL Live Search] の概要](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html?lang=ja){target="_blank"}
+* [Commerce Services Connector](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html?lang=ja){target="_blank"}
