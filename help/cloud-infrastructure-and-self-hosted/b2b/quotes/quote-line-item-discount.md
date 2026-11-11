@@ -65,6 +65,6 @@ API ワークフローについては、[GraphQLでの見積もり行項目の�
 
 ## ビデオコンテンツ
 
->[!VIDEO](https://video.tv.adobe.com/v/3420415?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3445586?captions=jpn&learn=on)
 
 {{$include /help/_includes/b2b-quote-additional-resources.md}}

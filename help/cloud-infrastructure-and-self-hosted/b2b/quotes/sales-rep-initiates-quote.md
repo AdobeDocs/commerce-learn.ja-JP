@@ -64,6 +64,6 @@ API ワークフローについては、[営業担当者がREST](../../../apis-a
 
 ## ビデオコンテンツ
 
->[!VIDEO](https://video.tv.adobe.com/v/3420390?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3430588?captions=jpn&learn=on)
 
 {{$include /help/_includes/b2b-quote-additional-resources.md}}

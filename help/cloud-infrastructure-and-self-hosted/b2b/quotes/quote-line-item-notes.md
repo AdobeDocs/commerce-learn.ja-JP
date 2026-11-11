@@ -63,6 +63,6 @@ API ワークフローについては、[REST](../../../apis-and-integration/exa
 
 ## ビデオコンテンツ
 
->[!VIDEO](https://video.tv.adobe.com/v/3420417?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3423694?captions=jpn&learn=on)
 
 {{$include /help/_includes/b2b-quote-additional-resources.md}}
