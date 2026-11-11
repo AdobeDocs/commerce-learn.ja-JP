@@ -4,7 +4,7 @@ user-guide-description: ビデオとチュートリアルを通じて、Adobe Co
 breadcrumb-title: ビデオとチュートリアル
 auto-video-transcripts: true
 author: Russell A.
-source-git-commit: 6cea5e57261352c845a9f5fc21a11860f23116a1
+source-git-commit: 7ab25e3d8d992a8aa9c11b31d95a70d543b29a35
 workflow-type: tm+mt
 source-wordcount: '1022'
 ht-degree: 3%
@@ -128,6 +128,13 @@ ht-degree: 3%
     + [SEOのURL書き換えを管理](../cloud-infrastructure-and-self-hosted/catalog-and-products/seo-url-rewrites.md)
     + [AR ビューアー](../cloud-infrastructure-and-self-hosted/catalog-and-products/augmented-reality.md)
     + [カタログの読み込みと更新](../cloud-infrastructure-and-self-hosted/catalog-and-products/catalog-import.md)
+  + コンテンツ管理 {#content-management}
+    + [ページビルダーの概要](../cloud-infrastructure-and-self-hosted/content-management/page-builder-overview.md)
+    + [静的ブロックと動的ブロックの作成](../cloud-infrastructure-and-self-hosted/content-management/static-dynamic-blocks.md)
+    + [ウィジェットを作成](../cloud-infrastructure-and-self-hosted/content-management/widgets.md)
+    + [コンテンツテンプレートの使用](../cloud-infrastructure-and-self-hosted/content-management/content-templates.md)
+    + [コンテンツステージング](../cloud-infrastructure-and-self-hosted/content-management/content-staging.md)
+    + [メディアギャラリーの管理](../cloud-infrastructure-and-self-hosted/content-management/media-gallery.md)
 + はじめに {#getting-started}
   + Commerce製品 {#capabilities}
     + [利用可能なコマースオプション](../capabilities/adobes-available-commerce-options.md)
@@ -280,13 +287,6 @@ ht-degree: 3%
     + [サポートチケットの検索、レビュー、コメント、エスカレーション](../monitoring-analytics-support/help-and-support/search-track-comment-escalate-support-ticket.md)
     + [サポートチケットの視聴者とステータスの管理](../monitoring-analytics-support/help-and-support/add-remove-watchers-close-reopen-support-ticket.md)
 
-+ コンテンツ管理 {#content}
-  + [ページビルダーの概要](../site-management/page-builder-overview.md)
-  + [静的ブロックと動的ブロックの作成](../site-management/static-dynamic-blocks.md)
-  + [ウィジェットを作成](../site-management/widgets.md)
-  + [コンテンツテンプレートの使用](../site-management/content-templates.md)
-  + [コンテンツステージング](../site-management/content-staging.md)
-  + [メディアギャラリーの管理](../site-management/media-gallery.md)
 + マーケティングツール {#marketing}
   + [カタログ価格ルールの作成](../site-management/catalog-price-rules.md)
   + [カート価格ルールの作成](../site-management/cart-price-rules.md)

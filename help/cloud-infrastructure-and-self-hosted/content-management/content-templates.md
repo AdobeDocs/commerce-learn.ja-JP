@@ -1,7 +1,8 @@
 ---
 title: コンテンツテンプレートの作成
 description: テンプレートによって、コンテンツの作成や古いコンテンツの置き換えに要する時間と労力を削減する方法を説明します。
-doc-type: feature video
+doc-type: Feature Video
+jira: KT-10642
 duration: 182
 audience: all
 activity: use
@@ -45,7 +46,7 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7516911fc14bc80f327310b99a00f9cbff7c65c7
+source-git-commit: 7ab25e3d8d992a8aa9c11b31d95a70d543b29a35
 workflow-type: tm+mt
 source-wordcount: '136'
 ht-degree: 0%
@@ -66,4 +67,4 @@ ht-degree: 0%
 ## 関連資料
 
 * [[!DNL Page Builder] テンプレート - [!DNL Page Builder]  ユーザーガイド](https://experienceleague.adobe.com/docs/commerce-admin/page-builder/templates.html?lang=ja)
-* [テンプレートの追加 –  [!DNL Page Builder] 開発者ガイド](https://developer.adobe.com/commerce/frontend-core/page-builder/content-types/create/add-templates/)
+* [テンプレートの追加 –  [!DNL Page Builder] 開発者ガイド](https://developer.adobe.com/commerce/frontend-core/page-builder/content-types/create/add-templates)

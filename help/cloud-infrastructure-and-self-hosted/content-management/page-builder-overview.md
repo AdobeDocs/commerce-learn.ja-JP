@@ -1,8 +1,8 @@
 ---
 title: '[!DNL Page Builder] の概要'
-description: 管理者が [!DNL Page Builder]を使用してページを作成する方法 [!DNL Commerce]  ページを保存する方法について説明します。
-kt: 5563
-doc-type: feature video
+description: '[!DNL Page Builder]を使用して管理画面でページ [!DNL Commerce] ストアページを作成する方法を説明します。'
+jira: KT-5563
+doc-type: Feature Video
 duration: 317
 audience: all
 activity: use
@@ -35,13 +35,11 @@ topic_v2:
     internal-label: Customer engagement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: b599f79ad41b9552cea6ff41062eb4ef75f183bb
+source-git-commit: 7ab25e3d8d992a8aa9c11b31d95a70d543b29a35
 workflow-type: tm+mt
-source-wordcount: 176
+source-wordcount: '177'
 ht-degree: 1%
-
 ---
-
 # [!DNL Page Builder] の概要
 
 [!DNL Page Builder]を使用すると、視覚的なstorytellingを強化し、顧客エンゲージメントとロイヤルティを促進するカスタムレイアウトを使用した、豊富なコンテンツを含むページを簡単に作成できます。
