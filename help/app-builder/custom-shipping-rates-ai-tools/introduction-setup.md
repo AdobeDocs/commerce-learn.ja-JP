@@ -31,7 +31,7 @@ AI ツールを設定してカスタム配送料を作成する方法をご確�
 * リポジトリのクローン作成、スターターキット構造の確認、必要なツールのインストールなど、開発環境の設定について説明します。
 * ログイン、アクセスの設定、すべての依存関係と前提条件の準備を行うことで、AI支援による開発に備えます。
 
->[!VIDEO](https://video.tv.adobe.com/v/3481328?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3481329?captions=jpn&learn=on)
 
 {{$include /help/_includes/ai-shipping-rates-related-links.md}}
 
