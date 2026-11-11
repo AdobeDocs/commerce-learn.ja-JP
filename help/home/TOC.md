@@ -4,9 +4,9 @@ user-guide-description: ビデオとチュートリアルを通じて、Adobe Co
 breadcrumb-title: ビデオとチュートリアル
 auto-video-transcripts: true
 author: Russell A.
-source-git-commit: 99725eaac5f58955a7e6639c09db678b34520cc6
+source-git-commit: 169243ff1dda03b06b8b014a1ce17b725671e169
 workflow-type: tm+mt
-source-wordcount: '1025'
+source-wordcount: '1028'
 ht-degree: 3%
 ---
 
@@ -154,6 +154,25 @@ ht-degree: 3%
       + [管理者からの見積もり検証](../cloud-infrastructure-and-self-hosted/b2b/quotes/quote-validation-admin-panel.md)
       + [見積もり行項目の割引](../cloud-infrastructure-and-self-hosted/b2b/quotes/quote-line-item-discount.md)
       + [見積もり行項目メモ](../cloud-infrastructure-and-self-hosted/b2b/quotes/quote-line-item-notes.md)
+  + アプリケーションの開発とアップグレード {#application-development-and-upgrades}
+    + [データベーステーブルの修正に関するベストプラクティス](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables.html)
+    + [モジュールの作成](../cloud-infrastructure-and-self-hosted/application-development-and-upgrades/create-module.md)
+    + [製品属性の追加](../cloud-infrastructure-and-self-hosted/application-development-and-upgrades/add-product-attribute.md)
+    + [依存関係インジェクションの例](../cloud-infrastructure-and-self-hosted/application-development-and-upgrades/dependency-injection.md)
+    + [Galera Clusterのレプリケーションが遅い](../cloud-infrastructure-and-self-hosted/application-development-and-upgrades/galera-db-slow-replication.md)
+    + [MySQL クエリキャッシュ](../cloud-infrastructure-and-self-hosted/application-development-and-upgrades/mysql-query-cache.md)
+    + [PT クエリダイジェスト](../cloud-infrastructure-and-self-hosted/application-development-and-upgrades/pt-query-digest.md)
+    + [Adobe Commerce データベースに対するクエリの接続と実行](../cloud-infrastructure-and-self-hosted/application-development-and-upgrades/remote-db-connection-execute-queries.md)
+    + Commerceのアップグレード {#upgrades}
+      + [Adobe Commerce 2.4 Upgrade Workshop](../cloud-infrastructure-and-self-hosted/application-development-and-upgrades/upgrades/2-4-upgrade-workshop.md)
+      + [アップグレードの互換性ツールの概要](../cloud-infrastructure-and-self-hosted/application-development-and-upgrades/upgrades/upgrade-compatibility-tool-overview.md)
+      + [PhpStormで互換性をアップグレード ツールを使用する](../cloud-infrastructure-and-self-hosted/application-development-and-upgrades/upgrades/uct-phpstorm.md)
+    + グローバル参照アーキテクチャの実装テクニック {#global-reference-architecture-implementation-techniques}
+      + [概要](../cloud-infrastructure-and-self-hosted/application-development-and-upgrades/global-reference-architecture-implementation-techniques/overview.md)
+      + [Gitを分割](../cloud-infrastructure-and-self-hosted/application-development-and-upgrades/global-reference-architecture-implementation-techniques/split-git.md)
+      + [バルクパッケージ](../cloud-infrastructure-and-self-hosted/application-development-and-upgrades/global-reference-architecture-implementation-techniques/bulk-packages.md)
+      + [個別のパッケージ](../cloud-infrastructure-and-self-hosted/application-development-and-upgrades/global-reference-architecture-implementation-techniques/separate-packages.md)
+      + [モノレポ](../cloud-infrastructure-and-self-hosted/application-development-and-upgrades/global-reference-architecture-implementation-techniques/monorepo.md)
 + はじめに {#getting-started}
   + Commerce製品 {#capabilities}
     + [利用可能なコマースオプション](../capabilities/adobes-available-commerce-options.md)
@@ -185,19 +204,6 @@ ht-degree: 3%
     + [既存のコードの移行](../commerce-developer-agent/adobe-commerce-developer-agent-migrate-existing-code-technical-video.md)
     + [まとめ](../commerce-developer-agent/adobe-commerce-developer-agent-conclusion-technical-video.md)
     + [App Builderドライラン](../commerce-developer-agent/adobe-commerce-developer-agent-app-builder-dry-run.md)
-  + バックエンド開発 {#backend-development}
-    + [データベーステーブルの修正に関するベストプラクティス](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables.html?lang=ja)
-    + [モジュールの作成](../backend-development/create-module.md)
-    + [製品属性の追加](../backend-development/add-product-attribute.md)
-    + [依存関係インジェクションの例](../backend-development/dependency-injection.md)
-    + [Galera Clusterのレプリケーションが遅い](../backend-development/galera-db-slow-replication.md)
-    + [MySQL クエリキャッシュ](../backend-development/mysql-query-cache.md)
-    + [PT クエリダイジェスト](../backend-development/pt-query-digest.md)
-    + [Adobe Commerce データベースに対するクエリの接続と実行](../backend-development/remote-db-connection-execute-queries.md)
-    + Commerceのアップグレード {#upgrade}
-      + [Adobe Commerce 2.4 Upgrade Workshop](../upgrade/2-4-upgrade-workshop.md)
-      + [アップグレードの互換性ツールの概要](../upgrade/upgrade-compatibility-tool-overview.md)
-      + [PhpStormで互換性をアップグレード ツールを使用する](../upgrade/uct-phpstorm.md)
   + フロントエンド Luma開発 {#frontend-development}
     + 開発者向けPaaS/SaaS ページビルダー {#page-builder}
       + [1 – 概要](../frontend-development/page-builder/1-intro-case-studies.md)
@@ -219,7 +225,7 @@ ht-degree: 3%
         + [買い物客体験](../edge-delivery-services/shopper-experience.md)
     + ヘッドレスアーキテクチャ {#headless-architecture}
       + ヘッドレス CMSの概要 {#introduction-to-headless}
-        + [&#x200B; ヘッドレスアーキテクチャ – セッション 1](../headless/session-1.md)
+        + [ ヘッドレスアーキテクチャ – セッション 1](../headless/session-1.md)
       + PWA Studioの概要 {#introduction}
         + [概要](../pwa/introduction/1-overview.md)
         + [PWA Studio tools](../pwa/introduction/2-pwa-studio-tools.md)
@@ -284,12 +290,6 @@ ht-degree: 3%
     + [シングルソース GraphQL API メッシュの作成](../api-mesh/graphql-single-source.md)
     + [複数のソース GraphQL API メッシュの作成](../api-mesh/graphql-multiple-source.md)
 
-+ グローバル参照アーキテクチャ {#global-reference-architecture-implementation-techniques}
-  + [概要](../global-reference-architecture/overview.md)
-  + [Gitを分割](../global-reference-architecture/split-git.md)
-  + [バルクパッケージ](../global-reference-architecture/bulk-packages.md)
-  + [個別のパッケージ](../global-reference-architecture/separate-packages.md)
-  + [モノレポ](../global-reference-architecture/monorepo.md)
 + 監視、分析、サポート {#monitoring-analytics-support}
   + 可観測性 {#observability}
     + [Observability overview](../monitoring-analytics-support/observability/overview.md)
