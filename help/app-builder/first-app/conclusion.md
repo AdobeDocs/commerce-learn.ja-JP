@@ -1,6 +1,6 @@
 ---
 title: まとめ
-description: Adobe Commerceで初めてApp Builder アプリケーションを完成させた後、その他のAdobe Developer App Builderのリソース、ドキュメント、コミュニティオプションについて説明します。
+description: Adobe Commerce用のApp Builder アプリケーションを初めて使用した後、Adobe Developer App Builderのリソース、ドキュメント、およびコミュニティオプションを検索します。
 jira: KT-21686
 doc-type: Tutorial
 duration: 100
@@ -23,13 +23,11 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
 autotag-review: '2026-08-11T19:18:17.783Z'
-source-git-commit: 3010e288b409fa4eeed20aa532a3c96f649891fb
+source-git-commit: fde7a0e2880f8e5a692f6d11ca9d3c6a6f6b4c2f
 workflow-type: tm+mt
-source-wordcount: 130
+source-wordcount: '128'
 ht-degree: 0%
-
 ---
-
 # まとめ {#conclusion}
 
 初めてAdobe Developer App Builder アプリを作成した後、Adobeが提供するその他のリソースについて説明します。

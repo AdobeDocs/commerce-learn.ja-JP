@@ -1,6 +1,6 @@
 ---
 title: Adobe Developer App Builder URLを使用したテスト
-description: プロジェクト URLを使用して、最初のAdobe Developer App Builder アプリケーションをデプロイおよびテストする方法と、デプロイメントが成功した後にURLを検索する方法について説明します。
+description: デプロイ後にURLを検索する場所など、プロジェクト URLを使用してAdobe Developer App Builder アプリケーションをデプロイおよびテストする方法について説明します。
 jira: KT-21684
 doc-type: Tutorial
 duration: 78
@@ -23,13 +23,11 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
 autotag-review: '2026-08-11T19:18:26.961Z'
-source-git-commit: 3010e288b409fa4eeed20aa532a3c96f649891fb
+source-git-commit: fde7a0e2880f8e5a692f6d11ca9d3c6a6f6b4c2f
 workflow-type: tm+mt
-source-wordcount: 100
+source-wordcount: '96'
 ht-degree: 0%
-
 ---
-
 # App Builder URLを使用したテスト {#testing-app-builder-url}
 
 プロジェクトのURLを使用して、新しいAdobe Developer App Builder アプリケーションをテストする方法を説明します。

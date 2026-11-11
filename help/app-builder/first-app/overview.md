@@ -1,6 +1,6 @@
 ---
 title: 初めてのApp Builder アプリの作成
-description: Adobe CommerceとAdobe Developer App Builderの連携について学びましょう。そのため、前提条件、期待値、再利用可能なパターンなどを確認し、すぐに利用できるアプリケーションを構築する必要があります。
+description: 前提条件、期待値、再利用可能なプロセス外パターンなど、Adobe Commerce向けの最初のAdobe Developer App Builder アプリケーションを構築します。
 jira: KT-21679
 doc-type: Tutorial
 duration: 197
@@ -28,13 +28,11 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
 autotag-review: '2026-08-11T19:18:23.176Z'
-source-git-commit: 3010e288b409fa4eeed20aa532a3c96f649891fb
+source-git-commit: fde7a0e2880f8e5a692f6d11ca9d3c6a6f6b4c2f
 workflow-type: tm+mt
-source-wordcount: 332
+source-wordcount: '329'
 ht-degree: 0%
-
 ---
-
 # 概要 {#overview}
 
 このチュートリアルには、次の前提条件があります。

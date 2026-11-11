@@ -1,0 +1,134 @@
+---
+title: Adobe Commerceによるコードの再利用の最適化
+description: Adobe Commerceでグローバル参照アーキテクチャパターンを使用してコードの再利用を最適化し、複数のインスタンスをまたいでパフォーマンスとコンプライアンスを強化する方法を説明します。
+jira: KT-15773
+doc-type: Tutorial
+duration: 284
+last-substantial-update: 2025-01-06T00:00:00.000Z
+feature: Best Practices, Configuration, Install
+badge: label="Contributed by Tony Evers, シニア・テクニカル・アーキテクト，Adobe" type="Informative" url="https://www.linkedin.com/in/evers-tony" tooltip="アーティスト：Tony Evers"
+topic: Architecture, Commerce, Development
+role: Developer, User, Leader
+level: Beginner, Intermediate
+exl-id: 5475ade8-028c-4b24-a563-60dcda5ba93a
+TQID: 'https://experienceleague.adobe.com/1-cE8TS4syjsMuX3VmhQu5zhFX-z3yxV-GlwxVl7eqM'
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: b5f00040-57a0-4a6d-a39e-383b1936c2c9
+    internal-label: Compliance
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: e8818fe6-9c8b-4bc0-9ef8-377a10b7bc75
+    internal-label: Architecture
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
+autotag-review: '2026-11-11T17:29:20.965Z'
+source-git-commit: 169243ff1dda03b06b8b014a1ce17b725671e169
+workflow-type: tm+mt
+source-wordcount: '1116'
+ht-degree: 0%
+---
+# グローバル参照アーキテクチャの実装テクニック
+
+{{only-for-on-prem-commerce-cloud}}
+
+Adobe Commerceを活用して、コードの再利用を最適化するには、いくつかの方法があります。 この4つの実装手法には、それぞれ独自の利点があります。 この記事の例は、単純なものから複雑なものまで順に示しています。 プロジェクトや将来のロードマップに最も適した戦略を選択します。 ある戦略から別の戦略への移行には時間がかかります。
+
+## グローバル参照アーキテクチャの使用例
+
+所有するインスタンスの数に応じて、グローバル参照アーキテクチャを活用します。 インスタンスは、独自のデータベースを使用したAdobe Commerceのスタンドアロンインストールです。 所有しているインスタンスの数を確認するには、実稼動データベースの数を数えます。 複数のインスタンスを管理する場合、または将来このシナリオを予測する場合は、グローバル参照アーキテクチャを利用できます。 インスタンスが共有する機能が多ければ多いほど、グローバル参照アーキテクチャの価値が高まります。
+
+いずれの場合でも、Adobe Commerceの複数のインスタンスを使用して検討することをお勧めします。
+
+1. **異なるストア演算子**：複数のストア演算子のコードを管理する場合、それぞれのストアを個別に持つ場合、個々の要件を効果的に維持するために個別のインスタンスが必要になります。
+2. **国の規制**&#x200B;への準拠：特定の規制では、顧客データを特定の地域に保存することを義務付けています。 このような場合、これらの規制を確実に遵守するために、個別のインスタンスが不可欠です。
+3. **地理的地域間の運用上の差異**：複数の地域で運用すると、メンテナンススケジュールと要件が異なります。 個別のインスタンスを使用することで、これらのバリエーションを効率的に管理できます。
+4. **高強度フラッシュセールス**：大規模なフラッシュセールスを行うストアでは、多くの場合、最適化されたサーバーパフォーマンスが必要です。 個別のインスタンスによって提供される専用インフラストラクチャは、こうした需要の高い時期に最適なパフォーマンスを実現します。
+5. **ブランドと国の大きな違い**：ブランドと国の違いが大きい場合、1つのインスタンスを使用すると、一部のブランドまたは国にのみ使用されるコードが生成されます。 別々のインスタンスを構築することで、不要なコードをブランドやそれを必要としない国に提供できなくなり、パフォーマンスと安定性を向上させることができます。
+
+## グローバル参照アーキテクチャパターン
+
+「GRA パターンなし」の横には、4つのGRA パターンがあります。
+
+![GRA パターンの5つのアイコン：GRA、分割、一括、分離、モノレポはありません。](/help/assets/global-reference-architecture/gra-patterns-horizontal.png){align="center"}
+
+### GRA パターンがありません
+
+![&#x200B; 「GRAなし」を表すアイコン &#x200B;](/help/assets/global-reference-architecture/no-gra.png){align="center"}
+
+GRA パターンを使用しない場合、各Adobe Commerce インスタンスは一意のアプリケーションになります。 あるインスタンスから別のインスタンスにコードを手動で移動する以外は、コードの再利用はありません。 これらのコピーは常に発散します。 各インスタンスに同じ変更を適用しながら、期待通りに動作することを確認するのは、手間のかかる作業です。 このシナリオでは、3つのインスタンスで1つのインスタンスの3倍のメンテナンス作業が必要になります。
+
+![3つのストアを示す図。各ストアは前者のコピーで、3つのコピーすべてで一意の開発が行われています。](/help/assets/global-reference-architecture/no-gra-pattern-diagram.png){align="center"}
+
+### 分割Git GRA パターン
+
+![&#x200B; 「分割」 GRA パターンを示すアイコン &#x200B;](/help/assets/global-reference-architecture/split-git.png){align="center"}
+
+このパターンは、開発用のGit リポジトリと、インスタンスごとに1つのGit リポジトリで構成されます。 インスタンス内の各ファイルは、開発リポジトリで管理されます。 それらを組み合わせてGRA全体を形成します。 コードの各行は1つの開発リポジトリにのみ存在し、組み立て手法を使用してインスタンスにインストールされ、コードの再利用につながります。
+
+![分割されたGRA パターンでコードが格納されている場所を示す図](/help/assets/global-reference-architecture/split-git-gra-pattern-diagram.png){align="center"}
+
+### バルクパッケージのGRA パターン
+
+![GRA パターンの「一括」を表すアイコン &#x200B;](/help/assets/global-reference-architecture/bulk-packages.png){align="center"}
+
+Adobe Commerce コアモジュールとサードパーティモジュールは、Composer リポジトリを通じて直接インストールされます。 Git リポジトリは、Composer リポジトリとして使用できます。 このパターンでは、GRA共有コードベース全体が1つまたは少数のGit リポジトリでホストされ、Composerを通じてインストールされます。 主な特徴は、複数のモジュール、言語パックまたはテーマが1つのコンポーザーパッケージでホストされ、開発が簡素化されていることです。
+
+![&#x200B; コードが一括パッケージ GRA パターンのどこに保存されているかを示す図](/help/assets/global-reference-architecture/bulk-gra-pattern-diagram.png){align="center"}
+
+### 個別のパッケージ GRA パターン
+
+![GRA パターンの「個別パッケージ」を表すアイコン &#x200B;](/help/assets/global-reference-architecture/separate-packages.png){align="center"}
+
+各Adobe Commerce モジュール、言語パックまたはテーマは、個別のコンポーザーパッケージとしてインストールされます。 各カスタマイズには、独自のGit リポジトリがあります。 これにより、インスタンスの構成が完全に柔軟になり、信頼性の高いComposerの依存関係管理が可能になります。 パフォーマンス最適化では、すべてのパッケージが単一のプライベートコンポーザーリポジトリにミラーリングされます。
+
+![&#x200B; コードが別のパッケージ GRA パターンに格納されている場所を示す図](/help/assets/global-reference-architecture/separate-packages-gra-pattern-diagram.png){align="center"}
+
+### モノレポ GRA パターン
+
+![&#x200B; モノレポ GRA パターンを表すアイコン &#x200B;](/help/assets/global-reference-architecture/monorepo.png){align="center"}
+
+あらゆる開発は、単一のコードリポジトリで実施されます。 新しいバージョンのパッケージを生成し、コンポーザーリポジトリに公開します。 このパターンは、バルクパッケージアプローチの低い開発オーバーヘッドと、個別パッケージアプローチの柔軟性を組み合わせたものです。 モノレポパターンは、自動機能テストの実行にも適しています。
+
+![&#x200B; モノレポ GRA パターン内のコードの保存場所を示す図](/help/assets/global-reference-architecture/monorepo-gra-pattern-diagram.png){align="center"}
+
+## GRA パターンの選択
+
+プロジェクトの複雑さ、柔軟性の必要性、開発チームがGRA パターンの選択に適応する能力などを評価します。
+
+Adobe Commerceをほとんど利用していないチームは、シンプルに取り組むことができます。 ただし、プロジェクトの特性により、より複雑なGRA パターンが必要な場合は、妥協しないでください。
+
+各パターンに関連する一般的なプロジェクト特性：
+
+1. **GRA パターンがありません**：拡張する計画のないAdobe Commerceの1つのインスタンス。 Adobe Commerceの複数のインスタンス間の共通性を最小限に抑えることができます。
+
+2. **Git GRA パターンの分割**: カスタマイズのためにComposerを避けたいチーム。多くの場合、バルクパッケージパターンはGitの分割に適したパターンです。
+
+3. **バルクパッケージ GRA パターン**：相互依存関係の高いカスタマイズ コードベース。 インスタンスには、カスタムパッケージの非常によく似た組み合わせがあります。 個別のパッケージのプロモーションやデモートは頻繁におこなわれません。 コード管理の経験が少なく、シンプルさが求められるチーム。
+
+4. **個別パッケージ GRA パターン**：柔軟なリリーススコープ管理が必要です。 今後5年間で50個以下のカスタムパッケージを提供する予定です。 共通コードのグローバルおよびリージョンのレイヤーが存在する可能性があります。 Monorepo パターンに移行する予定はありません。 チームは技術的に熟達しており、厳格なプロセス順守を遵守しています。
+
+5. **モノレポ GRA パターン**：個別パッケージ GRA パターンのすべての特性。 今後5年間で50以上のパッケージが見込まれています。 大規模な自動テストの必要性： 一時的な環境のサポート。 エンタープライズ規模の複雑なコードベースを維持するため、メンテナンスコストを迅速に拡張する必要がある。
+
+### 選択を誤った場合のコスト
+
+あるパターンから別のパターンへの移行は可能です。 下の図は、あるパターンから別のパターンへの移動の影響レベルを示しています。 緑の線は影響が小さいことを示し、黄色とオレンジの線は中程度に複雑な移行を示します。
+
+![4つのGRA パターンすべての間の矢印を示す図。一方から他方へ移動する難易度を示します。](/help/assets/global-reference-architecture/wrong-choice.png){align="center"}

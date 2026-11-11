@@ -1,6 +1,6 @@
 ---
 title: Web-src フォルダー
-description: Web-src フォルダー構造、そのJavaScript ファイルおよびネストされたフォルダー、およびこのフォルダーがApp Builder サンプルアプリケーションのユーザーインターフェイスをどのようにサポートしているかについて説明します。
+description: App Builder web-src フォルダー、そのJavaScript ファイルおよびネストされたフォルダー、およびそれらがサンプルアプリケーションのユーザーインターフェイスをどのようにサポートしているかを確認します。
 jira: KT-21683
 doc-type: Tutorial
 duration: 285
@@ -29,13 +29,11 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
 autotag-review: '2026-08-11T19:18:31.875Z'
-source-git-commit: 3010e288b409fa4eeed20aa532a3c96f649891fb
+source-git-commit: fde7a0e2880f8e5a692f6d11ca9d3c6a6f6b4c2f
 workflow-type: tm+mt
-source-wordcount: 179
+source-wordcount: '176'
 ht-degree: 0%
-
 ---
-
 # Web-src フォルダーの目的を確認します {#web-src-folder}
 
 このサンプルアプリのweb-src フォルダーには、多くのJavaScript ファイルとフォルダーが含まれています。 このフォルダーは、ユーザーインターフェイスを持つアプリケーションに使用されます。 すべてのアプリケーションがこの機能を使用しているわけではありません。 たとえば、Commerceと外部在庫管理システムを連携する場合、フロントエンドのインターフェイスやコードは必要ありません。

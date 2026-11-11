@@ -4,9 +4,9 @@ user-guide-description: ビデオとチュートリアルを通じて、Adobe Co
 breadcrumb-title: ビデオとチュートリアル
 auto-video-transcripts: true
 author: Russell A.
-source-git-commit: 7ab25e3d8d992a8aa9c11b31d95a70d543b29a35
+source-git-commit: fde7a0e2880f8e5a692f6d11ca9d3c6a6f6b4c2f
 workflow-type: tm+mt
-source-wordcount: '1022'
+source-wordcount: '1035'
 ht-degree: 3%
 ---
 
@@ -135,11 +135,65 @@ ht-degree: 3%
     + [コンテンツテンプレートの使用](../cloud-infrastructure-and-self-hosted/content-management/content-templates.md)
     + [コンテンツステージング](../cloud-infrastructure-and-self-hosted/content-management/content-staging.md)
     + [メディアギャラリーの管理](../cloud-infrastructure-and-self-hosted/content-management/media-gallery.md)
+  + マーケティングとマーチャンダイジング {#marketing-and-merchandising}
+    + [カタログ価格ルールの作成](../cloud-infrastructure-and-self-hosted/marketing-and-merchandising/catalog-price-rules.md)
+    + [カート価格ルールの作成](../cloud-infrastructure-and-self-hosted/marketing-and-merchandising/cart-price-rules.md)
+    + [関連製品ルールの管理](../cloud-infrastructure-and-self-hosted/marketing-and-merchandising/related-product-rules.md)
+    + [商品レコメンデーションの設定](../cloud-infrastructure-and-self-hosted/marketing-and-merchandising/product-recommendations.md)
+    + [ライブサーチの概要](../cloud-infrastructure-and-self-hosted/marketing-and-merchandising/live-search.md)
+    + [レコメンデーションのライブサーチ](../cloud-infrastructure-and-self-hosted/marketing-and-merchandising/live-search-recommendations.md)
+    + [ライブサーチの完全デモ](../cloud-infrastructure-and-self-hosted/marketing-and-merchandising/live-search-full-demonstration.md)
+    + [CommerceとAJOの統合](../cloud-infrastructure-and-self-hosted/marketing-and-merchandising/integrate-commerce-ajo.md)
+  + B2B for Adobe Commerce {#b2b}
+    + [会社アカウントの管理](../cloud-infrastructure-and-self-hosted/b2b/company-accounts.md)
+    + [共有カタログの管理](../cloud-infrastructure-and-self-hosted/b2b/shared-catalogs.md)
+    + [会社クレジットを管理](../cloud-infrastructure-and-self-hosted/b2b/company-credit.md)
+    + [発注と承認](../cloud-infrastructure-and-self-hosted/b2b/purchase-orders.md)
+    + 見積もり {#quotes}
+      + [営業担当者が見積を開始](../cloud-infrastructure-and-self-hosted/b2b/quotes/sales-rep-initiates-quote.md)
+      + [管理者からの見積もり検証](../cloud-infrastructure-and-self-hosted/b2b/quotes/quote-validation-admin-panel.md)
+      + [見積もり行項目の割引](../cloud-infrastructure-and-self-hosted/b2b/quotes/quote-line-item-discount.md)
+      + [見積もり行項目メモ](../cloud-infrastructure-and-self-hosted/b2b/quotes/quote-line-item-notes.md)
+  + アプリケーションの開発とアップグレード {#application-development-and-upgrades}
+    + [データベーステーブルの修正に関するベストプラクティス](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables.html?lang=ja)
+    + [モジュールの作成](../cloud-infrastructure-and-self-hosted/application-development-and-upgrades/create-module.md)
+    + [製品属性の追加](../cloud-infrastructure-and-self-hosted/application-development-and-upgrades/add-product-attribute.md)
+    + [依存関係インジェクションの例](../cloud-infrastructure-and-self-hosted/application-development-and-upgrades/dependency-injection.md)
+    + [Galera Clusterのレプリケーションが遅い](../cloud-infrastructure-and-self-hosted/application-development-and-upgrades/galera-db-slow-replication.md)
+    + [MySQL クエリキャッシュ](../cloud-infrastructure-and-self-hosted/application-development-and-upgrades/mysql-query-cache.md)
+    + [PT クエリダイジェスト](../cloud-infrastructure-and-self-hosted/application-development-and-upgrades/pt-query-digest.md)
+    + [Adobe Commerce データベースに対するクエリの接続と実行](../cloud-infrastructure-and-self-hosted/application-development-and-upgrades/remote-db-connection-execute-queries.md)
+    + Commerceのアップグレード {#upgrades}
+      + [Adobe Commerce 2.4 Upgrade Workshop](../cloud-infrastructure-and-self-hosted/application-development-and-upgrades/upgrades/2-4-upgrade-workshop.md)
+      + [アップグレードの互換性ツールの概要](../cloud-infrastructure-and-self-hosted/application-development-and-upgrades/upgrades/upgrade-compatibility-tool-overview.md)
+      + [PhpStormで互換性をアップグレード ツールを使用する](../cloud-infrastructure-and-self-hosted/application-development-and-upgrades/upgrades/uct-phpstorm.md)
+    + グローバル参照アーキテクチャの実装テクニック {#global-reference-architecture-implementation-techniques}
+      + [概要](../cloud-infrastructure-and-self-hosted/application-development-and-upgrades/global-reference-architecture-implementation-techniques/overview.md)
+      + [Gitを分割](../cloud-infrastructure-and-self-hosted/application-development-and-upgrades/global-reference-architecture-implementation-techniques/split-git.md)
+      + [バルクパッケージ](../cloud-infrastructure-and-self-hosted/application-development-and-upgrades/global-reference-architecture-implementation-techniques/bulk-packages.md)
+      + [個別のパッケージ](../cloud-infrastructure-and-self-hosted/application-development-and-upgrades/global-reference-architecture-implementation-techniques/separate-packages.md)
+      + [モノレポ](../cloud-infrastructure-and-self-hosted/application-development-and-upgrades/global-reference-architecture-implementation-techniques/monorepo.md)
++ App Builder {#app-builder}
+  + 基礎 {#foundations}
+    + [App Builderの概要](../app-builder/foundations/introduction-to-app-builder.md)
+    + [拡張性のあるフレームワークとCommerceのイベント](../app-builder/foundations/extensibility-framework-commerce-eventing.md)
+    + [Adobe ExchangeからApp Builder アプリをインストールする](../app-builder/foundations/install-app-builder-app.md)
+  + 最初のアプリケーションを作成する {#first-app}
+    + [概要](../app-builder/first-app/overview.md)
+    + [生成して.env ファイルを設定](../app-builder/first-app/env-file.md)
+    + [app.config.yaml ファイルの説明と使用状況](../app-builder/first-app/app-config-yaml-file.md)
+    + [アクションフォルダーについて説明します](../app-builder/first-app/actions-folder.md)
+    + [テストフォルダーについて説明します](../app-builder/first-app/test-folder.md)
+    + [Web-src フォルダーの目的を確認します](../app-builder/first-app/web-src-folder.md)
+    + [ローカルでのテスト](../app-builder/first-app/testing-locally.md)
+    + [App Builder URLを使用したテスト](../app-builder/first-app/testing-app-builder-url.md)
+    + [まとめ](../app-builder/first-app/conclusion.md)
+    + [サンプル モジュールのソースコード](https://github.com/magento/app-builder-samples){target="_blank"}
+
 + はじめに {#getting-started}
   + Commerce製品 {#capabilities}
     + [利用可能なコマースオプション](../capabilities/adobes-available-commerce-options.md)
     + [データ接続](../capabilities/data-connection.md)
-    + [ライブサーチの完全デモ](../capabilities/live-search-full-demonstration.md)
     + [コンポーザブルCommerce](../capabilities/what-is-composable-commerce.md)
   + バックオフィス統合スターターキット {#back-office-integration-starter-kit}
     + [スターターキットのデモ](../back-office-integrations/starter-kit-demo.md)
@@ -152,6 +206,10 @@ ht-degree: 3%
 + APIと統合 {#apis-and-integration}
   + RESTとGraphQLの実用的な例 {#examples}
     + [RESTを使用しているお客様](../apis-and-integration/examples/customer.md)
+    + B2B ビジネスの見積もり {#b2b-quotes}
+      + [営業担当者が見積REST APIを開始](../apis-and-integration/examples/b2b-quotes/sales-rep-initiates-quote-api.md)
+      + [見積もり行項目の割引GraphQL](../apis-and-integration/examples/b2b-quotes/quote-graphql-line-item-discount.md)
+      + [見積もり行項目メモ REST API](../apis-and-integration/examples/b2b-quotes/quote-rest-api-line-item-notes.md)
 
 + 拡張機能 {#extensibility}
   + Commerce Developer Agent {#commerce-developer-agent}
@@ -163,19 +221,6 @@ ht-degree: 3%
     + [既存のコードの移行](../commerce-developer-agent/adobe-commerce-developer-agent-migrate-existing-code-technical-video.md)
     + [まとめ](../commerce-developer-agent/adobe-commerce-developer-agent-conclusion-technical-video.md)
     + [App Builderドライラン](../commerce-developer-agent/adobe-commerce-developer-agent-app-builder-dry-run.md)
-  + バックエンド開発 {#backend-development}
-    + [データベーステーブルの修正に関するベストプラクティス](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables.html?lang=ja)
-    + [モジュールの作成](../backend-development/create-module.md)
-    + [製品属性の追加](../backend-development/add-product-attribute.md)
-    + [依存関係インジェクションの例](../backend-development/dependency-injection.md)
-    + [Galera Clusterのレプリケーションが遅い](../backend-development/galera-db-slow-replication.md)
-    + [MySQL クエリキャッシュ](../backend-development/mysql-query-cache.md)
-    + [PT クエリダイジェスト](../backend-development/pt-query-digest.md)
-    + [Adobe Commerce データベースに対するクエリの接続と実行](../backend-development/remote-db-connection-execute-queries.md)
-    + Commerceのアップグレード {#upgrade}
-      + [Adobe Commerce 2.4 Upgrade Workshop](../upgrade/2-4-upgrade-workshop.md)
-      + [アップグレードの互換性ツールの概要](../upgrade/upgrade-compatibility-tool-overview.md)
-      + [PhpStormで互換性をアップグレード ツールを使用する](../upgrade/uct-phpstorm.md)
   + フロントエンド Luma開発 {#frontend-development}
     + 開発者向けPaaS/SaaS ページビルダー {#page-builder}
       + [1 – 概要](../frontend-development/page-builder/1-intro-case-studies.md)
@@ -212,10 +257,7 @@ ht-degree: 3%
     + [クエリ](../graphql-rest/graphql-queries.md)
     + [突然変異](../graphql-rest/graphql-mutations.md)
     + [スキーマ](../graphql-rest/graphql-schema.md)
-  + Adobe Developer App Builder {#adobe-developer-app-builder}
-    + [Adobe Exchangeからのアプリのインストール](../app-builder/install-app-builder-app.md)
-    + [App Builderの概要](../app-builder/introduction-to-app-builder.md)
-    + [App Builderの拡張性フレームワーク](../app-builder/extensibility-framework-commerce-eventing.md)
+  + その他のApp Builder チュートリアルとI/O イベント {#adobe-developer-app-builder}
     + AI ツールを使用して分割支払いPOCを作成する {#create-a-split-payment-poc}
       + [App BuilderとAI ツール](../app-builder/split-payment-ai-tools/overview.md)
       + [完全デモ](../app-builder/split-payment-ai-tools/full-demo.md)
@@ -234,17 +276,6 @@ ht-degree: 3%
       + [AI ツールとAdobeスターターキット](../app-builder/custom-shipping-rates-ai-tools/ai-tools-starter-kit.md)
       + [実装とテスト](../app-builder/custom-shipping-rates-ai-tools/implementation-testing.md)
       + [Adobeにフィードバックを提供する](../app-builder/custom-shipping-rates-ai-tools/feedback.md)
-    + 初めてのApp Builder アプリの構築 {#first-app}
-      + [概要](../app-builder/first-app/overview.md)
-      + [生成して.env ファイルを設定](../app-builder/first-app/env-file.md)
-      + [app.config.yaml ファイルの説明と使用状況](../app-builder/first-app/app-config-yaml-file.md)
-      + [アクションフォルダーについて説明します](../app-builder/first-app/actions-folder.md)
-      + [テストフォルダーについて説明します](../app-builder/first-app/test-folder.md)
-      + [Web-src フォルダーの目的を確認します](../app-builder/first-app/web-src-folder.md)
-      + [ローカルでのテスト](../app-builder/first-app/testing-locally.md)
-      + [App Builder URLを使用したテスト](../app-builder/first-app/testing-app-builder-url.md)
-      + [まとめ](../app-builder/first-app/conclusion.md)
-      + [サンプル モジュールのソースコード](https://github.com/magento/app-builder-samples){target="_blank"}
     + ADOBE COMMERCE用IO イベント {#io-events}
       + [入門IO イベント](../io-events/getting-started-io-events.md)
       + [Adobe Commerce 2.4.5 インストール](../io-events/2-4-5-installation.md)
@@ -262,12 +293,6 @@ ht-degree: 3%
     + [シングルソース GraphQL API メッシュの作成](../api-mesh/graphql-single-source.md)
     + [複数のソース GraphQL API メッシュの作成](../api-mesh/graphql-multiple-source.md)
 
-+ グローバル参照アーキテクチャ {#global-reference-architecture-implementation-techniques}
-  + [概要](../global-reference-architecture/overview.md)
-  + [Gitを分割](../global-reference-architecture/split-git.md)
-  + [バルクパッケージ](../global-reference-architecture/bulk-packages.md)
-  + [個別のパッケージ](../global-reference-architecture/separate-packages.md)
-  + [モノレポ](../global-reference-architecture/monorepo.md)
 + 監視、分析、サポート {#monitoring-analytics-support}
   + 可観測性 {#observability}
     + [Observability overview](../monitoring-analytics-support/observability/overview.md)
@@ -286,25 +311,3 @@ ht-degree: 3%
     + [サポートチケットの作成](../monitoring-analytics-support/help-and-support/create-a-support-ticket.md)
     + [サポートチケットの検索、レビュー、コメント、エスカレーション](../monitoring-analytics-support/help-and-support/search-track-comment-escalate-support-ticket.md)
     + [サポートチケットの視聴者とステータスの管理](../monitoring-analytics-support/help-and-support/add-remove-watchers-close-reopen-support-ticket.md)
-
-+ マーケティングツール {#marketing}
-  + [カタログ価格ルールの作成](../site-management/catalog-price-rules.md)
-  + [カート価格ルールの作成](../site-management/cart-price-rules.md)
-  + [関連製品ルールの管理](../site-management/related-product-rules.md)
-  + [商品レコメンデーションの設定](../site-management/product-recommendations.md)
-  + [ライブサーチの概要](../site-management/live-search.md)
-  + [&#x200B; レコメンデーションのライブ検索](../site-management/live-search-recommendations.md)
-  + [CommerceとAJOの統合](../site-management/integrate-commerce-ajo.md)
-+ B2B for Adobe Commerce {#b2b}
-  + [会社アカウントの管理](../b2b/company-accounts.md)
-  + [共有カタログの管理](../b2b/shared-catalogs.md)
-  + [会社クレジットを管理](../b2b/company-credit.md)
-  + [発注と承認](../b2b/purchase-orders.md)
-  + 見積り {#b2b-quote}
-    + [営業担当者が見積を開始](../b2b/sales-rep-initiates-quote.md)
-    + [管理者からの見積もり検証](../b2b/quote-validation-admin-panel.md)
-    + [営業担当者が見積REST APIを開始](../b2b/sales-rep-initiates-quote-api.md)
-    + [見積もり行項目の割引](../b2b/quote-line-item-discount.md)
-    + [見積もり行項目メモ](../b2b/quote-line-item-notes.md)
-    + [見積もり行項目の割引GraphQL](../b2b/quote-graphql-line-item-discount.md)
-    + [見積もり行項目の割引REST API](../b2b/quote-rest-api-line-item-notes.md)

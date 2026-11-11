@@ -49,9 +49,9 @@ topic_v2:
     internal-label: Security
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 75bc52b62261883eb98f22c112aaa7bd42b6382d
+source-git-commit: 169243ff1dda03b06b8b014a1ce17b725671e169
 workflow-type: tm+mt
-source-wordcount: '2365'
+source-wordcount: '2371'
 ht-degree: 0%
 ---
 # 起動前のチェックリスト
@@ -120,7 +120,7 @@ Adobe Commerce Cloudでは、ステージング環境と実稼動環境の両方
 * [MySQL設定のベストプラクティス](https://experienceleague.adobe.com/ja/docs/commerce-operations/implementation-playbook/best-practices/planning/mysql-configuration){target="_blank"}
 * Adobe Commerceの管理アラート：[MariaDB アラート &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-operations/tools/managed-alerts-for-adobe-commerce/managed-alerts-on-magento-commerce-mariadb-alerts){target="_blank"}
 * [&#x200B; データベース設定](https://experienceleague.adobe.com/ja/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud){target="_blank"}のベストプラクティス
-* [&#x200B; ガレラクラスターのレプリケーションとフロー制御](https://experienceleague.adobe.com/ja/docs/commerce-learn/tutorials/extensibility/backend-development/galera-db-slow-replication){target="_blank"} （詳細分析）
+* [&#x200B; ガレラクラスターのレプリケーションとフロー制御](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/cloud-infrastructure-and-self-hosted/application-development-and-upgrades/galera-db-slow-replication){target="_blank"} （詳細分析）
 
 1. データベースの高い読み込み時にパフォーマンスを向上させるには、[MySQL スレーブ接続](https://experienceleague.adobe.com/ja/docs/commerce-operations/implementation-playbook/best-practices/planning/mysql-configuration#slave-connections){target="_blank"}をお勧めします。
 2. すべてのデータベーステーブルの行形式が、COMPACT[&#128279;](https://experienceleague.adobe.com/ja/docs/commerce-operations/implementation-playbook/best-practices/maintenance/mariadb-upgrade#convert-database-table-storage-format){target="_blank"}ではなくDYNAMICに設定されていることを確認します（オンプレミスからクラウドへの移行の場合は特に重要です）。

@@ -1,6 +1,6 @@
 ---
 title: テストフォルダー
-description: App Builder テストフォルダー内のJavaScript単体テストファイルと、Adobe Commerce サンプルアプリケーションの包括的なテスト用に拡張する方法について説明します。
+description: App Builder サンプルアプリケーションのJavaScript ユニットテストを確認し、Adobe Commerce統合用の包括的なテストに拡張する方法を学びます。
 jira: KT-21682
 doc-type: Tutorial
 duration: 233
@@ -23,13 +23,11 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
 autotag-review: '2026-08-11T19:18:25.321Z'
-source-git-commit: 3010e288b409fa4eeed20aa532a3c96f649891fb
+source-git-commit: fde7a0e2880f8e5a692f6d11ca9d3c6a6f6b4c2f
 workflow-type: tm+mt
-source-wordcount: 122
+source-wordcount: '116'
 ht-degree: 0%
-
 ---
-
 # テストフォルダーについて説明します {#test-folder}
 
 このサンプルアプリの`test` フォルダーには、アプリケーションで単体テストを実行する際に使用される1つのJavaScript ファイルが含まれています。
