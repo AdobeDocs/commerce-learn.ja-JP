@@ -4,7 +4,7 @@ user-guide-description: ビデオとチュートリアルを通じて、Adobe Co
 breadcrumb-title: ビデオとチュートリアル
 auto-video-transcripts: true
 author: Russell A.
-source-git-commit: fde7a0e2880f8e5a692f6d11ca9d3c6a6f6b4c2f
+source-git-commit: 24f9e04b5b41765f855476ff2e1be648b6634d1f
 workflow-type: tm+mt
 source-wordcount: '1035'
 ht-degree: 3%
@@ -155,7 +155,7 @@ ht-degree: 3%
       + [見積もり行項目の割引](../cloud-infrastructure-and-self-hosted/b2b/quotes/quote-line-item-discount.md)
       + [見積もり行項目メモ](../cloud-infrastructure-and-self-hosted/b2b/quotes/quote-line-item-notes.md)
   + アプリケーションの開発とアップグレード {#application-development-and-upgrades}
-    + [データベーステーブルの修正に関するベストプラクティス](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables.html?lang=ja)
+    + [データベーステーブルの修正に関するベストプラクティス](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables.html)
     + [モジュールの作成](../cloud-infrastructure-and-self-hosted/application-development-and-upgrades/create-module.md)
     + [製品属性の追加](../cloud-infrastructure-and-self-hosted/application-development-and-upgrades/add-product-attribute.md)
     + [依存関係インジェクションの例](../cloud-infrastructure-and-self-hosted/application-development-and-upgrades/dependency-injection.md)
@@ -189,6 +189,20 @@ ht-degree: 3%
     + [App Builder URLを使用したテスト](../app-builder/first-app/testing-app-builder-url.md)
     + [まとめ](../app-builder/first-app/conclusion.md)
     + [サンプル モジュールのソースコード](https://github.com/magento/app-builder-samples){target="_blank"}
+
+  + AI ツールを使用して分割支払いPOCを作成する {#create-a-split-payment-poc}
+    + [App BuilderとAI ツール](../app-builder/split-payment-ai-tools/overview.md)
+    + [完全デモ](../app-builder/split-payment-ai-tools/full-demo.md)
+    + [ステップバイステップ実装ガイド](../app-builder/split-payment-ai-tools/step-by-step-guide.md)
+    + [アーキテクチャおよび設計の決定](../app-builder/split-payment-ai-tools/architecture-and-decisions.md)
+    + [前提条件と環境の設定](../app-builder/split-payment-ai-tools/prerequisites-and-setup.md)
+    + [テストと検証](../app-builder/split-payment-ai-tools/testing-and-verification.md)
+    + [次のステップ](../app-builder/split-payment-ai-tools/next-steps.md)
+    + リファレンスリソース {#split-payment-resources}
+      + [環境変数リファレンス](../app-builder/split-payment-ai-tools/env-reference.md)
+      + [Commerce モジュール AI プロンプト](../app-builder/split-payment-ai-tools/commerce-module-prompt.md)
+      + [App Builder Orchestrator AI プロンプト](../app-builder/split-payment-ai-tools/orchestrator-prompt.md)
+      + [Experience Cloud UI拡張機能AI プロンプト](../app-builder/split-payment-ai-tools/experience-cloud-ui-prompt.md)
 
 + はじめに {#getting-started}
   + Commerce製品 {#capabilities}
@@ -242,7 +256,7 @@ ht-degree: 3%
         + [買い物客体験](../edge-delivery-services/shopper-experience.md)
     + ヘッドレスアーキテクチャ {#headless-architecture}
       + ヘッドレス CMSの概要 {#introduction-to-headless}
-        + [&#x200B; ヘッドレスアーキテクチャ – セッション 1](../headless/session-1.md)
+        + [ ヘッドレスアーキテクチャ – セッション 1](../headless/session-1.md)
       + PWA Studioの概要 {#introduction}
         + [概要](../pwa/introduction/1-overview.md)
         + [PWA Studio tools](../pwa/introduction/2-pwa-studio-tools.md)
@@ -258,19 +272,6 @@ ht-degree: 3%
     + [突然変異](../graphql-rest/graphql-mutations.md)
     + [スキーマ](../graphql-rest/graphql-schema.md)
   + その他のApp Builder チュートリアルとI/O イベント {#adobe-developer-app-builder}
-    + AI ツールを使用して分割支払いPOCを作成する {#create-a-split-payment-poc}
-      + [App BuilderとAI ツール](../app-builder/split-payment-ai-tools/overview.md)
-      + [完全デモ](../app-builder/split-payment-ai-tools/full-demo.md)
-      + [ステップバイステップ実装ガイド](../app-builder/split-payment-ai-tools/step-by-step-guide.md)
-      + [アーキテクチャおよび設計の決定](../app-builder/split-payment-ai-tools/architecture-and-decisions.md)
-      + [前提条件と環境の設定](../app-builder/split-payment-ai-tools/prerequisites-and-setup.md)
-      + [テストと検証](../app-builder/split-payment-ai-tools/testing-and-verification.md)
-      + [次のステップ](../app-builder/split-payment-ai-tools/next-steps.md)
-      + リファレンスリソース {#split-payment-resources}
-        + [環境変数リファレンス](../app-builder/split-payment-ai-tools/env-reference.md)
-        + [Commerce モジュール AI プロンプト](../app-builder/split-payment-ai-tools/commerce-module-prompt.md)
-        + [App Builder Orchestrator AI プロンプト](../app-builder/split-payment-ai-tools/orchestrator-prompt.md)
-        + [Experience Cloud UI拡張機能AI プロンプト](../app-builder/split-payment-ai-tools/experience-cloud-ui-prompt.md)
     + AI ツールを使用してカスタム配送料を作成する {#custom-shipping-rates-ai-tools}
       + [概要と設定](../app-builder/custom-shipping-rates-ai-tools/introduction-setup.md)
       + [AI ツールとAdobeスターターキット](../app-builder/custom-shipping-rates-ai-tools/ai-tools-starter-kit.md)

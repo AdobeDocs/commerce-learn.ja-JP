@@ -1,13 +1,11 @@
 ---
 title: 分割支払いPOC AI ツール関連ページ
-description: 拡張性の関連ページへのリンク - Adobe Developer App Builder - AI ツールを使用して分割支払いPOCを作成する
-source-git-commit: dfb2e7146ddb881646a3d219282e36056f246824
+description: App Builderの分割払い概念実証のチュートリアルとリファレンスリソースへのリンクです。
+source-git-commit: 24f9e04b5b41765f855476ff2e1be648b6634d1f
 workflow-type: tm+mt
-source-wordcount: '80'
+source-wordcount: '76'
 ht-degree: 0%
-
 ---
-
 # 分割支払POC関連リンク
 
 ## このシリーズのすべてのリソース
