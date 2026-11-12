@@ -1,8 +1,8 @@
 ---
 title: Data Connectionの完全なデモ
 description: Adobe Commerce Data Connectionの機能に関するデモをご覧ください
-kt: 14364
-doc-type: tutorial
+jira: KT-14364
+doc-type: Feature Video
 duration: 783
 audience: all
 last-substantial-update: 2023-11-08T00:00:00.000Z
@@ -22,10 +22,6 @@ feature_v2:
     internal-label: Configuration
   - id: e8818fe6-9c8b-4bc0-9ef8-377a10b7bc75
     internal-label: Architecture
-  - id: 8d0b446f-5b16-5a10-b272-01143504a11c
-    internal-label: System
-  - id: f37757d8-3174-5335-b977-1161792f965d
-    internal-label: Personalization
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -45,9 +41,10 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 71835f0240311d4b26ec8e0d9bbdf005f9887579
+autotag-review: '2026-11-12T20:16:22.359Z'
+source-git-commit: 0e7e27e92c07b0d809668489e267749311fd2285
 workflow-type: tm+mt
-source-wordcount: '177'
+source-wordcount: '173'
 ht-degree: 0%
 ---
 # Adobe Commerce Data Connectionのフルデモ
@@ -68,4 +65,4 @@ Adobe Commerce Data Connectionの使用方法と基本的な設定について�
 * Real-Time CDPのオーディエンス ブラウザーデータ、サーバーサイドのデータ（注文履歴を含む）、その他のソースからのデータ（ロイヤルティデータ）にもとづいて、リアルタイムでセグメントを更新および変更する。
 * Real-Time CDPのオーディエンスを活用して、Adobe Commerceのカート価格ルールとダイナミックブロックの両方をパーソナライズ。
 
->[!VIDEO](https://video.tv.adobe.com/v/3453819?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3425591?learn=on)
