@@ -1,8 +1,8 @@
 ---
 title: PWA開発用にVeniaを設定する
 description: PWA開発プロジェクトにVenia ストアフロントを設定する方法について説明します。
-kt: 5565
-doc-type: video
+jira: KT-5565
+doc-type: Technical Video
 duration: 212
 activity: use
 last-substantial-update: 2023-5-28
@@ -49,7 +49,7 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 7516911fc14bc80f327310b99a00f9cbff7c65c7
+source-git-commit: 2a05d192340de0cc5fa51f791c891b6a1b9f086a
 workflow-type: tm+mt
 source-wordcount: '56'
 ht-degree: 0%
@@ -64,7 +64,7 @@ ht-degree: 0%
 
 ## ビデオコンテンツ
 
->[!VIDEO](https://video.tv.adobe.com/v/3430962?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/35785?learn=on)
 
 ## 役立つリソース
 
