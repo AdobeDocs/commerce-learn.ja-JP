@@ -4,7 +4,7 @@ user-guide-description: ビデオとチュートリアルを通じて、Adobe Co
 breadcrumb-title: ビデオとチュートリアル
 auto-video-transcripts: true
 author: Russell A.
-source-git-commit: fde7a0e2880f8e5a692f6d11ca9d3c6a6f6b4c2f
+source-git-commit: 2438933afca636cd633375ece98e15c57c1d9ead
 workflow-type: tm+mt
 source-wordcount: '1035'
 ht-degree: 3%
@@ -190,6 +190,26 @@ ht-degree: 3%
     + [まとめ](../app-builder/first-app/conclusion.md)
     + [サンプル モジュールのソースコード](https://github.com/magento/app-builder-samples){target="_blank"}
 
+  + AI ツールを使用して分割支払いPOCを作成する {#create-a-split-payment-poc}
+    + [App BuilderとAI ツール](../app-builder/split-payment-ai-tools/overview.md)
+    + [完全デモ](../app-builder/split-payment-ai-tools/full-demo.md)
+    + [ステップバイステップ実装ガイド](../app-builder/split-payment-ai-tools/step-by-step-guide.md)
+    + [アーキテクチャおよび設計の決定](../app-builder/split-payment-ai-tools/architecture-and-decisions.md)
+    + [前提条件と環境の設定](../app-builder/split-payment-ai-tools/prerequisites-and-setup.md)
+    + [テストと検証](../app-builder/split-payment-ai-tools/testing-and-verification.md)
+    + [次のステップ](../app-builder/split-payment-ai-tools/next-steps.md)
+    + リファレンスリソース {#split-payment-resources}
+      + [環境変数リファレンス](../app-builder/split-payment-ai-tools/env-reference.md)
+      + [Commerce モジュール AI プロンプト](../app-builder/split-payment-ai-tools/commerce-module-prompt.md)
+      + [App Builder Orchestrator AI プロンプト](../app-builder/split-payment-ai-tools/orchestrator-prompt.md)
+      + [Experience Cloud UI拡張機能AI プロンプト](../app-builder/split-payment-ai-tools/experience-cloud-ui-prompt.md)
+
+  + AI ツールを使用してカスタム配送料を作成する {#custom-shipping-rates-ai-tools}
+    + [概要と設定](../app-builder/custom-shipping-rates-ai-tools/introduction-setup.md)
+    + [AI ツールとAdobeスターターキット](../app-builder/custom-shipping-rates-ai-tools/ai-tools-starter-kit.md)
+    + [実装とテスト](../app-builder/custom-shipping-rates-ai-tools/implementation-testing.md)
+    + [Adobeにフィードバックを提供する](../app-builder/custom-shipping-rates-ai-tools/feedback.md)
+
 + はじめに {#getting-started}
   + Commerce製品 {#capabilities}
     + [利用可能なコマースオプション](../capabilities/adobes-available-commerce-options.md)
@@ -258,24 +278,6 @@ ht-degree: 3%
     + [突然変異](../graphql-rest/graphql-mutations.md)
     + [スキーマ](../graphql-rest/graphql-schema.md)
   + その他のApp Builder チュートリアルとI/O イベント {#adobe-developer-app-builder}
-    + AI ツールを使用して分割支払いPOCを作成する {#create-a-split-payment-poc}
-      + [App BuilderとAI ツール](../app-builder/split-payment-ai-tools/overview.md)
-      + [完全デモ](../app-builder/split-payment-ai-tools/full-demo.md)
-      + [ステップバイステップ実装ガイド](../app-builder/split-payment-ai-tools/step-by-step-guide.md)
-      + [アーキテクチャおよび設計の決定](../app-builder/split-payment-ai-tools/architecture-and-decisions.md)
-      + [前提条件と環境の設定](../app-builder/split-payment-ai-tools/prerequisites-and-setup.md)
-      + [テストと検証](../app-builder/split-payment-ai-tools/testing-and-verification.md)
-      + [次のステップ](../app-builder/split-payment-ai-tools/next-steps.md)
-      + リファレンスリソース {#split-payment-resources}
-        + [環境変数リファレンス](../app-builder/split-payment-ai-tools/env-reference.md)
-        + [Commerce モジュール AI プロンプト](../app-builder/split-payment-ai-tools/commerce-module-prompt.md)
-        + [App Builder Orchestrator AI プロンプト](../app-builder/split-payment-ai-tools/orchestrator-prompt.md)
-        + [Experience Cloud UI拡張機能AI プロンプト](../app-builder/split-payment-ai-tools/experience-cloud-ui-prompt.md)
-    + AI ツールを使用してカスタム配送料を作成する {#custom-shipping-rates-ai-tools}
-      + [概要と設定](../app-builder/custom-shipping-rates-ai-tools/introduction-setup.md)
-      + [AI ツールとAdobeスターターキット](../app-builder/custom-shipping-rates-ai-tools/ai-tools-starter-kit.md)
-      + [実装とテスト](../app-builder/custom-shipping-rates-ai-tools/implementation-testing.md)
-      + [Adobeにフィードバックを提供する](../app-builder/custom-shipping-rates-ai-tools/feedback.md)
     + ADOBE COMMERCE用IO イベント {#io-events}
       + [入門IO イベント](../io-events/getting-started-io-events.md)
       + [Adobe Commerce 2.4.5 インストール](../io-events/2-4-5-installation.md)
