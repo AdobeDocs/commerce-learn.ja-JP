@@ -4,9 +4,9 @@ user-guide-description: ビデオとチュートリアルを通じて、Adobe Co
 breadcrumb-title: ビデオとチュートリアル
 auto-video-transcripts: true
 author: Russell A.
-source-git-commit: de9e426dad620ff9f242454e069e44919be39884
+source-git-commit: db62654c7e54e2026395cc9278ca12ecbff778ee
 workflow-type: tm+mt
-source-wordcount: '1034'
+source-wordcount: '1029'
 ht-degree: 3%
 ---
 
@@ -155,7 +155,7 @@ ht-degree: 3%
       + [見積もり行項目の割引](../cloud-infrastructure-and-self-hosted/b2b/quotes/quote-line-item-discount.md)
       + [見積もり行項目メモ](../cloud-infrastructure-and-self-hosted/b2b/quotes/quote-line-item-notes.md)
   + アプリケーションの開発とアップグレード {#application-development-and-upgrades}
-    + [データベーステーブルの修正に関するベストプラクティス](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables.html?lang=ja)
+    + [データベーステーブルの修正に関するベストプラクティス](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables.html)
     + [モジュールの作成](../cloud-infrastructure-and-self-hosted/application-development-and-upgrades/create-module.md)
     + [製品属性の追加](../cloud-infrastructure-and-self-hosted/application-development-and-upgrades/add-product-attribute.md)
     + [依存関係インジェクションの例](../cloud-infrastructure-and-self-hosted/application-development-and-upgrades/dependency-injection.md)
@@ -245,6 +245,16 @@ ht-degree: 3%
     + [シングルソース GraphQL API メッシュの作成](../api-mesh/graphql-single-source.md)
     + [複数のソース GraphQL API メッシュの作成](../api-mesh/graphql-multiple-source.md)
 
+  + イベントおよびwebhook {#events-and-webhooks}
+    + ADOBE COMMERCE用IO イベント {#io-events}
+      + [入門IO イベント](../io-events/getting-started-io-events.md)
+      + [Adobe Commerce 2.4.5 インストール](../io-events/2-4-5-installation.md)
+      + [Adobe Commerce 2.4.6 インストール](../io-events/2-4-6-installation.md)
+      + [App Builder プロジェクトを作成](../io-events/create-app-builder-project.md)
+      + [Adobe Commerceの設定](../io-events/configure-commerce.md)
+      + [Adobe Commerce モジュール開発](../io-events/commerce-module-development.md)
+      + [Adobe Commerce条件イベント](../io-events/conditional-events.md)
+
 + 拡張機能 {#extensibility}
   + Commerce Developer Agent {#commerce-developer-agent}
     + [概要](../commerce-developer-agent/adobe-commerce-developer-agent-overview-technical-video.md)
@@ -276,7 +286,7 @@ ht-degree: 3%
         + [買い物客体験](../edge-delivery-services/shopper-experience.md)
     + ヘッドレスアーキテクチャ {#headless-architecture}
       + ヘッドレス CMSの概要 {#introduction-to-headless}
-        + [&#x200B; ヘッドレスアーキテクチャ – セッション 1](../headless/session-1.md)
+        + [ ヘッドレスアーキテクチャ – セッション 1](../headless/session-1.md)
       + PWA Studioの概要 {#introduction}
         + [概要](../pwa/introduction/1-overview.md)
         + [PWA Studio tools](../pwa/introduction/2-pwa-studio-tools.md)
@@ -286,15 +296,6 @@ ht-degree: 3%
         + [ペレグリン](../pwa/introduction/6-peregrine.md)
       + [PWA Docker Development](../pwa/pwa-docker-development.md)
       + [開発のためのVeniaの設定](../pwa/set-up-venia-for-dev.md)
-  + その他のApp Builder チュートリアルとI/O イベント {#adobe-developer-app-builder}
-    + ADOBE COMMERCE用IO イベント {#io-events}
-      + [入門IO イベント](../io-events/getting-started-io-events.md)
-      + [Adobe Commerce 2.4.5 インストール](../io-events/2-4-5-installation.md)
-      + [Adobe Commerce 2.4.6 インストール](../io-events/2-4-6-installation.md)
-      + [App Builder プロジェクトを作成](../io-events/create-app-builder-project.md)
-      + [Adobe Commerceの設定](../io-events/configure-commerce.md)
-      + [Adobe Commerce モジュール開発](../io-events/commerce-module-development.md)
-      + [Adobe Commerce条件イベント](../io-events/conditional-events.md)
 
 + 監視、分析、サポート {#monitoring-analytics-support}
   + 可観測性 {#observability}
