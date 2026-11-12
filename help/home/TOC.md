@@ -4,9 +4,9 @@ user-guide-description: ビデオとチュートリアルを通じて、Adobe Co
 breadcrumb-title: ビデオとチュートリアル
 auto-video-transcripts: true
 author: Russell A.
-source-git-commit: 2438933afca636cd633375ece98e15c57c1d9ead
+source-git-commit: 0e7e27e92c07b0d809668489e267749311fd2285
 workflow-type: tm+mt
-source-wordcount: '1035'
+source-wordcount: '1044'
 ht-degree: 3%
 ---
 
@@ -213,8 +213,40 @@ ht-degree: 3%
 + はじめに {#getting-started}
   + Commerce製品 {#capabilities}
     + [利用可能なコマースオプション](../capabilities/adobes-available-commerce-options.md)
-    + [データ接続](../capabilities/data-connection.md)
     + [コンポーザブルCommerce](../capabilities/what-is-composable-commerce.md)
+
++ APIと統合 {#apis-and-integration}
+  + GraphQL財団 {#graphql-rest}
+    + [GraphQLの基本](../graphql-rest/intro-graphql.md)
+    + [クエリ](../graphql-rest/graphql-queries.md)
+    + [突然変異](../graphql-rest/graphql-mutations.md)
+    + [スキーマ](../graphql-rest/graphql-schema.md)
+  + RESTとGraphQLの実用的な例 {#examples}
+    + [RESTを使用しているお客様](../apis-and-integration/examples/customer.md)
+    + B2B ビジネスの見積もり {#b2b-quotes}
+      + [営業担当者が見積REST APIを開始](../apis-and-integration/examples/b2b-quotes/sales-rep-initiates-quote-api.md)
+      + [見積もり行項目の割引GraphQL](../apis-and-integration/examples/b2b-quotes/quote-graphql-line-item-discount.md)
+      + [見積もり行項目メモ REST API](../apis-and-integration/examples/b2b-quotes/quote-rest-api-line-item-notes.md)
+
+  + API メッシュ {#api-mesh}
+    + [GitHub Codespacesを使用したAPI Mesh スターターキット](../api-mesh/starter-kit-github-codespaces.md)
+    + [API Mesh スターターキットワークフロー](../api-mesh/starter-kit-workflows.md)
+    + [API Meshの基本を学ぶ](../api-mesh/getting-started-api-mesh.md)
+    + [Adobe IOとメッシュプラグインのインストール](../api-mesh/installing-aio-mesh-plugin.md)
+    + [プロジェクトとワークスペースの操作](../api-mesh/aio-projects-workspaces.md)
+    + [シングルソース GraphQL API メッシュの作成](../api-mesh/graphql-single-source.md)
+    + [複数のソース GraphQL API メッシュの作成](../api-mesh/graphql-multiple-source.md)
+
+  + イベントおよびwebhook {#events-and-webhooks}
+    + ADOBE COMMERCE用IO イベント {#io-events}
+      + [入門IO イベント](../io-events/getting-started-io-events.md)
+      + [Adobe Commerce 2.4.5 インストール](../io-events/2-4-5-installation.md)
+      + [Adobe Commerce 2.4.6 インストール](../io-events/2-4-6-installation.md)
+      + [App Builder プロジェクトを作成](../io-events/create-app-builder-project.md)
+      + [Adobe Commerceの設定](../io-events/configure-commerce.md)
+      + [Adobe Commerce モジュール開発](../io-events/commerce-module-development.md)
+      + [Adobe Commerce条件イベント](../io-events/conditional-events.md)
+
   + バックオフィス統合スターターキット {#back-office-integration-starter-kit}
     + [スターターキットのデモ](../back-office-integrations/starter-kit-demo.md)
     + [連携](../back-office-integrations/integrations.md)
@@ -223,13 +255,8 @@ ht-degree: 3%
     + [Webhook取り込み](../back-office-integrations/webhook-ingestion.md)
     + [再試行メカニズム](../back-office-integrations/retry-mechanism.md)
 
-+ APIと統合 {#apis-and-integration}
-  + RESTとGraphQLの実用的な例 {#examples}
-    + [RESTを使用しているお客様](../apis-and-integration/examples/customer.md)
-    + B2B ビジネスの見積もり {#b2b-quotes}
-      + [営業担当者が見積REST APIを開始](../apis-and-integration/examples/b2b-quotes/sales-rep-initiates-quote-api.md)
-      + [見積もり行項目の割引GraphQL](../apis-and-integration/examples/b2b-quotes/quote-graphql-line-item-discount.md)
-      + [見積もり行項目メモ REST API](../apis-and-integration/examples/b2b-quotes/quote-rest-api-line-item-notes.md)
+  + データ統合 {#data-integrations}
+    + [データ接続](../capabilities/data-connection.md)
 
 + 拡張機能 {#extensibility}
   + Commerce Developer Agent {#commerce-developer-agent}
@@ -272,28 +299,6 @@ ht-degree: 3%
         + [ペレグリン](../pwa/introduction/6-peregrine.md)
       + [PWA Docker Development](../pwa/pwa-docker-development.md)
       + [開発のためのVeniaの設定](../pwa/set-up-venia-for-dev.md)
-  + GraphQLとREST {#graphql-rest}
-    + [GraphQLの基本](../graphql-rest/intro-graphql.md)
-    + [クエリ](../graphql-rest/graphql-queries.md)
-    + [突然変異](../graphql-rest/graphql-mutations.md)
-    + [スキーマ](../graphql-rest/graphql-schema.md)
-  + その他のApp Builder チュートリアルとI/O イベント {#adobe-developer-app-builder}
-    + ADOBE COMMERCE用IO イベント {#io-events}
-      + [入門IO イベント](../io-events/getting-started-io-events.md)
-      + [Adobe Commerce 2.4.5 インストール](../io-events/2-4-5-installation.md)
-      + [Adobe Commerce 2.4.6 インストール](../io-events/2-4-6-installation.md)
-      + [App Builder プロジェクトを作成](../io-events/create-app-builder-project.md)
-      + [Adobe Commerceの設定](../io-events/configure-commerce.md)
-      + [Adobe Commerce モジュール開発](../io-events/commerce-module-development.md)
-      + [Adobe Commerce条件イベント](../io-events/conditional-events.md)
-  + API メッシュ {#api-mesh}
-    + [GitHub Codespacesを使用したAPI Mesh スターターキット](../api-mesh/starter-kit-github-codespaces.md)
-    + [API Mesh スターターキットワークフロー](../api-mesh/starter-kit-workflows.md)
-    + [API Meshの基本を学ぶ](../api-mesh/getting-started-api-mesh.md)
-    + [Adobe IOとメッシュプラグインのインストール](../api-mesh/installing-aio-mesh-plugin.md)
-    + [プロジェクトとワークスペースの操作](../api-mesh/aio-projects-workspaces.md)
-    + [シングルソース GraphQL API メッシュの作成](../api-mesh/graphql-single-source.md)
-    + [複数のソース GraphQL API メッシュの作成](../api-mesh/graphql-multiple-source.md)
 
 + 監視、分析、サポート {#monitoring-analytics-support}
   + 可観測性 {#observability}
