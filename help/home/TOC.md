@@ -4,9 +4,9 @@ user-guide-description: ビデオとチュートリアルを通じて、Adobe Co
 breadcrumb-title: ビデオとチュートリアル
 auto-video-transcripts: true
 author: Russell A.
-source-git-commit: 2438933afca636cd633375ece98e15c57c1d9ead
+source-git-commit: de9e426dad620ff9f242454e069e44919be39884
 workflow-type: tm+mt
-source-wordcount: '1035'
+source-wordcount: '1034'
 ht-degree: 3%
 ---
 
@@ -155,7 +155,7 @@ ht-degree: 3%
       + [見積もり行項目の割引](../cloud-infrastructure-and-self-hosted/b2b/quotes/quote-line-item-discount.md)
       + [見積もり行項目メモ](../cloud-infrastructure-and-self-hosted/b2b/quotes/quote-line-item-notes.md)
   + アプリケーションの開発とアップグレード {#application-development-and-upgrades}
-    + [データベーステーブルの修正に関するベストプラクティス](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables.html?lang=ja)
+    + [データベーステーブルの修正に関するベストプラクティス](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables.html)
     + [モジュールの作成](../cloud-infrastructure-and-self-hosted/application-development-and-upgrades/create-module.md)
     + [製品属性の追加](../cloud-infrastructure-and-self-hosted/application-development-and-upgrades/add-product-attribute.md)
     + [依存関係インジェクションの例](../cloud-infrastructure-and-self-hosted/application-development-and-upgrades/dependency-injection.md)
@@ -224,12 +224,26 @@ ht-degree: 3%
     + [再試行メカニズム](../back-office-integrations/retry-mechanism.md)
 
 + APIと統合 {#apis-and-integration}
+  + GraphQL財団 {#graphql-rest}
+    + [GraphQLの基本](../graphql-rest/intro-graphql.md)
+    + [クエリ](../graphql-rest/graphql-queries.md)
+    + [突然変異](../graphql-rest/graphql-mutations.md)
+    + [スキーマ](../graphql-rest/graphql-schema.md)
   + RESTとGraphQLの実用的な例 {#examples}
     + [RESTを使用しているお客様](../apis-and-integration/examples/customer.md)
     + B2B ビジネスの見積もり {#b2b-quotes}
       + [営業担当者が見積REST APIを開始](../apis-and-integration/examples/b2b-quotes/sales-rep-initiates-quote-api.md)
       + [見積もり行項目の割引GraphQL](../apis-and-integration/examples/b2b-quotes/quote-graphql-line-item-discount.md)
       + [見積もり行項目メモ REST API](../apis-and-integration/examples/b2b-quotes/quote-rest-api-line-item-notes.md)
+
+  + API メッシュ {#api-mesh}
+    + [GitHub Codespacesを使用したAPI Mesh スターターキット](../api-mesh/starter-kit-github-codespaces.md)
+    + [API Mesh スターターキットワークフロー](../api-mesh/starter-kit-workflows.md)
+    + [API Meshの基本を学ぶ](../api-mesh/getting-started-api-mesh.md)
+    + [Adobe IOとメッシュプラグインのインストール](../api-mesh/installing-aio-mesh-plugin.md)
+    + [プロジェクトとワークスペースの操作](../api-mesh/aio-projects-workspaces.md)
+    + [シングルソース GraphQL API メッシュの作成](../api-mesh/graphql-single-source.md)
+    + [複数のソース GraphQL API メッシュの作成](../api-mesh/graphql-multiple-source.md)
 
 + 拡張機能 {#extensibility}
   + Commerce Developer Agent {#commerce-developer-agent}
@@ -262,7 +276,7 @@ ht-degree: 3%
         + [買い物客体験](../edge-delivery-services/shopper-experience.md)
     + ヘッドレスアーキテクチャ {#headless-architecture}
       + ヘッドレス CMSの概要 {#introduction-to-headless}
-        + [&#x200B; ヘッドレスアーキテクチャ – セッション 1](../headless/session-1.md)
+        + [ ヘッドレスアーキテクチャ – セッション 1](../headless/session-1.md)
       + PWA Studioの概要 {#introduction}
         + [概要](../pwa/introduction/1-overview.md)
         + [PWA Studio tools](../pwa/introduction/2-pwa-studio-tools.md)
@@ -272,11 +286,6 @@ ht-degree: 3%
         + [ペレグリン](../pwa/introduction/6-peregrine.md)
       + [PWA Docker Development](../pwa/pwa-docker-development.md)
       + [開発のためのVeniaの設定](../pwa/set-up-venia-for-dev.md)
-  + GraphQLとREST {#graphql-rest}
-    + [GraphQLの基本](../graphql-rest/intro-graphql.md)
-    + [クエリ](../graphql-rest/graphql-queries.md)
-    + [突然変異](../graphql-rest/graphql-mutations.md)
-    + [スキーマ](../graphql-rest/graphql-schema.md)
   + その他のApp Builder チュートリアルとI/O イベント {#adobe-developer-app-builder}
     + ADOBE COMMERCE用IO イベント {#io-events}
       + [入門IO イベント](../io-events/getting-started-io-events.md)
@@ -286,14 +295,6 @@ ht-degree: 3%
       + [Adobe Commerceの設定](../io-events/configure-commerce.md)
       + [Adobe Commerce モジュール開発](../io-events/commerce-module-development.md)
       + [Adobe Commerce条件イベント](../io-events/conditional-events.md)
-  + API メッシュ {#api-mesh}
-    + [GitHub Codespacesを使用したAPI Mesh スターターキット](../api-mesh/starter-kit-github-codespaces.md)
-    + [API Mesh スターターキットワークフロー](../api-mesh/starter-kit-workflows.md)
-    + [API Meshの基本を学ぶ](../api-mesh/getting-started-api-mesh.md)
-    + [Adobe IOとメッシュプラグインのインストール](../api-mesh/installing-aio-mesh-plugin.md)
-    + [プロジェクトとワークスペースの操作](../api-mesh/aio-projects-workspaces.md)
-    + [シングルソース GraphQL API メッシュの作成](../api-mesh/graphql-single-source.md)
-    + [複数のソース GraphQL API メッシュの作成](../api-mesh/graphql-multiple-source.md)
 
 + 監視、分析、サポート {#monitoring-analytics-support}
   + 可観測性 {#observability}

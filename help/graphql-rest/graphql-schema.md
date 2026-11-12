@@ -3,11 +3,11 @@ title: GraphQLのスキーマ言語
 description: GraphQLのスキーマについて説明します。 スキーマの説明と、いくつかの興味深いパターンとスキーマの読み方を読みます。
 landing-page-description: GraphQLの概要を説明します。 スキーマを理解し、一部の要素を解釈する方法
 short-description: GraphQLの概要を説明します。 スキーマを理解し、一部の要素を解釈する方法
-kt: 13939
-doc-type: video
+jira: KT-13939
+doc-type: Tutorial
 duration: 363
 audience: all
-last-substantial-update: 2023-10-12T00:00:00.000Z
+last-substantial-update: 2023-10-12
 feature: GraphQL
 topic: Commerce, Architecture, Headless
 old-role: Architect, Developer
@@ -37,7 +37,7 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 7516911fc14bc80f327310b99a00f9cbff7c65c7
+source-git-commit: de9e426dad620ff9f242454e069e44919be39884
 workflow-type: tm+mt
 source-wordcount: '436'
 ht-degree: 0%
@@ -128,7 +128,7 @@ type Mutation {
 }
 ```
 
-[GraphQL ドキュメント &#x200B;](https://graphql.org/learn/schema/){target="_blank"}を詳しく調べて、ここで表されていない一部の概念の構文を含め、書体システムの詳細について学ぶことができます。 上記の例は自明である。 （また、構文がクエリ構文とどの程度似ているかに注意してください）。 GraphQL スキーマの定義は、特定の型の利用可能な引数とフィールドを、それらの型と共に表現するだけです。 `String`のような単純なスカラー型に到達するまで、各フィールド型はツリーを通して定義を持つ必要があります。
+[GraphQL ドキュメント ](https://graphql.org/learn/schema/){target="_blank"}を詳しく調べて、ここで表されていない一部の概念の構文を含め、書体システムの詳細について学ぶことができます。 上記の例は自明である。 （また、構文がクエリ構文とどの程度似ているかに注意してください）。 GraphQL スキーマの定義は、特定の型の利用可能な引数とフィールドを、それらの型と共に表現するだけです。 `String`のような単純なスカラー型に到達するまで、各フィールド型はツリーを通して定義を持つ必要があります。
 
 `input`宣言は、`type`のように、すべての点で有効ですが、引数の入力として使用できる型を定義します。 `interface`宣言にも注意してください。 これは、PHPのインターフェイスと多かれ少なかれ同じ関数を提供します。 その他のタイプはこのインターフェイスから継承されます。
 
