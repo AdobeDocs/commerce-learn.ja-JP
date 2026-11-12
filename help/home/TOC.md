@@ -155,7 +155,7 @@ ht-degree: 2%
       + [見積もり行項目の割引](../cloud-infrastructure-and-self-hosted/b2b/quotes/quote-line-item-discount.md)
       + [見積もり行項目メモ](../cloud-infrastructure-and-self-hosted/b2b/quotes/quote-line-item-notes.md)
   + アプリケーションの開発とアップグレード {#application-development-and-upgrades}
-    + [データベーステーブルの修正に関するベストプラクティス](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables.html)
+    + [データベーステーブルの修正に関するベストプラクティス](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables.html?lang=ja)
     + [モジュールの作成](../cloud-infrastructure-and-self-hosted/application-development-and-upgrades/create-module.md)
     + [製品属性の追加](../cloud-infrastructure-and-self-hosted/application-development-and-upgrades/add-product-attribute.md)
     + [依存関係インジェクションの例](../cloud-infrastructure-and-self-hosted/application-development-and-upgrades/dependency-injection.md)
