@@ -51,7 +51,7 @@ Adobeのコマースオプションの詳細。 主な機能には何か、ど�
 * バックエンドを置き換えることなく、ストアフロントを近代化するタイミングを把握できます
 * DevOpsのリソース、スケーラビリティ、ビジネス目標にもとづいて最適なソリューションを特定します
 
->[!VIDEO](https://video.tv.adobe.com/v/3480242?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3480244?captions=jpn&learn=on)
 
 ## 関連ドキュメント
 

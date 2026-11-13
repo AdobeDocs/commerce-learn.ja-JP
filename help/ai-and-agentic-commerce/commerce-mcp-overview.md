@@ -41,4 +41,4 @@ CommerceのAdobe Commerce向けMCPは、開発者がリアルタイムコマー�
 * 決済プロセスを円滑に進めることができます
 * 購入した製品に特化した購入後のコンテキストに関するガイダンス
 
->[!VIDEO](https://video.tv.adobe.com/v/3492285)
+>[!VIDEO](https://video.tv.adobe.com/v/3492315?captions=jpn)
