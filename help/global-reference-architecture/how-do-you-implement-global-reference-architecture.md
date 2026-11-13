@@ -1,6 +1,6 @@
 ---
 title: グローバル参照アーキテクチャの導入方法
-description: グローバル参照アーキテクチャの実装方法を説明します。 Web サイトを配布するためのアイデア、成功のための鍵、およびグローバルリファレンスアーキテクチャプロジェクトを正しい軌道に乗せるために必要な役割について説明します。
+description: web サイトの配布、成功要因、機能の開発、チームの役割など、Adobe Commerceのグローバルリファレンスアーキテクチャを実装する方法について説明します。
 jira: KT-14042
 doc-type: Value Video
 duration: 2273
@@ -40,12 +40,16 @@ topic_v2:
     internal-label: Implementation
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
     internal-label: Governance
-source-git-commit: 71835f0240311d4b26ec8e0d9bbdf005f9887579
+source-git-commit: 8d54f05ec4dfe57397e112697d52b04b034c12a8
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '156'
 ht-degree: 0%
 ---
 # グローバル参照アーキテクチャの実装
+
+>[!NOTE]
+>
+>本シリーズでは、クラウドインフラストラクチャ上のAdobe Commerceとセルフホスト型のデプロイメントについて説明します。
 
 GRA （グローバル参照アーキテクチャ）の導入方法について説明します。 GRAを成功に導くための早期判断について解説します。 web サイトを分離する方法、成功の鍵、整理整頓して機能を開発するためのコンセプトを紹介します。
 

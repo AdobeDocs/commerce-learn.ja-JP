@@ -44,12 +44,16 @@ topic_v2:
     internal-label: Implementation
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
     internal-label: Governance
-source-git-commit: 71835f0240311d4b26ec8e0d9bbdf005f9887579
+source-git-commit: 8d54f05ec4dfe57397e112697d52b04b034c12a8
 workflow-type: tm+mt
-source-wordcount: '113'
+source-wordcount: '125'
 ht-degree: 0%
 ---
 # グローバル参照アーキテクチャの活用
+
+>[!NOTE]
+>
+>本シリーズでは、クラウドインフラストラクチャ上のAdobe Commerceとセルフホスト型のデプロイメントについて説明します。
 
 GRAを活用する方法について説明します。 GRAの導入を成功させるために、Adobeのエキスパートは、プロジェクトのさまざまなフェーズについて話し合い、発見フェーズについて詳しく説明します。 QA リソースについて説明し、GRAの実装にとってQA リソースが貴重なリソースである理由を説明します。
 

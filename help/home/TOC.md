@@ -4,15 +4,20 @@ user-guide-description: ビデオとチュートリアルを通じて、Adobe Co
 breadcrumb-title: ビデオとチュートリアル
 auto-video-transcripts: true
 author: Russell A.
-source-git-commit: 1e3b88ec32913a3f7c47490b0140d86eb3be4f18
+source-git-commit: ed6305c5f9feda262b5985886b1889c6eae55108
 workflow-type: tm+mt
-source-wordcount: '1042'
+source-wordcount: '1090'
 ht-degree: 2%
 ---
 
 # Adobe Commerceのビデオとチュートリアル {#tutorials}
 
 + [[!DNL Commerce] チュートリアル](overview.md)
++ はじめに {#getting-started}
+  + Commerce製品 {#capabilities}
+    + [利用可能なコマースオプション](../capabilities/adobes-available-commerce-options.md)
+    + [コンポーザブルCommerce](../capabilities/what-is-composable-commerce.md)
+
 + Adobe Commerce as a Cloud Service {#commerce-as-a-cloud-service}
   + [概要](../commerce-as-a-cloud-service/overview.md)
   + [デザイン](../commerce-as-a-cloud-service/architecture.md)
@@ -173,6 +178,8 @@ ht-degree: 2%
       + [バルクパッケージ](../cloud-infrastructure-and-self-hosted/application-development-and-upgrades/global-reference-architecture-implementation-techniques/bulk-packages.md)
       + [個別のパッケージ](../cloud-infrastructure-and-self-hosted/application-development-and-upgrades/global-reference-architecture-implementation-techniques/separate-packages.md)
       + [モノレポ](../cloud-infrastructure-and-self-hosted/application-development-and-upgrades/global-reference-architecture-implementation-techniques/monorepo.md)
++ [Adobe Commerce Optimizer](https://experienceleague.adobe.com/ja/docs/commerce-learn/adobe-commerce-optimizer/overview)
+
 + App Builder {#app-builder}
   + 基礎 {#foundations}
     + [App Builderの概要](../app-builder/foundations/introduction-to-app-builder.md)
@@ -209,11 +216,6 @@ ht-degree: 2%
     + [AI ツールとAdobeスターターキット](../app-builder/custom-shipping-rates-ai-tools/ai-tools-starter-kit.md)
     + [実装とテスト](../app-builder/custom-shipping-rates-ai-tools/implementation-testing.md)
     + [Adobeにフィードバックを提供する](../app-builder/custom-shipping-rates-ai-tools/feedback.md)
-
-+ はじめに {#getting-started}
-  + Commerce製品 {#capabilities}
-    + [利用可能なコマースオプション](../capabilities/adobes-available-commerce-options.md)
-    + [コンポーザブルCommerce](../capabilities/what-is-composable-commerce.md)
 
 + APIと統合 {#apis-and-integration}
   + GraphQL財団 {#graphql-rest}
@@ -260,7 +262,7 @@ ht-degree: 2%
 
 + 拡張機能 {#extensibility}
   + Commerce Developer Agent {#commerce-developer-agent}
-    + [開発者エージェントの学習パス](https://experienceleague.adobe.com/en/docs/commerce-learn/ai-and-agentic-commerce/commerce-developer-agent/adobe-commerce-developer-agent-overview-technical-video)
+    + [開発者エージェントの学習パス](https://experienceleague.adobe.com/ja/docs/commerce-learn/ai-and-agentic-commerce/commerce-developer-agent/adobe-commerce-developer-agent-overview-technical-video)
 
 + ストアフロント開発 {#storefront-development}
   + Edge Delivery Services上のCommerce ストアフロント {#edge-delivery-services}
@@ -295,6 +297,8 @@ ht-degree: 2%
     + [PWA Docker Development](../pwa/pwa-docker-development.md)
     + [開発のためのVeniaの設定](../pwa/set-up-venia-for-dev.md)
 
++ [AIを活用したコマース戦略](https://experienceleague.adobe.com/ja/docs/commerce-learn/ai-and-agentic-commerce/commerce-mcp/commerce-mcp-overview)
+
 + 監視、分析、サポート {#monitoring-analytics-support}
   + 可観測性 {#observability}
     + [Observability overview](../monitoring-analytics-support/observability/overview.md)
@@ -313,3 +317,5 @@ ht-degree: 2%
     + [サポートチケットの作成](../monitoring-analytics-support/help-and-support/create-a-support-ticket.md)
     + [サポートチケットの検索、レビュー、コメント、エスカレーション](../monitoring-analytics-support/help-and-support/search-track-comment-escalate-support-ticket.md)
     + [サポートチケットの視聴者とステータスの管理](../monitoring-analytics-support/help-and-support/add-remove-watchers-close-reopen-support-ticket.md)
+
++ [ウェビナーとイベント](https://experienceleague.adobe.com/ja/docs/commerce-learn/webinars-and-events/business-growth/ai-innovation)
