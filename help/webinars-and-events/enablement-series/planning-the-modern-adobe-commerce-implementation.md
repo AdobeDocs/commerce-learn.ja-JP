@@ -87,7 +87,7 @@ Adobe Commerceの概要と、最新の実装の計画、構築、維持に関す
 ## 関連チュートリアル
 
 * [Edge Delivery ServicesのCommerceストアフロント：買い物客の体験](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/storefront-development/edge-delivery-services/getting-started/shopper-experience)
-* [データ接続](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/apis-and-integration/data-integrations/data-connection)
-* [App Builderの概要](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/app-builder/foundations/introduction-to-app-builder)
+* [データ接続](https://experienceleague.adobe.com/ja/docs/commerce-learn/tutorials/apis-and-integration/data-integrations/data-connection)
+* [App Builderの概要](https://experienceleague.adobe.com/ja/docs/commerce-learn/tutorials/app-builder/foundations/introduction-to-app-builder)
 
 {{$include /help/_includes/enablement-series-related-links.md}}

@@ -57,8 +57,8 @@ Adobe Commerceが、コンバージョン率を最大8%向上させるように�
 ## 関連チュートリアル
 
 * [Edge Delivery ServicesのCommerceストアフロント：買い物客の体験](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/storefront-development/edge-delivery-services/getting-started/shopper-experience)
-* [Adobe Commerce as a Cloud Service：生成AIによるコンテンツ制作](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/commerce-as-a-cloud-service/product-overview/genai-powered-content-creation)
-* [Adobe Commerce as a Cloud Service：ストアフロントの検証](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/commerce-as-a-cloud-service/product-overview/commerce-storefront-experimentation)
+* [Adobe Commerce as a Cloud Service：生成AIによるコンテンツ制作](https://experienceleague.adobe.com/ja/docs/commerce-learn/tutorials/commerce-as-a-cloud-service/product-overview/genai-powered-content-creation)
+* [Adobe Commerce as a Cloud Service：ストアフロントの検証](https://experienceleague.adobe.com/ja/docs/commerce-learn/tutorials/commerce-as-a-cloud-service/product-overview/commerce-storefront-experimentation)
 
 ## このシリーズの追加動画
 

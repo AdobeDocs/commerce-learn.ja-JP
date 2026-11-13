@@ -62,8 +62,8 @@ Adobe Commerceなら、カタログ管理、B2B コマース、マルチチャ�
 
 ## 関連チュートリアル
 
-* [Adobe Commerce Optimizer：カタログビュー](https://experienceleague.adobe.com/en/docs/commerce-learn/adobe-commerce-optimizer/composable-catalog-data-model/learn-about-the-ccdm-feature-catalog-views)
-* [Adobe Commerce as a Cloud Service：カタログ管理とマーチャンダイジング](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/commerce-as-a-cloud-service/product-overview/catalog-management-and-merchandising-services)
+* [Adobe Commerce Optimizer：カタログビュー](https://experienceleague.adobe.com/ja/docs/commerce-learn/adobe-commerce-optimizer/composable-catalog-data-model/learn-about-the-ccdm-feature-catalog-views)
+* [Adobe Commerce as a Cloud Service：カタログ管理とマーチャンダイジング](https://experienceleague.adobe.com/ja/docs/commerce-learn/tutorials/commerce-as-a-cloud-service/product-overview/catalog-management-and-merchandising-services)
 
 ## このシリーズの追加動画
 

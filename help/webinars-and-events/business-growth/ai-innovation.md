@@ -75,6 +75,6 @@ Adobe Commerceが、最先端のAI ソリューションとSaaS ファースト�
 
 ## 関連チュートリアル
 
-* [Commerce MCPの概要](https://experienceleague.adobe.com/en/docs/commerce-learn/ai-and-agentic-commerce/commerce-mcp/commerce-mcp-overview)
+* [Commerce MCPの概要](https://experienceleague.adobe.com/ja/docs/commerce-learn/ai-and-agentic-commerce/commerce-mcp/commerce-mcp-overview)
 * [Commerce Developer Agentの学習パス](https://experienceleague.adobe.com/en/docs/commerce-learn/ai-and-agentic-commerce/commerce-developer-agent/adobe-commerce-developer-agent-overview-technical-video)
-* [Adobe Commerce Optimizer：コンポーザブルカタログデータモデル](https://experienceleague.adobe.com/en/docs/commerce-learn/adobe-commerce-optimizer/composable-catalog-data-model/why-ccdm-exists)
+* [Adobe Commerce Optimizer：コンポーザブルカタログデータモデル](https://experienceleague.adobe.com/ja/docs/commerce-learn/adobe-commerce-optimizer/composable-catalog-data-model/why-ccdm-exists)

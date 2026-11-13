@@ -55,9 +55,9 @@ Adobe Commerceのクラウドネイティブな基盤は、フルマネージド
 
 ## 関連チュートリアル
 
-* [Adobe Commerce as a Cloud Serviceの概要](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/commerce-as-a-cloud-service/overview)
-* [App Builderの概要](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/app-builder/foundations/introduction-to-app-builder)
-* [API Meshの基本を学ぶ](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/apis-and-integration/api-mesh/getting-started-api-mesh)
+* [Adobe Commerce as a Cloud Serviceの概要](https://experienceleague.adobe.com/ja/docs/commerce-learn/tutorials/commerce-as-a-cloud-service/overview)
+* [App Builderの概要](https://experienceleague.adobe.com/ja/docs/commerce-learn/tutorials/app-builder/foundations/introduction-to-app-builder)
+* [API Meshの基本を学ぶ](https://experienceleague.adobe.com/ja/docs/commerce-learn/tutorials/apis-and-integration/api-mesh/getting-started-api-mesh)
 
 ## このシリーズの追加動画
 

@@ -54,6 +54,6 @@ Adobe Commerce Success Acceleratorには、ローンチに関するアドバイ�
 
 ## 関連チュートリアル
 
-* [クラウド基盤とセルフホスティング：導入前のチェックリスト](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/cloud-infrastructure-and-self-hosted/cloud-operations/commerce-cloud-best-practices/pre-launch-checklist)
-* [Observability overview](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/monitoring-analytics-support/observability/overview)
-* [サポートチケットの作成](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/monitoring-analytics-support/help-and-support/create-a-support-ticket)
+* [クラウド基盤とセルフホスティング：導入前のチェックリスト](https://experienceleague.adobe.com/ja/docs/commerce-learn/tutorials/cloud-infrastructure-and-self-hosted/cloud-operations/commerce-cloud-best-practices/pre-launch-checklist)
+* [Observability overview](https://experienceleague.adobe.com/ja/docs/commerce-learn/tutorials/monitoring-analytics-support/observability/overview)
+* [サポートチケットの作成](https://experienceleague.adobe.com/ja/docs/commerce-learn/tutorials/monitoring-analytics-support/help-and-support/create-a-support-ticket)
