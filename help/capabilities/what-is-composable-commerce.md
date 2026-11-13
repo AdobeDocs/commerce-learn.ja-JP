@@ -78,7 +78,7 @@ Adobeは、コマースプラットフォームのオプション、ストアフ
 
 まず、マネージドコマース基盤が必要か、既存のトランザクションバックエンドを中心に顧客体験を最新化すべきかを判断しましょう。
 
-ビデオの比較については、[Adobeの利用可能なコマースオプション ](./adobes-available-commerce-options.md)を参照してください。
+ビデオの比較については、[Adobeの利用可能なコマースオプション &#x200B;](./adobes-available-commerce-options.md)を参照してください。
 
 ### Adobe Commerce as a Cloud Service
 
@@ -100,7 +100,7 @@ Adobe Commerce Optimizerは、カタログ管理、商品の発見、検索、�
 
 Adobe Commerceのクラウドインフラストラクチャとオンプレミスのデプロイメントでは、ヘッドレスストアフロントとサポートされているAPI ベースの統合を段階的に導入することもできます。 デプロイメントに応じて、既存のストアフロントを維持するか、サポート対象のヘッドレスストアフロントを導入することができます。 既存のコマース機能を統合し続けることで、統合作業を削減しながら、選択したサービスを個別に進化させることができます。
 
-機能の可用性、拡張機能の互換性、ライセンス、設定の要件は、製品やバージョンによって異なります。 アーキテクチャを選択する前に、[Adobe Commerce プラットフォームとサービス ](https://experienceleague.adobe.com/en/docs/commerce/information-center/explore-platforms-and-services/platform-and-services)を比較します。
+機能の可用性、拡張機能の互換性、ライセンス、設定の要件は、製品やバージョンによって異なります。 アーキテクチャを選択する前に、[Adobe Commerce プラットフォームとサービス &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/information-center/explore-platforms-and-services/platform-and-services)を比較します。
 
 ## Edge Delivery Servicesを活用したCommerce Storefront
 
@@ -108,7 +108,7 @@ Edge Delivery Servicesを活用したCommerce Storefrontは、ストアフロン
 
 ストアフロントのインターフェイスを、カタログデータ、価格設定、カート運用、チェックアウト、注文を担当するシステムと区別します。 Edge Delivery Servicesがトランザクションコマースのバックエンドに取って代わることはありません。 ストアフロントを導入する前に、選択したバックエンドでサポートされるサービスと統合パスを特定します。
 
-[Commerce Storefrontのドキュメント ](https://experienceleague.adobe.com/en/tools/commerce-storefront/)を参照してください。
+[Commerce Storefrontのドキュメント &#x200B;](https://experienceleague.adobe.com/en/tools/commerce-storefront/)を参照してください。
 
 ## 統合と拡張性
 
@@ -138,7 +138,7 @@ Commerceの開発MCPとスキルは、App BuilderアプリケーションのAI�
 
 Commerceの開発MCPは、ストアフロント配信、カート、チェックアウト、注文処理サービスではなく、開発ツールです。 これらのツールは、あらゆるCommerce製品に対応するわけではありません。 生成された変更を確認し、ターゲット環境に照らしてテストします。
 
-[Commerce開発MCPとスキル ](https://developer.adobe.com/commerce/extensibility/developer-agent/coding-tools)を参照してください。
+[Commerce開発MCPとスキル &#x200B;](https://developer.adobe.com/commerce/extensibility/developer-agent/coding-tools)を参照してください。
 
 ## コンポーザブル実装の計画
 
