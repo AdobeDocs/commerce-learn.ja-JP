@@ -2,7 +2,7 @@
 title: Adobeのビジョンフォワードロードマップによるビジネス成長
 description: B2B ストアフロント、リアルタイムのパーソナライゼーション、決済、AIを活用したマーチャントおよび開発者の体験に関する、Adobe Commerceのロードマップをご覧ください。
 feature: App Builder,  B2B, Catalog Management,  Cloud,  Extensibility, Observability, Payments, Personalization, Storefront, Saas
-topic: Administration, Artificial Intelligence,  Commerce,  Development, Headless,  Performance, Personalization, Security
+topic: Administration, Commerce, Development, Headless, Performance, Personalization, Security
 old-role: Data Engineer, Developer
 role: Developer
 level: Beginner
@@ -62,9 +62,9 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7516911fc14bc80f327310b99a00f9cbff7c65c7
+source-git-commit: 60c28d9adc71c664ed9178d724bc4abefb588ab7
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: '221'
 ht-degree: 0%
 ---
 # AdobeのVision Forward ロードマップによるビジネスの成長
@@ -85,4 +85,10 @@ Adobe Commerceの2026年のロードマップでは、リアルタイムデー�
 * Merchant Center &amp; Admin Experience
 * 開発者エクスペリエンスとオブザーバビリティの向上
 
->[!VIDEO](https://video.tv.adobe.com/v/3475707?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3475695?learn=on)
+
+## 関連チュートリアル
+
+* [データ接続](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/apis-and-integration/data-integrations/data-connection)
+* [Observability overview](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/monitoring-analytics-support/observability/overview)
+* [App Builderの概要](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/app-builder/foundations/introduction-to-app-builder)

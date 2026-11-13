@@ -28,9 +28,9 @@ level_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 71835f0240311d4b26ec8e0d9bbdf005f9887579
+source-git-commit: 60c28d9adc71c664ed9178d724bc4abefb588ab7
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '235'
 ht-degree: 0%
 ---
 # コンバージョン率の向上
@@ -52,10 +52,16 @@ Adobe Commerceが、コンバージョン率を最大8%向上させるように�
 * 開発者向けコンポーネントとSDK
 * 統合されたビジュアル編集ツール
 
->[!VIDEO](https://video.tv.adobe.com/v/3505704?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3458517?learn=on)
+
+## 関連チュートリアル
+
+* [Edge Delivery ServicesのCommerceストアフロント：買い物客の体験](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/storefront-development/edge-delivery-services/getting-started/shopper-experience)
+* [Adobe Commerce as a Cloud Service：生成AIによるコンテンツ制作](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/commerce-as-a-cloud-service/product-overview/genai-powered-content-creation)
+* [Adobe Commerce as a Cloud Service：ストアフロントの検証](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/commerce-as-a-cloud-service/product-overview/commerce-storefront-experimentation)
 
 ## このシリーズの追加動画
 
 [新製品のお知らせ](./new-product-announcements.md)
-[&#x200B; コストを大幅に削減](./drastically-cut-costs.md)
+[ コストを大幅に削減](./drastically-cut-costs.md)
 [迅速な拡張](fast-track-expansion.md)

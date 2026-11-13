@@ -29,9 +29,9 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 71835f0240311d4b26ec8e0d9bbdf005f9887579
+source-git-commit: 60c28d9adc71c664ed9178d724bc4abefb588ab7
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '241'
 ht-degree: 0%
 ---
 # コストを大幅に削減
@@ -51,10 +51,16 @@ Adobe Commerceのクラウドネイティブな基盤は、フルマネージド
 * 迅速なデプロイメント – セルフサービスツールを利用して、事前設定済みの環境を数分で起動できます。
 * 柔軟な統合 – APIとアクセラレータを利用して、ERPやCRMなどと容易に接続できます。
 
->[!VIDEO](https://video.tv.adobe.com/v/3458489?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3458485?learn=on)
+
+## 関連チュートリアル
+
+* [Adobe Commerce as a Cloud Serviceの概要](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/commerce-as-a-cloud-service/overview)
+* [App Builderの概要](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/app-builder/foundations/introduction-to-app-builder)
+* [API Meshの基本を学ぶ](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/apis-and-integration/api-mesh/getting-started-api-mesh)
 
 ## このシリーズの追加動画
 
 [新製品のお知らせ](./new-product-announcements.md)
-[&#x200B; コンバージョン率の増強](./supercharge-conversion-rates.md)
+[ コンバージョン率の増強](./supercharge-conversion-rates.md)
 [迅速な拡張](fast-track-expansion.md)

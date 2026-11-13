@@ -83,9 +83,9 @@ topic_v2:
     internal-label: Insights
   - id: e6ff21d3-dec6-4298-8590-7c749fffaf78
     internal-label: Content and assets
-source-git-commit: 7516911fc14bc80f327310b99a00f9cbff7c65c7
+source-git-commit: 60c28d9adc71c664ed9178d724bc4abefb588ab7
 workflow-type: tm+mt
-source-wordcount: '292'
+source-wordcount: '375'
 ht-degree: 0%
 ---
 # Adobe Commerce統合の目次を下げる
@@ -112,5 +112,12 @@ Adobe Commerceと他のAdobe製品の間のシームレスなデータフロー�
 * デジタルコマース環境において、さまざまなシステムや顧客接点を統合することに伴う課題とコストについて解説します。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3428768?learn=on)
+
+## 関連チュートリアル
+
+* [App Builderの概要](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/app-builder/foundations/introduction-to-app-builder)
+* [API Meshの基本を学ぶ](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/apis-and-integration/api-mesh/getting-started-api-mesh)
+* [Adobe I/O Eventsの導入方法](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/apis-and-integration/events-and-webhooks/io-events/getting-started-io-events)
+* [データ接続](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/apis-and-integration/data-integrations/data-connection)
 
 {{$include /help/_includes/enablement-series-related-links.md}}

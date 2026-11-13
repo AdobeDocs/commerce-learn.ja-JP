@@ -1,6 +1,6 @@
 ---
 title: 最新のAdobe Commerceの実装計画
-description: このウェビナーでは、Adobe Commerceを中心とした最新のコマースシステムの導入計画について解説します。調査段階、サービス、グローバルリファレンスアーキテクチャ、フロントエンド開発プラクティス、ベストプラクティスについて解説します。
+description: 検出、サービス、グローバルリファレンスアーキテクチャ、フロントエンド開発、ベストプラクティスをカバーするAdobe Commerceの実装計画を立てる方法について説明します。
 feature: API Mesh, App Builder, Best Practices, Extensibility, Integration
 topic: Architecture, Commerce, Integrations, Performance
 old-role: Architect, Data Architect, Leader
@@ -52,9 +52,9 @@ topic_v2:
     internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 7516911fc14bc80f327310b99a00f9cbff7c65c7
+source-git-commit: 60c28d9adc71c664ed9178d724bc4abefb588ab7
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '457'
 ht-degree: 0%
 ---
 # 最新のAdobe Commerceの実装計画
@@ -83,5 +83,11 @@ Adobe Commerceの概要と、最新の実装の計画、構築、維持に関す
 * プロジェクトで最も困難な部分から始め、再利用可能なコンポーネントにGRAを使用することを検討するなど、タスクの適切な計画、整理、優先順位付けをおこなう重要性。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3428987?learn=on)
+
+## 関連チュートリアル
+
+* [Edge Delivery ServicesのCommerceストアフロント：買い物客の体験](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/storefront-development/edge-delivery-services/getting-started/shopper-experience)
+* [データ接続](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/apis-and-integration/data-integrations/data-connection)
+* [App Builderの概要](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/app-builder/foundations/introduction-to-app-builder)
 
 {{$include /help/_includes/enablement-series-related-links.md}}
