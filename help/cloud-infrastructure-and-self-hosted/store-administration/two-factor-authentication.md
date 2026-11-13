@@ -56,7 +56,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->ビデオの内容は、2.4.0 リリースを反映しています。 以降のリリースのアップデートについて詳しくは、[ リリースノート ](https://experienceleague.adobe.com/en/docs/commerce-operations/release/notes/overview)を参照してください。
+>ビデオの内容は、2.4.0 リリースを反映しています。 以降のリリースのアップデートについて詳しくは、[&#x200B; リリースノート &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-operations/release/notes/overview)を参照してください。
 
 >[!VIDEO](https://video.tv.adobe.com/v/339104?learn=on)
 
