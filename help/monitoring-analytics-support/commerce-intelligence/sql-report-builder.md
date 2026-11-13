@@ -65,7 +65,7 @@ Adobe Commerce Intelligence SQL Report Builderなら、データウェアハウ�
 * クエリ結果からビジュアライゼーションを作成します。
 * レポートをチームのダッシュボードに保存します。
 
->[!VIDEO](https://video.tv.adobe.com/v/342406?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/346413?captions=jpn&learn=on)
 
 ## 役立つリソース
 

@@ -69,7 +69,7 @@ ht-degree: 0%
 
 ## ビデオコンテンツ
 
->[!VIDEO](https://video.tv.adobe.com/v/342407?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/346397?captions=jpn&learn=on)
 
 ## 役立つリソース
 

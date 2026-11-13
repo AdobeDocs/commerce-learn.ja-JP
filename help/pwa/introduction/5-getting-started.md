@@ -63,4 +63,4 @@ ht-degree: 0%
 
 ## ビデオコンテンツ：
 
->[!VIDEO](https://video.tv.adobe.com/v/35719?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3507656?captions=jpn&learn=on)

@@ -77,4 +77,4 @@ Edge Delivery ServicesでCommerce ストアフロントを利用して、買い�
 * カートと注文の操作：商品を追加する、ゲストとしてチェックアウトする、注文をキャンセルする、並べ替える、返品を処理する。
 * アカウント情報の更新、ゲストカートと顧客カートの統合、チェックアウトの一貫性の維持を実現できます。
 
->[!VIDEO](https://video.tv.adobe.com/v/3446762?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3446763?captions=jpn&learn=on)
