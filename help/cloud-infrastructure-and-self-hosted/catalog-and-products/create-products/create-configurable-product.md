@@ -59,7 +59,7 @@ ht-degree: 0%
 
 REST APIを使用して、設定可能な製品を作成します。
 
-1. 後続のAPI呼び出しにID番号を使用するために、[属性セット ](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/create/attribute-sets.html)の属性を取得します。
+1. 後続のAPI呼び出しにID番号を使用するために、[属性セット &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/create/attribute-sets.html)の属性を取得します。
 1. 設定可能な製品で使用するシンプルな製品を作成します。
 1. 空の設定可能な製品を作成し、シンプルな製品を関連付けます。
 1. 設定可能な製品の製品属性を設定します。
