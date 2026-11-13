@@ -57,7 +57,7 @@ Adobe Commerce Optimizerは、オーガニックトラフィックを促進し�
 
 ## 学習を続ける
 
-* [Adobe Commerceのオプションを比較](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/getting-started/capabilities/adobes-available-commerce-options)
+* [Adobe Commerceのオプションを比較](https://experienceleague.adobe.com/ja/docs/commerce-learn/tutorials/getting-started/capabilities/adobes-available-commerce-options)
 * [Adobe Commerce Optimizerの最初のインスタンスを作成する](./create-first-instance.md)
 * [Adobe Commerce Optimizer インスタンスの管理](./managing-instances.md)
 * [サンプルデータの取り込み](./ingest-sample-data.md)
@@ -67,5 +67,5 @@ Adobe Commerce Optimizerは、オーガニックトラフィックを促進し�
 
 ## 関連資料
 
-[[!DNL Adobe Commerce Optimizer] ガイド](https://experienceleague.adobe.com/en/docs/commerce/optimizer/overview){target="_blank"}
+[[!DNL Adobe Commerce Optimizer] ガイド](https://experienceleague.adobe.com/ja/docs/commerce/optimizer/overview){target="_blank"}
 

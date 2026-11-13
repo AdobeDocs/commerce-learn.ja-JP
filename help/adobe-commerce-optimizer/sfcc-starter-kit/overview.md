@@ -57,4 +57,4 @@ Salesforce Commerce Cloud（SFCC）とAdobe Commerce Optimizerを統合するた
 3. [App Builder starter kit](./app-builder-starter-kit.md)
 4. [エンドツーエンドのデモ](./end-to-end-demo.md)
 
-共有されたApp Builderの概念については、[App Builderの概要](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/app-builder/foundations/introduction-to-app-builder)を参照してください。
+共有されたApp Builderの概念については、[App Builderの概要](https://experienceleague.adobe.com/ja/docs/commerce-learn/tutorials/app-builder/foundations/introduction-to-app-builder)を参照してください。
