@@ -61,11 +61,11 @@ Adobe CommerceとMagento Open Sourceをインストールするたびに、web �
 
 >[!NOTE]
 >
->ビデオの内容は、2.1.0 リリースを反映しています。 以降のリリースのアップデートについて詳しくは、[&#x200B; リリースノート &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-operations/release/notes/overview)を参照してください。
+>ビデオの内容は、2.1.0 リリースを反映しています。 以降のリリースのアップデートについて詳しくは、[&#x200B; リリースノート &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-operations/release/notes/overview)を参照してください。
 
 >[!VIDEO](https://video.tv.adobe.com/v/35787?learn=on)
 
 ## 関連資料
 
-* [Web サイト、ストア、およびビュー –  [!DNL Commerce] はじめにガイド](https://experienceleague.adobe.com/en/docs/commerce-admin/start/setup/websites-stores-views)
-* [ルート カテゴリと階層 –  [!DNL Commerce]  カタログ管理ガイド](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/categories/category-root)
+* [Web サイト、ストア、およびビュー –  [!DNL Commerce] はじめにガイド](https://experienceleague.adobe.com/ja/docs/commerce-admin/start/setup/websites-stores-views)
+* [ルート カテゴリと階層 –  [!DNL Commerce]  カタログ管理ガイド](https://experienceleague.adobe.com/ja/docs/commerce-admin/catalog/categories/category-root)
