@@ -1,11 +1,11 @@
 ---
-title: ビジネスユーザー向け[!DNL Commerce] – 製品の読み込みと書き出し
+title: '[!DNL Commerce]人のビジネスユーザー – 製品のインポートとエクスポート'
 description: カタログ製品の読み込みと書き出しの方法について説明します。
 kt: 5773
-doc-type: video
+doc-type: Technical Video
 duration: 239
 activity: use
-last-substantial-update: 2022-12-28T00:00:00.000Z
+last-substantial-update: 2022-12-28
 topic: Commerce, Administration
 role: Admin, Leader, User
 level: Beginner, Intermediate
@@ -25,9 +25,9 @@ level_v2:
     internal-label: Beginner
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
-source-git-commit: 71835f0240311d4b26ec8e0d9bbdf005f9887579
+source-git-commit: 7ac0cbe05d658701f20137fdea7b9c0b4423d57b
 workflow-type: tm+mt
-source-wordcount: '97'
+source-wordcount: '96'
 ht-degree: 0%
 ---
 # ビジネスユーザー向け[!DNL Commerce] – 製品の読み込みと書き出し
