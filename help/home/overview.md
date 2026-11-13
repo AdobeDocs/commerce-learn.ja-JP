@@ -1,14 +1,14 @@
 ---
 title: '[!DNL Commerce]件のビデオとチュートリアル'
 description: Adobe CommerceとMagento Open Sourceのビデオとチュートリアルのコレクション
-last-substantial-update: 2023-01-19T00:00:00.000Z
+last-substantial-update: 2026-11-13
 feature: B2B, GraphQL, REST, Commerce Intelligence, Cloud, Best Practices, API Mesh, App Builder
 topic: Commerce, Architecture
 old-role: Architect, Developer
 role: Developer, User
 level: Beginner, Intermediate
 exl-id: e6bed3a4-4078-40df-88b0-3bad6c144aeb
-duration: 29
+duration: 76
 TQID: 'https://experienceleague.adobe.com/vKBZdCBWH5s8AspGVsCkbJ2cDD-L81ZFxbMjbt3X7Uc'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -54,14 +54,23 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 7516911fc14bc80f327310b99a00f9cbff7c65c7
+source-git-commit: 72e671ee84a7e1d4b7fef63a2a26c2706d5b3398
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '387'
 ht-degree: 0%
 ---
 # Commerce チュートリアル {#videos}
 
-[!DNL Commerce] ビデオとチュートリアル コレクションへようこそ。 これらの資料と[&#x200B; ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/commerce.html?lang=ja)を使用すると、Adobe CommerceとMagento Open Sourceを使用してe コマースビジネスをサポートする方法を学ぶことができます。 このコレクションは、バックエンド開発者、フロントエンド開発者、システム管理者、マーチャント、組織内の他の役割に役立つコンテンツを提供するように設計されています。
+[!DNL Commerce] ビデオとチュートリアル コレクションへようこそ。 製品ウォークスルー、実践的なデモ、ステップバイステップのテクニカルチュートリアル、Commerceの専門家との録画されたディスカッションなどをご覧ください。 これらのリソースは、開発者、アーキテクト、システム管理者、マーチャントが、機能を理解し、ソリューションを実装し、コマースビジネスを管理するのに役立ちます。
+
+Adobe Commerce as a Cloud Service、Adobe Commerce Optimizer、Adobe Commerce on cloud infrastructure、セルフホスト Adobe Commerce、Magento Open Sourceなど、プロジェクトに合ったサービスから始めましょう。 目次を使用して、オファーや共有トピックを調べます。 機能、前提条件、導入手順は、製品によって異なります。
+
+* **計画と最新化：** Commerceのオプションを比較し、アーキテクチャとデプロイメントのアプローチを調べ、移行、プロジェクト計画、実装のベストプラクティスについて説明します。
+* **ビルドと統合：** App Builder、GraphQL、REST、API Mesh、イベント、webhookで開発します。 Edge Delivery Servicesなど、バックオフィス統合とストアフロント開発についてご紹介します。
+* **管理と操作：**&#x200B;店舗管理、カタログ、コンテンツ、マーケティング、マーチャンダイジング、B2B ワークフロー、支払いについて説明します。 クラウド運用、モニタリング、分析、パフォーマンス、トラブルシューティングに関するガイダンスを入手できます。
+* **Adobe OptimizerとAIの活用：** カタログとストアフロント機能に関する[Adobe Commerce Optimizer](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/adobe-commerce-optimizer/overview)のチュートリアルを活用します。 セマンティック検索、Commerce MCP、開発者ワークフローについては、[AIおよびAgentic commerce](https://experienceleague.adobe.com/en/docs/commerce-learn/ai-and-agentic-commerce/commerce-mcp/commerce-mcp-overview) ガイドに従ってください。
+
+実装に関する詳細な視点、製品アップデート、ビジネスに関する議論については、[ ウェビナーとイベント ](https://experienceleague.adobe.com/en/docs/commerce-learn/webinars-and-events/business-growth/ai-innovation) ガイドをご覧ください。 詳細な要件と参照情報については、[Commerce ドキュメント ](https://experienceleague.adobe.com/en/docs/commerce)と一緒にビデオとチュートリアルを使用してください。
 
 <div id="recs-overview-body-1"></div>
 <div id="recs-overview-body-2"></div>
@@ -72,11 +81,12 @@ ht-degree: 0%
 
 >[!TIP]
 >
->[Commerce イベント &#x200B;](https://experienceleague.adobe.com/docs/commerce-events/events/overview.html?lang=ja) スペースでは、録画されたイベントコンテンツにアクセスし、オンデマンドで視聴できます。
+>[Commerce イベント ](https://experienceleague.adobe.com/en/events) スペースでは、録画されたイベントコンテンツにアクセスし、オンデマンドで視聴できます。
 
 ## 関連資料
 
-* [マーチャントドキュメント](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=ja)
-* [開発者用マニュアル](https://developer.adobe.com/commerce)
-* [Adobe デジタルラーニングサービス - Adobe Commerce コースカタログ](https://learning.adobe.com/catalog.html?solution=Adobe%20Commerce)
-
+* [Commerce ドキュメント ](https://experienceleague.adobe.com/en/docs/commerce) - Commerce製品の製品ガイドと参照情報。
+* [ マーチャントのドキュメント ](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home) - クラウドインフラストラクチャとセルフホスト型のデプロイメントのストア設定と管理。
+* [開発者ドキュメント ](https://developer.adobe.com/commerce/) - API、SDK、統合、および拡張性リソース。
+* [Commerce ナレッジベース ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/overview) – 記事、既知の問題、サポート ガイダンスのトラブルシューティング。
+* [Experience League コース ](https://experienceleague.adobe.com/en/courses?product=Commerce) - Experience Leagueでの構造化された学習。

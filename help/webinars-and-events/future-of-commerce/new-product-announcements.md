@@ -28,9 +28,9 @@ level_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 60c28d9adc71c664ed9178d724bc4abefb588ab7
+source-git-commit: 72e671ee84a7e1d4b7fef63a2a26c2706d5b3398
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '282'
 ht-degree: 0%
 ---
 # 新製品のお知らせ
@@ -51,16 +51,16 @@ ht-degree: 0%
 * Adobe Commerce Optimizerを利用すれば、複雑なシステムや従来のシステムを抱える企業は、クラウドへの橋渡しとして機能する、包括的なリプラットフォームを利用することなく、顧客体験を近代化できます。
 * 柔軟かつ段階的な導入パスにより、既存のソリューションに対するサポートと長期的なバージョンサポートのタイムラインを維持しながら、企業は自分のペースで移行できます。
 
->[!VIDEO](https://video.tv.adobe.com/v/3458486?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3458484?learn=on)
 
 ## 関連チュートリアル
 
-* [Adobe Commerceのオプションを比較](https://experienceleague.adobe.com/ja/docs/commerce-learn/tutorials/getting-started/capabilities/adobes-available-commerce-options)
-* [Adobe Commerce as a Cloud Serviceの概要](https://experienceleague.adobe.com/ja/docs/commerce-learn/tutorials/commerce-as-a-cloud-service/overview)
-* [Adobe Commerce Optimizerの概要](https://experienceleague.adobe.com/ja/docs/commerce-learn/adobe-commerce-optimizer/overview)
+* [Adobe Commerceのオプションを比較](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/getting-started/capabilities/adobes-available-commerce-options)
+* [Adobe Commerce as a Cloud Serviceの概要](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/commerce-as-a-cloud-service/overview)
+* [Adobe Commerce Optimizerの概要](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/adobe-commerce-optimizer/overview)
 
 ## このシリーズの追加動画
 
-[&#x200B; コストを大幅に削減](./drastically-cut-costs.md)
-[&#x200B; コンバージョン率の増強](./supercharge-conversion-rates.md)
+[ コストを大幅に削減](./drastically-cut-costs.md)
+[ コンバージョン率の増強](./supercharge-conversion-rates.md)
 [迅速な拡張](fast-track-expansion.md)

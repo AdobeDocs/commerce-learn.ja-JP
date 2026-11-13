@@ -30,9 +30,9 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 71835f0240311d4b26ec8e0d9bbdf005f9887579
+source-git-commit: 72e671ee84a7e1d4b7fef63a2a26c2706d5b3398
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: '174'
 ht-degree: 0%
 ---
 # Adobe Commerce Optimizerの最初のインスタンスを作成する
@@ -51,10 +51,9 @@ ht-degree: 0%
 * インスタンスに適した環境と地域を選択します。
 * 今後のチュートリアルで、カタログ設定の準備をすばやく行うことができます。
 
->[!VIDEO](https://video.tv.adobe.com/v/3469879?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3469877?learn=on)
 
 ## 関連コンテンツ
 
-* [[!DNL Adobe Commerce Optimizer] ガイド](https://experienceleague.adobe.com/ja/docs/commerce/optimizer/overview){target="_blank"}
-* [Adobe Commerce Optimizerの概要](https://experienceleague.adobe.com/ja/docs/commerce-learn/adobe-commerce-optimizer/overview){target="_blank"}
-
+* [[!DNL Adobe Commerce Optimizer] ガイド](https://experienceleague.adobe.com/en/docs/commerce/optimizer/overview){target="_blank"}
+* [Adobe Commerce Optimizerの概要](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/adobe-commerce-optimizer/overview){target="_blank"}

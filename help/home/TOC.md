@@ -4,9 +4,9 @@ user-guide-description: ビデオとチュートリアルを通じて、Adobe Co
 breadcrumb-title: ビデオとチュートリアル
 auto-video-transcripts: true
 author: Russell A.
-source-git-commit: ed6305c5f9feda262b5985886b1889c6eae55108
+source-git-commit: 72e671ee84a7e1d4b7fef63a2a26c2706d5b3398
 workflow-type: tm+mt
-source-wordcount: '1090'
+source-wordcount: '1137'
 ht-degree: 2%
 ---
 
@@ -42,6 +42,23 @@ ht-degree: 2%
     + [ターゲット資格情報](../commerce-as-a-cloud-service/bulk-data-migration-tool/target-credentials.md)
     + [単相移行](../commerce-as-a-cloud-service/bulk-data-migration-tool/bulk-data-migration-tool-single-phase-migration.md)
     + [多相移行](../commerce-as-a-cloud-service/bulk-data-migration-tool/bulk-data-migration-tool-multi-phase-migration.md)
++ Adobe Commerce Optimizer {#adobe-commerce-optimizer}
+  + [概要](../adobe-commerce-optimizer/overview.md)
+  + [Adobe Commerce Optimizerの最初のインスタンスを作成する](../adobe-commerce-optimizer/create-first-instance.md)
+  + [Adobe Commerce Optimizer インスタンスの管理](../adobe-commerce-optimizer/managing-instances.md)
+  + [サンプルデータの取り込み](../adobe-commerce-optimizer/ingest-sample-data.md)
+  + [GraphQLを使用した最初のクエリ](../adobe-commerce-optimizer/first-query.md)
+  + Salesforce Commerce Cloud スターターキット {#sfcc-starter-kit}
+    + [概要](../adobe-commerce-optimizer/sfcc-starter-kit/overview.md)
+    + [アーキテクチャの概要](../adobe-commerce-optimizer/sfcc-starter-kit/architecture-overview.md)
+    + [SFCC カートリッジの取り付け](../adobe-commerce-optimizer/sfcc-starter-kit/installation-sfcc-cartridge.md)
+    + [App Builder スターターキット](../adobe-commerce-optimizer/sfcc-starter-kit/app-builder-starter-kit.md)
+    + [エンドツーエンドのデモ](../adobe-commerce-optimizer/sfcc-starter-kit/end-to-end-demo.md)
+  + コンポーザブルカタログデータモデル {#composable-catalog-data-model}
+    + [CCDMが存在する理由](../adobe-commerce-optimizer/composable-catalog-data-model/why-ccdm-exists.md)
+    + [カタログビューについて詳しく見る](../adobe-commerce-optimizer/composable-catalog-data-model/learn-about-the-ccdm-feature-catalog-views.md)
+    + [CCDM ポリシーについて詳しく見る](../adobe-commerce-optimizer/composable-catalog-data-model/learn-about-ccdm-policies.md)
+
 + クラウド基盤とセルフホスト {#cloud-infrastructure-and-self-hosted}
   + プラットフォームと移行 {#platform-and-migration}
     + [マーケテク](../cloud-infrastructure-and-self-hosted/platform-and-migration/marketecture.md)
@@ -160,7 +177,7 @@ ht-degree: 2%
       + [見積もり行項目の割引](../cloud-infrastructure-and-self-hosted/b2b/quotes/quote-line-item-discount.md)
       + [見積もり行項目メモ](../cloud-infrastructure-and-self-hosted/b2b/quotes/quote-line-item-notes.md)
   + アプリケーションの開発とアップグレード {#application-development-and-upgrades}
-    + [データベーステーブルの修正に関するベストプラクティス](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables.html?lang=ja)
+    + [データベーステーブルの修正に関するベストプラクティス](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables.html)
     + [モジュールの作成](../cloud-infrastructure-and-self-hosted/application-development-and-upgrades/create-module.md)
     + [製品属性の追加](../cloud-infrastructure-and-self-hosted/application-development-and-upgrades/add-product-attribute.md)
     + [依存関係インジェクションの例](../cloud-infrastructure-and-self-hosted/application-development-and-upgrades/dependency-injection.md)
@@ -178,7 +195,6 @@ ht-degree: 2%
       + [バルクパッケージ](../cloud-infrastructure-and-self-hosted/application-development-and-upgrades/global-reference-architecture-implementation-techniques/bulk-packages.md)
       + [個別のパッケージ](../cloud-infrastructure-and-self-hosted/application-development-and-upgrades/global-reference-architecture-implementation-techniques/separate-packages.md)
       + [モノレポ](../cloud-infrastructure-and-self-hosted/application-development-and-upgrades/global-reference-architecture-implementation-techniques/monorepo.md)
-+ [Adobe Commerce Optimizer](https://experienceleague.adobe.com/ja/docs/commerce-learn/adobe-commerce-optimizer/overview)
 
 + App Builder {#app-builder}
   + 基礎 {#foundations}
@@ -262,7 +278,7 @@ ht-degree: 2%
 
 + 拡張機能 {#extensibility}
   + Commerce Developer Agent {#commerce-developer-agent}
-    + [開発者エージェントの学習パス](https://experienceleague.adobe.com/ja/docs/commerce-learn/ai-and-agentic-commerce/commerce-developer-agent/adobe-commerce-developer-agent-overview-technical-video)
+    + [開発者エージェントの学習パス](https://experienceleague.adobe.com/en/docs/commerce-learn/ai-and-agentic-commerce/commerce-developer-agent/adobe-commerce-developer-agent-overview-technical-video)
 
 + ストアフロント開発 {#storefront-development}
   + Edge Delivery Services上のCommerce ストアフロント {#edge-delivery-services}
@@ -297,7 +313,7 @@ ht-degree: 2%
     + [PWA Docker Development](../pwa/pwa-docker-development.md)
     + [開発のためのVeniaの設定](../pwa/set-up-venia-for-dev.md)
 
-+ [AIを活用したコマース戦略](https://experienceleague.adobe.com/ja/docs/commerce-learn/ai-and-agentic-commerce/commerce-mcp/commerce-mcp-overview)
++ [AIを活用したコマース戦略](https://experienceleague.adobe.com/en/docs/commerce-learn/ai-and-agentic-commerce/commerce-mcp/commerce-mcp-overview)
 
 + 監視、分析、サポート {#monitoring-analytics-support}
   + 可観測性 {#observability}
@@ -318,4 +334,4 @@ ht-degree: 2%
     + [サポートチケットの検索、レビュー、コメント、エスカレーション](../monitoring-analytics-support/help-and-support/search-track-comment-escalate-support-ticket.md)
     + [サポートチケットの視聴者とステータスの管理](../monitoring-analytics-support/help-and-support/add-remove-watchers-close-reopen-support-ticket.md)
 
-+ [ウェビナーとイベント](https://experienceleague.adobe.com/ja/docs/commerce-learn/webinars-and-events/business-growth/ai-innovation)
++ [ウェビナーとイベント](https://experienceleague.adobe.com/en/docs/commerce-learn/webinars-and-events/business-growth/ai-innovation)
