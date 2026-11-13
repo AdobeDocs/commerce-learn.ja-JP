@@ -58,7 +58,7 @@ Adobe CommerceおよびMagento Open Sourceの決済サービスは、小規模�
 
 ## ビデオコンテンツ
 
->[!VIDEO](https://video.tv.adobe.com/v/343990?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410791?captions=jpn&learn=on)
 
 ## 関連資料
 

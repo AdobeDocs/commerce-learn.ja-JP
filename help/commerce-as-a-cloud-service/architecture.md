@@ -73,4 +73,4 @@ Adobe Commerce as a Cloud Serviceのアーキテクチャと主な機能につ�
 * 包括的なAPI カバレッジ：GraphQLとREST APIを使用した広範なAPI カバレッジをサポートしており、サードパーティシステムとのシームレスな統合を可能にします。
 * 分離されたアーキテクチャ：完全に分離されたアーキテクチャにより、開発者はさまざまなフロントエンドフレームワークを使用でき、柔軟性とパフォーマンスが向上します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3443232?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443268?captions=jpn&learn=on)
