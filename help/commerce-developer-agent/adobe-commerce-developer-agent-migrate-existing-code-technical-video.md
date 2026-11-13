@@ -7,7 +7,7 @@ role: Developer
 level: Beginner
 doc-type: Technical Video
 duration: 350
-last-substantial-update: 2026-08-28T00:00:00.000Z
+last-substantial-update: 2026-08-28
 jira: KT-22478
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -21,7 +21,7 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 71835f0240311d4b26ec8e0d9bbdf005f9887579
+source-git-commit: 79be299b78188d60d6137e968d722dae39db7e2e
 workflow-type: tm+mt
 source-wordcount: '219'
 ht-degree: 0%
@@ -45,7 +45,7 @@ ht-degree: 0%
 * 最もリスクの高いレガシーロジックを置き換える同期webhookの設計図とアーキテクチャ図の生成
 * 各ハンドラーと一緒に書かれた一致するテストファイルを使用して実装を構築する
 
->[!VIDEO](https://video.tv.adobe.com/v/3502530?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3502483)
 
 {{$include /help/_includes/commerce-developer-agent-related-links.md}}
 

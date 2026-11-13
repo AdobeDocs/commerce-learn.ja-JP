@@ -7,7 +7,7 @@ role: Developer
 level: Beginner
 doc-type: Technical Video
 duration: 856
-last-substantial-update: 2025-01-13T00:00:00.000Z
+last-substantial-update: 2025-01-13
 exl-id: 91535671-02ff-4611-b452-0325792ad70b
 jira: KT-16729
 TQID: 'https://experienceleague.adobe.com/QnipDRCT13r3KSOOZj3G8A8EoAZNET6Y823qbjDAXE8'
@@ -45,7 +45,7 @@ topic_v2:
     internal-label: Customer experience
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 2a05d192340de0cc5fa51f791c891b6a1b9f086a
+source-git-commit: 79be299b78188d60d6137e968d722dae39db7e2e
 workflow-type: tm+mt
 source-wordcount: '323'
 ht-degree: 0%
@@ -72,7 +72,7 @@ ht-degree: 0%
 * アドレス入力フィールドの検証とエラー処理。不正確または不完全な入力に対して、ユーザーがすぐにフィードバックを受け取れるようにし、ユーザーエクスペリエンスを向上させます。
 * ユーザーアカウントダッシュボードに新しいサイドバーメニュー項目を追加するユーザーアカウントダッシュボードの拡張機能。
 
->[!VIDEO](https://video.tv.adobe.com/v/3442907?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3442787?learn=on)
 
 ## その他のドキュメント
 

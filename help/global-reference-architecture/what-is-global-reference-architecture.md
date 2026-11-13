@@ -4,7 +4,7 @@ description: グローバル参照アーキテクチャと呼ばれる、複雑�
 jira: KT-14039
 doc-type: Value Video
 duration: 1143
-last-substantial-update: 2023-09-27T00:00:00.000Z
+last-substantial-update: 2023-09-27
 feature: Best Practices, Configuration, Install
 topic: Architecture, Commerce, Development
 role: Developer, User, Leader
@@ -40,7 +40,7 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 8d54f05ec4dfe57397e112697d52b04b034c12a8
+source-git-commit: 79be299b78188d60d6137e968d722dae39db7e2e
 workflow-type: tm+mt
 source-wordcount: '86'
 ht-degree: 1%
@@ -65,6 +65,6 @@ ht-degree: 1%
 * 対処すべき全体的な考慮事項
 * GRAが実行可能なオプションであるかどうかを見分ける方法
 
->[!VIDEO](https://video.tv.adobe.com/v/3454685?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3424597?learn=on)
 
 {{$include /help/_includes/gra-related-links.md}}

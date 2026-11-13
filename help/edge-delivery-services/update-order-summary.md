@@ -7,7 +7,7 @@ role: Developer
 level: Beginner
 doc-type: Technical Video
 duration: 292
-last-substantial-update: 2024-12-17T00:00:00.000Z
+last-substantial-update: 2024-12-17
 jira: KT-16698
 exl-id: 2a8fa800-5727-47f0-828f-a42dba331a0b
 TQID: 'https://experienceleague.adobe.com/oZUaAnDWr0pokSxhOV75wZzzXWgb9SLMLQMDBjwq6do'
@@ -41,7 +41,7 @@ level_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 2a05d192340de0cc5fa51f791c891b6a1b9f086a
+source-git-commit: 79be299b78188d60d6137e968d722dae39db7e2e
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 0%
@@ -65,7 +65,7 @@ Adobe Commerceのカートドロップインの使用方法とカート体験を
 * カートの概要に保存された合計金額を含める方法を説明します。
 * 買い物かごの概要の行を1つの折りたたみ可能なセクションに結合する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3441186?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3441185?learn=on)
 
 ## その他のドキュメント
 

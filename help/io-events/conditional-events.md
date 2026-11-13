@@ -4,7 +4,7 @@ description: Adobe Developer App Builderで使用するコンディショナル�
 jira: KT-11890
 doc-type: Tutorial
 duration: 387
-last-substantial-update: 2023-02-21T00:00:00.000Z
+last-substantial-update: 2023-02-21
 feature: App Builder, Eventing, Backend Development
 topic: Commerce, Architecture
 role: Developer
@@ -36,14 +36,14 @@ level_v2:
     internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 7516911fc14bc80f327310b99a00f9cbff7c65c7
+source-git-commit: 79be299b78188d60d6137e968d722dae39db7e2e
 workflow-type: tm+mt
 source-wordcount: '128'
 ht-degree: 0%
 ---
 # Adobe Commerce条件イベント
 
-Adobe Developer App Builderで使用できるAdobe Commerceの条件付きイベントについて説明します。 その他のドキュメントについては、[Adobe Commerce用Adobe I/O Eventsのインストール &#x200B;](https://developer.adobe.com/commerce/extensibility/events/conditional-events){target="_blank"}を参照してください。
+Adobe Developer App Builderで使用できるAdobe Commerceの条件付きイベントについて説明します。 その他のドキュメントについては、[Adobe Commerce用Adobe I/O Eventsのインストール ](https://developer.adobe.com/commerce/extensibility/events/conditional-events){target="_blank"}を参照してください。
 
 ## この動画は誰のためのものでしょうか？
 
@@ -57,7 +57,7 @@ Adobe Developer App Builderで使用できるAdobe Commerceの条件付きイベ
 * 条件付きイベントで使用するルールの定義
 * Commerce インスタンス `app/etc/config.php`でイベントを登録する方法を説明します
 
->[!VIDEO](https://video.tv.adobe.com/v/3419801?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3415806?learn=on)
 
 ## 便利なコマンド {#useful-commands}
 

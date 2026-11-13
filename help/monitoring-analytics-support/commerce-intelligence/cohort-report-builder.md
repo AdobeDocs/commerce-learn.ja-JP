@@ -9,7 +9,7 @@ duration: 103
 solution: Adobe Commerce
 audience: all
 activity: use
-last-substantial-update: 2023-2-10
+last-substantial-update: 2023-02-10
 feature: Commerce Intelligence
 topic: Commerce, Administration
 role: Admin, User
@@ -43,7 +43,7 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d943f9c761a4f22d1a457703d1bfb7b339584305
+source-git-commit: 79be299b78188d60d6137e968d722dae39db7e2e
 workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 0%
@@ -60,7 +60,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Commerce Intelligenceを初めて使用する場合は、[Adobe Commerce Intelligence ユーザーガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/guide-overview.html?lang=ja){target="_blank"}で、データの集計、分析、ビジュアライゼーションを通じてビジネスのインサイトと成果を向上させる方法を詳しく説明しています。
+>Commerce Intelligenceを初めて使用する場合は、[Adobe Commerce Intelligence ユーザーガイド ](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/guide-overview.html){target="_blank"}で、データの集計、分析、ビジュアライゼーションを通じてビジネスのインサイトと成果を向上させる方法を詳しく説明しています。
 
 ## この動画は誰のためのものでしょうか？
 
@@ -69,10 +69,10 @@ ht-degree: 0%
 
 ## ビデオコンテンツ
 
->[!VIDEO](https://video.tv.adobe.com/v/346397?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/342407?learn=on)
 
 ## 役立つリソース
 
-[コホートReport Builderの使用 – Commerce Intelligence ユーザーガイド](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/analyze/sql/cohort-rpt-bldr.html?lang=ja)
+[コホートReport Builderの使用 – Commerce Intelligence ユーザーガイド](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/analyze/sql/cohort-rpt-bldr.html)
 
-[定性コホート分析の構築 – Commerce Intelligenceユーザーガイド](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/analyze/sql/create-qual-cohort-analysis.html?lang=ja)
+[定性コホート分析の構築 – Commerce Intelligenceユーザーガイド](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/analyze/sql/create-qual-cohort-analysis.html)
