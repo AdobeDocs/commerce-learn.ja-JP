@@ -1,6 +1,6 @@
 ---
 title: グローバル参照アーキテクチャの構築方法
-description: グローバル参照アーキテクチャの構築方法を説明します。 グローバルリファレンスアーキテクチャプロジェクトを正しい方向に進めるためのテクニックとアイデアについて説明します
+description: コード管理手法、ドキュメント、ツール、チーム責任など、Adobe Commerceのグローバルリファレンスアーキテクチャを構築する方法について説明します。
 jira: KT-14041
 doc-type: Value Video
 duration: 3108
@@ -42,12 +42,16 @@ topic_v2:
     internal-label: Implementation
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 71835f0240311d4b26ec8e0d9bbdf005f9887579
+source-git-commit: 8d54f05ec4dfe57397e112697d52b04b034c12a8
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '158'
 ht-degree: 0%
 ---
 # GRAのためのアーキテクチャ
+
+>[!NOTE]
+>
+>本シリーズでは、クラウドインフラストラクチャ上のAdobe Commerceとセルフホスト型のデプロイメントについて説明します。
 
 グローバル参照アーキテクチャまたはGRAを簡単に設計する方法について説明します。 GRAの導入を成功させるために、AdobeのエキスパートがGRAとは何か、何がGRAではないかについて話し合います。 個別のパッケージ、分割Git、monorepoを使用したコード管理について詳しく説明します。 GRAの実装を成功させるためのパーツについて詳しく説明するために、ドキュメント、ツール、および担当者の期待に関するその他のトピックについて説明します。
 

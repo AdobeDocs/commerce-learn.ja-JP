@@ -40,12 +40,16 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 71835f0240311d4b26ec8e0d9bbdf005f9887579
+source-git-commit: 8d54f05ec4dfe57397e112697d52b04b034c12a8
 workflow-type: tm+mt
-source-wordcount: '74'
+source-wordcount: '86'
 ht-degree: 1%
 ---
 # グローバル参照アーキテクチャ
+
+>[!NOTE]
+>
+>本シリーズでは、クラウドインフラストラクチャ上のAdobe Commerceとセルフホスト型のデプロイメントについて説明します。
 
 このアプローチのグローバル参照アーキテクチャ、一部のコアコンセプト、利点について説明します。
 
@@ -61,6 +65,6 @@ ht-degree: 1%
 * 対処すべき全体的な考慮事項
 * GRAが実行可能なオプションであるかどうかを見分ける方法
 
->[!VIDEO](https://video.tv.adobe.com/v/3454685?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3424597?learn=on)
 
 {{$include /help/_includes/gra-related-links.md}}
