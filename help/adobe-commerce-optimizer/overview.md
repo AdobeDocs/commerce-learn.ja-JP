@@ -32,9 +32,9 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 71835f0240311d4b26ec8e0d9bbdf005f9887579
+source-git-commit: ea6c6c730ab472c96e5395b9353af953192763d5
 workflow-type: tm+mt
-source-wordcount: '163'
+source-wordcount: '213'
 ht-degree: 0%
 ---
 # Adobe Commerce Optimizerの概要
@@ -53,9 +53,19 @@ Adobe Commerce Optimizerは、オーガニックトラフィックを促進し�
 * 既存のERP、CRM、OMSなどのシステムとシームレスに統合できます。リプラットフォームの必要はありません。
 * デジタル業務の拡大
 
->[!VIDEO](https://video.tv.adobe.com/v/3450464?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3450226?learn=on)
+
+## 学習を続ける
+
+* [Adobe Commerceのオプションを比較](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/getting-started/capabilities/adobes-available-commerce-options)
+* [Adobe Commerce Optimizerの最初のインスタンスを作成する](./create-first-instance.md)
+* [Adobe Commerce Optimizer インスタンスの管理](./managing-instances.md)
+* [サンプルデータの取り込み](./ingest-sample-data.md)
+* [最初のGraphQL クエリの実行](./first-query.md)
+* [Salesforce Commerce Cloud スターターキット](./sfcc-starter-kit/overview.md)
+* [コンポーザブルカタログデータモデル](./composable-catalog-data-model/why-ccdm-exists.md)
 
 ## 関連資料
 
-[[!DNL Adobe Commerce Optimizer] ガイド](https://experienceleague.adobe.com/ja/docs/commerce/optimizer/overview){target="_blank"}
+[[!DNL Adobe Commerce Optimizer] ガイド](https://experienceleague.adobe.com/en/docs/commerce/optimizer/overview){target="_blank"}
 
