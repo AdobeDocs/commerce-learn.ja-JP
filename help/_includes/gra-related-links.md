@@ -17,8 +17,8 @@ ht-degree: 0%
 
 ## クラウドインフラストラクチャとセルフホスティング実装チュートリアル
 
-* [グローバル参照アーキテクチャ実装の概要](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/cloud-infrastructure-and-self-hosted/application-development-and-upgrades/global-reference-architecture-implementation-techniques/overview)
-* [Gitを分割](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/cloud-infrastructure-and-self-hosted/application-development-and-upgrades/global-reference-architecture-implementation-techniques/split-git)
-* [バルクパッケージ](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/cloud-infrastructure-and-self-hosted/application-development-and-upgrades/global-reference-architecture-implementation-techniques/bulk-packages)
-* [個別のパッケージ](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/cloud-infrastructure-and-self-hosted/application-development-and-upgrades/global-reference-architecture-implementation-techniques/separate-packages)
-* [モノレポ](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/cloud-infrastructure-and-self-hosted/application-development-and-upgrades/global-reference-architecture-implementation-techniques/monorepo)
+* [グローバル参照アーキテクチャ実装の概要](https://experienceleague.adobe.com/ja/docs/commerce-learn/tutorials/cloud-infrastructure-and-self-hosted/application-development-and-upgrades/global-reference-architecture-implementation-techniques/overview)
+* [Gitを分割](https://experienceleague.adobe.com/ja/docs/commerce-learn/tutorials/cloud-infrastructure-and-self-hosted/application-development-and-upgrades/global-reference-architecture-implementation-techniques/split-git)
+* [バルクパッケージ](https://experienceleague.adobe.com/ja/docs/commerce-learn/tutorials/cloud-infrastructure-and-self-hosted/application-development-and-upgrades/global-reference-architecture-implementation-techniques/bulk-packages)
+* [個別のパッケージ](https://experienceleague.adobe.com/ja/docs/commerce-learn/tutorials/cloud-infrastructure-and-self-hosted/application-development-and-upgrades/global-reference-architecture-implementation-techniques/separate-packages)
+* [モノレポ](https://experienceleague.adobe.com/ja/docs/commerce-learn/tutorials/cloud-infrastructure-and-self-hosted/application-development-and-upgrades/global-reference-architecture-implementation-techniques/monorepo)
