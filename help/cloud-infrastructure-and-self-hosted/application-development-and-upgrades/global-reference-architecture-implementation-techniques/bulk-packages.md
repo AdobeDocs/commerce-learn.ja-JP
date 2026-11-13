@@ -4,7 +4,7 @@ description: 効率的なコード管理、バージョン管理、スケーラ�
 jira: KT-16726
 doc-type: Tutorial
 duration: 296
-last-substantial-update: 2025-01-06T00:00:00.000Z
+last-substantial-update: 2025-01-06
 feature: Best Practices, Configuration, Install
 topic: Architecture, Commerce, Development
 badge: label="Contributed by Tony Evers, シニア・テクニカル・アーキテクト，Adobe" type="Informative" url="https://www.linkedin.com/in/evers-tony" tooltip="アーティスト：Tony Evers"
@@ -36,7 +36,7 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
 autotag-review: '2026-11-11T17:29:20.970Z'
-source-git-commit: 169243ff1dda03b06b8b014a1ce17b725671e169
+source-git-commit: 3d7c98821c2ea524f6eb09505431c9d98c8ab432
 workflow-type: tm+mt
 source-wordcount: '1188'
 ht-degree: 0%
@@ -49,7 +49,7 @@ ht-degree: 0%
 
 バルクパッケージ GRA パターンには、すべての一般的なカスタマイズをホストする単一のGit リポジトリが含まれます。 この1つのGit リポジトリは、複数のAdobe Commerce モジュールを含む1つのコンポーザーパッケージとしてComposerを通じて公開されます。
 
-![&#x200B; コードが一括パッケージ GRA パターンのどこに保存されているかを示す図](/help/assets/global-reference-architecture/bulk-gra-pattern-diagram.png){align="center"}
+![ コードが一括パッケージ GRA パターンのどこに保存されているかを示す図](/help/assets/global-reference-architecture/bulk-gra-pattern-diagram.png){align="center"}
 
 ## このパターンの利点と欠点
 

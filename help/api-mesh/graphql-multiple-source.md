@@ -4,7 +4,7 @@ description: Adobe Commerceと[!DNL Adobe App Builder]でAPI Meshに複数のソ
 jira: KT-21677
 doc-type: Tutorial
 duration: 381
-last-substantial-update: 2023-02-08T00:00:00.000Z
+last-substantial-update: 2023-02-08
 feature: API Mesh, App Builder, Extensibility, Tools and External Services, Backend Development
 topic: App Builder, I/O Events, Developer Console, Commerce, Development, Integrations
 role: Developer
@@ -46,14 +46,14 @@ level_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: 7516911fc14bc80f327310b99a00f9cbff7c65c7
+source-git-commit: 3d7c98821c2ea524f6eb09505431c9d98c8ab432
 workflow-type: tm+mt
 source-wordcount: '198'
 ht-degree: 0%
 ---
 # 複数のソースを持つメッシュを作成する
 
-このビデオでは、Adobe Developer App Builder用API Meshで複数のソースを持つメッシュを作成する方法について説明します。 このビデオでは、複数のソースを持つメッシュを作成し、エラーを特定する方法を説明します。 詳細とコードサンプルについては、[&#x200B; メッシュの作成](https://developer.adobe.com/graphql-mesh-gateway/mesh/basic/create-mesh){target="_blank"}を参照してください。
+このビデオでは、Adobe Developer App Builder用API Meshで複数のソースを持つメッシュを作成する方法について説明します。 このビデオでは、複数のソースを持つメッシュを作成し、エラーを特定する方法を説明します。 詳細とコードサンプルについては、[ メッシュの作成](https://developer.adobe.com/graphql-mesh-gateway/mesh/basic/create-mesh){target="_blank"}を参照してください。
 
 ## この動画は誰のためのものでしょうか？
 
@@ -66,7 +66,7 @@ ht-degree: 0%
 * 名前の競合、スキーマの可用性、その他のスキーマ構文の問題などのエラーのトラブルシューティング方法
 * 変更された設定でメッシュを更新する
 
->[!VIDEO](https://video.tv.adobe.com/v/3419789?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3414125?learn=on)
 
 ## JSON設定ファイルの作成
 

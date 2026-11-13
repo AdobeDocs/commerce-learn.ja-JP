@@ -4,7 +4,7 @@ description: Adobe CommerceとAdobe App BuilderでAPI Meshを使用する方法�
 jira: KT-11804
 doc-type: Tutorial
 duration: 485
-last-substantial-update: 2023-02-08T00:00:00.000Z
+last-substantial-update: 2023-02-08
 feature: API Mesh, App Builder, Extensibility, Tools and External Services, Backend Development
 topic: App Builder, I/O Events, Developer Console, Commerce, Development, Integrations
 role: Developer
@@ -37,14 +37,14 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 7516911fc14bc80f327310b99a00f9cbff7c65c7
+source-git-commit: 3d7c98821c2ea524f6eb09505431c9d98c8ab432
 workflow-type: tm+mt
 source-wordcount: '216'
 ht-degree: 0%
 ---
 # 1つのソースでメッシュを作成する
 
-このビデオでは、Adobe Developer App Builder用API Meshで、1つのソースを持つメッシュを作成する方法について説明します。 この基本的な例を機能させるには、公開されているAPIまたはGraphQL エンドポイントが必要です。 このビデオでは、Commerce インスタンスで使用するシンプルな`mesh.json` ファイルを作成する方法についても説明します。 詳細とコードサンプルについては、[&#x200B; メッシュの作成](https://developer.adobe.com/graphql-mesh-gateway/mesh/basic/create-mesh){target="_blank"}を参照してください。
+このビデオでは、Adobe Developer App Builder用API Meshで、1つのソースを持つメッシュを作成する方法について説明します。 この基本的な例を機能させるには、公開されているAPIまたはGraphQL エンドポイントが必要です。 このビデオでは、Commerce インスタンスで使用するシンプルな`mesh.json` ファイルを作成する方法についても説明します。 詳細とコードサンプルについては、[ メッシュの作成](https://developer.adobe.com/graphql-mesh-gateway/mesh/basic/create-mesh){target="_blank"}を参照してください。
 
 ## この動画は誰のためのものでしょうか？
 
@@ -58,7 +58,7 @@ ht-degree: 0%
 * JSON設定ファイルからのメッシュの作成
 * 新しく作成したGraphQL エンドポイントへのアクセス
 
->[!VIDEO](https://video.tv.adobe.com/v/3419723?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3414124?learn=on)
 
 ## JSON設定ファイルの作成
 

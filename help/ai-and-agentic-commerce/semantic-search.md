@@ -4,7 +4,7 @@ description: Adobe Commerceのセマンティック検索で、買い物客の�
 role: User
 level: Beginner
 doc-type: Value Video
-last-substantial-update: 2026-06-11T00:00:00.000Z
+last-substantial-update: 2026-06-11
 jira: KT-21573
 duration: 192
 product_v2:
@@ -16,7 +16,7 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 71835f0240311d4b26ec8e0d9bbdf005f9887579
+source-git-commit: 3d7c98821c2ea524f6eb09505431c9d98c8ab432
 workflow-type: tm+mt
 source-wordcount: '212'
 ht-degree: 0%
@@ -40,9 +40,9 @@ ht-degree: 0%
 * 買い物客の意図と検索関連性の向上を示す実例
 * 主な利点：関連性の向上、検索結果ゼロの検索の減少、買い物客の体験の向上
 
->[!VIDEO](https://video.tv.adobe.com/v/3492306?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3492286)
 
 ## 関連資料
 
-- Adobe Commerce on Cloud、オンプレミス、およびAdobe Commerce as a Cloud Serviceでのデプロイメントについては、_ライブ検索ガイド_&#x200B;の[[!DNL Live Search]  セマンティック検索](https://experienceleague.adobe.com/ja/docs/commerce/live-search/live-search-admin/semantic-search){target="_blank"}を参照してください。
-- Adobe Commerce Optimizerを使用したデプロイメントについては、_Commerce Optimizer ガイド_&#x200B;の[&#x200B; セマンティック検索](https://experienceleague.adobe.com/ja/docs/commerce/optimizer/setup/semantic-search){target="_blank"}を参照してください。
+- Adobe Commerce on Cloud、オンプレミス、およびAdobe Commerce as a Cloud Serviceでのデプロイメントについては、_ライブ検索ガイド_&#x200B;の[[!DNL Live Search]  セマンティック検索](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/semantic-search){target="_blank"}を参照してください。
+- Adobe Commerce Optimizerを使用したデプロイメントについては、_Commerce Optimizer ガイド_&#x200B;の[ セマンティック検索](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/semantic-search){target="_blank"}を参照してください。

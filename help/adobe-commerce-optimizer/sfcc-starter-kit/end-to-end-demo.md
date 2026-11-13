@@ -1,13 +1,13 @@
 ---
 title: Salesforce Commerce Cloud Connectorのエンドツーエンドのデモ
-description: Salesforce Commerce CloudとAdobe Commerce Optimizer間で完全かつ差分の同期を実行し、ライブストアフロントで結果を検証する方法について説明します。
+description: Salesforce Commerce CloudとAdobe Commerce Optimizerの間で完全かつ差分の同期を実行し、その結果をライブストアフロントで検証する方法を説明します。
 feature: App Builder,Saas
 topic: Administration,Commerce,Integrations
 role: Developer
 level: Beginner
 doc-type: Technical Video
 duration: 430
-last-substantial-update: 2025-10-21T00:00:00.000Z
+last-substantial-update: 2025-10-21
 jira: KT-19017
 exl-id: 0b7d6adb-e535-4dc1-82cc-cb3a5be9a124
 product_v2:
@@ -27,9 +27,9 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 7516911fc14bc80f327310b99a00f9cbff7c65c7
+source-git-commit: 3d7c98821c2ea524f6eb09505431c9d98c8ab432
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '222'
 ht-degree: 0%
 ---
 # Salesforce Commerce Cloud starter kitのエンドツーエンドのデモ
@@ -49,5 +49,5 @@ Salesforce CommerceとCommerce Optimizerの間で、スターターキットを�
 * Salesforce Commerce Cloud カタログ内の商品の詳細と価格の変更は、Delta Sync プロセスを介してCommerce Optimizerで自動的に検出および更新されます。
 * リアルタイムで更新され、システム間のシームレスなデータフローと同期を実証します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3476094?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3476082?learn=on)
 

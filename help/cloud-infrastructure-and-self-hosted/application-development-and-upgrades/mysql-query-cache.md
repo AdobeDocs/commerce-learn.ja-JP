@@ -3,7 +3,7 @@ title: MySQL クエリキャッシュの仕組みを説明します
 description: MySQL クエリキャッシュの仕組み、スロークエリログで「クエリキャッシュロックの待機中」を見つけてキャッシュの問題を検出する方法、設定のヒントについて説明します。
 doc-type: Technical Video
 duration: 444
-last-substantial-update: 2023-07-27T00:00:00.000Z
+last-substantial-update: 2023-07-27
 feature: Backend Development, Cache, Logs
 topic: Commerce, Development
 role: Developer
@@ -29,7 +29,7 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
 autotag-review: '2026-11-11T17:29:20.954Z'
-source-git-commit: 169243ff1dda03b06b8b014a1ce17b725671e169
+source-git-commit: 3d7c98821c2ea524f6eb09505431c9d98c8ab432
 workflow-type: tm+mt
 source-wordcount: '161'
 ht-degree: 0%
@@ -51,9 +51,9 @@ MySQL クエリキャッシュの概要と、その仕組みに関する基本�
 * SQLの保存方法と、一致するクエリキャッシュの検索での使用方法を確認します
 * 設定設定に関するいくつかのヒント
 
->[!VIDEO](https://video.tv.adobe.com/v/3423386?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3422015?learn=on)
 
 ## 役立つリソース
 
-* [一般的なMySQL ガイドライン](https://experienceleague.adobe.com/ja/docs/commerce-operations/installation-guide/prerequisites/database-server/mysql){target="_blank"}
+* [一般的なMySQL ガイドライン](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/database-server/mysql){target="_blank"}
 * [Galera レプリケーションと低速クエリ](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/cloud-infrastructure-and-self-hosted/application-development-and-upgrades/galera-db-slow-replication){target="_blank"}

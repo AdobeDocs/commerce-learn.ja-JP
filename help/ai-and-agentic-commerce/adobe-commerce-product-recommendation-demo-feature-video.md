@@ -7,7 +7,7 @@ role: Admin, User
 level: Beginner
 doc-type: Feature Video
 duration: 235
-last-substantial-update: 2026-08-11T00:00:00.000Z
+last-substantial-update: 2026-08-11
 nudge-edit:
   - 2026-08-12T00:00:00.000Z
 jira: KT-20981
@@ -25,7 +25,7 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 71835f0240311d4b26ec8e0d9bbdf005f9887579
+source-git-commit: 3d7c98821c2ea524f6eb09505431c9d98c8ab432
 workflow-type: tm+mt
 source-wordcount: '144'
 ht-degree: 0%
@@ -47,4 +47,4 @@ Adobe Commerceを使用すると、Adobe Senseiベースの商品レコメンデ
 * 在庫切れおよび低在庫商品を除外し、設定可能な在庫閾値を設定する
 * レコメンデーションをアクティブ化し、PDPに表示されることを確認する
 
->[!VIDEO](https://video.tv.adobe.com/v/3484914?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3484913)

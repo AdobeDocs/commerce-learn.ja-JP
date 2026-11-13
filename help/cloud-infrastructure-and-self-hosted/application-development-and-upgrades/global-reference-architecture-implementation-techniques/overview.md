@@ -4,7 +4,7 @@ description: Adobe Commerceでグローバル参照アーキテクチャパタ�
 jira: KT-15773
 doc-type: Tutorial
 duration: 284
-last-substantial-update: 2025-01-06T00:00:00.000Z
+last-substantial-update: 2025-01-06
 feature: Best Practices, Configuration, Install
 badge: label="Contributed by Tony Evers, シニア・テクニカル・アーキテクト，Adobe" type="Informative" url="https://www.linkedin.com/in/evers-tony" tooltip="アーティスト：Tony Evers"
 topic: Architecture, Commerce, Development
@@ -40,7 +40,7 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
 autotag-review: '2026-11-11T17:29:20.965Z'
-source-git-commit: 169243ff1dda03b06b8b014a1ce17b725671e169
+source-git-commit: 3d7c98821c2ea524f6eb09505431c9d98c8ab432
 workflow-type: tm+mt
 source-wordcount: '1116'
 ht-degree: 0%
@@ -71,7 +71,7 @@ Adobe Commerceを活用して、コードの再利用を最適化するには、
 
 ### GRA パターンがありません
 
-![&#x200B; 「GRAなし」を表すアイコン &#x200B;](/help/assets/global-reference-architecture/no-gra.png){align="center"}
+![ 「GRAなし」を表すアイコン ](/help/assets/global-reference-architecture/no-gra.png){align="center"}
 
 GRA パターンを使用しない場合、各Adobe Commerce インスタンスは一意のアプリケーションになります。 あるインスタンスから別のインスタンスにコードを手動で移動する以外は、コードの再利用はありません。 これらのコピーは常に発散します。 各インスタンスに同じ変更を適用しながら、期待通りに動作することを確認するのは、手間のかかる作業です。 このシナリオでは、3つのインスタンスで1つのインスタンスの3倍のメンテナンス作業が必要になります。
 
@@ -79,7 +79,7 @@ GRA パターンを使用しない場合、各Adobe Commerce インスタンス�
 
 ### 分割Git GRA パターン
 
-![&#x200B; 「分割」 GRA パターンを示すアイコン &#x200B;](/help/assets/global-reference-architecture/split-git.png){align="center"}
+![ 「分割」 GRA パターンを示すアイコン ](/help/assets/global-reference-architecture/split-git.png){align="center"}
 
 このパターンは、開発用のGit リポジトリと、インスタンスごとに1つのGit リポジトリで構成されます。 インスタンス内の各ファイルは、開発リポジトリで管理されます。 それらを組み合わせてGRA全体を形成します。 コードの各行は1つの開発リポジトリにのみ存在し、組み立て手法を使用してインスタンスにインストールされ、コードの再利用につながります。
 
@@ -87,27 +87,27 @@ GRA パターンを使用しない場合、各Adobe Commerce インスタンス�
 
 ### バルクパッケージのGRA パターン
 
-![GRA パターンの「一括」を表すアイコン &#x200B;](/help/assets/global-reference-architecture/bulk-packages.png){align="center"}
+![GRA パターンの「一括」を表すアイコン ](/help/assets/global-reference-architecture/bulk-packages.png){align="center"}
 
 Adobe Commerce コアモジュールとサードパーティモジュールは、Composer リポジトリを通じて直接インストールされます。 Git リポジトリは、Composer リポジトリとして使用できます。 このパターンでは、GRA共有コードベース全体が1つまたは少数のGit リポジトリでホストされ、Composerを通じてインストールされます。 主な特徴は、複数のモジュール、言語パックまたはテーマが1つのコンポーザーパッケージでホストされ、開発が簡素化されていることです。
 
-![&#x200B; コードが一括パッケージ GRA パターンのどこに保存されているかを示す図](/help/assets/global-reference-architecture/bulk-gra-pattern-diagram.png){align="center"}
+![ コードが一括パッケージ GRA パターンのどこに保存されているかを示す図](/help/assets/global-reference-architecture/bulk-gra-pattern-diagram.png){align="center"}
 
 ### 個別のパッケージ GRA パターン
 
-![GRA パターンの「個別パッケージ」を表すアイコン &#x200B;](/help/assets/global-reference-architecture/separate-packages.png){align="center"}
+![GRA パターンの「個別パッケージ」を表すアイコン ](/help/assets/global-reference-architecture/separate-packages.png){align="center"}
 
 各Adobe Commerce モジュール、言語パックまたはテーマは、個別のコンポーザーパッケージとしてインストールされます。 各カスタマイズには、独自のGit リポジトリがあります。 これにより、インスタンスの構成が完全に柔軟になり、信頼性の高いComposerの依存関係管理が可能になります。 パフォーマンス最適化では、すべてのパッケージが単一のプライベートコンポーザーリポジトリにミラーリングされます。
 
-![&#x200B; コードが別のパッケージ GRA パターンに格納されている場所を示す図](/help/assets/global-reference-architecture/separate-packages-gra-pattern-diagram.png){align="center"}
+![ コードが別のパッケージ GRA パターンに格納されている場所を示す図](/help/assets/global-reference-architecture/separate-packages-gra-pattern-diagram.png){align="center"}
 
 ### モノレポ GRA パターン
 
-![&#x200B; モノレポ GRA パターンを表すアイコン &#x200B;](/help/assets/global-reference-architecture/monorepo.png){align="center"}
+![ モノレポ GRA パターンを表すアイコン ](/help/assets/global-reference-architecture/monorepo.png){align="center"}
 
 あらゆる開発は、単一のコードリポジトリで実施されます。 新しいバージョンのパッケージを生成し、コンポーザーリポジトリに公開します。 このパターンは、バルクパッケージアプローチの低い開発オーバーヘッドと、個別パッケージアプローチの柔軟性を組み合わせたものです。 モノレポパターンは、自動機能テストの実行にも適しています。
 
-![&#x200B; モノレポ GRA パターン内のコードの保存場所を示す図](/help/assets/global-reference-architecture/monorepo-gra-pattern-diagram.png){align="center"}
+![ モノレポ GRA パターン内のコードの保存場所を示す図](/help/assets/global-reference-architecture/monorepo-gra-pattern-diagram.png){align="center"}
 
 ## GRA パターンの選択
 

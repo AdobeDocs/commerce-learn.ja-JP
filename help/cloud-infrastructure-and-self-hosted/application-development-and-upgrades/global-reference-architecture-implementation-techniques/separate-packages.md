@@ -4,7 +4,7 @@ description: 個別のパッケージでAdobe Commerceを最適化GRA。 柔軟�
 jira: KT-16727
 doc-type: Tutorial
 duration: 340
-last-substantial-update: 2025-01-06T00:00:00.000Z
+last-substantial-update: 2025-01-06
 feature: Best Practices, Configuration, Install
 topic: Architecture, Commerce, Development
 badge: label="Contributed by Tony Evers, シニア・テクニカル・アーキテクト，Adobe" type="Informative" url="https://www.linkedin.com/in/evers-tony" tooltip="アーティスト：Tony Evers"
@@ -40,7 +40,7 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
 autotag-review: '2026-11-11T17:29:20.972Z'
-source-git-commit: 169243ff1dda03b06b8b014a1ce17b725671e169
+source-git-commit: 3d7c98821c2ea524f6eb09505431c9d98c8ab432
 workflow-type: tm+mt
 source-wordcount: '2099'
 ht-degree: 0%
@@ -55,7 +55,7 @@ ht-degree: 0%
 
 このグローバル参照アーキテクチャパターンはComposer ベースで、すべてのComposer機能の最大のメリットを得られるように設計されています。
 
-![&#x200B; コードが別のパッケージ GRA パターンに格納されている場所を示す図](/help/assets/global-reference-architecture/separate-packages-gra-pattern-diagram.png){align="center"}
+![ コードが別のパッケージ GRA パターンに格納されている場所を示す図](/help/assets/global-reference-architecture/separate-packages-gra-pattern-diagram.png){align="center"}
 
 ## このパターンの利点と欠点
 
@@ -205,7 +205,7 @@ GRA メタパッケージにサードパーティ パッケージを追加しま
 
 遅い問題は、composer.jsonに複数のVCS リポジトリがある場合に発生する問題です。 アップグレードを行う場合、各Composer リポジトリを読み取る必要があります。50 パッケージ用の50 リポジトリを持つ場合、1つのComposer リポジトリのオーバーヘッドは50倍になります。
 
-![&#x200B; コンポーザーのリポジトリーが見つからない場合に低速が発生する場所を示す図](/help/assets/global-reference-architecture/separate-packages-without-mirror-diagram.png){align="center"}
+![ コンポーザーのリポジトリーが見つからない場合に低速が発生する場所を示す図](/help/assets/global-reference-architecture/separate-packages-without-mirror-diagram.png){align="center"}
 
 プライベート Composer リポジトリの形式でComposer ミラーを含めます。 ミラーには、他のComposer リポジトリのすべてのパッケージのコピーと、すべてのGit ホスト型パッケージが含まれています。 プライベート Composer リポジトリを使用すると、さらに細かいアクセス制御を得ることができます。
 
