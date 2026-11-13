@@ -86,7 +86,7 @@ Adobe Commerce as a Cloud Serviceは、マネージド型のSaaS コマースプ
 
 このオプションは、サポートされている拡張ポイントを使用してマネージドコマース基盤を評価する場合に使用します。 カスタムビジネスロジックの場合は、既存のPHP拡張機能を変更せずにデプロイできるものと仮定するのではなく、サポートされるプロセス外の拡張性を計画してください。 ACCSはLuma ストアフロントをサポートしていません。該当する場合は、実装計画にストアフロントの移行を含めてください。
 
-[Adobe Commerce as a Cloud Serviceの概要](https://experienceleague.adobe.com/en/docs/commerce/cloud-service/overview)を参照してください。
+[Adobe Commerce as a Cloud Serviceの概要](https://experienceleague.adobe.com/ja/docs/commerce/cloud-service/overview)を参照してください。
 
 ### Adobe Commerce Optimizer
 
@@ -94,13 +94,13 @@ Adobe Commerce Optimizerは、カタログ管理、商品の発見、検索、�
 
 顧客向けの近代化が目標であり、トランザクションバックエンドの置き換えが必要ない場合は、このオプションを使用します。 カタログの取り込みやカートとチェックアウトの統合を明示的に計画。 ACCSとACOは個別のアーキテクチャオプションであり、必要な組み合わせスタックではありません。 実装のサービスを選択する前に、現在の統合サポートを確認してください。
 
-[Adobe Commerce Optimizerの概要](https://experienceleague.adobe.com/en/docs/commerce/optimizer/overview)を参照してください。
+[Adobe Commerce Optimizerの概要](https://experienceleague.adobe.com/ja/docs/commerce/optimizer/overview)を参照してください。
 
 ### 既存のAdobe Commerceの展開
 
 Adobe Commerceのクラウドインフラストラクチャとオンプレミスのデプロイメントでは、ヘッドレスストアフロントとサポートされているAPI ベースの統合を段階的に導入することもできます。 デプロイメントに応じて、既存のストアフロントを維持するか、サポート対象のヘッドレスストアフロントを導入することができます。 既存のコマース機能を統合し続けることで、統合作業を削減しながら、選択したサービスを個別に進化させることができます。
 
-機能の可用性、拡張機能の互換性、ライセンス、設定の要件は、製品やバージョンによって異なります。 アーキテクチャを選択する前に、[Adobe Commerce プラットフォームとサービス &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/information-center/explore-platforms-and-services/platform-and-services)を比較します。
+機能の可用性、拡張機能の互換性、ライセンス、設定の要件は、製品やバージョンによって異なります。 アーキテクチャを選択する前に、[Adobe Commerce プラットフォームとサービス &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce/information-center/explore-platforms-and-services/platform-and-services)を比較します。
 
 ## Edge Delivery Servicesを活用したCommerce Storefront
 
@@ -172,11 +172,11 @@ Commerceの開発MCPは、ストアフロント配信、カート、チェック
 
 ### アーキテクチャおよび開発ドキュメント
 
-* [Adobe Commerce as a Cloud Serviceへの移行](https://experienceleague.adobe.com/en/docs/commerce/cloud-service/migration/overview)
-* [Adobe Commerce Optimizerとの連携](https://experienceleague.adobe.com/en/docs/commerce/optimizer/integrations-overview)
+* [Adobe Commerce as a Cloud Serviceへの移行](https://experienceleague.adobe.com/ja/docs/commerce/cloud-service/migration/overview)
+* [Adobe Commerce Optimizerとの連携](https://experienceleague.adobe.com/ja/docs/commerce/optimizer/integrations-overview)
 * [Commerce Storefront開発を始める](https://experienceleague.adobe.com/en/tools/commerce-storefront/get-started/)
 * [Commerce開発MCPとスキルのベストプラクティス](https://developer.adobe.com/commerce/extensibility/developer-agent/best-practices)
 
 ### プレイリスト
 
-* [Adobe App BuilderとAdobe Commerceを使用したAPI Meshの基本を学ぶ](https://experienceleague.adobe.com/en/playlists/commerce-get-started-app-builder-and-api-mesh)
+* [Adobe App BuilderとAdobe Commerceを使用したAPI Meshの基本を学ぶ](https://experienceleague.adobe.com/ja/playlists/commerce-get-started-app-builder-and-api-mesh)
