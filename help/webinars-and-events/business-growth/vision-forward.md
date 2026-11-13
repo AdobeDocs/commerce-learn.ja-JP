@@ -89,6 +89,6 @@ Adobe Commerceの2026年のロードマップでは、リアルタイムデー�
 
 ## 関連チュートリアル
 
-* [データ接続](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/apis-and-integration/data-integrations/data-connection)
-* [Observability overview](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/monitoring-analytics-support/observability/overview)
-* [App Builderの概要](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/app-builder/foundations/introduction-to-app-builder)
+* [データ接続](https://experienceleague.adobe.com/ja/docs/commerce-learn/tutorials/apis-and-integration/data-integrations/data-connection)
+* [Observability overview](https://experienceleague.adobe.com/ja/docs/commerce-learn/tutorials/monitoring-analytics-support/observability/overview)
+* [App Builderの概要](https://experienceleague.adobe.com/ja/docs/commerce-learn/tutorials/app-builder/foundations/introduction-to-app-builder)
