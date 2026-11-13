@@ -71,7 +71,7 @@ Adobe Commerceが、最先端のAI ソリューションとSaaS ファースト�
 * カタログイノベーションによるグローバル展開の加速
 * 会話型のCommerceでストアフロント体験を向上
 
->[!VIDEO](https://video.tv.adobe.com/v/3475691?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3475696?captions=jpn&learn=on)
 
 ## 関連チュートリアル
 
