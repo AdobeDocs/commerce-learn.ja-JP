@@ -53,4 +53,4 @@ Adobe Experience League for Adobe Commerce内で、視聴者を追加および�
 
 ## Commerce Knowledge Base アドビヘルプセンターガイド
 
-[サポートケースを送信](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case)
+[サポートケースを送信](https://experienceleague.adobe.com/ja/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case)

@@ -52,7 +52,7 @@ Adobe Commerce Intelligence SQL Report Builderなら、データウェアハウ�
 
 >[!TIP]
 >
-> Commerce Intelligenceを初めて利用する場合は、[Adobe Commerce Intelligence ユーザーガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/guide-overview.html){target="_blank"}で、データを集計、分析、視覚化して、より強力なビジネスインサイトを獲得する方法を説明します。
+> Commerce Intelligenceを初めて利用する場合は、[Adobe Commerce Intelligence ユーザーガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/guide-overview.html?lang=ja){target="_blank"}で、データを集計、分析、視覚化して、より強力なビジネスインサイトを獲得する方法を説明します。
 
 ## この動画は誰のためのものでしょうか？
 
@@ -69,5 +69,5 @@ Adobe Commerce Intelligence SQL Report Builderなら、データウェアハウ�
 
 ## 役立つリソース
 
-* [SQL Report Builderの使用](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/analyze/sql/sql-rpt-bldr.html){target="_blank"} （Commerce Intelligence ユーザーガイド）
-* [SQL クエリからのビジュアライゼーションの作成](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/tutorials/create-visuals-from-sql.html){target="_blank"} （Commerce Intelligence ユーザーガイド）
+* [SQL Report Builderの使用](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/analyze/sql/sql-rpt-bldr.html?lang=ja){target="_blank"} （Commerce Intelligence ユーザーガイド）
+* [SQL クエリからのビジュアライゼーションの作成](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/tutorials/create-visuals-from-sql.html?lang=ja){target="_blank"} （Commerce Intelligence ユーザーガイド）
