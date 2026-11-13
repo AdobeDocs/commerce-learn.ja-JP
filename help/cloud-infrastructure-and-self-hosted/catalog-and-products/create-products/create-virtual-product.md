@@ -57,7 +57,7 @@ REST APIとAdobe Commerce Adminを使用してバーチャル製品を作成す�
 
 ## ビデオコンテンツ
 
->[!VIDEO](https://video.tv.adobe.com/v/3425723?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3444865?captions=jpn&learn=on)
 
 ## curlを使用したバーチャル商品の作成
 
