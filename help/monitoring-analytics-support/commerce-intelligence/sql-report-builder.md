@@ -52,7 +52,7 @@ Adobe Commerce Intelligence SQL Report Builderなら、データウェアハウ�
 
 >[!TIP]
 >
-> Commerce Intelligenceを初めて利用する場合は、[Adobe Commerce Intelligence ユーザーガイド ](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/guide-overview.html){target="_blank"}で、データを集計、分析、視覚化して、より強力なビジネスインサイトを獲得する方法を説明します。
+> Commerce Intelligenceを初めて利用する場合は、[Adobe Commerce Intelligence ユーザーガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/guide-overview.html){target="_blank"}で、データを集計、分析、視覚化して、より強力なビジネスインサイトを獲得する方法を説明します。
 
 ## この動画は誰のためのものでしょうか？
 
