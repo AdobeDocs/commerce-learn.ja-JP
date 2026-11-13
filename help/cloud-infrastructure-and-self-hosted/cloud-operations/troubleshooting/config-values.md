@@ -54,7 +54,7 @@ ht-degree: 0%
 * 管理者パネル、コードリポジトリ、環境固有のファイルを使用して、設定値を編集および上書きする方法について説明します。
 * app:config:dumpやAdobe Commerce Cloudの管理UIなどのツールを使用して、様々な環境で一貫した設定値を維持するためのベストプラクティスをご紹介します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3436458?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3505784?captions=jpn&learn=on)
 
 ## 関連するExperience League ドキュメント
 

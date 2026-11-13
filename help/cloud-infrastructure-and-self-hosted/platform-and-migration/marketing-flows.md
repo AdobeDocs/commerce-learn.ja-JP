@@ -61,4 +61,4 @@ _ Adobe CommerceのEdge delivery storefrontを検討している新規および�
 * A/B テストを通じて、最適化について理解を深める。
 * コンテンツの改善、バリエーションの生成、プロモーション戦略全体の強化を行うための、いくつかの高度なツールとAI統合について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3433527?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3433533?captions=jpn&learn=on)

@@ -73,7 +73,7 @@ Adobe Commerceの[!DNL Live Search]は、Adobe Commerceの高速で非常に関�
 
 ## ビデオコンテンツ
 
->[!VIDEO](https://video.tv.adobe.com/v/3412586?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3432508?captions=jpn&learn=on)
 
 
 ## 関連資料
