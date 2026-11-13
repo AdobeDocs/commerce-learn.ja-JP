@@ -68,9 +68,9 @@ Adobe Commerce as a Cloud Service、Adobe Commerce Optimizer、Adobe Commerce on
 * **計画と最新化：** Commerceのオプションを比較し、アーキテクチャとデプロイメントのアプローチを調べ、移行、プロジェクト計画、実装のベストプラクティスについて説明します。
 * **ビルドと統合：** App Builder、GraphQL、REST、API Mesh、イベント、webhookで開発します。 Edge Delivery Servicesなど、バックオフィス統合とストアフロント開発についてご紹介します。
 * **管理と操作：**&#x200B;店舗管理、カタログ、コンテンツ、マーケティング、マーチャンダイジング、B2B ワークフロー、支払いについて説明します。 クラウド運用、モニタリング、分析、パフォーマンス、トラブルシューティングに関するガイダンスを入手できます。
-* **Adobe OptimizerとAIの活用：** カタログとストアフロント機能に関する[Adobe Commerce Optimizer](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/adobe-commerce-optimizer/overview)のチュートリアルを活用します。 セマンティック検索、Commerce MCP、開発者ワークフローについては、[AIおよびAgentic commerce](https://experienceleague.adobe.com/en/docs/commerce-learn/ai-and-agentic-commerce/commerce-mcp/commerce-mcp-overview) ガイドに従ってください。
+* **Adobe OptimizerとAIの活用：** カタログとストアフロント機能に関する[Adobe Commerce Optimizer](https://experienceleague.adobe.com/ja/docs/commerce-learn/tutorials/adobe-commerce-optimizer/overview)のチュートリアルを活用します。 セマンティック検索、Commerce MCP、開発者ワークフローについては、[AIおよびAgentic commerce](https://experienceleague.adobe.com/ja/docs/commerce-learn/ai-and-agentic-commerce/commerce-mcp/commerce-mcp-overview) ガイドに従ってください。
 
-実装に関する詳細な視点、製品アップデート、ビジネスに関する議論については、[&#x200B; ウェビナーとイベント &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-learn/webinars-and-events/business-growth/ai-innovation) ガイドをご覧ください。 詳細な要件と参照情報については、[Commerce ドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/commerce)と一緒にビデオとチュートリアルを使用してください。
+実装に関する詳細な視点、製品アップデート、ビジネスに関する議論については、[&#x200B; ウェビナーとイベント &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-learn/webinars-and-events/business-growth/ai-innovation) ガイドをご覧ください。 詳細な要件と参照情報については、[Commerce ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce)と一緒にビデオとチュートリアルを使用してください。
 
 <div id="recs-overview-body-1"></div>
 <div id="recs-overview-body-2"></div>
@@ -81,12 +81,12 @@ Adobe Commerce as a Cloud Service、Adobe Commerce Optimizer、Adobe Commerce on
 
 >[!TIP]
 >
->[Commerce イベント &#x200B;](https://experienceleague.adobe.com/en/events) スペースでは、録画されたイベントコンテンツにアクセスし、オンデマンドで視聴できます。
+>[Commerce イベント &#x200B;](https://experienceleague.adobe.com/ja/events) スペースでは、録画されたイベントコンテンツにアクセスし、オンデマンドで視聴できます。
 
 ## 関連資料
 
-* [Commerce ドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/commerce) - Commerce製品の製品ガイドと参照情報。
-* [&#x200B; マーチャントのドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home) - クラウドインフラストラクチャとセルフホスト型のデプロイメントのストア設定と管理。
+* [Commerce ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce) - Commerce製品の製品ガイドと参照情報。
+* [&#x200B; マーチャントのドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-admin/user-guides/home) - クラウドインフラストラクチャとセルフホスト型のデプロイメントのストア設定と管理。
 * [開発者ドキュメント &#x200B;](https://developer.adobe.com/commerce/) - API、SDK、統合、および拡張性リソース。
-* [Commerce ナレッジベース &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/overview) – 記事、既知の問題、サポート ガイダンスのトラブルシューティング。
-* [Experience League コース &#x200B;](https://experienceleague.adobe.com/en/courses?product=Commerce) - Experience Leagueでの構造化された学習。
+* [Commerce ナレッジベース &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-knowledge-base/kb/overview) – 記事、既知の問題、サポート ガイダンスのトラブルシューティング。
+* [Experience League コース &#x200B;](https://experienceleague.adobe.com/ja/courses?product=Commerce) - Experience Leagueでの構造化された学習。

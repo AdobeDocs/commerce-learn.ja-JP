@@ -109,6 +109,6 @@ Adobe Marketo Engageをすぐ活用するには？ 次のリンクには、開�
 
 ## サービス固有の例
 
-App Builder上に構築されたAdobe Commerce Optimizer統合については、[Salesforce Commerce Cloud スターターキット &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/adobe-commerce-optimizer/sfcc-starter-kit/overview)に従ってください。 このシリーズでは、アーキテクチャ、Salesforceカートリッジの取り付け、App Builderスターターキット、エンドツーエンドのデモを取り上げます。
+App Builder上に構築されたAdobe Commerce Optimizer統合については、[Salesforce Commerce Cloud スターターキット &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-learn/tutorials/adobe-commerce-optimizer/sfcc-starter-kit/overview)に従ってください。 このシリーズでは、アーキテクチャ、Salesforceカートリッジの取り付け、App Builderスターターキット、エンドツーエンドのデモを取り上げます。
 
 {{$include /help/_includes/app-builder-related-links.md}}

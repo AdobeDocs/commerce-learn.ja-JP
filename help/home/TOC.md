@@ -177,7 +177,7 @@ ht-degree: 2%
       + [見積もり行項目の割引](../cloud-infrastructure-and-self-hosted/b2b/quotes/quote-line-item-discount.md)
       + [見積もり行項目メモ](../cloud-infrastructure-and-self-hosted/b2b/quotes/quote-line-item-notes.md)
   + アプリケーションの開発とアップグレード {#application-development-and-upgrades}
-    + [データベーステーブルの修正に関するベストプラクティス](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables.html)
+    + [データベーステーブルの修正に関するベストプラクティス](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables.html?lang=ja)
     + [モジュールの作成](../cloud-infrastructure-and-self-hosted/application-development-and-upgrades/create-module.md)
     + [製品属性の追加](../cloud-infrastructure-and-self-hosted/application-development-and-upgrades/add-product-attribute.md)
     + [依存関係インジェクションの例](../cloud-infrastructure-and-self-hosted/application-development-and-upgrades/dependency-injection.md)
@@ -278,7 +278,7 @@ ht-degree: 2%
 
 + 拡張機能 {#extensibility}
   + Commerce Developer Agent {#commerce-developer-agent}
-    + [開発者エージェントの学習パス](https://experienceleague.adobe.com/en/docs/commerce-learn/ai-and-agentic-commerce/commerce-developer-agent/adobe-commerce-developer-agent-overview-technical-video)
+    + [開発者エージェントの学習パス](https://experienceleague.adobe.com/ja/docs/commerce-learn/ai-and-agentic-commerce/commerce-developer-agent/adobe-commerce-developer-agent-overview-technical-video)
 
 + ストアフロント開発 {#storefront-development}
   + Edge Delivery Services上のCommerce ストアフロント {#edge-delivery-services}
@@ -313,7 +313,7 @@ ht-degree: 2%
     + [PWA Docker Development](../pwa/pwa-docker-development.md)
     + [開発のためのVeniaの設定](../pwa/set-up-venia-for-dev.md)
 
-+ [AIを活用したコマース戦略](https://experienceleague.adobe.com/en/docs/commerce-learn/ai-and-agentic-commerce/commerce-mcp/commerce-mcp-overview)
++ [AIを活用したコマース戦略](https://experienceleague.adobe.com/ja/docs/commerce-learn/ai-and-agentic-commerce/commerce-mcp/commerce-mcp-overview)
 
 + 監視、分析、サポート {#monitoring-analytics-support}
   + 可観測性 {#observability}
@@ -334,4 +334,4 @@ ht-degree: 2%
     + [サポートチケットの検索、レビュー、コメント、エスカレーション](../monitoring-analytics-support/help-and-support/search-track-comment-escalate-support-ticket.md)
     + [サポートチケットの視聴者とステータスの管理](../monitoring-analytics-support/help-and-support/add-remove-watchers-close-reopen-support-ticket.md)
 
-+ [ウェビナーとイベント](https://experienceleague.adobe.com/en/docs/commerce-learn/webinars-and-events/business-growth/ai-innovation)
++ [ウェビナーとイベント](https://experienceleague.adobe.com/ja/docs/commerce-learn/webinars-and-events/business-growth/ai-innovation)
