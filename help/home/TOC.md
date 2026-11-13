@@ -4,9 +4,9 @@ user-guide-description: ビデオとチュートリアルを通じて、Adobe Co
 breadcrumb-title: ビデオとチュートリアル
 auto-video-transcripts: true
 author: Russell A.
-source-git-commit: 2a05d192340de0cc5fa51f791c891b6a1b9f086a
+source-git-commit: 1e3b88ec32913a3f7c47490b0140d86eb3be4f18
 workflow-type: tm+mt
-source-wordcount: '1039'
+source-wordcount: '1042'
 ht-degree: 2%
 ---
 
@@ -155,7 +155,7 @@ ht-degree: 2%
       + [見積もり行項目の割引](../cloud-infrastructure-and-self-hosted/b2b/quotes/quote-line-item-discount.md)
       + [見積もり行項目メモ](../cloud-infrastructure-and-self-hosted/b2b/quotes/quote-line-item-notes.md)
   + アプリケーションの開発とアップグレード {#application-development-and-upgrades}
-    + [データベーステーブルの修正に関するベストプラクティス](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables.html?lang=ja)
+    + [データベーステーブルの修正に関するベストプラクティス](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables.html)
     + [モジュールの作成](../cloud-infrastructure-and-self-hosted/application-development-and-upgrades/create-module.md)
     + [製品属性の追加](../cloud-infrastructure-and-self-hosted/application-development-and-upgrades/add-product-attribute.md)
     + [依存関係インジェクションの例](../cloud-infrastructure-and-self-hosted/application-development-and-upgrades/dependency-injection.md)
@@ -260,14 +260,7 @@ ht-degree: 2%
 
 + 拡張機能 {#extensibility}
   + Commerce Developer Agent {#commerce-developer-agent}
-    + [概要](../commerce-developer-agent/adobe-commerce-developer-agent-overview-technical-video.md)
-    + [ブループリントと開発ステージ](../commerce-developer-agent/adobe-commerce-developer-agent-blueprint-and-develop-stages-technical-video.md)
-    + [連携の統合](../commerce-developer-agent/adobe-commerce-developer-agent-connect-integrations-technical-video.md)
-    + [デプロイ、関連付け、インストール](../commerce-developer-agent/adobe-commerce-developer-agent-deploy-associate-and-install-technical-video.md)
-    + [設定とテスト](../commerce-developer-agent/adobe-commerce-developer-agent-configure-and-test-technical-video.md)
-    + [既存のコードの移行](../commerce-developer-agent/adobe-commerce-developer-agent-migrate-existing-code-technical-video.md)
-    + [まとめ](../commerce-developer-agent/adobe-commerce-developer-agent-conclusion-technical-video.md)
-    + [App Builderドライラン](../commerce-developer-agent/adobe-commerce-developer-agent-app-builder-dry-run.md)
+    + [開発者エージェントの学習パス](https://experienceleague.adobe.com/en/docs/commerce-learn/ai-and-agentic-commerce/commerce-developer-agent/adobe-commerce-developer-agent-overview-technical-video)
 
 + ストアフロント開発 {#storefront-development}
   + Edge Delivery Services上のCommerce ストアフロント {#edge-delivery-services}
