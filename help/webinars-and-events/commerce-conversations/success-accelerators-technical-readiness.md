@@ -6,7 +6,7 @@ role: User
 level: Beginner
 doc-type: Value Video
 duration: 193
-last-substantial-update: 2025-04-16T00:00:00.000Z
+last-substantial-update: 2025-04-16
 jira: KT-17804
 exl-id: 7a031aa0-40d6-4a90-a71f-4297107e42f2
 TQID: https://experienceleague.adobe.com/DqEkA5ovp9TzEVc9ga2FjBbQ8C3XxtbEp988Fo4OAVg
@@ -26,7 +26,7 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 60c28d9adc71c664ed9178d724bc4abefb588ab7
+source-git-commit: 7ac0cbe05d658701f20137fdea7b9c0b4423d57b
 workflow-type: tm+mt
 source-wordcount: '217'
 ht-degree: 0%
@@ -50,10 +50,10 @@ Adobe Commerce Success Acceleratorには、ローンチに関するアドバイ�
 * 製品の使用状況、パフォーマンス、全体的な採用率。
 * 重要なキャンペーンや製品の発表に関するガイダンスとサポートを年中無休で提供。
 
->[!VIDEO](https://video.tv.adobe.com/v/3457656?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3457655?learn=on)
 
 ## 関連チュートリアル
 
-* [クラウド基盤とセルフホスティング：導入前のチェックリスト](https://experienceleague.adobe.com/ja/docs/commerce-learn/tutorials/cloud-infrastructure-and-self-hosted/cloud-operations/commerce-cloud-best-practices/pre-launch-checklist)
-* [Observability overview](https://experienceleague.adobe.com/ja/docs/commerce-learn/tutorials/monitoring-analytics-support/observability/overview)
-* [サポートチケットの作成](https://experienceleague.adobe.com/ja/docs/commerce-learn/tutorials/monitoring-analytics-support/help-and-support/create-a-support-ticket)
+* [クラウド基盤とセルフホスティング：導入前のチェックリスト](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/cloud-infrastructure-and-self-hosted/cloud-operations/commerce-cloud-best-practices/pre-launch-checklist)
+* [Observability overview](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/monitoring-analytics-support/observability/overview)
+* [サポートチケットの作成](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/monitoring-analytics-support/help-and-support/create-a-support-ticket)

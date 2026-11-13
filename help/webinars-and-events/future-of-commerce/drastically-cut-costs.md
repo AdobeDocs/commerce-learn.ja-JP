@@ -7,7 +7,7 @@ role: User
 level: Beginner
 doc-type: Value Video
 duration: 705
-last-substantial-update: 2025-05-15T00:00:00.000Z
+last-substantial-update: 2025-05-15
 jira: KT-18110
 exl-id: 87b6200e-79e0-48ed-8926-eaa7bfea36d4
 TQID: 'https://experienceleague.adobe.com/4k3ud1yDq2WicgWgNkHEn8LiWMznsLZb66bFBgTIPG4'
@@ -29,7 +29,7 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 60c28d9adc71c664ed9178d724bc4abefb588ab7
+source-git-commit: 7ac0cbe05d658701f20137fdea7b9c0b4423d57b
 workflow-type: tm+mt
 source-wordcount: '241'
 ht-degree: 0%
@@ -51,16 +51,16 @@ Adobe Commerceのクラウドネイティブな基盤は、フルマネージド
 * 迅速なデプロイメント – セルフサービスツールを利用して、事前設定済みの環境を数分で起動できます。
 * 柔軟な統合 – APIとアクセラレータを利用して、ERPやCRMなどと容易に接続できます。
 
->[!VIDEO](https://video.tv.adobe.com/v/3458489?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3458485?learn=on)
 
 ## 関連チュートリアル
 
-* [Adobe Commerce as a Cloud Serviceの概要](https://experienceleague.adobe.com/ja/docs/commerce-learn/tutorials/commerce-as-a-cloud-service/overview)
-* [App Builderの概要](https://experienceleague.adobe.com/ja/docs/commerce-learn/tutorials/app-builder/foundations/introduction-to-app-builder)
-* [API Meshの基本を学ぶ](https://experienceleague.adobe.com/ja/docs/commerce-learn/tutorials/apis-and-integration/api-mesh/getting-started-api-mesh)
+* [Adobe Commerce as a Cloud Serviceの概要](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/commerce-as-a-cloud-service/overview)
+* [App Builderの概要](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/app-builder/foundations/introduction-to-app-builder)
+* [API Meshの基本を学ぶ](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/apis-and-integration/api-mesh/getting-started-api-mesh)
 
 ## このシリーズの追加動画
 
 [新製品のお知らせ](./new-product-announcements.md)
-[&#x200B; コンバージョン率の増強](./supercharge-conversion-rates.md)
+[ コンバージョン率の増強](./supercharge-conversion-rates.md)
 [迅速な拡張](fast-track-expansion.md)

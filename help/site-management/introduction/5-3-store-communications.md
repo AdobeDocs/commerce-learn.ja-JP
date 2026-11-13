@@ -1,11 +1,11 @@
 ---
 title: ビジネスユーザー向け[!DNL Commerce] - メール通信
-description: ストアフロントでの行動をトリガーとしたトランザクションメールを使用して、顧客とコミュニケーションを取ります。 ストアのメールテンプレートをカスタマイズして設定します。
+description: ストアフロントのアクションによってトリガーされるトランザクションメールを使用して、顧客とコミュニケーションを取ります。 Commerceストアのメールテンプレートをカスタマイズして設定できます。
 kt: 5780
-doc-type: video
+doc-type: Technical Video
 duration: 257
 activity: use
-last-substantial-update: 2022-12-28T00:00:00.000Z
+last-substantial-update: 2022-12-28
 feature: Configuration, System, Customers, Personalization
 topic: Commerce, Administration
 role: Admin, Leader, User
@@ -35,9 +35,9 @@ level_v2:
     internal-label: Beginner
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
-source-git-commit: 71835f0240311d4b26ec8e0d9bbdf005f9887579
+source-git-commit: 7ac0cbe05d658701f20137fdea7b9c0b4423d57b
 workflow-type: tm+mt
-source-wordcount: '113'
+source-wordcount: '110'
 ht-degree: 0%
 ---
 # ビジネスユーザー向け[!DNL Commerce] - メール通信
@@ -55,12 +55,12 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->ビデオの内容は、2.3.1 リリースを反映しています。 以降のリリースのアップデートについて詳しくは、[&#x200B; リリースノート &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/overview.html?lang=ja)を参照してください。
+>ビデオの内容は、2.3.1 リリースを反映しています。 以降のリリースのアップデートについて詳しくは、[ リリースノート ](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/overview.html)を参照してください。
 
->[!VIDEO](https://video.tv.adobe.com/v/330183?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/36190?learn=on)
 
 ## 関連資料
 
-[メールテンプレート -  [!DNL Commerce] 管理者システムガイド](https://experienceleague.adobe.com/docs/commerce-admin/systems/communications/email-templates.html?lang=ja)
+[メールテンプレート -  [!DNL Commerce] 管理者システムガイド](https://experienceleague.adobe.com/docs/commerce-admin/systems/communications/email-templates.html)
 
-[変数と顧客コミュニケーション - [!DNL Commerce] 管理者システムガイド](https://experienceleague.adobe.com/docs/commerce-admin/systems/introduction.html?lang=ja#variables-and-customer-communications)
+[変数と顧客コミュニケーション - [!DNL Commerce] 管理者システムガイド](https://experienceleague.adobe.com/docs/commerce-admin/systems/introduction.html#variables-and-customer-communications)

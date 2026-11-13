@@ -1,11 +1,11 @@
 ---
-title: ビジネスユーザー向け[!DNL Commerce] - ストアビューとキャッシュのクリア
+title: '[!DNL Commerce]人のビジネスユーザー – ビューの保存とキャッシュのクリア'
 description: ストアビューを作成し、キャッシュをクリアする方法を説明します。
 kt: 5761
-doc-type: video
+doc-type: Technical Video
 duration: 490
 activity: use
-last-substantial-update: 2022-12-28T00:00:00.000Z
+last-substantial-update: 2022-12-28
 feature: Configuration, System
 topic: Commerce, Administration
 role: Admin, Leader, User
@@ -31,9 +31,9 @@ level_v2:
     internal-label: Beginner
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
-source-git-commit: 71835f0240311d4b26ec8e0d9bbdf005f9887579
+source-git-commit: 7ac0cbe05d658701f20137fdea7b9c0b4423d57b
 workflow-type: tm+mt
-source-wordcount: '77'
+source-wordcount: '76'
 ht-degree: 0%
 ---
 # ビジネスユーザー向け[!DNL Commerce] - ストアビューとキャッシュのクリア
@@ -49,10 +49,10 @@ ht-degree: 0%
 
 ## ビデオコンテンツ
 
->[!VIDEO](https://video.tv.adobe.com/v/330057?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/35946?learn=on)
 
 ## 関連資料
 
-[Web サイト、ストア、ビュー –  [!DNL Commerce] はじめにガイド](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html?lang=ja)
+[Web サイト、ストア、ビュー –  [!DNL Commerce] はじめにガイド](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html)
 
-[キャッシュ管理 –  [!DNL Commerce] 管理者システムガイド](https://experienceleague.adobe.com/docs/commerce-admin/systems/tools/cache-management.html?lang=ja)
+[キャッシュ管理 –  [!DNL Commerce] 管理者システムガイド](https://experienceleague.adobe.com/docs/commerce-admin/systems/tools/cache-management.html)
