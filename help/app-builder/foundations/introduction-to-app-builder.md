@@ -80,9 +80,9 @@ Adobe Developer App Builderでは、事前設定されたソリューション�
 
 次の図は、App Builder上に構築された標準アプリケーションがこれらの機能をどのように使用するかを示しています。
 
-![ アーキテクチャ ](/help/assets/app-builder/app-builder-architecture.jpeg)
+![&#x200B; アーキテクチャ &#x200B;](/help/assets/app-builder/app-builder-architecture.jpeg)
 
-App Builder アーキテクチャについて詳しくは、[ アーキテクチャの概要](https://developer.adobe.com/app-builder/docs/guides/app_builder_guides/architecture_overview/architecture-overview){target="_blank"}を参照してください。
+App Builder アーキテクチャについて詳しくは、[&#x200B; アーキテクチャの概要](https://developer.adobe.com/app-builder/docs/guides/app_builder_guides/architecture_overview/architecture-overview){target="_blank"}を参照してください。
 
 ## App Builder入門 {#additional-resources}
 
@@ -109,6 +109,6 @@ Adobe Marketo Engageをすぐ活用するには？ 次のリンクには、開�
 
 ## サービス固有の例
 
-App Builder上に構築されたAdobe Commerce Optimizer統合については、[Salesforce Commerce Cloud スターターキット ](https://experienceleague.adobe.com/en/docs/commerce-learn/adobe-commerce-optimizer/sfcc-starter-kit/overview)に従ってください。 このシリーズでは、アーキテクチャ、Salesforceカートリッジの取り付け、App Builderスターターキット、エンドツーエンドのデモを取り上げます。
+App Builder上に構築されたAdobe Commerce Optimizer統合については、[Salesforce Commerce Cloud スターターキット &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-learn/adobe-commerce-optimizer/sfcc-starter-kit/overview)に従ってください。 このシリーズでは、アーキテクチャ、Salesforceカートリッジの取り付け、App Builderスターターキット、エンドツーエンドのデモを取り上げます。
 
 {{$include /help/_includes/app-builder-related-links.md}}
