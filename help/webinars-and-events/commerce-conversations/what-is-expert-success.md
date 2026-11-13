@@ -52,4 +52,4 @@ Adobe Commerceのエキスパートであるsuccess planについてご確認く
 * 3つのサポートチャネル。
 * サービスレベルの目標：
 
->[!VIDEO](https://video.tv.adobe.com/v/3457508?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3505668?captions=jpn&learn=on)

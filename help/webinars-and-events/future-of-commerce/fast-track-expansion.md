@@ -58,7 +58,7 @@ Adobe Commerceなら、カタログ管理、B2B コマース、マルチチャ�
 * ファーストパーティとサードパーティの製品のシームレスな統合
 * ドロップインとテーマを使用したストアフロント開発の高速化
 
->[!VIDEO](https://video.tv.adobe.com/v/3458518?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3505301?captions=jpn&learn=on)
 
 ## 関連チュートリアル
 

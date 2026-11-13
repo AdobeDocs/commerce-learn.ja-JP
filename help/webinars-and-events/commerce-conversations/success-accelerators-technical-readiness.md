@@ -50,7 +50,7 @@ Adobe Commerce Success Acceleratorには、ローンチに関するアドバイ�
 * 製品の使用状況、パフォーマンス、全体的な採用率。
 * 重要なキャンペーンや製品の発表に関するガイダンスとサポートを年中無休で提供。
 
->[!VIDEO](https://video.tv.adobe.com/v/3457655?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3457656?captions=jpn&learn=on)
 
 ## 関連チュートリアル
 

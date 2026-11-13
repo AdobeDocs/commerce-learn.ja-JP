@@ -57,4 +57,4 @@ Adobeの組織の準備状況に関するサクセスアクセラレータにつ
 * 変更管理とコミュニケーション戦略
 * デジタルレビューとベンチマーキング
 
->[!VIDEO](https://video.tv.adobe.com/v/3457892?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3505731?captions=jpn&learn=on)
