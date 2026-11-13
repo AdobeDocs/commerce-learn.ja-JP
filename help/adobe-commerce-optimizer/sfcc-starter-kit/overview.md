@@ -27,9 +27,9 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 7516911fc14bc80f327310b99a00f9cbff7c65c7
+source-git-commit: ea6c6c730ab472c96e5395b9353af953192763d5
 workflow-type: tm+mt
-source-wordcount: '166'
+source-wordcount: '209'
 ht-degree: 0%
 ---
 # Salesforce Commerce Cloud スターターキットについてさらに詳しく
@@ -49,3 +49,12 @@ Salesforce Commerce Cloud（SFCC）とAdobe Commerce Optimizerを統合するた
 
 >[!VIDEO](https://video.tv.adobe.com/v/3473979?captions=jpn&learn=on)
 
+
+## スターターキットシリーズを続行
+
+1. [アーキテクチャの概要](./architecture-overview.md)
+2. [SFCC カートリッジの取り付け](./installation-sfcc-cartridge.md)
+3. [App Builder starter kit](./app-builder-starter-kit.md)
+4. [エンドツーエンドのデモ](./end-to-end-demo.md)
+
+共有されたApp Builderの概念については、[App Builderの概要](https://experienceleague.adobe.com/ja/docs/commerce-learn/tutorials/app-builder/foundations/introduction-to-app-builder)を参照してください。

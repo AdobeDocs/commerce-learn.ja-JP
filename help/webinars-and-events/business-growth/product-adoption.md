@@ -2,7 +2,7 @@
 title: AIを活用して、Adobe Commerceの移行を簡素化
 description: Adobe Commerceで、どのようにAI ツールやモジュール式の導入機能、より迅速な開発を通じてクラウドへの移行を合理化し、拡張性のあるビジネスの成長を実現するのかをご確認ください。
 feature: App Builder, Storefront, Extensions, Merchandising
-topic: Artificial Intelligence, Migration, Commerce
+topic: Migration, Commerce
 old-role: Data Engineer, Developer
 role: Developer
 level: Beginner
@@ -40,9 +40,9 @@ topic_v2:
     internal-label: Artificial intelligence
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 7516911fc14bc80f327310b99a00f9cbff7c65c7
+source-git-commit: 60c28d9adc71c664ed9178d724bc4abefb588ab7
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '283'
 ht-degree: 0%
 ---
 # 新製品の導入を簡素化し、ビジネスを成長したい
@@ -64,3 +64,9 @@ Adobe Commerceでは、段階的にAdobe Commerce as a Cloud ServiceやAdobe Com
 * ストアフロントの機能強化ドロップインコンポーネントとエッジ配信により、パフォーマンスとコンテンツ制作を向上させます。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3475749?captions=jpn&learn=on)
+
+## 関連チュートリアル
+
+* [Adobe Commerce as a Cloud Serviceへの移行](https://experienceleague.adobe.com/ja/docs/commerce-learn/tutorials/commerce-as-a-cloud-service/product-overview/modernization-and-migration)
+* [App Builderの概要](https://experienceleague.adobe.com/ja/docs/commerce-learn/tutorials/app-builder/foundations/introduction-to-app-builder)
+* [Edge Delivery ServicesのCommerceストアフロント：買い物客の体験](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/storefront-development/edge-delivery-services/getting-started/shopper-experience)

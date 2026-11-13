@@ -36,9 +36,9 @@ topic_v2:
     internal-label: Implementation
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: 71835f0240311d4b26ec8e0d9bbdf005f9887579
+source-git-commit: 60c28d9adc71c664ed9178d724bc4abefb588ab7
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: '299'
 ht-degree: 0%
 ---
 # 共通の責任
@@ -65,3 +65,8 @@ Adobe Commerceを安全に保つ上で、Adobeと販売者が責任を分担す�
 * [通知チャネル](https://business.adobe.com/jp/blog/introducing-enhanced-security-patch-deployment-and-communications-in-adobe-commerce#proactive-communication--keeping-customers-informed)
 * [Adobe セキュリティ情報](https://helpx.adobe.com/jp/search.html?q=security%2520updates%2520commerce&context=https%253A%252F%252Fhelpx.adobe.com%252Fsupport.html)
 * [コマースサイトとインフラストラクチャの保護](https://experienceleague.adobe.com/ja/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices)
+
+## 関連チュートリアル
+
+* [クラウドインフラストラクチャとセルフホスティング：デプロイ、テスト、モニタリング、セキュリティ](https://experienceleague.adobe.com/ja/docs/commerce-learn/tutorials/cloud-infrastructure-and-self-hosted/cloud-operations/technical-onboarding-hardware-handoff/deployments-testing-monitoring-security)
+* [クラウド基盤とセルフホスティング：導入前のチェックリスト](https://experienceleague.adobe.com/ja/docs/commerce-learn/tutorials/cloud-infrastructure-and-self-hosted/cloud-operations/commerce-cloud-best-practices/pre-launch-checklist)

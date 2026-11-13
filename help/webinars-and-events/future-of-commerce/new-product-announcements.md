@@ -28,9 +28,9 @@ level_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 71835f0240311d4b26ec8e0d9bbdf005f9887579
+source-git-commit: 60c28d9adc71c664ed9178d724bc4abefb588ab7
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '281'
 ht-degree: 0%
 ---
 # 新製品のお知らせ
@@ -52,6 +52,12 @@ ht-degree: 0%
 * 柔軟かつ段階的な導入パスにより、既存のソリューションに対するサポートと長期的なバージョンサポートのタイムラインを維持しながら、企業は自分のペースで移行できます。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3458486?captions=jpn&learn=on)
+
+## 関連チュートリアル
+
+* [Adobe Commerceのオプションを比較](https://experienceleague.adobe.com/ja/docs/commerce-learn/tutorials/getting-started/capabilities/adobes-available-commerce-options)
+* [Adobe Commerce as a Cloud Serviceの概要](https://experienceleague.adobe.com/ja/docs/commerce-learn/tutorials/commerce-as-a-cloud-service/overview)
+* [Adobe Commerce Optimizerの概要](https://experienceleague.adobe.com/ja/docs/commerce-learn/adobe-commerce-optimizer/overview)
 
 ## このシリーズの追加動画
 

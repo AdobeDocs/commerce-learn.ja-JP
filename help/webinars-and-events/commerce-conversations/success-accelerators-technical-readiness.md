@@ -26,13 +26,11 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: b599f79ad41b9552cea6ff41062eb4ef75f183bb
+source-git-commit: 60c28d9adc71c664ed9178d724bc4abefb588ab7
 workflow-type: tm+mt
-source-wordcount: 151
+source-wordcount: '217'
 ht-degree: 0%
-
 ---
-
 # サクセスアクセレーターの技術的準備状況
 
 Adobe Commerce Success Acceleratorには、ローンチに関するアドバイザリー、アップグレードと移行の準備状況、環境レビュー、ソリューションのトラブルシューティングをカバーする技術対応などのサービスが含まれています。 さらに、製品の利用状況とパフォーマンスを向上させるためのソリューションや導入のレビューも提供します。 イベント計画およびモニタリングサービスは、重要なキャンペーンや製品の発表に関するガイダンスとサポートを年中無休で提供し、最適なパフォーマンスと先見的な問題特定を実現します。 これらのアクセラレータは、Adobe Commerce製品の効果と導入を最大化することを目的としています
@@ -53,3 +51,9 @@ Adobe Commerce Success Acceleratorには、ローンチに関するアドバイ�
 * 重要なキャンペーンや製品の発表に関するガイダンスとサポートを年中無休で提供。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3457656?captions=jpn&learn=on)
+
+## 関連チュートリアル
+
+* [クラウド基盤とセルフホスティング：導入前のチェックリスト](https://experienceleague.adobe.com/ja/docs/commerce-learn/tutorials/cloud-infrastructure-and-self-hosted/cloud-operations/commerce-cloud-best-practices/pre-launch-checklist)
+* [Observability overview](https://experienceleague.adobe.com/ja/docs/commerce-learn/tutorials/monitoring-analytics-support/observability/overview)
+* [サポートチケットの作成](https://experienceleague.adobe.com/ja/docs/commerce-learn/tutorials/monitoring-analytics-support/help-and-support/create-a-support-ticket)

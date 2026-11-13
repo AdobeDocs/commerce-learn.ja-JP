@@ -4,10 +4,10 @@ user-guide-description: ビデオとチュートリアルを通じて、Adobe Co
 breadcrumb-title: ビデオとチュートリアル
 auto-video-transcripts: true
 author: Russell A.
-source-git-commit: 0e7e27e92c07b0d809668489e267749311fd2285
+source-git-commit: 1e3b88ec32913a3f7c47490b0140d86eb3be4f18
 workflow-type: tm+mt
-source-wordcount: '1044'
-ht-degree: 3%
+source-wordcount: '1042'
+ht-degree: 2%
 ---
 
 # Adobe Commerceのビデオとチュートリアル {#tutorials}
@@ -260,16 +260,20 @@ ht-degree: 3%
 
 + 拡張機能 {#extensibility}
   + Commerce Developer Agent {#commerce-developer-agent}
-    + [概要](../commerce-developer-agent/adobe-commerce-developer-agent-overview-technical-video.md)
-    + [ブループリントと開発ステージ](../commerce-developer-agent/adobe-commerce-developer-agent-blueprint-and-develop-stages-technical-video.md)
-    + [連携の統合](../commerce-developer-agent/adobe-commerce-developer-agent-connect-integrations-technical-video.md)
-    + [デプロイ、関連付け、インストール](../commerce-developer-agent/adobe-commerce-developer-agent-deploy-associate-and-install-technical-video.md)
-    + [設定とテスト](../commerce-developer-agent/adobe-commerce-developer-agent-configure-and-test-technical-video.md)
-    + [既存のコードの移行](../commerce-developer-agent/adobe-commerce-developer-agent-migrate-existing-code-technical-video.md)
-    + [まとめ](../commerce-developer-agent/adobe-commerce-developer-agent-conclusion-technical-video.md)
-    + [App Builderドライラン](../commerce-developer-agent/adobe-commerce-developer-agent-app-builder-dry-run.md)
-  + フロントエンド Luma開発 {#frontend-development}
-    + 開発者向けPaaS/SaaS ページビルダー {#page-builder}
+    + [開発者エージェントの学習パス](https://experienceleague.adobe.com/en/docs/commerce-learn/ai-and-agentic-commerce/commerce-developer-agent/adobe-commerce-developer-agent-overview-technical-video)
+
++ ストアフロント開発 {#storefront-development}
+  + Edge Delivery Services上のCommerce ストアフロント {#edge-delivery-services}
+    + はじめに {#getting-started}
+      + [トランザクションフローの変更](../edge-delivery-services/transactional-flow.md)
+      + [カート商品に商品属性を使用する](../edge-delivery-services/product-attributes-cart-items.md)
+      + [チェックアウト時の注文概要の更新](../edge-delivery-services/update-order-summary.md)
+      + [チェックアウトへのBOPISの追加](../edge-delivery-services/add-bopis-to-checkout.md)
+      + [チェックアウトのカスタマイズ](../edge-delivery-services/customize-checkout.md)
+      + [アドレスレイアウトのカスタマイズ](../edge-delivery-services/customize-address-new-account-link.md)
+      + [買い物客体験](../edge-delivery-services/shopper-experience.md)
+  + LumaおよびPHP ベースのストアフロント開発 {#frontend-development}
+    + 開発者向けページビルダー {#page-builder}
       + [1 – 概要](../frontend-development/page-builder/1-intro-case-studies.md)
       + [2 – 設定とコンテンツ](../frontend-development/page-builder/2-config-create-content.md)
       + [3 - テーマ](../frontend-development/page-builder/3-themes.md)
@@ -278,27 +282,18 @@ ht-degree: 3%
       + [6 - カスタムコンテンツタイプ](../frontend-development/page-builder/6-custom-content-types.md)
     + [JavaScript モジュールの追加](../frontend-development/add-javascript-module.md)
     + [ページを作成](../frontend-development/create-page.md)
-    + Edge 配信サービス {#edge-delivery-services}
-      + はじめに {#getting-started}
-        + [トランザクションフローの変更](../edge-delivery-services/transactional-flow.md)
-        + [カート商品に商品属性を使用する](../edge-delivery-services/product-attributes-cart-items.md)
-        + [チェックアウト時の注文概要の更新](../edge-delivery-services/update-order-summary.md)
-        + [チェックアウトへのBOPISの追加](../edge-delivery-services/add-bopis-to-checkout.md)
-        + [チェックアウトのカスタマイズ](../edge-delivery-services/customize-checkout.md)
-        + [アドレスレイアウトのカスタマイズ](../edge-delivery-services/customize-address-new-account-link.md)
-        + [買い物客体験](../edge-delivery-services/shopper-experience.md)
-    + ヘッドレスアーキテクチャ {#headless-architecture}
-      + ヘッドレス CMSの概要 {#introduction-to-headless}
-        + [&#x200B; ヘッドレスアーキテクチャ – セッション 1](../headless/session-1.md)
-      + PWA Studioの概要 {#introduction}
-        + [概要](../pwa/introduction/1-overview.md)
-        + [PWA Studio tools](../pwa/introduction/2-pwa-studio-tools.md)
-        + [Launch](../pwa/introduction/3-launch.md)
-        + [上方](../pwa/introduction/4-upward.md)
-        + [Adobe Experience Managerの導入方法](../pwa/introduction/5-getting-started.md)
-        + [ペレグリン](../pwa/introduction/6-peregrine.md)
-      + [PWA Docker Development](../pwa/pwa-docker-development.md)
-      + [開発のためのVeniaの設定](../pwa/set-up-venia-for-dev.md)
+  + ヘッドレスアーキテクチャとPWA Studio {#headless-architecture}
+    + ヘッドレス CMSの概要 {#introduction-to-headless}
+      + [ヘッドレスアーキテクチャ – セッション 1](../headless/session-1.md)
+    + PWA Studioの概要 {#introduction}
+      + [概要](../pwa/introduction/1-overview.md)
+      + [PWA Studio tools](../pwa/introduction/2-pwa-studio-tools.md)
+      + [Launch](../pwa/introduction/3-launch.md)
+      + [上方](../pwa/introduction/4-upward.md)
+      + [Adobe Experience Managerの導入方法](../pwa/introduction/5-getting-started.md)
+      + [ペレグリン](../pwa/introduction/6-peregrine.md)
+    + [PWA Docker Development](../pwa/pwa-docker-development.md)
+    + [開発のためのVeniaの設定](../pwa/set-up-venia-for-dev.md)
 
 + 監視、分析、サポート {#monitoring-analytics-support}
   + 可観測性 {#observability}
