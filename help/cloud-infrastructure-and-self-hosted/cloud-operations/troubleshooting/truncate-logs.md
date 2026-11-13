@@ -8,7 +8,7 @@ role: Developer
 level: Beginner, Intermediate
 doc-type: Technical Video
 duration: 302
-last-substantial-update: 2025-3-25
+last-substantial-update: 2025-03-25
 jira: KT-17595
 exl-id: 4a36de40-fb55-41ad-afef-35fc18a271ec
 TQID: 'https://experienceleague.adobe.com/A-ecz3Yr1lCNQZmM9ung-lf7WIJZmB3h0TnsblyAbkQ'
@@ -33,7 +33,7 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 75bc52b62261883eb98f22c112aaa7bd42b6382d
+source-git-commit: 7cacb44c7b3d21b14d368b4387abde4df51f09ac
 workflow-type: tm+mt
 source-wordcount: '200'
 ht-degree: 0%
@@ -55,7 +55,7 @@ ht-degree: 0%
 * 一般的な大きなログファイルが見つかった場合
 * ログファイルを切り捨てるクイックメソッド
 
->[!VIDEO](https://video.tv.adobe.com/v/3454584?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3454572?learn=on)
 
 
 ## ビデオで使用されるコマンド
@@ -111,4 +111,4 @@ drwxr-xr-x 6 web web 4.0K Jan 10  2024 ..
 
 ## 関連ドキュメント
 
-* [ヘルス通知](https://experienceleague.adobe.com/ja/docs/commerce-on-cloud/user-guide/dev-tools/integrations/health-notifications){target="_blank"}
+* [ヘルス通知](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/dev-tools/integrations/health-notifications){target="_blank"}

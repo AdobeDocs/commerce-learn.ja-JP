@@ -4,7 +4,7 @@ description: 定義された条件に基づいて、製品を購入者に割引�
 doc-type: Feature Video
 audience: all
 activity: use
-last-substantial-update: 2022-12-28T00:00:00.000Z
+last-substantial-update: 2022-12-28
 feature: Configuration, System, Customers, Personalization, Shopping Cart, Price Rules
 topic: Commerce, Administration
 role: Admin, User
@@ -42,7 +42,7 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c8284ddf9ad9c6ed6bae53e9b251c81dd3a2e33
+source-git-commit: 7cacb44c7b3d21b14d368b4387abde4df51f09ac
 workflow-type: tm+mt
 source-wordcount: '159'
 ht-degree: 0%
@@ -58,9 +58,9 @@ ht-degree: 0%
 
 ## ビデオコンテンツ
 
->[!VIDEO](https://video.tv.adobe.com/v/3410850?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/343834?learn=on)
 
 ## 関連資料
 
-* [カタログ価格ルールの作成 –  [!DNL Commerce]  マーチャンダイジングとプロモーション ガイド](https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/catalog-rules/price-rules-catalog-create.html?lang=ja)
-* [複数のSKUを含むカタログ価格ルール - [!DNL Commerce]  マーチャンダイジングとプロモーション ガイド](https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/catalog-rules/price-rule-multiple-sku.html?lang=ja)
+* [カタログ価格ルールの作成 –  [!DNL Commerce]  マーチャンダイジングとプロモーション ガイド](https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/catalog-rules/price-rules-catalog-create.html)
+* [複数のSKUを含むカタログ価格ルール - [!DNL Commerce]  マーチャンダイジングとプロモーション ガイド](https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/catalog-rules/price-rule-multiple-sku.html)

@@ -6,12 +6,12 @@ duration: 309
 audience: all
 activity: use
 jira: KT-13907
-last-substantial-update: 2023-04-27T00:00:00.000Z
+last-substantial-update: 2023-04-27
 feature: Configuration, System, Staging
 topic: Commerce, Administration
 role: Admin, User
 level: Beginner, Intermediate
-badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
+badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
 exl-id: fc5a7cd3-905a-49ac-86b8-215dd8c36d73
 TQID: 'https://experienceleague.adobe.com/BzcXZIYUFoXFVDzIf5yBuebeqjVR7tEt3S-ytvbTCE0'
 product_v2:
@@ -39,7 +39,7 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7ab25e3d8d992a8aa9c11b31d95a70d543b29a35
+source-git-commit: 7cacb44c7b3d21b14d368b4387abde4df51f09ac
 workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 0%
@@ -57,9 +57,9 @@ ht-degree: 0%
 
 ## ビデオコンテンツ
 
->[!VIDEO](https://video.tv.adobe.com/v/3410856?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/343784?learn=on)
 
 ## 関連資料
 
-* [コンテンツ ステージング -  [!DNL Commerce]  コンテンツとデザイン ガイド](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging.html?lang=ja){target="_blank"}
-* [キャンペーンのプレビュー –  [!DNL Commerce]  コンテンツとデザインガイド](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging-preview.html?lang=ja){target="_blank"}
+* [コンテンツ ステージング -  [!DNL Commerce]  コンテンツとデザイン ガイド](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging.html){target="_blank"}
+* [キャンペーンのプレビュー –  [!DNL Commerce]  コンテンツとデザインガイド](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging-preview.html){target="_blank"}

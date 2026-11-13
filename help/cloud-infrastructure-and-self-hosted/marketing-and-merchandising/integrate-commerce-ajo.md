@@ -7,7 +7,7 @@ role: Admin, Developer
 level: Beginner
 doc-type: Technical Video
 duration: 570
-last-substantial-update: 2024-01-17T00:00:00.000Z
+last-substantial-update: 2024-01-17
 jira: KT-14793
 thumbnail: 3426855.jpeg
 exl-id: 2f12c90f-710b-4680-a12e-62c436793b9c
@@ -52,14 +52,14 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c8284ddf9ad9c6ed6bae53e9b251c81dd3a2e33
+source-git-commit: 7cacb44c7b3d21b14d368b4387abde4df51f09ac
 workflow-type: tm+mt
 source-wordcount: '277'
 ht-degree: 0%
 ---
 # Adobe CommerceとAdobe Journey Optimizerの統合
 
-Adobe Commerceで[Data Connection](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/overview.html?lang=ja){target="blank"}を使用してCommerce データを活用し、エンドツーエンドでパーソナライズされた買い物客エクスペリエンスをリアルタイムで提供する方法について、Adobe Journey Optimizerの助けを借りて説明します。
+Adobe Commerceで[Data Connection](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/overview.html){target="blank"}を使用してCommerce データを活用し、エンドツーエンドでパーソナライズされた買い物客エクスペリエンスをリアルタイムで提供する方法について、Adobe Journey Optimizerの助けを借りて説明します。
 
 ## この動画は誰のためのものでしょうか？
 
@@ -76,9 +76,9 @@ Adobe Commerceで[Data Connection](https://experienceleague.adobe.com/docs/comme
 * Adobe Journey Optimizerでは、Data Connectionで利用可能なすぐに使えるイベントを利用して、1対1のカスタマージャーニーを簡単に構築し、アクティベートできます
 * Adobe Journey Optimizerのネイティブメッセージ機能を利用して、リアルタイムであらゆるチャネルで買い物客と関わることができます
 
->[!VIDEO](https://video.tv.adobe.com/v/3452461?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3426855?learn=on)
 
 ## 関連資料
 
-[&#x200B; データ接続の概要](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/overview.html?lang=ja){target="_blank"}
-[&#x200B; データ接続のインストール &#x200B;](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/install.html?lang=ja){target="_blank"}
+[ データ接続の概要](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/overview.html){target="_blank"}
+[ データ接続のインストール ](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/install.html){target="_blank"}

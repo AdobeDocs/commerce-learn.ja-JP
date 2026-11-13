@@ -2,7 +2,7 @@
 title: カート価格ルールの作成
 description: 定義した条件が満たされたときにショッピングカートで割引を適用するカート価格ルールを作成する方法を説明します。
 doc-type: Tutorial
-last-substantial-update: 2022-12-28T00:00:00.000Z
+last-substantial-update: 2022-12-28
 feature: Configuration, System, Customers, Shopping Cart
 topic: Commerce, Administration
 role: User
@@ -38,7 +38,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c8284ddf9ad9c6ed6bae53e9b251c81dd3a2e33
+source-git-commit: 7cacb44c7b3d21b14d368b4387abde4df51f09ac
 workflow-type: tm+mt
 source-wordcount: '680'
 ht-degree: 0%
@@ -57,7 +57,7 @@ ht-degree: 0%
 * カートの価格ルールとオプションクーポンコードを作成。
 * カート内に割引がどのように表示されるか、およびプロモーションについて説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3410806?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/343835?learn=on)
 
 ## 価格表示の問題
 
@@ -154,5 +154,5 @@ ht-degree: 0%
 
 ## 関連資料
 
-* [カート価格ルールの作成 –  [!DNL Commerce]  マーチャンダイジングとプロモーション ガイド](https://experienceleague.adobe.com/ja/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-create){target="_blank"}
-* [クーポンコード - [!DNL Commerce]  マーチャンダイジングとプロモーション ガイド](https://experienceleague.adobe.com/ja/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-coupon){target="_blank"}
+* [カート価格ルールの作成 –  [!DNL Commerce]  マーチャンダイジングとプロモーション ガイド](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-create){target="_blank"}
+* [クーポンコード - [!DNL Commerce]  マーチャンダイジングとプロモーション ガイド](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-coupon){target="_blank"}

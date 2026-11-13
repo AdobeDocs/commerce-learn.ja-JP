@@ -6,7 +6,7 @@ doc-type: Feature Video
 duration: 464
 audience: all
 activity: use
-last-substantial-update: 2022-12-28T00:00:00.000Z
+last-substantial-update: 2022-12-28
 feature: Configuration, System, Customers
 topic: Commerce, Administration
 role: Admin, Leader, User
@@ -43,7 +43,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 1ca7a530f5f685af907ad1d161ee73e45de6b667
+source-git-commit: 7cacb44c7b3d21b14d368b4387abde4df51f09ac
 workflow-type: tm+mt
 source-wordcount: '134'
 ht-degree: 0%
@@ -61,11 +61,11 @@ Adobe CommerceとMagento Open Sourceをインストールするたびに、web �
 
 >[!NOTE]
 >
->ビデオの内容は、2.1.0 リリースを反映しています。 以降のリリースのアップデートについて詳しくは、[&#x200B; リリースノート &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-operations/release/notes/overview)を参照してください。
+>ビデオの内容は、2.1.0 リリースを反映しています。 以降のリリースのアップデートについて詳しくは、[ リリースノート ](https://experienceleague.adobe.com/en/docs/commerce-operations/release/notes/overview)を参照してください。
 
->[!VIDEO](https://video.tv.adobe.com/v/3507653?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/35787?learn=on)
 
 ## 関連資料
 
-* [Web サイト、ストア、およびビュー –  [!DNL Commerce] はじめにガイド](https://experienceleague.adobe.com/ja/docs/commerce-admin/start/setup/websites-stores-views)
-* [ルート カテゴリと階層 –  [!DNL Commerce]  カタログ管理ガイド](https://experienceleague.adobe.com/ja/docs/commerce-admin/catalog/categories/category-root)
+* [Web サイト、ストア、およびビュー –  [!DNL Commerce] はじめにガイド](https://experienceleague.adobe.com/en/docs/commerce-admin/start/setup/websites-stores-views)
+* [ルート カテゴリと階層 –  [!DNL Commerce]  カタログ管理ガイド](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/categories/category-root)

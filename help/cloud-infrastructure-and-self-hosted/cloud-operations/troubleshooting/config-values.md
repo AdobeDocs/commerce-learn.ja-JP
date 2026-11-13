@@ -8,7 +8,7 @@ role: Developer
 level: Beginner
 doc-type: Technical Video
 duration: 709
-last-substantial-update: 2024-11-08T00:00:00.000Z
+last-substantial-update: 2024-11-08
 jira: KT-16429
 exl-id: 9ff16e96-a63f-4fab-be7d-9160c1172603
 TQID: 'https://experienceleague.adobe.com/-DrHhEXwmrrLBb63QKAYRdKbWQEFmJZ4uUhJa5ORFEs'
@@ -34,7 +34,7 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 75bc52b62261883eb98f22c112aaa7bd42b6382d
+source-git-commit: 7cacb44c7b3d21b14d368b4387abde4df51f09ac
 workflow-type: tm+mt
 source-wordcount: '309'
 ht-degree: 0%
@@ -54,14 +54,14 @@ ht-degree: 0%
 * 管理者パネル、コードリポジトリ、環境固有のファイルを使用して、設定値を編集および上書きする方法について説明します。
 * app:config:dumpやAdobe Commerce Cloudの管理UIなどのツールを使用して、様々な環境で一貫した設定値を維持するためのベストプラクティスをご紹介します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3505784?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3436458?learn=on)
 
 ## 関連するExperience League ドキュメント
 
-* [設定の書き出し](https://experienceleague.adobe.com/ja/docs/commerce-operations/configuration-guide/cli/configuration-management/export-configuration)
-* [構成設定の上書き](https://experienceleague.adobe.com/ja/docs/commerce-operations/configuration-guide/paths/override-config-settings)
-* [設定値の設定](https://experienceleague.adobe.com/ja/docs/commerce-operations/configuration-guide/cli/configuration-management/set-configuration-values)
-* [Config reference config.php](https://experienceleague.adobe.com/ja/docs/commerce-operations/configuration-guide/files/config-reference-configphp)
-* [設定ガイドの技術的な詳細](https://experienceleague.adobe.com/ja/docs/commerce-operations/configuration-guide/deployment/technical-details)
-* [&#x200B; ロックされた設定値](https://experienceleague.adobe.com/ja/docs/commerce-operations/configuration-guide/deployment/technical-details#:~:text=Configuration%20settings%20locked%20in%20the,php%20files)
-* [env.phpに値を保存](https://experienceleague.adobe.com/ja/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/locked-fields-in-magento-admin#:~:text=Cause,php%20)
+* [設定の書き出し](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/configuration-management/export-configuration)
+* [構成設定の上書き](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/paths/override-config-settings)
+* [設定値の設定](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/configuration-management/set-configuration-values)
+* [Config reference config.php](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/files/config-reference-configphp)
+* [設定ガイドの技術的な詳細](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/deployment/technical-details)
+* [ ロックされた設定値](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/deployment/technical-details#:~:text=Configuration%20settings%20locked%20in%20the,php%20files)
+* [env.phpに値を保存](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/locked-fields-in-magento-admin#:~:text=Cause,php%20)
