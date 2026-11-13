@@ -4,7 +4,7 @@ description: Adobe Adobe CommerceでB2B企業アカウントを管理する方�
 doc-type: Technical Video
 duration: 172
 jira: KT-13909
-last-substantial-update: 2023-02-16T00:00:00.000Z
+last-substantial-update: 2023-02-16
 feature: Configuration, System, B2B, Companies, Roles/Permissions
 topic: Commerce, Administration
 role: User
@@ -44,14 +44,14 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 99725eaac5f58955a7e6639c09db678b34520cc6
+source-git-commit: f56065aac7f0888edb163a6c41da3481c166cc06
 workflow-type: tm+mt
 source-wordcount: '124'
 ht-degree: 0%
 ---
 # 会社アカウントの管理
 
-B2B マーチャントの場合、_[!UICONTROL Companies]_&#x200B;ページには、現在のすべての会社アカウントとそのステータスが一覧表示されます。 会社アカウントはここで管理できます。保留中の承認要求はリストの上部に表示されます。 標準の作業環境コントロールを使用して、リストのフィルタリング、列レイアウトの変更、ビューの保存、データの書き出しを行うことができます。
+B2B マーチャントの場合、_[!UICONTROL Companies]_ページには、現在のすべての会社アカウントとそのステータスが一覧表示されます。 会社アカウントはここで管理できます。保留中の承認要求はリストの上部に表示されます。 標準の作業環境コントロールを使用して、リストのフィルタリング、列レイアウトの変更、ビューの保存、データの書き出しを行うことができます。
 
 {{b2b-feature}}
 
@@ -63,9 +63,9 @@ B2B マーチャントの場合、_[!UICONTROL Companies]_&#x200B;ページに�
 
 ## ビデオコンテンツ
 
->[!VIDEO](https://video.tv.adobe.com/v/3410773?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/344447?learn=on)
 
 ## 関連資料
 
-* [会社アカウント](https://experienceleague.adobe.com/ja/docs/commerce-admin/b2b/companies/account-companies){target="_blank"}
-* [会社アカウントの管理](https://experienceleague.adobe.com/ja/docs/commerce-admin/b2b/companies/account-company-manage){target="_blank"}
+* [会社アカウント](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/companies/account-companies){target="_blank"}
+* [会社アカウントの管理](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/companies/account-company-manage){target="_blank"}

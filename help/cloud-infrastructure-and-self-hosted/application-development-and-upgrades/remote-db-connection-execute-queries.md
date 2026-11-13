@@ -7,7 +7,7 @@ role: Developer
 level: Intermediate, Experienced
 doc-type: Technical Video
 duration: 581
-last-substantial-update: 2024-06-25T00:00:00.000Z
+last-substantial-update: 2024-06-25
 jira: KT-14910
 exl-id: e740bbd0-5ec7-4272-89cb-0bed776eb149
 TQID: 'https://experienceleague.adobe.com/9jR79l0ERhs4UsQ9da2juigSktpcVE5IsiBnk83gCzc'
@@ -29,7 +29,7 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
 autotag-review: '2026-11-11T17:29:20.958Z'
-source-git-commit: 20b453fcf567eee25d70450bdc9b739f16623f68
+source-git-commit: f56065aac7f0888edb163a6c41da3481c166cc06
 workflow-type: tm+mt
 source-wordcount: '1105'
 ht-degree: 0%
@@ -43,7 +43,7 @@ Adobe Commerce on cloud プロジェクトに接続する方法、オフサイ�
 * MySQL WorkbenchやTablePlusなどのデータベース管理ツールを使用して、リモートのAdobe Commerce Cloud プロジェクトに接続します。
 * プロジェクトに接続し、コマンドラインからSQLを実行します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3450037?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3430507?learn=on)
 
 クラウドプロジェクトからAdobe Commerce データにアクセスするには、次のいずれかの方法を使用します。
 
@@ -55,7 +55,7 @@ Adobe Commerce on cloud プロジェクトに接続する方法、オフサイ�
 
 ## Adobe Commerce Cloud CLI ツールの使用
 
-データベースダンプを作成するには、[Adobe Commerce Cloud CLI](https://experienceleague.adobe.com/ja/docs/commerce-on-cloud/user-guide/dev-tools/cloud-cli/cloud-cli-overview)がインストールされている必要があります。 ローカルコンピューターでディレクトリを開き、次のコマンドを実行します。 `your-project-id`をプロジェクト IDに置き換えます（`asasdasd45q`と同様）。 `your-environment-name`を環境名（`master`や`staging`など）に置き換えます。
+データベースダンプを作成するには、[Adobe Commerce Cloud CLI](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/dev-tools/cloud-cli/cloud-cli-overview)がインストールされている必要があります。 ローカルコンピューターでディレクトリを開き、次のコマンドを実行します。 `your-project-id`をプロジェクト IDに置き換えます（`asasdasd45q`と同様）。 `your-environment-name`を環境名（`master`や`staging`など）に置き換えます。
 
 `magento-cloud db:dump -p your-project-id -e your-environment-name`
 
@@ -291,7 +291,7 @@ MariaDB データベースに直接アクセスするには、SSHを使用して
    magento-cloud ssh
    ```
 
-2. [$MAGENTO_CLOUD_RELATIONSHIPS](https://experienceleague.adobe.com/ja/docs/commerce-on-cloud/user-guide/configure/app/properties/properties#relationships)変数の`database`および`type` プロパティからMySQL ログイン資格情報を取得します。
+2. [$MAGENTO_CLOUD_RELATIONSHIPS](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure/app/properties/properties#relationships)変数の`database`および`type` プロパティからMySQL ログイン資格情報を取得します。
 
    ```bash
    echo $MAGENTO_CLOUD_RELATIONSHIPS | base64 -d | json_pp
@@ -337,7 +337,7 @@ MariaDB データベースに直接アクセスするには、SSHを使用して
 
 ## SQLを実行するためのクラウドプロジェクトデータベースへの直接接続
 
-次のメソッドは、`magento-cloud` CLIを使用してMySQL データベースに直接接続し、SQLを実行してクエリを高速化します。 このデータベースのコピーが必要な場合は、[&#x200B; データベースダンプの作成](https://experienceleague.adobe.com/ja/docs/commerce-knowledge-base/kb/how-to/create-database-dump-on-cloud)に代わりの方法のいずれかを使用します。
+次のメソッドは、`magento-cloud` CLIを使用してMySQL データベースに直接接続し、SQLを実行してクエリを高速化します。 このデータベースのコピーが必要な場合は、[ データベースダンプの作成](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/how-to/create-database-dump-on-cloud)に代わりの方法のいずれかを使用します。
 
 ```bash
 magento-cloud db:sql    
@@ -397,7 +397,7 @@ MariaDB [main]>
 
 ## 関連資料
 
-* [Adobe Commerce Cloud CLI](https://experienceleague.adobe.com/ja/docs/commerce-on-cloud/user-guide/dev-tools/cloud-cli/cloud-cli-overview)
-* [MySQL サービスの設定](https://experienceleague.adobe.com/ja/docs/commerce-on-cloud/user-guide/configure/service/mysql)
-* [リモート MySQL データベース接続の設定](https://experienceleague.adobe.com/ja/docs/commerce-operations/installation-guide/prerequisites/database-server/mysql-remote)
-* [クラウドインフラストラクチャ上のAdobe Commerceでのデータベースダンプの作成](https://experienceleague.adobe.com/ja/docs/commerce-knowledge-base/kb/how-to/create-database-dump-on-cloud)
+* [Adobe Commerce Cloud CLI](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/dev-tools/cloud-cli/cloud-cli-overview)
+* [MySQL サービスの設定](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure/service/mysql)
+* [リモート MySQL データベース接続の設定](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/database-server/mysql-remote)
+* [クラウドインフラストラクチャ上のAdobe Commerceでのデータベースダンプの作成](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/how-to/create-database-dump-on-cloud)

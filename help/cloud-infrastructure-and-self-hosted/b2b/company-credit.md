@@ -4,7 +4,7 @@ description: B2B企業のアカウントユーザーがアカウントで購入�
 doc-type: Technical Video
 duration: 230
 jira: KT-13910
-last-substantial-update: 2023-02-16T00:00:00.000Z
+last-substantial-update: 2023-02-16
 feature: Configuration, System, B2B, Companies
 topic: Commerce, Administration
 role: User
@@ -44,14 +44,14 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 99725eaac5f58955a7e6639c09db678b34520cc6
+source-git-commit: f56065aac7f0888edb163a6c41da3481c166cc06
 workflow-type: tm+mt
 source-wordcount: '141'
 ht-degree: 0%
 ---
 # 会社クレジットを管理
 
-_[!UICONTROL Payment on Account]_&#x200B;が有効で、会社のクレジットが利用可能な会社は、付与されたクレジット制限までアカウントで購入できます。 この機能により、顧客はアカウントダッシュボードから自社のクレジットのステータスを確認することができます。
+_[!UICONTROL Payment on Account]_が有効で、会社のクレジットが利用可能な会社は、付与されたクレジット制限までアカウントで購入できます。 この機能により、顧客はアカウントダッシュボードから自社のクレジットのステータスを確認することができます。
 
 会社プロファイルごとに次のクレジット関連パラメーターを設定できます。
 
@@ -70,9 +70,9 @@ _[!UICONTROL Payment on Account]_&#x200B;が有効で、会社のクレジット
 
 ## ビデオコンテンツ
 
->[!VIDEO](https://video.tv.adobe.com/v/3410761?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/344445?learn=on)
 
 ## 関連資料
 
-* [アカウントでの支払いを設定](https://experienceleague.adobe.com/ja/docs/commerce-admin/b2b/enable-basic-features#configure-payment-on-account)
-* [会社クレジットを管理](https://experienceleague.adobe.com/ja/docs/commerce-admin/b2b/companies/credit-company)
+* [アカウントでの支払いを設定](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/enable-basic-features#configure-payment-on-account)
+* [会社クレジットを管理](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/companies/credit-company)
